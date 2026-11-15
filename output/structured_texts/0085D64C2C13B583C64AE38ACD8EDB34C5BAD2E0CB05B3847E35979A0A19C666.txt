@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ftp_manager
+  SHA-256       : 0085D64C2C13B583C64AE38ACD8EDB34C5BAD2E0CB05B3847E35979A0A19C666
+  Android Group : Android13
+  Version       : 4.0.2 (code: 43)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (4)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.INTERNET
+
+[Application Components]
+  Activities (1): com.ftp_manager.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1043
+  Total Methods : 4998
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A9 C5 97 08 8E 21 66 4F 6C FC 29 8C AD 50 D2 F9 EA AE B8 D6 45 92 AC 5D DA 8C 6E C7 71 2B 9B 53
+
+==========================================

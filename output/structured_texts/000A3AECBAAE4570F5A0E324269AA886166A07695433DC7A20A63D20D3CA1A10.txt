@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.levermore.linkr
+  SHA-256       : 000A3AECBAAE4570F5A0E324269AA886166A07695433DC7A20A63D20D3CA1A10
+  Android Group : Android12
+  Version       : 3.6.0 (code: 70)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (36)]
+  android.permission.RECORD_AUDIO, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.READ_INTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.READ_MEDIA_VIDEO, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_MEDIA_AUDIO, android.permission.SCHEDULE_EXACT_ALARM, com.sec.android.provider.badge.permission.READ, android.permission.USE_FULL_SCREEN_INTENT, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (18): com.aboutyou.dart_packages.sign_in_with_apple.SignInWithAppleCallback, com.facebook.CustomTabActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.facebook.CustomTabMainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.linkr.tiktok_open_sdk.tiktokapi.TikTokEntryActivity, com.facebook.FacebookActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.bytedance.sdk.open.tiktok.ui.TikTokWebAuthorizeActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.android.billingclient.api.ProxyBillingActivity, com.yalantis.ucrop.UCropActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.levermore.linkr.MainActivity
+  Services   (9): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (10): com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (9): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.share.ShareFileProvider, io.sentry.android.core.SentryPerformanceProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10666
+  Total Methods : 61623
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(1): 0.2.0.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 15 28 86 78 C1 21 1A 0D 3B 0D B4 4F 99 FC 01 8D AC DE 34 D7 5B BC C6 4B A0 A0 AD C7 F7 21 63 E2
+
+==========================================

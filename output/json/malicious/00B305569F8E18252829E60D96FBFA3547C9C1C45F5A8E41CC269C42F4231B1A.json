@@ -1,0 +1,66 @@
+{
+  "sha256": "00B305569F8E18252829E60D96FBFA3547C9C1C45F5A8E41CC269C42F4231B1A",
+  "filename": "00B305569F8E18252829E60D96FBFA3547C9C1C45F5A8E41CC269C42F4231B1A.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "air.astibine.weddingsal",
+  "version_name": "1.2.6",
+  "version_code": "5012000",
+  "min_sdk": "9",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "air.astibine.weddingsal.AppEntry",
+    "com.google.android.gms.ads.AdActivity"
+  ],
+  "activity_count": 2,
+  "services": [
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.gms.measurement.AppMeasurementService"
+  ],
+  "service_count": 3,
+  "receivers": [
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.adobe.air.CameraUIProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5195,
+  "method_count": 27574,
+  "cert_fingerprint": "0F D1 0E 8B DB 87 9D 1E 22 D9 B7 81 D7 73 2E 1B 2C FA 40 36 45 67 F6 FB 3C 09 94 D2 A3 DD C4 74",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://goo.gl/J1sWQy",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://googlemobileadssdk.page.link/admob-interstitial-policies"
+  ],
+  "ip_addresses": [
+    "33.1.1.795"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

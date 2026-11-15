@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.real.ccchymnbook
+  SHA-256       : 005DAC0202366F3C95676D6DCD51BF2B88307331C3FD0DFB592E067298BCB640
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (1)]
+  android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (2): com.real.ccchymnbook.MainActivity, com.real.ccchymnbook.DebugActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 4432
+  Total Methods : 33623
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Dona Amosu, Organizational Unit: Realdbeat Rav, Organization: Realdbeat Inc, Locality: Lagos, State/Province: Lagos, Country: NG
+  Fingerprint : BA B6 32 51 28 98 7B B6 AF 2F 11 F5 22 2B 45 A5 28 49 FD 85 66 09 0D 46 77 03 B8 CE E6 6E CF D5
+
+==========================================

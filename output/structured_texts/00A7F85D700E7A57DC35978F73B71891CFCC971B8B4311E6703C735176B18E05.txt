@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sport.predictionsfootballparis
+  SHA-256       : 00A7F85D700E7A57DC35978F73B71891CFCC971B8B4311E6703C735176B18E05
+  Android Group : Android13
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 33
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, android.permission.INTERNET, android.permission.POST_NOTIFICATIONS, com.sport.predictionsfootballparis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (11): com.sport.predictionsfootballparis.IntroActivity, com.sport.predictionsfootballparis.Bouton5Activity, com.sport.predictionsfootballparis.Bouton8Activity, com.sport.predictionsfootballparis.Bouton7Activity, com.google.android.gms.common.api.GoogleApiActivity, com.sport.predictionsfootballparis.MainActivity, com.sport.predictionsfootballparis.Bouton6Activity, com.sport.predictionsfootballparis.Bouton1Activity, com.sport.predictionsfootballparis.Bouton2Activity, com.sport.predictionsfootballparis.Bouton3Activity, com.sport.predictionsfootballparis.Bouton4Activity
+  Services   (7): com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.sport.predictionsfootballparis.MyFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (2): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10808
+  Total Methods : 76976
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : EA E4 88 8E B4 3A 79 B3 EF 17 B3 B8 C8 9B E4 C9 4B FB E9 A3 9D 45 80 E9 FB 9F 29 21 04 3D 5B 37
+
+==========================================

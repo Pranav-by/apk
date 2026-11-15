@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.huhschool.android.britishWorkshop
+  SHA-256       : 00A2E8FAFD57619772CFD8F65FB9FB9E1B13FE596BB150C5F29E9749B675BC5D
+  Android Group : Android14
+  Version       : 4.1.2 (code: 309)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (30)]
+  android.permission.READ_MEDIA_VIDEO, com.huhschool.android.britishWorkshop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.SCHEDULE_EXACT_ALARM, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_INTERNAL_STORAGE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (6): com.google.android.gms.common.api.GoogleApiActivity, app.notifee.core.NotificationReceiverActivity, com.huhschool.android.MainActivity, com.facebook.react.devsupport.DevSettingsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (15): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, app.notifee.core.ReceiverService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, app.notifee.core.ForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, app.notifee.core.AlarmPermissionBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, app.notifee.core.NotificationAlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, app.notifee.core.RebootBroadcastReceiver, app.notifee.core.BlockStateBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (10): io.invertase.notifee.NotifeeInitProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.ReactNativeBlobUtil.Utils.FileProvider, expo.modules.filesystem.FileSystemFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 31814
+  Total Methods : 210069
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E2 EB F8 5B E4 3C BC 5B 75 BE 80 14 8E 9F DD F6 12 45 59 92 93 1C C5 67 BE 3F A1 EB 63 B7 B1 85
+
+==========================================

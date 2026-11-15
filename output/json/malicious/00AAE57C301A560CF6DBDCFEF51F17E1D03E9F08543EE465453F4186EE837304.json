@@ -1,0 +1,69 @@
+{
+  "sha256": "00AAE57C301A560CF6DBDCFEF51F17E1D03E9F08543EE465453F4186EE837304",
+  "filename": "00AAE57C301A560CF6DBDCFEF51F17E1D03E9F08543EE465453F4186EE837304.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.tx3MiniRemote",
+  "version_name": "1.0",
+  "version_code": "2",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.TRANSMIT_IR",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.applovin.mediation.MaxDebuggerDetailActivity",
+    "com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity",
+    "com.tx3MiniRemote.RemoteviewActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.applovin.adview.AppLovinFullscreenActivity",
+    "com.applovin.mediation.MaxDebuggerMultiAdActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitsListActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitDetailActivity",
+    "com.applovin.sdk.AppLovinWebViewActivity",
+    "com.tx3MiniRemote.MainActivity",
+    "com.applovin.mediation.MaxDebuggerActivity"
+  ],
+  "activity_count": 11,
+  "services": [
+    "com.applovin.impl.sdk.utils.AppKilledService",
+    "com.applovin.impl.adview.activity.FullscreenAdService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.applovin.sdk.AppLovinInitProvider",
+    "com.facebook.ads.AudienceNetworkContentProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4569,
+  "method_count": 32485,
+  "cert_fingerprint": "09 C5 DA D9 E0 F8 30 F6 24 AB 04 DE 26 C3 C6 5B F9 8E 37 DB 00 35 DC 6A 02 D3 2E 56 84 C2 56 FF",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "http://developer.android.com/google/play-services/setup.html.",
+    "https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK"
+  ],
+  "ip_addresses": [
+    "6.8.0.3"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

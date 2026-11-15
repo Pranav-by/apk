@@ -1,0 +1,53 @@
+{
+  "sha256": "0046FAAEF8A4F507AC7FF88A606D3B4582FFFEA4C7CDEEFB1F68CD1D03AE4363",
+  "filename": "0046FAAEF8A4F507AC7FF88A606D3B4582FFFEA4C7CDEEFB1F68CD1D03AE4363.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.ksport.com",
+  "version_name": "12.12",
+  "version_code": "12",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.ksport.com.MainActivity",
+    "com.ksport.com.DebugActivity",
+    "com.ksport.com.ViewActivity",
+    "com.google.android.gms.ads.AdActivity"
+  ],
+  "activity_count": 4,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 8158,
+  "method_count": 50277,
+  "cert_fingerprint": "D6 33 29 5A B5 02 76 BE E7 B3 6D 31 B5 7C 0C 2B E0 C1 C3 EF 43 0B A1 72 0F 20 3C 09 A1 F6 97 1B",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://www.googleapis.com/blogger/v3/blogs/"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

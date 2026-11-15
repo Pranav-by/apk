@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.altairapps.admobstats
+  SHA-256       : 00AAC1424C4AF1FF125112AFDFC2307CD82909F29E2E68B8D38E3E2C22224761
+  Android Group : Android12L
+  Version       : 1.1.1 (code: 111028)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 32
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, com.altairapps.admobstats.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (7): com.google.android.gms.ads.AdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.android.billingclient.api.ProxyBillingActivity, com.altairapps.admobstats.MainActivity, com.altairapps.admobstats.ExitActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (6): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (13): com.altairapps.admobstats.WidgetSmall, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.altairapps.admobstats.Widget, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.altairapps.admobstats.WidgetMedium, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.altairapps.admobstats.WidgetLarge, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.altairapps.admobstats.WidgetXLarge, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (2): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10715
+  Total Methods : 50854
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://goo.gl/J1sWQy, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 3B 22 96 41 0F 86 10 46 9A 9B 8D E1 7F 0F 88 9F E8 31 BB 9A 0B AE 87 6D 81 86 27 97 7D 5D 36 5A
+
+==========================================

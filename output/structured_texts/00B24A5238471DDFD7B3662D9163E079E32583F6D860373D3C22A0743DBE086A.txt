@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.egd.RescueTheMallardDuckInCage
+  SHA-256       : 00B24A5238471DDFD7B3662D9163E079E32583F6D860373D3C22A0743DBE086A
+  Android Group : Android14
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (10)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, com.egd.RescueTheMallardDuckInCage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (5): com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.egd.RescueTheMallardDuckInCage.MainActivity, com.pairip.licensecheck.LicenseActivity
+  Services   (5): androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.ads.AdService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (3): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16867
+  Total Methods : 100783
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 48 5A EC 14 33 88 44 1B 74 A5 04 99 C4 B5 5A D5 DA 40 6F D0 5D 78 01 7F F2 9A A0 97 B7 83 75 00
+
+==========================================

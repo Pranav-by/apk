@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.juiappsstore.classtwoallsubjectguide
+  SHA-256       : 00A2985D7018889B090E8FF8F316802C209F6857C19CE554B561858B14D00180
+  Android Group : Android12L
+  Version       : 1.2 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (3)]
+  android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (76): com.juiappsstore.classtwoallsubjectguide.English, com.juiappsstore.classtwoallsubjectguide.BPart21, com.juiappsstore.classtwoallsubjectguide.MPart9, com.juiappsstore.classtwoallsubjectguide.BPart8, com.juiappsstore.classtwoallsubjectguide.BPart22, com.juiappsstore.classtwoallsubjectguide.MPart10, com.juiappsstore.classtwoallsubjectguide.Math, com.juiappsstore.classtwoallsubjectguide.MPart11, com.juiappsstore.classtwoallsubjectguide.BPart20, com.juiappsstore.classtwoallsubjectguide.EPart21, com.juiappsstore.classtwoallsubjectguide.MPart12, com.juiappsstore.classtwoallsubjectguide.MPart8, com.juiappsstore.classtwoallsubjectguide.MPart13, com.juiappsstore.classtwoallsubjectguide.BPart13, com.juiappsstore.classtwoallsubjectguide.EPart19, com.facebook.ads.AudienceNetworkActivity, com.juiappsstore.classtwoallsubjectguide.BPart14, com.juiappsstore.classtwoallsubjectguide.EPart14, com.juiappsstore.classtwoallsubjectguide.AppAbout, com.juiappsstore.classtwoallsubjectguide.EPart20
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1946
+  Total Methods : 11110
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C5 5F 0E 2C 62 81 5F AB A3 19 90 5C 8F 9E 51 61 FF 69 3F 65 50 0E 4A EF 3E F8 39 44 55 6A 52 3A
+
+==========================================

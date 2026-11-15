@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.jxmfkj.www.company.yugan
+  SHA-256       : 0096AF23EFDD2F1535BBA9B5B26AEA7DA8EB6CD42FF136F67A99BFB12D693AC9
+  Android Group : Android13
+  Version       : 3.3.7 (code: 30307)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (63)]
+  android.permission.AUDIO_CAPTUR, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, com.android.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.READ_LOGS, android.permission.BLUETOOTH_ADMIN, com.meizu.c2dm.permission.RECEIVE, android.permission.CHANGE_NETWORK_STATE, com.jxmfkj.www.company.yugan.permission.PROCESS_PUSH_MSG, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.ACTIVITY_RECOGNITION, com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO, android.permission.WRITE_SETTINGS
+
+[Application Components]
+  Activities (380): com.xab.cloudshop.CloudShopClientActivity, com.app.picture_editor.EditorActivity, com.lxj.xpopup.util.XPermission$PermissionActivity, com.tencent.tauth.AuthActivity, com.umeng.socialize.media.WBShareCallBackActivity, com.jxmfkj.www.company.yugan.ddshare.DDShareActivity, com.xsb.xsb_sensors_step.StepActivity, com.app.picture.lib.basic.PictureSelectorSupporterActivity, com.app.picture.lib.basic.PictureSelectorTransparentActivity, com.xinhuamm.client.ui.activity.ScanActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.blankj.utilcode.util.UtilsTransActivity, com.netease.nis.quicklogin.ui.CmccLoginActivity, com.netease.nis.quicklogin.ui.ProtocolDetailActivity, com.yalantis.ucrop.UCropActivity, com.xinhuamm.zxing.ScanActivity, com.xinhuamm.zxing.ScanStyleAActivity, com.zjfemale.familyeducation.activity.FamilyEducationCourseActivity, com.journeyapps.barcodescanner.CaptureActivity, com.zjfemale.familyeducation.activity.FamilyEducationClassActivity
+  Services   (39): com.blankj.utilcode.util.MessengerUtils$ServerService, com.shuwen.analytics.sink.SinkService, com.shuwen.analytics.report.ReportJobService, com.shuwen.analytics.report.ReportIntentService, com.igexin.sdk.OppoPushService, news.shuwen.analytics.report.ReportJobService, com.igexin.sdk.OppoAppPushService, com.igexin.sdk.PushService, com.zjonline.xsb_splash.activity.SplashActivity$PreloadService, com.igexin.sdk.GTIntentService, com.jxrmdn.listen_news.service.ListenNewsServices, com.igexin.sdk.GService, com.getui.gtc.GtcService, com.jxrmdn.listen_news.service.AudioService, com.igexin.sdk.HmsPushMessageService, com.jxnews.jxttn.newsdetail.PlayTtsServices, com.huawei.hms.support.api.push.service.HmsMsgService, com.huawei.agconnect.core.ServiceDiscovery, com.tencent.smtt.export.external.DexClassLoaderProviderService, com.zjonline.utils.PreLoadEmojiService
+  Receivers  (10): com.igexin.sdk.FlymePushReceiver, com.igexin.sdk.VivoPushMessageReceiver, com.taobao.weex.WXGlobalEventReceiver, com.igexin.sdk.MiuiPushReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.zjonline.xsb_main.GeTuiBroadCast, com.xsb.receiver.CustomNotificationReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver
+  Providers  (17): com.app.picture.lib.basic.PictureFileProvider, com.xinhuamm.client.provider.WebTakeImageProvider, com.xinhuamm.client.provider.ClientUtilsFileProvider, com.petterp.floatingx.assist.FxContentProvider, com.xinhuamm.client.count.utils.XYCloudCountUtilsFileProvider, androidx.startup.InitializationProvider, com.getui.gtc.base.GtcProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, androidx.core.content.FileProvider, com.blankj.utilcode.util.UtilsFileProvider, com.huawei.hms.support.api.push.PushProvider, com.lzf.easyfloat.EasyFloatInitializer, io.dcloud.common.util.DCloud_FileProvider, com.tencent.qcloud.tuicore.ServiceInitializer, com.sina.weibo.sdk.content.FileProvider, com.huawei.hms.aaid.InitProvider, com.tencent.qcloud.tuikit.timcommon.util.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 19
+  Total Classes : 66816
+  Total Methods : 429553
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: news_great_river
+  Fingerprint : D3 E7 80 CB 82 68 2D 4B FE 16 D0 C8 0D 9A E1 C6 98 5A 1A B7 4A 52 8C A6 EC 0F 51 48 22 C4 C3 CD
+
+==========================================

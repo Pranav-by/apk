@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tencent.tmgp.jbyhcrdz
+  SHA-256       : 0095E3FE3713F906D6241CE0D5075D4B2B46EB30D216CC102C8A5A93D2CF9E86
+  Android Group : Android13
+  Version       : 1.0.3 (code: 103)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (25)]
+  com.tencent.tmgp.jbyhcrdz.openadsdk.permission.TT_PANGOLIN, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, com.tencent.tmgp.jbyhcrdz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_FINE_LOCATION, com.asus.msa.SupplementaryDID.ACCESS, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (21): com.unity3d.services.ads.adunit.AdUnitActivity, com.google.android.gms.common.api.GoogleApiActivity, com.bytedance.applog.migrate.MigrateDetectorActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.ads.adplayer.FullScreenWebViewDisplay, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.mobbanana.stub.ActivityPortrait, com.google.games.bridge.NativeBridgeActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.mobbanana.stub.ActivityLandscape, com.bytedance.applog.util.SimulateLaunchActivity, com.android.billingclient.api.ProxyBillingActivity, com.mobbanana.SplashActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.games.bridge.GenericResolutionActivity, com.tencent.ysdk.module.user.impl.freelogin.FreeLoginInfoActivity, com.mobbanana.HomeSplashActivity, com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.mobbanana.stub.Activity00
+  Services   (17): com.mobbanana.stub.Service00, com.kwad.sdk.api.proxy.app.ServiceProxyRemote, com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService, com.kwad.sdk.api.proxy.app.DownloadService, androidx.work.impl.background.systemjob.SystemJobService, com.mobbanana.plugin.ProxyService, com.tencent.ysdk.module.sandbox.pipe.PipeService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.yasirkula.unity.NativeShareBroadcastListener, com.unity.androidnotifications.UnityNotificationManager, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.bytedance.applog.collector.Collector
+  Providers  (16): ondroid.support.v4.content.FileProvider1, ondroid.support.v4.content.FileProvider, ondroid.support.v4.content.FileProvider2, com.qq.e.comm.GDTFileProvider, com.kwad.sdk.api.proxy.app.AdSdkFileProvider, ondroid.support.v4.content.FileProvider3, ondroid.support.v4.content.FileProvider4, ondroid.support.v4.content.FileProvider6, ondroid.support.v4.content.FileProvider8, ondroid.support.v4.content.FileProvider9, ondroid.support.v4.content.FileProvider10, com.yasirkula.unity.NativeShareContentProvider, androidx.startup.InitializationProvider, ondroid.support.v4.content.FileProvider7, com.tencent.ysdk.framework.YSDKInitProvider, ondroid.support.v4.content.FileProvider5
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 30
+  Total Methods : 177
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 4.6.2.2
+
+[Certificate]
+  Issuer      : Common Name: databin, Organizational Unit: bj, Organization: bj, Locality: bj, State/Province: bj, Country: bj
+  Fingerprint : AB 3D 97 A5 31 49 45 EF 85 30 6F CB 3B A4 B2 71 C5 FB AD CD 1C E2 E6 CE 19 96 11 E2 E6 E9 62 71
+
+==========================================

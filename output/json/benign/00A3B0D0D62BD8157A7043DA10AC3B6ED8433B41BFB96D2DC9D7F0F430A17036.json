@@ -1,0 +1,60 @@
+{
+  "sha256": "00A3B0D0D62BD8157A7043DA10AC3B6ED8433B41BFB96D2DC9D7F0F430A17036",
+  "filename": "00A3B0D0D62BD8157A7043DA10AC3B6ED8433B41BFB96D2DC9D7F0F430A17036.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "avm.androiddukkan.mir",
+  "version_name": "6.0.0",
+  "version_code": "11",
+  "min_sdk": "17",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "avm.androiddukkan.mir.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.CAMERA",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "avm.androiddukkan.activty.PermissionActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.mobilrek.ads.AdActivity",
+    "avm.androiddukkan.mir.MirrorActivity"
+  ],
+  "activity_count": 5,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.facebook.ads.AudienceNetworkContentProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3159,
+  "method_count": 20603,
+  "cert_fingerprint": "FA E4 07 34 1E DA 3B BE E7 42 A5 00 A9 78 21 37 0C DD 75 5A 16 4A 7A 8E 27 FF 84 1B 84 D1 51 8B",
+  "cert_issuer": "Common Name: androiddukkan",
+  "urls": [
+    "https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+    "https://play.google.com/store/apps/details?id=",
+    "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

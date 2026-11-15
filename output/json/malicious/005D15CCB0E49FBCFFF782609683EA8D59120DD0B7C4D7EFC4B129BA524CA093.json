@@ -1,0 +1,49 @@
+{
+  "sha256": "005D15CCB0E49FBCFFF782609683EA8D59120DD0B7C4D7EFC4B129BA524CA093",
+  "filename": "005D15CCB0E49FBCFFF782609683EA8D59120DD0B7C4D7EFC4B129BA524CA093.apk",
+  "android_version": "Android15",
+  "label": "malicious",
+  "package_name": "com.adypos.app",
+  "version_name": "1.5",
+  "version_code": "6",
+  "min_sdk": "23",
+  "target_sdk": "35",
+  "permissions": [
+    "com.adypos.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 2,
+  "activities": [
+    "com.adypos.app.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 5306,
+  "method_count": 39044,
+  "cert_fingerprint": "FC 45 2B 57 1F E9 98 61 5F 31 66 16 78 85 2F E0 70 E7 FE 7A EE 35 EB DA A5 50 10 7A B8 A2 EC 05",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

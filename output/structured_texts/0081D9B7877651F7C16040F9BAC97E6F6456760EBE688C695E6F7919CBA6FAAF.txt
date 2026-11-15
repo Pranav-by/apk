@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.adriengontier.puisciences_lycee
+  SHA-256       : 0081D9B7877651F7C16040F9BAC97E6F6456760EBE688C695E6F7919CBA6FAAF
+  Android Group : Android12L
+  Version       : 2.5 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 32
+
+[Permissions (8)]
+  android.permission.READ_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (16): com.adriengontier.puisciences_lycee.ListViewdisplay, com.adriengontier.puisciences_lycee.Apropos, com.adriengontier.puisciences_lycee.TransistionListeVideos, com.adriengontier.puisciences_lycee.Seconde, com.adriengontier.puisciences_lycee.Autres_resultats, com.adriengontier.puisciences_lycee.MainActivity, com.adriengontier.puisciences_lycee.Bonus, com.adriengontier.puisciences_lycee.CheckList, com.adriengontier.puisciences_lycee.youtubelectureliste, com.adriengontier.puisciences_lycee.ResetCheck, com.adriengontier.puisciences_lycee.Youtube, com.adriengontier.puisciences_lycee.Quiz, com.adriengontier.puisciences_lycee.Videos_lecture, com.adriengontier.puisciences_lycee.Infographie, com.adriengontier.puisciences_lycee.Calendrier, com.adriengontier.puisciences_lycee.AideTravail
+  Services   (0): none
+  Receivers  (2): com.adriengontier.puisciences_lycee.ReminderBroadcast, com.adriengontier.puisciences_lycee.RebootReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3692
+  Total Methods : 27852
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://www.youtube.com/embed/feZdnpJ8VdI
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5E 36 B6 05 35 9F 7F EC 91 75 93 84 D1 F5 C5 0B 7F EB EC 73 8C 72 CB 33 D5 23 9D CC B3 C2 43 D0
+
+==========================================

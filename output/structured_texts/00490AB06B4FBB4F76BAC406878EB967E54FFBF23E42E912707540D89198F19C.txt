@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.eliferun.music
+  SHA-256       : 00490AB06B4FBB4F76BAC406878EB967E54FFBF23E42E912707540D89198F19C
+  Android Group : Android13
+  Version       : 6.6.0 (code: 660)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (22)]
+  android.permission.READ_MEDIA_AUDIO, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.WRITE_SETTINGS, android.permission.DISABLE_KEYGUARD, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.INTERACT_ACROSS_USERS_FULL, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.BLUETOOTH_CONNECT, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (50): com.ijoysoft.music.activity.ActivityShortcutLauncher, com.ijoysoft.music.activity.ScanSettingActivity, com.ijoysoft.music.activity.ActivityWidget, com.ijoysoft.music.activity.QueueListActivity, com.ijoysoft.music.activity.WelcomeActivity, com.ijoysoft.music.activity.ActivityEffectGroup, com.ijoysoft.music.activity.ActivityAudioEditor, com.ijoysoft.music.activity.ActivityEditTags, com.ijoysoft.crop.UCropActivity, com.ijoysoft.music.activity.MusicPlayActivity, com.ijoysoft.music.activity.ActivityDeletedMusic, com.ijoysoft.music.activity.ActivityAlbumSave, com.ijoysoft.music.activity.ActivityTheme, com.ijoysoft.privacy.PrivacyPolicyActivity, com.ijoysoft.music.activity.MainActivity, com.google.android.gms.ads.AdActivity, com.ijoysoft.music.activity.ActivityThemeEdit, com.ijoysoft.music.activity.ActivityHiddenFolders, com.ijoysoft.music.activity.ActivityEqualizer, com.ijoysoft.appwall.display.GiftActivity
+  Services   (8): com.ijoysoft.music.service.MusicPlayService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.ijoysoft.music.service.WidgetMusicService, com.ijoysoft.music.service.MediaScanService
+  Receivers  (17): com.ijoysoft.music.widget.WidgetList, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.ijoysoft.test.TestTriggerReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.ijoysoft.music.widget.Widget4x1Transparent, com.ijoysoft.music.widget.Widget4x2, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.ijoysoft.music.widget.Widget4x2Large, com.ijoysoft.music.widget.Widget2x2Transparent, com.ijoysoft.music.service.MediaButtonReceiver, com.ijoysoft.music.widget.Widget4x1White, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.ijoysoft.music.model.player.widget.WidgetClickEventReceiver
+  Providers  (3): com.lb.library.CustomFileProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15880
+  Total Methods : 91935
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (6): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: turtlerun
+  Fingerprint : 90 64 2F 82 F6 9C 98 A8 91 6D F0 3C F0 04 83 FA B1 C0 F4 8F E9 13 66 4B C3 0C 00 5A EA B1 94 10
+
+==========================================

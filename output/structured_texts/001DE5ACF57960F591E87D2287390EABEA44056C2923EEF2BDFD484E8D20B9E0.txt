@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nepviewer.iaq
+  SHA-256       : 001DE5ACF57960F591E87D2287390EABEA44056C2923EEF2BDFD484E8D20B9E0
+  Android Group : Android13
+  Version       : 5.0.7 (code: 223)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (9)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (53): com.nepviewer.config.ui.SelectWifiActivity, com.nepviewer.zxing.activity.CaptureActivity, com.nepviewer.config.ui.SelectBDM800Activity, com.jakewharton.processphoenix.ProcessPhoenix, com.nepviewer.config.ui.ScanningActivity, com.nepviewer.config.ui.FunctionSelectionActivity, com.nepviewer.plant.ui.AddPlantTwoActivity, com.nepviewer.user.ui.AboutActivity, com.nepviewer.config.ui.LimitActivity, com.nepviewer.user.ui.LoginActivity, com.nepviewer.config.ui.AlterVoltageActivity, com.nepviewer.config.ui.ScheduleActivity, com.nepviewer.plant.ui.PvPlantManageActivity, com.nepviewer.plant.ui.ChoosePlantActivity, com.nepviewer.user.ui.SettingsActivity, com.nepviewer.user.ui.ChangePasswordActivity, com.nepviewer.plant.ui.AddPlantOneActivity, com.nepviewer.plant.ui.AddPlantDoneActivity, com.nepviewer.plant.ui.SearchSNActivity, com.nepviewer.config.ui.SelectATDeviceActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5110
+  Total Methods : 23413
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 255.255.255.255, 10.10.100.254
+
+[Certificate]
+  Issuer      : Common Name: (m9067211), Organizational Unit: (9067211@qq.con), Organization: (9067211@qq.con), Locality: (Beijing), State/Province: (Beijing), Country: (zh)
+  Fingerprint : 18 57 51 9E AC C1 BF 71 42 6E 59 05 78 0C 3C 44 9B 96 C0 4F AD AF 51 A0 22 2A 58 61 60 F5 63 F3
+
+==========================================

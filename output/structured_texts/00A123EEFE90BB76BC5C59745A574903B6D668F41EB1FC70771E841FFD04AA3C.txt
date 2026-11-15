@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.anjvision.ac18prohm
+  SHA-256       : 00A123EEFE90BB76BC5C59745A574903B6D668F41EB1FC70771E841FFD04AA3C
+  Android Group : Android16
+  Version       : 1.3.0 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (59)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, getui.permission.GetuiService.com.anjvision.ac18prohm, android.permission.CHANGE_WIFI_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, com.hihonor.push.permission.RECEIVE, com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO, android.permission.WRITE_SETTINGS, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+
+[Application Components]
+  Activities (143): com.anythink.core.common.inner.ui.ATLandscapeActivity, com.anythink.core.activity.AnyThinkGdprAuthActivity, com.anythink.core.common.inner.ui.ATPortraitActivity, com.aliyun.iot.breeze.PlaceHolderActivity, com.anythink.core.common.inner.ui.ATLandscapeTranslucentActivity, com.anythink.core.common.inner.ui.ATPortraitTranslucentActivity, com.anythink.core.common.inner.ui.activity.ATMixSplashActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.google.android.libraries.places.widget.BasicPlaceAutocompleteActivity, com.google.android.libraries.places.widget.PlaceAutocompleteActivity, com.google.android.libraries.places.widget.internal.photoviewer.PlacesLightboxActivity, com.aliyun.iot.aep.sdk.log.ui.ALogActivity, com.aliyun.iot.aep.sdk.log.ui.ALogWebActivity, com.aliyun.iot.aep.sdk.log.ui.ReportBugSuccessfulActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.blankj.utilcode.util.UtilsTransActivity, com.meishu.sdk.activity.SdkInterstitialActivity, com.meishu.sdk.activity.MeishuDownloadDetailActivity, com.meishu.sdk.activity.MeishuOpenDeepLinkActivity, com.meishu.sdk.activity.MeishuRewardVideoPlayerActivity
+  Services   (53): com.alibaba.sdk.android.push.AliyunPushIntentService, com.vivo.push.sdk.service.CommandClientService, com.alibaba.ailabs.iot.mesh.MeshService, com.xiaomi.push.service.XMPushService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.xiaomi.push.service.XMJobService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.xiaomi.mipush.sdk.PushMessageHandler, com.heytap.msp.push.service.DataMessageCallbackService, org.android.agoo.accs.AgooService, com.byazt.jv.DownloadHandlerService, com.aliyun.ams.emas.push.AgooInnerService, com.byazt.jv.RetryJobSchedulerService, com.aliyun.ams.emas.push.MsgService, com.byazt.q.CSJIndependentProcessDownloadService, com.taobao.accs.ChannelService, com.byazt.dd.DownloadNotificationService, com.taobao.accs.ChannelService$KernelService, com.byazt.q.CSJDownloadService, com.taobao.accs.internal.AccsJobService
+  Receivers  (16): com.taobao.accs.ServiceReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.alibaba.sdk.android.push.impl.PushMessageReceiverImpl, com.taobao.accs.EventReceiver, com.huawei.hms.support.api.push.PushReceiver, com.ajws.ac_18.receiver.AliPushMessageReceiver, com.alibaba.sdk.android.push.MiPushBroadcastReceiver, com.byazt.web.Collector, com.byazt.la.DownloadReceiver, com.smartdigimkt.dlopt.common.NotificationBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.xiaomi.push.service.receivers.PingReceiver
+  Providers  (28): com.byazt.wsx.MainProcessProviderProxy, com.byazt.mt.FileProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, androidx.core.content.FileProvider, com.anythink.core.api.ATInitializationProvider, com.blankj.utilcode.util.UtilsFileProvider, com.meishu.sdk.core.service.MeishuFileProvider, com.meishu.sdk.core.service.MsLifeCycleContent, com.jarvan.fluwx.FluwxFileProvider, com.byazt.np.DownloaderServerManager, com.byazt.np.MainServerManager, com.byazt.fbm.TTMultiProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.byazt.jg.MainServerManager, com.byted.live.lite.ServerManager_bytelive, com.byted.live.lite.ServerManager_push, com.byted.live.lite.ServerManager_downloader, com.smartdigimkt.dlopt.common.ApkFileProvider, com.smartdigimkt.sdk.api.SDMInitializationProvider, com.qq.e.comm.GDTFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 11
+  Total Classes : 64529
+  Total Methods : 420642
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: anjvision_aiclient
+  Fingerprint : D0 11 A6 3F 3C 51 07 70 BC 66 78 E9 96 9E 35 7D 21 CD 05 52 AB 05 33 13 1B 33 13 E5 2B F3 CA F9
+
+==========================================

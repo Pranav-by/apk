@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cmgdigital.android.kiroweather
+  SHA-256       : 00A0117F8CA43F3E39567FB2D7AFA62A1505D307CB8493F550703BAF8F985AF8
+  Android Group : Android14
+  Version       : 5.17.705 (code: 517000705)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 34
+
+[Permissions (18)]
+  android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_PHONE_STATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.GET_TASKS, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (11): com.wsi.android.weather.ui.AcknowledgementActivity, com.wsi.android.weather.ui.externalcomponent.weatherwidget.WeatherAppWeatherWidgetConfigurationActivityImpl, com.google.android.tv.ads.controls.FallbackImageActivity, com.wsi.android.framework.app.ui.WebViewActivity, com.amazon.aps.ads.activity.ApsInterstitialActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.amazon.device.ads.DTBInterstitialActivity, com.wsi.android.weather.ui.SplashScreen, com.wsi.android.weather.ui.MasterActivity
+  Services   (16): androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.mapbox.android.telemetry.MapboxTelemetryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.wsi.android.framework.app.notification.PushListenerService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (23): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.wsi.android.weather.ui.externalcomponent.weatherwidget.WSIWeatherWidget2x2, com.google.android.gms.analytics.AnalyticsReceiver, com.wsi.android.weather.ui.externalcomponent.WeatherAppExternalComponentsStatusBroadcastReceiverImpl, com.wsi.android.weather.utils.WeatherAppDataUpdatesSchedulerBroadcastReceiverImpl, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.wsi.android.weather.ui.externalcomponent.notificationbar.WeatherAppStatusBarAlertsNotificationsBroadcastReceiverImpl, com.wsi.android.weather.ui.externalcomponent.weatherwidget.MediumWidgetProvider, com.wsi.android.weather.ui.externalcomponent.weatherwidget.WSIWeatherWidget2x1, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.wsi.android.weather.utils.WeatherAppStationConfigurationBroadcastReceiverImpl, com.wsi.android.weather.ui.externalcomponent.notificationbar.WeatherAppStatusBarNotificationUpdatesBroadcastReceiverImpl, com.wsi.android.weather.ui.externalcomponent.weatherwidget.SmallWidgetProvider, com.wsi.android.weather.ui.externalcomponent.weatherwidget.LargeWidgetProvider, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (7): com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.taboola.android.TBLContextProvider, com.squareup.picasso.PicassoProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 28845
+  Total Methods : 168334
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: WDT Developer, Organizational Unit: Mobile, Organization: Weather Decision Technologies Inc, Locality: Norman, State/Province: OK, Country: US
+  Fingerprint : 17 1C 5A A2 C4 9A F6 05 B8 EA 43 CE B0 F0 AA 1A 86 25 75 02 B1 63 3D FC 88 C3 38 99 21 A9 4F D3
+
+==========================================

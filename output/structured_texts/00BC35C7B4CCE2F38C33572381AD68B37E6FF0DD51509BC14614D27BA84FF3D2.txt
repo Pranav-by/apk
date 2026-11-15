@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.connectedbits.lr311
+  SHA-256       : 00BC35C7B4CCE2F38C33572381AD68B37E6FF0DD51509BC14614D27BA84FF3D2
+  Android Group : Android15
+  Version       : 6.4.29 (code: 5291)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, com.connectedbits.lr311.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_BIOMETRIC, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (5): com.reporters.code_extractor.RNCodeExtractorActivity, com.google.android.gms.common.api.GoogleApiActivity, com.reporters.MainActivity, com.jakewharton.processphoenix.ProcessPhoenix, androidx.biometric.DeviceCredentialHandlerActivity
+  Services   (8): com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (4): com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.imagepicker.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 20535
+  Total Methods : 135538
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Little Rock 311, Organizational Unit: Unknown, Organization: Connected Bits, Locality: Bedford, State/Province: NH, Country: US
+  Fingerprint : 2B B3 C9 C2 FD 73 DB C0 A9 3E D8 E1 64 49 B5 21 3E 2D FF A7 4D 78 46 7F C2 1A 9F F2 B9 9B ED A9
+
+==========================================

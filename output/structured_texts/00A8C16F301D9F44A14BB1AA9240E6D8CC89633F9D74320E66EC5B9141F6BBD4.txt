@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.iyagi
+  SHA-256       : 00A8C16F301D9F44A14BB1AA9240E6D8CC89633F9D74320E66EC5B9141F6BBD4
+  Android Group : Android12
+  Version       : 1.0.11 (code: 13)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, com.google.android.c2dm.permission.RECEIVE, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, com.android.vending.BILLING, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (9): com.facebook.CustomTabMainActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.facebook.CustomTabActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.iyagi.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (11): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (13): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (8): cl.json.RNShareFileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.imagepicker.ImagePickerProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15329
+  Total Methods : 93259
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A0 6F 64 F4 94 1D 45 31 41 DA 4E 62 AE 1F 87 43 82 9F 05 F7 7F A0 41 92 47 B3 D1 5A 62 50 F6 77
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : cn.zgqgc.app
+  SHA-256       : 003501B3DA324B2B3539C5560BEB9DB3E73B9B503349427B7B3B123FA4162D0A
+  Android Group : Android13
+  Version       : 1.1.34 (code: 1134)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (27)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.BLUETOOTH_ADMIN, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.GET_ACCOUNTS, cn.zgqgc.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_WIFI_STATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.ACCESS_FINE_LOCATION, com.vivo.notification.permission.BADGE_ICON, android.permission.CAMERA, com.asus.msa.SupplementaryDID.ACCESS, android.permission.READ_PHONE_STATE, android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+
+[Application Components]
+  Activities (21): io.dcloud.PandoraEntry, com.dmcbig.mediapicker.PreviewActivity, io.dcloud.PandoraEntryActivity, io.dcloud.feature.payment.weixin.WXPayProcessMeadiatorActivity, com.alipay.sdk.app.AlipayResultActivity, com.alipay.sdk.app.H5OpenAuthActivity, cn.zgqgc.app.wxapi.WXPayEntryActivity, io.dcloud.feature.nativeObj.photoview.PhotoActivity, io.dcloud.ProcessMediator, io.dcloud.WebAppActivity, com.alipay.sdk.app.PayResultActivity, io.dcloud.WebviewActivity, com.dmcbig.mediapicker.PickerActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, io.dcloud.sdk.activity.WebViewActivity, com.alipay.sdk.app.H5AuthActivity, io.dcloud.share.mm.WXShareProcessMeadiatorActivity, uts.sdk.modules.DCloudUniMedia.SystemPickerActivity, com.alipay.sdk.app.H5PayActivity, com.alipay.sdk.app.APayEntranceActivity
+  Services   (1): io.dcloud.sdk.base.service.DownloadService
+  Receivers  (2): com.taobao.weex.WXGlobalEventReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): io.dcloud.common.util.DCloud_FileProvider, androidx.startup.InitializationProvider, io.dcloud.sdk.base.service.provider.DCloudAdFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15286
+  Total Methods : 104314
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://ask.dcloud.net.cn/article/282
+  IP Addresses(2): 127.0.0.1, 1.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: sichuanzhongguanquanguochenggongchengzixunyouxiangongsi, Organizational Unit: IT, Organization: sichuanzhongguanquanguochenggongchengzixunyouxiangongsi, Country: CN
+  Fingerprint : 49 ED E2 68 3C 33 46 46 A9 FE 0C 4F 6C DB 06 82 D8 98 C3 19 F5 88 FE D6 16 DD 47 9E 83 3A AB EA
+
+==========================================

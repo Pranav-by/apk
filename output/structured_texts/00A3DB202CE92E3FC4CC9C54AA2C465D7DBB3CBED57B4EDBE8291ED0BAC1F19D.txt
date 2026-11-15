@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : myamegacorp.flipflop
+  SHA-256       : 00A3DB202CE92E3FC4CC9C54AA2C465D7DBB3CBED57B4EDBE8291ED0BAC1F19D
+  Android Group : Android14
+  Version       : 1.1 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (0)]
+  none
+
+[Application Components]
+  Activities (1): com.unity3d.player.UnityPlayerActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 140
+  Total Methods : 715
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7B 6B 4F 18 1D B2 49 77 BE BD 58 18 34 85 C9 4E DC 60 F5 9B E6 19 86 28 45 2A 21 4F 01 DA 35 57
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.proyecto.puntgroc
+  SHA-256       : 00993907A5DB6C4FA7A84AC0FE7D7D1FE26D044F50311E3B83C5E24054D19BC9
+  Android Group : Android12L
+  Version       : 4.8.111 (code: 575)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (19)]
+  android.permission.BLUETOOTH_ADMIN, android.permission.ACTIVITY_RECOGNITION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.BLUETOOTH_CONNECT, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.BODY_SENSORS, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.BLUETOOTH_SCAN, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (38): com.trainingym.home.HomeActivity, com.trainingym.training.trainingsession.activity.WorkoutDetailsActivity, com.trainingym.externalactivities.ui.activities.NavExternalActivities, com.canhub.cropper.CropImageActivity, com.trainingym.settings.ui.SettingsActivity, com.trainingym.wallet.activity.WalletActivity, com.trainingym.notifications.activity.NotificationHistoryActivity, com.trainingym.inductionassistant.ui.activities.InductionAssistantActivity, com.trainingym.chat.ui.activities.ProfessionalForNewChatActivity, com.trainingym.qr.ui.QrActivity, com.trainingym.timetablebooking.ui.activities.TimetableBookingActivity, com.trainingym.chat.ui.activities.VideoCallActivity, com.trainingym.chat.ui.activities.ConversationActivity, com.trainingym.login.activity.MainStepsSignUpActivity, com.trainingym.health.ui.activities.ManualRegisterWeightActivity, com.trainingym.chat.ui.activities.ScheduledVideoCallActivity, com.google.android.gms.common.api.GoogleApiActivity, com.trainingym.healthtest.ui.activities.HealthTestActivity, com.trainingym.training.trainingsession.activity.AddOrReplaceExerciseActivity, com.trainingym.virtualclasses.ui.activity.VirtualClassesActivity
+  Services   (9): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.parse.fcm.ParseFirebaseMessagingService, com.trainingym.health.services.SyncDataFitService
+  Receivers  (5): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.Intelinova.TgApp.ParsePushBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.canhub.cropper.CropFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15164
+  Total Methods : 74425
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://github.com/dotnet/aspnetcore/issues/new?assignees=&labels=&template=bug_report.md, https://goo.gle/compose-feedback, https://github.com/parse-community/parse-server, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Intelinova, Organizational Unit: Intelinova, Organization: Intelinova, Locality: Almería, State/Province: España, Country: 34
+  Fingerprint : FC 2F 10 61 DA B0 5D D6 6E 26 2B 55 79 28 69 ED 8E 4F 4E 3D 61 55 EA 8F FD F3 18 29 42 A4 04 D6
+
+==========================================

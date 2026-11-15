@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.zerappa.thelante
+  SHA-256       : 00A0F3910123006F3B112D540E95C69D992E88BF9F29EDEAB7A24FEA30993BD1
+  Android Group : Android14
+  Version       : 1.0.0 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (38)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, com.zerappa.thelante.permission.PushHandlerActivity, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.ACCESS_GPS, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_LOCATION_EXTRA_COMMANDS, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sec.android.provider.badge.permission.WRITE, android.permission.READ_MEDIA_VIDEO, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.sec.android.provider.badge.permission.READ, android.permission.ACCESS_MOCK_LOCATION, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.ACCESS_ASSISTED_GPS
+
+[Application Components]
+  Activities (7): com.AppInstitute.Plugins.LocalNotify.GeofencingReceiver, com.google.zxing.client.android.CaptureActivity, com.google.zxing.client.android.encode.EncodeActivity, com.adobe.phonegap.push.PushHandlerActivity, com.adobe.phonegap.push.BackgroundHandlerActivity, com.zerappa.thelante.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (7): com.adobe.phonegap.push.FCMService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.AppInstitute.Plugins.LocalNotify.GeofencingReceiver, de.appplant.cordova.plugin.background.ForegroundService
+  Receivers  (5): com.adobe.phonegap.push.BackgroundActionButtonHandler, com.adobe.phonegap.push.PushDismissedHandler, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, nl.xservices.plugins.ShareChooserPendingIntent
+  Providers  (5): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, org.apache.cordova.camera.FileProvider, nl.xservices.plugins.FileProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7541
+  Total Methods : 47406
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C0 88 8A 9A 2D 6C 58 5B 6B DB 20 12 AD DD 31 88 0B 2C 51 AD DB E2 B2 24 55 F7 8D 4E 5D 1A E7 97
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.esim.numero
+  SHA-256       : 008A317C1E569AF9F401548C1D8B00AF75617AEBA1943B72E386282A852F4E47
+  Android Group : Android13
+  Version       : 15.7 (code: 216)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (61)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SYNC_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.BLUETOOTH
+
+[Application Components]
+  Activities (184): com.stripe.android.view.PaymentRelayActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.googlepaylauncher.StripeGooglePayActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, theoremreach.com.theoremreach.RewardCenterActivity, theoremreach.com.theoremreach.MomentSurveyActivity, numero.user.profile.EditMyProfileActivity, pub.devrel.easypermissions.AppSettingsDialogHolderActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetActivity, numero.virtualmobile.bundles.packages.BundleCountryPackagesActivity, com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity
+  Services   (24): com.huawei.hms.support.api.push.service.HmsMsgService, com.huawei.agconnect.core.ServiceDiscovery, com.google.android.gms.ads.AdService, org.linphone.LinphoneService, org.linphone.sync.SyncService, org.linphone.sync.AuthenticationService, numero.service.NumeoFirebaseMsgService, numero.service.hms.NumeroHmsMessageService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (28): com.appodeal.ads.AppodealPackageAddedReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.huawei.hms.support.api.push.PushReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, org.linphone.NetworkManager, org.linphone.BluetoothManager, org.linphone.BootReceiver, org.linphone.PhoneStateChangedReceiver, org.linphone.KeepAliveReceiver, org.linphone.HookReceiver, org.linphone.AccountEnableReceiver, com.adjust.sdk.AdjustReferrerReceiver, numero.coins.reminder.DailyReminderReceiver
+  Providers  (23): com.appodeal.ads.services.crash_hunter.ApdCrashHunterContentProvider, com.appodeal.ads.services.event_service.ApdEventContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.core.content.FileProvider, com.facebook.FacebookContentProvider, com.facebook.accountkit.internal.AccountKitInitProvider, com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider, com.squareup.picasso.PicassoProvider, com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer, com.facebook.marketing.internal.MarketingInitProvider, com.facebook.internal.FacebookInitProvider, com.vungle.warren.utility.VungleProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.appodeal.ads.ApdContentProvider, com.huawei.hms.support.api.push.PushProvider, com.huawei.hms.analytics.provider.AnalyticsInitializeProvider, com.huawei.hms.aaid.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 66390
+  Total Methods : 440683
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 04 45 D5 96 74 E8 80 6B 91 86 1B 84 C4 8F 46 EF 11 0A 5E AF 0D EA FA 0F 4F FE 9B DF 99 19 94 34
+
+==========================================

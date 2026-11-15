@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.changesoftaction.videoplayer
+  SHA-256       : 00AA8FB46F02EDEF0249BEBF7AB7BA39A3FED83E8024856802B8B85D1D33D45E
+  Android Group : Android12L
+  Version       : 2.3 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (6): com.changesoftaction.Test, com.changesoftaction.videoplayer.SplashActivity, com.changesoftaction.videoplayer.view.Home, com.changesoftaction.videoplayer.SettingsActivity, com.changesoftaction.videoplayer.PlayerActivity, com.obsez.android.lib.filechooser.permissions.PermissionActivity
+  Services   (5): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 15479
+  Total Methods : 111466
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B3 51 84 98 A4 6D E9 0D BE FB BC 5F C2 40 54 FA D8 7C 8E 94 80 F8 96 D8 D5 AE 21 27 2A 43 20 57
+
+==========================================

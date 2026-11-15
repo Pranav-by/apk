@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.standegg.cheonma
+  SHA-256       : 00030B27E4C58D11337100F5F5110757017AAA74284AFAF6539076862250AB79
+  Android Group : Android15
+  Version       : 18.8 (code: 268)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (26)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_BIOMETRIC, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.standegg.cheonma.permission.C2D_MESSAGE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.standegg.cheonma.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.QUERY_ALL_PACKAGES, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (65): com.bytedance.sdk.openadsdk.activity.single.TTAppOpenAdActivity, com.applovin.adview.AppLovinFullscreenImmersiveActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.bytedance.sdk.openadsdk.activity.single.TTVideoLandingPageLink2Activity, com.applovin.sdk.AppLovinWebViewActivity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity, com.applovin.adview.AppLovinFullscreenActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, com.applovin.mediation.MaxDebuggerActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.bytedance.sdk.openadsdk.activity.single.TTWebsiteActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.fyber.inneractive.sdk.activities.FyberReportAdActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.mbridge.msdk.config.activity.MBRewardVideoActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.mbridge.msdk.activity.MBCommonActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity
+  Services   (19): com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.cpp.ListenerService, com.google.firebase.messaging.cpp.RegistrationIntentService, com.google.firebase.messaging.MessageForwardingService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.unity.androidnotifications.UnityNotificationManager, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (11): co.ab180.airbridge.unity.AirbridgeContentProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, co.ab180.airbridge.internal.lifecycle.AirbridgeLifecycleProvider, com.google.firebase.provider.FirebaseInitProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.vungle.ads.VungleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.mbridge.msdk.config.component.status.MBComponentLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 43097
+  Total Methods : 270069
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://dash.applovin.com/o/account?r=2#app_ads_txt
+  IP Addresses(3): 17.1.51.0, 25.2.0.0, 7.9.1.3
+
+[Certificate]
+  Issuer      : Country: US
+  Fingerprint : 44 38 C5 F0 7D 03 CF F4 D0 9A 98 9F 3C FD 18 B3 55 45 39 A4 B7 F8 F8 A4 FF 58 75 90 D4 CF C7 2F
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mifly.MakarViewerApp
+  SHA-256       : 00A6D51F537024C85427F39A55E4F7C2F9B0AA2232D0D9FB1C20993600E687F4
+  Android Group : Android14
+  Version       : 3.5.16 (code: 3061)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, com.mifly.MakarViewerApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.POST_NOTIFICATIONS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.mifly.MakarViewerApp.permission.C2D_MESSAGE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (7): org.mifly.makar.unity.UnityARPlayerActivity, com.vuplex.webview.HelperActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.ar.core.InstallActivity, com.unity3d.player.UnityPlayerActivity, org.artoolkit.ar.base.camera.CameraPreferencesActivity
+  Services   (12): com.google.firebase.messaging.cpp.RegistrationIntentService, com.google.android.gms.messaging.cpp.MessageForwardingService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.cpp.ListenerService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.MessageForwardingService, com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (5): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.unity.androidnotifications.UnityNotificationManager, com.unity.androidnotifications.UnityNotificationRestartReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (1): com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11053
+  Total Methods : 73338
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: MiflyDesign, Organizational Unit: Mifly, Organization: Mifly, Locality: Taipei, State/Province: Taiwan, Country: 886
+  Fingerprint : E6 F5 F0 65 9D 5E 5E 42 83 A9 C7 D4 B8 E9 60 E5 81 EF 7C F2 E9 11 D9 18 A6 21 BC 0C F3 D2 27 1C
+
+==========================================

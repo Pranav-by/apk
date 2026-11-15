@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ircloud.dh2
+  SHA-256       : 003ED1F396A5E0AEAFF0924A7D941AF29BA2F86974C7D39D1F59262876607653
+  Android Group : Android12
+  Version       : 1.2.29 (code: 149)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (31)]
+  android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, com.ircloud.dh2.permission.PUSH_PROVIDER, com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO, getui.permission.GetuiService.com.ircloud.dh2, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.QUERY_ALL_PACKAGES, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_FINE_LOCATION, com.vivo.notification.permission.BADGE_ICON, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH_CONNECT
+
+[Application Components]
+  Activities (35): com.ircloud.yxc.BluetoothConnectActivity, com.just.agentweb.ActionActivity, com.ircloud.yxc.WelcomeActivity, cat.ereza.customactivityoncrash.activity.DefaultErrorActivity, com.igexin.sdk.PushActivity, com.igexin.sdk.GActivity, com.just.agentwebX5.ActionActivity, com.common.mediapicker.ui.activity.MediaPreviewActivity, com.common.mediapicker.ui.activity.MediaChooseActivity, com.tencent.bugly.beta.ui.BetaActivity, cmbapi.CMBApiEntryActivity, com.tencent.msepay.sdk.activity.LiteWebViewActivity, com.unionpay.UPPayWapActivity, com.tencent.msepay.sdk.activity.WebViewActivity, com.ircloud.dh2.wxapi.WXEntryActivity, com.ircloud.yxc.web.PayActivity, com.xiaomi.mipush.sdk.NotificationClickedActivity, com.ircloud.yxc.web.PrivacyAndServiceActivity, com.ircloud.yxc.print.PrintEquipmentSetActivity, com.ircloud.yxc.print.PrintModelSetActivity
+  Services   (20): com.xiaomi.mipush.sdk.PushMessageHandler, com.ircloud.yxc.push.GetuiIntentService, com.ircloud.yxc.push.GetuiInitPushService, com.ircloud.yxc.push.huawei.HuaweiPushService, com.vivo.push.sdk.service.CommandClientService, com.ircloud.yxc.push.oppo.PushMessageService, com.ircloud.yxc.push.oppo.AppPushMessageService, com.ircloud.yxc.push.honor.HonorPushService, com.xiaomi.push.service.XMPushService, com.xiaomi.mipush.sdk.MessageHandleService, com.xiaomi.push.service.XMJobService, com.tencent.bugly.beta.tinker.TinkerResultService, com.ckr.upgrade.util.ClearApkService, com.igexin.sdk.PushService, com.igexin.sdk.GTIntentService, com.igexin.sdk.GService, com.getui.gtc.GtcService, com.huawei.hms.support.api.push.service.HmsMsgService, com.huawei.agconnect.core.ServiceDiscovery, com.tencent.smtt.export.external.DexClassLoaderProviderService
+  Receivers  (10): com.just.agentwebX5.RealDownLoader$NotificationBroadcastReceiver, com.ircloud.yxc.push.PushMsgBroadcastReceiver, com.igexin.sdk.PushReceiver, com.ircloud.yxc.push.vivo.VivoPushReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.ckr.upgrade.receiver.ApkInstallReceiver, com.huawei.hms.support.api.push.PushReceiver, com.ircloud.yxc.push.xiaomi.XiaomiPushReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.ckr.upgrade.receiver.DownloadReceiver
+  Providers  (14): com.just.agentweb.AgentWebFileProvider, com.huawei.hms.mlsdk.common.Provider.MLInitializerProvider, com.ckr.upgrade.provider.ApkFileProvider, com.just.agentwebX5.AgentWebX5FileProvider, com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider, android.support.v4.content.FileProvider, cat.ereza.customactivityoncrash.provider.CaocInitProvider, com.huawei.hms.aaid.InitProvider, com.tencent.bugly.beta.utils.BuglyFileProvider, com.getui.gtc.base.GtcProvider, android.arch.lifecycle.ProcessLifecycleOwnerInitializer, com.ckr.common.provider.CommonFileProvider, com.huawei.hms.support.api.push.PushProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17811
+  Total Methods : 122421
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://ibsbjstar.ccb.com.cn/CCBIS/ccbMain?
+  IP Addresses(4): 127.0.0.1, 1.0.1.0, 0.0.0.0, 7.5.4.3
+
+[Certificate]
+  Issuer      : Organization: ircloud
+  Fingerprint : 24 34 39 53 5D FC B8 BC 51 49 AC FA F0 9E F8 0F 9C EA AA DA C9 D4 C2 2F 17 D2 44 0B 49 6E 9F 36
+
+==========================================

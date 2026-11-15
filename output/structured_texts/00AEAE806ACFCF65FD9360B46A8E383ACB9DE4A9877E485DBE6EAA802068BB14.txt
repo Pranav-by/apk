@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mywondr.wondr
+  SHA-256       : 00AEAE806ACFCF65FD9360B46A8E383ACB9DE4A9877E485DBE6EAA802068BB14
+  Android Group : Android12L
+  Version       : 1.4.623 (code: 774)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (28)]
+  com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, android.permission.WRITE_CALENDAR, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.READ_CALENDAR, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (13): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.facebook.CustomTabActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, io.flutter.embedding.android.FlutterActivity
+  Services   (13): com.smartlook.sdk.smartlook.job.worker.record.UploadRecordJob, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.smartlook.sdk.smartlook.job.worker.session.UploadSessionJob, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.smartlook.sdk.smartlook.job.worker.record.RecordRenderVideoJob, com.smartlook.sdk.smartlook.job.worker.internallog.UploadInternalLogJob, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (8): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.smartlook.sdk.smartlook.core.referrer.ReferrerReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (7): com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7542
+  Total Methods : 41293
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gl/J1sWQy, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 97 10 6F 42 CF 80 96 A3 3B 49 01 F2 2D D5 56 48 49 7E 95 30 1D 0C D7 5E 5F 19 4E B2 72 BC 49 1D
+
+==========================================

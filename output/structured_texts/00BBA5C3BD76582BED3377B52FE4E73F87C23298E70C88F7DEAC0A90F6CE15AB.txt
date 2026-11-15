@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bontwui.plantesmedicinales
+  SHA-256       : 00BBA5C3BD76582BED3377B52FE4E73F87C23298E70C88F7DEAC0A90F6CE15AB
+  Android Group : Android16
+  Version       : 5.20.8 (code: 5208)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (14)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.bontwui.plantesmedicinales.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (9): com.bontwui.plantesmedicinales.MainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.ads.NotificationHandlerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.canhub.cropper.CropImageActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity
+  Services   (12): com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.bontwui.plantesmedicinales.messaging.PlanteFirebaseMessagingService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (2): com.canhub.cropper.CropFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11200
+  Total Methods : 55828
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6B AE 06 75 19 CC B2 50 46 F3 C1 CC 11 FA B5 D7 C3 AA 04 B3 F8 2D D7 A1 56 28 09 91 C6 5A 41 10
+
+==========================================

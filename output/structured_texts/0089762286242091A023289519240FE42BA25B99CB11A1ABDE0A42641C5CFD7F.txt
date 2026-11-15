@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sevenshifts.android
+  SHA-256       : 0089762286242091A023289519240FE42BA25B99CB11A1ABDE0A42641C5CFD7F
+  Android Group : Android13
+  Version       : 2023.35.0 (code: 40238)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (23)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (207): com.sevenshifts.android.messaging.kudos.ui.views.KudosUserListActivity, com.sevenshifts.android.messaging.ui.view.LdrChannelListActivity, com.sevenshifts.android.messaging.ui.view.GifViewerActivity, com.sevenshifts.android.messaging.kudos.ui.views.KudosSendActivity, com.sevenshifts.android.timeoff.ui.views.SearchResultActivity, com.sevenshifts.android.timeoff.ui.views.TimeOffDetailActivity, com.sevenshifts.android.timeoff.ui.views.TimeOffEditActivity, com.sevenshifts.signup.ui.view.SignupActivity, com.sevenshifts.signup.ui.view.SignupEmployeeNoInviteActivity, com.sevenshifts.signup.ui.view.SignupEmployeeEmailActivity, com.sevenshifts.signup.ui.view.SignupEmployeeStatusActivity, com.sevenshifts.signup.ui.view.SignupWelcomeActivity, com.sevenshifts.signup.ui.view.SignupEmployeeInviteAskActivity, com.sevenshifts.signup.ui.view.SignupCompleteActivity, com.sevenshifts.android.account.legacy.DepartmentEditActivity, com.sevenshifts.android.logbook.ui.ManagerLogBookAddActivity, com.sevenshifts.android.account.legacy.RoleEditActivity, com.sevenshifts.android.logbook.ui.ManagerLogBookCommentActivity, com.sevenshifts.android.schedule.legacy.PublishScheduleActivity, com.sevenshifts.android.logbook.ui.ManagerLogBookHelpArticlesActivity
+  Services   (16): com.google.android.gms.analytics.AnalyticsService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.analytics.AnalyticsJobService, androidx.camera.core.impl.MetadataHolderService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.sevenshifts.android.pushnotifications.PushNotificationService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (15): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, io.getstream.chat.android.client.receivers.NotificationMessageReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (4): io.intercom.android.sdk.IntercomInitializeContentProvider, com.getstream.sdk.chat.StreamFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 39224
+  Total Methods : 152577
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: 7shifts, Organization: 7shifts
+  Fingerprint : 43 FB 7C F1 3E 85 7E 80 CA 5D 9B C9 BE 06 38 BD 33 25 E2 56 CF F4 6A 6C 7B E3 B6 9A 24 0B 2B 09
+
+==========================================

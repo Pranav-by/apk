@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gamesforkids.coloring.games.preschool
+  SHA-256       : 009C914B1428B7892AA1A0924F250994A98C0B7EFADF6D9FF1F4989DB510D020
+  Android Group : Android13
+  Version       : 6.7 (code: 67)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.POST_NOTIFICATIONS, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.gamesforkids.coloring.games.preschool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (53): com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.gamesforkids.coloring.games.preschool.colorByNumber.ColorByNumberActivity, com.gamesforkids.coloring.games.preschool.coloring.VehicleActivity, com.gamesforkids.coloring.games.preschool.glowDoodle.DrawActivityGlow2, com.gamesforkids.coloring.games.preschool.coloring.ChristmasActivity, com.gamesforkids.coloring.games.preschool.coloring.MazeActivity, com.gamesforkids.coloring.games.preschool.coloring.GridActivityColoringBook, com.gamesforkids.coloring.games.preschool.coloring.AlphabetActivity, com.gamesforkids.coloring.games.preschool.GalleryActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.karumi.dexter.DexterActivity, com.gamesforkids.coloring.games.preschool.coloring.WorksheetActivity, com.gamesforkids.coloring.games.preschool.coloring.ToyActivity, com.gamesforkids.coloring.games.preschool.halfColoring.HalfColoringActivity, com.google.android.gms.ads.AdActivity, com.gamesforkids.coloring.games.preschool.coloring.FruitActivity, com.gamesforkids.coloring.games.preschool.ItemViewerActivity, com.gamesforkids.coloring.games.preschool.ads.MoreAppsActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.gamesforkids.coloring.games.preschool.monsterSplash.MonsterSplashActivity
+  Services   (14): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, com.gamesforkids.coloring.games.preschool.firebase.MyFirebaseMessagingService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (6): com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.gamesforkids.coloring.games.preschool.imageEditor.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 20146
+  Total Methods : 115354
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(2): 127.0.0.1, 10.5.4.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F4 CF 07 C6 17 12 C7 83 8D CA 52 21 9C 11 4C 18 A5 31 81 6F 5F 85 B2 B2 58 0C 3A 8A C6 C8 AD D1
+
+==========================================

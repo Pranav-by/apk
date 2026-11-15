@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : vcc.mobilenewsreader.genk
+  SHA-256       : 00A2214896888753F66DD54FE916DC88EEA8F591DDA149C2AE8B68CD26F5F9A7
+  Android Group : Android16
+  Version       : 3.5.8 (code: 384)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (44)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, vcc.mobilenewsreader.genk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, vcc.mobilenewsreader.genk.permission.C2D_MESSAGE, android.permission.BLUETOOTH, android.permission.KILL_BACKGROUND_PROCESSES, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (12): com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, vcc.mobilenewsreader.mutilappnews.view.activity.main.MainActivity, vcc.mobilenewsreader.mutilappnews.view.activity.full_image.FullImageActivity, vcc.mobilenewsreader.mutilappnews.view.activity.splash.SplashActivity, vcc.viv.ads.business.vcc.presenter.activity.welcome.WelcomeActivity, vcc.viv.ads.business.vcc.presenter.activity.browser.BrowserActivity, vcc.viv.ads.business.vcc.presenter.activity.popup.PopupActivity, com.vcc.vietidsdk.VietIdAuthenActivity, com.facebook.CustomTabActivity, com.vcc.vietidsdk.VietIdQuickLoginActivity, com.facebook.CustomTabMainActivity
+  Services   (11): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.vcc.playercores.scheduler.PlatformScheduler$PlatformSchedulerService, com.vcc.shloggingsdk.openudid.OpenUDID_service, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, vcc.mobilenewsreader.mutilappnews.service.MyFirebaseMessagingService, vcc.mobilenewsreader.mutilappnews.service.AudioService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (6): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 30371
+  Total Methods : 202131
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Vccorp, Organization: Vietnam Communications Corporation, Locality: Ha Noi, State/Province: Hai Ba Trung, Country: 84
+  Fingerprint : EE 08 F0 31 1C DA 24 C2 39 1B 98 A1 9F 47 B3 58 CA 93 0A 79 B3 E0 E4 D3 24 C1 F9 C4 A3 45 FB E6
+
+==========================================

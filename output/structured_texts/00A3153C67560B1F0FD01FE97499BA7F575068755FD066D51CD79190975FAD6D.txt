@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.petfolk.android.app
+  SHA-256       : 00A3153C67560B1F0FD01FE97499BA7F575068755FD066D51CD79190975FAD6D
+  Android Group : Android15
+  Version       : 3.27.0 (code: 32700001)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, com.petfolk.android.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.USE_BIOMETRIC, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (39): com.stripe.android.paymentelement.confirmation.cpms.CustomPaymentMethodProxyActivity, com.stripe.android.paymentsheet.paymentdatacollection.cvcrecollection.CvcRecollectionActivity, com.braze.ui.BrazeWebViewActivity, com.stripe.android.paymentelement.embedded.form.FormActivity, com.stripe.android.paymentelement.embedded.manage.ManageActivity, com.stripe.android.link.LinkForegroundActivity, com.stripe.android.paymentsheet.ui.SepaMandateActivity, com.stripe.android.link.LinkRedirectHandlerActivity, com.stripe.android.link.LinkActivity, com.stripe.android.shoppay.ShopPayActivity, com.stripe.android.ui.core.cardscan.CardScanActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.braze.ui.activities.ContentCardsActivity
+  Services   (10): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.braze.push.BrazeFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (13): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.braze.push.BrazePushReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.braze.BrazeFlushPushDeliveryReceiver
+  Providers  (6): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.kotlin.multiplatform.SentryContextProvider, org.jetbrains.compose.resources.AndroidContextProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18404
+  Total Methods : 83699
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://link.com/privacy, https://goo.gle/compose-feedback, https://twitter.com/stripestatus,, https://link.com/terms, https://js.hcaptcha.com/1/api.js, https://petfolk.com/links/appointment-details?id=, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://www.braze.com/docs/user_guide/administrative/access_braze/sdk_endpoints, https://link.com, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CB F7 B1 63 CF 33 83 F4 FA A3 9C 01 94 76 C2 1A D3 63 58 24 ED 32 20 AC E0 72 E5 7E B2 76 66 EC
+
+==========================================

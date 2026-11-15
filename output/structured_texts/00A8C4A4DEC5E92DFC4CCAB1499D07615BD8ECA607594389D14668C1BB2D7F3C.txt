@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.manutom.predict_match_guru_ppf
+  SHA-256       : 00A8C4A4DEC5E92DFC4CCAB1499D07615BD8ECA607594389D14668C1BB2D7F3C
+  Android Group : Android12
+  Version       : 1.0.10 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (3): com.manutom.predict_match_guru_ppf.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity
+  Services   (13): com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (6): androidx.startup.InitializationProvider, com.twwm.share_files_and_screenshot_widgets.ShareFilesAndScreenshotWidgetsFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.gms.ads.MobileAdsInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10501
+  Total Methods : 51374
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5F 9C 2E 4F CC 4B 8E FF BC 61 09 B1 D7 DA 50 96 FF F9 01 B5 80 6A 28 69 A4 EA 8D 71 DA CC E6 37
+
+==========================================

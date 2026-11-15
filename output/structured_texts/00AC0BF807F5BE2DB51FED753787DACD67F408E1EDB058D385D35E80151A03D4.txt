@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.magictrunk.kittypetdaycare
+  SHA-256       : 00AC0BF807F5BE2DB51FED753787DACD67F408E1EDB058D385D35E80151A03D4
+  Android Group : Android12L
+  Version       : 1.0.10 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (9)]
+  android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (5): com.sdk.gameadzone.GameADzoneActivity, org.cocos2dx.cpp.AppActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (10): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (4): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13474
+  Total Methods : 71477
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: smit, Organizational Unit: 10, Organization: magictrunk, Locality: Ahmedabad, State/Province: Gujarat, Country: 91
+  Fingerprint : F9 C0 0F 71 02 55 4A F3 14 EE AF B6 D7 2F 61 C5 07 0F 17 02 96 9B 30 E3 13 5E 3D 39 83 03 AF 6E
+
+==========================================

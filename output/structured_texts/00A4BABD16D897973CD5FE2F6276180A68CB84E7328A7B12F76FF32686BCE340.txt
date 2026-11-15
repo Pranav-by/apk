@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.devsolo.rag
+  SHA-256       : 00A4BABD16D897973CD5FE2F6276180A68CB84E7328A7B12F76FF32686BCE340
+  Android Group : Android14
+  Version       : 1.2 (code: 37)
+
+[SDK Information]
+  Minimum SDK   : 27
+  Target SDK    : 34
+
+[Permissions (10)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.WAKE_LOCK, com.devsolo.rag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (7): com.unity3d.player.UnityPlayerActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity
+  Services   (10): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (3): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9976
+  Total Methods : 43843
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://firebase.google.com/docs/analytics, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 81 EB 67 C0 E8 86 A2 97 65 A8 28 31 0A 5B B3 2D 84 A5 AE 00 3B 09 4B EF 0C 33 45 38 FD F1 38 EF
+
+==========================================

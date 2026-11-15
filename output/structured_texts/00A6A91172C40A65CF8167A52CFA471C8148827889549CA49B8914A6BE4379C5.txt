@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kmh.awiyid
+  SHA-256       : 00A6A91172C40A65CF8167A52CFA471C8148827889549CA49B8914A6BE4379C5
+  Android Group : Android13
+  Version       : 1.1.0 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (15)]
+  android.permission.ACCESS_COARSE_LOCATION, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.SCHEDULE_EXACT_ALARM, android.permission.POST_NOTIFICATIONS, android.permission.USE_FULL_SCREEN_INTENT, android.permission.WAKE_LOCK, com.kmh.awiyid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (12): com.facebook.FacebookActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.kmh.awiyid.MainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity
+  Services   (8): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.baseflow.geolocator.GeolocatorLocationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (10): com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (6): com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6222
+  Total Methods : 34864
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.facebook.com/docs/android/getting-started, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 3C AE FF 18 69 09 83 03 57 28 23 64 9D BA EF CC 48 16 E3 FE 29 FE 52 5E 4B A0 66 D1 01 F6 AA 41
+
+==========================================

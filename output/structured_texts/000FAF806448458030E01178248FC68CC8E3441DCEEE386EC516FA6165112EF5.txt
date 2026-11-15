@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.keltomod.stick
+  SHA-256       : 000FAF806448458030E01178248FC68CC8E3441DCEEE386EC516FA6165112EF5
+  Android Group : Android12L
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (10)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SET_WALLPAPER, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (27): com.ironsource.sdk.controller.ControllerActivity, com.applovin.adview.AppLovinInterstitialActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.keltomod.stick.GuideActivities.SplashScrenn, com.keltomod.stick.GuideActivities.MainActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.keltomod.stick.wallpaper.WallActivities.WallHome, com.keltomod.stick.wallpaper.WallActivities.image_viewr, com.applovin.adview.AppLovinFullscreenActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.sdk.AppLovinWebViewActivity, com.keltomod.stick.GuideActivities.ActivityDescription, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.keltomod.stick.GuideActivities.MainActivity2, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.keltomod.stick.GuideActivities.ActivityTips, com.unity3d.services.ads.adunit.AdUnitActivity, com.google.android.gms.ads.AdActivity
+  Services   (10): androidx.work.impl.background.systemjob.SystemJobService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.ads.AdService, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (5): com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19857
+  Total Methods : 110743
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(2): 127.0.0.1, 6.8.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 89 A9 63 95 41 6D 76 81 CB 0B 98 79 37 F8 2C 22 D9 48 C7 10 9D 9B F7 FA 30 6F 7C 48 56 BB D2 4B
+
+==========================================

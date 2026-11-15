@@ -1,0 +1,51 @@
+{
+  "sha256": "00BE04C94D51B0A893F8022625EBC243DD1573450D48B42461491D59C971AAB1",
+  "filename": "00BE04C94D51B0A893F8022625EBC243DD1573450D48B42461491D59C971AAB1.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "sign.og1.ru",
+  "version_name": "1.1.0",
+  "version_code": "4",
+  "min_sdk": "24",
+  "target_sdk": "36",
+  "permissions": [
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "sign.og1.ru.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "sign.og1.ru.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11866,
+  "method_count": 87037,
+  "cert_fingerprint": "06 93 54 46 56 8E 88 BB D9 36 80 A6 AA B2 01 E8 79 E1 13 26 52 6D 4E 8B 69 5C B9 FE 1E 48 57 11",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "10.0.1.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

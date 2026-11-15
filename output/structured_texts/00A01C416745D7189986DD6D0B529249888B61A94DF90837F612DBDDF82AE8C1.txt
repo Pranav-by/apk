@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : wodetiansedefe.sesdf
+  SHA-256       : 00A01C416745D7189986DD6D0B529249888B61A94DF90837F612DBDDF82AE8C1
+  Android Group : Android13
+  Version       : 1.2 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (20)]
+  android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.TRANSMIT_IR, android.permission.QUERY_ALL_PACKAGES, android.permission.ACCESS_WIFI_STATE, freemme.permission.msa, wodetiansedefe.sesdf.openadsdk.permission.TT_PANGOLIN, com.asus.msa.SupplementaryDID.ACCESS, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.REQUEST_INSTALL_PACKAGES, wodetiansedefe.sesdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (125): com.by.zhangying.adhelper.activity.PerManageActivity, com.by.zhangying.adhelper.activity.AgreementActivity, com.by.zhangying.adhelper.activity.PersonalInformationActivity, com.by.zhangying.adhelper.activity.PersonalInformationInfoActivity, com.by.zhangying.adhelper.activity.LoginActivity, com.by.zhangying.adhelper.activity.ZyBaseModeActivity, com.by.zhangying.adhelper.ttvideo.DrawVideoFullScreenActivity, com.by.zhangying.adhelper.activity.ZyDeveloperActivity, com.by.zhangying.adhelper.activity.ZyReaderActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.blankj.utilcode.util.UtilsTransActivity, com.ss.android.downloadlib.activity.TTDelegateActivity, com.byazt.bm.JumpKllkActivity, com.ss.android.socialbase.appdownloader.view.DownloadHandleNotificationActivity, com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity, com.byazt.y.JumpUnknownSourceActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTNativePageActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTWebPageActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTSevenScreenWebPageActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTVideoWebPageActivity
+  Services   (12): com.byazt.zz.CSJDownloadService, com.byazt.b.DownloadHandleService, com.byazt.nu.ApiDownloadHandlerService, com.byazt.zz.SqlDownloadCacheService, com.efs.sdk.memleaksdk.monitor.UMonitorService, com.byazt.zz.CSJIndependentProcessDownloadService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.byazt.wzi.BinderPoolService, com.byazt.z.DownloadHandlerService, com.qq.e.comm.DownloadService, com.byazt.z.RetryJobSchedulerService, com.byazt.n.DownloadNotificationService
+  Receivers  (2): com.byazt.za.Collector, com.byazt.zs.DownloadReceiver
+  Providers  (19): com.byazt.uk.FileProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byted.live.lite.ServerManager_bytelive, com.bytedance.sdk.openadsdk.TTFileProvider, com.qq.e.comm.GDTFileProvider, com.by.zhangying.adhelper.AdFileProvider, com.blankj.utilcode.util.UtilsFileProvider, com.byted.live.lite.ServerManager_push, com.byazt.gg.DownloaderServerManager, com.byted.live.lite.ServerManager_downloader, razerdp.basepopup.BasePopupInitializer, androidx.startup.InitializationProvider, me.jessyan.autosize.InitProvider, androidx.core.content.FileProvider, com.byazt.sj.MainProcessProviderProxy, com.byazt.vf.TTMultiProvider, androidx.core.content.FileProvider, com.byazt.quv.MainServerManager, com.byazt.gg.MainServerManager
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18
+  Total Methods : 122
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: rgg, Organizational Unit: tof, Organization: cvq, Locality: ptu, State/Province: byb, Country: lqh
+  Fingerprint : B6 95 D4 B2 88 C8 FE 42 C7 7E 4A 1A A5 C3 18 8C 84 3D A7 50 52 26 87 0A 0D 55 7A AF AD D8 28 9C
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.historyisfun.achaemidempire
+  SHA-256       : 00C00CCF4439F2B7A5A5A60331518C947794CC7E701C7E7B40C4F4E570F826AC
+  Android Group : Android12L
+  Version       : 3.6 (code: 27)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (12)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.Ad_ID, com.android.vending.BILLING, com.historyisfun.achaemidempire.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.GET_TASKS, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (26): com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.startapp.sdk.ads.list3d.List3DActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.google.firebase.auth.internal.FederatedSignInActivity, com.google.android.gms.common.api.GoogleApiActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.sdk.AppLovinWebViewActivity, com.historyisfun.achaemidempire.SplashScreenActivity, com.applovin.adview.AppLovinFullscreenActivity, com.historyisfun.achaemidempire.ReadBookActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.google.android.gms.ads.AdActivity, com.ironsource.sdk.controller.InterstitialActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.android.billingclient.api.ProxyBillingActivity, com.startapp.sdk.adsbase.consent.ConsentActivity
+  Services   (9): com.startapp.sdk.jobs.SchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (2): com.google.android.gms.measurement.AppMeasurementReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (8): com.historyisfun.achaemidempire.provider.Provider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.startapp.sdk.adsbase.StartAppInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.firebase.provider.FirebaseInitProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14086
+  Total Methods : 81692
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Muhammad, Organizational Unit: Ade Free
+  Fingerprint : 2E 2A AA CA E6 7B E4 AC E5 1C C4 E4 25 15 3F DA 2F C3 53 93 ED A1 25 CA B1 9D 6C C8 00 BF 0F 96
+
+==========================================

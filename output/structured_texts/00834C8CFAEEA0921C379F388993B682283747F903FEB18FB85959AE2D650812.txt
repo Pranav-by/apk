@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : fm.radio.samara
+  SHA-256       : 00834C8CFAEEA0921C379F388993B682283747F903FEB18FB85959AE2D650812
+  Android Group : Android14
+  Version       : 2.2 (code: 20260204)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (33)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, fm.radio.samara.permission.C2D_MESSAGE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, fm.radio.samara.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (11): fm.radio.samara.activities.MainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.onesignal.NotificationOpenedActivityHMS, fm.radio.samara.activities.ActivitySplash, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, fm.radio.samara.activities.ActivityPermission, fm.radio.samara.activities.ActivityRedirect, com.onesignal.notifications.activities.NotificationOpenedActivity, com.onesignal.core.activities.PermissionsActivity, com.google.android.gms.common.api.GoogleApiActivity, fm.radio.samara.activities.ActivityWebView
+  Services   (15): com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, fm.radio.samara.notification.MyFirebaseMessageService, com.onesignal.core.services.SyncJobService, fm.radio.samara.services.RadioPlayerService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, fm.radio.samara.services.MediaButtonIntentReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (2): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 18623
+  Total Methods : 125037
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: musicfree, Organizational Unit: musicfree, Organization: musicfree, Locality: musicfree
+  Fingerprint : C9 FD 3D 5A F2 50 3C 17 68 D2 D6 33 06 83 6F 4D 9A 23 73 73 9A A8 1E 44 77 E2 4D 47 9B A2 B5 0D
+
+==========================================

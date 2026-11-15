@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.otobeas.horus
+  SHA-256       : 00B821701FE48AF142E2F1E600F854E78C6CAAAD2312FD2C31EF997BE982CBA7
+  Android Group : Android16
+  Version       : 1.1.6 (code: 24)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (5)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.REORDER_TASKS, com.otobeas.horus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (10): com.google.android.gms.common.api.GoogleApiActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.otobeas.horus.MainActivity, team.opay.business.cashier.sdk.pay.PaymentWebActivity, com.google.firebase.auth.internal.GenericIdpActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.google.firebase.auth.internal.RecaptchaActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+  Services   (3): com.google.firebase.components.ComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 48671
+  Total Methods : 261798
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7F 3E A5 EA 36 02 BA 97 5B 91 22 D2 A7 E1 37 1F D1 1E 3D 1E 95 D3 3E BF BC 6C 48 5E 97 EE 49 4E
+
+==========================================

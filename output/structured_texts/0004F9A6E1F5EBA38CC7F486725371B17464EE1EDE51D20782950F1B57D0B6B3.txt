@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.eprintinguk.abbeyps
+  SHA-256       : 0004F9A6E1F5EBA38CC7F486725371B17464EE1EDE51D20782950F1B57D0B6B3
+  Android Group : Android13
+  Version       : 6.0.5 (code: 605)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.POST_NOTIFICATIONS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.BLUETOOTH, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.BLUETOOTH_ADMIN, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (35): com.google.android.gms.common.api.GoogleApiActivity, com.eprintinguk.fusefm.Splash_screen, com.urbanairship.google.PlayServicesErrorActivity, com.eprintinguk.fusefm.view.search.ProductAssociateActivity, com.eprintinguk.fusefm.view.searchDetail.SearchDetailListActivity, com.eprintinguk.fusefm.Fragments.Detail_image_Feed, com.urbanairship.permission.PermissionsActivity, com.urbanairship.actions.RateAppActivity, com.eprintinguk.fusefm.login.Forgot_passord, com.estimote.mustard.rx_goodness.rx_activity_result.RxResultActivity, com.eprintinguk.fusefm.view.products.ProductFilterActivity, com.eprintinguk.fusefm.SubMenu_Webview_Activity, com.urbanairship.actions.WalletLoadingActivity, com.eprintinguk.fusefm.NavigationActivity, com.eprintinguk.fusefm.view.cart.CartActivity, com.eprintinguk.fusefm.Fragments.Sub_feed, com.eprintinguk.fusefm.Fragments.Add_Image, com.eprintinguk.fusefm.MainActivity, com.eprintinguk.fusefm.view.checkout.CheckoutActivity, com.estimote.mustard.rx_goodness.rx_requirements_wizard.RequestPermissionActivity
+  Services   (17): com.eprintinguk.fusefm.service.BackgroundSoundService, androidx.room.MultiInstanceInvalidationService, com.eprintinguk.fusefm.service.ForegroundService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.eprintinguk.fusefm.blescanner.MyJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.eprintinguk.fusefm.blescanner.BackgroundBTService, com.urbanairship.push.fcm.AirshipFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.estimote.scanning_plugin.packet_provider.service.PacketProviderWrapperService, com.eprintinguk.fusefm.Volley.BeaconServices
+  Receivers  (17): com.eprintinguk.fusefm.blescanner.NotificationClearReceiver, com.eprintinguk.fusefm.blescanner.PowerConnectionReceiver, com.estimote.proximity_sdk.api.TriggerBroadcastReceiver, com.eprintinguk.fusefm.blescanner.AlarmReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.urbanairship.push.NotificationProxyReceiver, com.urbanairship.locale.LocaleChangeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (5): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.crashlytics.android.CrashlyticsInitProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 25765
+  Total Methods : 194103
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://www.google.com/maps/embed/v1/place?key=AIzaSyBaYhIHXpWTdr5-k2fD2NZ9c-FC5d_pVLE&q=
+  IP Addresses(4): 2.6.2.24, 1.4.1.19, 1.2.7.19, 2.9.2.24
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 63 5F 5A 86 0E 27 C9 4A B4 48 B1 B4 93 2B FA 34 17 24 34 A8 94 D4 29 55 F2 64 7A A1 63 23 55 66
+
+==========================================

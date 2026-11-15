@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.iomote.HermesGFleet
+  SHA-256       : 0067CABF5AD6CDE829D3F5E9B1E89BDB6F5FF017738348E2E237D0CCC45B8D87
+  Android Group : Android13
+  Version       : 4.0 (code: 55)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (7)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.BLUETOOTH, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (3): com.iomote.HermesGFleet.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.microsoft.identity.client.BrowserTabActivity
+  Services   (6): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3743
+  Total Methods : 19516
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : AB E3 4A C0 B7 B8 79 4F E2 B6 D3 6E 97 F5 63 9F 50 9B BD C5 C9 88 39 4B C3 DE 1A 58 97 BE B1 2D
+
+==========================================

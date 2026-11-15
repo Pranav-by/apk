@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.invisorcorp.securedrive
+  SHA-256       : 00A0921B9CC9191CFA2253189E898250DA039C2EF92EB7BB3D147AE1B16DE0E0
+  Android Group : Android14
+  Version       : 3.29.3 (code: 30290390)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (30)]
+  android.permission.AUTHENTICATE_ACCOUNTS, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, android.permission.WRITE_CALENDAR, android.permission.NFC, com.android.launcher.permission.INSTALL_SHORTCUT, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.READ_MEDIA_VIDEO, android.permission.USE_BIOMETRIC, android.permission.WRITE_CONTACTS, android.permission.READ_CONTACTS, android.permission.READ_SYNC_SETTINGS, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.USE_CREDENTIALS, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.READ_CALENDAR, android.permission.MANAGE_ACCOUNTS, android.permission.CAMERA, android.permission.WRITE_SYNC_SETTINGS
+
+[Application Components]
+  Activities (44): com.owncloud.android.ui.activity.UploadListActivity, com.owncloud.android.ui.activity.ContactsPreferenceActivity, com.owncloud.android.ui.trashbin.TrashbinActivity, com.nextcloud.client.onboarding.WhatsNewActivity, com.owncloud.android.ui.activity.ReceiveExternalFilesActivity, com.nextcloud.client.onboarding.FirstRunActivity, com.owncloud.android.ui.activity.CopyToClipboardActivity, com.owncloud.android.ui.activity.FolderPickerActivity, com.owncloud.android.ui.activity.FilePickerActivity, com.canhub.cropper.CropImageActivity, com.nextcloud.client.editimage.EditImageActivity, com.owncloud.android.lib.common.network.SelectClientCertificateHelperActivity, com.blikoon.qrcodescanner.QrCodeActivity, com.owncloud.android.ui.activity.FileDisplayActivity, com.owncloud.android.ui.activity.RichDocumentsEditorWebView, com.owncloud.android.ui.activity.SsoGrantPermissionActivity, com.owncloud.android.ui.activity.ManageAccountsActivity, com.owncloud.android.ui.activity.UserInfoActivity, com.owncloud.android.ui.preview.PreviewBitmapActivity, com.owncloud.android.ui.activity.NotificationsActivity
+  Services   (11): com.owncloud.android.services.OperationsService, androidx.work.impl.foreground.SystemForegroundService, com.nextcloud.client.widget.DashboardWidgetService, com.nextcloud.client.jobs.transfer.FileTransferService, com.nextcloud.client.media.PlayerService, androidx.room.MultiInstanceInvalidationService, com.owncloud.android.authentication.AccountAuthenticatorService, com.owncloud.android.services.AccountManagerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.owncloud.android.syncadapter.FileSyncService
+  Receivers  (14): com.owncloud.android.files.BootupBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.nextcloud.client.jobs.MediaFoldersDetectionWork$NotificationReceiver, com.nextcloud.client.jobs.NotificationWork$NotificationReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.nextcloud.client.widget.DashboardWidgetProvider, com.nextcloud.client.jobs.upload.FileUploadHelper$UploadNotificationActionReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (7): com.owncloud.android.providers.FileContentProvider, com.owncloud.android.providers.UsersAndGroupsSearchProvider, androidx.core.content.FileProvider, com.owncloud.android.providers.DiskLruImageCacheFileProvider, com.canhub.cropper.CropFileProvider, androidx.startup.InitializationProvider, com.owncloud.android.providers.DocumentsStorageProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31207
+  Total Methods : 205148
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D1 B7 ED 1B A0 6D EF 71 9E 5F 10 54 3B AB A8 82 38 C7 87 31 9D 7E 1D 9C 8C B0 F4 11 51 0D 84 E3
+
+==========================================

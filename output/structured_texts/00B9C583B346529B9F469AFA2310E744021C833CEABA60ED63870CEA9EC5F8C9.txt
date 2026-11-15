@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.malakoffhumanis.espaceclient
+  SHA-256       : 00B9C583B346529B9F469AFA2310E744021C833CEABA60ED63870CEA9EC5F8C9
+  Android Group : Android12
+  Version       : 2.4.0-2104 (code: 69728220)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (57): androidx.compose.ui.tooling.PreviewActivity, com.malakoffhumanis.espaceclient.app.demande.scan.assembling.DemandeScanAssemblingActivity, com.tagcommander.lib.privacy.TCPrivacyCenter, com.google.android.gms.common.api.GoogleApiActivity, com.malakoffhumanis.espaceclient.app.onboarding.OnboardingScopeApplicationActivity, com.malakoffhumanis.espaceclient.app.demande.beneficiaire.DemandeBeneficiaireActivity, com.malakoffhumanis.espaceclient.app.demande.finalisation.confirmation.DemandeConfirmationActivity, com.malakoffhumanis.espaceclient.app.demande.devis.DemandeTypeDevisActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.malakoffhumanis.espaceclient.app.login.onboarding.OnBoardingLoginActivity, com.malakoffhumanis.espaceclient.app.splash.SplashScreenActivity, com.malakoffhumanis.espaceclient.app.login.reauthentication.ReauthentApiLoginActivity, com.malakoffhumanis.espaceclient.app.biometrics.BiometricActivationActivity, com.malakoffhumanis.espaceclient.app.login.noteligible.LoginNotEligibleActivity, com.malakoffhumanis.espaceclient.app.demande.remboursement.autremutuelle.DemandeRemboursementAutreMutuelleActivity, com.malakoffhumanis.espaceclient.app.demande.finalisation.synthese.DemandeSyntheseActivity, com.malakoffhumanis.espaceclient.app.cartePDF.CartePDFActivity, com.malakoffhumanis.espaceclient.app.home.suivi.remboursementdetails.RemboursementDetailsActivity, com.malakoffhumanis.espaceclient.app.home.HomeActivity
+  Services   (12): com.google.android.gms.measurement.AppMeasurementJobService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.mapbox.android.telemetry.MapboxTelemetryService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.mapbox.common.SystemInfoService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.malakoffhumanis.espaceclient.app.service.AppFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (5): androidx.profileinstaller.ProfileInstallReceiver, com.mapbox.common.location.LocationUpdatesReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 15636
+  Total Methods : 71145
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://goo.gle/compose-feedback, https://developer.android.com/reference/java/util/concurrent/CopyOnWriteArrayList., https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0B F1 79 1C F0 51 A3 7A 11 24 33 C4 9E 9D 65 3D 7F F0 1A DC 38 3F CE BB 96 C1 A3 EA E7 EE 8E 48
+
+==========================================

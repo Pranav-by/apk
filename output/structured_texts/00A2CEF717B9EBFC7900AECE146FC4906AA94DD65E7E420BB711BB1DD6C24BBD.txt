@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.Pleimer.PleimerFormsLadyTheGame
+  SHA-256       : 00A2CEF717B9EBFC7900AECE146FC4906AA94DD65E7E420BB711BB1DD6C24BBD
+  Android Group : Android13
+  Version       : 1.08 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (4)]
+  android.permission.INTERNET, com.android.vending.BILLING, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (7): com.android.billingclient.api.ProxyBillingActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.player.UnityPlayerActivity, com.google.android.gms.ads.AdActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6744
+  Total Methods : 34255
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-interstitial-policies, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4F 03 44 18 53 DF 7B 11 85 35 D5 62 DF 08 E1 EB E7 3F F3 A1 A0 82 1D 8C D6 A4 54 28 25 18 EB B5
+
+==========================================

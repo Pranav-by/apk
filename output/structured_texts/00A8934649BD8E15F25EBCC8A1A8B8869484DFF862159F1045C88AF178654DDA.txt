@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.donkeymobile.hervormdveenendaalwesterkerk
+  SHA-256       : 00A8934649BD8E15F25EBCC8A1A8B8869484DFF862159F1045C88AF178654DDA
+  Android Group : Android12L
+  Version       : 2.8.0 (code: 65)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (12)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (60): app.donkeymobile.church.myaccount.changepassword.ChangePasswordViewImpl, app.donkeymobile.church.user.detail.UserDetailViewImpl, app.donkeymobile.church.group.adminsettings.GroupAdminSettingsViewImpl, app.donkeymobile.church.twostepsverification.enable.EnableTwoStepsVerificationViewImpl, app.donkeymobile.church.main.giving.pin.forgot.ForgotPinViewImpl, app.donkeymobile.church.main.giving.charity.detail.CharityDetailViewImpl, app.donkeymobile.church.feed.detail.FeedDetailViewImpl, app.donkeymobile.church.main.giving.pin.confirmation.PinConfirmationViewImpl, app.donkeymobile.church.group.accessrequests.GroupAccessRequestsActivity, app.donkeymobile.church.twostepsverification.settings.TwoStepsVerificationSettingsViewImpl, app.donkeymobile.church.discover.DiscoverViewImpl, app.donkeymobile.church.main.giving.moneytransfer.MoneyTransferViewImpl, app.donkeymobile.church.fundraiser.name.FundraiserNameViewImpl, app.donkeymobile.church.myaccount.MyAccountViewImpl, app.donkeymobile.church.appupdate.AppUpdateViewImpl, app.donkeymobile.church.twostepsverification.enabled.TwoStepsVerificationEnabledViewImpl, app.donkeymobile.church.settings.information.InformationViewImpl, app.donkeymobile.church.main.giving.charity.createoredit.CreateOrEditCharityViewImpl, app.donkeymobile.church.notifications.settings.NotificationSettingsViewImpl, app.donkeymobile.church.main.MainViewImpl
+  Services   (5): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, app.donkeymobile.church.notifications.push.PushNotificationServiceImpl, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (2): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11705
+  Total Methods : 63424
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 20 EA 28 31 18 B4 39 2A 3B 23 BC 51 D8 DB 18 46 4C FD 8A C2 29 E6 50 5F 3D 76 F7 BB 38 9F 4E 41
+
+==========================================

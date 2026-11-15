@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : talking.toy.funny.ostrich
+  SHA-256       : 004180443C0FDFD0735A898C88F49921A5CC3E3B6AC1AE35FDD5EFEF3A2948B4
+  Android Group : Android13
+  Version       : 1.4.8 (code: 934148)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (11)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (10): com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.starseed.speechtotext.MainActivity, com.deadmosquitogames.AndroidGoodiesActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.google.android.gms.ads.AdActivity, com.deadmosquitogames.notifications.NotificationsIntermediateActivity, com.google.android.gms.ads.OutOfContextTestingActivity
+  Services   (6): com.voxelbusters.screenrecorderkit.videorecorder.internal.ScreenRecordingService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (10): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.deadmosquitogames.notifications.GoodiesNotificationManager, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.deadmosquitogames.notifications.NotificationManagerModern, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (4): com.deadmosquitogames.multipicker.utils.AMPFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.voxelbusters.screenrecorderkit.videorecorder.extensions.FileProviderExtended, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10408
+  Total Methods : 49653
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: talking yq, Organizational Unit: ty, Organization: ty, Locality: bei jing, State/Province: bei jing, Country: ch
+  Fingerprint : B6 5C AE 72 1B 5C A9 44 E5 59 83 E6 39 89 33 F6 85 51 7A 63 8B CE 98 76 FB 95 4B 8C 19 46 54 0C
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.impactathletes.online
+  SHA-256       : 00585CFB2F2074A0A23C7AA09795ECBFD9A5A3A6365622B8362AFC9C6930E989
+  Android Group : Android13
+  Version       : 1.7.9 (code: 60)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (38)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.impactathletes.online.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (24): com.facebook.react.devsupport.DevSettingsActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, com.bbapp.MainActivity, io.intercom.android.sdk.activities.IntercomMessengerActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, com.bbapp.video.VideoActivity, com.yalantis.ucrop.UCropActivity, io.intercom.android.sdk.activities.IntercomPostActivity, com.masteratul.exceptionhandler.DefaultErrorScreen, io.intercom.android.sdk.activities.IntercomSheetActivity, com.intercom.input.gallery.GalleryLightBoxActivity, io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.helpcenter.articles.ArticleActivity, com.twitter.sdk.android.core.identity.OAuthActivity, com.google.android.gms.common.api.GoogleApiActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.intercom.input.gallery.GalleryInputFullScreenActivity
+  Services   (12): com.google.firebase.messaging.FirebaseMessagingService, com.doublesymmetry.trackplayer.service.MusicService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.bbapp.MainMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (8): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.media.session.MediaButtonReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.facebook.CampaignTrackingReceiver
+  Providers  (11): com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, expo.modules.filesystem.FileSystemFileProvider, com.vinzscam.reactnativefileviewer.FileProvider, com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, cl.json.RNShareFileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.RNFetchBlob.Utils.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 28926
+  Total Methods : 179973
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F0 9A 3F F5 1A FC D8 A7 64 2F F9 1B 2A 64 67 27 95 9D 1E E3 9A C5 15 AD 03 5F DE EE 07 49 B3 50
+
+==========================================

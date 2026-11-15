@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.stickersmaker.godnightstick
+  SHA-256       : 008EE9C192AF105263BA27B561E03ED498C43DF37330E7CFCD60CB2B4AF947CF
+  Android Group : Android12
+  Version       : v6.2 (code: 78)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (27)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.stickersmaker.godnightstick.permission.C2D_MESSAGE, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.READ_APP_BADGE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, com.htc.launcher.permission.READ_SETTINGS, android.permission.POST_NOTIFICATIONS
+
+[Application Components]
+  Activities (10): com.google.android.gms.common.api.GoogleApiActivity, com.stickersmaker.godnightstick.activities.StickerPackListActivity, com.stickersmaker.godnightstick.activities.EntryActivity, com.onesignal.PermissionsActivity, com.google.android.gms.ads.AdActivity, com.stickersmaker.godnightstick.activities.StickerPackInfoActivity, com.onesignal.NotificationOpenedActivityHMS, com.facebook.ads.AudienceNetworkActivity, com.onesignal.NotificationOpenedReceiver, com.stickersmaker.godnightstick.activities.StickerPackDetailsActivity
+  Services   (17): androidx.work.impl.foreground.SystemForegroundService, com.onesignal.SyncJobService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.stickersmaker.godnightstick.services.MyFirebaseMessagingService, com.onesignal.FCMIntentJobService, com.onesignal.HmsMessageServiceOneSignal, androidx.work.impl.background.systemjob.SystemJobService, com.onesignal.FCMIntentService, com.onesignal.FocusDelaySyncJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.onesignal.SyncService, com.onesignal.FocusDelaySyncService
+  Receivers  (14): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): com.stickersmaker.godnightstick.StickerContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9681
+  Total Methods : 39023
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices, https://exoplayer.dev/issues/cleartext-not-permitted
+  IP Addresses(1): 6.11.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A1 E0 34 8B 60 90 B1 66 D5 29 8C 18 26 50 7D F8 55 C1 FF D4 27 8B 32 ED 23 8F 97 5D DF E8 1C B4
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hsc.maharashtrascience
+  SHA-256       : 0059DB330D5D18BEC9EF63C83E7375DA000ADF25175E847F2FE808B3753820BA
+  Android Group : Android16
+  Version       : 17.0 (code: 17)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (11)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.hsc.maharashtrascience.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (11): com.google.android.gms.ads.OutOfContextTestingActivity, com.hsc.maharashtrascience.activities.MainActivity, com.google.android.gms.ads.AdActivity, com.facebook.ads.AudienceNetworkActivity, com.hsc.maharashtrascience.activities.ChapterActivity, com.hsc.maharashtrascience.activities.PrivacyActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.hsc.maharashtrascience.activities.PdfViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.hsc.maharashtrascience.activities.AboutActivity, com.hsc.maharashtrascience.activities.SplashActivity
+  Services   (8): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (10): androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (4): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22170
+  Total Methods : 145039
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 127.0.0.1, 6.20.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 10 6B 35 C7 DD 84 BF 84 6B D6 0A 51 7D 44 B9 F7 ED E4 A5 E0 DB 03 BE 70 0B EB 6F 3E D8 75 96 25
+
+==========================================

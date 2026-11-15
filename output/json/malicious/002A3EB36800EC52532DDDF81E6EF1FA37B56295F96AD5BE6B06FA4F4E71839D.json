@@ -1,0 +1,72 @@
+{
+  "sha256": "002A3EB36800EC52532DDDF81E6EF1FA37B56295F96AD5BE6B06FA4F4E71839D",
+  "filename": "002A3EB36800EC52532DDDF81E6EF1FA37B56295F96AD5BE6B06FA4F4E71839D.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "org.midorinext.android",
+  "version_name": "2.0.48",
+  "version_code": "88",
+  "min_sdk": "22",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "android.permission.CAMERA",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 11,
+  "activities": [
+    "org.midorinext.android.IncognitoActivity",
+    "org.midorinext.android.reading.ReadingActivity",
+    "org.midorinext.android.settings.activity.SettingsActivity",
+    "org.midorinext.android.MainActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 1,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 12237,
+  "method_count": 85523,
+  "cert_fingerprint": "E9 40 B8 66 61 91 A4 59 92 68 DC 22 A0 08 02 D8 A1 E8 4A 3C 5F 42 83 35 50 B7 29 1D DE 4B 9B 23",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "http://www.w3.org/2000/svg",
+    "https://www.wikipedia.org/",
+    "http://www.w3.org/1999/xlink",
+    "http://www.w3.org/1999/xhtml",
+    "https://duckduckgo.com/",
+    "https://twitter.com/",
+    "https://issuetracker.google.com/issues/new?component=413107&template=1096568",
+    "https://www.google.com/"
+  ],
+  "ip_addresses": [
+    "28.22.5.5"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : cz.czc.app
+  SHA-256       : 009BAC5D5CE750083C9EF6A00F4384EF83674A576D7C791A7442DDC0986CEA00
+  Android Group : Android13
+  Version       : 3.0.44 (code: 876)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (35)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, cz.czc.app.permission.C2D_MESSAGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (14): com.proyecto26.inappbrowser.ChromeTabsManagerActivity, androidx.biometric.DeviceCredentialHandlerActivity, com.onesignal.PermissionsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.NotificationOpenedReceiver, net.openid.appauth.AuthorizationManagementActivity, cz.czc.app.MainActivity, com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity, net.openid.appauth.RedirectUriReceiverActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.FacebookActivity, com.onesignal.NotificationOpenedActivityHMS
+  Services   (16): com.google.firebase.components.ComponentDiscoveryService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.onesignal.SyncJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (17): com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.onesignal.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (12): androidx.startup.InitializationProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.ReactNativeBlobUtil.Utils.FileProvider, com.imagepicker.ImagePickerProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.oblador.performance.StartTimeProvider, expo.modules.sharing.SharingFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, expo.modules.filesystem.FileSystemFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 23242
+  Total Methods : 155926
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Tomas Cerny, Organizational Unit: CZC.cz, Organization: CZC.cz, Locality: Pribram, State/Province: Czech Republic, Country: CZ
+  Fingerprint : D8 44 C4 28 05 8F A3 9A AF AB 0D CA AC 4F 72 5E 8F EE 48 96 8E 7D 29 1D B4 F7 6C 14 C3 5D D1 48
+
+==========================================

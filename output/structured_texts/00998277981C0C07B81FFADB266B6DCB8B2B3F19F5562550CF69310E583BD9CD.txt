@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.grandstream.ucm
+  SHA-256       : 00998277981C0C07B81FFADB266B6DCB8B2B3F19F5562550CF69310E583BD9CD
+  Android Group : Android13
+  Version       : 1.0.23.13 (code: 218)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (50)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.grandstream.ucm, android.permission.HARDWARE_TEST, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, com.grandstream.ucm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.KILL_BACKGROUND_PROCESSES
+
+[Application Components]
+  Activities (41): com.grandstream.wave.ucm.ui.chat.ui.activity.ChatConfActivity, com.grandstream.wave.ucm.ui.welcome.scan.MipcaCaptureActivity, com.grandstream.wave.ucm.ui.chat.ui.activity.CameraActivity, com.grandstream.wave.ucm.ui.setting.ExportLogActivity, com.grandstream.wave.ucm.ui.welcome.WelcomeActivity, com.grandstream.wave.ucm.ui.HomeActivity, com.grandstream.wave.ucm.ui.login.JoinActivity, com.grandstream.wave.ucm.ui.login.LoginActivity, com.grandstream.wave.ucm.ui.login.ForgotPasswordActivity, com.grandstream.wave.ucm.ui.login.PasswordVerifyActivity, com.grandstream.wave.ucm.ui.schedule.ScheduleMeetingActivity, com.grandstream.wave.ucm.ui.contact.ContactDepartmentActivity, com.grandstream.wave.ucm.ui.meeting.LinkActivity, com.grandstream.wave.ucm.ui.chat.ui.activity.ChatTransitionActivity, com.baidu.android.pushservice.hwproxy.HwNotifyActivity, com.baidu.android.pushservice.opproxy.OpNotifyActivity, com.grandstream.wave.ucm.ui.chat.ui.activity.ChatGroupCreateActivity, com.grandstream.wave.ucm.ui.contact.ContactDetailActivity, com.grandstream.wave.ucm.ui.chat.ui.activity.ChatDetailActivity, com.grandstream.wave.ucm.ui.chat.ui.activity.ChatTestActivity
+  Services   (23): com.grandstream.wave.ucm.push.message.MyHmsMessageService, com.softphone.phone.manager.ForegroundService, com.grandstream.wave.ucm.push.message.MyFirebaseMessagingService, com.softphone.phone.manager.CallForegroundService, com.baidu.android.pushservice.PushService, com.baidu.android.pushservice.job.PushJobService, com.baidu.android.pushservice.CommandService, com.xiaomi.push.service.XMPushService, com.xiaomi.push.service.XMJobService, com.xiaomi.mipush.sdk.PushMessageHandler, com.xiaomi.mipush.sdk.MessageHandleService, com.softphone.phone.manager.PhoneJobService, com.grandstream.wave.ucm.push.message.MyOppoPushMessageService, com.grandstream.wave.ucm.push.message.MyHmsMessageService, com.grandstream.wave.ucm.ui.call.telecom.TelecomService, com.google.firebase.messaging.FirebaseMessagingService, com.grandstream.wave.ucm.ui.phone.screenshare.ScreenRecorderService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (12): com.softphone.ShutdownReceiver, com.baidu.android.pushservice.PushServiceReceiver, com.baidu.android.pushservice.RegistrationReceiver, com.grandstream.wave.ucm.push.message.MyBDPushMessageReceiver, com.xiaomi.push.service.receivers.NetworkStatusReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.grandstream.wave.ucm.push.message.MyVivoPushMessageReceiver, com.grandstream.wave.ucm.push.message.MyMIPushMessageReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.softphone.BootReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.baidu.android.pushservice.PushInfoProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22429
+  Total Methods : 158672
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 10.95.41.15
+
+[Certificate]
+  Issuer      : Common Name: Zhao Jianhua, Organizational Unit: Grandstream INC., Organization: Grandstream, Locality: Hangzhou, State/Province: ZheJiang, Country: 457
+  Fingerprint : 52 51 56 B8 59 03 C0 6E BE 5D 11 E8 CA DC 1A B0 BD FB AE 05 DA E9 BF 9A 1A 0A E3 A0 FB 2D 07 CE
+
+==========================================

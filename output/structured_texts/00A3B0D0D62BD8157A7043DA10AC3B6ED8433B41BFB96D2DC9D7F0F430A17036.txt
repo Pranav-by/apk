@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : avm.androiddukkan.mir
+  SHA-256       : 00A3B0D0D62BD8157A7043DA10AC3B6ED8433B41BFB96D2DC9D7F0F430A17036
+  Android Group : Android16
+  Version       : 6.0.0 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 36
+
+[Permissions (7)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, avm.androiddukkan.mir.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CAMERA, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (5): com.google.android.gms.common.api.GoogleApiActivity, avm.androiddukkan.activty.PermissionActivity, com.facebook.ads.AudienceNetworkActivity, com.mobilrek.ads.AdActivity, avm.androiddukkan.mir.MirrorActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3159
+  Total Methods : 20603
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://play.google.com/store/apps/details?id=, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: androiddukkan
+  Fingerprint : FA E4 07 34 1E DA 3B BE E7 42 A5 00 A9 78 21 37 0C DD 75 5A 16 4A 7A 8E 27 FF 84 1B 84 D1 51 8B
+
+==========================================

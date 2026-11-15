@@ -1,0 +1,81 @@
+{
+  "sha256": "00A7AB3F4777BF83EA47800A99A0324B522760DB1D74646049D2D64AC45B08B1",
+  "filename": "00A7AB3F4777BF83EA47800A99A0324B522760DB1D74646049D2D64AC45B08B1.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.dragon.robot.car.transformation.robot.war",
+  "version_name": "0.3",
+  "version_code": "3",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity"
+  ],
+  "activity_count": 9,
+  "services": [
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 9825,
+  "method_count": 46416,
+  "cert_fingerprint": "63 12 F6 E0 F9 13 B6 19 D9 17 82 65 5C 7A C2 CF 7C CA 43 28 CB 69 A5 9B 9F FF 95 6D A8 71 59 5B",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://goo.gl/J1sWQy",
+    "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://developers.google.com/admob/android/test-ads#enable_test_devices"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

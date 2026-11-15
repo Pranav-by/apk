@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tyfoom.android.tyfoom
+  SHA-256       : 00A40C3A3CF774A31E4D1292EF5689FDC8F9CBB9EA7F44D2046BD62382C875D5
+  Android Group : Android14
+  Version       : 2.7.5 (code: 501)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (41)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.USE_FULL_SCREEN_INTENT, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (10): io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.bugfender.sdk.ui.FeedbackActivity, com.yalantis.ucrop.UCropActivity, com.tyfoom.android.tyfoom.MainActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance
+  Services   (17): com.transistorsoft.tsbackgroundfetch.FetchJobService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.baseflow.geolocator.GeolocatorLocationService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver, com.transistorsoft.tsbackgroundfetch.BootReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (7): com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider, net.nfet.flutter.printing.PrintFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10409
+  Total Methods : 50929
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Tyfoom Developer
+  Fingerprint : A3 B5 4A 4C AD EB 0F F2 D0 C0 CF 1D E4 F2 76 9A 7E D0 53 90 FA 06 17 E8 80 C4 50 9F BD 4D 1C 7C
+
+==========================================

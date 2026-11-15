@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : studio.love.sweet.flirtytexts
+  SHA-256       : 00146BA45B72785CFA275B4994B5D95904BB3470EAE050D1750864F6289999B5
+  Android Group : Android12L
+  Version       : 2.1 (code: 14)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (9)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (6): studio.love.sweet.flirtytexts.SecondActivity, studio.love.sweet.flirtytexts.FavoriteActivity, com.google.android.gms.ads.AdActivity, studio.love.sweet.flirtytexts.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, studio.love.sweet.flirtytexts.ThirdActivity
+  Services   (11): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (3): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7431
+  Total Methods : 33789
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DF E4 19 11 32 CA 7B AF 4F ED D8 C2 92 CB 17 B4 6E F2 A4 8E 60 9A 4B 3A 8C 25 2A E5 56 CE F8 1B
+
+==========================================

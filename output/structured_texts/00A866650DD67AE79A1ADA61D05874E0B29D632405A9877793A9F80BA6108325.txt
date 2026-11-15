@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hilal.play
+  SHA-256       : 00A866650DD67AE79A1ADA61D05874E0B29D632405A9877793A9F80BA6108325
+  Android Group : Android12L
+  Version       : 1.3.2 (code: 100227)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (11)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (37): com.volantx.vxstream.mobile.view.setting.browser.InAppBrowserActivity, com.volantx.vxstream.mobile.view.setting.pick.AppSettingPickActivity, com.volantx.vxstream.mobile.view.setting.app.AppSettingActivity, com.volantx.vxstream.mobile.view.player.livePlayer.LivePlayerActivity, com.volantx.vxstream.mobile.view.player.PlayerActivity, com.volantx.vxstream.mobile.view.setting.account.AccountActivity, com.volantx.vxstream.mobile.view.subscriptions.ChangePlanActivity, com.volantx.vxstream.mobile.view.subscriptions.PaymentMethodActivity, com.android.billingclient.api.ProxyBillingActivity, com.volantx.vxstream.mobile.view.subscriptions.SubscriptionPlansActivity, com.google.android.gms.ads.AdActivity, com.volantx.vxstream.mobile.view.setting.activeDevice.ActiveDeviceActivity, com.google.android.gms.common.api.GoogleApiActivity, com.volantx.vxstream.mobile.view.setting.list.MyListActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.CustomTabMainActivity, com.volantx.vxstream.mobile.view.detail.EpisodeDetailActivity, com.facebook.CustomTabActivity, com.volantx.vxstream.mobile.view.sign.up.SignUpActivity, com.facebook.FacebookActivity
+  Services   (18): com.volantx.vxstream.mobile.common.download.DownloadService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService, com.volantx.vxplayer.download.VxDownloadService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.volantx.vxstream.mobile.common.pushnotification.MyFirebaseMessagingService, com.google.android.gms.cast.framework.media.MediaNotificationService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.cast.framework.ReconnectionService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (4): com.google.firebase.perf.provider.FirebasePerfProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 40418
+  Total Methods : 251072
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 99 79 A0 BE 70 C8 8D 67 2E DA 95 4F 58 16 74 27 E1 88 DD AA 7A F1 83 93 4C 92 1C 69 CD D4 FD 43
+
+==========================================

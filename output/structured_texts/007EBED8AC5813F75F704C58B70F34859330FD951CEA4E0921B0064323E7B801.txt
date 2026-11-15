@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.astromobile.stickers.dortmund
+  SHA-256       : 007EBED8AC5813F75F704C58B70F34859330FD951CEA4E0921B0064323E7B801
+  Android Group : Android13
+  Version       : 1.7 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (28)]
+  android.permission.SET_WALLPAPER, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, com.astromobile.stickers.dortmund.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.astromobile.stickers.dortmund.permission.C2D_MESSAGE, com.google.android.gms.permission.AD_ID, com.htc.launcher.permission.READ_SETTINGS
+
+[Application Components]
+  Activities (14): com.astromobile.stickers.cloud.activities.RequestPermissionActivity, com.onesignal.PermissionsActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.ads.AdActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.google.android.gms.ads.OutOfContextTestingActivity, com.astromobile.stickers.cloud.whatsapp.StickerPackInfoActivity, com.astromobile.stickers.whatsapp.StickerPackTabbedListActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.astromobile.stickers.cloud.whatsapp.StickerPackDetailsActivity, com.onesignal.NotificationOpenedReceiver, com.onesignal.NotificationOpenedActivityHMS, com.astromobile.stickers.cloud.whatsapp.EntryActivity
+  Services   (18): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentJobService, com.onesignal.FCMIntentService, com.onesignal.SyncJobService, com.onesignal.FocusDelaySyncService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.FocusDelaySyncJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.onesignal.SyncService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.BootUpReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.onesignal.NotificationDismissReceiver
+  Providers  (5): androidx.core.content.FileProvider, com.astromobile.stickers.cloud.whatsapp.StickerContentProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 25508
+  Total Methods : 168955
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CB C0 ED DC BE A4 9B 01 4A EC 86 41 1D 7C 75 81 B8 88 4B F1 23 46 DF 39 A4 AD 21 46 93 4B AF 08
+
+==========================================

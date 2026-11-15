@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : profitchartandroid.nelogica.com.profitchartandroid.blackArrowNelogica
+  SHA-256       : 001C758EC6C3376128F1FC2D142CA33E3C115B2505F219CFD4F82495F720075D
+  Android Group : Android13
+  Version       : 2.0.11 (code: 35)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.VIBRATE, com.android.vending.BILLING, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (11): com.facebook.CustomTabMainActivity, androidx.biometric.DeviceCredentialHandlerActivity, com.epicshaggy.biometric.AuthActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.nelogica.ProfitLite.MainActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.facebook.CustomTabActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (6): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.capacitorjs.plugins.pushnotifications.MessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (4): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.ryltsov.alex.plugins.file.opener.FileOpenerProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11229
+  Total Methods : 70172
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: ProfitChartAndroid, Organization: Nelogica, Locality: Porto Alegre, State/Province: Rio Grande do Sul, Country: 55
+  Fingerprint : 94 BF F3 8A 43 89 92 C4 F6 6C B0 C5 71 19 39 DB 02 19 47 B5 B8 FD 14 92 FB FC BD 6C 6C 1B 2F 69
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.easterndelightoakham
+  SHA-256       : 00A3BD65B63CFDF9BEA0DCADAB51556C33E1A407D2C55C7BF0B3971EE7641073
+  Android Group : Android14
+  Version       : 10.39 (code: 50152)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (39)]
+  com.oppo.launcher.permission.READ_SETTINGS, com.easterndelightoakham.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, android.permission.ACCESS_COARSE_LOCATION, com.easterndelightoakham.permission.WRITE_SCHEDULE, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+
+[Application Components]
+  Activities (30): com.zoho.desk.asap.asap_tickets.activities.TicketsActivity, com.zoho.desk.asap.asap_tickets.activities.AddEditTicketActivity, com.zoho.desk.asap.asap_tickets.activities.TicketDetailsActivity, com.zoho.desk.asap.common.activities.AttachmentsViewerActivity, com.zoho.livechat.android.ui.activities.SalesIQActivity, com.zoho.livechat.android.ui.activities.ArticlesActivity, com.zoho.livechat.android.ui.activities.ChatActivity, com.zoho.desk.asap.activities.DeskNavigationActivity, com.zoho.livechat.android.ViewBotCardImageActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.CustomTabMainActivity, com.zoho.desk.asap.kb.activities.KBArticleFeedbackActivity, com.facebook.CustomTabActivity, com.facebook.FacebookActivity, com.zoho.desk.asap.activities.DeskMainActivity, com.google.android.gms.common.api.GoogleApiActivity, net.openid.appauth.AuthorizationManagementActivity, com.zoho.desk.asap.kb.activities.KBActivity, net.openid.appauth.RedirectUriReceiverActivity, com.zoho.accounts.clientframework.WebViewActivity
+  Services   (22): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.moengage.core.MoEWorker, com.moengage.core.DataSyncJob, com.moengage.pushbase.push.MoEPushWorker, com.moengage.rtt.internal.RttIntentService, com.google.firebase.components.ComponentDiscoveryService, com.moengage.rtt.internal.RttSyncJob, com.moengage.pushamp.internal.PushAmpIntentService, com.moengage.pushamp.internal.PushAmpSyncJob, com.t2s.PushNotification.FHPushNotificationListenerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+  Receivers  (24): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.zoho.livechat.android.NotificationDeleteReceiver, com.zoho.salesiqembed.android.TriggerReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationActions, androidx.profileinstaller.ProfileInstallReceiver, com.moengage.core.MoEAlarmReceiver, com.moengage.pushbase.MoEPushReceiver, com.moengage.rtt.internal.RttReceiver
+  Providers  (12): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.RNFetchBlob.Utils.FileProvider, com.zoho.desk.asap.common.utils.ASAPFileProvider, com.zoho.livechat.android.provider.MobilistenInitProvider, com.zoho.livechat.android.provider.ZohoLDContentProvider, com.squareup.picasso.PicassoProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, com.zoho.livechat.android.provider.MobilistenFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 32270
+  Total Methods : 211411
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 62 C3 58 13 DB 8D 13 A6 67 0A F3 EC 5B 36 82 80 78 AD 8C 11 B9 7E D9 76 18 F5 8F EE 50 58 A4 8D
+
+==========================================

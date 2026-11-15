@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.progstech.bubblegame
+  SHA-256       : 007BF6BD35BE2A4584994067F43EA4D00689456D65105A397F22ACBC2D37C3B6
+  Android Group : Android12
+  Version       : 2022.09.18_gp (code: 62)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (5)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (4): com.yandex.mobile.ads.common.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.player.UnityPlayerActivity, com.my.target.common.MyTargetActivity
+  Services   (3): com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService
+  Receivers  (0): none
+  Providers  (3): com.my.target.common.MyTargetContentProvider, com.yandex.metrica.PreloadInfoContentProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12921
+  Total Methods : 65424
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://yandex.com/dev/appmetrica/doc/mobile-sdk-dg/concepts/android-initialize.html, https://exoplayer.dev/issues/cleartext-not-permitted
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: ProgsTech, Organizational Unit: ProgsTech, Common Name: ProgsTech
+  Fingerprint : EF 39 72 CB C0 91 90 45 AC D3 3B 82 B0 92 1F 47 E6 68 F9 91 F6 08 DA 15 7D EA 13 3A CA E7 CE 49
+
+==========================================

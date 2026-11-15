@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.caller.name.location.numbertracker
+  SHA-256       : 0090D28667D291FEBEBA47F93E669A5324E338BAEDB8F1D3E4AE5134230830FD
+  Android Group : Android12
+  Version       : 6.0 (code: 60)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (51)]
+  com.caller.name.location.numbertracker.permission.C2D_MESSAGE, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ANSWER_PHONE_CALLS, android.permission.BATTERY_STATS, android.permission.WRITE_CALL_LOG, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.READ_CALL_LOG, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, android.telecom.action.CONFIGURE_PHONE_ACCOUNT, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.hardware.location.network
+
+[Application Components]
+  Activities (74): com.caller.name.location.numbertracker.activity.RechargeDetailsActivity, com.caller.name.location.numbertracker.activity.LocationInfoActivity, com.google.android.ads.mediationtestsuite.activities.ConfigurationItemsSearchActivity, com.caller.name.location.numbertracker.activity.SearchActivity, com.caller.name.location.numbertracker.activity.SpamContactActivity, com.calldorado.ui.settings.SettingsActivity, com.calldorado.ui.settings.LicensesActivity, com.caller.name.location.numbertracker.activity.DisplayImageProfileActivity, com.caller.name.location.numbertracker.activity.CallBlockerActivity, com.caller.name.location.numbertracker.activity.BankInfoActivity, com.caller.name.location.numbertracker.activity.USSDDetailActivity, com.caller.name.location.numbertracker.activity.AboutUsActivity, com.caller.name.location.numbertracker.activity.SplashActivity, com.calldorado.ui.wic.WicDialogActivity, com.onesignal.PermissionsActivity, com.google.android.ads.mediationtestsuite.activities.HomeActivity, com.onesignal.NotificationOpenedReceiver, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.caller.name.location.numbertracker.activity.ToolsListActivity, com.google.android.libraries.places.widget.AutocompleteActivity
+  Services   (38): com.calldorado.services.CalldoradoCommunicationService, com.calldorado.services.InitService, com.calldorado.services.InitJobService, com.applovin.impl.adview.activity.FullscreenAdService, com.yandex.metrica.MetricaService, com.calldorado.ad.AdLoadingJobService, com.calldorado.services.GoogleSyncService, com.applovin.impl.sdk.utils.AppKilledService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.calldorado.c1o.sdk.framework.AnaSDKService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.qualityinfo.InsightService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.calldorado.services.scraping.DataUtilityService, com.qualityinfo.ConnectivityService
+  Receivers  (31): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.calldorado.notifications.UpdateNotificationReceiver, com.onesignal.BootUpReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.caller.name.location.numbertracker.Reciever.CallReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.caller.name.location.numbertracker.Reciever.ReminderReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.caller.name.location.numbertracker.Reciever.FirebaseEventBroadcastReceiver, com.calldorado.notifications.ReoptinNotificationReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.calldorado.notifications.CallReminderNotificationReceiver
+  Providers  (9): com.yandex.metrica.PreloadInfoContentProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.squareup.picasso.PicassoProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.core.content.FileProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23706
+  Total Methods : 115840
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://developers.facebook.com/docs/sharing/android, https://www.apache.org/licenses/LICENSE-2.0, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(5): 6.8.0.9, 255.255.255.255, 20.6.0.10, 20.6.0.11, 6.8.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F1 D0 1E 9F 8A 35 AC 87 76 9D DF D4 9D 91 D6 A1 1C C7 34 62 F3 82 56 DF B0 F6 DA 15 FD 09 1E FE
+
+==========================================

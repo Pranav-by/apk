@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.steuerbot
+  SHA-256       : 00877EBD6F9AC46F25670624EB656A4D23D139EE49E20DB35A9F98402453ED0F
+  Android Group : Android12
+  Version       : 2.15.0 (code: 580)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (21)]
+  android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.USE_BIOMETRIC, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.USE_FINGERPRINT, android.permission.HIGH_SAMPLING_RATE_SENSORS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FLASHLIGHT, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (14): de.idnow.core.ui.consent.IDnowPrivacyActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facetec.sdk.FaceTecSessionActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, de.idnow.core.ui.qes.IDnowQesNameConfirmingActivity, de.idnow.core.ui.IDnowActivity, de.idnow.core.ui.emirates.IDnowEmiratesCardInputActivity, androidx.compose.ui.tooling.PreviewActivity, com.proyecto26.inappbrowser.ChromeTabsManagerActivity, de.idnow.core.ui.emirates.IDnowEmiratesNfcActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, de.idnow.core.ui.qes.IDnowQesTermsActivity, com.steuerbot.MainActivity
+  Services   (18): androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, de.idnow.core.capture.video.RecorderService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, androidx.camera.core.impl.MetadataHolderService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (15): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.adjust.sdk.AdjustReferrerReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (8): com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.ReactNativeBlobUtil.Utils.FileProvider, cl.json.RNShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 31392
+  Total Methods : 200954
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8E 6A 31 9A 50 0C 48 0C D5 50 3C 3C 2F BA EB 05 0D D0 D6 94 48 03 E2 26 29 F2 54 C1 D3 12 A6 39
+
+==========================================

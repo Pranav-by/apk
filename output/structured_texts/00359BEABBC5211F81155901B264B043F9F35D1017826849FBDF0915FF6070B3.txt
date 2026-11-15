@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.funny.jokes.urdu.dailyupdate
+  SHA-256       : 00359BEABBC5211F81155901B264B043F9F35D1017826849FBDF0915FF6070B3
+  Android Group : Android14
+  Version       : 8 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, com.funny.jokes.urdu.dailyupdate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (31): com.funny.jokes.urdu.dailyupdate.activity_post_status, com.funny.jokes.urdu.dailyupdate.activity_all_jokes, com.funny.jokes.urdu.dailyupdate.activity_img, com.facebook.FacebookActivity, com.funny.jokes.urdu.dailyupdate.activity_my_all_post, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.ads.AdActivity, com.firebase.ui.auth.ui.credentials.CredentialSaveActivity, com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.firebase.ui.auth.ui.idp.SingleSignInActivity, com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity, com.firebase.ui.auth.ui.email.EmailActivity, com.firebase.ui.auth.ui.phone.PhoneActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.firebase.ui.auth.ui.email.RecoverPasswordActivity, com.funny.jokes.urdu.dailyupdate.activity_favourite, com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+  Services   (13): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.funny.jokes.urdu.dailyupdate.adapter.MessagingService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (6): com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.firebase.ui.auth.data.client.AuthUiInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13529
+  Total Methods : 63024
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://firebase.google.com/docs/analytics, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 89 0D 3F 5D A6 84 64 AB 80 01 4A 9E 15 E5 5A 55 F4 79 AA 59 0E B5 91 74 60 53 B6 41 29 F7 45 EF
+
+==========================================

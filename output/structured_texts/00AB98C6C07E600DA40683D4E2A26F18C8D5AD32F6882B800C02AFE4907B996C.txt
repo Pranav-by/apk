@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sdg.indian.gangster.crime.game
+  SHA-256       : 00AB98C6C07E600DA40683D4E2A26F18C8D5AD32F6882B800C02AFE4907B996C
+  Android Group : Android12L
+  Version       : 11 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (21): com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity
+  Services   (8): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.foreground.SystemForegroundService, com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, com.applovin.impl.sdk.utils.AppKilledService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (3): com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14609
+  Total Methods : 81782
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 24 3B 71 6E B9 97 11 DC EC 4E 78 CD 72 DE 0A 63 74 C3 E3 9E C3 19 42 DA 1B 27 2C 75 1D 86 3D A0
+
+==========================================

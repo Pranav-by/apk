@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : info.forsage
+  SHA-256       : 00258A5C4A9FFA4E42EB60668E90DE41BC38D87B9A6F71C90672FD74971C9AA2
+  Android Group : Android13
+  Version       : 1.0 (code: 30000000)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (38)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.RECORD_AUDIO, info.forsage.permission.C2D_MESSAGE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_INTERNAL_STORAGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.READ_APP_BADGE
+
+[Application Components]
+  Activities (14): com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedReceiver, webviewgold.myappname.SplashScreen, com.google.android.gms.ads.AdActivity, webviewgold.myappname.nfc.MyNfcActivity, webviewgold.myappname.MainActivity, webviewgold.myappname.SplashScreenActivity, com.blikoon.qrcodescanner.QrCodeActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.jaiselrahman.filepicker.activity.FilePickerActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (17): com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, webviewgold.myappname.MyFirebaseMessagingService, com.onesignal.HmsMessageServiceOneSignal, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.onesignal.FCMIntentService, com.onesignal.SyncService, com.onesignal.FCMIntentJobService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.SyncJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.ads.AdService
+  Receivers  (15): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.BootUpReceiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (6): webviewgold.myappname.GenericFileProvider, com.jaiselrahman.filepicker.utils.FilePickerProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17425
+  Total Methods : 101301
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Organization: Appverter
+  Fingerprint : F3 C4 B4 91 EA D3 0F 15 37 8A 3A B4 E7 00 6C A0 6A AC A8 A4 4A 4C 2C 95 5B 59 25 B1 F5 51 F0 BF
+
+==========================================

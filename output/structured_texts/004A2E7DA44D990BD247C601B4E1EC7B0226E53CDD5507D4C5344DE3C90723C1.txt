@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.directed.android.smartstart
+  SHA-256       : 004A2E7DA44D990BD247C601B4E1EC7B0226E53CDD5507D4C5344DE3C90723C1
+  Android Group : Android13
+  Version       : 5.4.4 (code: 549)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (24)]
+  android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.PROVIDE_BACKGROUND, android.permission.BLUETOOTH, android.permission.MAPS_RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.amazon.device.messaging.permission.RECEIVE, android.permission.USE_FINGERPRINT, com.directed.android.smartstart.permission.RECEIVE_ADM_MESSAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.BLUETOOTH_CONNECT, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS
+
+[Application Components]
+  Activities (92): com.mjd.viper.screen.help.HelpActivity, com.mjd.viper.activity.NotificationsSettingsActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.mjd.viper.activity.ManageAlertsActivity, com.mjd.viper.activity.SmartFenceEditLocationActivity, com.urbanairship.util.HelperActivity, com.mjd.viper.activity.picker.TemperaturePickerActivity, com.mjd.viper.activity.motorclub.MotorClubActivity, com.mjd.viper.activity.SplashScreenActivity, com.mjd.viper.activity.motorclub.MotorClubViperActivity, com.urbanairship.actions.WalletLoadingActivity, com.mjd.viper.activity.ImageCropActivity, com.mjd.viper.activity.BarCodeVinActivity, com.mjd.viper.activity.motorclub.MotorClubRegisterActivity, com.mjd.viper.activity.UnitsSettingsActivity, com.mjd.viper.activity.BarCodeActivity, com.mjd.viper.activity.CreateSmartFenceAlertActivity, com.mjd.viper.activity.AlertLocationActivity, com.mjd.viper.screen.settings.vehicle.powersport.WaterModeSettingActivity, com.mjd.viper.activity.realTimeStatusSettings.RealtimeStatusSettingsActivity
+  Services   (23): com.mjd.viper.service.PushNotificationMessageService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.urbanairship.push.adm.AdmHandlerJobBase, com.urbanairship.push.adm.AdmHandlerBase, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.urbanairship.push.fcm.AirshipFirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.mjd.viper.service.NotificationService, com.mjd.viper.wearable.listener.MobileStartCarListenerService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.CampaignTrackingService, com.mjd.viper.service.CommandService
+  Receivers  (22): com.urbanairship.push.adm.AdmPushReceiver, com.mjd.viper.utils.ConnectivityUtils$ConnectivityReceiver, com.mjd.viper.notification.actions.StartCarActionReceiver, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.analytics.CampaignTrackingReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.mjd.viper.bluetooth.BluetoothReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.mjd.viper.bluetooth.BootupReceiver, com.mjd.viper.widget.SmartStartWidgetProvider, com.google.firebase.messaging.directboot.FirebaseMessagingDirectBootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.urbanairship.push.NotificationProxyReceiver, com.urbanairship.locale.LocaleChangeReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (5): com.mjd.viper.model.store.DatabaseContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 29641
+  Total Methods : 190620
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, http://goo.gl/8Rd3yj, https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 1.3.2.0
+
+[Certificate]
+  Issuer      : Common Name: John Durbin, Organizational Unit: Directed Electronics, Locality: New York, State/Province: NY, Country: 1
+  Fingerprint : 0D 37 F5 20 C3 5D 73 89 07 36 E2 B0 5A EE 15 A6 28 10 E8 FE 04 A0 AD BB 96 A2 7C 7B 9F C6 FC FA
+
+==========================================

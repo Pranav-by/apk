@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.octopoos.coach
+  SHA-256       : 00A02B193FD3F54AFE2E1A4523141290421A61946901B1F27735C0F982CA82C6
+  Android Group : Android13
+  Version       : 8.6.148 (code: 422)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (42)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.WRITE_CALENDAR, me.everything.badger.permission.BADGE_COUNT_READ, app.octopoos.coach.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.WRITE_CONTACTS, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.BLUETOOTH_ADMIN, android.permission.READ_CONTACTS, android.permission.BLUETOOTH, android.permission.SCHEDULE_EXACT_ALARM, com.sec.android.provider.badge.permission.READ, android.permission.USE_FULL_SCREEN_INTENT
+
+[Application Components]
+  Activities (14): com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.firebase.auth.internal.GenericIdpActivity, app.octopoos.coach.MainActivity, com.facebook.FacebookActivity, com.android.billingclient.api.ProxyBillingActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.journeyapps.barcodescanner.CaptureActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity
+  Services   (10): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (11): dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.amazon.device.iap.ResponseReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (6): com.facebook.internal.FacebookInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, androidx.startup.InitializationProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 26372
+  Total Methods : 183022
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(2): 2.10.1.0, 2.9.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 96 49 AE C0 8C 39 32 33 6D B1 0F 15 99 3A 6E 87 C2 DF FD 47 CB 14 B4 6C E5 5B CA 44 7F 44 7F D5
+
+==========================================

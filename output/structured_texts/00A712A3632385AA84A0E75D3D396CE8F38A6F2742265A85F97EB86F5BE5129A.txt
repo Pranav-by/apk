@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.cyberdream.dreamepg.tvh.tv.player
+  SHA-256       : 00A712A3632385AA84A0E75D3D396CE8F38A6F2742265A85F97EB86F5BE5129A
+  Android Group : Android16
+  Version       : 9.1.0 (code: 41114)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, de.cyberdream.dreamepg.tvh.tv.player.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING
+
+[Application Components]
+  Activities (31): de.cyberdream.dreamepg.settings.SettingsPiconsActivity, de.cyberdream.dreamepg.TVVideoActivity, de.cyberdream.dreamepg.SettingsActivity, de.duenndns.ssl.MemorizingActivity, de.cyberdream.dreamepg.PINActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, de.cyberdream.dreamepg.settings.SettingsAudioActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, de.cyberdream.dreamepg.MainActivityTV, de.cyberdream.dreamepg.TimelineActivity, de.cyberdream.dreamepg.ListActivityTVMovie, de.cyberdream.dreamepg.ListActivityTVEvent, com.google.android.gms.common.api.GoogleApiActivity, de.cyberdream.dreamepg.AboutActivity, de.cyberdream.dreamepg.HbbTVActivity, de.cyberdream.dreamepg.settings.SettingsDecoderActivity, de.cyberdream.dreamepg.SearchActivity, de.cyberdream.dreamepg.GuidedStepWizardActivity, de.cyberdream.dreamepg.settings.SettingsRecordActivity
+  Services   (10): de.cyberdream.dreamepg.WebService, de.cyberdream.dreamepg.FetchDownloadServiceTV, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.cast.framework.ReconnectionService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, de.cyberdream.dreamepg.TimeshiftService
+  Receivers  (15): de.cyberdream.dreamepg.RemoteControlReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, de.cyberdream.dreamepg.StartReceiver, de.cyberdream.dreamepg.AlarmManagerReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, de.cyberdream.dreamepg.NotificationAlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 16496
+  Total Methods : 111351
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Organization: CyberDream, Locality: Karlsruhe
+  Fingerprint : FF 84 63 16 33 D9 B9 9A FC 1F DC 5E 21 BF AA 69 A0 EA 28 5C 44 0C F3 F5 42 AB 58 96 4F E9 1F 97
+
+==========================================

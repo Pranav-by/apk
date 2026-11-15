@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : safebag24.com.sostraveller
+  SHA-256       : 00A31AC14C8C60ADA2D6BC9ACB97B5379357507E70107AD42BED081C7C22BF9B
+  Android Group : Android12
+  Version       : 2.3.0 (code: 60)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (8)]
+  android.permission.READ_PHONE_STATE, android.permission.CAMERA, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.REORDER_TASKS, android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (4): safebag24.com.sostraveller.activity.MainActivity, com.journeyapps.barcodescanner.CaptureActivity, safebag24.com.sostraveller.activity.ListViewActivity, safebag24.com.sostraveller.activity.ConfigActivity
+  Services   (0): none
+  Receivers  (1): safebag24.com.sostraveller.utils.BootReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6933
+  Total Methods : 51973
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Simone Gamba, Organizational Unit: R&D, Organization: Safe Bag Spa, Locality: Gallarate, State/Province: Varese, Country: IT
+  Fingerprint : A9 83 AB 32 36 1E 6C 97 A1 10 CC 9A 0B D5 44 CC BA 0B 55 66 F1 0E 25 5A 9E 43 BB 8F C3 26 B3 33
+
+==========================================

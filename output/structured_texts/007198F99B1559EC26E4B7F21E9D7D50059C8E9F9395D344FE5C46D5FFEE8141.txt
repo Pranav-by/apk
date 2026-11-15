@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : br.com.insper.Insper
+  SHA-256       : 007198F99B1559EC26E4B7F21E9D7D50059C8E9F9395D344FE5C46D5FFEE8141
+  Android Group : Android12
+  Version       : 0.66 (code: 66)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_CALENDAR, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.USE_FINGERPRINT, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_CALENDAR, com.google.android.c2dm.permission.RECEIVE, android.permission.GET_ACCOUNTS, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE, br.com.insper.Insper.permission.C2D_MESSAGE
+
+[Application Components]
+  Activities (6): crc64cb483e6da9793e28.OpenApp, crc64cf3a1757fdc68de7.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, crc64cf3a1757fdc68de7.SplashActivity, crc6480997b3ef81bf9b2.ZxingActivity, crc646957603ea1820544.MediaPickerActivity
+  Services   (10): com.google.android.gms.analytics.AnalyticsService, crc645fe572437fa6e448.FirebaseRegistrationService, crc64a98abb514ffad9f1.KeepAliveService, com.google.firebase.iid.FirebaseInstanceIdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, crc645fe572437fa6e448.MessagingService
+  Receivers  (12): crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver, crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver, crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver, crc64cea48322b3427ae9.ConnectivityChangeBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.firebase.iid.FirebaseInstanceIdInternalReceiver, com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver, com.google.android.gms.analytics.AnalyticsReceiver, crc645fe572437fa6e448.BootCompletedBroadcastMessageReceiver, crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver
+  Providers  (5): xamarin.essentials.fileProvider, mono.android.MultiDexLoader, android.support.v4.content.FileProvider, mono.MonoRuntimeProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5502
+  Total Methods : 40465
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://goo.gl/8Rd3yj
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4D 44 CC 60 18 FF 91 19 F0 6A 01 D5 17 BA CE 36 D8 FE 2A BD 0D 04 85 68 F2 54 AD 82 D8 EC 91 B5
+
+==========================================

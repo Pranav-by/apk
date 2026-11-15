@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.yy.solitaire.classic.card.game.free
+  SHA-256       : 0016FA4E603CD2C200A1484AE936F56FEE5D383AE16B3F9E030527C1885C597A
+  Android Group : Android14
+  Version       : 1.1.9 (code: 253)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.yy.solitaire.classic.card.game.free.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (28): com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.adview.AppLovinFullscreenThemedActivity, com.google.android.gms.ads.AdActivity, com.applovin.adview.AppLovinFullscreenActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity
+  Services   (9): com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (11): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.unity.androidnotifications.UnityNotificationManager, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (3): com.applovin.sdk.AppLovinInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 19674
+  Total Methods : 111017
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B8 A5 76 8E C5 5A F3 D2 F4 4F D0 F8 D4 D6 96 19 7C 07 16 6D E1 22 65 9D 16 84 02 84 22 32 5B 79
+
+==========================================

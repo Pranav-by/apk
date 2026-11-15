@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.uneedcomms.indiplecokr
+  SHA-256       : 00A54C71ABF242A494C39E89440EBB4705096B9600F661F4F210F24FE78535C4
+  Android Group : Android15
+  Version       : 1.0.30240 (code: 45)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (36)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, com.uneedcomms.indiplecokr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE
+
+[Application Components]
+  Activities (12): com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.facebook.CustomTabMainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.FacebookActivity, com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity, com.facebook.CustomTabActivity, com.google.android.gms.common.api.GoogleApiActivity, com.cafe24.ec.pluscafe24plusapp.MainActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity
+  Services   (9): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (9): com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (6): dev.fluttercommunity.plus.share.ShareFileProvider, com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFileProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13470
+  Total Methods : 79088
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://developers.facebook.com/docs/sharing/android, https://issuetracker.google.com/issues/241760537, https://firebase.google.com/support/, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: smartskin, Organizational Unit: Development, Organization: Uneedcomms. Inc., Locality: seoul, State/Province: south korea, Country: KR
+  Fingerprint : 50 34 C4 21 97 97 34 54 1E 20 6C D8 11 45 4D E0 41 7B E5 BF 17 1F 1D 52 99 3C 88 DD C2 49 CF 88
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : us.sol.JacksonDistrictLibrary
+  SHA-256       : 00AB3A425091DD25E7DBCE117057B2B9D6FE171286F88C5EBF8DA58D75B14AB4
+  Android Group : Android15
+  Version       : 2026.18 (code: 2026180300)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (37)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, us.sol.JacksonDistrictLibrary.permission.BackgroundHandlerActivity, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.USE_FINGERPRINT, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (7): com.google.zxing.client.android.CaptureActivity, com.google.zxing.client.android.encode.EncodeActivity, com.adobe.phonegap.push.PushHandlerActivity, com.adobe.phonegap.push.BackgroundHandlerActivity, de.niklasmerz.cordova.biometric.BiometricActivity, com.google.android.gms.common.api.GoogleApiActivity, solus.Libraries.MainActivity
+  Services   (10): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, org.altbeacon.beacon.service.ScanJob, org.altbeacon.bluetooth.BluetoothTestJob, org.altbeacon.beacon.BeaconIntentProcessor, org.altbeacon.beacon.service.BeaconService, de.einfachhans.BackgroundMode.ForegroundService, com.adobe.phonegap.push.FCMService
+  Receivers  (6): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.adobe.phonegap.push.PushDismissedHandler, org.altbeacon.beacon.startup.StartupBroadcastReceiver, com.adobe.phonegap.push.BackgroundActionButtonHandler
+  Providers  (4): org.apache.cordova.camera.FileProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9355
+  Total Methods : 62023
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F3 15 46 19 78 E7 43 1C 40 F0 3F FC 9E DA E5 A9 72 08 54 A8 9C 1C 3F C9 F5 F5 88 04 75 18 EF B6
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.polikum.sputnik
+  SHA-256       : 00A2C5F0C33C6AA6054366FDEEF94E9F3E81E8CBEC7D45E4BDC3AE341D2B014E
+  Android Group : Android14
+  Version       : 1.1.8 (code: 25)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (31)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, io.polikum.sputnik.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (11): com.google.android.gms.ads.NotificationHandlerActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, io.polikum.sputnik.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.firebase.auth.internal.RecaptchaActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (16): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (4): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16363
+  Total Methods : 78140
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://github.com/tink-crypto/tink-java, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://firebase.google.com/docs/analytics, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/tink/faq/registration_errors, https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A1 5D EB A5 EF 0F E8 8D C9 E8 A6 A6 A3 CD 03 64 B6 E1 C0 CB BE FE B6 56 52 12 90 C3 B5 A2 BC 04
+
+==========================================

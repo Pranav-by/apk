@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bgnmobi.hypervpn
+  SHA-256       : 00A8C6CC2BA06AB188A266F1316D4A577ABDFEDA1EC792820E86AEEBEC784B0D
+  Android Group : Android12
+  Version       : 1316u (code: 1316)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (14)]
+  com.google.android.gms.permission.AD_ID, com.google.android.c2dm.permission.RECEIVE, com.google.android.finsky.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.GET_TASKS, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (44): com.applovin.mediation.MaxDebuggerActivity, com.bgnmobi.hypervpn.mobile.activities.PremiumActivity, com.applovin.sdk.AppLovinWebViewActivity, com.bgnmobi.hypervpn.mobile.activities.StartupActivity, com.applovin.adview.AppLovinFullscreenActivity, com.bgnmobi.hypervpn.base.core.DisconnectVPN, com.applovin.adview.AppLovinInterstitialActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.android.billingclient.api.ProxyBillingActivity, com.bgnmobi.hypervpn.mobile.activities.PrivacyActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.bgnmobi.hypervpn.mobile.activities.ReferralActivity, com.bgnmobi.hypervpn.mobile.activities.MainActivity, com.google.android.gms.ads.AdActivity, com.bgnmobi.hypervpn.mobile.activities.FeedbackActivity, com.tapjoy.TJContentActivity, com.bgnmobi.hypervpn.mobile.activities.EarnFreeTimeActivity, com.tapjoy.mraid.view.Browser, com.tapjoy.mraid.view.ActionHandler, com.bgnmobi.hypervpn.mobile.activities.PremiumSlidesActivity
+  Services   (22): com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.bgnmobi.hypervpn.base.core.OpenVPNService, com.bgnmobi.hypervpn.base.core.OpenVPNStatusService, com.bgnmobi.hypervpn.base.core.OpenVPNTimerService, com.google.android.gms.analytics.CampaignTrackingService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (19): com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.tapjoy.TapjoyReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.bgnmobi.hypervpn.base.core.ConnectionFixPaymentReceiver, com.bgnmobi.manifest.BGNBroadcastProcessor, com.google.android.gms.analytics.CampaignTrackingReceiver, com.bgnmobi.manifest.ReferrerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (8): com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, com.applovin.sdk.AppLovinInitProvider, androidx.core.content.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23090
+  Total Methods : 127930
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): http://tech.tapjoy.com/product-overview/sdk-change-log/tapjoy-and-identifiers, https://errors.rev.cat/configuring-products, https://docs.revenuecat.com/docs/ios-subscription-offers, http://developer.android.com/google/play-services/setup.html
+  IP Addresses(1): 4.6.5.0
+
+[Certificate]
+  Issuer      : Common Name: Ali Burak Goncu, Organizational Unit: SW Development, Organization: Burakgon Bilisim Teknoloji Reklam Sanayi Ticaret Ltd Sti, Locality: Bursa, State/Province: Nilufer, Country: 09
+  Fingerprint : 53 75 78 4B 62 AB ED 92 15 9A D5 96 1F 76 C3 A9 08 9C 43 0A 18 E6 54 77 51 49 66 E5 4C 0A 9E C5
+
+==========================================

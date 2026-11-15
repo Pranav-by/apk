@@ -1,0 +1,50 @@
+{
+  "sha256": "001AADCC50D5DE7CBD514CA955E6D8A42F9880034CEC9D4A5A89CF15E77D7E8F",
+  "filename": "001AADCC50D5DE7CBD514CA955E6D8A42F9880034CEC9D4A5A89CF15E77D7E8F.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "su.jety.vozneskz",
+  "version_name": "2.0.1",
+  "version_code": "202",
+  "min_sdk": "19",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "su.jety.vozneskz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "su.jety.vozneskz.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7019,
+  "method_count": 52416,
+  "cert_fingerprint": "0A C1 92 2E 07 54 A1 AB 8F 06 4C 5E DC 2D 36 FA BC 16 02 F6 B8 8B 05 E3 A1 9A 3C 09 8E ED 2C 94",
+  "cert_issuer": "Common Name: Isakov Vitaliy, Organizational Unit: development, Organization: jety.su, Locality: alma, State/Province: ata, Country: KZ",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

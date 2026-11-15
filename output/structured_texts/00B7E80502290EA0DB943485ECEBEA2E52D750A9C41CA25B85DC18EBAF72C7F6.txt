@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.tapcart.app.id_nkTtrRFnR7
+  SHA-256       : 00B7E80502290EA0DB943485ECEBEA2E52D750A9C41CA25B85DC18EBAF72C7F6
+  Android Group : Android16
+  Version       : 52 (code: 52)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 36
+
+[Permissions (43)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_NETWORK_STATE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW
+
+[Application Components]
+  Activities (11): com.klaviyo.forms.presentation.KlaviyoFormsOverlayActivity, co.tapcart.app.id_nkTtrRFnR7.MainActivity, app.notifee.core.NotificationReceiverActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (20): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, co.tapcart.app.id_nkTtrRFnR7.TapcartMessagingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, expo.modules.notifications.service.ExpoFirebaseMessagingService, androidx.camera.core.impl.MetadataHolderService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, app.notifee.core.ReceiverService, app.notifee.core.ForegroundService, com.klaviyo.pushFcm.KlaviyoPushService
+  Receivers  (22): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, app.notifee.core.RebootBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, expo.modules.notifications.service.NotificationsService, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.klaviyo.location.KlaviyoGeofenceReceiver, com.klaviyo.location.KlaviyoLocationBootReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, app.notifee.core.AlarmPermissionBroadcastReceiver
+  Providers  (10): io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.notifee.NotifeeInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, expo.modules.filesystem.FileSystemFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 43161
+  Total Methods : 275658
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F4 F3 6D 33 6D 96 5C A9 EB D1 90 A9 D5 39 CC DA 34 CA 75 F4 B2 B0 38 A3 AE 93 4C 1D 4C 12 B5 5A
+
+==========================================

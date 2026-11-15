@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.phomotech.weatherapp.paid
+  SHA-256       : 00A4EB82AF408826D0C794C6713E8626F7DFF277D3ECB6EDC96D19C5D59FBF67
+  Android Group : Android13
+  Version       : 12.2.0 (code: 179)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.ACCESS_COARSE_LOCATION, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.VIBRATE, android.permission.INTERNET, com.phomotech.weatherapp.paid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_WIFI_STATE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (13): com.google.android.libraries.places.widget.AutocompleteActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.phomotech.weatherapp.presentation.features.MainActivity, com.phomotech.weatherapp.presentation.features.map.MapsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.phomotech.weatherapp.presentation.widget.WeatherWidgetConfigActivity, com.google.android.gms.ads.AdActivity, com.birjuvachhani.locus.LocusActivity, com.phomotech.weatherapp.presentation.features.web.WebDetailActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.franmontiel.attributionpresenter.AttributionActivity, com.google.firebase.auth.internal.RecaptchaActivity
+  Services   (16): heyalex.widgethelper.WidgetUpdateService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.phomotech.weatherapp.background.services.MyFirebaseMessagingService, com.phomotech.weatherapp.background.services.GCMNotificationIntentService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (15): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.birjuvachhani.locus.LocationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.phomotech.weatherapp.presentation.widget.widgetprovider.WeatherWidgetProvider1x1, com.phomotech.weatherapp.presentation.widget.widgetprovider.WeatherWidgetProviderIOSStyle, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 41810
+  Total Methods : 346623
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 58 CA 9B 40 FE E8 3D 96 F9 40 00 33 31 42 CE FD 69 BA 88 7E FC DE 47 D3 FB 0D 3E 4C B6 EE 5C EB
+
+==========================================

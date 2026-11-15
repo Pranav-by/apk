@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.brilliantgamez.flame.hero.flying.robot.speed.hero
+  SHA-256       : 00A13A65445BE15574B51C746EBE5938DDF5E593EE3E23FB0069B839ECE01F47
+  Android Group : Android13
+  Version       : 3.8 (code: 49)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (9): com.google.android.gms.ads.OutOfContextTestingActivity, com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.android.billingclient.api.ProxyBillingActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity
+  Services   (8): com.google.android.gms.ads.AdService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12189
+  Total Methods : 62560
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://firebase.google.com/support/guides/disable-analytics, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Brilliant Gamez, Common Name: Brilliant Gamez
+  Fingerprint : DC 9D 45 EF 3A B2 DB 3D 1B 81 46 4B E2 B3 A3 56 7E A5 6B 83 D2 0B 0E 5E 0F 5C B8 D6 A8 1A B1 30
+
+==========================================

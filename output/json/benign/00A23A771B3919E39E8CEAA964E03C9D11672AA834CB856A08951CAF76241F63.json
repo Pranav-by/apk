@@ -1,0 +1,60 @@
+{
+  "sha256": "00A23A771B3919E39E8CEAA964E03C9D11672AA834CB856A08951CAF76241F63",
+  "filename": "00A23A771B3919E39E8CEAA964E03C9D11672AA834CB856A08951CAF76241F63.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.PeriodTracker.PeriodCalendar.OvulationTracker.PregnancyTracker",
+  "version_name": "1.0",
+  "version_code": "1",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.WAKE_LOCK",
+    "android.permission.SET_ALARM",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.example.periodtracker.ui.notes.add_notes.AddNotes",
+    "com.example.periodtracker.ui.get_periods_detail.GetPeriodDetails",
+    "pub.devrel.easypermissions.AppSettingsDialogHolderActivity",
+    "com.example.periodtracker.ui.main_screen.MainActivity",
+    "com.example.periodtracker.ui.splash_screen.SplashActivity",
+    "com.example.periodtracker.ui.getDetails.GetDetailsActivity",
+    "com.example.periodtracker.ui.notes.note_list.NotesActivity",
+    "com.example.periodtracker.ui.pin_lock.PinLockActivity"
+  ],
+  "activity_count": 8,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "com.example.periodtracker.utils.alarm_receiver.AlarmReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 9000,
+  "method_count": 62389,
+  "cert_fingerprint": "21 55 3E 94 91 97 98 83 D8 C4 D0 F2 8E 18 CC F4 42 93 F0 66 34 95 54 5C 8D B0 96 03 48 0E 03 5B",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://realm.io/docs/java/latest/#rxjava",
+    "https://issuetracker.google.com/issues/36918154"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

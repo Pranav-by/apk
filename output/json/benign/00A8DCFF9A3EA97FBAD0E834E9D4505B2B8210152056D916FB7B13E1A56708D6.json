@@ -1,0 +1,74 @@
+{
+  "sha256": "00A8DCFF9A3EA97FBAD0E834E9D4505B2B8210152056D916FB7B13E1A56708D6",
+  "filename": "00A8DCFF9A3EA97FBAD0E834E9D4505B2B8210152056D916FB7B13E1A56708D6.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.inadaydevelopment.herdboss",
+  "version_name": "3.10",
+  "version_code": "472",
+  "min_sdk": "19",
+  "target_sdk": "32",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "com.inadaydevelopment.herdboss.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.inadaydevelopment.herdboss.PhotoGalleryActivity_",
+    "com.inadaydevelopment.herdboss.NavControllerActivity_",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.inadaydevelopment.herdboss.AndroidAuthenticatorService"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 12469,
+  "method_count": 90588,
+  "cert_fingerprint": "2F 40 38 1D D1 4B 85 F0 6F D6 97 B7 AB D6 71 B2 E7 1F 38 49 2D 4D FA 07 8C 45 42 F0 87 31 96 DC",
+  "cert_issuer": "Common Name: In A Day Development, Organizational Unit: Android App Development, Organization: In A Day Development, Locality: Los Angeles, State/Province: CA, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

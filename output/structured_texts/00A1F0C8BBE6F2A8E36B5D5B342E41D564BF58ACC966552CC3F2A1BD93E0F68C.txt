@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.oishikenko.android.kenko
+  SHA-256       : 00A1F0C8BBE6F2A8E36B5D5B342E41D564BF58ACC966552CC3F2A1BD93E0F68C
+  Android Group : Android13
+  Version       : 4.7.1 (code: 202)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (13)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, com.oishikenko.android.kenko.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (14): androidx.compose.ui.tooling.PreviewActivity, com.linecorp.linesdk.auth.internal.LineAuthenticationActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.oss.licenses.OssLicensesMenuActivity, com.google.android.gms.oss.licenses.OssLicensesActivity, com.facebook.CustomTabMainActivity, com.oishikenko.android.kenko.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.FacebookActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.facebook.CustomTabActivity, com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity
+  Services   (15): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.oishikenko.android.kenko.service.KenkoFirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.firebase.messaging.FirebaseMessagingService, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (15): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.appsflyer.SingleInstallBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (2): com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 29528
+  Total Methods : 164850
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: oishi kenko, Organizational Unit: company, Organization: oishi kenko, Locality: Tokyo, State/Province: Tokyo, Country: JP
+  Fingerprint : DA 87 BF 0D 82 1B A4 ED 80 33 98 6D C6 97 8A D4 C0 36 7C 03 40 A1 B9 07 AA 23 01 CD 1C 2A 34 3F
+
+==========================================

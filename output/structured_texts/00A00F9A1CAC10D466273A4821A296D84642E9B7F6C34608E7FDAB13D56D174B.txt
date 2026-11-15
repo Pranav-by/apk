@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ferhat.tefhim
+  SHA-256       : 00A00F9A1CAC10D466273A4821A296D84642E9B7F6C34608E7FDAB13D56D174B
+  Android Group : Android14
+  Version       : 3.5 (code: 26)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (5)]
+  android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, com.ferhat.tefhim.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (8): com.ferhat.tefhim.ListActivity_, com.ferhat.tefhim.DavetActivity, com.ferhat.tefhim.ReadWebActivity_, com.ferhat.tefhim.NoteActivity, com.ferhat.tefhim.NoteDetailActivity_, com.ferhat.tefhim.BookmarkActivity, com.ferhat.tefhim.SearchActivity, com.ferhat.tefhim.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6329
+  Total Methods : 47902
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Mustafa Zengin
+  Fingerprint : 49 92 3B 66 4D 18 CA 05 11 1F 07 65 53 A5 E0 79 33 B9 40 C6 F8 02 57 47 8C 61 DA CB FC AE CE BF
+
+==========================================

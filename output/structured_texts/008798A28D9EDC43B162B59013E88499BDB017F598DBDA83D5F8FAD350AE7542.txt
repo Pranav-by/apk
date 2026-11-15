@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : sgutha.com.ts_land
+  SHA-256       : 008798A28D9EDC43B162B59013E88499BDB017F598DBDA83D5F8FAD350AE7542
+  Android Group : Android13
+  Version       : 1.2.4 (code: 78)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (11)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, sgutha.com.ts_land.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (6): com.google.android.gms.ads.AdActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.ads.AudienceNetworkActivity, sgutha.com.ts_land.MainActivity
+  Services   (5): com.google.android.gms.ads.AdService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (9): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent
+  Providers  (5): com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.crazecoder.openfile.FileProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9861
+  Total Methods : 46457
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developer.android.com/guide/topics/permissions/overview, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(1): 6.14.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 3A 13 26 E5 90 EB A5 6B 8E 51 F5 1D DB 91 FE C0 5A 36 53 53 8F AB D0 C4 48 B4 D6 E2 20 EE 54 45
+
+==========================================

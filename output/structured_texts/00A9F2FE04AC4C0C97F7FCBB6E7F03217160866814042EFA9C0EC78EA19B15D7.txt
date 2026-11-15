@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : nl.designs.fanapp
+  SHA-256       : 00A9F2FE04AC4C0C97F7FCBB6E7F03217160866814042EFA9C0EC78EA19B15D7
+  Android Group : Android15
+  Version       : 2.5.16 (code: 586)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (37)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.ACCESS_COARSE_LOCATION, nl.designs.fanapp.permission.PushHandlerActivity, nl.designs.fanapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (7): com.adobe.phonegap.push.BackgroundHandlerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.journeyapps.barcodescanner.CaptureActivity, nl.designs.fanapp.MainActivity, com.synconset.MultiImageChooserActivity, com.soundcloud.android.crop.CropImageActivity, com.adobe.phonegap.push.PushHandlerActivity
+  Services   (5): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.adobe.phonegap.push.FCMService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (6): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.adobe.phonegap.push.BackgroundActionButtonHandler, com.adobe.phonegap.push.PushDismissedHandler, nl.xservices.plugins.ShareChooserPendingIntent
+  Providers  (7): org.apache.cordova.camera.FileProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider, de.sitewaerts.cordova.documentviewer.FileProvider, com.google.firebase.provider.FirebaseInitProvider, nl.xservices.plugins.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7625
+  Total Methods : 48004
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Wouter Helmond, Organizational Unit: Designs, Organization: Designs, Locality: Hoofddorp, State/Province: Noord-Holland, Country: NL
+  Fingerprint : 27 F5 39 74 31 98 4D 27 FC A4 64 1F FF 7F E5 0E F9 C5 D8 6F 21 0B C5 56 11 B8 CA 01 05 BB CB 8F
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.outfit7.talkingtomgoldrun
+  SHA-256       : 00AB49BE45F6B387AD172ECAAF20589F8D59D4502879BBA193AB72784BBC216D
+  Android Group : Android15
+  Version       : 25.4.0.11835 (code: 202504000)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (14)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, com.outfit7.talkingtomgoldrun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.AD_SERVICES_CONFIG, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (110): com.amazon.device.ads.DTBInterstitialActivity, com.amazon.device.ads.DTBAdActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.mbridge.msdk.activity.MBCommonActivity, sg.bigo.ads.core.mraid.MraidVideoActivity, com.amazon.aps.ads.activity.ApsInterstitialActivity, sg.bigo.ads.api.CompanionAdActivity, com.mbridge.msdk.out.LoadingActivity, sg.bigo.ads.api.LandscapeCompanionAdActivity, sg.bigo.ads.api.LandingStyleableActivity, sg.bigo.ads.api.LandscapeAdActivity, sg.bigo.ads.api.AdActivity, sg.bigo.ads.ad.splash.LandscapeAdSplashActivity, com.fyber.inneractive.sdk.activities.FyberReportAdActivity, sg.bigo.ads.api.PopupAdActivity, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, sg.bigo.ads.controller.form.AdFormActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, sg.bigo.ads.ad.splash.AdSplashActivity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity
+  Services   (14): com.google.android.gms.ads.AdService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (14): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.outfit7.felis.core.FelisRebootReceiver, com.outfit7.felis.core.notifications.local.LocalNotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (21): com.taurusx.tax.core.TaurusXProvider, com.facebook.ads.AudienceNetworkContentProvider, com.squareup.picasso.PicassoProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.outfit7.felis.core.info.CommonDataContentProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.bugsnag.android.internal.BugsnagContentProvider, com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer, sg.bigo.ads.controller.provider.BigoAdsProvider, com.outfit7.felis.errorreporting.ErrorReportingInitProvider, com.outfit7.felis.core.FelisInitProvider, com.applovin.sdk.AppLovinInitProvider, com.outfit7.felis.share.util.ShareFileProvider, com.outfit7.felis.billing.api.FelisBillingInitProvider, com.google.android.gms.games.provider.PlayGamesInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.vungle.ads.VungleProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, io.bidmachine.BidMachineInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 66953
+  Total Methods : 422326
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (7): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://developers.applovin.com/en/max/android/overview/advanced-settings#selective-init, https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://support.google.com/admob/answer/13554116, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://www.googletagmanager.com/gtag/js?id=
+  IP Addresses(10): 16.8.51.1, 8.10.0.0, 6.5.0.8, 10.8.3.1, 24.4.0.0, 6.17.0.1, 2.0.0.3, 1.2.7.0, 8.3.6.1, 23.3.0.1
+
+[Certificate]
+  Issuer      : Organization: Outfit7 Limited
+  Fingerprint : 45 30 7B 7E E0 0C 3B D2 8F 9C 30 B0 1A 5B B4 46 BA 56 9B D3 99 38 31 DB 8C 05 3E DB 22 27 E7 CE
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.Gatonejostudio.Soocerballx
+  SHA-256       : 0028422C4EB24AD406C9FB57DF297835A6DD1738B545E8520835929DC4EC74B8
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (2)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (5): com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.player.UnityPlayerActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 735
+  Total Methods : 3664
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://config.unityads.unity3d.com/webview/, https://config.unityads.unitychina.cn/webview/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C1 95 06 6D D0 BA 30 D2 AD 84 C3 23 9B 5E 3E 91 F5 54 30 24 E8 E5 69 AB 27 AD 55 EC A1 E2 56 17
+
+==========================================

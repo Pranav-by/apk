@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kopokopo.kopo
+  SHA-256       : 00A0D5587603D5FABEF5FB194D4249607F95F21707296C6D721B7F3C4E3E3BA3
+  Android Group : Android12
+  Version       : 6.1.0 (code: 65)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (15)]
+  android.permission.USE_BIOMETRIC, com.google.android.gms.permission.AD_ID, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_CONTACTS, android.permission.GET_ACCOUNTS, android.permission.VIBRATE, android.permission.INTERNET, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_FINGERPRINT, android.permission.POST_NOTIFICATIONS, android.permission.USE_FULL_SCREEN_INTENT, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (4): com.kopokopo.kopo.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (8): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+  Receivers  (7): com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4932
+  Total Methods : 25892
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://goo.gl/J1sWQy, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://goo.gl/NAOOOI., https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Dennis Ondeng; Organizational Unit: Kopo Kopo; Organization: Kopo Kopo, Inc; Locality: Unknown; State/Province: Unknown; Country: Unknown
+  Fingerprint : D4 0F 2E E4 74 65 8E C6 37 78 8E BE 2F F0 45 09 3F CF D3 53 ED 66 12 E6 46 93 DB A1 67 29 6D AD
+
+==========================================

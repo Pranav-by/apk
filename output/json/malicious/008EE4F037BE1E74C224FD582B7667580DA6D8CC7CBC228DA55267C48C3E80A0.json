@@ -1,0 +1,77 @@
+{
+  "sha256": "008EE4F037BE1E74C224FD582B7667580DA6D8CC7CBC228DA55267C48C3E80A0",
+  "filename": "008EE4F037BE1E74C224FD582B7667580DA6D8CC7CBC228DA55267C48C3E80A0.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "us.TommyTime.PathFind2",
+  "version_name": "1.0",
+  "version_code": "1",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.CAMERA",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.Ad_ID"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "us.TommyTime.PathFind2.Upfeo",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.startapp.sdk.ads.interstitials.OverlayActivity",
+    "us.TommyTime.PathFind2.Umvid",
+    "com.startapp.sdk.ads.list3d.List3DActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity",
+    "us.TommyTime.PathFind2.Uu",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "us.TommyTime.PathFind2.Ubhdt",
+    "com.startapp.sdk.adsbase.consent.ConsentActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "us.TommyTime.PathFind2.Upwao"
+  ],
+  "activity_count": 12,
+  "services": [
+    "com.startapp.sdk.jobs.SchedulerService",
+    "com.startapp.sdk.cachedservice.BackgroundService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.startapp.sdk.adsbase.StartAppInitProvider",
+    "com.flurry.android.agent.FlurryContentProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4700,
+  "method_count": 28915,
+  "cert_fingerprint": "7C B5 5F 72 B3 9C 40 F8 75 43 49 1F 86 A0 96 9A C4 76 27 8A FC CB 33 73 12 76 DD 21 CF A4 93 0F",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://opensource.org/licenses/MIT",
+    "https://support.start.io/hc/en-us/articles/360014774799",
+    "https://daneden.me/animate",
+    "https://docs.google.com/document/d/1dbo2xji-hmUSa_EYG_Fof__WE8FrZPHU9rxHjHPHPmA/edit?usp=sharing",
+    "https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200"
+  ],
+  "ip_addresses": [
+    "10.0.2.15"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

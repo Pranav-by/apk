@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi
+  SHA-256       : 00AE0820197EE24A5C87131B38B3CF9DDD4DE1E7F6D999B164A8ECDB0D710E8E
+  Android Group : Android16
+  Version       : 7.9.3 (code: 45)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (35)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.permission.C2D_MESSAGE, me.everything.badger.permission.BADGE_COUNT_READ, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE
+
+[Application Components]
+  Activities (32): com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.activities.ActivitySplash, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.activities.MainActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.activities.ActivityWebView, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.activities.ActivityRedirect, com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.activities.ActivityPermission, com.applovin.creative.MaxCreativeDebuggerActivity, com.onesignal.notifications.activities.NotificationOpenedActivity
+  Services   (17): com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.core.services.SyncJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.services.RadioPlayerService, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.notification.MyFirebaseMessageService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, net.artstyle.radio_bollywood_music_stations_india_hindi_telugu_malayalam_kannada_tamil_bengali_punjabi.services.MediaButtonIntentReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.onesignal.notifications.receivers.BootUpReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (4): com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 28625
+  Total Methods : 183675
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Vasile Barbu, Locality: Alcala de Henares, State/Province: Madrid, Country: ES
+  Fingerprint : 58 3A EB 4A 30 7C 19 A6 61 0A 44 88 02 2F 92 32 85 95 2C 98 4C 78 E2 27 41 EA 95 A9 0A 65 1F 4F
+
+==========================================

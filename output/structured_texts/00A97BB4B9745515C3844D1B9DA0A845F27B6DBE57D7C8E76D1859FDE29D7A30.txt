@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.chirpbirding.birda
+  SHA-256       : 00A97BB4B9745515C3844D1B9DA0A845F27B6DBE57D7C8E76D1859FDE29D7A30
+  Android Group : Android15
+  Version       : 0.0.1786 (code: 510010196)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 35
+
+[Permissions (48)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.gms.permission.ACTIVITY_RECOGNITION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (15): com.chirpbirding.birda.MainActivity, com.canhub.cropper.CropImageActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.revenuecat.purchases.ui.revenuecatui.activity.PaywallActivity, com.revenuecat.purchases.ui.revenuecatui.customercenter.CustomerCenterActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.facebook.CustomTabActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.yalantis.ucrop.UCropActivity
+  Services   (18): com.google.android.gms.measurement.AppMeasurementJobService, io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService, com.google.android.gms.metadata.ModuleDependencies, expo.modules.location.services.LocationTaskService, expo.modules.notifications.service.ExpoFirebaseMessagingService, expo.modules.taskManager.TaskJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.camera.core.impl.MetadataHolderService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.mapbox.common.LifecycleService, com.google.firebase.components.ComponentDiscoveryService, io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+  Receivers  (10): expo.modules.notifications.service.NotificationsService, com.amazon.device.iap.ResponseReceiver, expo.modules.taskManager.TaskBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.mapbox.common.location.LocationUpdatesReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (16): expo.modules.clipboard.ClipboardFileProvider, io.sentry.android.core.SentryInitProvider, expo.modules.filesystem.FileSystemFileProvider, com.facebook.internal.FacebookInitProvider, expo.modules.imagepicker.fileprovider.ImagePickerFileProvider, expo.modules.mailcomposer.MailComposerFileProvider, androidx.startup.InitializationProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.imagepicker.ImagePickerProvider, com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider, com.canhub.cropper.CropFileProvider, com.google.firebase.provider.FirebaseInitProvider, cl.json.RNShareFileProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 64609
+  Total Methods : 398844
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8D D8 BA 46 06 1C 61 0A 97 14 4C 7E A8 A5 61 3B 04 0B 6B 77 7A 38 3F 4D 0F 25 FC 8F 39 8D AC A7
+
+==========================================

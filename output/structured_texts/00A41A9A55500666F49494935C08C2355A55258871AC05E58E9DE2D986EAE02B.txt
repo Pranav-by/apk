@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.funliday.app
+  SHA-256       : 00A41A9A55500666F49494935C08C2355A55258871AC05E58E9DE2D986EAE02B
+  Android Group : Android14
+  Version       : 10.17.29 (code: 686)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (31)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.USE_CREDENTIALS, com.android.vending.CHECK_LICENSE, com.funliday.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.GET_ACCOUNTS, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.funliday.app.permission.C2D_MESSAGE
+
+[Application Components]
+  Activities (149): com.funliday.app.feature.trip.container.TripContainerFileNotePickerActivity, com.funliday.app.feature.trip.edit.TripCollectionsImportActivity, com.funliday.app.feature.explore.detail.choose.ltinerary.hotel.PutHotelIntoTripActivity, com.funliday.app.feature.trip.edit.TripPlansEditActivity, com.funliday.app.feature.journals.picker.DefaultCoverActivity, com.funliday.app.feature.trip.container.TripContainerFileNoteUploadActivity, com.funliday.app.feature.check_list.CheckListActivity, com.funliday.app.feature.trip.alias.TripAliasNameActivity, com.funliday.app.feature.trip.route.TripFlightDetailInputActivity, com.funliday.app.feature.trip.route.TripFlightSearchActivity, com.funliday.app.feature.trip.options.TripPoiExistActivity, com.funliday.app.feature.trip.chat.ChatGptTripSingletonActivity, com.funliday.app.feature.trip.route.TripRouteActivity, com.funliday.app.LoginProfileActivity, com.funliday.app.feature.trip.container.TripContainerFilesActivity, com.funliday.app.feature.collection.CollectionsFolderSelectorActivity, com.funliday.app.personal.remove.PersonalAccountDeletedActivity, com.funliday.app.feature.intro.NewIntroActivity, com.funliday.app.feature.trip.container.TripContainerCalendarActivity, com.funliday.app.feature.trip.edit.TripUpdateStayTimeActivity
+  Services   (22): com.google.android.gms.measurement.AppMeasurementService, com.funliday.app.feature.trip.container.util.UploadContainerFileNoteDataService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.credentials.playservices.CredentialProviderMetadataHolder, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.funliday.app.gcm.FCMIntentService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.funliday.app.service.ScreenMonitorService, com.google.android.gms.analytics.AnalyticsService, com.funliday.app.feature.journals.UploadJournalDataService, com.funliday.app.feature.trip.editor.UploadTextNoteDataService, com.funliday.app.feature.trip.container.util.UploadContainerFilesDataService, androidx.appcompat.app.AppLocalesMetadataHolderService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.funliday.app.feature.receivers.GeofenceBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (8): androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.funliday.app.provider.POISearchSuggestionsProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.pairip.licensecheck.LicenseContentProvider, com.facebook.FacebookContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 29475
+  Total Methods : 140301
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://issuetracker.google.com/issues/241760537, https://goo.gle/admob-android-update-manifest, http://www.w3.org/2000/svg, https://support.google.com/adwordspolicy/answer/1316548?hl=en, http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf, https://goo.gle/ad-manager-android-update-manifest., https://developers.facebook.com/docs/android/getting-started#add-app_id, https://goo.gle/admob-android-update-manifest.
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Funliday, Organizational Unit: Funliday, Organization: funliday, Locality: Taipei, State/Province: Taiwan, Country: 00886
+  Fingerprint : FC A0 AA 9A F3 16 97 A8 A4 AB 4D 36 70 2B 44 1A 53 48 F5 5D 29 94 B1 75 98 91 64 53 7A A9 6F 94
+
+==========================================

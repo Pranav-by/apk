@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pie.word.cross.puzzle
+  SHA-256       : 000A64EF8D1CCF7B7B70FAB577F9AEDF35EA14A28E223445D587870679FABA74
+  Android Group : Android12L
+  Version       : 1.2.0 (code: 120)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (5)]
+  com.google.android.gms.permission.AD_ID, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (15): com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.android.billingclient.api.ProxyBillingActivity, com.applovin.adview.AppLovinFullscreenActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.vungle.warren.ui.VungleActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.player.UnityPlayerActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerActivity
+  Services   (2): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (0): none
+  Providers  (2): com.applovin.sdk.AppLovinInitProvider, com.vungle.warren.utility.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 8882
+  Total Methods : 60893
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 0.0.0.0, 6.12.0.0, 4.3.0.0, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : FB BE 9E AC 07 BE EB 6D B1 E9 92 F9 14 5A 83 02 B4 3A 66 16 36 9D 78 B8 3C E6 93 CF 52 78 F7 2B
+
+==========================================

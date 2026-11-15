@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.syscocorp.mss
+  SHA-256       : 0054E00D9E1E4289176211A919D71978A7D184ABEE9C23852B5047B2B76D81AA
+  Android Group : Android12
+  Version       : 2022.6.15-918a9df25 (code: 2022060015)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (36): com.syscocorp.mss.login.LoginActivity, com.intercom.input.gallery.GalleryInputFullScreenActivity, io.intercom.android.sdk.activities.IntercomMessengerActivity, com.syscocorp.mss.home.HomeActivity, com.syscocorp.mss.products.feedback.ProductFeedbackActivity, io.intercom.android.sdk.activities.IntercomPostActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.syscocorp.mss.updates.RequiredUpdateActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, com.syscocorp.mss.login.LoginPrivacyWebViewActivity, com.syscocorp.mss.onboarding.OnboardingWebViewActivity, com.syscocorp.mss.auth.AuthWebViewActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, com.syscocorp.mss.guestShopping.UnmatchedZipActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.syscocorp.mss.orders.details.groupby.OrderDetailsGroupByActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, com.syscocorp.mss.products.rating.ProductRatingActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.articles.IntercomArticleWebViewActivity
+  Services   (9): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (13): io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.optimizely.ab.android.datafile_handler.DatafileRescheduler, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.optimizely.ab.android.event_handler.EventRescheduler, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (5): io.intercom.android.sdk.IntercomInitializeContentProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 24589
+  Total Methods : 157025
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Mobile Technologies, Organizational Unit: Mobile Technologies, Organization: Sysco Corporation, Locality: Houston, State/Province: Texas, Country: 00
+  Fingerprint : E7 C1 61 8B A8 D9 EA 4E C6 0A 99 FF F5 1D 6D 69 64 40 83 3B 73 9D 01 CB 19 15 10 99 9F 78 76 C8
+
+==========================================

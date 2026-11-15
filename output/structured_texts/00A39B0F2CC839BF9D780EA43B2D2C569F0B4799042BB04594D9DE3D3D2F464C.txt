@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.stem.junior
+  SHA-256       : 00A39B0F2CC839BF9D780EA43B2D2C569F0B4799042BB04594D9DE3D3D2F464C
+  Android Group : Android16
+  Version       : 2.1.4 (code: 217)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (3)]
+  com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (4): com.unity3d.player.UnityPlayerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2
+  Services   (2): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (1): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 2976
+  Total Methods : 16138
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: VietStem, Organizational Unit: VietNam, Organization: VietStem, Locality: Hanoi, State/Province: Cau Giay, Country: 100000
+  Fingerprint : 94 EC 48 EF 7C A7 80 06 F4 7D 24 91 2A 7A BD 71 CE 1E A8 E9 54 0A BB 32 C2 56 CC 91 5F E1 87 8C
+
+==========================================

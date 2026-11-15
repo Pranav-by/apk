@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : pl.micromax.te616_android
+  SHA-256       : 00A06F2E5EFBB15F3B3089F99AB15445E660EEBBBAEDA925DB8D440FF2635E81
+  Android Group : Android16
+  Version       : 1.4 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 36
+
+[Permissions (4)]
+  android.permission.BLUETOOTH, android.permission.BLUETOOTH_CONNECT, android.permission.BLUETOOTH_SCAN, android.permission.BLUETOOTH_ADMIN
+
+[Application Components]
+  Activities (2): pl.micromax.te616_android.ui.MainActivity, pl.micromax.te616_android.ui.PeripheralControlActivity
+  Services   (1): pl.micromax.te616_android.bluetooth.BleAdapterService
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 2084
+  Total Methods : 17248
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6C CD A7 48 65 BA 76 F3 9E D7 E8 56 F8 01 38 86 09 41 2F 11 C5 AC 63 4B 35 23 0E CA 48 A8 1E FA
+
+==========================================

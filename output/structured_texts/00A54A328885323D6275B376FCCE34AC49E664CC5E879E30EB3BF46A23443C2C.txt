@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : link.mikan.mikanandroid
+  SHA-256       : 00A54A328885323D6275B376FCCE34AC49E664CC5E879E30EB3BF46A23443C2C
+  Android Group : Android13
+  Version       : 5.47.1 (code: 14447)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 33
+
+[Permissions (19)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.SCHEDULE_EXACT_ALARM, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.READ_MEDIA_IMAGES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.c2dm.permission.REGISTER
+
+[Application Components]
+  Activities (62): link.mikan.mikanandroid.ui.word_details.WordDetailsActivity, link.mikan.mikanandroid.ui.HomeActivity, link.mikan.mikanandroid.ui.setting.SelectClassYearActivity, link.mikan.mikanandroid.ui.for_school.WebForSchoolExamActivity, link.mikan.mikanandroid.ui.subscribe.SubscribeActivity, link.mikan.mikanandroid.ui.quiz.QuizWebActivity, link.mikan.mikanandroid.ui.onboarding.OnboardingActivity, link.mikan.mikanandroid.ui.ranking.RankingActivity, link.mikan.mikanandroid.ui.toeic.ToeicTestActivity, link.mikan.mikanandroid.ui.speaking.SpeakingExamResultActivity, link.mikan.mikanandroid.ui.setting.SettingPreferencesActivity, link.mikan.mikanandroid.ui.sync.SyncActivity, link.mikan.mikanandroid.ui.maintenance.MaintenanceActivity, link.mikan.mikanandroid.ui.test.TestResultActivity, link.mikan.mikanandroid.ui.speaking.SpeakingExamActivity, com.helpshift.activities.HSDebugActivity, link.mikan.mikanandroid.ui.setup.SetupUserActivity, com.helpshift.activities.HSMainActivity, link.mikan.mikanandroid.ui.mikan_free_trial.MikanFreeTrialExpiredNoticeActivity, link.mikan.mikanandroid.ui.book_detail.ChapterAchievementActivity
+  Services   (20): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, link.mikan.mikanandroid.ui.audio.AudioService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, androidx.work.multiprocess.RemoteWorkManagerService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.gcm.WorkManagerGcmService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, link.mikan.mikanandroid.notification.MikanFirebaseMessagingService
+  Receivers  (17): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, link.mikan.mikanandroid.notification.AlarmNotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, link.mikan.mikanandroid.notification.local.AlarmReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.adjust.sdk.AdjustReferrerReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.adjust.sdk.AdjustReferrerReceiver
+  Providers  (7): com.pspdfkit.document.sharing.DocumentSharingProvider, androidx.core.content.FileProvider, androidx.core.content.FileProvider, com.pspdfkit.PSPDFKitInitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.pspdfkit.media.AssetsContentProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 37817
+  Total Methods : 212353
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): http://www.ngs.ac.uk/tools/jcepolicyfiles, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: mikan
+  Fingerprint : 26 DF 6E 00 4D B4 0B FE 4B 8F F3 C4 14 51 85 5C 17 05 C9 B4 FF 14 8A 4E FC B7 F8 B5 ED 32 C6 C4
+
+==========================================

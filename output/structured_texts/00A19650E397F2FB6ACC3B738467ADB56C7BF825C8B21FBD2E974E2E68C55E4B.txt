@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : fmb.smaabed.fibonaccisequence
+  SHA-256       : 00A19650E397F2FB6ACC3B738467ADB56C7BF825C8B21FBD2E974E2E68C55E4B
+  Android Group : Android12L
+  Version       : 1.2 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (0)]
+  none
+
+[Application Components]
+  Activities (1): fmb.smaabed.fibonaccisequence.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4735
+  Total Methods : 39226
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F9 BC 78 93 D8 80 93 25 F7 41 EE F5 F1 4B 21 E8 71 4C 50 E1 B5 3B CA A9 E1 D6 74 57 65 71 DB EF
+
+==========================================

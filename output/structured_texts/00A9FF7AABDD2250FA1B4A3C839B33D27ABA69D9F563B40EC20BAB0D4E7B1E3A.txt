@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pianotors.pianoblackpinkgame
+  SHA-256       : 00A9FF7AABDD2250FA1B4A3C839B33D27ABA69D9F563B40EC20BAB0D4E7B1E3A
+  Android Group : Android15
+  Version       : 5.1 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (15)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.pianotors.pianoblackpinkgame.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.BLUETOOTH, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.Ad_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (16): com.google.android.gms.ads.NotificationHandlerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.test.firemsg.SplashActivity, com.google.android.gms.ads.AdActivity, com.test.firemsg.model.DiskActivity, com.test.firemsg.FragmentFavorite, com.startapp.sdk.adsbase.consent.ConsentActivity, com.test.firemsg.GameActivity, com.test.firemsg.SettingActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, com.test.firemsg.ExitActivity, com.test.firemsg.BackgrondActivity, com.startapp.sdk.ads.list3d.List3DActivity, com.test.firemsg.MainActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.test.firemsg.OverActivity
+  Services   (15): com.startapp.sdk.jobs.SchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.test.firemsg.MusicService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.test.firemsg.firebase.FireBaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (13): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 22693
+  Total Methods : 137014
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: pianotor, Organizational Unit: TORTECH, Organization: TORTECHSIAK, Locality: Siak, State/Province: Riau, Country: ID
+  Fingerprint : DF 01 5F 34 E5 A1 20 A3 8B 94 AE 47 6B 34 F3 4C 33 AB 64 E8 B0 07 B1 1B 52 EE 8D EB CF 4A BB 07
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.chuzeday.chuzeday
+  SHA-256       : 00A1FB09F1EB8C4D3B02062CFD737C92ECB7D911A187AFE256CBB471BDE9E389
+  Android Group : Android13
+  Version       : 1.1.6 (code: 16)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (40)]
+  android.permission.RECORD_AUDIO, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.AUDIO_CAPTURE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.READ_PRIVILEGED_PHONE_STATE, com.sec.android.provider.badge.permission.READ, android.permission.USE_FULL_SCREEN_INTENT, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA
+
+[Application Components]
+  Activities (43): com.stripe.android.view.PaymentFlowActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity, com.chuzeday.chuzedayguest.Application, com.google.firebase.auth.internal.RecaptchaActivity, com.facebook.FacebookActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (13): com.google.firebase.messaging.FirebaseMessagingService, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (11): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+  Providers  (6): com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 27487
+  Total Methods : 153595
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://github.com/flutter-stripe/flutter_stripe#android, https://stripe.com/docs/api/payment_intents/object#payment_intent_object-status., https://github.com/flutter-stripe/flutter_stripe/discussions/538, https://stripe.com/docs/api/payment_intents/object#payment_intent_object-confirmation_method., https://stripe.com/docs/api/setup_intents/object#setup_intent_object-status.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F3 C9 D0 4D 0E F1 9E 6C E8 FD 28 17 C5 BF 8F FE 77 C6 90 91 4B 3A FA DE 69 42 99 23 60 FD 11 2B
+
+==========================================

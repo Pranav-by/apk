@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.reflexis.android.qnote1610
+  SHA-256       : 00A310E87B25F9EB857E42A54791E99F3FF1189451BB137575869D3CEA59D5E2
+  Android Group : Android14
+  Version       : 2024.10.0 (code: 2024092514)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (39)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.MANAGE_ACCOUNTS, android.permission.WRITE_SYNC_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, com.reflexis.android.qnote1610.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.GET_ACCOUNTS, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.AUTHENTICATE_ACCOUNTS
+
+[Application Components]
+  Activities (8): com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.zebranation.walk.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance
+  Services   (12): io.apparence.camerawesome.buttons.PlayerService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.metadata.ModuleDependencies, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.zebranation.kernel.sessionstore.RflxAccountService, androidx.camera.core.impl.MetadataHolderService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+  Receivers  (6): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (10): androidx.core.content.FileProvider, com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider, androidx.startup.InitializationProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.crazecoder.openfile.FileProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11945
+  Total Methods : 64262
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Reflexis Systems, Organizational Unit: Reflexis Systems, Organization: Reflexis Systems, Locality: Dedham, State/Province: MA, Country: US
+  Fingerprint : 3D 5C A3 CB DD 47 69 60 2A 85 E4 0D D2 D2 A6 B8 40 87 A2 62 EB E6 A3 69 6A C1 4D FD 91 B8 D2 84
+
+==========================================

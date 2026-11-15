@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.opitblast.android.o_pitblast
+  SHA-256       : 002339503BF2EEE303ED68B33DACDE6210A7EE5BFAF2AF2AF0798E99D439C224
+  Android Group : Android13
+  Version       : 1.17.4 (code: 114)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 33
+
+[Permissions (7)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.BLUETOOTH_ADMIN
+
+[Application Components]
+  Activities (15): com.opitblast.android.o_pitblast.activities.BoreholeInfo, com.opitblast.android.o_pitblast.activities.CommentActivity, com.opitblast.android.o_pitblast.activities.SplashActivity, com.opitblast.android.o_pitblast.ScanHelper, com.opitblast.android.o_pitblast.activities.Settings, com.opitblast.android.o_pitblast.activities.MainActivity, com.opitblast.android.o_pitblast.Explosives, com.opitblast.android.o_pitblast.activities.LoginActivity, com.opitblast.android.o_pitblast.DestributeExplosives, com.opitblast.android.o_pitblast.DrillLog, com.opitblast.android.o_pitblast.OpenGL, com.opitblast.android.o_pitblast.activities.BoreholesList, com.opitblast.android.o_pitblast.Deviation, com.opitblast.android.o_pitblast.activities.BlastAdditionalInfo, com.opitblast.android.o_pitblast.activities.BlastList
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7479
+  Total Methods : 53466
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 81 C9 31 F8 38 6A B3 57 64 D1 57 57 72 58 78 C6 47 C4 98 DA 34 93 21 26 FE A2 C4 88 B4 F9 FD AC
+
+==========================================

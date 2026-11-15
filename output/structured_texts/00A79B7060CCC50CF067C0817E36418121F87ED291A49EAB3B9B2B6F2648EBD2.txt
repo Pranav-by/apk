@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : be.bmid.itsme
+  SHA-256       : 00A79B7060CCC50CF067C0817E36418121F87ED291A49EAB3B9B2B6F2648EBD2
+  Android Group : Android15
+  Version       : 4.21.0 (code: 1747315591)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (15)]
+  be.bmid.itsme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.USE_FINGERPRINT, android.permission.REORDER_TASKS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.HIDE_OVERLAY_WINDOWS, android.permission.NFC, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (124): be.bmid.menu.impl.ui.details.identity.IdentityDetailsActivity, o.bhr, be.bmid.support.impl.ui.articles.article.ArticleActivity, be.bmid.enrollment.impl.ui.idr.eid.eidinstructions.EIDInstructionsActivity, be.bmid.fullscreenerror.impl.ui.accountblocked.AccountBlockedErrorActivity, be.bmid.countrycodes.impl.ui.countrycodeselection.CountryCodeSelectionActivity, be.bmid.support.impl.ui.articles.overview.ArticlesOverviewActivity, be.bmid.support.impl.ui.contact.yourdata.ContactYourDataActivity, be.bmid.feature.serviceflows.impl.ui.claimselection.ClaimSelectionActivity, be.bmid.email.impl.ui.change.ChangeEmailActivity, be.bmid.menu.impl.ui.delete.DeleteAccountActivity, be.bmid.enrollment.impl.ui.biometrics.instructions.BiometricsInstructionsActivity, be.bmid.actionhistory.impl.ui.history.HistoryActivity, be.bmid.support.impl.ui.contact.categories.ContactCategoriesActivity, be.bmid.menu.impl.ui.details.phone.confirmsmsotp.ConfirmSmsOtpActivity, be.bmid.fullscreenerror.impl.ui.accountblockedinvalidpin.AccountBlockedInvalidPinErrorActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, be.bmid.communication.center.impl.document.support.activities.DocumentUpdateSupportInternationalAddressActivity, o.bpA, be.bmid.menu.impl.ui.details.phone.confirmphonenumber.ConfirmPhoneNumberActivity
+  Services   (12): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.metadata.ModuleDependencies, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementJobService, o.vs, com.google.android.gms.measurement.AppMeasurementService, o.bAs, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (6): be.bmid.uiphone.sms.SmsBroadcastReceiver, com.nextauth.android.C4R, o.aaU, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): o.IpSecTunnelInterfaceResponse, com.google.firebase.provider.FirebaseInitProvider, o.bAt, o.dw
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 42075
+  Total Methods : 257761
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://youtrack.jetbrains.com/issue/KTOR-6030/Migrate-to-new-kotlinx.io-library
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Serge Cordier, Organizational Unit: Infrastructure Security, Organization: Belgian Mobile Wallet SA, Locality: Brussels, State/Province: Brussels, Country: BE
+  Fingerprint : A5 99 33 0E 23 1C 3B 5A 67 13 02 51 FA 04 7B 43 B6 E9 F4 BA EF C8 4E 9D DD 21 1E F0 26 97 55 01
+
+==========================================

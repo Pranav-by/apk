@@ -1,0 +1,77 @@
+{
+  "sha256": "0014CF8C04E266359F3AA19A0C08588F37A670D67B189858E45ECADCA3816657",
+  "filename": "0014CF8C04E266359F3AA19A0C08588F37A670D67B189858E45ECADCA3816657.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.ExecutrixApps.SamsungA53",
+  "version_name": "2.0",
+  "version_code": "8",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SETTINGS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.READ_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECORD_AUDIO",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 11,
+  "activities": [
+    "com.ExecutrixApps.SamsungA53.activities.AboutActivity",
+    "com.ExecutrixApps.SamsungA53.activities.RTDtlsActivity",
+    "com.applovin.mediation.MaxDebuggerMultiAdActivity",
+    "com.applovin.mediation.MaxDebuggerActivity",
+    "com.applovin.mediation.MaxDebuggerDetailActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitDetailActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitsListActivity",
+    "com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity",
+    "com.ExecutrixApps.SamsungA53.activities.StartActivity",
+    "com.applovin.adview.AppLovinFullscreenActivity",
+    "com.ExecutrixApps.SamsungA53.activities.MainActivity",
+    "com.applovin.sdk.AppLovinWebViewActivity",
+    "com.facebook.ads.AudienceNetworkActivity"
+  ],
+  "activity_count": 13,
+  "services": [
+    "com.applovin.impl.sdk.utils.AppKilledService",
+    "com.applovin.impl.adview.activity.FullscreenAdService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.facebook.ads.AudienceNetworkContentProvider",
+    "com.applovin.sdk.AppLovinInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2709,
+  "method_count": 17321,
+  "cert_fingerprint": "18 08 7D 57 06 4B BF 47 77 9A 6D 6C 44 89 97 5E 12 30 0F 29 E4 A6 B3 98 50 99 A9 FA 18 3F C2 AB",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "http://developer.android.com/google/play-services/setup.html.",
+    "https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK"
+  ],
+  "ip_addresses": [
+    "6.8.0.12"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

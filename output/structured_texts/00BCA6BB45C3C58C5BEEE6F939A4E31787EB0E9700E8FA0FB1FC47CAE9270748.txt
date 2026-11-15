@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.napoleon.bookoffate
+  SHA-256       : 00BCA6BB45C3C58C5BEEE6F939A4E31787EB0E9700E8FA0FB1FC47CAE9270748
+  Android Group : Android16
+  Version       : 1.91 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (13)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.napoleon.bookoffate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (5): com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.napoleon.bookoffate.MainActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.NotificationHandlerActivity
+  Services   (5): androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (12): com.capacitorjs.plugins.localnotifications.TimedNotificationPublisher, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.capacitorjs.plugins.localnotifications.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.capacitorjs.plugins.localnotifications.LocalNotificationRestoreReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 15772
+  Total Methods : 91134
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 73 58 C9 17 25 2C 0C F9 48 6A 66 95 AD 7A E6 9A F3 1C 50 7D F4 D9 9B BC 3B 0D 93 26 6A 36 74 6A
+
+==========================================

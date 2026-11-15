@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : uk.com.yumapos.mamadao.customer
+  SHA-256       : 00A57DEF80510583757F195DF6DEA638D2D22CEB6D22A62427496B4504C42095
+  Android Group : Android15
+  Version       : 3.30.0 (code: 1209)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (25)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.USE_CREDENTIALS, android.permission.MANAGE_ACCOUNTS, android.permission.GET_TASKS, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.AUTHENTICATE_ACCOUNTS, uk.com.yumapos.mamadao.customer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (38): com.journeyapps.barcodescanner.CaptureActivity, io.carrotquest_sdk.android.presentation.mvp.bottom_sheets.countries.CountriesBottomSheetSdkActivity, com.yumapos.customer.core.payment.activities.MobilePaymentActivity, io.carrotquest_sdk.android.presentation.mvp.list_dialogs.view.ListActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.yumapos.customer.core.order.activities.OrderReviewActivity, com.vanniktech.rxpermission.ShadowActivity, com.yumapos.customer.core.store.activities.StoreOnMapActivity, com.yumapos.customer.core.store.activities.StoreMenuActivity, io.carrotquest_sdk.android.presentation.mvp.popup.view.PopUpActivity, com.yumapos.customer.core.legal.activity.LegalInformationActivity, com.yumapos.customer.core.order.activities.OrderActivity, com.yumapos.customer.core.news.activities.NewsActivity, io.carrotquest_sdk.android.presentation.mvp.notifications.PushTapActivity, io.carrotquest_sdk.android.presentation.mvp.bottom_sheets.ErrorSendingMessageBottomSheetSDKActivity, androidx.compose.ui.tooling.PreviewActivity, com.yumapos.customer.core.profile.activities.EditProfileActivity, com.yumapos.customer.core.promo.activities.PromoActivity, io.carrotquest_sdk.android.presentation.mvp.bottom_sheets.NormalMessageBottomSheetSDKActivity, com.yumapos.customer.core.profile.activities.AddInfoActivity
+  Services   (19): com.google.firebase.sessions.SessionLifecycleService, com.yumapos.customer.core.common.services.PosFcmListenerService, com.yumapos.customer.core.common.services.PushTokenRemoveService, com.yumapos.customer.core.order.services.BindingPaymentService, com.yumapos.customer.core.auth.PosAuthenticatorService, com.yandex.runtime.connectivity.internal.ConnectivityService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.yandex.metrica.MetricaService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.carrotquest_sdk.android.presentation.mvp.notifications.SdkFirebaseMessagingService
+  Receivers  (15): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.yumapos.customer.core.auth.receivers.AccountChangedReceiver, io.carrotquest_sdk.android.core.utm.InstallReferrerReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, io.carrotquest_sdk.android.presentation.mvp.notifications.PushTapReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (7): com.google.mlkit.common.internal.MlKitInitProvider, com.yandex.metrica.PreloadInfoContentProvider, com.google.firebase.provider.FirebaseInitProvider, io.carrotquest_sdk.android.core.util.files.open_files.GenericFileProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 30536
+  Total Methods : 162021
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Daniel Simons, Organizational Unit: YUMAPOS UK LTD, Organization: YUMAPOS UK LTD, Locality: Manchester, State/Province: United Kingdom, Country: GB
+  Fingerprint : 8C B8 9F 55 42 CB 0B 3D 30 D3 BB 6E 30 B0 BE B8 72 25 85 9F BC F8 75 FA 36 4C CF A4 11 03 14 79
+
+==========================================

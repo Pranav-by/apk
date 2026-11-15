@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.funeasylearn.italian
+  SHA-256       : 0000A9D8DAF922417B13AA89979674674D1FBC98382AFBCDB4F6DCB9AE404B3F
+  Android Group : Android12
+  Version       : 7.1.6 (code: 1726)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 31
+
+[Permissions (36)]
+  com.funeasylearn.italian.permission.C2D_MESSAGE, android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, com.sec.android.provider.badge.permission.WRITE, android.permission.READ_MEDIA_AUDIO, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (29): com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.funeasylearn.activities.baseGames.wpActivity, com.funeasylearn.activities.SplashActivity, zendesk.support.guide.HelpCenterActivity, zendesk.support.guide.ViewArticleActivity, com.google.android.gms.common.api.GoogleApiActivity, com.funeasylearn.activities.MainActivity, zendesk.support.request.RequestActivity, zendesk.support.requestlist.RequestListActivity, com.funeasylearn.activities.NPSActivity, com.funeasylearn.activities.baseGames.AbstractActivity, com.funeasylearn.activities.baseGames.RulesActivity, com.funeasylearn.activities.baseGames.AbcActivity, com.funeasylearn.activities.RestGame, com.funeasylearn.activities.baseGames.YoutubePlayerActivity, zendesk.messaging.MessagingActivity, com.onesignal.NotificationOpenedActivityHMS
+  Services   (25): com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService, com.funeasylearn.utils.MediaPlayerService, com.funeasylearn.utils.FireBaseMessageExtend, com.funeasylearn.utils.InAppNotificationService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.tagmanager.TagManagerService, com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.camera.core.impl.MetadataHolderService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (24): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.instacart.library.truetime.BootCompletedBroadcastReceiver, androidx.media.session.MediaButtonReceiver, com.funeasylearn.utils.notifications.AlarmReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.funeasylearn.utils.notifications.ButtonsReceiver, com.funeasylearn.utils.InAppNotificationRestarter, com.funeasylearn.utils.NotificationPublisher, zendesk.support.DeepLinkingBroadcastReceiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (8): zendesk.belvedere.BelvedereFileProvider, androidx.startup.InitializationProvider, zendesk.support.SupportSdkStartupProvider, com.squareup.picasso.PicassoProvider, zendesk.support.guide.GuideSdkStartupProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 19358
+  Total Methods : 106309
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://play.google.com/store/apps/details?id=, https://www.funeasylearn.com/eula/, http://goo.gl/8Rd3yj, https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://www.funeasylearn.com/privacy-policy/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: FunEasyLearn
+  Fingerprint : EE 5C 1F 3C E2 F7 C3 04 29 62 69 E6 2E 68 30 4E EB 12 4D 69 B5 0B C5 0B EF 4F 8C 0F B0 57 01 80
+
+==========================================

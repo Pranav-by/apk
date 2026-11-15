@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.vrlfr.stolpersteine
+  SHA-256       : 003532FF2D274B3F1EB3E972DA003F5DF9B0C1B808104A9B7210B073F3AC50BF
+  Android Group : Android13
+  Version       : 1.9.1 (code: 32)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (5)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, de.vrlfr.stolpersteine.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (5): de.vrlfr.stolpersteine.activity.stolperstein.FullscreenTxtActivity, de.vrlfr.stolpersteine.activity.stolperstein.FullscreenImageActivity, de.vrlfr.stolpersteine.activity.main.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, de.vrlfr.stolpersteine.activity.stolperstein.StolpersteinActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3759
+  Total Methods : 22839
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/36918154
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Kai Winter
+  Fingerprint : A1 6D EA A4 31 91 6D C2 5B 25 2A 89 21 3C 70 BB E3 22 0F E4 88 DB 7A 6A 08 37 22 CD 21 BF A4 EC
+
+==========================================

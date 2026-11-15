@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : frederick.mobile.ip
+  SHA-256       : 0068F1A43FA969AD0EA29F4D48240DA866D3776271480BEED0FA8EB13D4CBE0B
+  Android Group : Android12
+  Version       : 0.47.1 (code: 4701)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (8)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (6): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.firebase.auth.internal.GenericIdpActivity, org.apache.cordova.firebase.OnNotificationReceiverActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, frederick.mobile.ip.MainActivity
+  Services   (8): org.apache.cordova.firebase.FirebasePluginMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (4): org.apache.cordova.firebase.OnNotificationOpenReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (2): com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13102
+  Total Methods : 94523
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: BriteApps IP, Organizational Unit: BriteApps, Organization: IWS, Locality: US, State/Province: Unknown, Country: Unknown
+  Fingerprint : 53 CC 11 75 81 41 59 F7 5A 59 E3 A0 69 D7 BA 0F 30 91 FA 4A 3B B7 95 FC 0B 38 B8 78 52 3C C2 9E
+
+==========================================

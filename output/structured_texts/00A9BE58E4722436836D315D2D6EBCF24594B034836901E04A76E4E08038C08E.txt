@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.virtualcity.piccargogo
+  SHA-256       : 00A9BE58E4722436836D315D2D6EBCF24594B034836901E04A76E4E08038C08E
+  Android Group : Android14
+  Version       : 0.1.2 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (11)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.INTERNET, android.permission.HIGH_SAMPLING_RATE_SENSORS, android.permission.CAMERA, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.virtualcity.piccargogo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (7): com.unity3d.player.UnityPlayerActivity, com.google.ar.core.InstallActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (5): androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (1): com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (2): com.vuforia.engine.app.VuforiaContentProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12249
+  Total Methods : 72505
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://developers.google.com/tink/faq/registration_errors, https://github.com/firebase/firebase-android-sdk
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 24 9E 8D 23 45 13 39 15 0D A9 B3 E7 E2 CB 3D E2 01 FF C5 7A 65 09 FF 33 23 0C 74 EB 1D B0 3D 7B
+
+==========================================

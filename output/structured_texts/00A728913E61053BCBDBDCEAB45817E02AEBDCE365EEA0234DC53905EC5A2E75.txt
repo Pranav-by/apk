@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kunduzapp.teacher
+  SHA-256       : 00A728913E61053BCBDBDCEAB45817E02AEBDCE365EEA0234DC53905EC5A2E75
+  Android Group : Android16
+  Version       : 6.1.10 (code: 600110)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (23)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE
+
+[Application Components]
+  Activities (29): com.canhub.cropper.CropImageActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.helpcenter.articles.ArticleActivity, io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, io.intercom.android.sdk.post.PostActivityV2, io.intercom.android.sdk.m5.IntercomRootActivity, io.intercom.android.sdk.activities.IntercomPostActivity, io.intercom.android.sdk.m5.bubble.IntercomBubbleActivity, io.intercom.android.sdk.push.IntercomPushTrampolineActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, com.clevertap.android.sdk.InAppNotificationActivity, com.clevertap.android.sdk.inbox.CTInboxActivity, com.karumi.dexter.DexterActivity, com.facebook.FacebookActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (19): net.gotev.uploadservice.UploadService, com.leanplum.LeanplumPushFirebaseMessagingService, com.kunduzapp.teacher.firebase.KunduzTutorFirebaseMessagingService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.leanplum.LeanplumLocalPushListenerService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.camera.core.impl.MetadataHolderService, com.google.firebase.components.ComponentDiscoveryService, com.uxcam.service.HttpPostService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (23): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.kunduzapp.util.SmsBroadcastReceiver, io.intercom.android.sdk.m5.push.ConversationReplyReceiver, com.clevertap.android.pushtemplates.PTPushNotificationReceiver, com.clevertap.android.pushtemplates.PushTemplateReceiver, com.leanplum.LeanplumPushReceiver, com.leanplum.LeanplumJobStartReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (10): co.ab180.airbridge.internal.lifecycle.LifecycleProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.squareup.picasso.PicassoProvider, com.canhub.cropper.CropFileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, io.intercom.android.sdk.IntercomFileProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 58695
+  Total Methods : 384267
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Kunduz Inc
+  Fingerprint : 30 FA C0 2C 9D E4 B0 DA 1E 5E FC D4 EA FF 18 06 C7 79 69 7B C3 C8 2A 71 63 33 11 AD 15 61 C4 D9
+
+==========================================

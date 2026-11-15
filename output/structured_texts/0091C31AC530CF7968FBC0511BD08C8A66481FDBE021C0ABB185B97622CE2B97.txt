@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.DefaultCompany.HangrySnake
+  SHA-256       : 0091C31AC530CF7968FBC0511BD08C8A66481FDBE021C0ABB185B97622CE2B97
+  Android Group : Android12
+  Version       : 1.1 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (3)]
+  com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (6): com.android.billingclient.api.ProxyBillingActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 855
+  Total Methods : 4162
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://config.unityads.unity3d.com/webview/, https://config.unityads.unitychina.cn/webview/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 35 A4 3A D4 0A 7A E3 92 15 20 3F CD F5 EB 25 40 4E 8B 7E BF 64 36 C1 18 08 C7 59 08 60 98 EE E9
+
+==========================================

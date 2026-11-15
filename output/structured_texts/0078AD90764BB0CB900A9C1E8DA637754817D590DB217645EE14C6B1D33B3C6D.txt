@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.Aastra.Gaming.haunted.house.scary.game
+  SHA-256       : 0078AD90764BB0CB900A9C1E8DA637754817D590DB217645EE14C6B1D33B3C6D
+  Android Group : Android12
+  Version       : 1.0.4 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (11)]
+  android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (47): com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.my.target.common.MyTargetActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.yandex.mobile.ads.common.AdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.applovin.adview.AppLovinFullscreenActivity, com.vungle.warren.ui.VungleFlexViewActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity
+  Services   (11): com.yandex.metrica.ConfigurationJobService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.applovin.impl.adview.activity.FullscreenAdService, com.yandex.metrica.MetricaService, androidx.room.MultiInstanceInvalidationService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.ads.AdService, com.yandex.metrica.ConfigurationService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (10): com.applovin.sdk.AppLovinInitProvider, com.vungle.warren.utility.VungleProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.my.target.common.MyTargetContentProvider, com.squareup.picasso.PicassoProvider, com.yandex.metrica.PreloadInfoContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 36612
+  Total Methods : 206585
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(5): 4.5.0.3, 10.0.7.0, 5.15.1.5, 21.0.0.1, 7.2.2.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8F 52 3D 74 E5 86 26 6A F1 17 78 56 A8 E1 71 23 81 96 2D FF 25 F1 1B D3 ED A9 EC 61 A6 9D E2 AE
+
+==========================================

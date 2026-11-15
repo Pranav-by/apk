@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid
+  SHA-256       : 00A8446BD6104B10E90BF1B610649A78FEE6A7D4CCB9096A0ACFA66B7D94D21D
+  Android Group : Android12L
+  Version       : 2022.08.01 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (0)]
+  none
+
+[Application Components]
+  Activities (80): com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.DisclaimerScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.TarantulaDDxScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.SeafoodPspScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.SeafoodTetrodotoxinScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.PoisoningsActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.ToxidromeDDxCgActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.HymenopteraEnvenomationScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.ShtScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.PoisonCenterScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.ToxidromeSuspectedSeafoodRapidDxHtActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.CtDDxScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.SttScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.ScorpionesEnvenomationScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.NspDDxScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.ToxidromeGeneralDDxActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.AspDDxScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.ToxidromeSuspectedSeafoodDdxActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.BrownRecluseSpiderDDxScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.OtDDxScrollingActivity, com.pkseripros.edutain.mededuaid.mytoxeddiagnosticaid.ToxidromeSuspectedSeafoodRapidCheckActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1815
+  Total Methods : 10049
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C1 39 88 F1 EA CB 11 B4 53 1F 48 5B 31 49 E2 5F 35 07 15 28 1C 6A 4C 8E 3B DA 53 2C 57 D8 F7 D1
+
+==========================================

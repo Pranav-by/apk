@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.finance.loan.emicalculator
+  SHA-256       : 000A2D127C5F3B2A0A4DF5ED4EBB8D37BBEC2DCAE818FC16CB722929514E92D4
+  Android Group : Android14
+  Version       : 21.3.6 (code: 341)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (30)]
+  android.permission.RECEIVE_BOOT̲COMPLETED, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.WAKE̲LOCK, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.finance.loan.emicalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.CHANGE_WIFI_MULTICAST_STATE, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_FINE_LOCATION, android.permission.HIGH_SAMPLING_RATE_SENSORS
+
+[Application Components]
+  Activities (47): com.finance.loan.emicalculator.History.SIP_HistoryList_Activity, com.google.android.gms.common.api.GoogleApiActivity, com.finance.loan.emicalculator.FinderDetailScreen, com.m2catalyst.m2sdk.testing.ui.MainTestingActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.kalagato.deeplinkhelper.activities.WebviewActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.finance.loan.emicalculator.Details.SIP_Details_Activity, io.monedata.activities.AdaptersActivity, com.tejpratapsingh.pdfcreator.activity.PDFViewerActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.inmobi.cmp.presentation.components.CmpActivity, com.tejpratapsingh.pdfcreator.activity.PDFCreatorActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.finance.loan.emicalculator.PDFCreater.PdfCreatorExampleActivity, com.finance.loan.emicalculator.PDFCreater.PdfCreatorSIPActivity, com.finance.loan.emicalculator.calculator.FragmentActivity, com.karumi.dexter.DexterActivity, com.finance.loan.emicalculator.Details.EMI_Details_ACtivity
+  Services   (20): com.umlaut.crowd.service.InsightService, com.umlaut.crowd.service.ConnectivityJobService, com.umlaut.crowd.service.InsightJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.umlaut.crowd.service.BackgroundTestJobService, com.finance.loan.emicalculator.MyFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.teragence.client.service.MetricsService, com.teragence.client.service.MetricsJobService, com.umlaut.crowd.service.ConnectivityService
+  Receivers  (23): com.finance.loan.emicalculator.NearBy.ProximityIntentReceiver, com.m2catalyst.m2sdk.core.setup.ZombieInitializationSDKReceiver, com.m2catalyst.m2sdk.data_transmission.TransmissionSDKReceiver, com.google.firebase.messaging.directboot.FirebaseMessagingDirectBootReceiver, com.m2catalyst.m2sdk.data_collection.location.LocationSDKReceiver, com.m2catalyst.m2sdk.core.setup.M2SDKOpsReceiver, com.m2catalyst.m2sdk.data_collection.wifi.WifiSDKReceiver, com.teragence.client.service.PresenceReceiver, com.umlaut.crowd.receiver.InsightReceiver, com.cellrebel.sdk.utils.PhoneStateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (11): androidx.core.content.FileProvider, io.monedata.InitializationProvider, com.squareup.picasso.PicassoProvider, com.finance.loan.emicalculator.location_extraction_module.db.QurekaProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.umlaut.crowd.InsightStarter, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.vungle.ads.internal.util.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 45635
+  Total Methods : 294357
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://play.google.com/store/apps/details?id=, https://yx59s.app.goo.gl/EMI, https://yx59s.app.goo.gl/sharenews
+  IP Addresses(6): 0.0.0.0, 7.3.2.0, 8.8.8.8, 127.0.0.1, 16.7.51.0, 6.17.0.0
+
+[Certificate]
+  Issuer      : Common Name: Manpritkaur Saini, Organizational Unit: AppAspect Technologies Pvt. Ltd., Organization: AppAspect Technologies Pvt. Ltd., Locality: Delhi, State/Province: Delhi, Country: IN
+  Fingerprint : 2B 8C BC 08 D5 94 3A 9C C9 AE 47 89 9E 83 6F A9 31 1F 61 F8 97 8E 4D 0A D7 D2 B2 48 F8 4D EF 72
+
+==========================================

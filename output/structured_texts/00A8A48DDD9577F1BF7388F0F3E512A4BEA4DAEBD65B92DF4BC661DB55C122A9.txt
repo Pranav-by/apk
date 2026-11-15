@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fluik.OfficeJerkFree
+  SHA-256       : 00A8A48DDD9577F1BF7388F0F3E512A4BEA4DAEBD65B92DF4BC661DB55C122A9
+  Android Group : Android16
+  Version       : 2.5.13 (code: 20513)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (24)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, com.fluik.OfficeJerkFree.permission.C2D_MESSAGE, com.google.android.gms.permission.AD_ID, com.fluik.OfficeJerkFree.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_EXTERNAL_STORAGE, com.amazon.privacypass.ATTEST, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (39): com.applovin.adview.AppLovinFullscreenActivity, com.applovin.adview.AppLovinFullscreenImmersiveActivity, com.unity3d.ads.adplayer.FullScreenWebViewDisplay, com.facebook.ads.AudienceNetworkActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.applovin.mediation.MaxDebuggerActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.vungle.ads.internal.ui.VungleActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.google.android.gms.ads.AdActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity
+  Services   (19): com.google.firebase.messaging.MessageForwardingService, com.voxelbusters.screenrecorderkit.videorecorder.internal.ScreenRecordingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.applovin.impl.adview.activity.FullscreenAdService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.cpp.ListenerService, com.google.firebase.messaging.cpp.RegistrationIntentService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (14): androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.unity.androidnotifications.UnityNotificationManager, com.unity.androidnotifications.UnityNotificationRestartReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (7): com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.vungle.ads.VungleProvider, com.voxelbusters.screenrecorderkit.videorecorder.extensions.FileProviderExtended
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 37784
+  Total Methods : 243578
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Crazed Coders
+  Fingerprint : 83 BE 2F C6 55 E7 A5 89 F4 DC 16 B2 DE C0 4E C2 5E FC D3 98 20 42 80 54 CC 34 17 D9 EB AA C2 B6
+
+==========================================

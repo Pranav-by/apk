@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.editpad.essay_writer_app
+  SHA-256       : 00A529FD2DCB36F7B6FE42FE02F0CCB14F478F0D1293B4E10EB12825FED1109D
+  Android Group : Android16
+  Version       : 1.3.7 (code: 114)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_BIOMETRIC, com.editpad.essay_writer_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (11): com.editpad.essay_writer_app.MainActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.credentials.playservices.HiddenActivity, androidx.credentials.playservices.IdentityCredentialApiHiddenActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (4): dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7919
+  Total Methods : 38992
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://issuetracker.google.com/issues/241760537, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://developers.google.com/tink/faq/registration_errors, https://github.com/flutter/packages/blob/main/packages/in_app_purchase/in_app_purchase/README.md#loading-products-for-sale, https://developer.android.com/guide/topics/permissions/overview, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D2 4E 8A 32 03 7B 73 BA 7A 31 7E EC B8 3D F8 B0 8D 00 EE 5C 6F 94 11 0F B8 CA A7 43 13 75 34 6B
+
+==========================================

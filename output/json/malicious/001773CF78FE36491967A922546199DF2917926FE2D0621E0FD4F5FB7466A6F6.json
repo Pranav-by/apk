@@ -1,0 +1,51 @@
+{
+  "sha256": "001773CF78FE36491967A922546199DF2917926FE2D0621E0FD4F5FB7466A6F6",
+  "filename": "001773CF78FE36491967A922546199DF2917926FE2D0621E0FD4F5FB7466A6F6.apk",
+  "android_version": "Android14",
+  "label": "malicious",
+  "package_name": "com.levinew.app",
+  "version_name": "11.8.2",
+  "version_code": "110802",
+  "min_sdk": "21",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.READ_PHONE_STATE",
+    "com.levinew.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.levinew.app.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4517,
+  "method_count": 32620,
+  "cert_fingerprint": "15 92 AB EA A5 07 24 94 6D B0 D4 1A CA 9D 55 0C 8F 63 8E 43 0E 25 27 E8 88 B1 EF CA B1 EC 39 0C",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

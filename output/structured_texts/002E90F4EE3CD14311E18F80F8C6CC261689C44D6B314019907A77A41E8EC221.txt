@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sajjadalhusseini.nisnisplants
+  SHA-256       : 002E90F4EE3CD14311E18F80F8C6CC261689C44D6B314019907A77A41E8EC221
+  Android Group : Android15
+  Version       : 1.1.5 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (13)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, com.sajjadalhusseini.nisnisplants.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (16): com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity, androidx.glance.appwidget.action.InvisibleActionTrampolineActivity, com.google.android.gms.ads.OutOfContextTestingActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.gms.ads.NotificationHandlerActivity, androidx.glance.appwidget.action.ActionTrampolineActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.linusu.flutter_web_auth_2.CallbackActivity, com.sajjadalhusseini.nisnisplants.MainActivity, com.android.billingclient.api.ProxyBillingActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.firebase.auth.internal.GenericIdpActivity
+  Services   (12): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.credentials.playservices.CredentialProviderMetadataHolder, androidx.core.widget.RemoteViewsCompatService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.glance.appwidget.GlanceRemoteViewsService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.glance.appwidget.MyPackageReplacedReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (4): com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15502
+  Total Methods : 67002
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://goo.gle/compose-feedback, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://github.com/tink-crypto/tink-java, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/tink/faq/registration_errors, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 01 7A A8 E3 1F EC 86 A0 89 74 6A D8 F9 0C E5 C0 5D A0 AD E1 6A 44 96 9B D2 34 22 0A 10 8F 73 4B
+
+==========================================

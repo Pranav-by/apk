@@ -1,0 +1,49 @@
+{
+  "sha256": "00C7EF48B25CC9C94189815C980F01F43EC79FE10D2789D0889D55CB4CEED02C",
+  "filename": "00C7EF48B25CC9C94189815C980F01F43EC79FE10D2789D0889D55CB4CEED02C.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "com.safetynet.bivek",
+  "version_name": "1.3.5",
+  "version_code": "41",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 2,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.safetynet.bivek.MainActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 1591,
+  "method_count": 8045,
+  "cert_fingerprint": "84 BA 5C A0 98 5F 7A EB 9E EC 1D 75 3E A7 CA 13 66 FB EC B7 4B 7B 01 C3 9C 5F 5C F2 6B BC 72 01",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [
+    "1.3.132.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

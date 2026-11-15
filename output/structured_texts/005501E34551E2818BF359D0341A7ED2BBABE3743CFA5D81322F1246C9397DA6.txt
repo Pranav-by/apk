@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.godgalaxy.loanguide
+  SHA-256       : 005501E34551E2818BF359D0341A7ED2BBABE3743CFA5D81322F1246C9397DA6
+  Android Group : Android12L
+  Version       : 1.0.1 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.Ad_ID
+
+[Application Components]
+  Activities (46): com.startapp.sdk.adsbase.consent.ConsentActivity, com.godgalaxy.loanguide.BasicActivity, com.godgalaxy.loanguide.WhichEligibiltyActivity, com.godgalaxy.loanguide.FirstActivity, com.godgalaxy.loanguide.PensionersActivity, com.godgalaxy.loanguide.LoanActivity, com.godgalaxy.loanguide.BalanceOnlineActivity, com.godgalaxy.loanguide.BankDecideActivity, com.godgalaxy.loanguide.BikeLoanActivity, com.godgalaxy.loanguide.EkycActivity, com.godgalaxy.loanguide.FAQActivity, com.godgalaxy.loanguide.InternationalActivity, com.godgalaxy.loanguide.FromWhichActivity, com.godgalaxy.loanguide.LoanTypeActivity, com.godgalaxy.loanguide.passbokActivity, com.godgalaxy.loanguide.TRRNActivity, com.godgalaxy.loanguide.UNAActivity, com.godgalaxy.loanguide.InstantActivity, com.godgalaxy.loanguide.PersonalPortalActivity, com.godgalaxy.loanguide.CarActivity
+  Services   (2): com.startapp.sdk.jobs.SchedulerService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (1): com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (3): com.startapp.sdk.adsbase.StartAppInitProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5700
+  Total Methods : 39041
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, https://daneden.me/animate
+  IP Addresses(2): 127.0.0.1, 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : AB D9 20 73 6E F0 C2 09 83 B0 1C 3E 71 3E D7 99 36 FA 0F 7F 62 61 1F F5 D8 95 13 D7 B3 35 11 A3
+
+==========================================

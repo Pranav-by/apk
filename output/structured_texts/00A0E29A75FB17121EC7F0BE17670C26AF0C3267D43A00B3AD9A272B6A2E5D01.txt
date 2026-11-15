@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fluffyfairygames.idleminertycoon
+  SHA-256       : 00A0E29A75FB17121EC7F0BE17670C26AF0C3267D43A00B3AD9A272B6A2E5D01
+  Android Group : Android13
+  Version       : 4.49.0 (code: 78514)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (13)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.fluffyfairygames.idleminertycoon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (83): com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.google.android.gms.ads.AdActivity, com.unity3d.player.UnityPlayerActivity, com.facebook.unity.FBUnityLoginActivity, com.facebook.unity.FBUnityAppLinkActivity, com.facebook.unity.FBUnityDialogsActivity, com.facebook.unity.FBUnityGameRequestActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.helpshift.unityproxy.activity.UnityDelegateActivity, com.facebook.unity.FBUnityGamingServicesFriendFinderActivity, com.helpshift.activities.HSDebugActivity, com.facebook.unity.FBUnityJoinGameGroupActivity, com.helpshift.activities.HSMainActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.facebook.unity.AppInviteDialogActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.ironsource.sdk.controller.InterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.facebook.unity.FBUnityCreateGameGroupActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity
+  Services   (15): com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.ubisoft.orion.pushnotifications.OrionFirebaseService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (17): com.ubisoft.orion.pushnotifications.OrionNotificationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.ubisoft.orion.pushnotifications.OrionNotificationOnBootBroadcastReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.ogury.core.internal.OguryLogEnablerReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (11): com.facebook.FacebookContentProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.internal.FacebookInitProvider, com.vungle.warren.utility.VungleProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.hyprmx.android.sdk.utility.HyprMXFileProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 41462
+  Total Methods : 246253
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 22.0.0.2, 5.6.0.1, 6.12.1.1
+
+[Certificate]
+  Issuer      : Common Name: Janosch Sadowski, Organization: Fluffy Fairy Games UG, Locality: Karlsruhe, State/Province: Baden-Württemberg, Country: GER
+  Fingerprint : E4 E0 F6 EF 00 BC BE 46 C9 39 F6 D7 93 D1 7B 66 BE B8 8D 46 AF A2 B3 EB A7 85 F3 88 86 F7 4F 48
+
+==========================================

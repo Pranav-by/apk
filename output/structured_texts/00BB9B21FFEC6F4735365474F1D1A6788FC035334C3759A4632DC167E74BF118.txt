@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : hu.kaloriabazis.kaloriabazis
+  SHA-256       : 00BB9B21FFEC6F4735365474F1D1A6788FC035334C3759A4632DC167E74BF118
+  Android Group : Android16
+  Version       : 2.91 (code: 291)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 36
+
+[Permissions (7)]
+  android.permission.MICROPHONE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, hu.kaloriabazis.kaloriabazis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CAMERA, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (2): hu.kaloriabazis.kaloriabazis.MainActivity, hu.kaloriabazis.kaloriabazis.ScannerActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 5408
+  Total Methods : 39611
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Mate Magyar, Locality: Budapest, State/Province: Pest, Country: HU
+  Fingerprint : 30 0C 30 92 5F 6A 35 BD 83 2F C9 58 26 79 C1 2C 53 98 14 45 AF 22 06 77 63 40 CB 91 2C 52 A7 8C
+
+==========================================

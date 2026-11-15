@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : nz.co.sporty.huttvalleysoftball
+  SHA-256       : 00A130A73940C6143788735A14EF303F910029FFD4603BC70D0F593E5CEFCDC4
+  Android Group : Android15
+  Version       : 2.43.57 (code: 1041)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 35
+
+[Permissions (16)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, nz.co.sporty.huttvalleysoftball.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, nz.co.sporty.huttvalleysoftball.permission.C2D_MESSAGE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.MEDIA_CONTENT_CONTROL, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (8): com.google.android.gms.ads.AdActivity, com.google.firebase.auth.internal.RecaptchaActivity, crc647a19118a24842bb1.AsyncActivity, crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity, crc64cd2a00765c2fcc78.MainActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity, crc64ba438d8f48cf7e75.IntermediateActivity
+  Services   (11): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, crc64396a3fe5f8138e3f.KeepAliveService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, crc64b92812ba822219fb.FirebaseNotificationService, communityToolkit.maui.media.services, com.google.android.gms.measurement.AppMeasurementJobService, crc64d2dcc2805d51c0a8.MyFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (8): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, crc64e53d2f592022988e.ConnectivityBroadcastReceiver, crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver, crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, crc6433876dc625594ac1.ConnectivityBroadcastReceiver
+  Providers  (5): mono.MonoRuntimeProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, microsoft.maui.essentials.fileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 30466
+  Total Methods : 227136
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: Unknown
+  Fingerprint : 2F 2E 1E 7D CF 62 4F F5 D6 79 F8 B2 B1 43 05 6A 79 F2 E3 D0 E9 49 DA 35 5D 67 9F B2 16 35 E3 AD
+
+==========================================

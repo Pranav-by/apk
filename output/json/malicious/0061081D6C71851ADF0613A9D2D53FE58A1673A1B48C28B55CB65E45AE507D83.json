@@ -1,0 +1,57 @@
+{
+  "sha256": "0061081D6C71851ADF0613A9D2D53FE58A1673A1B48C28B55CB65E45AE507D83",
+  "filename": "0061081D6C71851ADF0613A9D2D53FE58A1673A1B48C28B55CB65E45AE507D83.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "io.cordova.myapp53513c",
+  "version_name": "10.0.615",
+  "version_code": "100615",
+  "min_sdk": "19",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.INTERNET",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.QUERY_ALL_PACKAGES",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "io.cordova.myapp53513c.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [
+    "com.inka.appsealing.AppSealingIPService",
+    "com.inka.appsealing.AppSealingService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 41,
+  "method_count": 406,
+  "cert_fingerprint": "42 08 67 F9 25 53 73 72 16 8C 15 87 0E F5 5F 7F 37 2F 13 9E B9 CA 63 A1 DC 32 26 2D CB D6 23 08",
+  "cert_issuer": "Common Name: Kotak General, Organizational Unit: Kotak Mahindra General Insurance Company Limited, Organization: Kotak Mahindra Bank, Locality: Mumbai, State/Province: Maharashtra, Country: IN",
+  "urls": [
+    "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+    "http://xmlpull.org/v1/doc/features.html#validation",
+    "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+    "http://xmlpull.org/v1/doc/features.html#report-namespace-prefixes"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

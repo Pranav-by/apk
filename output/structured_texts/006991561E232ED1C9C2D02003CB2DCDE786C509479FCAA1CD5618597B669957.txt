@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.unislim.gcdtech.clubhub
+  SHA-256       : 006991561E232ED1C9C2D02003CB2DCDE786C509479FCAA1CD5618597B669957
+  Android Group : Android13
+  Version       : 2.0.3 (code: 109013)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (34)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.READ_APP_BADGE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (8): com.unislim.gcdtech.MainActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.canhub.cropper.CropImageActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.unislim.gcdtech.SplashActivity
+  Services   (11): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService, com.google.firebase.messaging.FirebaseMessagingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationActions, com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher, com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+  Providers  (7): com.imagepicker.ImagePickerProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.canhub.cropper.CropFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18752
+  Total Methods : 111271
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://raw.githubusercontent.com/drewnoakes/metadata-extractor-images/master/%s, http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Organizational Unit: Unislim
+  Fingerprint : 8D 10 04 05 5B 39 6D 7E CB 70 54 A9 F2 B7 C0 5C E2 40 AB 38 C3 7F B5 7A BE A1 04 8E 5F 1F 6A EF
+
+==========================================

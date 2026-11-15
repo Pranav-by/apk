@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.readermobile
+  SHA-256       : 000A4FE99338AAB172A2A22A405933619B4ED43E4FB2D32D7A19CD517153FDE4
+  Android Group : Android14
+  Version       : 6.8.3 (code: 552)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (42)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.readermobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, android.permission.USE_BIOMETRIC, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_MEDIA_AUDIO, com.sec.android.provider.badge.permission.WRITE, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_MEDIA_LOCATION, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS
+
+[Application Components]
+  Activities (7): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.readermobile.MainActivity, com.android.billingclient.api.ProxyBillingActivity, com.readermobile.ShareActivity, com.google.android.gms.common.api.GoogleApiActivity, expo.modules.notifications.service.NotificationForwarderActivity
+  Services   (8): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.doublesymmetry.trackplayer.service.MusicService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, expo.modules.notifications.service.ExpoFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (4): expo.modules.notifications.service.NotificationsService, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (13): com.pdftron.pdf.utils.PDFTronToolsInitializer, expo.modules.filesystem.FileSystemFileProvider, com.pdftron.pdf.utils.ShareProvider, expo.modules.sharing.SharingFileProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, expo.modules.clipboard.ClipboardFileProvider, com.RNFetchBlob.Utils.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 37281
+  Total Methods : 246303
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 10.0.1.1, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 16 35 34 77 87 8C C4 11 81 4A C8 A6 EF 20 C1 78 3E F6 5A FB 9E EE FF 59 EC 44 6E 42 42 1E F0 45
+
+==========================================

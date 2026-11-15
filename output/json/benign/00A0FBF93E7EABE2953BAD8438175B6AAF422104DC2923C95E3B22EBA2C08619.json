@@ -1,0 +1,72 @@
+{
+  "sha256": "00A0FBF93E7EABE2953BAD8438175B6AAF422104DC2923C95E3B22EBA2C08619",
+  "filename": "00A0FBF93E7EABE2953BAD8438175B6AAF422104DC2923C95E3B22EBA2C08619.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "yellowtreesoftware.usconverter",
+  "version_name": "6.4",
+  "version_code": "64",
+  "min_sdk": "16",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.INTERNET",
+    "com.android.vending.BILLING",
+    "android.permission.FOREGROUND_SERVICE"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "yellowtreesoftware.USConverter.ConversionHome",
+    "yellowtreesoftware.USConverter.SettingsActivity",
+    "yellowtreesoftware.USConverter.PercentageActivity",
+    "yellowtreesoftware.USConverter.ConversionsActivity",
+    "yellowtreesoftware.USConverter.TimeUSZoneActivity",
+    "yellowtreesoftware.USConverter.DistanceChartActivity",
+    "yellowtreesoftware.USConverter.LengthChartActivity",
+    "yellowtreesoftware.USConverter.TempChartActivity",
+    "yellowtreesoftware.USConverter.VolumeChartActivity",
+    "yellowtreesoftware.USConverter.WeightChartActivity",
+    "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "yellowtreesoftware.USConverter.TimeUSStateActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "yellowtreesoftware.USConverter.DonateActivity",
+    "yellowtreesoftware.USConverter.MainActivity",
+    "yellowtreesoftware.USConverter.HelpActivity",
+    "yellowtreesoftware.USConverter.CurrencyActivity",
+    "yellowtreesoftware.USConverter.DressActivity",
+    "yellowtreesoftware.USConverter.GeometryActivity"
+  ],
+  "activity_count": 20,
+  "services": [
+    "com.google.android.play.core.assetpacks.ExtractionForegroundService",
+    "com.google.android.play.core.assetpacks.AssetPackExtractionService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2766,
+  "method_count": 14901,
+  "cert_fingerprint": "B0 EF EE F1 37 15 99 7D 62 9F 0F 6B 7F 42 AD 41 E7 4C E1 EB DB 97 EC DF CD DD E1 D4 83 E1 31 9A",
+  "cert_issuer": "Common Name: Arun Nair, Organizational Unit: Android App, Organization: Yello Tree Software, Locality: Thiruvananthapuram, State/Province: Kerala, Country: IN",
+  "urls": [
+    "https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#",
+    "https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

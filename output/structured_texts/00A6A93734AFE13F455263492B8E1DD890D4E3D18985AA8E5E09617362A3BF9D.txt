@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.redhands.twoplayergames
+  SHA-256       : 00A6A93734AFE13F455263492B8E1DD890D4E3D18985AA8E5E09617362A3BF9D
+  Android Group : Android15
+  Version       : 4.9.5 (code: 49005)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 35
+
+[Permissions (17)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, com.samsung.android.mapsagent.permission.READ_APP_INFO, com.android.vending.BILLING, com.redhands.twoplayergames.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (33): com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.android.billingclient.api.ProxyBillingActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.unity3d.player.UnityPlayerActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.yasirkula.unity.NativeShareCustomShareDialogActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.ironsource.sdk.controller.ControllerActivity, com.google.android.gms.ads.AdActivity, com.android.billingclient.api.ProxyBillingActivityV2
+  Services   (11): com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (13): com.google.android.gms.measurement.AppMeasurementReceiver, com.yasirkula.unity.NativeShareBroadcastListener, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.unity.androidnotifications.UnityNotificationManager
+  Providers  (8): com.google.firebase.provider.FirebaseInitProvider, com.vungle.ads.VungleProvider, androidx.startup.InitializationProvider, com.yasirkula.unity.NativeShareContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 27644
+  Total Methods : 174819
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://developers.applovin.com/en/max/android/overview/advanced-settings#selective-init, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://support.google.com/admob/answer/13554116
+  IP Addresses(10): 16.8.51.1, 7.5.1.0, 6.5.0.8, 13.4.0.0, 8.11.1.0, 6.17.0.1, 8.3.6.1, 23.3.0.1, 7.4.1.1, 4.12.2.1
+
+[Certificate]
+  Issuer      : Common Name: Aleksandra Ivic
+  Fingerprint : 56 B5 50 4A 6C 01 4D 2D 3C C4 C4 A6 42 D6 15 7B E8 1F BB F2 D3 BD F7 6C 41 94 E8 90 FB CC 9F 38
+
+==========================================

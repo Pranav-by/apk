@@ -1,0 +1,57 @@
+{
+  "sha256": "00A31AC14C8C60ADA2D6BC9ACB97B5379357507E70107AD42BED081C7C22BF9B",
+  "filename": "00A31AC14C8C60ADA2D6BC9ACB97B5379357507E70107AD42BED081C7C22BF9B.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "safebag24.com.sostraveller",
+  "version_name": "2.3.0",
+  "version_code": "60",
+  "min_sdk": "23",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.REORDER_TASKS",
+    "android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "safebag24.com.sostraveller.activity.MainActivity",
+    "com.journeyapps.barcodescanner.CaptureActivity",
+    "safebag24.com.sostraveller.activity.ListViewActivity",
+    "safebag24.com.sostraveller.activity.ConfigActivity"
+  ],
+  "activity_count": 4,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "safebag24.com.sostraveller.utils.BootReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6933,
+  "method_count": 51973,
+  "cert_fingerprint": "A9 83 AB 32 36 1E 6C 97 A1 10 CC 9A 0B D5 44 CC BA 0B 55 66 F1 0E 25 5A 9E 43 BB 8F C3 26 B3 33",
+  "cert_issuer": "Common Name: Simone Gamba, Organizational Unit: R&D, Organization: Safe Bag Spa, Locality: Gallarate, State/Province: Varese, Country: IT",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

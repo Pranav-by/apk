@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ce.android.brand.hottable
+  SHA-256       : 0068887745D495EE26796F04095A9247E7CAD780A81CA1340010327DE19EA939
+  Android Group : Android14
+  Version       : 2.3.1 (code: 176)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (28)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH_CONNECT, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (111): com.ce.android.base.app.activity.MainActivity, com.ce.android.base.app.activity.BrandMenuGroupItemsActivity, com.ce.android.base.app.activity.MessageDetailActivity, com.ce.android.base.app.activity.SignUpActivity, com.ce.android.base.app.activity.FragmentHostActivity, com.ce.android.base.app.activity.ImageCropActivity, com.ce.android.base.app.activity.OrderConfirmationActivity, com.ce.android.base.app.activity.BrandMenuItemDetailActivity, com.ce.android.base.app.activity.PaymentSquareEmptyActivity, com.ce.android.base.app.activity.CreditCardListActivity, com.ce.android.base.app.activity.SignInActivity, com.ce.android.base.app.activity.StarterActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.ce.android.base.app.activity.GroupListingActivity, com.ce.android.base.app.activity.OrdersTabActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.ce.android.base.app.activity.SendGiftCardConfirmationActivity, com.ce.android.base.app.activity.PaymentWebViewSecureActivity, com.ce.android.base.app.activity.SendGiftCardPayment, com.ce.android.base.app.activity.PaymentWebViewActivity
+  Services   (145): com.ce.sdk.core.services.point.PointIntentService, com.ce.sdk.services.point.PointService, com.ce.sdk.core.services.scantopay.ScanToPayOfferRemoveIntentService, com.ce.sdk.core.services.imageutil.RetrieveGIFImageIntentService, com.ce.sdk.core.services.scantopay.GratuityIntentService, com.ce.sdk.services.scantopay.ScanToPayOfferRemoveService, com.ce.sdk.services.user.UpdatePasswordService, com.ce.sdk.core.services.scantopay.ScanToPayServiceIntentService, com.ce.sdk.core.services.order.CalculateOrderTotalIntentService, com.ce.sdk.services.scantopay.GratuityService, com.ce.sdk.services.payment.PaymentStatusService, com.ce.sdk.services.scantopay.ScanToPayService, com.ce.sdk.core.services.user.UpdatePasswordIntentService, com.ce.sdk.core.services.oauth.SocialLoginIntentService, com.ce.sdk.services.oauth.ResendCodeService, com.ce.sdk.core.services.oauth.ResendCodeIntentService, com.ce.sdk.services.oauth.SocialLoginService, com.ce.sdk.core.services.oauth.VerifyCodeIntentService, com.ce.sdk.core.services.user.DeleteAccountIntentService, com.ce.sdk.services.user.DeleteAccountService
+  Receivers  (9): com.ce.android.base.app.beacon.BluetoothAdapterStatusReceiver, org.altbeacon.beacon.startup.StartupBroadcastReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): sqip.internal.ContextCaptureContentProvider, com.facebook.FacebookContentProvider, com.heapanalytics.android.internal.HeapContentProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 51542
+  Total Methods : 335731
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: ce_hottable, Organizational Unit: Aeturnum, Organization: Incentivio, Locality: Boston, State/Province: MA, Country: US
+  Fingerprint : C6 41 4A 0A D2 99 F5 96 D0 23 83 27 33 9F 71 2F 26 CA 3B 31 2A 36 FD 48 80 AF 98 BF BC 34 AA 4C
+
+==========================================

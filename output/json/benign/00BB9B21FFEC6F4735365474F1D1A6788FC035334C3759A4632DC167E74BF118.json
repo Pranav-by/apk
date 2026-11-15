@@ -1,0 +1,53 @@
+{
+  "sha256": "00BB9B21FFEC6F4735365474F1D1A6788FC035334C3759A4632DC167E74BF118",
+  "filename": "00BB9B21FFEC6F4735365474F1D1A6788FC035334C3759A4632DC167E74BF118.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "hu.kaloriabazis.kaloriabazis",
+  "version_name": "2.91",
+  "version_code": "291",
+  "min_sdk": "22",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.MICROPHONE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "hu.kaloriabazis.kaloriabazis.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.CAMERA",
+    "android.permission.RECORD_AUDIO"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "hu.kaloriabazis.kaloriabazis.MainActivity",
+    "hu.kaloriabazis.kaloriabazis.ScannerActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 5408,
+  "method_count": 39611,
+  "cert_fingerprint": "30 0C 30 92 5F 6A 35 BD 83 2F C9 58 26 79 C1 2C 53 98 14 45 AF 22 06 77 63 40 CB 91 2C 52 A7 8C",
+  "cert_issuer": "Common Name: Mate Magyar, Locality: Budapest, State/Province: Pest, Country: HU",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

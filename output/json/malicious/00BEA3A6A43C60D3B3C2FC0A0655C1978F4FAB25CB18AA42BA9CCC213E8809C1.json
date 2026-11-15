@@ -1,0 +1,62 @@
+{
+  "sha256": "00BEA3A6A43C60D3B3C2FC0A0655C1978F4FAB25CB18AA42BA9CCC213E8809C1",
+  "filename": "00BEA3A6A43C60D3B3C2FC0A0655C1978F4FAB25CB18AA42BA9CCC213E8809C1.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.elementique.phone",
+  "version_name": "4.2.0",
+  "version_code": "1664459365",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_SYNC_SETTINGS",
+    "com.elementique.permission.home.PROVIDER",
+    "com.elementique.permission.home.ACCOUNT_CHANGED",
+    "android.permission.WRITE_SYNC_SETTINGS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_PHONE_NUMBERS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.INTERNET",
+    "com.elementique.permission.license",
+    "android.permission.VIBRATE",
+    "android.permission.CALL_PHONE",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.elementique.permission.SETTINGS"
+  ],
+  "permission_count": 16,
+  "activities": [
+    "com.elementique.phone.PhoneActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "com.elementique.shared.account.AccountChangeReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 3309,
+  "method_count": 18279,
+  "cert_fingerprint": "F3 57 31 D1 70 E1 DA 93 34 C9 B1 62 97 BE FA 8C A8 69 05 95 16 F5 26 59 87 AB 59 18 73 EE B9 42",
+  "cert_issuer": "Common Name: Pascal Dal Farra, Organizational Unit: Elementique, Organization: Elementique, Locality: Heron, State/Province: Liege, Country: BE",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : uk.co.mcgillsscotlandeast
+  SHA-256       : 00A3A4D44842F2DEFE6EB35847CC8DA59773C50C18787D7B9E2FD1352190417D
+  Android Group : Android14
+  Version       : 53 (code: 19140)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_FINE_LOCATION, uk.co.mcgillsscotlandeast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.NFC
+
+[Application Components]
+  Activities (87): com.stripe.android.link.LinkRedirectHandlerActivity, com.discoverpassenger.features.coverage.ui.activity.CoverageMapActivity, com.stripe.android.paymentsheet.ui.SepaMandateActivity, com.stripe.android.ui.core.cardscan.CardScanActivity, com.discoverpassenger.features.vouchers.ui.activity.VoucherRedeemActivity, com.stripe.android.paymentsheet.paymentdatacollection.bacs.BacsMandateConfirmationActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.link.LinkForegroundActivity, com.discoverpassenger.features.coverage.ui.activity.CoverageListActivity, com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity, com.discoverpassenger.features.vouchers.ui.activity.VoucherListActivity, com.stripe.android.paymentsheet.addresselement.AddressElementActivity, com.discoverpassenger.features.vouchers.ui.activity.VoucherGiftActivity, com.stripe.android.customersheet.CustomerSheetActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.discoverpassenger.features.preferences.ui.activity.PreferencesActivity, com.discoverpassenger.features.terms.ui.activity.TermsActivity, com.discoverpassenger.features.terms.ui.activity.ViewTermsActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.discoverpassenger.features.login.ui.activity.UserAuthenticationActivity
+  Services   (10): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.camera.core.impl.MetadataHolderService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (19): com.discoverpassenger.puffin.ui.widget.tickets.TicketWidgetPinnedReceiver, com.discoverpassenger.moose.ui.widget.favouritestop.FavouriteStopWidgetProvider, com.discoverpassenger.moose.ui.widget.savedjourney.SavedJourneyWidgetProvider, com.discoverpassenger.moose.ui.widget.savedjourney.SavedJourneyWidgetPinnedReceiver, com.discoverpassenger.moose.ui.widget.timetable.FavouriteTimetableWidgetProvider, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.discoverpassenger.puffin.ui.widget.tickets.TicketWidgetProvider, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.discoverpassenger.moose.ui.widget.favouritestop.FavouriteStopWidgetPinnedReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.discoverpassenger.moose.ui.widget.timetable.FavouriteTimetableWidgetPinnedReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 49370
+  Total Methods : 317872
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Passenger Technology Group
+  Fingerprint : 8F C7 B5 57 5C 60 19 14 04 CD 63 0F E0 0C 76 E9 B5 91 17 EF 1E 51 58 AE D3 D0 DF 8C FA EE 87 70
+
+==========================================

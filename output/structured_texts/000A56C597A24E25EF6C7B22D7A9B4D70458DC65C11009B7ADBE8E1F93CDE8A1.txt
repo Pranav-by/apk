@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.insideoutgames.cargo.trailer.carrier.transport.trailer.truck.games
+  SHA-256       : 000A56C597A24E25EF6C7B22D7A9B4D70458DC65C11009B7ADBE8E1F93CDE8A1
+  Android Group : Android13
+  Version       : 1.9 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (24): com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.google.android.gms.ads.AdActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.applovin.adview.AppLovinFullscreenActivity
+  Services   (7): com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.ads.AdService, com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13863
+  Total Methods : 76684
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., http://developer.android.com/google/play-services/setup.html., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(2): 11.10.1.0, 1.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DF 78 B3 8C 1C FD 2D E2 A7 58 CE DC FF AC D0 2C 47 E6 21 FA 05 F9 A1 42 D8 33 E9 F8 B8 8E 63 3D
+
+==========================================

@@ -1,0 +1,64 @@
+{
+  "sha256": "00AD1CB2E90E1EEC794780BE5EBB0491963A765C6532D12A2B2D241531B7B5A7",
+  "filename": "00AD1CB2E90E1EEC794780BE5EBB0491963A765C6532D12A2B2D241531B7B5A7.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "de.smg_ingelheim.androidapp",
+  "version_name": "4.3.12",
+  "version_code": "400057",
+  "min_sdk": "22",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.CAMERA",
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "io.schulportal.app.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 2,
+  "services": [
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.capacitorjs.plugins.pushnotifications.MessagingService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.components.ComponentDiscoveryService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 7201,
+  "method_count": 49175,
+  "cert_fingerprint": "DC 65 3C 2F A5 4B 0D B5 51 9A 03 E5 58 06 FF 99 B5 5F BD 01 BA 75 D5 74 FF 16 1E 61 7F 03 53 BF",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

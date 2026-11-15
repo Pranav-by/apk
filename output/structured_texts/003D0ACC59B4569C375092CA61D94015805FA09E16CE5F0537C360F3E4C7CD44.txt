@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.dealmoon.android
+  SHA-256       : 003D0ACC59B4569C375092CA61D94015805FA09E16CE5F0537C360F3E4C7CD44
+  Android Group : Android12
+  Version       : 12.4.5_06 (code: 1192)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (26)]
+  android.permission.VIBRATE, android.permission.WRITE_SETTINGS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.android.alarm.permission.SET_ALARM, android.permission.ACCESS_MEDIA_LOCATION, com.dealmoon.android.permission.PRIVATE_PERMISSION, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.dealmoon.android.permission.MAPS_RECEIVE, com.huawei.android.launcher.permission.CHANGE_BADGE, com.dealmoon.android.permission.MIPUSH_RECEIVE, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, android.permission.READ_PHONE_STATE, com.dealmoon.android.permission.JPUSH_MESSAGE
+
+[Application Components]
+  Activities (232): com.north.expressnews.main.MainActivity, com.north.expressnews.moonshow.compose.draft.MoonShowDraftListActivity, com.north.expressnews.moonshow.main.MoonShowNearbyActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabActivity, com.north.expressnews.shoppingguide.editarticle.ArticleCoverPickerActivity, com.blankj.utilcode.util.UtilsTransActivity, com.facebook.FacebookActivity, com.north.expressnews.shoppingguide.editarticle.postdeal.ChoseGoodsImg1, com.north.expressnews.WelcomeActivity, com.north.expressnews.shoppingguide.editarticle.postdeal.StoreWebViewActivity, com.north.expressnews.moonshow.main.MoonShowListActivity, com.north.expressnews.shoppingguide.editarticle.EditArticleTextActivity, com.north.expressnews.shoppingguide.editarticle.ArticleDraftPreviewActivity, com.north.expressnews.kotlin.business.multi_evaluation_channel.activity.EvaluationReportIndexActivity, com.north.expressnews.kotlin.business.multi_evaluation_channel.activity.EvaluationLocalActivity, com.north.expressnews.shoppingguide.editarticle.EditArticleActivity, com.north.expressnews.kotlin.business.multi_evaluation_channel.activity.EvaluationGoodsActivity, com.north.expressnews.shoppingguide.revision.activity.SearchDestinationActivity, com.north.expressnews.introguide.IntroGuideActivity
+  Services   (18): cn.jpush.android.service.PushService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, cn.jpush.android.service.DaemonService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.analytics.AnalyticsService, com.google.firebase.components.ComponentDiscoveryService, com.xiaomi.push.service.XMPushService, com.north.expressnews.moonshow.ArticlePostSendService, com.xiaomi.push.service.XMJobService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.xiaomi.mipush.sdk.PushMessageHandler, com.blankj.utilcode.util.MessengerUtils$ServerService, com.north.expressnews.push.jpush.PushService, com.xiaomi.mipush.sdk.MessageHandleService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (14): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.north.expressnews.push.jpush.MyJPushMessageReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, cn.jpush.android.service.PushReceiver, cn.jpush.android.service.AlarmReceiver, cn.jpush.android.service.SchedulerReceiver, com.xiaomi.push.service.receivers.NetworkStatusReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.north.expressnews.push.jpush.XMPushReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, cn.jpush.android.asus.AsusPushMessageReceiver
+  Providers  (10): com.google.firebase.provider.FirebaseInitProvider, com.sina.weibo.sdk.content.FileProvider, com.blankj.utilcode.util.UtilsFileProvider, androidx.startup.InitializationProvider, com.facebook.FacebookContentProvider, androidx.core.content.FileProvider, cn.jpush.android.service.DownloadProvider, cn.jpush.android.service.DataProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31670
+  Total Methods : 180316
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Weimin Ding, Organizational Unit: Weimin Ding, Locality: SaratoGA, State/Province: CA, Country: US
+  Fingerprint : 5D 82 C5 A4 A4 38 AA 1D 0B AC EA 14 B1 8E A2 FD 99 EE CE 9E 54 42 4C 4C 26 1D E1 B8 0E D6 F3 43
+
+==========================================

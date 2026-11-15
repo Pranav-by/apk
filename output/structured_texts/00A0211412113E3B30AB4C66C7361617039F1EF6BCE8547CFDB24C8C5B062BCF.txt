@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.myordering.malaithai
+  SHA-256       : 00A0211412113E3B30AB4C66C7361617039F1EF6BCE8547CFDB24C8C5B062BCF
+  Android Group : Android15
+  Version       : 10.3.2 (code: 74)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (22)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, com.google.android.gms.permission.ACTIVITY_RECOGNITION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.myordering.malaithai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (12): com.cardinalcommerce.shared.cs.userinterfaces.ChallengeHTMLView, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.myordering.malaithai.MainActivity, com.braintreepayments.api.GooglePayActivity, com.cardinalcommerce.shared.cs.userinterfaces.ChallengeNativeView, com.facebook.react.devsupport.DevSettingsActivity, com.facebook.CustomTabActivity, com.braintreepayments.api.DropInActivity, com.braintreepayments.api.ThreeDSecureActivity, com.braintreepayments.api.BraintreeDeepLinkActivity, com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity
+  Services   (21): com.google.firebase.components.ComponentDiscoveryService, com.wix.reactnativenotifications.core.ProxyService, com.wix.reactnativenotifications.fcm.FcmInstanceIdListenerService, expo.modules.location.services.LocationTaskService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.wix.reactnativenotifications.fcm.FcmInstanceIdRefreshHandlerService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService, io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (9): io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, expo.modules.filesystem.FileSystemFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider, com.cardinalcommerce.a.setKeyListener, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 33476
+  Total Methods : 226020
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developer.paypal.com/braintree/docs/guides/3d-secure/client-side/android/v4
+  IP Addresses(10): 2.5.4.28, 5.5.7.6, 2.5.4.21, 2.5.4.11, 2.5.29.15, 1.2.2.6, 5.5.8.1, 1.9.16.6, 2.5.4.24, 2.5.4.35
+
+[Certificate]
+  Issuer      : Organization: iWaiter
+  Fingerprint : 37 3D 40 9E 3E AE 9A FF 16 32 4D 8E 5F 2F 52 36 9B 67 51 D4 D8 EE C2 E2 EE 75 C9 75 AE B4 B8 3D
+
+==========================================

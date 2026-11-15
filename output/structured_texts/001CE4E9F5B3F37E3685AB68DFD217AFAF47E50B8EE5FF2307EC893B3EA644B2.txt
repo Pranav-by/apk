@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.quadpay.quadpay
+  SHA-256       : 001CE4E9F5B3F37E3685AB68DFD217AFAF47E50B8EE5FF2307EC893B3EA644B2
+  Android Group : Android12
+  Version       : 1.172.5 (code: 865)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (20)]
+  android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.USE_BIOMETRIC, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.SYSTEM_ALERT_WINDOW, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (57): io.intercom.android.sdk.activities.IntercomVideoActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.quadpay.quadpay.MainActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.auth0.react.AuthenticationActivity, com.facebook.react.devsupport.DevSettingsActivity, com.intercom.input.gallery.GalleryInputFullScreenActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.stripe.android.paymentsheet.addresselement.AddressElementActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.google.android.gms.common.api.GoogleApiActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.intercom.input.gallery.GalleryLightBoxActivity, com.stripe.android.link.LinkActivity, com.stripe.android.googlepaylauncher.StripeGooglePayActivity
+  Services   (29): com.fillr.service.PerformanceStatsService, com.fillr.service.AffiliateLinkService, com.fillr.service.CaptureFieldsMappingService, com.fillr.service.HeadlessFillMappingService, com.iterable.iterableapi.IterableFirebaseMessagingService, com.fillr.service.PageEventService, com.veriff.sdk.service.SendAuthenticationFlowDataToServerService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.braze.push.BrazeFirebaseMessagingService, io.invertase.firebase.messaging.RNFirebaseMessagingService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.fillr.service.DownloadSchemaService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.braze.receivers.BrazeActionReceiver, com.iterable.iterableapi.IterablePushActionReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.braze.push.BrazePushReceiver
+  Providers  (11): com.google.firebase.provider.FirebaseInitProvider, com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer, com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.quadpay.quadpay.FillrRNCWebViewFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.ReactNativeBlobUtil.Utils.FileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 12
+  Total Classes : 58372
+  Total Methods : 316982
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: com.quadpay.quadpay, Organizational Unit: , Organization: , Locality: , State/Province: , Country: US
+  Fingerprint : 1A BE C4 6E 15 E1 2C 65 57 DA F1 06 CB 03 2E CE C4 27 22 79 AA DD B0 21 52 D9 0C 7A C3 C5 E4 56
+
+==========================================

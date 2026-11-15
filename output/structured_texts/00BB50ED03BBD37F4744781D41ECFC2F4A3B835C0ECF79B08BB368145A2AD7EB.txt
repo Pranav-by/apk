@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.learninggenie.parent
+  SHA-256       : 00BB50ED03BBD37F4744781D41ECFC2F4A3B835C0ECF79B08BB368145A2AD7EB
+  Android Group : Android13
+  Version       : 5.0.2 (code: 172)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (27)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.READ_LOGS, com.learninggenie.parent.permission.MIPUSH_RECEIVE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.DISABLE_KEYGUARD, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (154): com.learninggenie.parent.ui.inKindNew.CurrentAssignmentActivity, com.learninggenie.parent.ui.moment.EditAudioActivity, com.learninggenie.parent.ui.checkin.AttendanceUpdateConfirmActivity, com.learninggenie.parent.ui.WelcomeActivity, com.learninggenie.parent.support.communication.easeui.ui.EaseShowNormalFileActivity, com.zhihu.matisse.internal.ui.AlbumPreviewActivity, com.learninggenie.parent.ui.photoviewer.ViewLargeImageWithTextActivity, com.learninggenie.parent.ui.ParentProgressReportActivity, com.learninggenie.parent.ui.widget.TakePictureAndVideoActivity, com.learninggenie.parent.ui.main.book.PDFBookActivity_, com.zhihu.matisse.ui.MatisseActivity, com.zhihu.matisse.internal.ui.SelectedPreviewActivity, com.learninggenie.parent.ui.main.PushNotificationSettingActivity, com.vivo.push.sdk.LinkProxyClientActivity, com.learninggenie.parent.ui.main.AddPortfolioActivity, com.learninggenie.parent.ui.communication.EditQuickReplyActivity, com.learninggenie.parent.ui.main.book.ModifyMailAty, com.learninggenie.parent.ui.main.SelectChildrenActivity, com.learninggenie.parent.ui.moment.AddMomentActivity, com.learninggenie.parent.ui.communication.AddSingleMediaBaseActivity
+  Services   (29): com.google.android.gms.tagmanager.TagManagerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.quickblox.messages.services.SubscribeService, com.learninggenie.parent.support.communication.FCM.EMFCMTokenRefreshService, com.learninggenie.parent.support.communication.FCM.EMFCMMSGService, androidx.work.impl.foreground.SystemForegroundService, com.hyphenate.chat.EMChatService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.hyphenate.chat.EMJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.xiaomi.push.service.XMPushService, com.xiaomi.push.service.XMJobService, com.xiaomi.mipush.sdk.PushMessageHandler, androidx.room.MultiInstanceInvalidationService
+  Receivers  (24): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.learninggenie.parent.receiver.LocaleChangeReceiver, com.hyphenate.chat.EMMonitorReceiver, com.xiaomi.push.service.receivers.NetworkStatusReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.hyphenate.push.platform.vivo.EMVivoMsgReceiver, com.hyphenate.push.platform.mi.EMMiMsgReceiver, com.learninggenie.parent.ui.album.CameraReceiver, com.learninggenie.parent.ui.album.CameraVideoReceiver, com.applozic.mobicomkit.broadcast.TimeChangeBroadcastReceiver, com.applozic.mobicomkit.broadcast.ConnectivityReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (6): com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, razerdp.basepopup.BasePopupInitializer, com.applozic.mobicommons.file.ALFileProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 37110
+  Total Methods : 304276
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): http://mta.qq.com/, https://github.com/grpc/grpc-java/issues/5015, http://mta.oa.com/, https://admin.quickblox.com/account),, http://www.jivesoftware.com/xmlns/xmpp/properties
+  IP Addresses(10): 14.17.43.18, 163.177.71.186, 111.13.142.2, 10.237.14.141, 180.153.8.53, 114.54.23.2, 140.207.54.125, 123.138.162.90, 111.30.131.31, 123.126.121.167
+
+[Certificate]
+  Issuer      : Common Name: Gene Shi, Organizational Unit: Android Development team, Organization: Learning Genie Inc., Locality: San Diego, State/Province: CA, Country: US
+  Fingerprint : 7B D1 21 FA EC 5F 24 8D 87 E0 C0 AF A2 95 BD CA 9E 4B 6C 69 59 EE 15 9A 00 F2 CE DC 8F D3 53 85
+
+==========================================

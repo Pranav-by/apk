@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.derago.dlager
+  SHA-256       : 0005C88AF9B5CD92AF353FA004B1D4AF2DDC3C1B99FE41688DDE98A0427C7E71
+  Android Group : Android12L
+  Version       : R1144-940fa3d (2022-04-20 17:18:07 +0200) (code: 1144)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (2)]
+  android.permission.NFC, android.permission.INTERNET
+
+[Application Components]
+  Activities (7): com.derago.dlager.StockTransferActivity, com.derago.dlager.StockRequestActivity, com.derago.dlager.ManualActivity, com.derago.dlager.StockTakingActivity, com.derago.dlager.MainActivity, com.derago.dlager.AbrufActivity, com.derago.dlager.SettingsActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 631
+  Total Methods : 4021
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): http://schemas.xmlsoap.org/soap/envelope/, http://www.w3.org/2001/XMLSchema-instance, http://schemas.android.com/apk/res/android, http://apimobilag.webservices.kvasy.siv.de/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: derago Droid apps, Organizational Unit: development, Organization: derago e. K., Locality: Lottstetten, State/Province: BW, Country: DE
+  Fingerprint : F9 36 9A AE C5 31 28 A9 52 E4 97 28 12 0F 75 D0 21 67 94 D8 6E CD 5C 80 1E 9E 83 35 D9 A2 38 81
+
+==========================================

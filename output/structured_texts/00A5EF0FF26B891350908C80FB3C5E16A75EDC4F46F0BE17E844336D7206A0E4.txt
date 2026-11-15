@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gameverse.wizardrush
+  SHA-256       : 00A5EF0FF26B891350908C80FB3C5E16A75EDC4F46F0BE17E844336D7206A0E4
+  Android Group : Android14
+  Version       : 1.0.5 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (11): com.facebook.unity.FBUnityGamingServicesFriendFinderActivity, com.facebook.unity.FBUnityGameRequestActivity, com.facebook.unity.FBUnityLoginActivity, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.facebook.unity.FBUnityDialogsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.unity.FBUnityAppLinkActivity, com.unity3d.player.UnityPlayerActivity
+  Services   (1): com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService
+  Receivers  (2): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (2): com.facebook.FacebookContentProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6173
+  Total Methods : 42656
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Lex Holynskyi, Organizational Unit: Development, Organization: GameVersePublishing, Locality: Odesa, State/Province: Ukraine, Country: +380
+  Fingerprint : EF BB 31 A5 43 1B BC D5 06 0A 3E 89 BA 62 41 77 37 33 A3 B1 B7 A6 A6 A2 4D 1D 0A BB DC CC AF 1F
+
+==========================================

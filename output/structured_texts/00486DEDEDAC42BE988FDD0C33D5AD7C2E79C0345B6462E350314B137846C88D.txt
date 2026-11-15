@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.soft24hours.dictionaries.dictionary16
+  SHA-256       : 00486DEDEDAC42BE988FDD0C33D5AD7C2E79C0345B6462E350314B137846C88D
+  Android Group : Android12
+  Version       : 1.0.34.115 (code: 16003002)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (10)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_WIFI_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE
+
+[Application Components]
+  Activities (64): com.android.billingclient.api.ProxyBillingActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.medicalgroupsoft.medical.app.ui.premiumscreen.PremiumBayActivity, com.medicalgroupsoft.medical.app.ui.opensource.AboutLibraries, com.applovin.mediation.MaxDebuggerDetailActivity, io.bidmachine.nativead.view.VideoPlayerActivity, com.vungle.warren.ui.VungleActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.google.android.gms.ads.AdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.medicalgroupsoft.medical.app.ui.galleryscreen.GalleryActivity, com.medicalgroupsoft.medical.app.ui.aboutscreen.AboutActivity, com.appodeal.ads.TestActivity, com.explorestack.iab.mraid.MraidActivity
+  Services   (16): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.work.impl.background.systemjob.SystemJobService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.ads.AdService, com.medicalgroupsoft.medical.app.data.unzip.UnzipAndCopyDatabaseService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (12): com.appodeal.ads.AppodealPackageAddedReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (12): com.my.target.common.MyTargetContentProvider, com.appodeal.ads.ApdContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.applovin.sdk.AppLovinInitProvider, com.vungle.warren.utility.VungleProvider, com.medicalgroupsoft.medical.app.data.providers.RefContentProvider, com.squareup.picasso.PicassoProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, io.bidmachine.BidMachineInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 40491
+  Total Methods : 279158
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Organization: 24Hours
+  Fingerprint : D5 44 D2 28 4B CE 7B BA C6 F1 45 A1 EF C8 04 76 02 38 4F 0F AD 30 47 F5 9E D9 1A FF 5C D8 7A 2D
+
+==========================================

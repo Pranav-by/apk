@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.izrrdev.katana
+  SHA-256       : 00A09E16EF90BFA54188B40806740BD45C713CF6E828DE8F7E25AF1609F80714
+  Android Group : Android14
+  Version       : 1.9.0 (code: 70)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (16)]
+  com.google.android.gms.permission.AD_ID, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_ADSERVICES_AD_ID, com.izrrdev.katana.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_CONTACTS, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (11): com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.common.api.GoogleApiActivity, com.izrrdev.katana.MainActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, androidx.credentials.playservices.HiddenActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.google.firebase.auth.internal.GenericIdpActivity
+  Services   (12): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.metadata.ModuleDependencies, androidx.credentials.playservices.CredentialProviderMetadataHolder
+  Receivers  (7): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.amazon.device.iap.ResponseReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): io.flutter.plugins.imagepicker.ImagePickerFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14977
+  Total Methods : 82526
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developers.google.com/tink/faq/registration_errors, https://docs.revenuecat.com/docs/ios-subscription-offers, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://firebase.google.com/support/guides/disable-analytics, https://firebase.google.com/docs/analytics, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#
+  IP Addresses(2): 2.9.0.0, 2.10.5.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DB 21 B3 D8 F2 92 1B B7 F2 FF 8C 8F FB C0 11 9C AE 28 99 69 02 C8 56 AE 43 D1 21 97 45 59 43 65
+
+==========================================

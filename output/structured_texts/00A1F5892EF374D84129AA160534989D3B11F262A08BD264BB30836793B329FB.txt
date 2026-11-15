@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.markany.marcode
+  SHA-256       : 00A1F5892EF374D84129AA160534989D3B11F262A08BD264BB30836793B329FB
+  Android Group : Android15
+  Version       : 1.8.46 (code: 96)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (5)]
+  com.markany.marcode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA
+
+[Application Components]
+  Activities (13): com.markany.marcode.MainActivity, com.markany.marcode.PopupWindow, com.markany.marcode.PdfViewActivity, com.markany.marcode.TextViewActivity, com.markany.marcode.OZViewActivity, com.markany.marcode.RDViewActivity, com.markany.marcode.HtmlViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.markany.marcode.VoiceViewActivity, com.markany.marcode.WebViewActivity, com.markany.marcode.UBSViewActivity, com.markany.marcode.PermissionActivity, com.markany.marcode.MArcodeScannerActivity
+  Services   (3): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (2): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (2): com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11855
+  Total Methods : 74824
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: markany, Organizational Unit: markany, Organization: markany, Locality: seoul, State/Province: seoul, Country: kr
+  Fingerprint : D7 F8 00 63 8B 63 28 B6 B5 90 EB 7C 83 30 1E 06 99 A9 B6 B3 0B 5C AB 95 7F 25 A8 55 FB B7 D3 FA
+
+==========================================

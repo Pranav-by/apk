@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.NoWaiting.um6p
+  SHA-256       : 002E6ACD92C208369445BD8CB08FA8EC543885FE60B7C811CCFAD55C0737ABB8
+  Android Group : Android12
+  Version       : 3.0.4 (code: 21)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (26)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, com.htc.launcher.permission.READ_SETTINGS, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.oppo.launcher.permission.WRITE_SETTINGS
+
+[Application Components]
+  Activities (3): com.NoWaiting.um6p.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (8): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (8): me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver, me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver, me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7515
+  Total Methods : 45136
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://goo.gl/J1sWQy, https://github.com/firebase/firebase-android-sdk, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8F DD 95 24 AC 7A 69 37 32 4B 76 4D 0D 86 6B 61 29 92 47 FA D4 BF D4 FF FB 00 60 9E B2 14 49 6C
+
+==========================================

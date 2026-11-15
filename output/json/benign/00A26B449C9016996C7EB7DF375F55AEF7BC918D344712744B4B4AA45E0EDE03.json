@@ -1,0 +1,90 @@
+{
+  "sha256": "00A26B449C9016996C7EB7DF375F55AEF7BC918D344712744B4B4AA45E0EDE03",
+  "filename": "00A26B449C9016996C7EB7DF375F55AEF7BC918D344712744B4B4AA45E0EDE03.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.tieline.reportit",
+  "version_name": "3.8.28",
+  "version_code": "304",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.BROADCAST_STICKY",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 17,
+  "activities": [
+    "com.tieline.reportit.playlist.PlayListEditActivity",
+    "com.tieline.reportit.settings.SettingsActivity",
+    "com.tieline.reportit.recording.FurtherDetailActivity",
+    "com.tieline.reportit.recording.RecordingDetailsActivity",
+    "com.tieline.reportit.recording.ManageReportsActivity",
+    "com.tieline.reportit.recording.PlaybackActivity",
+    "com.tieline.reportit.ftp.FTPReportActivity",
+    "com.tieline.reportit.recording.RecordReportActivity",
+    "com.tieline.reportit.SplashScreenActivity",
+    "com.tieline.reportit.LiveAudioActivity"
+  ],
+  "activity_count": 10,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.tieline.reportit.AudioService",
+    "com.tieline.reportit.LocationService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.firebase.components.ComponentDiscoveryService"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.startup.InitializationProvider",
+    "com.tieline.reportit.connection.DataContentProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5839,
+  "method_count": 35080,
+  "cert_fingerprint": "6A B2 43 7C 83 61 8F 40 29 A6 2D BD 54 47 D0 AA 45 81 CE 31 53 E7 88 4D 28 7A 36 DF 66 54 54 DB",
+  "cert_issuer": "Organizational Unit: Tieline Technology, Organization: Tieline Technology, Locality: Malaga, State/Province: Western Australia, Country: AU",
+  "urls": [
+    "http://www.tieline.com/page/Product-Support/Android-Audio-message",
+    "https://goo.gl/J1sWQy",
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "10.0.2.2"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

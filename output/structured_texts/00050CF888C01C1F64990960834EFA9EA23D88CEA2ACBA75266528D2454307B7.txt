@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ng.giglogistics.giglgo
+  SHA-256       : 00050CF888C01C1F64990960834EFA9EA23D88CEA2ACBA75266528D2454307B7
+  Android Group : Android12L
+  Version       : 2.7.8 (code: 135)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (28)]
+  android.permission.VIBRATE, android.permission.USE_FACE_AUTHENTICATION, com.samsung.android.camera.iris.permission.USE_IRIS, android.permission.USE_BIOMETRIC, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_FACERECOGNITION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.huawei.permission.USE_FACERECOGNITION, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, android.permission.USE_IRIS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER
+
+[Application Components]
+  Activities (29): ng.giglogistics.giglgo.activities.merchant.EditCardActivity, ng.giglogistics.giglgo.activities.merchant.MainActivity, com.theartofdev.edmodo.cropper.CropImageActivity, co.paystack.android.ui.PinActivity, com.paystack.checkout.ui.CheckoutActivity, co.paystack.android.ui.OtpActivity, co.paystack.android.ui.CardActivity, co.paystack.android.ui.AuthActivity, co.paystack.android.ui.AddressVerificationActivity, ng.giglogistics.giglgo.activities.merchant.OtpActivity, com.flutterwave.raveandroid.VerificationActivity, com.flutterwave.raveandroid.RavePayActivity, com.google.android.libraries.places.widget.AutocompleteActivity, ng.giglogistics.giglgo.activities.merchant.TermsActivity, com.facebook.CustomTabActivity, ng.giglogistics.giglgo.activities.merchant.MerchantAgreementActivity, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity, ng.giglogistics.giglgo.activities.MenuActivity, com.google.firebase.auth.internal.GenericIdpActivity
+  Services   (16): ng.giglogistics.giglgo.zimble.FirebaseService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.smartlook.sdk.smartlook.job.worker.record.UploadRecordJob, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.smartlook.sdk.smartlook.job.worker.session.UploadSessionJob, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.smartlook.sdk.smartlook.job.worker.internallog.UploadInternalLogJob, com.smartlook.sdk.smartlook.job.worker.record.RecordRenderVideoJob, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, ng.giglogistics.giglgo.utils.SmsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, dev.skomlach.biometric.compat.utils.DeviceUnlockedReceiver, com.smartlook.sdk.smartlook.core.referrer.ReferrerReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (5): com.myhexaville.smartimagepicker.CustomFileProvider, com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 28120
+  Total Methods : 192630
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DA 0C F0 1A 39 30 C8 4F 4C D3 96 B7 35 D5 7E 41 39 B2 79 1F 6D 8E A5 72 CD 95 1C 4D 86 88 13 B0
+
+==========================================

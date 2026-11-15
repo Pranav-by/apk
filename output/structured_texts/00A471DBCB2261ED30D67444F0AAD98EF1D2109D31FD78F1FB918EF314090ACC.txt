@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.offsong.oneus_wallpaper
+  SHA-256       : 00A471DBCB2261ED30D67444F0AAD98EF1D2109D31FD78F1FB918EF314090ACC
+  Android Group : Android15
+  Version       : 652 (code: 652)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (20)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.SET_WALLPAPER, android.permission.VIBRATE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.offsong.oneus_wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SET_WALLPAPER_HINTS, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (58): com.offsong.activities.MainActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.offsong.activities.WallpaperActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.offsong.activities.GifWallpaperActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity, com.mbridge.msdk.out.LoadingActivity, com.ironsource.sdk.controller.ControllerActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.ironsource.sdk.controller.OpenUrlActivity
+  Services   (11): com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.offsong.utils.GIFWallpaperService, com.google.firebase.components.ComponentDiscoveryService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver
+  Providers  (7): com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.vungle.ads.VungleProvider, com.squareup.picasso.PicassoProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22550
+  Total Methods : 137164
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (9): https://developers.applovin.com/en/android/overview/terms-and-privacy-policy-flow#enabling-google-ump, https://dash.applovin.com/o/account?r=2#app_ads_txt, https://developers.applovin.com/en/max/android/overview/advanced-settings#selective-init, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, http://developer.android.com/google/play-services/setup.html., https://developers.applovin.com/en/android/overview/integration, https://support.google.com/admob/answer/13554116, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://www.googletagmanager.com/gtag/js?id=
+  IP Addresses(10): 16.8.51.1, 16.9.91.0, 7.6.0.3, 6.5.0.8, 6.17.0.1, 8.3.6.1, 8.8.0.0, 23.3.0.1, 7.4.1.1, 4.12.2.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E1 C6 BE BF D3 48 0E D3 40 AD 45 09 CF 57 64 FE 9C 5B 41 53 04 D9 B8 C2 7E 1C 4B 41 43 D8 74 0F
+
+==========================================

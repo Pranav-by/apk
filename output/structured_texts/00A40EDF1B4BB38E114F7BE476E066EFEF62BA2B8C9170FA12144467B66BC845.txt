@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mylocaltv.wcpo
+  SHA-256       : 00A40EDF1B4BB38E114F7BE476E066EFEF62BA2B8C9170FA12144467B66BC845
+  Android Group : Android14
+  Version       : 7.2.7.0 (code: 2024050912)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 34
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, com.mylocaltv.wcpo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (30): com.scripps.newsapps.activity.webview.OutbrainWebViewActivity, com.scripps.newsapps.activity.loginprompt.LoginPromptActivity, com.scripps.newsapps.activity.weather.alerts.WeatherAlertDetailsActivity, com.scripps.newsapps.activity.article.gallery.MediaGalleryActivity, com.scripps.newsapps.activity.login.UserhubActivity, com.scripps.newsapps.activity.push.PushSettingsActivity2, androidx.compose.ui.tooling.PreviewActivity, com.urbanairship.actions.RateAppActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.scripps.newsapps.activity.article.ArticleListActivity3, com.urbanairship.android.layout.ui.ModalActivity, com.google.android.gms.common.api.GoogleApiActivity, com.urbanairship.actions.WalletLoadingActivity, com.urbanairship.push.NotificationProxyActivity, com.scripps.newsapps.activity.whatsnew.WhatsNewActivity, com.urbanairship.permission.PermissionsActivity, com.scripps.newsapps.activity.video.ContinuousVideoPlaybackActivity, com.urbanairship.util.HelperActivity, com.scripps.newsapps.activity.newstabs.NewsTabsActivity
+  Services   (15): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.analytics.AnalyticsService, androidx.work.impl.background.systemjob.SystemJobService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService, com.urbanairship.push.fcm.AirshipFirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (17): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.urbanairship.location.LocationReceiver, com.urbanairship.push.NotificationProxyReceiver, com.urbanairship.automation.alarms.AlarmOperationReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.urbanairship.locale.LocaleChangeReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 48504
+  Total Methods : 298037
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: MyLocalTV, Locality: Unknown, State/Province: Unknown, Country: Unknown
+  Fingerprint : AD 27 DF 28 82 6A 96 B2 50 E1 5F 96 60 50 D8 02 C4 9B 08 C0 F9 26 59 B3 EF 79 AC 93 1B 25 7A 78
+
+==========================================

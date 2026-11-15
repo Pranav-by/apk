@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : br.com.slcagricola.appcotton
+  SHA-256       : 00A7F63E62B744497D39EA3F7B2C26739C7FF9A7D84BE245DF8DABB5FA5F6E9E
+  Android Group : Android12
+  Version       : 2.0.6 (code: 200006)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_FULL_SCREEN_INTENT, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (3): com.google.android.gms.common.api.GoogleApiActivity, br.com.slcagricola.appcotton.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (10): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.firebase.components.ComponentDiscoveryService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+  Receivers  (6): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7671
+  Total Methods : 40497
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gl/J1sWQy, https://developer.android.com/reference/javax/net/ssl/SSLSocket, https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5A 29 07 10 4D C3 96 16 F4 56 7B BC B0 FE F3 E8 94 8D A8 C5 51 A8 3B 9F 82 4E BE 6D 05 29 7D 0C
+
+==========================================

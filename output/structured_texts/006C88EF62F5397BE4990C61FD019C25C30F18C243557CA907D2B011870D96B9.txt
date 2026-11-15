@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.facilitygrid.mobile
+  SHA-256       : 006C88EF62F5397BE4990C61FD019C25C30F18C243557CA907D2B011870D96B9
+  Android Group : Android12
+  Version       : 1.25.4 (code: 125045)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (7)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (5): com.google.zxing.client.android.encode.EncodeActivity, com.facilitygrid.mobile.MainActivity, com.google.zxing.client.android.CaptureActivity, com.synconset.MultiImageChooserActivity, com.sarriaroman.PhotoViewer.PhotoActivity
+  Services   (1): de.appplant.cordova.plugin.background.ForegroundService
+  Receivers  (0): none
+  Providers  (4): org.apache.cordova.camera.FileProvider, com.squareup.picasso.PicassoProvider, android.support.v4.content.FileProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3021
+  Total Methods : 22860
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): http://ns.adobe.com/xfdf/
+  IP Addresses(1): 1.8.10.0
+
+[Certificate]
+  Issuer      : Common Name: Anton Kalmykov, Organizational Unit: Dev, Organization: Reverse Systems LLC, Locality: Yekaterinburg, State/Province: 66, Country: RU
+  Fingerprint : A0 51 5A 58 F5 04 57 71 B7 E8 6D 0F CE DF D3 B7 D7 11 63 82 04 7D C3 18 B2 B8 01 37 D0 4A 59 09
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.swissquote.android
+  SHA-256       : 00A2CB0C898DA312534849A2206E6434B9EA8DC8649B7C864FCA6ECA76B68429
+  Android Group : Android14
+  Version       : 7.11.0 (code: 71100)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (12)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, android.permission.VIBRATE, com.swissquote.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_BIOMETRIC, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.CHANGE_NETWORK_STATE
+
+[Application Components]
+  Activities (21): com.swissquote.onboarding.presentation.ui.screen.additionalquestions.AdditionalQuestionsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.swissquote.onboarding.misnap.ui.MisnapCaptureActivity, com.swissquote.onboarding.presentation.ui.screen.welcome.WelcomeActivity, com.swissquote.onboarding.presentation.ui.screen.onlineidentification.OnlineIdentificationActivity, androidx.compose.ui.tooling.PreviewActivity, com.swissquote.onboarding.presentation.ui.screen.proofofresidence.ProofOfResidenceActivity, com.swissquote.onboarding.presentation.ui.screen.firstdeposit.FirstDepositActivity, com.swissquote.cards.presentation.ui.screen.provisioning_profile.ProvisioningProfileActivity, com.swissquote.android.framework.authentication.extraAuth.presentation.ExtraAuthenticationActivity, com.swissquote.android.widget.presentation.QuotesWidgetActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.swissquote.cards.presentation.ui.screen.otp.CardsOtpActivity, com.swissquote.onboarding.presentation.ui.screen.signup.SignUpActivity, com.swissquote.android.MainActivity, com.swissquote.cards.presentation.CardsActivity, com.swissquote.android.activity.StartActivity, com.swissquote.payments.presentation.ui.screen.PaymentsMainActivity, com.swissquote.onboarding.presentation.ui.screen.contract.ContractActivity, com.swissquote.onboarding.presentation.ui.screen.clarification.ClarificationActivity
+  Services   (11): com.swissquote.android.OnClearFromRecentService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.swissquote.android.framework.pushNotifications.data.PushNotificationsService, com.google.firebase.components.ComponentDiscoveryService, androidx.camera.core.impl.MetadataHolderService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.swissquote.android.widget.QuotesWidget, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (8): com.swissquote.onboarding.presentation.OnboardingFileProvider, androidx.core.content.FileProvider, com.swissquote.onboarding.misnap.SqMisnapFileProvider, com.swissquote.android.framework.alerts.provider.NotificationChannelsProvider, com.swissquote.payments.presentation.PaymentsFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 52592
+  Total Methods : 312329
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Swissquote Bank SA, State/Province: Switzerland
+  Fingerprint : 50 D2 40 A8 31 5D D7 FB 50 2A E1 89 B2 34 EA 27 A4 5F FF 4A 32 2C A6 E1 96 85 24 75 A3 55 9F AB
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.chartnote.chartnote_mobile
+  SHA-256       : 00AB60AEAD62332F7AEDDE934691FDB98BF0C81AE5147573C5C202859DCA3CFF
+  Android Group : Android15
+  Version       : 2.9.11 (code: 282)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.FOREGROUND_SERVICE_MICROPHONE, com.chartnote.chartnote_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BROADCAST_STICKY, android.permission.BLUETOOTH, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (6): com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.chartnote.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (8): com.google.android.gms.measurement.AppMeasurementService, androidx.camera.core.impl.MetadataHolderService, com.chartnote.infrastructure.audio.RecordingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (4): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4594
+  Total Methods : 22343
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (9): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://issuetracker.google.com/issues/241760537, https://issuetracker.google.com/issues/new?component=618491&template=1257717, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://github.com/flutter/packages/blob/main/packages/in_app_purchase/in_app_purchase/README.md#loading-products-for-sale, https://developer.android.com/guide/topics/permissions/overview, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 72 5C E2 6D 54 9E 0A EE BA 54 19 82 92 7E 78 66 B5 D5 3C 32 88 90 42 D7 0E 75 9B 6F CA B2 DE F7
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.appradio.gaydioradiouk
+  SHA-256       : 0065B5B41879F1577371CE827DDB3DA490953149D10568CC1880C38ABB5EC2CA
+  Android Group : Android12L
+  Version       : 2.1.3 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (10)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (15): com.appradio.gaydioradiouk.activities.SplashActivity, com.appradio.gaydioradiouk.sleeptimer.MainActivity, com.appradio.gaydioradiouk.wakeup.AlarmLandingPageActivity, com.google.android.gms.ads.AdActivity, com.appradio.gaydioradiouk.activities.MainActivity, com.appradio.gaydioradiouk.sleeptimer.SetTimerActivity, com.appradio.gaydioradiouk.sleeptimer.CountdownActivity, com.appradio.gaydioradiouk.fragments.RadioMainFragment, com.appradio.gaydioradiouk.wakeup.MainActivityAlarm, com.google.android.gms.common.api.GoogleApiActivity, com.appradio.gaydioradiouk.activities.RadioMainActivity, com.appradio.gaydioradiouk.wakeup.AddEditAlarmActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.appradio.gaydioradiouk.activities.PlayRecordingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (11): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.room.MultiInstanceInvalidationService, com.appradio.gaydioradiouk.services.NotificationService, com.appradio.gaydioradiouk.services.Services, com.appradio.gaydioradiouk.wakeup.LoadAlarmsService, com.appradio.gaydioradiouk.sleeptimer.PauseMusicService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (13): com.appradio.gaydioradiouk.fragments.RadioMainFragment$PlayPause, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.appradio.gaydioradiouk.wakeup.LoadAlarmsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.appradio.gaydioradiouk.activities.MainActivity$PlayPause, com.appradio.gaydioradiouk.wakeup.AlarmReceiver, com.appradio.gaydioradiouk.sleeptimer.PauseMusicReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (3): com.squareup.picasso.PicassoProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12003
+  Total Methods : 68977
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices, https://exoplayer.dev/issues/cleartext-not-permitted
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: justo mallma, Organizational Unit: peru, Organization: peru, Locality: ica, State/Province: ica, Country: 11001
+  Fingerprint : 55 95 3E F0 EC B0 97 9C 82 24 E6 2F 0B BD 08 23 4D D2 1D FC 6D D9 BA 36 F9 E2 97 E5 9E 7A F9 13
+
+==========================================

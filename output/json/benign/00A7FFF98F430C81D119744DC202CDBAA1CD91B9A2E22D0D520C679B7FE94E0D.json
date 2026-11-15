@@ -1,0 +1,84 @@
+{
+  "sha256": "00A7FFF98F430C81D119744DC202CDBAA1CD91B9A2E22D0D520C679B7FE94E0D",
+  "filename": "00A7FFF98F430C81D119744DC202CDBAA1CD91B9A2E22D0D520C679B7FE94E0D.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.brawlstar.codes",
+  "version_name": "4.0",
+  "version_code": "4",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "com.brawlstar.codes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.brawlstar.codes.MainActivity",
+    "com.brawlstar.codes.QuizActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.brawlstar.codes.FactActivity",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.brawlstar.codes.GemsEstimateActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.brawlstar.codes.RobucCodeActivity"
+  ],
+  "activity_count": 9,
+  "services": [
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.ads.AdService"
+  ],
+  "service_count": 6,
+  "receivers": [
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "com.facebook.ads.AudienceNetworkContentProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14471,
+  "method_count": 85602,
+  "cert_fingerprint": "66 57 97 90 47 5D 8F 13 BF 8F 23 25 D0 64 7D F9 97 F0 F9 22 FF D6 1D C9 7F A9 70 49 FA B9 0C D6",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest"
+  ],
+  "ip_addresses": [
+    "6.12.0.0",
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

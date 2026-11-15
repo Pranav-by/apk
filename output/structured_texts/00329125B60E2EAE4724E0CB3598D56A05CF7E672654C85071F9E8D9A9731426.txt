@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sboragalbi.girlsbacktoschool
+  SHA-256       : 00329125B60E2EAE4724E0CB3598D56A05CF7E672654C85071F9E8D9A9731426
+  Android Group : Android12L
+  Version       : 1.0.0 (code: 10000)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (2)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (4): com.sboragalbi.girlsbacktoschool.MainActivity, com.ironsource.sdk.controller.ControllerActivity, com.ironsource.sdk.controller.InterstitialActivity, com.ironsource.sdk.controller.OpenUrlActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4220
+  Total Methods : 31674
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F3 84 C2 78 E9 F7 09 A0 80 BB AF B5 0C A0 BE E1 47 CC 84 C8 B9 C1 B1 5C 32 10 3A F3 70 CA F8 A7
+
+==========================================

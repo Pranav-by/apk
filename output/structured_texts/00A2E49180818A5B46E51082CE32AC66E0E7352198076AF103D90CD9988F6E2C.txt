@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.onanoff.storyphones
+  SHA-256       : 00A2E49180818A5B46E51082CE32AC66E0E7352198076AF103D90CD9988F6E2C
+  Android Group : Android13
+  Version       : 1.0.33 (code: 10033)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.ACCESS_COARSE_LOCATION, com.google.android.gms.permission.AD_ID, android.permission.RECORD_AUDIO, android.permission.BLUETOOTH_ADMIN, android.permission.BLUETOOTH, android.permission.INTERNET, android.permission.BLUETOOTH_CONNECT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.BLUETOOTH_SCAN, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (24): com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.stripe.android.view.PaymentFlowActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.google.android.gms.common.api.GoogleApiActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.link.LinkActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.stripe.android.ui.core.cardscan.CardScanActivity, come.onanoff.storyphones.MainActivity, com.stripe.android.view.AddPaymentMethodActivity
+  Services   (6): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.lyokone.location.FlutterLocationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): androidx.startup.InitializationProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31369
+  Total Methods : 206271
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B2 9E AB 6D 25 C4 71 1C 5E AB 7E 68 0E 0D 5B 8F 57 08 A0 45 0B 42 92 FA 88 38 2C 06 F9 2C 52 FA
+
+==========================================

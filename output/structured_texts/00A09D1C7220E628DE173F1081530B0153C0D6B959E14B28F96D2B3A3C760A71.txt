@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mixvibes.remixlive
+  SHA-256       : 00A09D1C7220E628DE173F1081530B0153C0D6B959E14B28F96D2B3A3C760A71
+  Android Group : Android14
+  Version       : 8.3.2 (code: 535)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (34)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, com.mixvibes.remixlive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_MEDIA_AUDIO, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.android.vending.CHECK_LICENSE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS
+
+[Application Components]
+  Activities (39): com.mixvibes.remixlive.app.FeatureFxDetailsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pairip.licensecheck.LicenseActivity, com.mixvibes.remixlive.app.WaveformActivity, androidx.compose.ui.tooling.PreviewActivity, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedReceiver, com.mixvibes.remixlive.app.FullAdActivity, com.mixvibes.remixlive.app.LoadDrumGridActivity, com.mixvibes.remixlive.app.StoreGenreDetailsActivity, com.mixvibes.remixlive.app.HomeActivity, com.mixvibes.remixlive.app.SubscriptionInterstitialActivity, com.mixvibes.remixlive.app.RecordingsActivity, com.mixvibes.remixlive.app.LearnWebViewActivity, com.mixvibes.remixlive.app.ImportMediaActivity, com.mixvibes.remixlive.app.EditSamplesActivity, com.mixvibes.remixlive.app.ImportFileActivity, com.mixvibes.remixlive.app.CreateNewProjectActivity, com.mixvibes.remixlive.app.ImportForUnmixActivity, com.mixvibes.remixlive.app.UnmixEditStemsActivity
+  Services   (17): com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.onesignal.SyncJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.mixvibes.remixlive.vending.RLDownloaderService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.mixvibes.common.service.RLEngineService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (19): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.amazon.device.iap.ResponseReceiver, com.mixvibes.remixlive.vending.RLAlarmReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.tracing.perfetto.TracingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (6): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider, com.pairip.licensecheck.LicenseContentProvider, com.mixvibes.common.database.RLContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 36203
+  Total Methods : 238918
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Nordhal Mabire, Organization: Mixvibes, Locality: Paris, State/Province: France
+  Fingerprint : B2 E1 EE 24 5A 59 94 27 DC 2E F2 E6 0B DC 15 3C 59 EF B2 77 51 1B 85 35 11 68 A7 FA 4A D0 F6 40
+
+==========================================

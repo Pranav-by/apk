@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.iftech.android.box
+  SHA-256       : 009DA12644A2D7BB271FD295C45D379F04FFA24491440256349794308596D9B6
+  Android Group : Android14
+  Version       : 1.27.19 (code: 344)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (59)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, freemme.permission.msa.SECURITY_ACCESS, android.permission.SET_WALLPAPER, android.permission.ACCESS_ADSERVICES_AD_ID, com.android.launcher.permission.READ_SETTINGS, oppo.permission.OPPO_COMPONENT_SAFE, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, android.permission.BLUETOOTH_ADVERTISE, io.iftech.android.box.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.CHANGE_WIFI_STATE, android.permission.BIND_DEVICE_ADMIN, android.permission.ACCESS_COARSE_LOCATION
+
+[Application Components]
+  Activities (169): io.iftech.android.box.ui.invocation.InvocationTextSettingActivity, io.iftech.android.box.ui.utils.PermissionSettingActivity, com.zhihu.matisse.internal.ui.SelectedPreviewActivity, io.iftech.android.box.ui.AudioTempleBlockDetailActivity, com.zhihu.matisse.internal.ui.AlbumPreviewActivity, io.iftech.android.box.ui.bluetooth.BluetoothUploadActivity, io.iftech.android.box.ui.dynamicIsland.DynamicIslandLocationSettingActivity, io.iftech.android.box.ui.dynamicIsland.DynamicIslandTypeSwitchSettingActivity, io.iftech.android.box.ui.bluetooth.BluetoothAdvancedSettingActivity, io.iftech.android.box.ui.VideoTrimmerActivity, io.iftech.android.box.ui.bluetooth.BluetoothWidgetActivity, io.iftech.android.box.setting.AboutActivity, io.iftech.android.box.ui.GifWidgetSettingActivity, io.iftech.android.box.ui.charging.ChargingAnimationWhenLockedActivity, io.iftech.android.box.ui.bluetooth.BluetoothHeadsetActivity, io.iftech.android.box.ui.charging.ChargingAnimationPreviewActivity, io.iftech.android.box.ui.Common44WidgetActivity, io.iftech.android.box.ui.Common42WidgetActivity, io.iftech.android.box.ui.ShortcutSettingActivity, io.iftech.android.box.ui.Common22WidgetActivity
+  Services   (26): androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, io.iftech.android.box.widget.domain.WidgetService, io.iftech.android.box.widget.domain.MiuiWidgetService, com.blankj.utilcode.util.MessengerUtils$ServerService, io.iftech.android.box.service.NotificationMusicListenerService, androidx.room.MultiInstanceInvalidationService, io.iftech.android.box.setting.domain.WidgetAccessibility, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.iftech.android.box.service.ScreenRecordService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.iftech.android.box.service.livewapper.BoxWallpaperService, cn.jpush.android.service.PushService, com.google.firebase.components.ComponentDiscoveryService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService
+  Receivers  (37): io.iftech.android.push.jiguang.JPushReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, io.iftech.android.box.widget.MiuiLargeDarkSystemInfoWidgetProvider, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, io.iftech.android.box.widget.common.Common2x2VivoWidgetProvider, io.iftech.android.box.admin.BoxAdminReceiver, io.iftech.android.box.widget.common.Common2x2WidgetProvider, io.iftech.android.box.widget.common.Common4x2WidgetProvider, io.iftech.android.box.widget.common.Common4x4WidgetProvider, io.iftech.android.box.widget.common.Common4x2VivoWidgetProvider, io.iftech.android.box.widget.common.Common4x4VivoWidgetProvider, io.iftech.android.box.widget.MiuiLargeSystemInfoWidgetProvider, io.iftech.android.box.widget.LargeSystemInfoWidgetProvider, io.iftech.android.box.widget.LargeDarkSystemInfoWidgetProvider, io.iftech.android.box.widget.MiuiFishWorkCountdownWidgetProvider, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, io.iftech.android.box.widget.MiuiFishWorkMoneyWidgetProvider, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, io.iftech.android.box.widget.MiuiHitokotoDefaultWidgetProvider, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (16): com.facebook.ads.AudienceNetworkContentProvider, io.iftech.android.update.mock.UpdateFileProvider, io.iftech.android.push.jiguang.ProcessProvider, androidx.startup.InitializationProvider, com.luck.picture.lib.basic.PictureFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.blankj.utilcode.util.UtilsFileProvider, com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider, com.applovin.sdk.AppLovinInitProvider, cn.jpush.android.service.DataProvider, io.sentry.android.core.SentryInitProvider, cn.jpush.android.service.InitProvider, io.iftech.android.box.service.HonorCardProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 48694
+  Total Methods : 283666
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 22.5.0.0, 16.5.61.0, 5.5.0.4
+
+[Certificate]
+  Issuer      : Common Name: Ren Zehua, Organizational Unit: 上海若友网络科技有限公司, Organization: 上海若友网络科技有限公司, Locality: 上海, State/Province: 上海, Country: 021
+  Fingerprint : 7C 32 96 37 2F 2D 60 74 F7 E3 1B D6 B3 F1 C8 74 15 48 B4 59 10 6D A3 11 CB 82 19 86 92 46 C3 44
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.mcenta.app
+  SHA-256       : 00A7F4F341BFF04D6322371299C268B03D3E16201FA1A78DF8A76BB411C62CCB
+  Android Group : Android15
+  Version       : 2.2.75 (code: 414)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (42)]
+  android.permission.BIND_NOTIFICATION_LISTENER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.android.vending.CHECK_LICENSE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+
+[Application Components]
+  Activities (26): com.nudgenow.nudgecorev2.core.ErrorActivity, com.nudgenow.nudgecorev2.experiences.quiz.core.QuizActivity, com.nudgenow.nudgecorev2.experiences.quiz.core.ResultActivity, com.nudgenow.nudgecorev2.core.NudgePairActivity, com.nudgenow.nudgecorev2.experiences.quiz.core.QuizScreenActivity, com.yellowmessenger.ymchat.YellowBotWebViewActivity, androidx.glance.appwidget.action.InvisibleActionTrampolineActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.razorpay.CheckoutActivity, com.razorpay.MagicXActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.nudgenow.nudgecorev2.experiences.stories.core.StoryActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, androidx.glance.appwidget.action.ActionTrampolineActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity, org.mcenta.app.MainActivity
+  Services   (23): com.lyokone.location.FlutterLocationService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, me.carda.awesome_notifications.DartBackgroundService, me.carda.awesome_notifications.core.services.ForegroundService, me.carda.awesome_notifications.core.managers.StatusBarManager, androidx.glance.appwidget.GlanceRemoteViewsService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.gms.metadata.ModuleDependencies, es.antonborri.home_widget.HomeWidgetBackgroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.core.widget.RemoteViewsCompatService
+  Receivers  (25): es.antonborri.home_widget.HomeWidgetBackgroundReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.amazon.device.iap.ResponseReceiver, me.carda.awesome_notifications.DartNotificationActionReceiver, me.carda.awesome_notifications.DartDismissedNotificationReceiver, me.carda.awesome_notifications.DartScheduledNotificationReceiver, me.carda.awesome_notifications.DartRefreshSchedulesReceiver, androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver, androidx.glance.appwidget.MyPackageReplacedReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, org.mcenta.app.CustomHomeWidget
+  Providers  (10): dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider, com.yellowmessenger.ymchat.YellowChatBotFileProvide, com.pairip.licensecheck.LicenseContentProvider, com.squareup.picasso.PicassoProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.crazecoder.openfile.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 37591
+  Total Methods : 258368
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 43 3C FB 3A C5 E7 6F CA D9 36 44 5A D1 27 79 D3 07 E2 A2 27 98 30 15 44 BB 99 E8 E1 7A FF B3 67
+
+==========================================

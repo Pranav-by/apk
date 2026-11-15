@@ -1,0 +1,85 @@
+{
+  "sha256": "001BB03513BD0DAFD4BA2E25C59FC667407F7F3D6DB0CA0F11523DE0E2206436",
+  "filename": "001BB03513BD0DAFD4BA2E25C59FC667407F7F3D6DB0CA0F11523DE0E2206436.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "com.muxyvmodmcpe.new_furniture_mod_mcpe",
+  "version_name": "1.2.0",
+  "version_code": "9",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.muxyvmodmcpe.new_furniture_mod_mcpe.SplashActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.muxyvmodmcpe.new_furniture_mod_mcpe.MainActivity",
+    "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+  ],
+  "activity_count": 8,
+  "services": [
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "com.google.android.play.core.assetpacks.AssetPackExtractionService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.play.core.assetpacks.ExtractionForegroundService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "com.facebook.ads.AudienceNetworkContentProvider",
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14551,
+  "method_count": 85798,
+  "cert_fingerprint": "41 CC 1E 5C 1A EF 93 88 CD E3 AB 90 2B 10 4A F3 CC 5A 62 53 57 C2 08 2B 8A 90 F9 CC 6A 22 E5 9B",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [
+    "127.0.0.1",
+    "6.14.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kidsup.math.soroban
+  SHA-256       : 00A11CEB018BC53941E42675CBEE6AA0539AE8B97ADF09BD7A583924E2A3EDA7
+  Android Group : Android12L
+  Version       : 1.2.19 (code: 65)
+
+[SDK Information]
+  Minimum SDK   : 18
+  Target SDK    : 32
+
+[Permissions (8)]
+  android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (14): com.kidsup.math.soroban.activity.StudyActivity, com.kidsup.math.soroban.activity.AboutActivity, com.kidsup.math.soroban.activity.StatActivity, com.kidsup.math.soroban.activity.ShopActivity, com.kidsup.math.soroban.activity.GameActivity, com.kidsup.math.soroban.activity.PracticeSettingsActivity, com.kidsup.math.soroban.activity.KeyboardActivity, com.kidsup.math.soroban.activity.GamesActivity, com.kidsup.math.soroban.activity.GiftsActivity, com.android.billingclient.api.ProxyBillingActivity, com.kidsup.math.soroban.activity.LessonsActivity, com.kidsup.math.soroban.activity.IntroActivity, com.kidsup.math.soroban.activity.MainActivity, com.kidsup.math.soroban.activity.TestActivity
+  Services   (5): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.kidsup.math.soroban.receiver.StatReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (1): com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4254
+  Total Methods : 19688
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://goo.gl/J1sWQy, https://issuetracker.google.com/issues/36918154, https://goo.gl/NAOOOI.
+  IP Addresses(1): 1.2.19.65
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 79 5F E9 37 29 3D EB C5 74 FD 4F 53 A9 08 E9 AA 01 9D 27 03 C4 57 49 9C A2 89 14 9B F2 D9 33 CF
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : it.segesta.mobile
+  SHA-256       : 00161EEB5EE26608654185D97F4277FC114C591294215DDAC7E38A60784D3265
+  Android Group : Android13
+  Version       : 4.0.12 (code: 12)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (7)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (2): it.segesta.mobile.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (8): com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (4): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (2): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3733
+  Total Methods : 16951
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://firebase.google.com/docs/analytics, https://developer.android.com/guide/topics/permissions/overview, https://goo.gl/NAOOOI.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F8 E8 05 55 E7 DD 34 08 BB F5 B1 72 92 69 12 7C 30 FD 87 2E 1F DB 85 E3 62 B0 AB AF 89 41 10 B9
+
+==========================================

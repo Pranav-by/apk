@@ -1,0 +1,82 @@
+{
+  "sha256": "00A11CEB018BC53941E42675CBEE6AA0539AE8B97ADF09BD7A583924E2A3EDA7",
+  "filename": "00A11CEB018BC53941E42675CBEE6AA0539AE8B97ADF09BD7A583924E2A3EDA7.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.kidsup.math.soroban",
+  "version_name": "1.2.19",
+  "version_code": "65",
+  "min_sdk": "18",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.kidsup.math.soroban.activity.StudyActivity",
+    "com.kidsup.math.soroban.activity.AboutActivity",
+    "com.kidsup.math.soroban.activity.StatActivity",
+    "com.kidsup.math.soroban.activity.ShopActivity",
+    "com.kidsup.math.soroban.activity.GameActivity",
+    "com.kidsup.math.soroban.activity.PracticeSettingsActivity",
+    "com.kidsup.math.soroban.activity.KeyboardActivity",
+    "com.kidsup.math.soroban.activity.GamesActivity",
+    "com.kidsup.math.soroban.activity.GiftsActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.kidsup.math.soroban.activity.LessonsActivity",
+    "com.kidsup.math.soroban.activity.IntroActivity",
+    "com.kidsup.math.soroban.activity.MainActivity",
+    "com.kidsup.math.soroban.activity.TestActivity"
+  ],
+  "activity_count": 14,
+  "services": [
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.measurement.AppMeasurementJobService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.kidsup.math.soroban.receiver.StatReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4254,
+  "method_count": 19688,
+  "cert_fingerprint": "79 5F E9 37 29 3D EB C5 74 FD 4F 53 A9 08 E9 AA 01 9D 27 03 C4 57 49 9C A2 89 14 9B F2 D9 33 CF",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics",
+    "https://goo.gl/J1sWQy",
+    "https://issuetracker.google.com/issues/36918154",
+    "https://goo.gl/NAOOOI."
+  ],
+  "ip_addresses": [
+    "1.2.19.65"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

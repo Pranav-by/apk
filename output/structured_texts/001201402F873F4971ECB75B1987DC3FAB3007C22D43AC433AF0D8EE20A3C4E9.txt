@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kokonut.simiaviento
+  SHA-256       : 001201402F873F4971ECB75B1987DC3FAB3007C22D43AC433AF0D8EE20A3C4E9
+  Android Group : Android13
+  Version       : 0.0.1 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.POST_NOTIFICATIONS, android.permission.READ_MEDIA_AUDIO, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.READ_MEDIA_IMAGES, android.permission.INTERNET, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (12): com.facebook.unity.FBUnityAppLinkActivity, com.facebook.FacebookActivity, com.facebook.unity.FBUnityDialogsActivity, com.google.ar.core.InstallActivity, com.facebook.CustomTabActivity, com.facebook.unity.FBUnityGamingServicesFriendFinderActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.facebook.CustomTabMainActivity, com.facebook.unity.FBUnityGameRequestActivity, com.unity3d.player.UnityPlayerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.unity.FBUnityLoginActivity
+  Services   (3): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (5): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.unity.androidnotifications.UnityNotificationRestartReceiver, com.unity.androidnotifications.UnityNotificationManager, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (3): com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.FacebookContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7154
+  Total Methods : 46723
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 63 6C 13 8D FA FF 42 3A 80 6E B2 64 F1 39 0E 4D 8B CB CA 77 C9 43 B8 69 B3 B2 C8 C6 0F 61 81 A5
+
+==========================================

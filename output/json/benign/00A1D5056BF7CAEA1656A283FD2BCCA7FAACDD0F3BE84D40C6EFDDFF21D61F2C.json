@@ -1,0 +1,53 @@
+{
+  "sha256": "00A1D5056BF7CAEA1656A283FD2BCCA7FAACDD0F3BE84D40C6EFDDFF21D61F2C",
+  "filename": "00A1D5056BF7CAEA1656A283FD2BCCA7FAACDD0F3BE84D40C6EFDDFF21D61F2C.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.nampadesign.train",
+  "version_name": "1.0.6",
+  "version_code": "70",
+  "min_sdk": "23",
+  "target_sdk": "36",
+  "permissions": [
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.android.billingclient.api.ProxyBillingActivityV2",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 1508,
+  "method_count": 6465,
+  "cert_fingerprint": "4F 43 05 09 B7 B0 A7 85 27 02 1A 58 AC 32 DE E2 55 85 D3 25 91 C3 B5 BE DD A0 F6 C6 0C 11 FB 93",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

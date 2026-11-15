@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pointofrental.inspectionapp
+  SHA-256       : 00A7F11861D404FC90D50141850CC623CA049449A894AE030CB165622B2EAC42
+  Android Group : Android12L
+  Version       : 2023.5.1 (code: 2023052)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (22)]
+  com.anddoes.launcher.permission.UPDATE_COUNT, me.everything.badger.permission.BADGE_COUNT_READ, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.majeur.launcher.permission.UPDATE_BADGE, android.permission.READ_APP_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, android.permission.WAKE_LOCK, com.oppo.launcher.permission.WRITE_SETTINGS
+
+[Application Components]
+  Activities (1): com.pointofrental.inspectionapp.MainActivity
+  Services   (1): de.appplant.cordova.plugin.localnotification.ClickReceiver
+  Receivers  (4): de.appplant.cordova.plugin.localnotification.TriggerReceiver, nl.xservices.plugins.ShareChooserPendingIntent, de.appplant.cordova.plugin.localnotification.ClearReceiver, de.appplant.cordova.plugin.localnotification.RestoreReceiver
+  Providers  (4): nl.xservices.plugins.FileProvider, androidx.startup.InitializationProvider, org.apache.cordova.camera.FileProvider, de.appplant.cordova.plugin.notification.util.AssetProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3682
+  Total Methods : 27877
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: Point of Rental, Locality: Unknown, State/Province: Unknown, Country: US
+  Fingerprint : B6 6E E7 25 5B 19 DC F4 74 82 20 0C 51 61 FA CB AE 71 1E 99 61 3A 44 AD AC B0 56 D9 C3 07 5B BB
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.drmaxmuscle.dr_max_muscle
+  SHA-256       : 003CDE97F72D05205C4E42FF2A41EF5A107A9BE8E4F1C0D9E792DC99C7455A63
+  Android Group : Android13
+  Version       : 2.6 (code: 2376)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (19)]
+  android.permission.BIND_CHOOSER_TARGET_SERVICE, android.permission.VIBRATE, android.permission.REBOOT, android.permission.ACTIVITY_RECOGNITION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.android.alarm.permission.SET_ALARM, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.BIND_DREAM_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_SURFACE_FLINGER, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (8): crc6492e3dfc318e0c3db.SplashActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, crc6492e3dfc318e0c3db.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabActivity
+  Services   (8): com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, crc6494e14b9856016c30.PNFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (10): crc64cea48322b3427ae9.ConnectivityChangeBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, crc6494e14b9856016c30.PushNotificationActionReceiver, crc6494e14b9856016c30.PushNotificationDeletedReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdInternalReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, crc641c164f844fce4a73.AlarmReceiver
+  Providers  (5): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, mono.MonoRuntimeProvider, com.facebook.FacebookContentProvider, mono.android.MultiDexLoader
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11159
+  Total Methods : 77191
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Champion Arnaud, Organizational Unit: Unknown, Organization: Unknown, Locality: Vernon, State/Province: France, Country: FR
+  Fingerprint : 29 22 FC AB E9 6D F9 19 19 8A D0 2F EE 34 54 4B 8B 77 0E B0 58 9D B0 C0 F1 21 26 72 47 72 30 F5
+
+==========================================

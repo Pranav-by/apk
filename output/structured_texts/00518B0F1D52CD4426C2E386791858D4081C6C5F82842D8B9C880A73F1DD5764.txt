@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.chanech.shopassistant
+  SHA-256       : 00518B0F1D52CD4426C2E386791858D4081C6C5F82842D8B9C880A73F1DD5764
+  Android Group : Android13
+  Version       : 6.76.0 (code: 175)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (46)]
+  android.permission.READ_MEDIA_VIDEO, getui.permission.GetuiService.com.chanech.shopassistant, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, com.chanech.shopassistant.permission.PUSH_PROVIDER, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.READ_LOGS, android.permission.BLUETOOTH_ADMIN, com.meizu.c2dm.permission.RECEIVE, android.permission.GET_TASKS, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (19): com.igexin.sdk.GetuiActivity, io.dcloud.feature.nativeObj.photoview.PhotoActivity, io.dcloud.WebviewActivity, com.igexin.sdk.GActivity, io.dcloud.PandoraEntry, com.huawei.hms.activity.BridgeActivity, io.dcloud.ProcessMediator, com.xiaomi.mipush.sdk.NotificationClickedActivity, com.huawei.hms.activity.EnableServiceActivity, io.dcloud.share.mm.WXShareProcessMeadiatorActivity, com.dmcbig.mediapicker.PickerActivity, com.igexin.sdk.PushActivity, com.dmcbig.mediapicker.PreviewActivity, com.chanech.shopassistant.wxapi.WXEntryActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, io.dcloud.sdk.activity.WebViewActivity, io.dcloud.PandoraEntryActivity, io.dcloud.WebAppActivity, com.huawei.hms.support.api.push.TransActivity
+  Services   (18): io.dcloud.feature.unipush.CustomGTService, com.igexin.sdk.PushService, com.vivo.push.sdk.service.CommandClientService, com.igexin.sdk.GTIntentService, com.igexin.sdk.GService, com.igexin.sdk.OppoPushService, com.igexin.sdk.HmsPushMessageService, com.getui.gtc.GtcService, com.huawei.hms.support.api.push.service.HmsMsgService, com.huawei.agconnect.core.ServiceDiscovery, io.dcloud.feature.aps.ApsActionService, com.amap.api.location.APSService, com.igexin.sdk.OppoAppPushService, com.xiaomi.mipush.sdk.MessageHandleService, io.dcloud.sdk.base.service.DownloadService, io.dcloud.feature.unipush.GTNormalIntentService, com.xiaomi.mipush.sdk.PushMessageHandler, com.meizu.cloud.pushsdk.NotificationService
+  Receivers  (7): com.taobao.weex.WXGlobalEventReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, com.igexin.sdk.MiuiPushReceiver, com.igexin.sdk.FlymePushReceiver, com.igexin.sdk.VivoPushMessageReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver
+  Providers  (6): io.dcloud.sdk.base.service.provider.DCloudAdFileProvider, com.huawei.hms.aaid.InitProvider, com.huawei.hms.support.api.push.PushProvider, com.getui.gtc.base.GtcProvider, io.dcloud.common.util.DCloud_FileProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13708
+  Total Methods : 93805
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明
+  IP Addresses(10): 6.5.0.300, 1.1.5.304, 0.0.0.0, 1.6.5.300, 1.0.1.0, 5.0.10.302, 4.0.2.300, 3.2.13.0, 1.1.5.310, 2.2.0.313
+
+[Certificate]
+  Issuer      : Common Name: ������, Organizational Unit: ������, Organization: ������, Locality: ���������, State/Province: ���������, Country: ������
+  Fingerprint : BC 86 9A FB 03 A8 0D C3 D8 F2 23 72 5C BA 4C CB F4 D9 48 4E 46 AE 3D AE 0A 98 E8 17 17 71 8D 27
+
+==========================================

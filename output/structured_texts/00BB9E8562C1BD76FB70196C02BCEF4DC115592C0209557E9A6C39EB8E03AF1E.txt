@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.anatolyrosliakov.teacher_mate
+  SHA-256       : 00BB9E8562C1BD76FB70196C02BCEF4DC115592C0209557E9A6C39EB8E03AF1E
+  Android Group : Android16
+  Version       : 2.0.0 (code: 35)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (3)]
+  android.permission.ACCESS_NETWORK_STATE, com.anatolyrosliakov.teacher_mate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET
+
+[Application Components]
+  Activities (2): com.example.teacher_mate.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1212
+  Total Methods : 5757
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://issuetracker.google.com/issues/241760537, https://developer.android.com/reference/android/view/View#announceForAccessibility(java.lang.CharSequence), https://developer.android.com/guide/topics/permissions/overview, https://issuetracker.google.com/issues/new?component=907884&template=1466542, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://github.com/flutter/flutter/issues/165510
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Anatoliy Rosliakov
+  Fingerprint : 40 E3 DD 8E DF 05 5F FD 5A 39 EE 26 93 AF 63 12 3B A3 AB 16 F2 72 46 32 94 75 EE 23 42 AF 07 65
+
+==========================================

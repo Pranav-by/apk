@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.brodski.android.battleship
+  SHA-256       : 00A1E11F5EBEA4E4C7AEB523E3D5D8FB0C48738D1906B31FBC551D0F1895A9CF
+  Android Group : Android13
+  Version       : 3.4.2 (code: 60)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (5)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (5): com.google.android.gms.common.api.GoogleApiActivity, com.brodski.android.battleship.About, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.brodski.android.battleship.BattleAtSea
+  Services   (5): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (2): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7753
+  Total Methods : 33018
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-interstitial-policies, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Mark Brodski, Organization: M. Brodski Software, Locality: Frankfurt am Main, Country: DE
+  Fingerprint : 2C 48 EC 52 46 72 98 E5 31 EA 7D CB BB 34 5F 1E D4 6E 1F 8C 23 FA 29 C1 EF A2 98 D6 42 FC 9D 7B
+
+==========================================

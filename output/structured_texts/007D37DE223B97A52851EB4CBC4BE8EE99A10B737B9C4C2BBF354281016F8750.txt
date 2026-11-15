@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bizcent.zhongyi
+  SHA-256       : 007D37DE223B97A52851EB4CBC4BE8EE99A10B737B9C4C2BBF354281016F8750
+  Android Group : Android13
+  Version       : 1.0.8.1 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (65)]
+  android.permission.READ_MEDIA_VIDEO, com.sunmi.perm.SECURITY, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, com.bizcent.zhongyi.permission.PROCESS_PUSH_MSG, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.ACCESS_BACKGROUND_LOCATION, com.bizcent.zhongyi.permission.C2D_MESSAGE, android.permission.USE_CREDENTIALS, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, com.meizu.c2dm.permission.RECEIVE, android.permission.MANAGE_ACCOUNTS, com.sunmi.perm.MSR, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, android.permission.GET_TASKS, com.sunmi.perm.CONTACTLESS_CARD
+
+[Application Components]
+  Activities (107): com.kidswant.album.AlbumGalleryPreviewActivity, com.kidswant.album.AlbumCallbackActivity, com.kidswant.basic.app.crash.ExceptionActivity, com.kidswant.basic.app.privacy.PrivacyPolicyActivity, com.kidswant.basic.app.privacy.PrivacyPolicyActivityV2, com.kidswant.component.h5.KidH5Activity, com.kidswant.component.h5.KidH5ActivityV2, com.linkkids.app.pos.ui.activity.CashierCZKPaySelectCardActivity, com.kidswant.component.bitmap.ImageClipActivity, com.linkkids.app.pos.ui.activity.ValidPeriodSelectActivity, com.kidswant.component.remindmsg.NotificationJumpActivity, com.kidswant.printer.ui.activity.BondedBluetoothDevicesActivity, com.kidswant.component.util.AppUtilsTransActivity, com.kidswant.printer.ui.activity.PrintBillPrintSettingActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.linkkids.app.mine.ui.activity.MineUserInfoActivity, com.blankj.utilcode.util.UtilsTransActivity, com.kidswant.common.h5.AppH5Activity, com.tencent.wework.api.view.H5Activity, com.kidswant.common.cms.activity.BaseCmsActivity
+  Services   (32): com.umeng.message.component.UmengMessageHandlerService, com.taobao.accs.ChannelService, com.taobao.accs.ChannelService$KernelService, com.taobao.accs.data.MsgDistributeService, com.taobao.accs.internal.AccsJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, org.android.agoo.accs.AgooService, org.android.agoo.huawei.HuaweiRcvService, com.linkkids.printer.service.TicketPrinterService, com.huawei.hms.support.api.push.service.HmsMsgService, com.xiaomi.mipush.sdk.MessageHandleService, com.kidswant.pushspeak.service.PushSpeakService, com.xiaomi.push.service.XMPushService, com.kidswant.common.update.DownloadService, com.xiaomi.push.service.XMJobService, com.linkkids.app.metaPush.umeng.UmengCustomMessageService, com.xiaomi.mipush.sdk.PushMessageHandler, com.vivo.push.sdk.service.CommandClientService, com.tencent.map.geolocation.s, com.heytap.msp.push.service.CompatibleDataMessageCallbackService
+  Receivers  (12): com.taobao.accs.ServiceReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver, org.android.agoo.xiaomi.MiPushBroadcastReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, org.android.agoo.vivo.PushMessageReceiverImpl, com.linkkids.app.metaPush.umeng.mfr.MfrMzMessageReceiver, com.kidswant.autotest.broadcast.AppAppiumBroadCast, com.kidswant.component.remindmsg.MsgWarnReceiver, com.umeng.message.component.UmengNotificationReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (13): com.google.mlkit.common.internal.MlKitInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.billy.cc.core.component.remote.RemoteProvider, com.huawei.hms.support.api.push.PushProvider, com.kidswant.common.update.UpdateFileProvider, com.huawei.hms.aaid.InitProvider, com.kidswant.kwmoduleshare.WeChatShareProvider, com.umeng.message.component.UmengMessageProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.kidswant.album.utils.AlbumFileProvider, com.blankj.utilcode.util.UtilsFileProvider, com.linkkids.component.util.AppFileProvider, com.kidswant.component.util.crosssp.KWCrossProcessSPContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 43430
+  Total Methods : 278772
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(2): 114.114.114.114, 7.5.4.3
+
+[Certificate]
+  Issuer      : Common Name: ShuJieHuang, Organizational Unit: Kidswant, Organization: Kidswant, Locality: NanJing, State/Province: JiangSu, Country: 86
+  Fingerprint : 34 00 BA AB 3D 21 D3 5C EF 8F AE C7 63 2E F0 C2 73 1C 14 14 06 E5 D3 7D A2 79 95 3B 23 5D FB 5B
+
+==========================================

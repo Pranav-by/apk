@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wingmanalpha.app.perspectives.regulated.ocd
+  SHA-256       : 001D4569F001B1C55781890D4FF1263AE45EF16FC5E408BBBD339525B2139032
+  Android Group : Android12L
+  Version       : 3.3.0 (code: 10307)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (26)]
+  com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECORD_AUDIO, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.READ_APP_BADGE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, com.htc.launcher.permission.READ_SETTINGS, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.htc.launcher.permission.UPDATE_SHORTCUT
+
+[Application Components]
+  Activities (6): com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.wingmanalpha.app.perspectives.regulated.ocd.MainActivity, org.apache.cordova.firebase.OnNotificationReceiverActivity
+  Services   (8): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, org.apache.cordova.firebase.FirebasePluginMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): com.google.android.gms.measurement.AppMeasurementReceiver, org.apache.cordova.firebase.OnNotificationOpenReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14851
+  Total Methods : 108698
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D4 DB 36 B6 CB 61 81 14 61 5A 17 82 9A D7 0D 27 D4 AD E1 6A 1C 27 BA 43 20 4F 0B 13 5B 76 4E 9F
+
+==========================================

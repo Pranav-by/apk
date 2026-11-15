@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.kodular.rutskin_sakhalin1978.Tehnikasakhalina
+  SHA-256       : 00A011FAFFF88AB0A4091A5AD7CF1A60ED117E1B3B6A246AA54ABDDB11B358C8
+  Android Group : Android12
+  Version       : 1.1.1 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (5)]
+  android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (1): io.kodular.rutskin_sakhalin1978.Tehnikasakhalina.Screen1
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 4820
+  Total Methods : 41155
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.amazon.com., http://www.twitter.com, http://www.google.com/AdMob, https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html, https://www.kodular.io, https://en.wikipedia.org/wiki/GeoJSON, http://www.facebook.com, https://en.wikipedia.org/wiki/Tesla_(unit)., http://developer.android.com/guide/appendix/media-formats.html, http://twitter.com/oauth_clients/new
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: rutskin.sakhalin1978@gmail.com, Organization: AppInventor for Android, Country: US
+  Fingerprint : 84 1B E8 EF 6C B1 DD E0 BE F6 2A 40 15 AE 25 62 43 39 BF 77 14 FC D9 49 DD 3D 9A 4E 6E D5 DF 0A
+
+==========================================

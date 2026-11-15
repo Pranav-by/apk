@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.voicelockscreen.pin.pattern
+  SHA-256       : 003911FBB943821186AA092C0818DDE7FC3846F7CF5116FBB3E6596BF9ADE8A4
+  Android Group : Android12L
+  Version       : 1.1 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (14)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (29): com.app.voicelock.LockActivity, com.app.voicelock.currenttime.SetCurrentTimeActivity, com.startapp.android.publish.adsCommon.activities.OverlayActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.app.voicelock.ForgetPassword, com.app.voicelock.pinlock.PinLockActivity, com.app.voicelock.Splash_Exit.FirstStartAcitivity, com.startapp.android.publish.ads.list3d.List3DActivity, com.app.voicelock.ThemesActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.app.voicelock.Splash_Exit.SecondStartActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.app.voicelock.Splash_Exit.T_T_Main2_Activity, com.pesonal.adsdk.ADS_SplashActivity, com.app.voicelock.Splash_Exit.SplashActivity, com.app.voicelock.patternlock.InputPatternActivity, com.google.android.gms.ads.AdActivity, com.facebook.ads.AudienceNetworkActivity
+  Services   (9): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.startapp.android.publish.common.metaData.PeriodicMetaDataService, com.app.voicelock.LockService, com.startapp.android.publish.common.metaData.PeriodicJobService, com.startapp.android.publish.common.metaData.InfoEventService, com.google.android.gms.ads.AdService
+  Receivers  (10): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.startapp.android.publish.common.metaData.BootCompleteListener, com.app.voicelock.LockReceiver
+  Providers  (4): com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14140
+  Total Methods : 80613
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C9 85 39 78 D2 A5 72 B1 2D B9 0B C9 56 B2 67 FA 4A 2E 7E E6 C3 F7 9C 46 61 D7 30 A5 49 BA 3D 65
+
+==========================================

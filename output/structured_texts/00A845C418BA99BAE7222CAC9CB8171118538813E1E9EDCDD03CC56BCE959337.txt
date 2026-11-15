@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.bunifu.erp
+  SHA-256       : 00A845C418BA99BAE7222CAC9CB8171118538813E1E9EDCDD03CC56BCE959337
+  Android Group : Android14
+  Version       : 1.6.2 (code: 44)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, io.bunifu.erp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (25): io.bunifu.erp.kagaki.app.notification.NotificationActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, io.bunifu.erp.kagaki.home.GetStartedActivity, io.bunifu.erp.kagaki.app.auth.SignUpActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.appinvite.PreviewActivity, com.google.android.gms.common.api.GoogleApiActivity, io.bunifu.erp.kagaki.app.fee.StructureDetActivityV2, io.bunifu.erp.kagaki.app.profile.EditProfileActivity, io.bunifu.erp.kagaki.app.fee.StatementDetActivity, io.bunifu.erp.kagaki.app.fee.StructureDetActivity, io.bunifu.erp.kagaki.app.payments.PaymentsActivity, io.bunifu.erp.kagaki.home.VerifyOtpActivity, io.bunifu.erp.kagaki.home.SendOtpActivity, io.bunifu.erp.kagaki.app.profile.ProfileActivity, io.bunifu.erp.kagaki.home.IntroActivity, io.bunifu.erp.kagaki.app.auth.LoginActivity, io.bunifu.erp.kagaki.app.dash.DashActivity, io.bunifu.erp.kagaki.home.SplashActivity
+  Services   (13): com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.firebase.jobdispatcher.GooglePlayReceiver, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.sessions.SessionLifecycleService, io.bunifu.erp.kagaki.fcm.FcmService, io.bunifu.erp.kagaki.fcm.FcmInstanceIdService
+  Receivers  (5): io.bunifu.erp.kagaki.service.SmsBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13779
+  Total Methods : 85133
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(2): 127.0.0.1, 0.9.6.0
+
+[Certificate]
+  Issuer      : Common Name: Amos Chepchieng, Organization: Bunifu Technologies, Locality: Kabarnet, State/Province: Baringo, Country: 254
+  Fingerprint : 8D 7E 80 A1 98 58 D7 10 CD 90 1F D7 33 23 17 55 0F 5E 59 C0 E6 45 E4 C4 30 1B 26 F1 73 2A FE 05
+
+==========================================

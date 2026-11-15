@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mesa.android.avatalk
+  SHA-256       : 0078DF95369DAAE9A67A6D4594A5B93AE41B5D4D9E90E2693F94A88439C7A8D9
+  Android Group : Android12
+  Version       : 5.7.3 (code: 2023060905)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (61)]
+  android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.BROADCAST_PACKAGE_REPLACED, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.BLUETOOTH
+
+[Application Components]
+  Activities (100): com.facebook.CustomTabMainActivity, com.mesa.android.avatalk.ui.AboutActivity, com.mesa.android.avatalk.mvvm.topic.ui.TopicActivity, com.mesa.android.avatalk.mvvm.tribe.ui.TribeMainActivity, com.mesa.android.avatalk.mvvm.world.ui.FeedMessageListActivity, com.mesa.android.avatalk.ui.LanguageSettingPage, com.mesa.android.avatalk.mvvm.mall.ui.MallMainActivity, com.mesa.android.avatalk.mvvm.mall.ui.MallBagActivity, com.mesa.android.avatalk.mvvm.did.ui.MyQRCodeActivity, com.mesa.android.avatalk.mvvm.detection.ui.NetWorkDetectionActivity, com.luck.picture.lib.PicturePlayAudioActivity, com.snapchat.kit.sdk.SnapKitActivity, com.mesa.android.avatalk.ui.webview.WebViewActivity, com.mesa.android.im.uikit.modules.group.info.StartGroupMemberSelectActivity, com.mesa.android.im.uikit.component.SelectionActivity, com.mesa.android.avatalk.mvvm.gamecenter.ui.GameCenterActivity, com.tencent.qcloud.tim.uikit.modules.forward.ForwardSelectGroupActivity, com.mesa.android.avatalk.ui.AppSchemeActivity, com.google.zxing.client.android.CaptureActivity, com.mesa.android.avatalk.mvvm.message.ui.ChatMainActivity
+  Services   (19): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, cn.thinkingdata.android.TDQuitSafelyService$TDKeepAliveService, com.mesa.android.avatalk.service.HallKeepService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.mesa.android.avatalk.service.AppRunTimeUploadService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.mesa.android.avatalk.push.service.MyFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.mesa.android.avatalk.mvvm.chatroom.DownLoadGameService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.mesa.android.avatalk.mvvm.h5.DownLoadService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, cn.thinkingdata.android.TDReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.appsflyer.SingleInstallBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.mesa.android.avatalk.receiver.AppRunTimeAlarmReceiver, com.mesa.android.avatalk.receiver.NotificationActionReceiver
+  Providers  (10): androidx.core.content.FileProvider, com.snapchat.kit.sdk.SnapKitInitProvider, com.mesa.android.im.uikit.util.TUIKitFileProvider, com.luck.picture.lib.PictureFileProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.squareup.sudpicasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.facebook.FacebookContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 31
+  Total Methods : 407
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 7.4.7.8
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CF 4F 2A CB 58 6D 3A 57 2A 7A 2F 62 C8 E6 36 B3 88 A6 ED EA A9 DF 2C 74 66 D1 4A 8D EB AC 5C D0
+
+==========================================

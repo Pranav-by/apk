@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : tv.uscreen.tysonplus
+  SHA-256       : 00A41FCC7611544C72F58168B4C7C601022935A97AF341E16610CE91BED2A5F6
+  Android Group : Android14
+  Version       : 3.17.0 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (21)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, tv.uscreen.tysonplus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.CHANGE_WIFI_MULTICAST_STATE, com.android.vending.BILLING, android.permission.RECORD_AUDIO, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_MEDIA_VISUAL_USER_SELECTED, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (8): io.flutter.plugins.urllauncher.WebViewActivity, com.example.videoapp.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.example.videoapp.SplashActivity, com.android.billingclient.api.ProxyBillingActivity, plugins.chromecast.ExpandedControlsActivity
+  Services   (13): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, plugins.hls_downloader.HlsDownloadService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.videoplayer.VideoPlayerService, me.pushy.sdk.services.PushySocketService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, me.pushy.sdk.services.PushyJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (11): com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, me.pushy.sdk.flutter.internal.PushyInternalReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, me.pushy.sdk.receivers.PushyBootReceiver, me.pushy.sdk.receivers.PushyUpdateReceiver
+  Providers  (6): io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.google.firebase.provider.FirebaseInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11952
+  Total Methods : 76080
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5F 4E 11 13 2A 17 95 61 6F 5E 6C 22 96 F4 D5 B1 0A E3 1E 8B 35 75 6B BB F8 0C 84 CE 9E E7 1C AB
+
+==========================================

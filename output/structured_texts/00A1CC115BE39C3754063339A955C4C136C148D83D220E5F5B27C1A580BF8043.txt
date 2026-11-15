@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.KieSoft.Buergergeldrechner
+  SHA-256       : 00A1CC115BE39C3754063339A955C4C136C148D83D220E5F5B27C1A580BF8043
+  Android Group : Android12
+  Version       : 1.5 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (6)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (2): com.google.android.gms.ads.AdActivity, crc648d751f0a1af98d6e.MainActivity
+  Services   (5): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (3): mono.MonoRuntimeProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12485
+  Total Methods : 91784
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : FE C6 72 06 06 7E 71 F3 F6 7A A4 87 84 FA 2F 86 15 27 30 73 E1 4F 7E EA 4E AB C3 C3 EE 84 4B E2
+
+==========================================

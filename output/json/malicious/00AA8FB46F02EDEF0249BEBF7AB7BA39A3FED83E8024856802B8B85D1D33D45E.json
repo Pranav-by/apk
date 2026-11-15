@@ -1,0 +1,71 @@
+{
+  "sha256": "00AA8FB46F02EDEF0249BEBF7AB7BA39A3FED83E8024856802B8B85D1D33D45E",
+  "filename": "00AA8FB46F02EDEF0249BEBF7AB7BA39A3FED83E8024856802B8B85D1D33D45E.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.changesoftaction.videoplayer",
+  "version_name": "2.3",
+  "version_code": "5",
+  "min_sdk": "23",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.changesoftaction.Test",
+    "com.changesoftaction.videoplayer.SplashActivity",
+    "com.changesoftaction.videoplayer.view.Home",
+    "com.changesoftaction.videoplayer.SettingsActivity",
+    "com.changesoftaction.videoplayer.PlayerActivity",
+    "com.obsez.android.lib.filechooser.permissions.PermissionActivity"
+  ],
+  "activity_count": 6,
+  "services": [
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.gms.measurement.AppMeasurementService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 15479,
+  "method_count": 111466,
+  "cert_fingerprint": "B3 51 84 98 A4 6D E9 0D BE FB BC 5F C2 40 54 FA D8 7C 8E 94 80 F8 96 D8 D5 AE 21 27 2A 43 20 57",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

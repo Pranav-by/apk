@@ -1,0 +1,85 @@
+{
+  "sha256": "00A2AD80383CC8F94EC2A3BB44DEB259BE6B0732A1367283B13A6CCFA015A2CC",
+  "filename": "00A2AD80383CC8F94EC2A3BB44DEB259BE6B0732A1367283B13A6CCFA015A2CC.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.jafarever.mewarnaikaligrafi",
+  "version_name": "1.3",
+  "version_code": "4",
+  "min_sdk": "21",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.jafarever.mewarnaikaligrafi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.jafarever.mewarnaikaligrafi.ui.ImageActivity",
+    "com.jafarever.mewarnaikaligrafi.ui.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.jafarever.mewarnaikaligrafi.ui.SelectImage",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.jafarever.mewarnaikaligrafi.ui.MyCreation",
+    "com.google.android.gms.ads.AdActivity",
+    "com.jafarever.mewarnaikaligrafi.ui.EasyPaint",
+    "com.jafarever.mewarnaikaligrafi.ui.SelectStickerActivity",
+    "com.jafarever.mewarnaikaligrafi.ui.ActivityShare"
+  ],
+  "activity_count": 10,
+  "services": [
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.background.systemjob.SystemJobService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14195,
+  "method_count": 83872,
+  "cert_fingerprint": "C1 5C 5E 79 09 32 6E 8C 86 81 E6 C3 2A 80 AD 6F 16 B7 E4 17 82 FE DB C4 16 25 E7 04 D4 CE CC 92",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

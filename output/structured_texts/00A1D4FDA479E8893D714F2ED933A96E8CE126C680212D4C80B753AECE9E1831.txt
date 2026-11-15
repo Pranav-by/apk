@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ee.bolt.watched
+  SHA-256       : 00A1D4FDA479E8893D714F2ED933A96E8CE126C680212D4C80B753AECE9E1831
+  Android Group : Android12
+  Version       : 2.11.1 (code: 64)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 31
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, com.google.android.c2dm.permission.RECEIVE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (13): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.android.billingclient.api.ProxyBillingActivity, ee.bolt.watched.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.facebook.ads.AudienceNetworkActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.ads.AdActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity
+  Services   (15): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.firebase.components.ComponentDiscoveryService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+  Receivers  (14): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (8): androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, io.sentry.android.core.SentryInitProvider, com.facebook.internal.FacebookInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16583
+  Total Methods : 88636
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.facebook.com/docs/sharing/android
+  IP Addresses(2): 10.0.1.1, 6.11.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 15 14 BE 72 02 18 EC EC 8F CE 5B 49 66 A8 4B 96 07 2B 9F 6D C6 0F 46 69 81 EF AB DF F8 C0 9E AB
+
+==========================================

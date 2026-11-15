@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : bank.dart.grip
+  SHA-256       : 00AAD803CEB324D1912FC65D0FD018822D9E56D54AFA67266444A3C5E5A8D026
+  Android Group : Android12L
+  Version       : 2.45.1 (code: 20450199)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (39)]
+  android.permission.FOREGROUND_SERVICE, android.permission.READ_PHONE_NUMBERS, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.USE_BIOMETRIC, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.BROADCAST_STICKY, android.permission.CAMERA, android.permission.INTERNET
+
+[Application Components]
+  Activities (14): com.onesignal.NotificationOpenedActivityHMS, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.banno.grip.startup.StartupActivity, com.onesignal.NotificationOpenedReceiver, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.banno.grip.activity.SignInActivity, com.banno.grip.activity.PasscodeActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.banno.grip.activity.MainActivity, com.banno.grip.activity.DepositCameraActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (17): androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.SyncJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.FCMIntentService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (16): com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (7): com.banno.grip.BannoMobileFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.banno.conversations.ConversationAttachmentsFileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 13
+  Total Classes : 58097
+  Total Methods : 321473
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1F 97 D0 24 A7 3B B2 7B 93 7C F1 B2 25 2F BD CB D9 4D 8F 2C 77 14 0E 0D F6 47 AB 1B D3 75 7D 12
+
+==========================================

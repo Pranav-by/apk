@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gamevil.arcanatactics.android.google.global.normal
+  SHA-256       : 001336181FD7A357243990EEA8C0F8E4C173AFC6D68BE72ED10FB8FA6D6FBEA5
+  Android Group : Android13
+  Version       : 4.0.0 (code: 400000)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (21)]
+  android.permission.VIBRATE, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.android.vending.CHECK_LICENSE, com.samsung.android.iap.permission.BILLING, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH_CONNECT, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.BLUETOOTH_SCAN
+
+[Application Components]
+  Activities (77): com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.google.android.gms.common.api.GoogleApiActivity, com.hive.ui.HiveUiActivity, com.adxcorp.ads.mediation.videoads.VideoFullScreenActivity, com.facebook.CustomTabMainActivity, com.adxcorp.ads.mediation.InAppBrowser, com.hive.auth.UserAgreeDialog, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.google.android.gms.ads.AdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.kakao.adfit.common.inappbrowser.activity.IABActivity, com.applovin.adview.AppLovinFullscreenActivity, com.hive.iapv4.lebi.WXPayEntryActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerActivity, com.hive.promotion.PromotionWebVideoActivity
+  Services   (19): androidx.work.impl.foreground.SystemForegroundService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.adview.activity.FullscreenAdService, com.hive.push.fcm.MessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.analytics.AnalyticsService, com.inca.security.Service.AppGuardService, com.google.android.gms.analytics.AnalyticsJobService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (17): com.amazon.device.iap.ResponseReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.hive.push.local.LocalPushReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.hive.push.local.DeviceStatusReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (14): com.facebook.FacebookContentProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.hive.FacebookInitProvider, com.hive.GoogleInitProvider, com.hive.base.HiveInitProvider, com.squareup.picasso.PicassoProvider, com.hive.base.FileProvider, com.gcp.hivecore.HiveCoreInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.kakao.adfit.AdFitSdkInitProvider, com.applovin.sdk.AppLovinInitProvider, com.hive.hercules.HerculesInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 43254
+  Total Methods : 254600
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): http://developer.android.com/google/play-services/setup.html., https://github.com/adjust/android_sdk#can-i-trigger-an-event-at-application-launch, https://exoplayer.dev/issues/cleartext-not-permitted, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(3): 2.9.0.0, 2.10.0.0, 11.6.1.0
+
+[Certificate]
+  Issuer      : Organization: Tikitaka Studio Inc.
+  Fingerprint : 3E 20 8B A5 33 0A 65 18 98 31 20 28 50 E9 FF F4 65 30 63 91 0E 52 6A EC A2 C5 8E 00 6D 37 47 C0
+
+==========================================

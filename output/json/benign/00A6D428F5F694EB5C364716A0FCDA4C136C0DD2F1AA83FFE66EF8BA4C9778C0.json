@@ -1,0 +1,63 @@
+{
+  "sha256": "00A6D428F5F694EB5C364716A0FCDA4C136C0DD2F1AA83FFE66EF8BA4C9778C0",
+  "filename": "00A6D428F5F694EB5C364716A0FCDA4C136C0DD2F1AA83FFE66EF8BA4C9778C0.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.coopesanmarcos.coopesanmarcostoken",
+  "version_name": "5.0.2",
+  "version_code": "28",
+  "min_sdk": "25",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
+    "com.coopesanmarcos.coopesanmarcostoken.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.CAMERA"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity",
+    "crc64ba438d8f48cf7e75.IntermediateActivity",
+    "crc6431dc39b05025d7bc.MainActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "androidx.camera.core.impl.MetadataHolderService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "crc64e53d2f592022988e.ConnectivityBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver",
+    "crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "microsoft.maui.essentials.fileProvider",
+    "mono.MonoRuntimeProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 12883,
+  "method_count": 100390,
+  "cert_fingerprint": "84 62 72 94 2D 8C 51 38 D6 EA 5B A7 4B 8E B9 D0 E6 7A D8 66 B2 5A 37 8D C0 1D B6 AA 1F 1B E1 AF",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

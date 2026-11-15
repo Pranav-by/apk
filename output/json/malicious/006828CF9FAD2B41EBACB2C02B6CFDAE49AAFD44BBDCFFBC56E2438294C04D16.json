@@ -1,0 +1,57 @@
+{
+  "sha256": "006828CF9FAD2B41EBACB2C02B6CFDAE49AAFD44BBDCFFBC56E2438294C04D16",
+  "filename": "006828CF9FAD2B41EBACB2C02B6CFDAE49AAFD44BBDCFFBC56E2438294C04D16.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.mt.kenzularsduasi",
+  "version_name": "1.12",
+  "version_code": "81",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.Ad_ID",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.mt.kenzularsduasi.MainActivity",
+    "com.mt.kenzularsduasi.Main"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5739,
+  "method_count": 43858,
+  "cert_fingerprint": "F4 5C 37 35 01 91 37 07 A8 BC 92 8F 78 A3 26 D2 AA 4F A7 8C 87 37 B2 3F 87 AA D4 38 1F E2 FE 61",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200",
+    "https://opensource.org/licenses/MIT",
+    "https://support.start.io/hc/en-us/articles/360014774799",
+    "https://daneden.me/animate"
+  ],
+  "ip_addresses": [
+    "127.0.0.1",
+    "10.0.2.15"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

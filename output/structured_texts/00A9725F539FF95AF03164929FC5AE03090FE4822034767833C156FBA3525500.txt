@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : dk.doubble.dating
+  SHA-256       : 00A9725F539FF95AF03164929FC5AE03090FE4822034767833C156FBA3525500
+  Android Group : Android12L
+  Version       : 1.8.40 (code: 1205)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (32)]
+  android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_CONTACTS, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sec.android.provider.badge.permission.WRITE, android.permission.READ_CONTACTS, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, dk.doubble.dating.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS
+
+[Application Components]
+  Activities (22): com.intercom.input.gallery.GalleryLightBoxActivity, io.flutter.plugins.urllauncher.WebViewActivity, io.intercom.android.sdk.post.PostActivityV2, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, io.intercom.android.sdk.activities.IntercomVideoActivity, io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, io.intercom.android.sdk.helpcenter.articles.ArticleActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, io.intercom.android.sdk.push.IntercomPushTrampolineActivity, io.intercom.android.sdk.activities.IntercomMessengerActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, io.intercom.android.sdk.activities.IntercomPostActivity, androidx.compose.ui.tooling.PreviewActivity, dk.doubble.dating.MainActivity
+  Services   (13): com.google.android.play.core.assetpacks.ExtractionForegroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (8): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, io.maido.intercom.PushInterceptReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (6): io.flutter.plugins.imagepicker.ImagePickerFileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14847
+  Total Methods : 86485
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gl/J1sWQy, https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://goo.gle/compose-feedback, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5B 18 F9 8A 9D 12 04 22 D7 95 9F B9 E6 9F 43 71 CE 77 36 92 10 60 B9 DA C3 D5 A6 74 39 76 31 A0
+
+==========================================

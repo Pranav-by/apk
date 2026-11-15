@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.perception.soc.en
+  SHA-256       : 000739C5B344436808F064F2A1AF36D7C1E5966EB72CFB8BC6BFF03134842256
+  Android Group : Android13
+  Version       : 1.7.121 (code: 17121)
+
+[SDK Information]
+  Minimum SDK   : 14
+  Target SDK    : 33
+
+[Permissions (10)]
+  com.perception.soc.en.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (5): com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.perception.soc.en.MainActivity, com.lakoo.sdk.lakooTool.pay.PayForm, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (2): com.google.android.gms.auth.api.signin.RevocationBoundService, com.lakoo.empire.utility.CubeWallpaper1
+  Receivers  (4): com.lakoo.empire.utility.ReferralReceiver, com.lakoo.empire.utility.Widget, com.lakoo.empire.utility.InstallReceiver, com.lakoo.empire.utility.InstallReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2797
+  Total Methods : 14629
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: lakoo, Organizational Unit: lakoo, Organization: lakoo, Locality: GuangZhou, State/Province: Guangdong, Country: CN
+  Fingerprint : C8 BE DF CA 1D 6E 3F F3 CA 8A 93 42 94 95 7F AB 41 E1 11 3C 41 59 F3 E8 48 36 A7 C6 FD C2 48 3C
+
+==========================================

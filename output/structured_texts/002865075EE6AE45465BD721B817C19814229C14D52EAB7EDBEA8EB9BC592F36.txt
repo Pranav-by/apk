@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.qkstudio.math.formulas
+  SHA-256       : 002865075EE6AE45465BD721B817C19814229C14D52EAB7EDBEA8EB9BC592F36
+  Android Group : Android12
+  Version       : 3.0.1 (code: 12)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (5)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING
+
+[Application Components]
+  Activities (11): com.qkstudio.math.formulas.MenuActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.ads.AdActivity, com.qkstudio.math.formulas.ShopActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.qkstudio.math.formulas.FavouritesActivity, com.google.android.gms.ads.purchase.InAppPurchaseActivity, com.qkstudio.math.formulas.SplashActivity, com.qkstudio.math.formulas.ToolsActivity, com.qkstudio.math.formulas.PrivatePolicy
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3711
+  Total Methods : 23252
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: QK
+  Fingerprint : DE 51 1D 13 72 77 A3 6E 3F 22 32 70 50 39 6D 5E 0D F5 7C 18 E0 D2 E5 E0 9A EE B1 AC EC EC 40 55
+
+==========================================

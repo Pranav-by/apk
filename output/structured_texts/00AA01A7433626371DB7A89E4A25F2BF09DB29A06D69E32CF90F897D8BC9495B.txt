@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.twimler.jewelmash
+  SHA-256       : 00AA01A7433626371DB7A89E4A25F2BF09DB29A06D69E32CF90F897D8BC9495B
+  Android Group : Android12L
+  Version       : 1.1.7.1 (code: 1171)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (33): com.facebook.unity.FBUnityLoginActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.facebook.unity.FBUnityGamingServicesFriendFinderActivity, com.facebook.unity.FBUnityGameRequestActivity, com.facebook.unity.FBUnityAppLinkActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.facebook.CustomTabMainActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.facebook.FacebookActivity, com.google.android.gms.ads.AdActivity, com.facebook.CustomTabActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.adview.AppLovinFullscreenActivity, com.android.billingclient.api.ProxyBillingActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.google.android.gms.common.api.GoogleApiActivity, com.applovin.mediation.MaxDebuggerActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+  Services   (10): androidx.work.impl.background.systemalarm.SystemAlarmService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (13): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.unity.androidnotifications.UnityNotificationManager
+  Providers  (7): com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.FacebookContentProvider, androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18942
+  Total Methods : 105819
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.facebook.com/docs/sharing/android, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(5): 6.12.0.0, 1.0.0.0, 21.3.0.2, 4.6.1.0, 11.7.1.0
+
+[Certificate]
+  Issuer      : Common Name: Majid Khosravi, Organizational Unit: Head, Organization: Twimler, Locality: Basingstoke, State/Province: Hampshire, Country: GB
+  Fingerprint : 05 36 09 DB 4A F4 2F 9D DB 96 33 65 AC 87 A7 6E 82 98 A1 3D 21 0D 76 BF 95 3B C3 3E 0E 8E 46 FE
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.swingingdogs.paleosnadno
+  SHA-256       : 00A3ABFAEEF038F47327223FF6E95B14A441862E10EB26900A3900A1FE7C2661
+  Android Group : Android12L
+  Version       : 1.0.319 (code: 319)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.CAMERA, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (17): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.android.billingclient.api.ProxyBillingActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.swingingdogs.paleosnadno.MainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.facebook.CustomTabActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.facebook.CustomTabMainActivity
+  Services   (11): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (5): androidx.startup.InitializationProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10113
+  Total Methods : 55294
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://goo.gl/J1sWQy, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Lucie Grusova, Organization: Paleosnadno.cz, Locality: Prague, Country: CZE
+  Fingerprint : 83 F3 B5 D5 3C 32 95 70 5B DD 3C 57 97 7A FC C1 AC A5 52 46 FE 44 68 95 2F 6A 28 B9 A0 6E E4 58
+
+==========================================

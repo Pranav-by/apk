@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tiles.hop.btsvsexo
+  SHA-256       : 004F5C8133EF65A2FD0209D685E70376EB9089B747CCA39A1BBA7D13C61ECEC7
+  Android Group : Android12
+  Version       : 2 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (4)]
+  android.permission.VIBRATE, android.permission.ACCESS_NETWORK_STATE, android.permission.WAKE_LOCK, android.permission.INTERNET
+
+[Application Components]
+  Activities (7): com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.google.android.gms.ads.AdActivity, com.tapdaq.sdk.TMTestActivity, com.unity3d.services.ads.adunit.AdUnitActivity
+  Services   (1): com.google.android.gms.ads.AdService
+  Receivers  (0): none
+  Providers  (2): androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6998
+  Total Methods : 36452
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C4 5D 98 C7 F9 0C 06 09 4A BD BD F7 54 37 7C EB FD 8C 50 63 1A 48 60 09 82 20 14 11 D2 42 DF DC
+
+==========================================

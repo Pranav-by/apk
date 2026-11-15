@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.isomnio.seventeenhats
+  SHA-256       : 000AACD6C89B699D83900910D47A0581E71BC3ECBF5F4DD8022F838719FBD046
+  Android Group : Android15
+  Version       : 4.0.6-rc.2025.14 (code: 202500014)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (10)]
+  android.permission.READ_EXTERNAL_STORAGE, com.isomnio.seventeenhats.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (2): com.google.android.gms.common.api.GoogleApiActivity, com.isomnio.seventeenhats.MainActivity
+  Services   (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.isomnio.seventeenhats.MessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9071
+  Total Methods : 65767
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Organization: 17hats
+  Fingerprint : 59 F4 CE 45 3D E7 70 9A 63 B5 E5 F6 8F 8F 3C 86 FF B7 27 27 2A A8 DD 43 F3 B4 15 39 A9 A3 31 5E
+
+==========================================

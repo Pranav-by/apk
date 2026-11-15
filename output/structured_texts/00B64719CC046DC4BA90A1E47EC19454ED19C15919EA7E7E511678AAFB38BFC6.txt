@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ylt.rubberfistboom
+  SHA-256       : 00B64719CC046DC4BA90A1E47EC19454ED19C15919EA7E7E511678AAFB38BFC6
+  Android Group : Android15
+  Version       : 1.0.1 (code: 1001)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (2): com.fakerandroid.boot.FakerActivity, com.pairip.licensecheck.LicenseActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18653
+  Total Methods : 111332
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(7): 4.9.0.3, 0.0.0.0, 4.6.0.1, 4.7.0.650, 4.9.0.2, 4.8.0.0, 1.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0D EE 62 2A C7 59 80 B7 EE 24 C0 92 2B 25 A9 37 DB 3B 2E F1 9D 93 9E 0B 3B B4 3A 16 D4 52 F1 4E
+
+==========================================

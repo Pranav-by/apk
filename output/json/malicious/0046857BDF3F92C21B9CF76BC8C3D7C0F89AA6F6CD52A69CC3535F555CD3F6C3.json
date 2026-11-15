@@ -1,0 +1,53 @@
+{
+  "sha256": "0046857BDF3F92C21B9CF76BC8C3D7C0F89AA6F6CD52A69CC3535F555CD3F6C3",
+  "filename": "0046857BDF3F92C21B9CF76BC8C3D7C0F89AA6F6CD52A69CC3535F555CD3F6C3.apk",
+  "android_version": "Android16",
+  "label": "malicious",
+  "package_name": "com.andavanashramam",
+  "version_name": "2.1.0",
+  "version_code": "4",
+  "min_sdk": "19",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.andavanashramam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.andavanashramam.activity_main",
+    "com.andavanashramam.activity_filter",
+    "com.andavanashramam.activity_settings",
+    "com.andavanashramam.activity_details",
+    "com.andavanashramam.activity_imageview",
+    "com.andavanashramam.activity_andavanashramam"
+  ],
+  "activity_count": 6,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7109,
+  "method_count": 53373,
+  "cert_fingerprint": "9F FC 2B 55 0A 42 77 22 0A 91 FB 75 26 71 7E 8E BF 67 53 FD 07 F5 10 87 D2 6D 4B 4F 2F 71 E7 72",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

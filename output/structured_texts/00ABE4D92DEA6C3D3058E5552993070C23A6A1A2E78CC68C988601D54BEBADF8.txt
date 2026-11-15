@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : futuristicgoo.emotic
+  SHA-256       : 00ABE4D92DEA6C3D3058E5552993070C23A6A1A2E78CC68C988601D54BEBADF8
+  Android Group : Android15
+  Version       : 0.1.1 (code: 13)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (1)]
+  futuristicgoo.emotic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): futuristicgoo.emotic.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1221
+  Total Methods : 5333
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Futuristic Goo, Organizational Unit: Unknown, Organization: Futuristic Goo Org, Locality: Unknown, State/Province: Unknown, Country: Unknown
+  Fingerprint : E3 A5 E7 9E DA 4E EA E0 0C 5F 44 A2 27 83 83 31 91 4F 50 E0 7B 68 2F EA 50 6E 2F FA 16 6D B9 2A
+
+==========================================

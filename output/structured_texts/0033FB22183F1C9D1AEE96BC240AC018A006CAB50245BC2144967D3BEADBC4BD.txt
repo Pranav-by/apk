@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ibrapps.wallhd
+  SHA-256       : 0033FB22183F1C9D1AEE96BC240AC018A006CAB50245BC2144967D3BEADBC4BD
+  Android Group : Android12L
+  Version       : 1.5.0 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.SET_WALLPAPER, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (32): com.facebook.ads.AudienceNetworkActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.adview.AppLovinInterstitialActivity, com.google.android.gms.common.api.GoogleApiActivity, com.ironsource.sdk.controller.ControllerActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.ironsource.sdk.controller.InterstitialActivity, com.ibrapps.wallhd.activity.DetailWallpaperFindActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.ibrapps.wallhd.activity.MainActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, com.ibrapps.wallhd.activity.CategoryActivity, com.startapp.sdk.ads.list3d.List3DActivity, com.ibrapps.wallhd.activity.SplashActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.ibrapps.wallhd.activity.DetailWallpaperFavoriteActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.ibrapps.wallhd.activity.DetailWallpaperActivity
+  Services   (14): com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, com.startapp.sdk.cachedservice.BackgroundService, androidx.work.impl.background.systemjob.SystemJobService, com.startapp.sdk.jobs.SchedulerService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (10): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (9): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.flurry.android.agent.FlurryContentProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.squareup.picasso.PicassoProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11949
+  Total Methods : 57807
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://firebase.google.com/support/guides/disable-analytics, https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, https://daneden.me/animate, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#
+  IP Addresses(6): 7.1.12.1, 6.8.0.0, 10.3.5.0, 20.3.0.0, 3.7.5.0, 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D7 B7 88 AE 69 6D 19 28 78 2A 7E E3 CB 12 00 46 F4 6B 57 5B 93 02 D1 73 D7 BA 4F B4 AE C4 B1 D3
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.subsplash.thechurchapp.s_8T66T3
+  SHA-256       : 00A1E18B49F543F664BA694FE35FE1364ABF4B233EBFDA772D7E40248113560D
+  Android Group : Android12
+  Version       : 5.16.0 (code: 1991)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (17)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_CONTACTS, com.subsplash.thechurchapp.s_8T66T3.permission.MAPS_RECEIVE, android.permission.VIBRATE, android.permission.CAMERA, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (30): com.subsplash.thechurchapp.ClipboardActivity, com.subsplash.thechurchapp.SubAppMainActivity, com.subsplash.thechurchapp.auth.AuthActivity, com.subsplash.thechurchapp.handlers.settings.SettingsActivity, com.subsplash.thechurchapp.handlers.blockPage.ModalBlockPageActivity, com.subsplash.thechurchapp.CastActivity, com.subsplash.thechurchapp.handlers.chat.ChatActivity, com.subsplash.thechurchapp.handlers.search.SearchActivity, com.subsplash.thechurchapp.MainActivity, com.facebook.react.devsupport.DevSettingsActivity, com.yalantis.ucrop.UCropActivity, com.subsplash.thechurchapp.BaseActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.subsplash.thechurchapp.handlers.inbox.InboxActivity, com.subsplash.thechurchapp.DeepLinkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.subsplash.thechurchapp.AppUtilityActivity, com.subsplash.thechurchapp.FullscreenFragmentActivity, com.subsplash.thechurchapp.DebugActivity, com.subsplash.thechurchapp.ErrorActivity
+  Services   (13): com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.subsplash.thechurchapp.api.PushIntentService, com.subsplash.thechurchapp.media.MediaPlaybackService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (6): com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.subsplash.thechurchapp.media.MediaIntentReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): androidx.core.content.FileProvider, com.vinzscam.reactnativefileviewer.FileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11235
+  Total Methods : 70283
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, http://goo.gl/8Rd3yj
+  IP Addresses(4): 1.3.132.0, 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Tim Turner, Organizational Unit: Product Development, Organization: Subsplash, Locality: Seattle, State/Province: Washington, Country: US
+  Fingerprint : B3 0B 41 D1 AB A6 A0 DE A5 78 DF 76 F0 7A 02 6A 2E FC B5 B1 20 21 E2 A4 F8 EB 08 48 E1 55 81 0D
+
+==========================================

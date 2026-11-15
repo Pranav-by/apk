@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pianettomob.and
+  SHA-256       : 007A60E0E34E1A052C63D0A0FAD8566FDD839C6E18108B7C077DEEB91B9D2C0B
+  Android Group : Android12
+  Version       : 51 (code: 51)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (5)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (5): com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pianettomob.and.MainActivity, com.wonderpush.sdk.PromptActivity, com.wonderpush.sdk.WonderPushNotificationTrackingReceiver
+  Services   (7): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.wonderpush.sdk.WonderPushResourcesService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.wonderpush.sdk.push.DiscoveryService, com.wonderpush.sdk.push.fcm.FirebaseMessagingService
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.wonderpush.sdk.ConfigurationChangedReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): com.wonderpush.sdk.WonderPushInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.wonderpush.sdk.WonderPushFileProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6047
+  Total Methods : 37263
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F0 D4 7A A8 0E 1C 4E D5 15 5C 9D F4 AD F3 44 6B 4B 0C E4 FD 2A B4 6B 2E C6 55 AA 9B 2A EC CD 47
+
+==========================================

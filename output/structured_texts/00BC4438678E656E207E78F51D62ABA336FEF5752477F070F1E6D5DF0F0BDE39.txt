@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kitabisa.android
+  SHA-256       : 00BC4438678E656E207E78F51D62ABA336FEF5752477F070F1E6D5DF0F0BDE39
+  Android Group : Android12
+  Version       : 4.52.2 (code: 22906)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, freemme.permission.msa, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, com.asus.msa.SupplementaryDID.ACCESS, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (88): com.kitabisa.android.ui.splash.SplashActivity, com.kitabisa.android.wallet.ui.withdraw.verifyrefundotp.VerifyRefundOtpActivity, com.kitabisa.android.donation.verifydonation.VerifyDonationActivity, com.kitabisa.android.donation.calendar.DonationCalendarActivity, com.kitabisa.android.payment.summary.paymentguide.PaymentGuideActivity, com.kitabisa.android.personalization.campaign.PersonalizationCampaignActivity, com.kitabisa.android.onboarding.onboarding.OnBoardingActivity, com.kitabisa.android.tawasul.list.TawasulListActivity, com.kitabisa.android.ui.summary.SummaryActivity, com.kitabisa.android.zakat.calculator.ZakatCalculatorActivity, com.kitabisa.android.donation.history.DonationHistoryListActivity, com.kitabisa.android.help.form.ui.HelpFormActivity, com.kitabisa.android.payment.paymentmethod.PaymentMethodListActivity, com.kitabisa.android.payment.summary.payment.PaymentSummaryActivity, com.kitabisa.android.web.WebActivity, com.kitabisa.android.account.profile.ProfileActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.kitabisa.autodonation.activate.ActivateAutoDonationActivity, com.kitabisa.android.session.presentation.verification.VerificationOtpActivity, com.kitabisa.android.campaign.campaigndetail.updatelist.CampaignUpdateListActivity
+  Services   (12): com.kitabisa.android.ui.common.firebase.KitabisaFirebaseMessagingService, com.clevertap.android.sdk.pushnotification.CTNotificationIntentService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundIntentService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (10): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.appsflyer.SingleInstallBroadcastReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.kitabisa.android.campaign.campaigndetail.ShareChooserBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.kitabisa.android.kitajaga.webview.ShareChooserBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (6): com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.FacebookContentProvider, androidx.core.content.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 25507
+  Total Methods : 104615
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://goo.gle/compose-feedback, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Kitabisa, Organizational Unit: Kitabisa, Organization: Kitabisa, Locality: Yogyakarta, State/Province: Yogyakarta, Country: ID
+  Fingerprint : 88 9F 13 37 E2 AE 0B 1B 97 C6 3E A0 E9 A0 0A 2C 65 77 E6 63 E4 E8 19 05 8B 9B 30 FE AC AA 05 D8
+
+==========================================

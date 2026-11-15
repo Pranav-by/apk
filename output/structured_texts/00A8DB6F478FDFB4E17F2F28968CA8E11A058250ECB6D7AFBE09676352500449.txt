@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sim25d.FlightSim
+  SHA-256       : 00A8DB6F478FDFB4E17F2F28968CA8E11A058250ECB6D7AFBE09676352500449
+  Android Group : Android12
+  Version       : 1.0.3 (code: 58)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 31
+
+[Permissions (5)]
+  com.google.android.gms.permission.AD_ID, android.permission.INTERNET, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (11): com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.games.bridge.GenericResolutionActivity, com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.games.bridge.NativeBridgeActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.player.UnityPlayerActivity
+  Services   (0): none
+  Receivers  (2): com.unity.androidnotifications.UnityNotificationManager, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver
+  Providers  (1): com.google.android.gms.games.provider.PlayGamesInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4175
+  Total Methods : 21794
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DE 56 B8 96 3B 65 90 A7 8D 4A 5C 7C 5A 6F E1 8D E4 BD 87 A2 B2 89 80 5C F8 F8 C0 69 4C 43 2D E6
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : dev.rbnet.vpn
+  SHA-256       : 0046E46670BE327996877F7760090ACDDE4A9A8B2835D58D520B004D4683268F
+  Android Group : Android12
+  Version       : RT Build - 1 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 31
+
+[Permissions (12)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_CREDENTIALS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_PHONE_STATE, android.permission.GET_TASKS, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (18): net.openvpn.openvpn.Main, net.openvpn.openvpn.FileDialog, net.openvpn.openvpn.OpenVPNAbout, net.openvpn.openvpn.OpenVPNClient, net.openvpn.openvpn.OpenVPNLog, net.openvpn.openvpn.activity.LoginActivity, net.openvpn.openvpn.OpenVPNStats, net.openvpn.openvpn.activity.AboutActivity, net.openvpn.openvpn.OpenVPNImportProfile, net.openvpn.openvpn.OpenVPNAddProxy, net.openvpn.openvpn.OpenVPNHelp, net.openvpn.openvpn.OpenVPNPrefs, net.openvpn.openvpn.OpenVPNProxyCreds, net.openvpn.openvpn.OpenVPNDisconnect, net.openvpn.openvpn.NofiPrefs, net.openvpn.openvpn.OpenVPNAddShortcut, net.openvpn.openvpn.ErrorActivity, net.openvpn.openvpn.OpenVPNAttachmentReceiver
+  Services   (2): net.openvpn.openvpn.OpenVPNService, com.prince.tunnel.injector.prince.ssl.WSService
+  Receivers  (1): net.openvpn.openvpn.OpenVPNRebootReceiver
+  Providers  (1): androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1692
+  Total Methods : 13555
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(10): 840.63.0.2, 0.0.0.0, 2.5.29.37, 1.3.14.3, 8.8.8.8, 1.3.132.0, 255.255.255.255, 4.1.311.10, 2.16.840.1, 101.3.4.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 89 1B 4E C0 7D A1 71 96 BC 00 DD 4D 19 FC DC 78 10 2A B4 48 56 65 07 64 67 16 81 11 FC AA 1A E6
+
+==========================================

@@ -1,0 +1,81 @@
+{
+  "sha256": "00A45C5D9902E82F4C1A821ED55F7DB4760595E94C5303039E97A7F6BF7C5290",
+  "filename": "00A45C5D9902E82F4C1A821ED55F7DB4760595E94C5303039E97A7F6BF7C5290.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "go.ariiva.at",
+  "version_name": "6.4.3",
+  "version_code": "69",
+  "min_sdk": "26",
+  "target_sdk": "31",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "go.ariiva.at.permission.C2D_MESSAGE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.READ_LOGS",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permission_count": 14,
+  "activities": [
+    "com.google.firebase.MessagingUnityPlayerActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.ar.core.InstallActivity",
+    "com.onevcat.uniwebview.UniWebViewFileChooserActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.firebase.messaging.cpp.RegistrationIntentService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.messaging.cpp.ListenerService",
+    "com.google.firebase.messaging.MessageForwardingService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.gms.measurement.AppMeasurementService"
+  ],
+  "service_count": 9,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.unity.androidnotifications.UnityNotificationManager",
+    "com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+  ],
+  "receiver_count": 5,
+  "providers": [
+    "com.yasirkula.unity.NativeCameraContentProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "com.vuforia.engine.app.VuforiaContentProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5225,
+  "method_count": 33222,
+  "cert_fingerprint": "8D 37 FA FD CE D5 DD 6C 87 D5 35 E1 61 3B 92 99 60 2B 1D 93 04 78 DC 29 EC 0F 87 B6 53 8E 1A F3",
+  "cert_issuer": "Common Name: Patrick Waldboth, Organizational Unit: Dev, Organization: VIINGO GmbH, Locality: Enns, Country: AT",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

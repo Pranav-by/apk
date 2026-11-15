@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : in.profitfromit.android
+  SHA-256       : 00A4D188608D1C31A258598A05D28AD5FEE34DF2450F01496297DAC5CE546373
+  Android Group : Android13
+  Version       : 1.1.0 (code: 313)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (51)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.BLUETOOTH_ADMIN, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.sec.android.provider.badge.permission.READ
+
+[Application Components]
+  Activities (45): com.edmingle.engageapp.MainActivity, com.zipow.videobox.SimpleActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.zipow.videobox.conference.ui.ZmFoldableConfActivity, com.zipow.videobox.InMeetingSettingsActivity, com.zipow.videobox.PListActivity, us.zoom.feature.videoeffects.VideoEffectsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.freshchat.consumer.sdk.activity.PictureAttachmentActivity, com.freshchat.consumer.sdk.activity.ChannelListActivity, com.facebook.CustomTabMainActivity, com.zipow.videobox.MeetingEndMessageActivity, com.zipow.videobox.SimpleInMeetingActivity, com.zipow.videobox.GreenRoomTransformActivity, com.zipow.videobox.IntegrationActivity, com.zipow.videobox.ZmPollingActivity, com.freshchat.consumer.sdk.activity.BotFaqDetailsActivity, com.freshchat.consumer.sdk.activity.FAQListActivity, us.zoom.uicommon.activity.ZMFileListActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (18): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, me.carda.awesome_notifications.core.services.ForegroundService, com.zipow.videobox.kubi.KubiService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.zipow.videobox.share.ScreenShareServiceForSDK, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.freshchat.consumer.sdk.service.FreshchatService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, me.carda.awesome_notifications.DartBackgroundService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (25): me.carda.awesome_notifications.DartNotificationActionReceiver, com.razorpay.RzpTokenReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, me.carda.awesome_notifications.DartDismissedNotificationReceiver, me.carda.awesome_notifications.DartRefreshSchedulesReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, me.carda.awesome_notifications.DartScheduledNotificationReceiver, com.freshchat.consumer.sdk.receiver.FreshchatReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver
+  Providers  (10): io.flutter.plugins.share.ShareFileProvider, com.squareup.picasso.PicassoProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.freshchat.consumer.sdk.provider.FreshchatInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.crazecoder.openfile.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 39532
+  Total Methods : 321684
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 47 B2 94 2F E9 1E B2 1B BA 86 A7 52 D2 25 8E EF 54 37 7C F8 EF 7A 35 5E A3 07 69 BF 5C F5 78 1D
+
+==========================================

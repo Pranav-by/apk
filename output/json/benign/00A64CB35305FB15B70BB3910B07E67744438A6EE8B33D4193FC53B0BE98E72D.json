@@ -1,0 +1,63 @@
+{
+  "sha256": "00A64CB35305FB15B70BB3910B07E67744438A6EE8B33D4193FC53B0BE98E72D",
+  "filename": "00A64CB35305FB15B70BB3910B07E67744438A6EE8B33D4193FC53B0BE98E72D.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.secondsyndrome.dalock",
+  "version_name": "1.1.0",
+  "version_code": "29",
+  "min_sdk": "24",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.journeyapps.barcodescanner.CaptureActivity",
+    "com.kakao.sdk.auth.TalkAuthCodeActivity",
+    "com.navercorp.nid.oauth.activity.NidOAuthCustomTabActivity",
+    "com.secondsyndrome.dalock.MainActivity",
+    "com.navercorp.nid.oauth.NidOAuthBridgeActivity",
+    "com.kakao.sdk.auth.AuthCodeHandlerActivity",
+    "com.navercorp.nid.oauth.activity.NidOAuthWebViewActivity"
+  ],
+  "activity_count": 7,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "com.secondsyndrome.dalock.widget.DalockWidgetProviderTWObyTWO",
+    "com.secondsyndrome.dalock.widget.DalockWidgetProviderONEbyTWO"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "io.sentry.android.core.SentryInitProvider",
+    "io.sentry.android.core.SentryPerformanceProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 13142,
+  "method_count": 95776,
+  "cert_fingerprint": "27 01 5C BC 14 6D 6D 81 BC 0C C3 62 46 BF B9 FC EE 20 AB 6A 71 C7 78 79 F7 66 15 48 36 26 47 51",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

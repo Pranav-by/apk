@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.hoopit.app.android.v2
+  SHA-256       : 00A1A4AD39F33D261A6AB1C6AA3F1FD9EE975FB86A0B60EDA9A4646D80156CF2
+  Android Group : Android13
+  Version       : 2.26.0 (code: 5688)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (37)]
+  android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, io.hoopit.app.android.v2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, com.sec.android.provider.badge.permission.WRITE, android.permission.READ_MEDIA_AUDIO, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_CONTACTS, android.permission.READ_CONTACTS, android.permission.SCHEDULE_EXACT_ALARM, com.sec.android.provider.badge.permission.READ, android.permission.USE_FULL_SCREEN_INTENT, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (52): com.stripe.android.view.PaymentRelayActivity, io.intercom.android.sdk.post.PostActivityV2, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.stripe.android.link.LinkActivity, io.intercom.android.sdk.activities.IntercomPostActivity, io.intercom.android.sdk.activities.IntercomVideoActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, io.hoopit.app.hoopit.MainActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity
+  Services   (9): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (12): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, io.maido.intercom.PushInterceptReceiver
+  Providers  (10): io.intercom.android.sdk.IntercomInitializeContentProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.crazecoder.openfile.FileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 30397
+  Total Methods : 170269
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://github.com/flutter-stripe/flutter_stripe/discussions/538, https://goo.gle/compose-feedback, https://github.com/flutter-stripe/flutter_stripe#android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D8 EC BD 1F 89 09 59 EC 15 A1 1E FC 1A F2 7A F2 20 02 49 F2 CA 38 93 C0 47 64 8E 5B 12 34 50 1F
+
+==========================================

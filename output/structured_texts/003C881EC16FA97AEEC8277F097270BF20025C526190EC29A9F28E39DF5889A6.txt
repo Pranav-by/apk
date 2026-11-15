@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.Infinity.dolphin
+  SHA-256       : 003C881EC16FA97AEEC8277F097270BF20025C526190EC29A9F28E39DF5889A6
+  Android Group : Android16
+  Version       : 4.0.dolphin (code: 1060)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 36
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.SET_WALLPAPER, android.permission.WRITE_EXTERNAL_STORAGE, com.Infinity.dolphin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (18): sg.bigo.ads.api.LandscapeAdActivity, com.Infinity.dolphin.InfoPage, com.google.android.gms.common.api.GoogleApiActivity, sg.bigo.ads.api.LandingStyleableActivity, sg.bigo.ads.api.CompanionAdActivity, com.yandex.mobile.ads.common.AdActivity, sg.bigo.ads.ad.splash.LandscapeAdSplashActivity, sg.bigo.ads.api.LandscapeCompanionAdActivity, sg.bigo.ads.ad.splash.AdSplashActivity, sg.bigo.ads.core.mraid.MraidVideoActivity, com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity, sg.bigo.ads.controller.form.AdFormActivity, com.Infinity.dolphin.MainActivity, com.gun0912.tedpermission.TedPermissionActivity, sg.bigo.ads.api.AdActivity, com.Infinity.dolphin.SecongPage, com.vungle.ads.internal.ui.VungleActivity, com.Infinity.dolphin.WallpaerPagerActivity
+  Services   (8): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, io.appmetrica.analytics.internal.AppMetricaService
+  Receivers  (10): androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (9): androidx.startup.InitializationProvider, com.gun0912.tedpermission.provider.TedPermissionProvider, com.google.firebase.provider.FirebaseInitProvider, com.vungle.ads.internal.util.VungleProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, androidx.core.content.FileProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 27118
+  Total Methods : 155248
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Andromo App, Organizational Unit: Development, Organization: Andromo.com L=Winnipeg, State/Province: MB, Country: CA
+  Fingerprint : C2 62 A9 7F E5 59 6C 49 A9 56 0F 09 64 D0 40 88 81 EE 5A 98 2E D4 B9 BD FD D7 F7 31 EE 8D A4 08
+
+==========================================

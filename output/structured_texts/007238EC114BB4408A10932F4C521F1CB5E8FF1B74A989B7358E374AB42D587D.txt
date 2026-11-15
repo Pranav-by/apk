@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kylecorry.trail_sense
+  SHA-256       : 007238EC114BB4408A10932F4C521F1CB5E8FF1B74A989B7358E374AB42D587D
+  Android Group : Android13
+  Version       : 4.6.0 (code: 84)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.POST_NOTIFICATIONS, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.FLASHLIGHT, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_FINE_LOCATION, android.permission.HIGH_SAMPLING_RATE_SENSORS, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACTIVITY_RECOGNITION, com.kylecorry.trail_sense.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (2): com.kylecorry.trail_sense.main.MainActivity, com.kylecorry.trail_sense.onboarding.OnboardingActivity
+  Services   (16): com.kylecorry.trail_sense.weather.infrastructure.WeatherMonitorAlwaysOnService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.kylecorry.trail_sense.tools.pedometer.infrastructure.StepCounterService, com.kylecorry.trail_sense.tiles.WeatherMonitorTile, androidx.camera.core.impl.MetadataHolderService, com.kylecorry.trail_sense.navigation.paths.infrastructure.services.BacktrackAlwaysOnService, com.kylecorry.trail_sense.tiles.PedometerTile, com.kylecorry.trail_sense.astronomy.infrastructure.SunsetAlarmService, com.kylecorry.trail_sense.tiles.BacktrackTile, androidx.room.MultiInstanceInvalidationService, com.kylecorry.trail_sense.tools.waterpurification.infrastructure.WaterPurificationTimerService, com.kylecorry.trail_sense.tools.whitenoise.infrastructure.WhiteNoiseService, com.kylecorry.trail_sense.tools.flashlight.infrastructure.FlashlightService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, com.kylecorry.trail_sense.main.BackgroundWorkerService
+  Receivers  (21): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.kylecorry.trail_sense.tools.whitenoise.infrastructure.WhiteNoiseOffReceiver, com.kylecorry.trail_sense.tools.flashlight.infrastructure.FlashlightOffReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.kylecorry.trail_sense.receivers.StopAllReceiver, com.kylecorry.trail_sense.receivers.BootReceiver, com.kylecorry.trail_sense.tools.clock.infrastructure.NextMinuteBroadcastReceiver, com.kylecorry.trail_sense.tools.waterpurification.infrastructure.WaterPurificationCancelReceiver, com.kylecorry.trail_sense.receivers.ExactAlarmPermissionChangedReceiver, com.kylecorry.trail_sense.weather.infrastructure.receivers.WeatherStopMonitoringReceiver, com.kylecorry.trail_sense.receivers.PackageReplacedReceiver, com.kylecorry.trail_sense.navigation.paths.infrastructure.receivers.StopBacktrackReceiver, com.kylecorry.trail_sense.receivers.TimeChangeReceiver, com.kylecorry.trail_sense.tools.battery.infrastructure.BatteryLevelReceiver, com.kylecorry.trail_sense.astronomy.infrastructure.receivers.SunsetAlarmReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 7443
+  Total Methods : 33102
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): http://materialdesignicons.com/),, http://www.apache.org/licenses/, http://www.google.com/design/), https://github.com/google/material-design-icons/blob/master/LICENSE, http://scripts.sil.org/OFL, http://www.apache.org/licenses/LICENSE-2.0
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8A 0A C4 74 32 1E FD 27 8E E1 05 BF 35 F6 7A 26 4B 94 3F C4 D0 38 71 A0 1C 95 71 7A D5 24 A2 62
+
+==========================================

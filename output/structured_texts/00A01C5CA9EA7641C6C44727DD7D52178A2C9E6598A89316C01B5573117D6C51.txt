@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.PJGoldBullion
+  SHA-256       : 00A01C5CA9EA7641C6C44727DD7D52178A2C9E6598A89316C01B5573117D6C51
+  Android Group : Android13
+  Version       : 1.6 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (31)]
+  android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, android.permission.USE_FULL_SCREEN_INTENT, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW
+
+[Application Components]
+  Activities (6): com.PJGoldBullion.SplashActivity, com.PJGoldBullion.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.react.devsupport.DevSettingsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, app.notifee.core.NotificationReceiverActivity
+  Services   (15): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, app.notifee.core.ReceiverService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, app.notifee.core.ForegroundService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, app.notifee.core.NotificationAlarmReceiver, io.invertase.firebase.notifications.RNFirebaseNotificationReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, app.notifee.core.BlockStateBroadcastReceiver, app.notifee.core.RebootBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, io.invertase.firebase.notifications.RNFirebaseNotificationsRebootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, app.notifee.core.AlarmPermissionBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.learnium.RNDeviceInfo.RNDeviceReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (5): io.invertase.notifee.NotifeeInitProvider, com.google.firebase.provider.FirebaseInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10228
+  Total Methods : 64840
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B9 65 43 50 2C A6 E3 FB 63 B7 C1 05 2A 17 2C 62 77 CC 37 E1 EA 0F DD D1 80 DF 0E DF 93 97 93 6A
+
+==========================================

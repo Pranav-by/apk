@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.apostles.maile.hairtype
+  SHA-256       : 004E02B25389367EFCB228937DB126FDF9BF0A08C782A92E76D0B9EF49037EC7
+  Android Group : Android13
+  Version       : 1.0.9 (code: 109)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 33
+
+[Permissions (24)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_USER_PRESENT, android.permission.ACCESS_WIFI_STATE, com.huawei.android.launcher.permission.CHANGE_BADGE, com.vivo.notification.permission.BADGE_ICON, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_MEDIA_VISUAL_USER_SELECTED, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (13): io.dcloud.WebAppActivity, com.google.android.gms.common.api.GoogleApiActivity, io.dcloud.ProcessMediator, io.dcloud.PandoraEntryActivity, io.dcloud.WebviewActivity, com.dmcbig.mediapicker.PickerActivity, com.google.android.gms.ads.AdActivity, com.dmcbig.mediapicker.PreviewActivity, com.google.android.gms.ads.OutOfContextTestingActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, io.dcloud.sdk.activity.WebViewActivity, io.dcloud.PandoraEntry, io.dcloud.feature.nativeObj.photoview.PhotoActivity
+  Services   (6): io.dcloud.sdk.base.service.DownloadService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (9): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.taobao.weex.WXGlobalEventReceiver
+  Providers  (4): io.dcloud.common.util.DCloud_FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, io.dcloud.sdk.base.service.provider.DCloudAdFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 21407
+  Total Methods : 128874
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: Unknown
+  Fingerprint : 44 5B 60 79 5B A5 38 4A D1 79 EB A2 AA C2 6C 8C 40 79 D2 0D DF 04 5F 12 FC E4 FA 06 4E 0B 81 94
+
+==========================================

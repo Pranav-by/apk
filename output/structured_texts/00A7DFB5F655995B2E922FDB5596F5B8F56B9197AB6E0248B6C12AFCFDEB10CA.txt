@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.yandex.yango
+  SHA-256       : 00A7DFB5F655995B2E922FDB5596F5B8F56B9197AB6E0248B6C12AFCFDEB10CA
+  Android Group : Android13
+  Version       : 4.180.1 (code: 50124523)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (55)]
+  android.permission.AUTHENTICATE_ACCOUNTS, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.READ_MEDIA_VIDEO, android.permission.NFC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.USE_BIOMETRIC, com.yandex.yphone.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (55): com.yandex.payment.sdk.ui.payment.PaymentActivity, com.yandex.passport.internal.ui.tv.AuthInWebViewActivity, com.yandex.payment.sdk.ui.challenger.SbpChallengerActivity, com.yandex.payment.sdk.ui.bind.BindCardActivity, com.yandex.payment.sdk.ui.bind.BindGooglePayActivity, com.yandex.payment.sdk.ui.payment.sbp.BindSbpActivity, com.yandex.payment.sdk.ui.preselect.PreselectActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.yandex.passport.internal.ui.AccountUpgraderActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.jakewharton.processphoenix.ProcessPhoenix, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.yandex.plus.pay.ui.common.internal.PlusPayRedirectActivity, ru.yandex.taxi.activity.StartActivity, ru.yandex.taxi.activity.MainActivity, ru.yandex.taxi.go_platform.GoPlatformActivity, ru.yandex.taxi.activity.WebViewActivity, com.yandex.plus.pay.ui.core.internal.feature.checkout.composite.TarifficatorCheckoutActivity, com.yandex.passport.internal.ui.domik.DomikActivity
+  Services   (38): com.google.android.gms.measurement.AppMeasurementJobService, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, ru.yandex.taxi.services.FeedbackQueueService, ru.yandex.taxi.order.services.KeepAliveService0, ru.yandex.taxi.order.services.KeepAliveService1, ru.yandex.taxi.order.services.KeepAliveService2, ru.yandex.taxi.order.services.KeepAliveService3, ru.yandex.taxi.order.services.KeepAliveService4, ru.yandex.taxi.order.services.KeepAliveService5, ru.yandex.taxi.order.services.KeepAliveService6, ru.yandex.taxi.notifications.WaitingNotificationService, ru.yandex.taxi.notifications.SurveyDeeplinkService, ru.yandex.taxi.vendor_api.google.push.FcmNotificationService, com.yandex.passport.internal.core.auth.AuthenticationService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (26): com.yandex.passport.internal.sso.announcing.SsoAnnouncingReceiver, ru.yandex.taxi.am.LoginAccountsChangedReceiver, ru.yandex.taxi.geofences.GeofenceEventBroadcastReceiver, ru.yandex.taxi.order.NotificationBroadcastReceiver, ru.yandex.taxi.broadcast.NotificationDismissReceiver, ru.yandex.taxi.analytics.InstallReferrerReceiver, ru.yandex.taxi.vendor_api.google.push.FirebaseDataReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.yandex.passport.internal.core.announcing.AccountsChangedReceiver, com.yandex.passport.internal.core.announcing.PackageRemovedReceiver, com.yandex.passport.internal.smsretriever.SmsRetrieverReceiver, com.yandex.passport.internal.push.NotificationDismissedReceiver, com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver, com.evernote.android.job.patched.internal.JobBootReceiver, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (14): com.yandex.passport.internal.core.sync.SyncProvider, com.yandex.passport.internal.sso.SsoContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, nnprigcrejzeowkryvwosxq.TzZpinrMtgnd, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.yandex.preinstallsatellite.appmetrica.AppMetricaContentProvider, ru.yandex.taxi.diagnostic.DiagnosticFileProvider, ru.yandex.taxi.db.StaticDataProvider, ru.yandex.taxi.utils.TaxiFileProvider, com.yandex.passport.internal.authsdk.AuthSdkProvider, com.yandex.plus.core.data.provider.PlusSdkFileProvider, com.yandex.passport.internal.provider.InternalProvider, com.yandex.plus.home.common.PlusContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 66229
+  Total Methods : 251995
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): http://goo.gl/8Rd3yj, https://firebase.google.com/support/guides/disable-analytics, https://github.com/evernote/android-job/wiki/FAQ, https://goo.gle/compose-feedback, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#
+  IP Addresses(2): 1.3.6.1, 2.5.29.35
+
+[Certificate]
+  Issuer      : Common Name: OOO Yandex, Organizational Unit: Mobile Development, Organization: OOO Yandex, Locality: Moscow, State/Province: Moscow, Country: RU
+  Fingerprint : AC A4 05 DE D8 B2 5C B2 E8 C6 DA 69 42 5D 2B 43 07 D0 87 C1 27 6F C0 6A D5 94 27 31 CC C5 1D BA
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cloverlakeboutique
+  SHA-256       : 00A7E13D29B4AE513FD7442D5644004DAFC28201037ED6A8977865736296F0BA
+  Android Group : Android12
+  Version       : 1.5 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (39)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.cloverlakeboutique.permission.C2D_MESSAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (100): io.intercom.android.sdk.activities.IntercomPostActivity, io.intercom.android.sdk.post.PostActivityV2, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, com.vajro.robin.activity.OrderFailureActivity, com.vajro.robin.kotlin.ui.contactus.activity.ContactActivityKt, com.vajro.robin.activity.BlogListActivity, com.vajro.robin.activity.FilterActivity, com.vajro.robin.activity.ReviewActivity, io.intercom.android.sdk.push.IntercomPushTrampolineActivity, com.vajro.robin.activity.MultiVendorActivity, com.intercom.input.gallery.GalleryInputFullScreenActivity, com.journeyapps.barcodescanner.CaptureActivity, com.intercom.input.gallery.GalleryLightBoxActivity, zendesk.messaging.MessagingActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedReceiver
+  Services   (23): com.google.android.gms.measurement.AppMeasurementService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundJobService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.analytics.AnalyticsJobService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.vajro.robin.kotlin.integration.fcm.MyFirebaseMessagingService, com.vajro.robin.service.AbandonedCartService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.onesignal.HmsMessageServiceOneSignal, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService
+  Receivers  (23): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.appsflyer.SingleInstallBroadcastReceiver, com.vajro.robin.receiver.AbandonedCartReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver
+  Providers  (9): io.sentry.android.core.SentryInitProvider, com.facebook.internal.FacebookInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.google.firebase.provider.FirebaseInitProvider, com.flurry.android.agent.FlurryContentProvider, zendesk.belvedere.BelvedereFileProvider, androidx.startup.InitializationProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 43108
+  Total Methods : 261564
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9C D6 32 46 E2 99 AE 59 3C 15 05 FE 3A CE D2 0D 2B 9E 00 F1 E5 81 EE 5B 71 E6 D2 52 1E 27 83 40
+
+==========================================

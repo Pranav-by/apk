@@ -1,0 +1,55 @@
+{
+  "sha256": "00A7DE9F260F5AD1F19512F9E86A31C5FD879F7FAD1DA491D12ED0EADCC5234D",
+  "filename": "00A7DE9F260F5AD1F19512F9E86A31C5FD879F7FAD1DA491D12ED0EADCC5234D.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.french.english.typing.keyboard.emoji.french.language",
+  "version_name": "1.5",
+  "version_code": "6",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.french.english.typing.keyboard.emoji.french.language.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.VIBRATE"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.toolapp.frenchkeyboard.setting",
+    "com.toolapp.frenchkeyboard.Home",
+    "com.toolapp.frenchkeyboard.themes",
+    "com.toolapp.frenchkeyboard.Splash",
+    "com.toolapp.frenchkeyboard.Main",
+    "com.toolapp.frenchkeyboard.Privacy"
+  ],
+  "activity_count": 6,
+  "services": [
+    "com.toolapp.frenchkeyboard.android.SoftKeyboard"
+  ],
+  "service_count": 1,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7038,
+  "method_count": 52436,
+  "cert_fingerprint": "A7 03 6D 8A 01 FC 86 25 B2 58 2F 74 5A 61 EC 57 34 70 06 BE 93 32 1D D2 CF DE C9 97 B0 AD A5 E2",
+  "cert_issuer": "Common Name: Badar Yaqoob, Organizational Unit: Developer, Organization: HBN Technologies, Locality: Rawalpindi, State/Province: punjab, Country: 46000",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

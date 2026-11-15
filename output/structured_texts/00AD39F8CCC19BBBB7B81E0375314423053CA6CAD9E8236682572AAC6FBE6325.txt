@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.zradioapp.RadioCapital1040AM
+  SHA-256       : 00AD39F8CCC19BBBB7B81E0375314423053CA6CAD9E8236682572AAC6FBE6325
+  Android Group : Android12L
+  Version       : 1.21.1 (code: 21)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (8): com.XSingleRadioMainActivity, com.facebook.ads.AudienceNetworkActivity, com.XRadioGrantActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.XRadioShowUrlActivity, com.XMultiRadioMainActivity, com.XRadioSplashActivity
+  Services   (11): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.stream.service.YPYStreamService, com.firebasemsg.XRadioFBMessagingService, com.firebasemsg.XRadioJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.firebase.jobdispatcher.GooglePlayReceiver, com.google.android.gms.ads.AdService
+  Receivers  (4): com.stream.service.YPYIntentReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10882
+  Total Methods : 64149
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 50 D7 D5 E7 49 C2 5B EC D4 C1 6F EF 78 A3 6C C9 0D CA D6 B8 E6 60 1D 3E 6A B7 FF D6 E9 33 8D C0
+
+==========================================

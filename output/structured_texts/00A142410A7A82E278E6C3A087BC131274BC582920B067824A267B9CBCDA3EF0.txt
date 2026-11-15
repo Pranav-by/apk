@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : credit.cashloan.cashpeso
+  SHA-256       : 00A142410A7A82E278E6C3A087BC131274BC582920B067824A267B9CBCDA3EF0
+  Android Group : Android12L
+  Version       : 2.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (26): credit.cashloan.cashpeso.Activities.BankDetailsActivity, credit.cashloan.cashpeso.Activities.SalaryDetailsActivity, credit.cashloan.cashpeso.Activities.UploadDocumentActivity, credit.cashloan.cashpeso.Activities.SelfieActivity, credit.cashloan.cashpeso.Activities.DocumentsActivity, credit.cashloan.cashpeso.Activities.PersonalDetailsActivity, credit.cashloan.cashpeso.Activities.PanCardActivity, credit.cashloan.cashpeso.Activities.AddressDetailsActivity, credit.cashloan.cashpeso.Activities.DashboardActivity, credit.cashloan.cashpeso.Activities.KycActivity, credit.cashloan.cashpeso.Activities.StartActivity, credit.cashloan.cashpeso.Activities.PermissionActivity, credit.cashloan.cashpeso.Activities.LoginActivity, credit.cashloan.cashpeso.Activities.NomineeActivity, credit.cashloan.cashpeso.Activities.SpalshActivity, com.theartofdev.edmodo.cropper.CropImageActivity, com.nabinbhandari.android.permissions.PermissionsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, credit.cashloan.cashpeso.Activities.SelectTermActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (13): credit.cashloan.cashpeso.FirebaseNotification, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, credit.cashloan.cashpeso.Extra.NetworkChangeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16489
+  Total Methods : 94444
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 27 9F AC CE 7C 1F DF 2F BC C3 89 A8 3D E7 6C F3 77 69 FB F9 F8 AE B3 0F 3A BE 27 F0 5E 5B 29 CB
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.siok.redrose.love.theme
+  SHA-256       : 00A4B871DD8706FE7E4806AF26B5AC83A2D1987EE0095A24A83FA0E06ED64931
+  Android Group : Android13
+  Version       : 3.0 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 33
+
+[Permissions (7)]
+  com.google.android.gms.permission.AD_ID, android.permission.REQUEST_DELETE_PACKAGES, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (4): com.startapp.sdk.adsbase.consent.ConsentActivity, com.siok.redrose.love.theme.Screen, com.startapp.sdk.ads.interstitials.OverlayActivity, com.startapp.sdk.ads.list3d.List3DActivity
+  Services   (2): com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService
+  Receivers  (1): com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3916
+  Total Methods : 27007
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://daneden.me/animate, https://www.startapp.com, https://support.start.io/hc/en-us/articles/360014774799, https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://opensource.org/licenses/MIT
+  IP Addresses(1): 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Ugani Siok, Organizational Unit: Ugani Infotech, Organization: Siok Info, Locality: seville, State/Province: Andalusia, Country: ES
+  Fingerprint : A2 F0 BF 1D B6 39 F4 27 6F FC FB 02 FD 43 FA 3C FF C9 F5 AE C2 F3 81 AA 5F FB 70 20 3D 10 AC 05
+
+==========================================

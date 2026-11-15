@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.skyconnect.rabies
+  SHA-256       : 00A49A7CA61097086839E542B49B41EF5A40F9F086C6962DAC47677300333CA0
+  Android Group : Android12
+  Version       : 1.1.7 (code: 20)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (26)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, com.htc.launcher.permission.READ_SETTINGS, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, com.majeur.launcher.permission.UPDATE_BADGE, android.permission.READ_APP_BADGE
+
+[Application Components]
+  Activities (7): io.flutter.plugins.urllauncher.WebViewActivity, com.skyconnect.rabies.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.onesignal.NotificationOpenedReceiver, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedActivityHMS
+  Services   (13): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.SyncService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.onesignal.FCMIntentJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.SyncJobService, com.onesignal.FCMIntentService
+  Receivers  (14): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5603
+  Total Methods : 31990
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Ramadhan Juma, Organizational Unit: dev, Organization: Skyconnect, Locality: Kinondoni, State/Province: Dar es Salaam, Country: TZ
+  Fingerprint : BC 6D F7 EA 7B B3 2C 1B 16 27 61 77 3F E0 5A 30 18 41 BE DC DE BF 58 32 74 A6 58 AE E5 C3 90 CA
+
+==========================================

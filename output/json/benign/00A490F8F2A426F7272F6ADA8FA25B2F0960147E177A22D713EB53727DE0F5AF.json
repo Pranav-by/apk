@@ -1,0 +1,89 @@
+{
+  "sha256": "00A490F8F2A426F7272F6ADA8FA25B2F0960147E177A22D713EB53727DE0F5AF",
+  "filename": "00A490F8F2A426F7272F6ADA8FA25B2F0960147E177A22D713EB53727DE0F5AF.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.offergoose.android.offergoose",
+  "version_name": "1.0.21",
+  "version_code": "74",
+  "min_sdk": "28",
+  "target_sdk": "35",
+  "permissions": [
+    "Manifest.permission.CAPTURE_AUDIO_OUTPUT",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.offergoose.android.offergoose.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.BLUETOOTH_CONNECT",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 12,
+  "activities": [
+    "com.alipay.sdk.app.PayResultActivity",
+    "com.aboutyou.dart_packages.sign_in_with_apple.SignInWithAppleCallback",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.alipay.sdk.app.APayEntranceActivity",
+    "cn.offergoose.android.offergoose.MainActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "com.bytedance.applog.migrate.MigrateDetectorActivity",
+    "com.alipay.sdk.app.H5OpenAuthActivity",
+    "com.android.billingclient.api.ProxyBillingActivityV2",
+    "com.alipay.sdk.app.H5AuthActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "io.flutter.embedding.android.FlutterActivity",
+    "com.alipay.sdk.app.AlipayResultActivity",
+    "com.alipay.sdk.app.H5PayActivity",
+    "com.android.billingclient.api.ProxyBillingActivity"
+  ],
+  "activity_count": 16,
+  "services": [
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.gms.metadata.ModuleDependencies"
+  ],
+  "service_count": 4,
+  "receivers": [
+    "com.bytedance.applog.collector.Collector",
+    "dev.fluttercommunity.plus.share.SharePlusPendingIntent",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "io.flutter.plugins.imagepicker.ImagePickerFileProvider",
+    "com.microsoft.cognitiveservices.speech.util.InternalContentProvider",
+    "dev.fluttercommunity.plus.share.ShareFileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 19230,
+  "method_count": 128821,
+  "cert_fingerprint": "31 A3 0F 41 DD 1E 73 39 B3 06 5E D3 3E 43 B7 B8 28 51 C9 CF 85 76 64 0E 39 D2 EA C7 75 E1 66 D6",
+  "cert_issuer": "Organization: offergoose.com",
+  "urls": [
+    "https://github.com/flutter/packages/blob/main/packages/in_app_purchase/in_app_purchase/README.md#loading-products-for-sale"
+  ],
+  "ip_addresses": [
+    "127.0.0.1",
+    "1.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

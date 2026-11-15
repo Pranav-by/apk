@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.learn.common.romanian.vocabulary.words.learning.phrases
+  SHA-256       : 00A8B78BB9F8A1748D79E70F582E487E934D85B07D00520502756DA8B86FD3E8
+  Android Group : Android15
+  Version       : 3.1.5 (code: 537)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (21)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.learn.common.romanian.vocabulary.words.learning.phrases.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (10): com.google.android.gms.ads.NotificationHandlerActivity, app.notifee.core.NotificationReceiverActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.learn.common.romanian.vocabulary.words.learning.phrases.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.android.billingclient.api.ProxyBillingActivityV2
+  Services   (13): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, app.notifee.core.ReceiverService, com.google.android.gms.ads.AdService, app.notifee.core.ForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, app.notifee.core.BlockStateBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, app.notifee.core.RebootBroadcastReceiver, app.notifee.core.NotificationAlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, app.notifee.core.AlarmPermissionBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (8): io.invertase.notifee.NotifeeInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, cl.json.RNShareFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.bugsnag.android.internal.BugsnagContentProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 33663
+  Total Methods : 226100
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7C 75 83 3A FA 1A 35 88 F3 DC E4 6B 7C 05 9E E6 EF B0 5C AC DA DC DD F0 67 DA 1B E8 D2 EA 60 A9
+
+==========================================

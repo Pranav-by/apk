@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.chatmeetapp.live
+  SHA-256       : 001B84EF3CFB5EC347333E80368579D3EE5187534FEE873406E9E1F441409DE4
+  Android Group : Android12
+  Version       : 1.1.9 (code: 19)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (22)]
+  android.permission.VIBRATE, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, com.android.vending.BILLING, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.MANAGE_OWN_CALLS, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.MODIFY_AUDIO_SETTINGS
+
+[Application Components]
+  Activities (52): com.chatmeetapp.live.Activity.rtm.WatchLiveActivity, com.chatmeetapp.live.Activity.AppPvtCallRateActivity, com.chatmeetapp.live.Activity.rtm.VideoActivity, com.chatmeetapp.live.Activity.AppBrodCallActivity, com.chatmeetapp.live.Activity.AppWebActivity, com.chatmeetapp.live.Activity.AppOtheStrActivity, com.chatmeetapp.live.Activity.AppVipActivity, com.chatmeetapp.live.Activity.AppNewCallActivity, com.facebook.CustomTabActivity, com.chatmeetapp.live.Activity.AppImgViewActivity, com.facebook.FacebookActivity, com.yalantis.ucrop.UCropActivity, com.chatmeetapp.live.Activity.AppUserLikesActivity, com.chatmeetapp.live.Activity.AppRankUsrActivity, com.chatmeetapp.live.Activity.AppConnectingActivity, com.chatmeetapp.live.Activity.AppSettingsActivity, com.chatmeetapp.live.Activity.AppStrActivity, com.chatmeetapp.live.Activity.AppCallHistoryActivity, com.chatmeetapp.live.Activity.AppBlockUsrListActivity, com.facebook.CustomTabMainActivity
+  Services   (13): com.google.firebase.messaging.FirebaseMessagingService, com.chatmeetapp.live.Helper.MsgFireService, com.google.android.gms.measurement.AppMeasurementService, org.eclipse.paho.android.service.MqttService, com.google.android.gms.measurement.AppMeasurementJobService, com.chatmeetapp.live.Helper.WebCallService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.chatmeetapp.live.Helper.CallNotificationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (9): com.chatmeetapp.live.Helper.ConnectivityReceiver, com.chatmeetapp.live.Helper.AppSmsReceiver, com.chatmeetapp.live.Helper.CallNotificationActionReceiver, com.razorpay.RzpTokenReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): com.ironsource.lifecycle.IronsourceLifecycleProvider, com.kbeanie.multipicker.utils.AMPFileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 29157
+  Total Methods : 189563
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9A EE CF E8 DF C5 B7 61 8E 1B 2E 1F 1B 95 27 5C 21 CE 0C 36 E5 E8 F7 C1 FB 5B 8F B9 FC 53 5F 38
+
+==========================================

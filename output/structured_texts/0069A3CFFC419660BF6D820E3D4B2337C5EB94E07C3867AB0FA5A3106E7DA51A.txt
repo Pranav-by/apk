@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.htwig.luvmehair
+  SHA-256       : 0069A3CFFC419660BF6D820E3D4B2337C5EB94E07C3867AB0FA5A3106E7DA51A
+  Android Group : Android12
+  Version       : 3.2.4 (code: 255)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (17)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, com.htwig.luvmehair.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.vivo.notification.permission.BADGE_ICON, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (55): com.htwig.luvmehair.app.ui.login.ActivateAccountActivity, com.htwig.luvmehair.app.ui.reviews.WriteReviewActivity, com.htwig.luvmehair.app.ui.login.ChangePasswordActivity, com.htwig.luvmehair.app.ui.reviews.ReviewResultActivity, com.htwig.luvmehair.app.ui.reviews.ReviewListActivity, com.htwig.luvmehair.app.ui.web.WebViewActivity, com.htwig.luvmehair.app.ui.profile.EditPhoneNumberActivity, com.htwig.luvmehair.app.ui.addtocart.AddToCartActivity, com.htwig.luvmehair.app.ui.checkout.CheckoutActivity, com.htwig.luvmehair.app.ui.coupon.ChooseCouponActivity, com.htwig.luvmehair.app.ui.address.SelectAddressActivity, com.htwig.luvmehair.app.ui.giftcard.ChooseGiftCardActivity, com.htwig.luvmehair.app.ui.pay.PayResultActivity, com.htwig.luvmehair.app.ui.notification.NotificationEnableActivity, com.htwig.luvmehair.app.ui.login.ForgetPasswordActivity, com.htwig.luvmehair.app.ui.order.OrderListActivity, com.htwig.luvmehair.app.ui.setting.NotificationSettingActivity, com.htwig.luvmehair.app.ui.dev.DevSettingsActivity, com.htwig.luvmehair.app.ui.logistics.TrackingActivity, com.htwig.luvmehair.app.ui.cart.CartActivity
+  Services   (10): com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.htwig.luvmehair.app.push.LuvmePushService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.tagmanager.TagManagerService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (6): androidx.profileinstaller.ProfileInstallReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (6): com.google.firebase.perf.provider.FirebasePerfProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.lzf.easyfloat.EasyFloatInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 122
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 2B 14 32 2E F1 45 FA 9E FE 6E EF 07 CD 24 55 DF 15 1C 82 AD 71 6A 25 91 C4 9E C6 0A EC 34 30 CD
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : la.daube.photochiotte
+  SHA-256       : 00A8B01EBD3AF464DE41DC0A2ACF8F7F8339EAE1AAFB30A0738D926ECC287CEC
+  Android Group : Android15
+  Version       : 1.58 (code: 59)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.POST_NOTIFICATIONS, android.permission.INTERNET, android.permission.SET_WALLPAPER, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.QUERY_ALL_PACKAGES, android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+
+[Application Components]
+  Activities (2): la.daube.photochiotte.WallpaperPreferencesActivity, la.daube.photochiotte.MainActivity
+  Services   (3): la.daube.photochiotte.backgroundService, la.daube.photochiotte.Wallpaper, androidx.room.MultiInstanceInvalidationService
+  Receivers  (2): la.daube.photochiotte.Widget, la.daube.photochiotte.BootDeviceReceiver
+  Providers  (2): androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5465
+  Total Methods : 38924
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://codeberg.org/LaDaube/PhotoChiotte/releases/download/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: FDroid, Organizational Unit: FDroid, Organization: fdroid.org, Locality: ORG, State/Province: ORG, Country: UK
+  Fingerprint : 06 BB A7 DE DE 94 71 D7 64 B3 07 DD 06 49 CF 68 E1 9B 40 85 3B BA E8 A2 6D 5F C6 C7 93 8D AC B8
+
+==========================================

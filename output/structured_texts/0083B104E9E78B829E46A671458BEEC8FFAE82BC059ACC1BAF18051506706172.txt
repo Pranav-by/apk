@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.yunji.cyhl
+  SHA-256       : 0083B104E9E78B829E46A671458BEEC8FFAE82BC059ACC1BAF18051506706172
+  Android Group : Android12L
+  Version       : 1.0.3.1532521147816 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (33)]
+  freemme.permission.msa.SECURITY_ACCESS, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.READ_PHONE_NUMBERS, android.permission.SET_WALLPAPER, com.vivo.identifier.permission.OAID_STATE_DIALOG, android.permission.VIBRATE, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACTIVITY_RECOGNITION, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.QUERY_ALL_PACKAGES, android.permission.LOCAL_MAC_ADDRESS, com.yunji.cyhl.openadsdk.permission.TT_PANGOLIN, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (3731): com.cyhl.cy.ui.oikjzw22.Ribnno14Activity, com.cyhl.cy.ui.qrkdyob40.Asxjqu20Activity, com.cyhl.cy.ui.oikjzw22.Mgtmep15Activity, com.cyhl.cy.ui.qrkdyob40.Jbzsmv21Activity, com.cyhl.cy.ui.oikjzw22.Ratzzq16Activity, com.cyhl.cy.ui.qrkdyob40.Bpzzkw22Activity, com.cyhl.cy.ui.oikjzw22.Vtvvir17Activity, com.cyhl.cy.ui.qrkdyob40.Wmhvox23Activity, com.cyhl.cy.ui.oikjzw22.Noeads18Activity, com.cyhl.cy.ui.qrkdyob40.Lzzoey24Activity, com.cyhl.cy.ui.oikjzw22.Pxkfgt19Activity, com.cyhl.cy.ui.qrkdyob40.Nwjkmz25Activity, com.cyhl.cy.ui.oikjzw22.Aeydlu20Activity, com.cyhl.cy.ui.qrkdyob40.Rcmuvab26Activity, com.cyhl.cy.ui.oikjzw22.Avcfwv21Activity, com.cyhl.cy.ui.qrkdyob40.Wmzzzbb27Activity, com.cyhl.cy.ui.oikjzw22.Ouawnw22Activity, com.cyhl.cy.ui.xlaurpb41.Jayioa0Activity, com.cyhl.cy.ui.oikjzw22.Lmjqyx23Activity, com.cyhl.cy.ui.xlaurpb41.Wsfnob1Activity
+  Services   (18): com.qq.e.comm.DownloadService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService, com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService, com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.efs.sdk.memleaksdk.monitor.UMonitorService, com.kwad.sdk.api.proxy.app.DownloadService, com.bytedance.sdk.openadsdk.core.multipro.aidl.BinderPoolService, com.ss.android.socialbase.downloader.downloader.DownloadService, com.kwad.sdk.api.proxy.app.ServiceProxyRemote, com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.jingling.lib_wallpaper.livewallpaper.LiveWallpaperService, com.luck.picture.lib.service.ForegroundService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.jinglingstep.step.lib.TodayStepService, com.jingling.lib_wallpaper2.VideoWallpaper, com.ss.android.socialbase.appdownloader.DownloadHandlerService
+  Receivers  (5): com.jingling.feed.module.appwidget.receiver.SetupAppWidgetSuccessReceiver, com.jingling.feed.module.notification.multi.receiver.NotificationClickReceiver, com.bytedance.embedapplog.collector.Collector, com.ss.android.downloadlib.core.download.DownloadReceiver, com.jingling.feed.module.appwidget.provider.JinglingAppWidgetProvider
+  Providers  (17): com.bytedance.sdk.openadsdk.stub.server.MainServerManager, androidx.core.content.FileProvider, com.bytedance.pangle.provider.MainProcessProviderProxy, com.jingling.tool2.base.module.magnifier.provider.MagnifierFileProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.bytedance.pangle.FileProvider, com.byted.live.lite.ServerManager_bytelive, androidx.startup.InitializationProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.baidu.mobads.sdk.api.BdFileProvider, com.qq.e.comm.GDTFileProvider, com.kwad.sdk.api.proxy.app.AdSdkFileProvider, me.hgj.jetpackmvvm.base.Ktx, com.luck.picture.lib.basic.PictureFileProvider, com.byted.live.lite.ServerManager_push
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 199
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: ������������ OU=������������������������������  O=������������������������������ L=��������� ST=��������� C=CN
+  Fingerprint : 7C 5F 4E 76 1D C5 6B 63 F0 C3 78 30 01 0E BC BD 4F 56 87 67 6E EF 92 84 F9 11 5D D5 95 82 59 3D
+
+==========================================

@@ -1,0 +1,61 @@
+{
+  "sha256": "00A3CB6A2A8CEDD4CFC70956745512708CB5B5F14B976129C6FF038F6F4F7A26",
+  "filename": "00A3CB6A2A8CEDD4CFC70956745512708CB5B5F14B976129C6FF038F6F4F7A26.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "appinventor.ai_fireworkplayz444.doodle",
+  "version_name": "1.0",
+  "version_code": "1",
+  "min_sdk": "7",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.CAMERA"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "appinventor.ai_fireworkplayz444.doodle.Screen1",
+    "appinventor.ai_fireworkplayz444.doodle.whiteboard"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 3410,
+  "method_count": 31647,
+  "cert_fingerprint": "4C C1 87 9E 0E DA B8 8E B8 93 03 C1 C0 2A 40 71 E5 92 E3 CA 06 C6 0C EC 58 CA 5D 1A 0D F8 D8 E3",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "http://www.twitter.com",
+    "https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html",
+    "https://en.wikipedia.org/wiki/GeoJSON",
+    "http://www.facebook.com",
+    "https://en.wikipedia.org/wiki/Tesla_(unit).",
+    "http://developer.android.com/guide/appendix/media-formats.html",
+    "http://twitter.com/oauth_clients/new",
+    "https://code.google.com/apis/console/",
+    "https://developers.google.com/fusiontables/docs/v2/getting_started"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

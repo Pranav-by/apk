@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mbwalakaappsr.app
+  SHA-256       : 000A114A233ED6BFD888E3EE79419CE5F4B9A3E08C0D5CEDDCE775AD1B300050
+  Android Group : Android12L
+  Version       : 4.0 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (19): com.mbwalakaappsr.app.MainActivity, com.mbwalakaappsr.app.SpinActivity, com.mbwalakaappsr.app.MbWala, com.mbwalakaappsr.app.Val, com.mbwalakaappsr.app.shayari, com.mbwalakaappsr.app.SplashAct, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.applovin.mediation.MaxDebuggerActivity, com.mbwalakaappsr.app.Email
+  Services   (7): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+  Receivers  (2): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): com.applovin.sdk.AppLovinInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12248
+  Total Methods : 83437
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(2): 6.8.0.3, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 89 2E 35 75 FB 44 B8 5E BF 42 76 4C A5 4F ED 55 67 01 D2 B7 3F 42 81 A7 6E 10 F2 18 DE 5B 9C DA
+
+==========================================

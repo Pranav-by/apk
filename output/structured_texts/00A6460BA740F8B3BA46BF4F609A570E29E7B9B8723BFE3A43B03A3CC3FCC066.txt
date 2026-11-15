@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.dominikgyecsek.simplecards
+  SHA-256       : 00A6460BA740F8B3BA46BF4F609A570E29E7B9B8723BFE3A43B03A3CC3FCC066
+  Android Group : Android14
+  Version       : 3.9.0 (code: 9600)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (6)]
+  android.permission.POST_NOTIFICATIONS, android.permission.INTERNET, android.permission.SCHEDULE_EXACT_ALARM, com.dominikgyecsek.simplecards.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (2): com.dominikgyecsek.simplecards.MainActivity, com.capacitorjs.plugins.browser.BrowserControllerActivity
+  Services   (0): none
+  Receivers  (4): com.capacitorjs.plugins.localnotifications.TimedNotificationPublisher, androidx.profileinstaller.ProfileInstallReceiver, com.capacitorjs.plugins.localnotifications.LocalNotificationRestoreReceiver, com.capacitorjs.plugins.localnotifications.NotificationDismissReceiver
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 5241
+  Total Methods : 36728
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Dominik Gyecsek, Organization: Dominik Gyecsek, Locality: United Kingdom, State/Province: Aberdeen, Country: UK
+  Fingerprint : 4C E6 B4 13 18 43 4B 3A 32 D7 A3 79 7B 8A 17 68 24 4E 69 99 D7 94 7B 31 E1 1F A9 52 E2 84 F9 BC
+
+==========================================

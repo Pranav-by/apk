@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.idmobile.ukmeteo
+  SHA-256       : 000C4E493E1A446C2DC233464FB275E7C3578806829FCBA8E9A952D04A214B4A
+  Android Group : Android14
+  Version       : 3.13.0.21 (code: 965)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (12)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, com.idmobile.ukmeteo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (16): com.facebook.FacebookActivity, com.idmobile.android.moreapps.MoreappsActivity, com.idmobile.android.ad.HtmlInterstitialActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.idmobile.meteocommon.PrivacyActivity, com.amazon.device.ads.AdActivity, com.idmobile.meteocommon.ShareTextActivity, com.idmobile.android.util.PrivacyActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.idmobile.meteocommon.appwidget.AppwidgetActivity, com.google.android.gms.ads.AdActivity, com.idmobile.meteo.MeteoActivity, com.idmobile.meteo.SplashscreenActivity
+  Services   (8): com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (10): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.idmobile.meteocommon.appwidget.MeteoWidgetProvider, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (5): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18894
+  Total Methods : 108741
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: ID MOBILE SA, Locality: ST-LEGIER, State/Province: VAUD, Country: CH
+  Fingerprint : 39 3D EC 66 24 F5 5C 5A 00 7D 37 59 F8 1A 93 0A 9D A5 6D DF E9 E8 34 09 08 7F D7 3F A2 18 1C 57
+
+==========================================

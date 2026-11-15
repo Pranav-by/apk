@@ -1,0 +1,74 @@
+{
+  "sha256": "000A64EF8D1CCF7B7B70FAB577F9AEDF35EA14A28E223445D587870679FABA74",
+  "filename": "000A64EF8D1CCF7B7B70FAB577F9AEDF35EA14A28E223445D587870679FABA74.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.pie.word.cross.puzzle",
+  "version_name": "1.2.0",
+  "version_code": "120",
+  "min_sdk": "19",
+  "target_sdk": "32",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.applovin.adview.AppLovinFullscreenActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitsListActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitDetailActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.vungle.warren.ui.VungleActivity",
+    "com.applovin.sdk.AppLovinWebViewActivity",
+    "com.applovin.mediation.MaxDebuggerDetailActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.applovin.mediation.MaxDebuggerMultiAdActivity",
+    "com.applovin.mediation.MaxDebuggerActivity"
+  ],
+  "activity_count": 15,
+  "services": [
+    "com.applovin.impl.sdk.utils.AppKilledService",
+    "com.applovin.impl.adview.activity.FullscreenAdService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.applovin.sdk.AppLovinInitProvider",
+    "com.vungle.warren.utility.VungleProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 8882,
+  "method_count": 60893,
+  "cert_fingerprint": "FB BE 9E AC 07 BE EB 6D B1 E9 92 F9 14 5A 83 02 B4 3A 66 16 36 9D 78 B8 3C E6 93 CF 52 78 F7 2B",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK"
+  ],
+  "ip_addresses": [
+    "0.0.0.0",
+    "6.12.0.0",
+    "4.3.0.0",
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

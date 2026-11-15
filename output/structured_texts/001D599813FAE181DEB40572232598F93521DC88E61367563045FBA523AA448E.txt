@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.vermieten.app.nebenkostenabrechnung
+  SHA-256       : 001D599813FAE181DEB40572232598F93521DC88E61367563045FBA523AA448E
+  Android Group : Android13
+  Version       : 0.8.22 (code: 105)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (3)]
+  com.vermieten.app.nebenkostenabrechnung.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (4): com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.common.api.GoogleApiActivity, com.vermieten.app.nebenkostenabrechnung.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (3): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (2): dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (5): net.nfet.flutter.printing.PrintFileProvider, com.google.firebase.provider.FirebaseInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider, com.crazecoder.openfile.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3800
+  Total Methods : 21240
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 86 86 2B F4 C3 AF 78 C0 D1 F3 C5 0E FC 06 B7 00 56 FD 3A B2 4B E2 66 1A 10 DB BE 9D DF 8F C0 B3
+
+==========================================

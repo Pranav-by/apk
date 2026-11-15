@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.abdelazizmohddaoud.songs
+  SHA-256       : 0040CA096F3443FF6F13628C59DB9E5B7101D2FBF87CEFA827578C2814B00C33
+  Android Group : Android12
+  Version       : 3 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (34)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.WRITE_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.abdelazizmohddaoud.songs.permission.C2D_MESSAGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (24): com.startapp.sdk.ads.interstitials.OverlayActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.google.android.gms.common.api.GoogleApiActivity, de.mintware.barcode_scan.BarcodeScannerActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.ads.AdActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.onesignal.NotificationOpenedReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.onesignal.PermissionsActivity, com.h2.dynamic_app.MainActivity
+  Services   (21): com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.startapp.sdk.jobs.SchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.onesignal.SyncService, com.google.android.gms.ads.AdService, com.startapp.sdk.cachedservice.BackgroundService, com.onesignal.SyncJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.ryanheise.audioservice.AudioService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (19): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.onesignal.BootUpReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.ryanheise.audioservice.MediaButtonReceiver, com.onesignal.NotificationDismissReceiver
+  Providers  (10): vn.hunghd.flutterdownloader.FlutterDownloaderInitializer, com.google.firebase.provider.FirebaseInitProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.crazecoder.openfile.FileProvider, vn.hunghd.flutterdownloader.DownloadedFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, io.flutter.plugins.share.ShareFileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17944
+  Total Methods : 97356
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 04 B0 A5 A9 47 C6 F8 40 02 3A 60 6E 73 69 14 2C 60 F7 E3 7C BE D0 CC 92 D0 2C FF 38 B8 08 C2 92
+
+==========================================

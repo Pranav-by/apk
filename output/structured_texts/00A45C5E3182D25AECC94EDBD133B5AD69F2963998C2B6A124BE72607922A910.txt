@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.linegames.udg
+  SHA-256       : 00A45C5E3182D25AECC94EDBD133B5AD69F2963998C2B6A124BE72607922A910
+  Android Group : Android12
+  Version       : 3.01.0402 (code: 3010402)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (13)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.BATTERY_STATS, android.permission.MODIFY_AUDIO_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (20): com.theartofdev.edmodo.cropper.CropImageActivity, com.linegames.android.lgnativewebview.LGNativeWebView, com.google.android.gms.common.api.GoogleApiActivity, com.linegames.permissionNotice.NTPermissionNoticeActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.inca.security.DexProtect.SupportActivity, com.linegames.udg.DownloaderActivity, com.linegames.nativewebview.NativeWebviewActivity, com.epicgames.ue4.GameActivity, com.linegames.udg.FacebookLoginActivity, com.linecorp.linesdk.auth.internal.LineAuthenticationActivity, com.linegames.android.lgnativewebview.LGNativePermissionActivity, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity, com.linegames.android.lgnativewebview.LGNativeWebViewFileChooserActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity, com.facebook.CustomTabActivity
+  Services   (11): com.linegames.NotiFCMService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.iid.FirebaseInstanceIdService, com.google.firebase.components.ComponentDiscoveryService, com.inca.security.Service.AppGuardService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.linegames.udg.OBBDownloaderService, com.google.android.play.core.assetpacks.ExtractionForegroundService
+  Receivers  (7): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.linegames.udg.AlarmReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.epicgames.ue4.LocalNotificationReceiver, com.epicgames.ue4.MulticastBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (7): io.sentry.android.core.SentryPerformanceProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, io.sentry.android.core.SentryInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 8764
+  Total Methods : 52787
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://tools.ietf.org/html/rfc7518#section-3.2, https://tools.ietf.org/html/rfc7518#section-3.3, https://github.com/adjust/android_sdk#can-i-trigger-an-event-at-application-launch
+  IP Addresses(6): 1.2.250.1, 1.3.132.1, 223.101.256.1, 1.3.132.0, 1.3.133.16, 1.3.36.3
+
+[Certificate]
+  Issuer      : Common Name: linegames, Organizational Unit: linegames, Organization: linegames, Locality: Seoul, State/Province: Seoul, Country: KR
+  Fingerprint : 6B D3 7F 06 08 D0 C0 51 4E 87 97 C2 4E A1 FA 40 7C 42 63 15 F6 53 6E 20 16 1D B7 CA 09 23 53 7E
+
+==========================================

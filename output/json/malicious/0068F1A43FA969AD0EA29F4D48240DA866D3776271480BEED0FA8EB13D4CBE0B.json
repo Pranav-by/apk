@@ -1,0 +1,77 @@
+{
+  "sha256": "0068F1A43FA969AD0EA29F4D48240DA866D3776271480BEED0FA8EB13D4CBE0B",
+  "filename": "0068F1A43FA969AD0EA29F4D48240DA866D3776271480BEED0FA8EB13D4CBE0B.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "frederick.mobile.ip",
+  "version_name": "0.47.1",
+  "version_code": "4701",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "com.google.firebase.auth.internal.GenericIdpActivity",
+    "org.apache.cordova.firebase.OnNotificationReceiverActivity",
+    "com.google.firebase.auth.internal.RecaptchaActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "frederick.mobile.ip.MainActivity"
+  ],
+  "activity_count": 6,
+  "services": [
+    "org.apache.cordova.firebase.FirebasePluginMessagingService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.gms.measurement.AppMeasurementService"
+  ],
+  "service_count": 8,
+  "receivers": [
+    "org.apache.cordova.firebase.OnNotificationOpenReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "com.google.firebase.perf.provider.FirebasePerfProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 13102,
+  "method_count": 94523,
+  "cert_fingerprint": "53 CC 11 75 81 41 59 F7 5A 59 E3 A0 69 D7 BA 0F 30 91 FA 4A 3B B7 95 FC 0B 38 B8 78 52 3C C2 9E",
+  "cert_issuer": "Common Name: BriteApps IP, Organizational Unit: BriteApps, Organization: IWS, Locality: US, State/Province: Unknown, Country: Unknown",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "127.0.0.1",
+    "0.0.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

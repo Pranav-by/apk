@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : food.lucky.winner
+  SHA-256       : 00A20C6258724C788F2C046BB47A79F1EC2503D2B9A5E825F13D166B3F5AE1FB
+  Android Group : Android13
+  Version       : 1.3.0 (code: 33)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (22)]
+  android.permission.LOCAL_MAC_ADDRESS, android.permission.FOREGROUND_SERVICE, android.permission.POST_NOTIFICATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.ACCESS_WIFI_STATE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.CAMERA, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.REORDER_TASKS, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.gms.permission.AD_ID, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (74): com.google.android.gms.ads.AdActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, sg.bigo.ads.ad.splash.LandscapeAdSplashActivity, com.google.android.gms.ads.OutOfContextTestingActivity, sg.bigo.ads.core.mraid.MraidVideoActivity, com.shuge.withdrawsdk.activity.FeedbackActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.shuge.withdrawsdk.activity.WithdrawActivity, com.shuge.withdrawsdk.activity.FeedbackDetailActivity, com.mbridge.msdk.out.LoadingActivity, com.shuge.withdrawsdk.activity.FeedbackHistoryActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.shuge.withdrawsdk.activity.InviteUserActivity, com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity, com.shuge.withdrawsdk.activity.InviteRewardActivity, com.applovin.mediation.MaxDebuggerTcfVendorDetailListActivity
+  Services   (15): org.cocos2dx.javascript.service.MyFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.luck.picture.lib.service.ForegroundService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (12): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, cn.thinkingdata.android.TDReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (10): com.vungle.warren.utility.VungleProvider, cn.vove7.smartkey.android.SmartKeyIniterContentProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, org.cocos2dx.javascript.config.MyAb, androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider, com.luck.picture.lib.basic.PictureFileProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3
+  Total Methods : 28
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C1 A6 A0 A6 4C 1B FB A3 A0 4E 58 10 87 0F 0D 3E A7 FC BA 2A 50 BF 3D FD E9 A3 A0 CB B7 BE 2A AB
+
+==========================================

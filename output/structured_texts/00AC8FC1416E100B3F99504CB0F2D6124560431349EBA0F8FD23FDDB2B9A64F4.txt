@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.geaxgame.pokerkingpro
+  SHA-256       : 00AC8FC1416E100B3F99504CB0F2D6124560431349EBA0F8FD23FDDB2B9A64F4
+  Android Group : Android15
+  Version       : 4.10.7 (code: 3151)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (21)]
+  com.geaxgame.pokerkingpro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE
+
+[Application Components]
+  Activities (28): com.geaxgame.pokerking.PlayGuestActivity, com.facebook.CustomTabActivity, eu.janmuller.android.simplecropimage.CropImage, com.geaxgame.pokerking.AccountCleanActivity, com.geaxgame.pokerking.LoginActivity, com.geaxgame.pokerking.MainPreferenceActivity, com.geaxgame.pokerking.InviteFriendActivity, com.geaxgame.pokerking.slots.SlotsActivity, com.facebook.CustomTabMainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.geaxgame.pokerking.PaypalActivity, com.geaxgame.pokerking.GameActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.geaxgame.pokerking.PokerKingActivity, com.geaxgame.pokerking.FriendListActivity, com.geaxgame.pokerking.GameActivityOld, com.geaxgame.pokerking.SignUpActivity, com.geaxgame.pokerking.slots.BjActivity, com.geaxgame.pokerking.SignInActivity
+  Services   (11): com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (12): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.geaxgame.pokerking.broadcasts.NetworkReceiver, com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.geaxgame.pokerking.broadcasts.NotifyReceiver, com.geaxgame.pokerking.util.InstallReferrerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (4): androidx.startup.InitializationProvider, com.facebook.FacebookContentProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 23681
+  Total Methods : 174155
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: geaxgame, Organizational Unit: www.geaxgame.com, Organization: www.geaxgame.com, Locality: Shanghai, State/Province: Shanghai, Country: CN
+  Fingerprint : 9A F5 04 C4 19 A0 FB B2 6C DE 58 E4 38 41 D5 0C 77 05 ED 06 97 BC 12 F4 97 46 1B 68 FC EB A5 BA
+
+==========================================

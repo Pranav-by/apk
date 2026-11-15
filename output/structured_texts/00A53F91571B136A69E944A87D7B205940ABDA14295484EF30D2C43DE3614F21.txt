@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.rayalaseema.spice
+  SHA-256       : 00A53F91571B136A69E944A87D7B205940ABDA14295484EF30D2C43DE3614F21
+  Android Group : Android14
+  Version       : 1.1.0 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (7)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.rayalaseema.spice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (4): com.google.android.gms.common.api.GoogleApiActivity, com.rayalaseema.spice.MainActivity, com.yalantis.ucrop.UCropActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (7): com.baseflow.geolocator.GeolocatorLocationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (4): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5848
+  Total Methods : 34074
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/reference/javax/net/ssl/SSLSocket, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 28 B9 97 F3 A2 73 EF 5B 99 D5 97 2F EC BC 38 F9 BE 9D CE C8 A0 7F 25 DA 5C F5 9C B7 F7 06 60 7E
+
+==========================================

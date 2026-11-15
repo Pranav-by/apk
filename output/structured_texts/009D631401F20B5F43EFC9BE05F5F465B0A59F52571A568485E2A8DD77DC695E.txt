@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.FoodSoul.ChehovMashaPicca
+  SHA-256       : 009D631401F20B5F43EFC9BE05F5F465B0A59F52571A568485E2A8DD77DC695E
+  Android Group : Android12L
+  Version       : 7.4.5 (code: 2022090811)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (3): com.journeyapps.barcodescanner.CaptureActivity, com.foodsoul.presentation.feature.main.activity.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (12): com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.yandex.metrica.ConfigurationJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.yandex.metrica.MetricaService, com.google.android.gms.measurement.AppMeasurementService, com.push.FoodSoulPushService, com.google.firebase.messaging.FirebaseMessagingService, com.yandex.metrica.ConfigurationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.foodsoul.presentation.feature.widget.TimeOrderAppWidget, com.appsflyer.MultipleInstallBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.analytics.AnalyticsReceiver
+  Providers  (6): com.yandex.metrica.PreloadInfoContentProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.flurry.android.agent.FlurryContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16756
+  Total Methods : 102973
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 2E 4B EE 11 E8 16 FC 5B 6D 41 6D 2F 92 73 27 95 0E E0 44 B6 37 B9 B9 A3 A2 61 F3 BF B6 1B AD 89
+
+==========================================

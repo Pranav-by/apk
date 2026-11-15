@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ce.android.brand.subbys
+  SHA-256       : 005B904B51F4490FD75225AB84B1DA201A2C87A27C9220C9F74DBB39857AC9A6
+  Android Group : Android15
+  Version       : 1.0.3 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (30)]
+  com.ce.android.brand.subbys.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH_CONNECT
+
+[Application Components]
+  Activities (113): com.ce.android.base.app.activity.OfferDetailActivity, com.ce.android.base.app.activity.SignInActivity, com.ce.android.base.app.activity.StarterActivity, com.ce.android.base.app.activity.GroupListingActivity, com.ce.android.base.app.activity.OrdersTabActivity, com.ce.android.base.app.activity.SendGiftCardConfirmationActivity, com.ce.android.base.app.activity.SendGiftCardPayment, com.ce.android.base.app.activity.PaymentProcessingActivity, com.ce.android.base.app.activity.SendGiftCardFormActivity, com.ce.android.base.app.activity.OrderReviewActivity, com.ce.android.base.app.activity.CustomLoyaltyImageViewActivity, com.ce.android.base.app.activity.MainActivity, com.ce.android.base.app.activity.SignUpActivity, com.ce.android.base.app.activity.FragmentHostActivity, com.ce.android.base.app.activity.TermsOfUseActivity, com.ce.android.base.app.activity.MessageDetailActivity, com.ce.android.base.app.activity.OrderConfirmationActivity, com.ce.android.base.app.activity.ScanProductResultActivity, com.ce.android.base.app.activity.ManualPointScanActivity, com.ce.android.base.app.activity.ProductDetailActivity
+  Services   (145): org.altbeacon.beacon.service.ScanJob, org.altbeacon.bluetooth.BluetoothTestJob, org.altbeacon.beacon.service.BeaconService, com.ce.sdk.services.message.MessageService, org.altbeacon.beacon.BeaconIntentProcessor, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.ce.sdk.services.payment.PaymentStatusService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.ce.android.base.app.beacon.BeaconDetectorService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.ce.android.base.app.fcm.AppFirebaseMessagingService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.ce.sdk.core.services.giftcard.GiftCardLookupIntentService, com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.components.ComponentDiscoveryService, com.ce.sdk.services.giftcard.GiftCardLookupService
+  Receivers  (9): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.ce.android.base.app.beacon.BluetoothAdapterStatusReceiver, org.altbeacon.beacon.startup.StartupBroadcastReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (7): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, sqip.internal.ContextCaptureContentProvider, androidx.startup.InitializationProvider, com.facebook.FacebookContentProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, com.heapanalytics.android.internal.HeapContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 54304
+  Total Methods : 355584
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 50 84 92 01 1C C6 40 9E 61 36 5B D6 AB A7 D8 FA 58 FC A5 9D DC 35 E4 25 E3 60 1B 96 19 85 77 DF
+
+==========================================

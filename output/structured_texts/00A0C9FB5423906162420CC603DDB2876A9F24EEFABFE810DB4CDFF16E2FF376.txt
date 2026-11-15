@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.ozon.seller_app
+  SHA-256       : 00A0C9FB5423906162420CC603DDB2876A9F24EEFABFE810DB4CDFF16E2FF376
+  Android Group : Android13
+  Version       : 2.32.0 (code: 232000050)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (12)]
+  android.permission.USE_BIOMETRIC, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, ru.ozon.seller_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (6): com.google.android.gms.common.api.GoogleApiActivity, ru.ozon.seller_app.core.SingleActivity, ru.ozon.id.auth.AuthWebViewActivity, ru.ozon.app.android.abtool.presentation.AbToggleActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, androidx.compose.ui.tooling.PreviewActivity
+  Services   (9): com.google.firebase.messaging.FirebaseMessagingService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.components.ComponentDiscoveryService, androidx.appcompat.app.AppLocalesMetadataHolderService, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, ru.ozon.seller_app.push.FcmService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (6): com.google.firebase.provider.FirebaseInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryPerformanceProvider, io.sentry.android.core.SentryInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 33270
+  Total Methods : 121323
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 22 78 53 EF B3 AF 65 F6 F6 03 FB A1 55 62 6C D6 6D 57 89 EE 29 33 51 AE 1B 9F B8 A7 4E 19 69 C2
+
+==========================================

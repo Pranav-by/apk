@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.musicbrothers.shredder
+  SHA-256       : 007CCD01286B7260579BBDAB6CCFFAD70DBDC9BD55C1E0B2DA2AD7DE6F4FBCDA
+  Android Group : Android13
+  Version       : 0.1.3 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (13)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.VIBRATE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.BLUETOOTH, com.google.android.c2dm.permission.RECEIVE, com.musicbrothers.shredder.permission.C2D_MESSAGE, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (9): com.google.firebase.MessagingUnityPlayerActivity, com.flurry.android.marketing.messaging.notification.NotificationClickedActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.yasirkula.unity.NativeShareCustomShareDialogActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (11): com.google.firebase.messaging.FirebaseMessagingService, com.flurry.android.marketing.messaging.FCM.FlurryMessageListenerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.MessageForwardingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.cpp.RegistrationIntentService, com.google.firebase.messaging.cpp.ListenerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.flurry.android.marketing.messaging.notification.NotificationCancelledReceiver, com.flurry.android.marketing.messaging.notification.NotificationClickedReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.amazon.device.iap.ResponseReceiver, com.yasirkula.unity.NativeShareBroadcastListener, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): com.flurry.android.agent.FlurryContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.yasirkula.unity.NativeShareContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17891
+  Total Methods : 117258
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(2): 2.9.0.0, 2.10.1.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E0 85 FA 35 54 0C 73 43 39 B7 53 9D 47 CA C5 B5 F0 7B 19 3F 83 71 3C 38 AE 72 1F 55 8A 50 40 9C
+
+==========================================

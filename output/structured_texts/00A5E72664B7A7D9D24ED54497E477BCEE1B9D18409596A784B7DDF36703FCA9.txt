@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.apptegy.burkepsd
+  SHA-256       : 00A5E72664B7A7D9D24ED54497E477BCEE1B9D18409596A784B7DDF36703FCA9
+  Android Group : Android15
+  Version       : 5.3.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (40)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.apptegy.burkepsd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.apptegy.burkepsd.permission.C2D_MESSAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (19): net.openid.appauth.RedirectUriReceiverActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.compose.ui.tooling.PreviewActivity, com.apptegy.imageeditor.ImageEditorActivity, com.apptegy.core.ui.video.VideoPlayerActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, io.getstream.chat.android.ui.common.feature.documents.AttachmentDocumentActivity, net.openid.appauth.AuthorizationManagementActivity, com.canhub.cropper.CropImageActivity, com.onesignal.core.activities.PermissionsActivity, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.onesignal.notifications.activities.NotificationOpenedActivityHMS, com.apptegy.global.messages.ui.media.MediaPlayerActivity, com.apptegy.media.settings.ui.CancelActivity, io.getstream.chat.android.compose.ui.attachments.preview.MediaPreviewActivity, com.apptegy.app.main.activity.MainActivity, io.getstream.chat.android.compose.ui.attachments.preview.MediaGalleryPreviewActivity, com.onesignal.notifications.activities.NotificationOpenedActivity, com.apptegy.gallery.GalleryActivity
+  Services   (16): androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.core.services.SyncService, androidx.appcompat.app.AppLocalesMetadataHolderService, com.onesignal.core.services.SyncJobService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, com.apptegy.app.application.fcm.BlackHatFirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, io.getstream.chat.android.client.receivers.NotificationMessageReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.BootUpReceiver
+  Providers  (7): io.getstream.android.push.delegate.AndroidPushDelegateProvider, com.google.firebase.provider.FirebaseInitProvider, org.jetbrains.compose.resources.AndroidContextProvider, androidx.core.content.FileProvider, com.canhub.cropper.CropFileProvider, com.datadog.android.rum.DdRumContentProvider, io.getstream.chat.android.ui.common.StreamFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 22112
+  Total Methods : 109580
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 47 9F 72 BC 37 AA 9D 5C 08 A8 18 C0 4E 50 D8 3B 4E 22 2C 79 DB F7 95 9C AF D2 98 C2 B6 FE 95 09
+
+==========================================

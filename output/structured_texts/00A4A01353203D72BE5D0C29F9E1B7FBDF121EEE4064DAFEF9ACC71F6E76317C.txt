@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.example.PapassCherry
+  SHA-256       : 00A4A01353203D72BE5D0C29F9E1B7FBDF121EEE4064DAFEF9ACC71F6E76317C
+  Android Group : Android16
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (5)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.example.PapassCherry.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (5): com.example.PapassCherry.MainActivity, com.yandex.mobile.ads.common.AdActivity, com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity, com.google.android.gms.common.api.GoogleApiActivity, com.example.PapassCherry.GameActivity
+  Services   (1): io.appmetrica.analytics.internal.AppMetricaService
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (4): com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, androidx.startup.InitializationProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 33916
+  Total Methods : 196562
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: oleg-vasilevsky, Country: RU
+  Fingerprint : DA 39 1A 52 64 E9 E0 C4 0C FD 37 E3 C1 2F 29 43 3C F2 EE F1 3B F0 E4 2D 6E 75 54 F6 77 2B 42 1F
+
+==========================================

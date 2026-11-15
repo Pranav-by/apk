@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.knjigaprica
+  SHA-256       : 00A5EB0702158F241B2BC56AA102B9C58E4FFC854F757799AFD1AC90E2279497
+  Android Group : Android13
+  Version       : 1.1.0 (code: 88)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (5)]
+  android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WAKE_LOCK, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (3): com.ryanheise.audioservice.AudioServiceActivity, com.android.billingclient.api.ProxyBillingActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (1): com.ryanheise.audioservice.AudioService
+  Receivers  (1): com.ryanheise.audioservice.MediaButtonReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3920
+  Total Methods : 23519
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CC B5 39 15 1E 4B B1 22 D0 39 75 04 F3 B9 9B 79 FE 16 5B 24 B3 D5 CE 70 7A 04 67 EC 4F F0 22 20
+
+==========================================

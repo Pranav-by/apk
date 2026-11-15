@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.turings.chatter
+  SHA-256       : 005E2D239B7403C129B384695568FC1ADDE630A4787898E46BD1F35B9546751C
+  Android Group : Android12
+  Version       : 1.16 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.WAKE_LOCK, android.permission.BLUETOOTH_CONNECT, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (6): com.example.Chatter.Activities.AudioDiscussionActivity, com.example.Chatter.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.example.Chatter.Activities.RoomDiscussionActivity, com.example.Chatter.Activities.HomePageActivity
+  Services   (8): com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (5): com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.example.Chatter.Repositories.AudioUserRepository, com.example.Chatter.Repositories.DiscussionRepository
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14051
+  Total Methods : 91342
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DC F6 98 C2 17 99 C6 7E 58 5D 88 7C CC 83 78 50 D0 FD CE E4 F6 AB 72 EC A5 4B 31 4D B0 B5 CB 62
+
+==========================================

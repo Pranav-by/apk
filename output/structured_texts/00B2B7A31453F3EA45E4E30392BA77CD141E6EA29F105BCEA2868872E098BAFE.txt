@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.rocketcloset.app
+  SHA-256       : 00B2B7A31453F3EA45E4E30392BA77CD141E6EA29F105BCEA2868872E098BAFE
+  Android Group : Android12L
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (9)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.VIBRATE, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_CREDENTIALS, android.permission.GET_ACCOUNTS, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (6): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity, com.rocketcloset.app.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (6): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.capacitorjs.plugins.pushnotifications.MessagingService
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (5): com.facebook.FacebookContentProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7469
+  Total Methods : 47327
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5F 34 E3 95 F9 99 4A 4F 64 11 D8 02 5C F0 20 2C 56 25 57 47 A1 94 77 DE 72 29 79 18 AA 54 4F 21
+
+==========================================

@@ -1,0 +1,69 @@
+{
+  "sha256": "004AA78977727021E264F3E34DC073848895FB550ED69E9903FA2C8B050B543C",
+  "filename": "004AA78977727021E264F3E34DC073848895FB550ED69E9903FA2C8B050B543C.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.hyperstudio.font",
+  "version_name": "3.2",
+  "version_code": "29",
+  "min_sdk": "23",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_DOWNLOAD_MANAGER",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.hyperstudio.font.DebugActivity",
+    "com.applovin.adview.AppLovinInterstitialActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.hyperstudio.font.ViewActivity",
+    "com.adcolony.sdk.AdColonyAdViewActivity",
+    "com.hyperstudio.font.DownloadActivity",
+    "com.adcolony.sdk.AdColonyInterstitialActivity",
+    "com.hyperstudio.font.MainActivity",
+    "com.applovin.sdk.AppLovinWebViewActivity",
+    "com.applovin.adview.AppLovinFullscreenActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.google.android.gms.ads.AdActivity"
+  ],
+  "activity_count": 12,
+  "services": [
+    "com.applovin.impl.adview.activity.FullscreenAdService",
+    "com.applovin.impl.sdk.utils.AppKilledService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 7,
+  "class_count": 11029,
+  "method_count": 74748,
+  "cert_fingerprint": "B5 FB 99 CE B0 49 EE 31 96 FB 12 FB E6 E8 B8 A3 8B 15 CA ED 9B 0A 7D 98 C2 77 BB 4D 89 50 35 36",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

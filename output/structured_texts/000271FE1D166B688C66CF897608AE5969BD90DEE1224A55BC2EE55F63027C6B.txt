@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.subhash.ghosh.sg.gita
+  SHA-256       : 000271FE1D166B688C66CF897608AE5969BD90DEE1224A55BC2EE55F63027C6B
+  Android Group : Android13
+  Version       : 4.0 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (3)]
+  com.google.android.gms.permission.AD_ID, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (8): com.subhash.ghosh.sg.gita.FavActivity, com.subhash.ghosh.sg.gita.DebugActivity, com.subhash.ghosh.sg.gita.ContactActivity, com.subhash.ghosh.sg.gita.SplashActivity, com.subhash.ghosh.sg.gita.GitashowActivity, com.google.android.gms.ads.AdActivity, com.subhash.ghosh.sg.gita.GitamenuActivity, com.subhash.ghosh.sg.gita.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 10424
+  Total Methods : 61964
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B4 1E F7 A2 9F 1D 51 E0 D6 70 C0 66 48 A7 BD 2B 28 5C 0F 33 C8 C5 DE 33 6A 0F 6E E6 DB E8 4C 03
+
+==========================================

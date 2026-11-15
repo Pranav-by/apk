@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.tarly.mcad
+  SHA-256       : 003019330D2224292A9EDE323583EA18B46187005CE6842C59D9F4B6E371FE74
+  Android Group : Android12
+  Version       : 1.4.60.1 (code: 50)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (28)]
+  android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.CHANGE_NETWORK_STATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.apps.photos.permission.GOOGLE_PHOTOS, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.truecaller.permission.sdk.internal.read_account_state, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE
+
+[Application Components]
+  Activities (226): co.classplus.app.ui.base.BottomSheetBaseActivity, co.classplus.app.ui.common.freeresources.selecttags.SelectTagsActivity, co.classplus.app.ui.base.viewModelTest.VMTestActivity, co.classplus.app.ui.common.freeresources.FreeResourcesActivity, co.classplus.app.ui.tutor.batchdetails.resources.ytcustom.YTPlayerActivity, co.classplus.app.ui.common.counselling.CounsellingActivity, co.classplus.app.ui.common.freeresources.studymaterial.newfolder.NewFolderActivity, co.classplus.app.ui.common.freeresources.studymaterial.folderdetail.FolderDetailActivity, co.classplus.app.ui.common.zoom.ZoomWebViewActivity, co.classplus.app.ui.tutor.feemanagement.settings.caretaker.CaretakerSettingsActivity, co.classplus.app.ui.common.loginV2.LoginBottomSheetActivity, co.classplus.app.ui.tutor.referearn.ReferEarnActivity, co.classplus.app.ui.tutor.home.chatslist.StudentGroupsActivity, co.classplus.app.ui.tutor.deleteuser.DeleteUserActivity, co.classplus.app.ui.common.chatV2.options.CategoryActivity, co.classplus.app.ui.common.freeresources.multilevelFolderDetails.MultilevelFolderDetailsActivity, co.classplus.app.ui.common.surveymonkey.SMSurveyActivity, co.classplus.app.ui.common.chatV2.FeedbackActivity, co.classplus.app.ui.tutor.batchdetails.settings.batchTabsSettings.BatchTabsSettingsActivity, co.classplus.app.ui.common.game.GameZopWebViewActivity
+  Services   (39): io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.freshchat.consumer.sdk.service.FreshchatService, live.hms.video.services.HMSScreenCaptureService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundIntentService, androidx.work.impl.background.systemalarm.SystemAlarmService, co.classplus.app.ui.tutor.feemanagement.downloadreceipt.DownloadPaymentReceiptService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.webengage.sdk.android.NotificationClickHandlerService, co.classplus.app.ui.common.attachment.AttachmentUploadService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.analytics.AnalyticsJobService, co.classplus.app.ui.antmedia.ui.session.LiveClassService, androidx.work.impl.background.systemjob.SystemJobService, com.uxcam.service.HttpPostService, co.classplus.app.ui.antmedia.ui.session.screensharing.ScreenCaptureService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (24): com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.webengage.sdk.android.WebEngageReceiver, live.hms.video.services.LogAlarmManager, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, co.classplus.app.ui.common.videostore.batchdetail.FileDownloadWorker$ZIPFileReceiver, co.classplus.app.ui.common.splash.UtmReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, co.classplus.app.utils.receiver.SMSRetrieverBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (9): io.intercom.android.sdk.IntercomInitializeContentProvider, com.facebook.internal.FacebookInitProvider, com.freshchat.consumer.sdk.provider.FreshchatInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, droidninja.filepicker.utils.FilePickerProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, co.classplus.app.utils.ClassplusFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 30322
+  Total Methods : 183072
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 1.4.60.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E7 0B 9A F3 A8 83 09 FC D6 70 3E 14 4E 26 DE F1 57 65 C6 63 00 8F 49 EC 84 22 44 CB 43 C9 CB 34
+
+==========================================

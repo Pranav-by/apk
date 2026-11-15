@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.rueshopusa.shopforrue
+  SHA-256       : 00A8D6D08398081325FEACF7D3E9E20E877BAC136FF94D2552880F4250E3BFEC
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (11)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.GET_ACCOUNTS, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (27): com.rueshopusa.shopforrue.activity.HomeWithStartActivity, com.google.android.gms.ads.AdActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.rueshopusa.shopforrue.activity.QuestionDosActivity, com.rueshopusa.shopforrue.activity.QuestionUnoActivity, com.ironsource.sdk.controller.ControllerActivity, com.ironsource.sdk.controller.InterstitialActivity, com.google.android.gms.common.api.GoogleApiActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.rueshopusa.shopforrue.activity.SpeedinPhoneActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.rueshopusa.shopforrue.activity.BirthdaySpeedinActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerActivity
+  Services   (7): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (6): com.squareup.picasso.PicassoProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12101
+  Total Methods : 65939
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices, http://developer.android.com/google/play-services/setup.html., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(5): 6.8.0.12, 3.7.2.0, 20.6.0.4, 7.2.1.1, 7.1.12.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 08 E7 F4 80 1E 02 FA 43 5E 66 27 2B 46 5F BD 53 66 7C 6C 57 FE 77 88 44 AF B2 E8 FC E4 0D D8 9E
+
+==========================================

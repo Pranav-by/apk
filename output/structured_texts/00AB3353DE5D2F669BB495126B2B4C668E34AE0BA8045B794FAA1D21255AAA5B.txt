@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.poeta.espn
+  SHA-256       : 00AB3353DE5D2F669BB495126B2B4C668E34AE0BA8045B794FAA1D21255AAA5B
+  Android Group : Android12
+  Version       : 9.8 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): com.poeta.espn.preperfil, com.poeta.espn.t_gal_foto, com.poeta.espn.ExpandedControlsActivity, com.poeta.espn.guardarprimeravez, com.poeta.espn.t_card, com.poeta.espn.fotoperfil, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.poeta.espn.SearchableActivity, com.poeta.espn.eliminarperfil, com.adcolony.sdk.AdColonyInterstitialActivity, com.poeta.espn.codigo, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.poeta.espn.chat, com.adcolony.sdk.AdColonyAdViewActivity, com.poeta.espn.t_url, com.unity3d.services.ads.adunit.AdUnitActivity, com.poeta.espn.chat_perfil, com.poeta.espn.t_buscador_form, com.facebook.FacebookActivity, com.poeta.espn.t_html
+  Services   (28): com.google.android.gms.cast.framework.media.MediaNotificationService, com.poeta.espn.s_widget_vistafb, com.poeta.espn.s_cargar_icos, com.poeta.espn.s_cargar_fondo, com.poeta.espn.s_cargar_icos_gen, com.poeta.espn.s_guardarperfil, com.poeta.espn.s_mediaplayer_exo, com.poeta.espn.RegistrationIntentService, com.poeta.espn.MyFcmListenerService, com.poeta.espn.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.iid.FirebaseInstanceIdService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.poeta.espn.alarma_rss, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (10): com.poeta.espn.MySuggestionProvider, com.poeta.espn.StickerContentProvider, com.poeta.espn.bd_provider, com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22370
+  Total Methods : 123866
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(1): 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4A 3F 12 19 23 E4 E1 39 72 9C 75 D0 D4 60 AC FD FB F7 45 0F 88 FF 87 7C 08 C0 9A 16 0E 3E 53 6A
+
+==========================================

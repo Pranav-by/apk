@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hfjlj.ufbrowser
+  SHA-256       : 00A957B815E915367877CFBFE51EC3AB8FFEE394EE89750337A4E686EE169BA0
+  Android Group : Android12L
+  Version       : 1.0.9 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (25)]
+  android.permission.FOREGROUND_SERVICE, android.permission.REQUEST_DELETE_PACKAGES, android.permission.VIBRATE, com.hfjlj.ufbrowser.openadsdk.permission.TT_PANGOLIN, com.asus.msa.SupplementaryDID.ACCESS, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_PHONE_STATE, freemme.permission.msa, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.REORDER_TASKS, com.hfjlj.ufbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (1733): com.hfjlj.ufbrowser.module.rixlhp15.Vexueo14Activity, com.hfjlj.ufbrowser.module.ydzzls18.Iqmsvk10Activity, com.hfjlj.ufbrowser.module.rixlhp15.Vhwomp15Activity, com.hfjlj.ufbrowser.module.ydzzls18.Kfqbul11Activity, com.hfjlj.ufbrowser.module.ydzzls18.Amyyan13Activity, com.hfjlj.ufbrowser.module.ydzzls18.Mdvxxm12Activity, com.hfjlj.ufbrowser.module.ydzzls18.Zeofxj9Activity, com.hfjlj.ufbrowser.module.ydzzls18.Aofwah7Activity, com.hfjlj.ufbrowser.module.ydzzls18.Cdgdui8Activity, com.hfjlj.ufbrowser.module.ydzzls18.Edwpag6Activity, com.hfjlj.ufbrowser.module.ydzzls18.Eetyof5Activity, com.hfjlj.ufbrowser.module.ydzzls18.Qkqtne4Activity, com.hfjlj.ufbrowser.module.ydzzls18.Entotd3Activity, com.hfjlj.ufbrowser.module.kjshzr17.Uaugcnb39Activity, com.hfjlj.ufbrowser.module.ydzzls18.Rbgjwc2Activity, com.hfjlj.ufbrowser.module.ydzzls18.Wvbjmb1Activity, com.hfjlj.ufbrowser.module.rixlhp15.Nuhtjm12Activity, com.hfjlj.ufbrowser.module.ydzzls18.Nhwfja0Activity, com.hfjlj.ufbrowser.module.kjshzr17.Zkqqmmb38Activity, com.hfjlj.ufbrowser.module.kjshzr17.Mbzcolb37Activity
+  Services   (20): com.kwad.sdk.api.proxy.app.ServiceProxyRemote, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.qq.e.comm.DownloadService, com.luck.picture.lib.service.ForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.efs.sdk.memleaksdk.monitor.UMonitorService, com.ss.android.socialbase.appdownloader.DownloadHandlerService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.ss.android.socialbase.downloader.downloader.CSJIndependentProcessDownloadService, com.ss.android.socialbase.downloader.downloader.CSJDownloadService, com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.bytedance.sdk.openadsdk.core.multipro.aidl.BinderPoolService, com.bytedance.sdk.openadsdk.downloadnew.ApiDownloadHandlerService, com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService, com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService, com.kwad.sdk.api.proxy.app.DownloadService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.bytedance.embedapplog.collector.Collector, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.ss.android.downloadlib.core.download.DownloadReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (20): com.baidu.mobads.sdk.api.BdFileProvider, com.bytedance.pangle.provider.MainProcessProviderProxy, com.byted.live.lite.ServerManager_downloader, com.kwad.sdk.api.proxy.app.AdSdkFileProvider, com.bytedance.pangle.FileProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byted.live.lite.ServerManager_bytelive, com.qq.e.comm.GDTFileProvider, com.byted.live.lite.ServerManager_push, com.luck.picture.lib.basic.PictureFileProvider, com.prolificinteractive.materialcalendarview.MaterialCalendarViewInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider4Utils, com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider, androidx.core.content.FileProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, me.jessyan.autosize.InitProvider, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.bytedance.sdk.openadsdk.stub.server.MainServerManager
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 38477
+  Total Methods : 324412
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(6): 127.0.0.1, 2.1.1.4, 1.1.37.41, 2.10.42.103, 1.4.6.31, 999.999.999.9
+
+[Certificate]
+  Issuer      : Common Name: 安徽众翼网络科技有限公司, Organizational Unit: 安徽众翼网络科技有限公司, Organization: 安徽众翼网络科技有限公司, Locality: 合肥, State/Province: 安徽, Country: CN
+  Fingerprint : D8 B3 47 EA 59 F7 DE 09 2A 39 15 9B F9 1D CB 02 38 56 F3 DA 33 27 24 20 20 49 6E 09 0D 32 56 3D
+
+==========================================

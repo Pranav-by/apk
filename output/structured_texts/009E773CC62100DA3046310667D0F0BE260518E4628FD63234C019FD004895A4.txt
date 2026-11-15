@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.foiti.android
+  SHA-256       : 009E773CC62100DA3046310667D0F0BE260518E4628FD63234C019FD004895A4
+  Android Group : Android12
+  Version       : 1.1.0 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (37)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.gms.permission.ACTIVITY_RECOGNITION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE
+
+[Application Components]
+  Activities (17): com.yalantis.ucrop.UCropActivity, com.facebook.CustomTabMainActivity, ly.img.android.pesdk.ui.activity.EditorActivity, ly.img.android.pesdk.ui.activity.VideoEditorActivity, expo.modules.devmenu.DevMenuActivity, com.canhub.cropper.CropImageActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, expo.modules.devlauncher.launcher.DevLauncherActivity, ly.img.android.pesdk.ui.activity.PhotoEditorActivity, com.google.android.gms.common.api.GoogleApiActivity, com.foiti.android.MainActivity, expo.modules.devlauncher.launcher.errors.DevLauncherErrorActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, ly.img.android.pesdk.ui.activity.CameraPreviewActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.facebook.react.devsupport.DevSettingsActivity
+  Services   (14): expo.modules.location.services.LocationTaskService, androidx.room.MultiInstanceInvalidationService, io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService, expo.modules.notifications.service.ExpoFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, expo.modules.notifications.service.NotificationsService, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (9): com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, ly.img.android.IMGLYAutoInit, androidx.core.content.FileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, expo.modules.filesystem.FileSystemFileProvider, expo.modules.imagepicker.ImagePickerFileProvider, com.canhub.cropper.CropFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 27435
+  Total Methods : 167543
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(4): 10.0.2.2, 10.0.1.1, 10.0.3.2, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 24 F1 00 84 2B 46 E5 34 7F 1A CE 72 35 1A F0 C2 8F 6F 30 E8 0B A2 8B 1F 79 45 4B 9C 38 A2 48 D7
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : pl.baselinker.caller
+  SHA-256       : 0097333743D0953A92DDBC415311E5056B1675A56282DE593610C05A66708EDB
+  Android Group : Android12
+  Version       : 1.2.0 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.PROCESS_OUTGOING_CALLS, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_PHONE_STATE, android.permission.READ_CALL_LOG
+
+[Application Components]
+  Activities (3): pl.baselinker.caller.ConnectAccountActivity, pl.baselinker.caller.MainActivity, pl.baselinker.caller.SettingsActivity
+  Services   (1): pl.baselinker.caller.CallerAppService
+  Receivers  (2): pl.baselinker.caller.PhoneCallReceiver, pl.baselinker.caller.BootReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3750
+  Total Methods : 31391
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 3B 0A DF 50 41 54 8A B2 6A E8 E4 FE AE E4 7E 9A A4 93 C3 47 78 A7 77 12 75 3F 7A 6C D6 96 0B 78
+
+==========================================

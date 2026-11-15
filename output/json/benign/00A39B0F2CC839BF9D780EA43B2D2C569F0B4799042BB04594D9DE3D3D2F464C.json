@@ -1,0 +1,53 @@
+{
+  "sha256": "00A39B0F2CC839BF9D780EA43B2D2C569F0B4799042BB04594D9DE3D3D2F464C",
+  "filename": "00A39B0F2CC839BF9D780EA43B2D2C569F0B4799042BB04594D9DE3D3D2F464C.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.stem.junior",
+  "version_name": "2.1.4",
+  "version_code": "217",
+  "min_sdk": "23",
+  "target_sdk": "36",
+  "permissions": [
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.android.billingclient.api.ProxyBillingActivityV2"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 2976,
+  "method_count": 16138,
+  "cert_fingerprint": "94 EC 48 EF 7C A7 80 06 F4 7D 24 91 2A 7A BD 71 CE 1E A8 E9 54 0A BB 32 C2 56 CC 91 5F E1 87 8C",
+  "cert_issuer": "Common Name: VietStem, Organizational Unit: VietNam, Organization: VietStem, Locality: Hanoi, State/Province: Cau Giay, Country: 100000",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

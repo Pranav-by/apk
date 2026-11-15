@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.petcodeusa.petcode_app
+  SHA-256       : 004896B1FACE2D16C7C2ECFE9A72DEA078D0FEC4EF547443416A6CD4CF478BC3
+  Android Group : Android12
+  Version       : 44.0.1 (code: 44)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (17)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_FINE_LOCATION, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, com.android.vending.BILLING, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_NOTIFICATION_POLICY
+
+[Application Components]
+  Activities (28): com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, com.stripe.android.ui.core.cardscan.CardScanActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.googlepaylauncher.StripeGooglePayActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.stripe.android.view.PaymentFlowActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.view.AddPaymentMethodActivity, com.stripe.android.link.LinkActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity
+  Services   (20): com.smartlook.sdk.smartlook.job.worker.record.RecordRenderVideoJob, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.smartlook.sdk.smartlook.job.worker.record.UploadRecordJob, com.smartlook.sdk.smartlook.job.worker.internallog.UploadInternalLogJob, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, app.notifee.core.ReceiverService, app.notifee.core.ForegroundService, com.smartlook.sdk.smartlook.job.worker.session.UploadSessionJob, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (18): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, app.notifee.core.RebootBroadcastReceiver, com.smartlook.sdk.smartlook.core.referrer.ReferrerReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, app.notifee.core.AlarmPermissionBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, app.notifee.core.NotificationAlarmReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, app.notifee.core.BlockStateBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (6): io.invertase.notifee.NotifeeInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.imagepicker.ImagePickerProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 36873
+  Total Methods : 227366
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 81 E1 1D 19 45 AB 0D 68 A7 BE B8 CC 79 B0 1C A2 EC 1E A1 0E E6 5E 04 90 A7 7F 32 CD 16 05 8D 43
+
+==========================================

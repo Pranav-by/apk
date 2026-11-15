@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : bdmv.aplizgr
+  SHA-256       : 008CBFF964AD579B57BA08C81DC6BF5765FDB9435E5CF57F116759C1C8B23CEF
+  Android Group : Android12
+  Version       : 9.8 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): com.google.android.gms.ads.AdActivity, bdmv.aplizgr.t_and, com.startapp.sdk.ads.interstitials.OverlayActivity, bdmv.aplizgr.SearchableActivity, bdmv.aplizgr.t_menu, com.startapp.sdk.ads.list3d.List3DActivity, bdmv.aplizgr.preinicio, bdmv.aplizgr.t_detalle, com.google.android.gms.common.api.GoogleApiActivity, bdmv.aplizgr.t_video_pro, bdmv.aplizgr.t_buscador, com.ironsource.sdk.controller.InterstitialActivity, bdmv.aplizgr.cats, com.ironsource.sdk.controller.OpenUrlActivity, com.ironsource.sdk.controller.ControllerActivity, bdmv.aplizgr.t_buscador_form, com.facebook.FacebookActivity, bdmv.aplizgr.chat, com.facebook.CustomTabActivity, bdmv.aplizgr.contactar
+  Services   (28): bdmv.aplizgr.s_mediaplayer_exo, bdmv.aplizgr.RegistrationIntentService, bdmv.aplizgr.MyFcmListenerService, bdmv.aplizgr.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.iid.FirebaseInstanceIdService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.cast.framework.media.MediaNotificationService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (15): bdmv.aplizgr.alarma_rss, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (10): bdmv.aplizgr.MySuggestionProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, bdmv.aplizgr.StickerContentProvider, com.google.firebase.provider.FirebaseInitProvider, bdmv.aplizgr.bd_provider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22299
+  Total Methods : 123924
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(2): 7.1.12.2, 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4C FF 2D 78 42 D1 2D D3 5A E0 89 99 56 89 70 9C 4C B4 70 59 B4 9C 80 CE 8A 13 C3 90 47 C2 60 BE
+
+==========================================

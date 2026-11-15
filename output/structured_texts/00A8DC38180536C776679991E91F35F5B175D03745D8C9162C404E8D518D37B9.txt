@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.disney.wordsofwonder_goo
+  SHA-256       : 00A8DC38180536C776679991E91F35F5B175D03745D8C9162C404E8D518D37B9
+  Android Group : Android13
+  Version       : 3.2.46 (code: 3002046)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.GET_ACCOUNTS, com.disney.wordsofwonder_goo.permission.C2D_MESSAGE, android.permission.READ_PHONE_STATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.DISABLE_KEYGUARD, android.permission.WAKE_LOCK, android.permission.GET_TASKS, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (23): com.facebook.CustomTabActivity, com.jirbo.adcolony.AdColonyOverlay, com.heyzap.sdk.ads.MediationTestActivity, com.jirbo.adcolony.AdColonyFullscreen, com.facebook.ads.InterstitialAdActivity, com.heyzap.sdk.ads.HeyzapInterstitialActivity, com.disney.wordsofwonder_goo.AIRAppEntry, com.fyber.ads.ofw.OfferWallUnityActivity, com.fyber.mediation.adcolony.interstitial.InterstitialProxyActivity, com.distriqt.extension.inappbilling.activities.ProductViewActivity, com.jirbo.adcolony.AdColonyBrowser, com.google.android.gms.ads.AdActivity, com.fyber.mediation.adcolony.rv.VideoProxyActivity, com.vungle.publisher.FullScreenAdActivity, com.applovin.adview.AppLovinInterstitialActivity, com.applovin.adview.AppLovinConfirmationActivity, com.vungle.publisher.VideoFullScreenAdActivity, com.vungle.publisher.MraidFullScreenAdActivity, com.android.billingclient.api.ProxyBillingActivity, com.heyzap.sdk.ads.HeyzapIncentivizedActivity
+  Services   (3): com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.CampaignTrackingService, com.fyber.cache.CacheVideoDownloadService
+  Receivers  (4): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver
+  Providers  (4): com.adobe.air.CameraUIProvider, com.adobe.air.AIRFileProvider, com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9407
+  Total Methods : 63534
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: wordsofwonder2013, Organizational Unit: disneygoogleplay, Organization: playdom, Locality: burbank, State/Province: ca, Country: us
+  Fingerprint : A1 31 EE 78 F4 F8 A7 04 22 70 4E B3 35 43 E2 F2 62 A9 A1 82 9E 16 28 75 AD 2D AC 97 5A A2 6B DF
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.medpresso.Lonestar.vetanes
+  SHA-256       : 00ABFB03169AB5655919F13F6F63A360D8F21180DA2ACE61C15C04B505CE445E
+  Android Group : Android15
+  Version       : 3.13.1 (code: 42)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.DISABLE_KEYGUARD, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.medpresso.Lonestar.vetanes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.android.vending.BILLING, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, com.medpresso.Lonestar.vetanes.permission.C2D_MESSAGE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, com.medpresso.Lonestar.vetanes.api.ACCESS_MODULE_API
+
+[Application Components]
+  Activities (28): com.medpresso.lonestar.activities.WelcomeActivity, com.facebook.CustomTabActivity, com.medpresso.lonestar.activities.SplashActivity, com.amplifyframework.devmenu.DeveloperMenuActivity, com.medpresso.lonestar.activities.ProductDetailActivity, com.medpresso.lonestar.activities.HomeActivity, com.facebook.CustomTabMainActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.medpresso.lonestar.activities.RegistrationWebActivity, androidx.credentials.playservices.HiddenActivity, com.medpresso.lonestar.activities.SkyscapeAccountLinkActivity, com.android.billingclient.api.ProxyBillingActivity, com.medpresso.lonestar.activities.LoginActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.medpresso.lonestar.activities.SelectIndexActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.medpresso.lonestar.activities.AboutActivity, com.google.android.gms.common.api.GoogleApiActivity, com.medpresso.lonestar.activities.PurchaseOptionsActivity, com.medpresso.lonestar.activities.PurchaseActivity
+  Services   (18): com.medpresso.lonestar.repository.service.TitleManagerService, com.medpresso.lonestar.repository.service.CatalogContentsUpdateService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.medpresso.lonestar.repository.service.CatalogImagesUpdateService, com.medpresso.lonestar.analytics.LonestarFirebaseMessagingService, com.medpresso.lonestar.repository.service.VoucherSplashImagesUpdateService, com.medpresso.lonestar.repository.service.DownloadLicenseService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.medpresso.lonestar.service.CheckBackupService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.medpresso.lonestar.service.BackupService, com.medpresso.lonestar.service.RestoreService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (8): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (4): com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 42356
+  Total Methods : 286498
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Organization: Medpresso
+  Fingerprint : D0 74 C9 78 44 5A C7 F5 D3 16 7F A2 1A 7C 36 7D C6 DB C1 76 30 65 22 D4 B8 91 03 A0 F5 1B 83 AA
+
+==========================================

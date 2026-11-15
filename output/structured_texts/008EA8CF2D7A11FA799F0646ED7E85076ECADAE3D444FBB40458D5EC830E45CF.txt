@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.ZMI.ZMIApp
+  SHA-256       : 008EA8CF2D7A11FA799F0646ED7E85076ECADAE3D444FBB40458D5EC830E45CF
+  Android Group : Android12L
+  Version       : 6.4.4 (code: 39)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.BIND_NOTIFICATION_LISTENER_SERVICE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.CALL_PHONE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.NFC
+
+[Application Components]
+  Activities (1): com.embarcadero.firemonkey.FMXNativeActivity
+  Services   (5): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.embarcadero.firebase.messaging.ProxyFirebaseMessagingService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.embarcadero.rtl.notifications.NotificationAlarm, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (1): com.embarcadero.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9275
+  Total Methods : 47261
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Nick Diener, Organizational Unit: Entwicklung, Organization: ZMI GmbH, Locality: Elfershausen, State/Province: BY, Country: DE
+  Fingerprint : 8F 17 F9 08 4C DE 68 4C D1 79 F8 E7 EA D6 4D 34 41 C6 63 A9 AD 62 6D 16 DA DB 0F E8 A8 64 CD 9D
+
+==========================================

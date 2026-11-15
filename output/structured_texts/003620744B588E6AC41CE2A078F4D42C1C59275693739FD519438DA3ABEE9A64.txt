@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cplex.scary.prank
+  SHA-256       : 003620744B588E6AC41CE2A078F4D42C1C59275693739FD519438DA3ABEE9A64
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (6)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_NETWORK_CONDITIONS, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (5): com.cplex.scary.prank.HomeActivity, com.cplex.scary.prank.ViewActivity, com.cplex.scary.prank.DebugActivity, com.facebook.ads.AudienceNetworkActivity, com.cplex.scary.prank.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 6517
+  Total Methods : 47358
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): http://developer.android.com/google/play-services/setup.html., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(2): 127.0.0.1, 6.8.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4B B2 B4 33 8B BC 05 65 57 D8 BC 7A A9 9B 9C 75 0E 73 D8 7D AE 37 74 B6 93 5D 4D 38 08 D0 D4 3D
+
+==========================================

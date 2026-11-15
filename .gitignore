@@ -1,0 +1,22 @@
+# APK Raw Data Folders (Never commit APK datasets)
+b/
+m/
+*.apk
+
+# Model weights (Large GGUF binaries)
+output/models/
+*.gguf
+
+# Python & Environment Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv
+env/
+venv/
+
+# System / OS Artifacts
+.DS_Store
+Thumbs.db
+

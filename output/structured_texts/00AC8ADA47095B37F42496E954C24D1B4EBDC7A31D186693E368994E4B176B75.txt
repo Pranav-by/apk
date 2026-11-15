@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : space.salvador.dbo_quiz
+  SHA-256       : 00AC8ADA47095B37F42496E954C24D1B4EBDC7A31D186693E368994E4B176B75
+  Android Group : Android12L
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (0)]
+  none
+
+[Application Components]
+  Activities (5): space.salvador.dbo_quiz.QuizResults, space.salvador.dbo_quiz.SplashScreen, space.salvador.dbo_quiz.QuizActivity, space.salvador.dbo_quiz.MainActivity, space.salvador.dbo_quiz.Main
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 5833
+  Total Methods : 45142
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android Debug, Organization: Android, Country: US
+  Fingerprint : 87 B5 27 69 D3 E4 59 B5 55 71 62 0F 00 3D C2 B1 B7 0C F2 8B DB 3E 84 69 3E 7F D5 1F 6A 97 A1 3E
+
+==========================================

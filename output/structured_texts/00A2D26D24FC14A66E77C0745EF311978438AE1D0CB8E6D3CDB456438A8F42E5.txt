@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sadpuppy.lemmings
+  SHA-256       : 00A2D26D24FC14A66E77C0745EF311978438AE1D0CB8E6D3CDB456438A8F42E5
+  Android Group : Android12
+  Version       : 7.0 (code: 3478)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (17)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.READ_PHONE_STATE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, com.samsung.android.iap.permission.BILLING, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.sadpuppy.lemmings.permission.C2D_MESSAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.sadpuppy.lemmings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (69): com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.google.android.gms.common.api.GoogleApiActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.sadpuppy.lemmings.RockCakesUnityPlayerActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.ads.internal.ipc.RemoteANActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.samsung.android.sdk.iap.lib.activity.CheckPackageActivity, com.samsung.android.sdk.iap.lib.activity.AccountActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.tapjoy.TJAdUnitActivity, com.samsung.android.sdk.iap.lib.activity.DialogActivity
+  Services   (21): com.google.android.gms.ads.AdService, com.facebook.ads.internal.ipc.AdsProcessPriorityService, com.facebook.ads.internal.ipc.AdsMessengerService, com.google.firebase.messaging.MessageForwardingService, com.helpshift.fcmunity.HelpshiftCustomFCMService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.cpp.ListenerService, com.google.firebase.messaging.cpp.RegistrationIntentService
+  Receivers  (14): com.singular.sdk.SingularInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, net.agasper.unitynotification.plugincode.UnityNotificationManager, net.agasper.unitynotification.plugincode.UnityNotificationActionHandler, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (10): com.ironsource.lifecycle.IronsourceLifecycleProvider, com.applovin.sdk.AppLovinInitProvider, com.squareup.picasso.PicassoProvider, com.facebook.ads.AudienceNetworkContentProvider, com.hyprmx.android.sdk.utility.HyprMXFileProvider, com.vungle.warren.utility.VungleProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31844
+  Total Methods : 177228
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(3): 1.0.0.0, 5.1.0.9, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Serkan Hassan, Organizational Unit: Exient Malta, Organization: Sad Puppy Ltd, Locality: Valletta, State/Province: Malta, Country: MT
+  Fingerprint : 27 42 A0 63 24 0A 4D 0F B1 FE CE 2A 60 08 1C 2C 6E 51 54 53 24 9F 2E 40 05 11 C5 71 AC 59 26 5B
+
+==========================================

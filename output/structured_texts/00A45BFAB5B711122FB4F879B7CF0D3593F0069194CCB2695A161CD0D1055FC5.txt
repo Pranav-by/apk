@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.livegps.satelite.maphd.streetview.earthmap.voicenavigation.glade
+  SHA-256       : 00A45BFAB5B711122FB4F879B7CF0D3593F0069194CCB2695A161CD0D1055FC5
+  Android Group : Android14
+  Version       : 3.4 (code: 25)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (17)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, com.android.vending.BILLING, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, android.permission.WAKE_LOCK, com.livegps.satelite.maphd.streetview.earthmap.voicenavigation.glade.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.GET_TASKS, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (46): com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.activities.HistoryActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.PhotoLocationDisplayActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.LiveTestLocationActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.PhotoDisplayActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mileagecalculator.MileageDataDisplayActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.RealTimeCurrentLocationActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.HomeLocationActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mileagecalculator.MileageCalculatorActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.PhotoMainActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mileagecalculator.MileageRouteFinderActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.language.LanguageActivity, com.mapbox.services.android.navigation.ui.v5.MapboxNavigationActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.ShowStreetView, com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.PlaceAutocompleteActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.placepicker.SearchPlaceActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.FAQActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.activities.CompassesActivity, com.mapbox.mapboxsdk.plugins.places.picker.ui.PlacePickerActivity, com.gladeapps.gpsroute.mapbox.findlocation.threedview.livepath.mapphoto.mainui.PhotoCaptureActivity
+  Services   (15): androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService, androidx.room.MultiInstanceInvalidationService, com.mapbox.android.telemetry.MapboxTelemetryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, androidx.camera.core.impl.MetadataHolderService, com.mapbox.services.android.navigation.v5.navigation.NavigationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (11): androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (6): com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 27296
+  Total Methods : 167752
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E1 81 99 3A 76 0B 5A A3 8A 99 75 5D 96 11 9B 4E C3 1E ED DE 72 D8 9E 1F 24 21 4C 49 31 C0 7F B2
+
+==========================================

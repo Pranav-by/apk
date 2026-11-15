@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.dailypositive.app
+  SHA-256       : 00B57CF54CC7A900A750EC91602EA4B945D7C2F785A8EFDDAAF3C6CC5B03B328
+  Android Group : Android15
+  Version       : 1.0.0 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (21)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.dailypositive.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, com.android.vending.CHECK_LICENSE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (16): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.android.billingclient.api.ProxyBillingActivityV2, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.ads.AdActivity, com.pairip.licensecheck.LicenseActivity, com.dailypositive.MainActivity, com.google.firebase.auth.internal.GenericIdpActivity, androidx.glance.appwidget.action.ActionTrampolineActivity, com.google.firebase.auth.internal.RecaptchaActivity, androidx.glance.appwidget.action.InvisibleActionTrampolineActivity, androidx.credentials.playservices.HiddenActivity
+  Services   (17): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.core.widget.RemoteViewsCompatService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.glance.appwidget.GlanceRemoteViewsService, com.google.android.gms.metadata.ModuleDependencies, androidx.room.MultiInstanceInvalidationService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.ads.AdService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (20): com.dailypositive.BootReceiver, com.dailypositive.daily_positive.PosiWidgetProvider, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.glance.appwidget.MyPackageReplacedReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.dailypositive.AlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.dailypositive.NotificationReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.glance.appwidget.UnmanagedSessionReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (6): io.flutter.plugins.imagepicker.ImagePickerFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 26021
+  Total Methods : 140429
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://issuetracker.google.com/issues/241760537, https://goo.gle/admob-android-update-manifest, https://firebase.google.com/support/, https://goo.gle/compose-feedback, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://goo.gle/ad-manager-android-update-manifest., https://goo.gle/admob-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7B 12 BB 97 9B 5C 79 6D FD 64 C5 58 00 98 13 B0 F3 30 B2 9B 61 43 1D 95 51 70 C0 96 FD F7 9A B2
+
+==========================================

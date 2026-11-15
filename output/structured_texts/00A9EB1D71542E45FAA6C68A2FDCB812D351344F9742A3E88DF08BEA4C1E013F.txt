@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.apps.ethcurrency
+  SHA-256       : 00A9EB1D71542E45FAA6C68A2FDCB812D351344F9742A3E88DF08BEA4C1E013F
+  Android Group : Android12
+  Version       : 1.0.2 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (7)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.QUERY_ALL_PACKAGES, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (5): com.apps.ethcurrency.MainActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.ads.AdActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (5): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (5): com.facebook.ads.AudienceNetworkContentProvider, io.flutter.plugins.share.ShareFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7621
+  Total Methods : 34868
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-interstitial-policies, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(1): 6.8.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 01 3F BB 50 0B E3 03 EF D3 B0 0E 1A C4 78 0B DC 6F 27 60 6A 1F 65 DE 74 54 2F 9E 9C EE 95 74 62
+
+==========================================

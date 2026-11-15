@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.playgendary.tom
+  SHA-256       : 00A89C8AE322E488F06852DB59602B41EF29E7EC4F591F0EDB0929C02A065F39
+  Android Group : Android13
+  Version       : 1.15.6 (code: 129)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (13)]
+  com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (62): com.applovin.mediation.MaxDebuggerActivity, io.presage.mraid.browser.ShortcutActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.applovin.adview.AppLovinFullscreenActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, io.presage.interstitial.ui.InterstitialAndroid8RotableActivity, io.presage.mraid.browser.Android8AndLaterShortcutActivity, com.facebook.ads.AudienceNetworkActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.google.android.gms.ads.AdActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, com.adcolony.sdk.AdColonyAdViewActivity
+  Services   (14): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.ogury.core.internal.OguryLogEnablerReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.unity.androidnotifications.UnityNotificationManager, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (11): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.hyprmx.android.sdk.utility.HyprMXFileProvider, org.hive.foundation.apphost.AppHostProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, com.squareup.picasso.PicassoProvider, com.vungle.warren.utility.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 32124
+  Total Methods : 185974
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(7): 16.2.51.0, 4.8.0.2, 20.6.0.6, 4.7.0.7, 6.12.0.2, 10.0.9.1, 20.6.0.8
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4A 70 F3 9E E8 3D 67 6B 45 FB 65 6C EC FC E4 D4 96 CC 9E F7 9E 6E EB B7 7F 03 AF 9D A4 1E 27 74
+
+==========================================

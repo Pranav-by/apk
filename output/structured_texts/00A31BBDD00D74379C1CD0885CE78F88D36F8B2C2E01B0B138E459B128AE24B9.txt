@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : bearface.games.merchant
+  SHA-256       : 00A31BBDD00D74379C1CD0885CE78F88D36F8B2C2E01B0B138E459B128AE24B9
+  Android Group : Android13
+  Version       : 3.098 (code: 3098)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.SCHEDULE_EXACT_ALARM, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (11): com.google.android.gms.ads.OutOfContextTestingActivity, com.ansca.corona.notifications.OnNotificationReceiverActivity, com.google.android.gms.ads.AdActivity, com.android.billingclient.api.ProxyBillingActivity, com.ansca.corona.CoronaActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.ansca.corona.CameraActivity, com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity, com.ansca.corona.VideoActivity, com.ansca.corona.purchasing.StoreActivity
+  Services   (14): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, plugin.notifications.v2.CoronaFirebaseMessagingService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.ansca.corona.CoronaService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (14): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.ansca.corona.SystemStartupBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.ansca.corona.notifications.AlarmManagerBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.ansca.corona.notifications.StatusBarBroadcastReceiver
+  Providers  (6): com.ansca.corona.storage.FileContentProvider, com.ansca.corona.camera.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.games.provider.PlayGamesInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14401
+  Total Methods : 74653
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.google.com/admob/android/test-ads#enable_test_devices, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Garrett Savo, Organizational Unit: Unknown, Organization: Bearface Games, Locality: Naples, State/Province: Florida, Country: US
+  Fingerprint : 9A F5 DE 17 17 72 13 33 EA 3E 76 64 24 FA FA 97 DC 56 C1 50 8F E2 E6 92 62 26 9E 4F 4D 68 25 2B
+
+==========================================

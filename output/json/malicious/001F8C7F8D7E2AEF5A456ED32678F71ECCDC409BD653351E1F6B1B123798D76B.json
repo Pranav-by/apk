@@ -1,0 +1,47 @@
+{
+  "sha256": "001F8C7F8D7E2AEF5A456ED32678F71ECCDC409BD653351E1F6B1B123798D76B",
+  "filename": "001F8C7F8D7E2AEF5A456ED32678F71ECCDC409BD653351E1F6B1B123798D76B.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "comz.gatesofolympus.gg110",
+  "version_name": "1.0",
+  "version_code": "1",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "comz.gatesofolympus.gg110.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "comz.gatesofolympus.gg110.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2706,
+  "method_count": 17487,
+  "cert_fingerprint": "11 85 FF A0 42 DD 9F 45 6B 78 C4 47 B9 67 97 A1 59 73 D1 F9 F1 C8 12 5D AE 4D 7B F4 40 C4 2B 0B",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

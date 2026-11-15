@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.benefittechnologies.beefit
+  SHA-256       : 00A9F5D4D48DCCCC4B1924C754205088900E0A7A51435C3974E0B89611208E18
+  Android Group : Android12
+  Version       : 6.0.47 (code: 600047)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (43)]
+  android.permission.AUTHENTICATE_ACCOUNTS, android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_LOCATION_EXTRA_COMMANDS, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, android.permission.READ_SYNC_SETTINGS, com.sec.android.provider.badge.permission.READ, com.google.android.gms.permission.ACTIVITY_RECOGNITION, com.sonyericsson.home.permission.BROADCAST_BADGE
+
+[Application Components]
+  Activities (11): de.appplant.cordova.plugin.localnotification.ClickReceiver, com.dmcbig.mediapicker.PreviewActivity, com.benefittechnologies.beefit.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.dmcbig.mediapicker.PickerActivity, com.adobe.phonegap.push.PushHandlerActivity, com.keyes.youtube.OpenYouTubePlayerActivity, com.dmcbig.mediapicker.TakePhotoActivity, pub.devrel.easypermissions.AppSettingsDialogHolderActivity, com.intentfilter.androidpermissions.PermissionsActivity, com.bunkerpalace.cordova.YouTubeActivity
+  Services   (12): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.iid.FirebaseInstanceIdService, com.adobe.phonegap.push.PushInstanceIDListenerService, com.marianhello.bgloc.sync.SyncService, com.marianhello.bgloc.service.LocationServiceImpl, com.adobe.phonegap.push.FCMService, com.marianhello.bgloc.sync.AuthenticatorService, com.google.android.gms.cast.framework.ReconnectionService
+  Receivers  (9): com.marianhello.bgloc.BootCompletedReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.adobe.phonegap.push.BackgroundActionButtonHandler, de.appplant.cordova.plugin.localnotification.ClearReceiver, name.ratson.cordova.sms_receiver.SmsReceiver, de.appplant.cordova.plugin.localnotification.TriggerReceiver, com.adobe.phonegap.push.PushDismissedHandler
+  Providers  (4): com.marianhello.bgloc.data.provider.LocationContentProvider, com.dmcbig.mediapicker.utils.DmcFileProvider, com.google.firebase.provider.FirebaseInitProvider, de.appplant.cordova.plugin.notification.util.AssetProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7261
+  Total Methods : 44262
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): http://logback.qos.ch/codes.html#socket_no_host, http://logback.qos.ch/codes.html#socket_no_port, http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Jonas West Alrø, Organizational Unit: Benefit Technologies, Organization: Benefit Technologies, Locality: Aarhus, State/Province: Unknown, Country: DA
+  Fingerprint : 0E 4D 29 FC F9 22 26 7B 8C CC D8 E2 3B 22 F6 38 58 FC 4F 0B F5 04 DF 69 4A 51 E0 6E DA 21 EA 06
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.easpeca.slepnpder
+  SHA-256       : 005433014B19932C79C2827439251E3AAA138F4E0828B33446FF9C5E195D679C
+  Android Group : Android15
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (9)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.easpeca.slepnpder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (4): com.easpeca.slepnpder.rotatablely.PyralididSpongyBoldfacedFrigidaria, com.easpeca.slepnpder.PupiformNigerTuberculizeExvoto, com.pairip.licensecheck.LicenseActivity, com.easpeca.slepnpder.precolonial.GoosyHavreEmbolic
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): androidx.startup.InitializationProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6561
+  Total Methods : 49423
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4B 2C B5 6D 2A D8 E2 97 48 DF 44 6A 8E 30 5A 7D B0 86 10 07 85 AA 31 7C F0 B9 BA 80 8E 56 75 FA
+
+==========================================

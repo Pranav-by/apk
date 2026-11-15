@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : safe.privacy.security
+  SHA-256       : 00048F076FFC56F0BEA8CE48F677E3AF6A2224174A6E6AC528642B88505E44B8
+  Android Group : Android13
+  Version       : 2.2.9 (code: 25)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (29)]
+  android.permission.MANAGE_ACCOUNTS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.WRITE_SYNC_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.READ_SYNC_STATS, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.QUERY_ALL_PACKAGES, android.permission.USE_FULL_SCREEN_INTENT, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, safe.privacy.security.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.AUTHENTICATE_ACCOUNTS, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (54): com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, secure.privateu.applock.app.MainActivity, secure.privateu.applock.app.SplashActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, secure.privateu.applock.app.compress.CompressActivity, com.vungle.warren.ui.VungleActivity, com.google.android.gms.ads.AdActivity, secure.privateu.applock.app.lock.LockActivity, com.applovin.mediation.MaxDebuggerActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity, com.applovin.adview.AppLovinFullscreenActivity, com.imp.page.paywall.PaywallActivity, com.applovin.sdk.AppLovinWebViewActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, secure.privateu.applock.app.deepclean.DeepCleanActivity, secure.privateu.applock.app.filemanage.FilmManageActivity
+  Services   (20): com.applovin.impl.adview.activity.FullscreenAdService, secure.privateu.applock.app.FunctionService, secure.privateu.applock.app.PullService, secure.alive.SyncService, secure.alive.AuthenticationService, com.imp.firebase.FirebaseMsgService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (10): com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, secure.privateu.applock.app.utils.ExternalStorageProvider, com.vungle.warren.utility.VungleProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.squareup.picasso.PicassoProvider, com.imp.event.crash.CrashReporterInitProvider, secure.alive.SyncProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 38644
+  Total Methods : 252629
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 3C F7 51 99 12 9D B8 53 35 87 11 E9 A7 EF 95 EC F7 35 5B 77 D5 20 42 3F 48 A7 DD B5 EC 63 CF C0
+
+==========================================

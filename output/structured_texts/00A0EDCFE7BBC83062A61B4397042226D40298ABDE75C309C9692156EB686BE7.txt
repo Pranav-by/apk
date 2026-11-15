@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gardenaffairs.affairsgp
+  SHA-256       : 00A0EDCFE7BBC83062A61B4397042226D40298ABDE75C309C9692156EB686BE7
+  Android Group : Android12
+  Version       : 2.35.0 (code: 2035000)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (15)]
+  com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.INTERACT_ACROSS_USERS_FULL, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (42): com.facebook.CustomTabActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.android.billingclient.api.ProxyBillingActivity, com.applovin.sdk.AppLovinWebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.adview.AppLovinFullscreenActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.facebook.ads.AudienceNetworkActivity, com.vungle.warren.ui.VungleActivity, com.facebook.CustomTabMainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.helpshift.activities.UnityDelegateActivity, com.helpshift.support.activities.ParentActivity
+  Services   (15): com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, com.applovin.impl.sdk.utils.AppKilledService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.adjust.sdk.AdjustReferrerReceiver, com.unity.androidnotifications.UnityNotificationManager, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (10): com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.helpshift.support.providers.HelpshiftFileProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider, com.vungle.warren.utility.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 24734
+  Total Methods : 142507
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(4): 21.3.0.2, 7.2.4.1, 6.12.0.0, 6.11.0.5
+
+[Certificate]
+  Issuer      : Common Name: KeBin Zhu, Organizational Unit: Judian, Organization: Judian, Locality: Singapore, State/Province: Singapore, Country: SG
+  Fingerprint : 7E 47 1D 78 C0 4C 14 D6 85 0F F8 BD 90 92 FB F2 34 C2 E4 F7 B2 41 FB 89 EB 7B 55 AB 20 96 4C 78
+
+==========================================

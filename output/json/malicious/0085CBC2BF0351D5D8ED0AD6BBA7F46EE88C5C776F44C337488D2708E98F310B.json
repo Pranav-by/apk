@@ -1,0 +1,84 @@
+{
+  "sha256": "0085CBC2BF0351D5D8ED0AD6BBA7F46EE88C5C776F44C337488D2708E98F310B",
+  "filename": "0085CBC2BF0351D5D8ED0AD6BBA7F46EE88C5C776F44C337488D2708E98F310B.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.subarstudio.javaviewer",
+  "version_name": "1.0.1",
+  "version_code": "2",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.subarstudio.javaviewer.activities.SplashScreenActivity",
+    "com.subarstudio.javaviewer.activities.PdfViewerActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.subarstudio.javaviewer.activities.EditedCodeFileActivity",
+    "com.subarstudio.javaviewer.activities.SettingActivity",
+    "com.subarstudio.javaviewer.activities.ConvertedPdfFileActivity",
+    "com.obsez.android.lib.filechooser.permissions.PermissionActivity",
+    "com.nabinbhandari.android.permissions.PermissionsActivity",
+    "com.subarstudio.javaviewer.activities.CodeViewerActivity",
+    "com.subarstudio.javaviewer.activities.MainActivity"
+  ],
+  "activity_count": 11,
+  "services": [
+    "androidx.room.MultiInstanceInvalidationService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "com.google.android.gms.ads.AdService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14932,
+  "method_count": 92447,
+  "cert_fingerprint": "BD 42 40 F5 D3 6F DB D7 56 12 90 41 47 9B 8D 17 BF 28 E9 56 3A F8 B8 03 36 4C 66 2F 0C 24 F9 4A",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

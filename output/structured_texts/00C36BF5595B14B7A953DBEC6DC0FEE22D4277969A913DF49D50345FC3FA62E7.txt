@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : health.yoga.mudras
+  SHA-256       : 00C36BF5595B14B7A953DBEC6DC0FEE22D4277969A913DF49D50345FC3FA62E7
+  Android Group : Android12L
+  Version       : 1.0.7 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (11): health.yoga.mudras.views.activities.MainActivity, health.yoga.mudras.views.activities.DisclaimerActivity, health.yoga.mudras.views.activities.HomeActivity, health.yoga.mudras.views.activities.FavouritesActivity, health.yoga.mudras.views.activities.MudrasDetailsActivity, health.yoga.mudras.views.activities.AboutMudrasActivity, health.yoga.mudras.views.activities.SetReminderActivity, health.yoga.mudras.views.activities.MudrasListActivity, health.yoga.mudras.views.activities.SupportUsActivity, com.android.billingclient.api.ProxyBillingActivity, health.yoga.mudras.views.activities.RemindersActivity
+  Services   (9): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6451
+  Total Methods : 38483
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Spiritualize Me, Organizational Unit: Spiritualize Me, Organization: Spiritualize Me, Locality: Bangalore, State/Province: India, Country: 91
+  Fingerprint : BD 36 E4 56 C4 94 9B DC 65 17 5A 18 9B AE B3 7A 96 27 7D C2 F3 61 99 33 4B 69 1A 14 63 FC B4 3F
+
+==========================================

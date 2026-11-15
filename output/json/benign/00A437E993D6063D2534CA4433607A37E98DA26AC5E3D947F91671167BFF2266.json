@@ -1,0 +1,63 @@
+{
+  "sha256": "00A437E993D6063D2534CA4433607A37E98DA26AC5E3D947F91671167BFF2266",
+  "filename": "00A437E993D6063D2534CA4433607A37E98DA26AC5E3D947F91671167BFF2266.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "www.riteschool.net",
+  "version_name": "2.0.8",
+  "version_code": "200080",
+  "min_sdk": "22",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "www.riteschool.net.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 2,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.capacitorjs.plugins.pushnotifications.MessagingService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6965,
+  "method_count": 48663,
+  "cert_fingerprint": "23 FE 80 0D B5 74 73 19 B8 CE 13 0C A2 74 19 05 E7 4D D0 1A D2 E8 93 72 9F 2B 74 0F 8B 90 CE 90",
+  "cert_issuer": "Common Name: Yatin Ghanwat, Organizational Unit: IT, Organization: RIT, Locality: Pune, State/Province: MH, Country: 91",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

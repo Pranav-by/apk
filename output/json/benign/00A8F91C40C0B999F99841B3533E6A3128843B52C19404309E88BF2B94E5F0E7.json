@@ -1,0 +1,79 @@
+{
+  "sha256": "00A8F91C40C0B999F99841B3533E6A3128843B52C19404309E88BF2B94E5F0E7",
+  "filename": "00A8F91C40C0B999F99841B3533E6A3128843B52C19404309E88BF2B94E5F0E7.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.russellinvestments.supertracker",
+  "version_name": "1.4.2",
+  "version_code": "730",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.russellinvestments.supertracker.MainActivity",
+    "com.facebook.react.devsupport.DevSettingsActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.zoontek.rnbootsplash.RNBootSplashActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+  ],
+  "activity_count": 6,
+  "services": [
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+  ],
+  "service_count": 6,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+    "io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider",
+    "com.RNFetchBlob.Utils.FileProvider",
+    "cl.json.RNShareFileProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11232,
+  "method_count": 73079,
+  "cert_fingerprint": "64 6E 39 57 A4 38 E4 C5 A6 8B 63 5B 47 98 96 8D 22 C6 9F 97 D3 51 01 F1 CE E2 DD 19 26 A9 F0 35",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics",
+    "https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#"
+  ],
+  "ip_addresses": [
+    "10.0.1.1",
+    "10.0.3.2",
+    "10.0.2.2"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

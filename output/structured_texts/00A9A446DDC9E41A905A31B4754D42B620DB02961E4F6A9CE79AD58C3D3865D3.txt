@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.chat.lpxjskyeye
+  SHA-256       : 00A9A446DDC9E41A905A31B4754D42B620DB02961E4F6A9CE79AD58C3D3865D3
+  Android Group : Android14
+  Version       : 5.2.12 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (22)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.chat.lpxjskyeye.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_WIFI_STATE, freemme.permission.msa, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, com.asus.msa.SupplementaryDID.ACCESS, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, com.chat.lpxjskyeye.openadsdk.permission.TT_PANGOLIN
+
+[Application Components]
+  Activities (70): com.ss.android.socialbase.appdownloader.view.DownloadHandleNotificationActivity, com.alipay.sdk.app.H5PayActivity, com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity, com.byted.live.lite.Activity_bytelive_singleTop3, com.alipay.sdk.app.H5AuthActivity, com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity, com.byted.live.lite.Activity_bytelive_singleTop2, com.alipay.sdk.app.PayResultActivity, com.byted.live.lite.Activity_bytelive_singleTop5, com.alipay.sdk.app.AlipayResultActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTWebPageActivity, com.byted.live.lite.Activity_bytelive_singleTop4, com.alipay.sdk.app.H5OpenAuthActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTVideoScrollWebPageActivity, com.byted.live.lite.Activity_bytelive_standard, com.alipay.sdk.app.APayEntranceActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTDelegateActivity, com.byted.live.lite.Activity_bytelive_singleTop1, com.bytedance.sdk.openadsdk.core.component.reward.activity.TTRewardVideoActivity, com.byted.live.lite.Activity_bytelive_singleTask1
+  Services   (11): com.ss.android.socialbase.appdownloader.DownloadHandlerService, com.google.android.gms.metadata.ModuleDependencies, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.ss.android.socialbase.downloader.downloader.CSJIndependentProcessDownloadService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.ss.android.socialbase.downloader.downloader.CSJDownloadService, com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.baseflow.geolocator.GeolocatorLocationService, com.bytedance.sdk.openadsdk.core.multipro.aidl.BinderPoolService, com.bytedance.sdk.openadsdk.downloadnew.ApiDownloadHandlerService
+  Receivers  (4): com.bytedance.embedapplog.collector.Collector, com.ss.android.downloadlib.core.download.DownloadReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (17): cn.sqcat.h5lib.download.DownloadProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byted.live.lite.ServerManager_downloader, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.byted.live.lite.ServerManager_bytelive, io.github.v7lin.tencent_kit.TencentKitFileProvider, com.byted.live.lite.ServerManager_push, com.bytedance.sdk.openadsdk.TTFileProvider, com.bytedance.sdk.openadsdk.stub.server.MainServerManager, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.bytedance.pangle.provider.MainProcessProviderProxy, com.jarvan.fluwx.FluwxFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.bytedance.pangle.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23141
+  Total Methods : 162414
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(7): 999.999.999.9, 2.1.1.4, 1.4.6.31, 127.0.0.1, 1.1.37.41, 1.0.0.1, 2.10.42.103
+
+[Certificate]
+  Issuer      : Common Name: compass_80, Organizational Unit: compass_80, Organization: compass_80, Locality: compass_80, State/Province: compass_80, Country: compass_80
+  Fingerprint : F2 5B B8 40 31 52 63 18 39 8F 29 6E C6 C7 3F F9 A4 75 30 20 7A 86 46 B6 4C 2E F7 60 E3 E3 0F 67
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.asiatiq.client
+  SHA-256       : 004235B681B7340E0930C78905DB968DA7D874FF5D20A1EFC95D5888AF34E8A3
+  Android Group : Android12
+  Version       : 1.4.8 (code: 24)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (8): com.journeyapps.barcodescanner.CaptureActivity, com.facebook.FacebookActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabMainActivity, ru.asiatiq.client.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.facebook.CustomTabActivity
+  Services   (18): com.evernote.android.job.patched.internal.v21.PlatformJobService, com.yandex.metrica.ConfigurationJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.evernote.android.job.patched.internal.JobRescheduleService, com.yandex.runtime.connectivity.internal.ConnectivityService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.evernote.android.job.patched.internal.v14.PlatformAlarmServiceExact, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.google.android.gms.measurement.AppMeasurementJobService, com.evernote.android.job.patched.internal.v14.PlatformAlarmService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (8): com.evernote.android.job.patched.internal.JobBootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (6): com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryPerformanceProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.yandex.metrica.PreloadInfoContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13641
+  Total Methods : 82828
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://firebase.google.com/support/guides/disable-analytics, https://github.com/evernote/android-job/wiki/FAQ, https://goo.gl/J1sWQy, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9F 64 19 F9 E5 E7 AD 01 3B 36 5E 64 B7 4D 48 3E 9F C0 35 1C C2 76 7A 2C 94 0C E6 9B F6 92 C3 B9
+
+==========================================

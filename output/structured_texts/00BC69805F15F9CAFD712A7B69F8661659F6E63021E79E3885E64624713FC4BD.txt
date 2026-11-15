@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.creatorbizzo.pizzamob
+  SHA-256       : 00BC69805F15F9CAFD712A7B69F8661659F6E63021E79E3885E64624713FC4BD
+  Android Group : Android16
+  Version       : 1.8 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 36
+
+[Permissions (3)]
+  android.permission.READ_EXTERNAL_STORAGE, com.creatorbizzo.pizzamob.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET
+
+[Application Components]
+  Activities (2): com.unity3d.player.UnityPlayerGameActivity, com.onevcat.uniwebview.UniWebViewProxyActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (3): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.onevcat.uniwebview.UniWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5018
+  Total Methods : 35858
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A0 44 85 42 0E 53 89 F0 4D 9C 5C E7 D4 49 E1 FE 4B D3 64 8C BA 9D 41 CF E5 B6 24 37 9F B3 7D 97
+
+==========================================

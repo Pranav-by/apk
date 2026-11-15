@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.infoland.building_design_drawing
+  SHA-256       : 007AAE8D91F5191BB9E6F3DD4E6AA0B595DD98A068EAC72893AC29636579A348
+  Android Group : Android14
+  Version       : 1.0.5 (code: 26)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, com.infoland.building_design_drawing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (6): com.infoland.building_design_drawing.ChapterActivity, com.infoland.building_design_drawing.TopicActivity, com.infoland.building_design_drawing.DetailActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.AdActivity
+  Services   (5): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (3): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17952
+  Total Methods : 107290
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: chaimob
+  Fingerprint : 87 A2 E2 7F A3 63 83 D5 74 13 8D BF 6A D1 C9 00 BC 25 31 7E 76 EE 89 73 8C DE 6A 79 70 3E 16 E2
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : nz.co.vxt.vxt
+  SHA-256       : 00B96AF4C0E58271B09275993AD37A49D36BF23CDC2461006A5304D09C58FC7B
+  Android Group : Android16
+  Version       : 6.2.2 (code: 157)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (34)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.DISABLE_KEYGUARD, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (9): nz.co.vxt.vxt.MainActivity, nz.co.vxt.vxt.IncomingCallActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.jakewharton.processphoenix.ProcessPhoenix, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (15): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.oney.WebRTCModule.MediaProjectionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.transistorsoft.tsbackgroundfetch.FetchJobService, com.google.android.gms.measurement.AppMeasurementService, com.burnweb.rnsendintent.RNSendIntentModule, nz.co.vxt.vxt.VxtFirebaseMessagingService, nz.co.vxt.vxt.VxtInCallService
+  Receivers  (8): nz.co.vxt.vxt.CallNotificationDeclineReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver, com.transistorsoft.tsbackgroundfetch.BootReceiver
+  Providers  (7): cl.json.RNShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.burnweb.rnsendintent.FileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.ReactNativeBlobUtil.Utils.FileProvider, com.imagepicker.ImagePickerProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 27804
+  Total Methods : 201130
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: nz.co.vxt.vxt, Organizational Unit: , Organization: , Locality: , State/Province: , Country: US
+  Fingerprint : BC D9 CF 04 51 51 D0 6E 5B 94 4E BE A5 B5 19 17 6F 79 9D DE 97 22 B7 39 8B 09 43 62 87 03 FE 76
+
+==========================================

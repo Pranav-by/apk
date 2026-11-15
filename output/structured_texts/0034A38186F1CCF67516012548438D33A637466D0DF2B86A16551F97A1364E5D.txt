@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wangxutech.reccloud
+  SHA-256       : 0034A38186F1CCF67516012548438D33A637466D0DF2B86A16551F97A1364E5D
+  Android Group : Android15
+  Version       : 1.5.8 (code: 208)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (33)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.WRITE_INTERNAL_STORAGE, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.WIFI, android.permission.FOREGROUND_SERVICE, com.wangxutech.reccloud.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (85): com.wangxutech.reccloud.ui.page.space.FilePlayerActivity, com.wangxutech.reccloud.ui.page.home.speechtext.rec.RecGuidePageActivity, com.wangxutech.reccloud.ui.page.home.speechtext.edit.AudioRecordResultActivity, com.wangxutech.reccloud.ui.page.home.videosubtitles.VideoSubtitlesEditMulActivity, com.wangxutech.reccloud.ui.page.home.textvideo.TextLongVideoScenesActivity, com.wangxutech.reccloud.ui.page.home.textvideo.TextLongVideoDetailActivity, com.wangxutech.reccloud.ui.page.home.speechtext.realtime.edit.RealtimeSttDetailEditActivity, com.wangxutech.reccloud.ui.page.mine.EditAccountActivity, com.wangxutech.reccloud.ui.page.home.textspeech.TextSpeechMoreEditActivity, com.wangxutech.reccloud.ui.page.home.textvideo.TextVideoCreateHistoryActivity, com.wangxutech.reccloud.ui.page.mine.FeedbackActivity, com.chuanglan.shanyan_sdk.view.CmccLoginActivity, com.chuanglan.shanyan_sdk.view.ShanYanOneKeyActivity, com.facebook.CustomTabMainActivity, com.apowersoft.permission.ui.PermissionsActivity, com.huawei.hms.hmsscankit.ScanKitActivity, com.blankj.utilcode.util.UtilsTransActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.tencent.connect.common.AssistActivity, com.apowersoft.auth.ui.activity.WXEntryBaseActivity
+  Services   (16): com.wangxutech.reccloud.recorder.service.STFileUploadTaskService, com.wangxutech.reccloud.recorder.service.RecDownloadTaskService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.google.firebase.components.ComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.sessions.SessionLifecycleService, androidx.room.MultiInstanceInvalidationService, com.huawei.agconnect.core.ServiceDiscovery, com.wangxutech.reccloud.recorder.service.ScreenRecordService, com.wangxutech.reccloud.recorder.service.AudioRecordService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.wangxutech.reccloud.recorder.service.RealTimeAudioRecordService
+  Receivers  (6): com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.sdk.mobile.manager.login.cucc.ConnectionChangeReceiver
+  Providers  (9): com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.aliyun.sls.android.producer.provider.SLSContentProvider, com.facebook.FacebookContentProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.blankj.utilcode.util.UtilsFileProvider, com.petterp.floatingx.assist.FxContentProvider, com.huawei.hms.mlsdk.common.provider.MLInitializerProvider, ru.noties.jlatexmath.JLatexMathInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 39749
+  Total Methods : 178086
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://issuetracker.google.com/issues/241760537, https://goo.gle/compose-feedback
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 34 0E 3A DD BC 68 97 DB 4D 1F E7 82 C3 38 87 98 DC E5 6B 8D E8 8E 27 30 00 22 0A B3 A8 D9 04 C2
+
+==========================================

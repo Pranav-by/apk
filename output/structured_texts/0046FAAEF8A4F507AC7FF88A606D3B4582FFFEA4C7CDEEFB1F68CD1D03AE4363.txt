@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ksport.com
+  SHA-256       : 0046FAAEF8A4F507AC7FF88A606D3B4582FFFEA4C7CDEEFB1F68CD1D03AE4363
+  Android Group : Android12
+  Version       : 12.12 (code: 12)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (4)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.INTERNET
+
+[Application Components]
+  Activities (4): com.ksport.com.MainActivity, com.ksport.com.DebugActivity, com.ksport.com.ViewActivity, com.google.android.gms.ads.AdActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 8158
+  Total Methods : 50277
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://www.googleapis.com/blogger/v3/blogs/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D6 33 29 5A B5 02 76 BE E7 B3 6D 31 B5 7C 0C 2B E0 C1 C3 EF 43 0B A1 72 0F 20 3C 09 A1 F6 97 1B
+
+==========================================

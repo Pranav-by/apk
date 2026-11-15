@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.princeprincea.myguessthepic
+  SHA-256       : 008734D28AF52DF5152D6B73EAEACC10E34D5AB6CB2878F97F34458AAC8ED95C
+  Android Group : Android12
+  Version       : 9.31.0z (code: 31)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (25): com.applovin.mediation.MaxDebuggerDetailActivity, com.facebook.CustomTabMainActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.adview.AppLovinInterstitialActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.pollfish.internal.PollfishOverlayActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.noqoush.adfalcon.android.sdk.ADFBrowser, com.noqoush.adfalcon.android.sdk.ADFActivity, com.yandex.mobile.ads.common.AdActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.FacebookActivity, com.vvteam.gamemachine.ui.activities.GemsActivity, com.vvteam.gamemachine.ui.activities.GameActivity
+  Services   (22): androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.installtracker.TrackingSendService, com.google.android.gms.analytics.CampaignTrackingService, com.google.android.gms.analytics.AnalyticsService, com.vvteam.gamemachine.push.QANFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsJobService, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService
+  Receivers  (18): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.vvteam.gamemachine.external.Scheduler$AlarmManagerBroadcastReceiver, com.startapp.android.publish.common.metaData.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.vvteam.gamemachine.external.GemsLoginReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.vvteam.gamemachine.push.local.HintNotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.vvteam.gamemachine.analytics.CustomReceiver
+  Providers  (8): com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.facebook.ads.AudienceNetworkContentProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 30046
+  Total Methods : 162617
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(2): 0.9.0.2, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9D 19 AC 8A 38 3D A8 4E 90 63 31 E7 58 AC 5A D6 48 10 53 A7 E5 B0 71 CB FA 96 C5 E0 D7 D2 39 C7
+
+==========================================

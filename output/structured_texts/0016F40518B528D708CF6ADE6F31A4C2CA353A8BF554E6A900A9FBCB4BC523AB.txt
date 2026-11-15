@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.jideos.jnotes.overseas.google
+  SHA-256       : 0016F40518B528D708CF6ADE6F31A4C2CA353A8BF554E6A900A9FBCB4BC523AB
+  Android Group : Android15
+  Version       : 3.5.8.4-gp (code: 505)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (38)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.RUN_INSTRUMENTATION, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, android.permission.CHANGE_WIFI_STATE, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.READ_CALENDAR, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, com.android.vending.BILLING, com.oplus.permission.safe.IOT
+
+[Application Components]
+  Activities (108): com.jideos.module.user.ui.phone.DeleteAccountVerifyActivity, com.jideos.module.user.ui.phone.DeletingAccountActivity, com.jideos.module.user.ui.pad.HwPrivilegeActivity, com.jideos.jnotes.wxapi.WXEntryActivity, com.jideos.jnotes.wxapi.WXPayEntryActivity, com.jideos.module.user.ui.pad.MessageListActivity, com.jideos.module.user.ui.WebViewActivity, com.jideos.module.user.ui.ImageShowActivity, com.jideos.module.user.ui.pad.AutoRenewalManagerActivity, com.jideos.module.user.ui.phone.PhoneAutoRenewalManagerActivity, com.jideos.module.user.ui.pad.InviteActivity, com.jideos.module.user.ui.phone.PhoneInviteActivity, com.jideos.module.user.ui.pad.PromotionActivity, com.jideos.module.user.ui.pad.PromotionInviteActivity, com.jideos.module.user.ui.phone.PhonePromotionInviteActivity, com.jideos.module.user.ui.pad.HelpCenterActivity, com.jideos.module.user.ui.pad.HelpCenterIntroVideoListActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.jideos.jnotes.overseas.google.AuthCallbackActivity
+  Services   (16): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.jideos.module_main.service.MediaProjectionService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.jideos.module_main.service.NotificationShotService, com.google.android.gms.measurement.AppMeasurementService, com.jideos.module_main.ScreenshotTileService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.blankj.utilcode.util.MessengerUtils$ServerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (15): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.jideos.module_main.widget.JnotesWidgetProvider2x2, com.jideos.module_main.widget.JnotesWidgetProvider2x3, com.jideos.module_main.widget.JnotesWidgetProvider3x3, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (7): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.blankj.utilcode.util.UtilsFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 149
+  Total Methods : 416
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: JNotes, Organizational Unit: Company, Organization: Jide, Locality: Guangzhou, State/Province: Guangdong, Country: CN
+  Fingerprint : 31 19 80 33 6D A1 EE 8E 3A 47 4B 41 BA F6 DB 70 DC D3 47 9D 39 4A E9 98 D3 D0 40 7F 17 8A D0 B3
+
+==========================================

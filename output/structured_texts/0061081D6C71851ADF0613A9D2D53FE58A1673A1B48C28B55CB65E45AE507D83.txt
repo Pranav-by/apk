@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.cordova.myapp53513c
+  SHA-256       : 0061081D6C71851ADF0613A9D2D53FE58A1673A1B48C28B55CB65E45AE507D83
+  Android Group : Android12L
+  Version       : 10.0.615 (code: 100615)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_CONTACTS, android.permission.READ_CONTACTS, android.permission.INTERNET, android.permission.GET_ACCOUNTS, android.permission.QUERY_ALL_PACKAGES, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (1): io.cordova.myapp53513c.MainActivity
+  Services   (2): com.inka.appsealing.AppSealingIPService, com.inka.appsealing.AppSealingService
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 41
+  Total Methods : 406
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): http://xmlpull.org/v1/doc/features.html#process-docdecl, http://xmlpull.org/v1/doc/features.html#validation, http://xmlpull.org/v1/doc/features.html#process-namespaces, http://xmlpull.org/v1/doc/features.html#report-namespace-prefixes
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Kotak General, Organizational Unit: Kotak Mahindra General Insurance Company Limited, Organization: Kotak Mahindra Bank, Locality: Mumbai, State/Province: Maharashtra, Country: IN
+  Fingerprint : 42 08 67 F9 25 53 73 72 16 8C 15 87 0E F5 5F 7F 37 2F 13 9E B9 CA 63 A1 DC 32 26 2D CB D6 23 08
+
+==========================================

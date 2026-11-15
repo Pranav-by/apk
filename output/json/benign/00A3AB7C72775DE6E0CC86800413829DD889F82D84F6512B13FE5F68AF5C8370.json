@@ -1,0 +1,67 @@
+{
+  "sha256": "00A3AB7C72775DE6E0CC86800413829DD889F82D84F6512B13FE5F68AF5C8370",
+  "filename": "00A3AB7C72775DE6E0CC86800413829DD889F82D84F6512B13FE5F68AF5C8370.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.php.champ",
+  "version_name": "1.11",
+  "version_code": "6",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_INTERNAL_STORAGE",
+    "android.permission.WRITE_INTERNAL_STORAGE"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.php.champ.MainActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.gms.ads.AdActivity"
+  ],
+  "activity_count": 9,
+  "services": [
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.android.gms.ads.AdService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11460,
+  "method_count": 73153,
+  "cert_fingerprint": "9F 9F BB 1A F7 8C A1 B6 BF 38 33 A8 00 FA 7C A3 F2 B6 BB DB 92 14 3F 4B 6A 41 06 30 A1 26 88 89",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

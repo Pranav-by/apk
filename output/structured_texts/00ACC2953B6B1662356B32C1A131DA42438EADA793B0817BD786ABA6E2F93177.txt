@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.csharks.spinyninja
+  SHA-256       : 00ACC2953B6B1662356B32C1A131DA42438EADA793B0817BD786ABA6E2F93177
+  Android Group : Android16
+  Version       : 1.0.4 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (7): com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.unity3d.player.UnityPlayerActivity
+  Services   (7): androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (2): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 16739
+  Total Methods : 97842
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://goo.gle/admob-android-update-manifest, https://goo.gle/admob-android-update-manifest., https://goo.gle/ad-manager-android-update-manifest.
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 95 87 E0 42 28 67 11 F8 CF 75 80 3B 91 C1 34 EB 96 B8 64 E3 52 4D D9 48 43 DE 95 A0 DB D6 ED B8
+
+==========================================

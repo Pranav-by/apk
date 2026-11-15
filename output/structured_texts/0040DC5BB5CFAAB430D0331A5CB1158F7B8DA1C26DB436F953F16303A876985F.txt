@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.online.dominicanrepublic.radio1
+  SHA-256       : 0040DC5BB5CFAAB430D0331A5CB1158F7B8DA1C26DB436F953F16303A876985F
+  Android Group : Android14
+  Version       : 8.0 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (40)]
+  android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, app.online.dominicanrepublic.radio1.permission.C2D_MESSAGE, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (63): nemosofts.voxradio.activity.RecorderActivity, nemosofts.voxradio.activity.EqualizerActivity, nemosofts.voxradio.activity.PodcastsByActivity, nemosofts.voxradio.activity.SuggestionActivity, nemosofts.voxradio.activity.RadioByActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, nemosofts.voxradio.activity.SettingNowPlayingActivity, nemosofts.voxradio.activity.NotificationActivity, nemosofts.voxradio.activity.SettingDriveModeActivity, com.applovin.adview.AppLovinFullscreenThemedActivity, nemosofts.voxradio.activity.ForgotPasswordActivity, com.startapp.sdk.ads.list3d.List3DActivity, nemosofts.voxradio.activity.SettingActivity, nemosofts.voxradio.activity.WebActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.applovin.adview.AppLovinFullscreenActivity, nemosofts.voxradio.activity.SignUpActivity, com.facebook.CustomTabMainActivity
+  Services   (21): com.applovin.impl.adview.activity.FullscreenAdService, nemosofts.voxradio.activity.PlayerService, com.google.firebase.components.ComponentDiscoveryService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, com.onesignal.core.services.SyncJobService, com.onesignal.core.services.SyncService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (21): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, nemosofts.voxradio.utils.receiver.TimeReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, nemosofts.voxradio.utils.receiver.MediaButtonIntentReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (9): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.squareup.picasso.PicassoProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 20884
+  Total Methods : 106670
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, http://play.google.com/store/apps/details?id=, https://daneden.me/animate, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://play.google.com/store/apps/details?id=
+  IP Addresses(3): 6.16.0.0, 1.0.0.0, 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C9 7C DD 41 D7 23 D3 1D 20 67 20 14 8F DC A1 80 99 D6 C9 0A 11 D5 98 2A 1A EF FB D8 1F 18 EF 9B
+
+==========================================

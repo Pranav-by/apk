@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ticktick.task
+  SHA-256       : 00B0B01C35F7B1B5FA8CD73028E9C1FB0304C68464F13584635388273551E3E0
+  Android Group : Android16
+  Version       : 7.6.4.3 (code: 7643)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 36
+
+[Permissions (58)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, oppo.permission.OPPO_COMPONENT_SAFE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.USE_CREDENTIALS, android.permission.MANAGE_ACCOUNTS, android.permission.GET_TASKS, com.ticktick.task.permission.signature, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, com.hihonor.healthservice.permission.access, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.FOREGROUND_SERVICE
+
+[Application Components]
+  Activities (239): com.ticktick.task.activity.preference.FullScreenFragmentWrapActivity, com.ticktick.task.activity.preference.FragmentWrapActivity, com.ticktick.task.activity.widget.AppWidgetSingleTimerConfigActivity, com.ticktick.task.activity.MeTaskActivity, com.ticktick.task.activity.widget.add.AppWidgetAddConfigActivity, com.ticktick.task.tabbars.TabBarConfigActivity, com.ticktick.task.activity.web.SimpleWebActivity, com.ticktick.task.activity.account.BaseLoginMainActivity, com.ticktick.task.payfor.PayUserInfoActivityV6, com.ticktick.task.focus.ui.timer.ArchiveTimersActivity, com.ticktick.task.activity.EmailReminderActivity, com.ticktick.task.focus.ui.timer.TimerDetailActivity, com.ticktick.task.focus.ui.timer.AddTimerActivity, com.ticktick.task.timeline.TimelineViewOptionsActivity, com.ticktick.task.activity.widget.AppWidgetTaskCompletionConfigActivity, com.ticktick.task.matrix.ui.MatrixHelperActivity, com.ticktick.task.activity.preference.WidgetsActivity, com.ticktick.task.activity.ProjectManageActivity, com.ticktick.task.activity.widget.AppWidgetFocusDistributionConfigActivity, com.ticktick.task.activity.BindAccountsActivity
+  Services   (55): com.ticktick.task.compat.service.job.HolidayDailySyncJobService, com.ticktick.task.activity.widget.HabitWidget2Service, com.ticktick.task.compat.service.job.PushIntentJobService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.ticktick.task.push.PushMessagingService, com.google.firebase.sessions.SessionLifecycleService, com.ticktick.task.activity.widget.CountdownWidgetService, com.vivo.health.deviceRpcSdk.service.DeviceRpcService, com.ticktick.task.activity.widget.MatrixWidgetFactory1Service, com.ticktick.task.activity.widget.MatrixWidgetFactory2Service, com.ticktick.task.wear.WearListenerService, com.ticktick.task.activity.widget.MatrixWidgetFactory3Service, com.ticktick.task.activity.background.QuickBallService, com.ticktick.task.activity.widget.MatrixWidgetFactory4Service, com.ticktick.task.focus.pomodoro.service.PomodoroControlService, com.ticktick.task.reminder.AlertService, com.ticktick.task.service.CrashService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.ticktick.task.receiver.HolidayDailySyncService
+  Receivers  (51): com.ticktick.task.activity.widget.AppWidgetProviderMatrix, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.ticktick.task.reminder.TaskAlertReceiver, com.ticktick.task.location.alert.LocationAlertReceiver, com.ticktick.task.activity.widget.AppWidgetProvider4x4, com.ticktick.task.activity.widget.AppWidgetProviderWeek, com.ticktick.task.activity.widget.AppWidgetProviderGrid, com.ticktick.task.activity.widget.AppWidgetProviderGridWeek, com.ticktick.task.activity.widget.AppWidgetProviderCountdownList, com.ticktick.task.activity.widget.GoogleTaskAppWidgetProviderLarge, com.ticktick.task.activity.widget.AppWidgetScrollable, com.ticktick.task.activity.widget.AppWidgetProviderSingleCountdown, com.ticktick.task.activity.widget.AppWidgetProviderUndoneCount, com.ticktick.task.activity.widget.AppWidgetProviderHabit, com.ticktick.task.activity.background.AutoSyncTaskScheduler, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.ticktick.task.activity.widget.provider.AppWidgetProviderSingleHabit, com.ticktick.task.activity.widget.provider.AppWidgetProviderDailyFocused, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (11): com.ticktick.task.wearableprovider.WearContentProvider, androidx.core.content.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.bugsnag.android.internal.BugsnagContentProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, com.ticktick.task.provider.TickTickTaskProvider, com.facebook.FacebookContentProvider, com.ticktick.task.provider.TaskSuggestionProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 38465
+  Total Methods : 222202
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Jun Yuan, Organizational Unit: Dayup, Organization: Dayup.org, Locality: Hangzhou, State/Province: Zhejiang, Country: China
+  Fingerprint : 80 EF CC BB BC 82 2A 79 9F F7 E7 87 B8 89 D0 2F 33 76 CC 4B 82 98 75 EA A2 37 AD F1 9E 57 81 96
+
+==========================================

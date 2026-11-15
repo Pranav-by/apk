@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.keyautomation.kubeuf.key
+  SHA-256       : 00A7297B9B45FD153AA6A8CE9B283CFEAD23E84EA6A3417FA81800E28E9B60CA
+  Android Group : Android16
+  Version       : 2.4.11 (code: 218)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 36
+
+[Permissions (25)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, com.keyautomation.kubeuf.key.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.BLUETOOTH_CONNECT, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (15): androidx.credentials.playservices.HiddenActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.glance.appwidget.action.ActionTrampolineActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.keyautomation.kubeuf.MainActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.yalantis.ucrop.UCropActivity, com.aboutyou.dart_packages.sign_in_with_apple.SignInWithAppleCallback, androidx.credentials.playservices.IdentityCredentialApiHiddenActivity, com.keyautomation.kubeuf.key.end_user.EndUserConfigurationActivity, com.google.firebase.auth.internal.RecaptchaActivity, androidx.glance.appwidget.action.InvisibleActionTrampolineActivity, com.journeyapps.barcodescanner.CaptureActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (26): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, dev.steenbakker.nordicdfu.DfuService, androidx.credentials.playservices.CredentialProviderMetadataHolder, dev.steenbakker.nordicdfu.DfuService5, androidx.glance.appwidget.GlanceRemoteViewsService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.metadata.ModuleDependencies, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, dev.steenbakker.nordicdfu.DfuService7, dev.steenbakker.nordicdfu.DfuService4, androidx.work.impl.foreground.SystemForegroundService, androidx.core.widget.RemoteViewsCompatService, dev.steenbakker.nordicdfu.DfuService8, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, es.antonborri.home_widget.HomeWidgetBackgroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (18): com.keyautomation.kubeuf.key.end_user.EndUser2x2Receiver, com.keyautomation.kubeuf.key.end_user.EndUser3x2Receiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, es.antonborri.home_widget.HomeWidgetBackgroundReceiver, androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.keyautomation.kubeuf.key.end_user.EndUser2x1Receiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.glance.appwidget.UnmanagedSessionReceiver, androidx.glance.appwidget.MyPackageReplacedReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 11592
+  Total Methods : 58247
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://goo.gle/compose-feedback, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://developers.google.com/tink/faq/registration_errors, https://developer.android.com/guide/topics/permissions/overview, https://github.com/firebase/firebase-android-sdk
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 43 34 F0 43 CB 95 95 8E 36 0F BE FC 32 6B E0 9E 1B 31 01 0D ED 6D E0 21 9C EA 24 E2 F1 45 B6 15
+
+==========================================

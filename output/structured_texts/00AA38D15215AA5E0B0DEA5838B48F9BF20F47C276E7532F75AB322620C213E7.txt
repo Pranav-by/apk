@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fc.cozy.room.home.design.game
+  SHA-256       : 00AA38D15215AA5E0B0DEA5838B48F9BF20F47C276E7532F75AB322620C213E7
+  Android Group : Android15
+  Version       : 0.20 (code: 20)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (20)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.samsung.android.mapsagent.permission.READ_APP_INFO, com.fc.cozy.room.home.design.game.permission.C2D_MESSAGE, com.fc.cozy.room.home.design.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (75): com.amazon.device.ads.DTBAdActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.mbridge.msdk.newreward.player.MBRewardVideoActivity, com.unity3d.player.UnityPlayerActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.android.billingclient.api.ProxyBillingActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.google.firebase.MessagingUnityPlayerActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.mbridge.msdk.activity.MBCommonActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, com.vungle.ads.internal.ui.VungleActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity
+  Services   (16): com.google.android.gms.ads.AdService, io.appmetrica.analytics.internal.AppMetricaService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.cpp.RegistrationIntentService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.messaging.cpp.ListenerService, com.google.firebase.messaging.MessageForwardingService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (14): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.unity.androidnotifications.UnityNotificationManager, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (16): com.google.firebase.provider.FirebaseInitProvider, com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer, com.facebook.ads.AudienceNetworkContentProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, com.vungle.ads.VungleProvider, androidx.startup.InitializationProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, com.applovin.sdk.AppLovinInitProvider, io.bidmachine.BidMachineInitProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.pairip.licensecheck.LicenseContentProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 11
+  Total Classes : 72780
+  Total Methods : 472290
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): http://tizen.org/feature/platform.version, https://youtrack.jetbrains.com/issue/KTOR-6030/Migrate-to-new-kotlinx.io-library, http://tizen.org/system/model_name
+  IP Addresses(3): 10.8.3.1, 7.6.0.1, 24.4.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CC 50 29 C8 70 93 E0 A1 D8 01 28 A9 67 08 05 5D FD EE 42 7D A8 10 1C 3E E1 BB 34 10 DF 3C FA 35
+
+==========================================

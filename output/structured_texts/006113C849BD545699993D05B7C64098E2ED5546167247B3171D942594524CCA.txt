@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.playerone.cd.gp
+  SHA-256       : 006113C849BD545699993D05B7C64098E2ED5546167247B3171D942594524CCA
+  Android Group : Android15
+  Version       : 0.23.49 (code: 109)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (22)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.ACCESS_ADSERVICES_TOPICS, com.playerone.cd.gp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.FOREGROUND_SERVICE_CAMERA, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.asus.msa.SupplementaryDID.ACCESS, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (27): com.platform.main.sdk.screenshot.SystemScreenShotManager, com.platform.main.sdk.video.PlayVideoActivity, newsdk.activity.UserAgreementActivity, com.facebook.CustomTabActivity, com.platform.main.sdk.browser.BTWebviewActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.gamesdk.activity.PlatformActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.babeltime.main.MainActivity, com.platform.main.MainActivity, com.pairip.licensecheck.LicenseActivity, com.yalantis.ucrop.UCropActivity, com.platform.clipimage.ClipImageActivity, newsdk.activity.CropImageActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (16): com.platform.onepush.service.OnePushService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.platform.sdk.firebase.service.BTFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (14): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (6): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.adjust.sdk.SystemLifecycleContentProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 36620
+  Total Methods : 225054
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0A 77 75 B2 D9 75 1A EF 8A F3 77 3D 52 ED E9 F2 F4 60 74 13 8E 28 27 BB 8F 30 AA E1 CC 96 B7 13
+
+==========================================

@@ -1,0 +1,76 @@
+{
+  "sha256": "0049A4BE8F159F8674E9B2EFEBE0675FFAF06FE07CBD40C299D8068764A1AC6A",
+  "filename": "0049A4BE8F159F8674E9B2EFEBE0675FFAF06FE07CBD40C299D8068764A1AC6A.apk",
+  "android_version": "Android15",
+  "label": "malicious",
+  "package_name": "com.bluedragonss.boysss",
+  "version_name": "2.4.7",
+  "version_code": "284",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.DISABLE_KEYGUARD",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.bluedragonss.boysss.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.READ_PHONE_STATE",
+    "com.android.vending.BILLING"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.android.billingclient.api.ProxyBillingActivityV2",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.blue.dragonball.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 580,
+  "method_count": 2897,
+  "cert_fingerprint": "82 24 FA 54 CE 5D D5 06 C7 EF F7 62 1D CB 5A 8D A4 8D 4D EE FE 13 5C F2 50 1A 85 79 D9 3C D1 50",
+  "cert_issuer": "Common Name: Tea Mobi, Locality: Ho Chi Minh, Country: 84",
+  "urls": [
+    "http://ngocrongonline.com/matkhau",
+    "http://world.teamobi.com/games-page-0.html",
+    "http://ngocrongonline.com/",
+    "http://world.teamobi.com",
+    "http://dragonball.indonaga.com/",
+    "http://dragonball.indonaga.com",
+    "http://ngocrongonline.com",
+    "http://dragonball.indonaga.com/coda/?username="
+  ],
+  "ip_addresses": [
+    "112.213.85.35",
+    "52.74.230.22",
+    "27.0.12.173",
+    "112.213.94.23",
+    "112.213.94.223",
+    "27.0.12.16",
+    "27.0.14.66",
+    "112.213.85.88",
+    "210.211.109.199",
+    "27.0.12.164"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

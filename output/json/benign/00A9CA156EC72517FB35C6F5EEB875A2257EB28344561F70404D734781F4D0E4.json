@@ -1,0 +1,47 @@
+{
+  "sha256": "00A9CA156EC72517FB35C6F5EEB875A2257EB28344561F70404D734781F4D0E4",
+  "filename": "00A9CA156EC72517FB35C6F5EEB875A2257EB28344561F70404D734781F4D0E4.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "org.cubun.lematization",
+  "version_name": "1.6",
+  "version_code": "7",
+  "min_sdk": "25",
+  "target_sdk": "34",
+  "permissions": [
+    "org.cubun.lematization.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 1,
+  "activities": [
+    "org.cubun.lematization.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 13999,
+  "method_count": 94035,
+  "cert_fingerprint": "7C 80 3E 4B B2 AC 86 B7 6B 50 E1 97 60 96 EE 0A 67 2E A0 73 D9 7E 68 A0 CB 15 72 AA 11 9E AF FC",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

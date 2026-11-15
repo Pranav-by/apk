@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kaidagames.flexingposemaster
+  SHA-256       : 006240F3226FE7D6752ACBCA849A5CB252C1FA27CAB8E3CABD470D976829D86A
+  Android Group : Android16
+  Version       : 1.0.5 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (12)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.READ_PHONE_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.kaidagames.flexingposemaster.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (45): sg.bigo.ads.ad.splash.LandscapeAdSplashActivity, sg.bigo.ads.controller.form.AdFormActivity, com.inmobi.ads.rendering.InMobiAdActivity, sg.bigo.ads.api.LandingStyleableActivity, sg.bigo.ads.api.AdActivity, com.mbridge.msdk.newreward.player.MBRewardVideoActivity, sg.bigo.ads.api.LandscapeAdActivity, sg.bigo.ads.api.PopupAdActivity, sg.bigo.ads.api.CompanionAdActivity, sg.bigo.ads.core.mraid.MraidVideoActivity, com.chartboost.sdk.view.CBImpressionActivity, com.chartboost.sdk.internal.clickthrough.EmbeddedBrowserActivity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.fyber.inneractive.sdk.activities.FyberReportAdActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.vungle.ads.internal.ui.VungleActivity, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity
+  Services   (7): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, androidx.room.MultiInstanceInvalidationService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (5): com.squareup.picasso.PicassoProvider, com.vungle.ads.VungleProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 35612
+  Total Methods : 237842
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): http://whatwg.org/html/common-microsyntaxes.html#space-character, https://gist.github.com/atk/1020396, http://whatwg.org/html/webappapis.html#dom-windowbase64-btoa, http://whatwg.org/html/webappapis.html#dom-windowbase64-atob, http://whatwg.org/C#alphanumeric-ascii-characters
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 67 F9 9D 15 D2 2B FA 7D 76 DB 6E AE 7E A2 64 69 C5 6E 8D 07 E6 30 AF B9 60 3F EF E8 E3 CF EA 41
+
+==========================================

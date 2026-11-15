@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.astrogon.app
+  SHA-256       : 0033B822A8CCB823DC956138CC0CEFA93BCFE976589CF17A3668040E55D8F0F7
+  Android Group : Android12
+  Version       : 2.0.0 (code: 91000)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (27)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.USE_CREDENTIALS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, com.htc.launcher.permission.READ_SETTINGS
+
+[Application Components]
+  Activities (11): com.astrogon.app.MainActivity, com.facebook.CustomTabActivity, com.google.android.gms.ads.AdActivity, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.gae.scaffolder.plugin.FCMPluginActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (13): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.gae.scaffolder.plugin.MyFirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (13): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CampaignTrackingReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, nl.xservices.plugins.ShareChooserPendingIntent, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (5): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, nl.xservices.plugins.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13636
+  Total Methods : 74230
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : EF EC 33 39 C2 F8 A9 4E 57 A7 9C 1B E1 2D 07 3F 2A F6 BC 36 37 77 1E 16 2D 54 4A 8C 44 55 7E 4B
+
+==========================================

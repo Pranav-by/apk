@@ -1,0 +1,51 @@
+{
+  "sha256": "0038157A11EE88604A0CA773495F7EA5E390B0639613D087E08B5E89CFDCAF99",
+  "filename": "0038157A11EE88604A0CA773495F7EA5E390B0639613D087E08B5E89CFDCAF99.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.italyano.HandStrikeGrabyourenemies",
+  "version_name": "1.0.1",
+  "version_code": "1",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 2,
+  "activities": [
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+  ],
+  "activity_count": 5,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 746,
+  "method_count": 3710,
+  "cert_fingerprint": "02 0C 51 0E 1B BF 62 F3 4F DC 6E BD 50 50 28 72 4C 91 0E 05 F2 46 13 A2 0B 31 33 46 8B 93 0A 4C",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://config.unityads.unity3d.com/webview/",
+    "https://config.unityads.unitychina.cn/webview/"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.as.urllogger
+  SHA-256       : 00BB735A383085BC259893C78DAE5BB8BA7BC8E0ECCD1C5D7A5CF306B4B14E7B
+  Android Group : Android12L
+  Version       : 18 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (1)]
+  android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+
+[Application Components]
+  Activities (2): apk.urllogger.AccessibilityActivity, apk.urllogger.MainActivity
+  Services   (1): apk.urllogger.AccSvc
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 805
+  Total Methods : 4644
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): http://schemas.android.com/apk/res/android, https://www.google.com/search?q=
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Country: US
+  Fingerprint : 74 A5 50 56 8B 5A 93 8F 4B 5A 1A 82 4D AB 9D 51 C9 EC D7 C8 8A 95 71 76 B0 C3 E5 A8 72 EB 2F B0
+
+==========================================

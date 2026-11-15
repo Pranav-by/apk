@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sfd.smartbedschool
+  SHA-256       : 00A20B6F3923AFDFC344C737896E4526B5FCA960B7F2DE1B0C61ADE2F9445640
+  Android Group : Android12
+  Version       : 1.0.0 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (64)]
+  android.permission.MOUNT_UNMOUNT_FILESYSTEMS, com.sfd.smartbedschool.permission.MIPUSH_RECEIVE, com.sfd.smartbedschool.permission.JPUSH_MESSAGE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, com.sfd.smartbedschool.permission.MESSAGE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, com.meizu.c2dm.permission.RECEIVE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.GET_TASKS, com.sfd.smartbedschool.push.permission.MESSAGE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, android.permission.CHANGE_NETWORK_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO, android.permission.ACCESS_COARSE_LOCATION, com.sfd.smartbedschool.permission.C2D_MESSAGE
+
+[Application Components]
+  Activities (146): com.sfd.smartbed2.ui.activityNew.bed.LoveBedRemoteActivity, com.sfd.smartbed2.ui.activityNew.mine.SleepPrivacyActivity, com.sfd.smartbedschool.activity.MusicDecompressionActivity, com.sfd.smartbedschool.activity.SmartRelaxActivity, com.sfd.smartbedschool.activity.IntegralDetailActivity, com.sfd.smartbedschool.activity.IntelligentHeatingActivity, com.sfd.smartbedschool.activity.MedicineRiskActivity, com.sfd.smartbedschool.activity.MedicineReportActivity, com.sfd.smartbedschool.activity.MedicineSearchActivity, com.sfd.smartbedschool.activity.MoonTemperatureActivity, com.sfd.smartbedschool.activity.CreateMedicineEstimateActivity, com.sfd.smartbedschool.activity.CustomerOneKeyActivity, com.sfd.smartbedschool.activity.DiscoverWebActivity, com.sfd.smartbedschool.activity.MyCommentsActivity, com.sfd.smartbed2.ui.activityNew.mine.MyQrcodeActivity, com.sfd.smartbedschool.activity.HealthSimpleActivity, com.sfd.smartbed2.ui.activityNew.mine.PersonalInfoNewActivity, com.sfd.smartbed2.ui.activityNew.cloud.AddFriendsActivity, com.sfd.smartbed2.ui.activityNew.bed.SelectBedSideActivity, com.sfd.smartbed2.ui.activityNew.bed.SelectThickNessActivity
+  Services   (20): com.xiaomi.mipush.sdk.MessageHandleService, com.vivo.push.sdk.service.CommandClientService, cn.jpush.android.service.PluginHuaweiPlatformsService, com.huawei.hms.support.api.push.service.HmsMsgService, com.heytap.msp.push.service.DataMessageCallbackService, cn.jpush.android.service.JHonorService, com.huawei.agconnect.core.ServiceDiscovery, com.sfd.common.util.BadgeIntentService, io.fogcloud.fog_mqtt.service.MqttService, com.sfd.common.util.jpush.message.PushService, com.sfd.common.util.jpush.message.MyJPushMessageService, com.sfd.smartbed2.ui.service.MusicService, com.sfd.smartbed2.ui.service.DfuService, com.inuker.bluetooth.BluetoothService, cn.jpush.android.service.PushService, cn.jpush.android.service.PluginOppoPushService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.xiaomi.push.service.XMJobService, com.xiaomi.push.service.XMPushService, com.xiaomi.mipush.sdk.PushMessageHandler
+  Receivers  (12): cn.jpush.android.service.AlarmReceiver, com.huawei.hms.support.api.push.PushReceiver, cn.jpush.android.service.SchedulerReceiver, cn.jpush.android.asus.AsusPushMessageReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.sfd.smartbedschool.MyReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.sfd.smartbed2.MyReceiver, cn.jpush.android.service.PluginXiaomiPlatformsReceiver, cn.jpush.android.service.PluginMeizuPlatformsReceiver, cn.jpush.android.service.PluginVivoMessageReceiver, cn.jpush.android.service.PushReceiver
+  Providers  (8): com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.huawei.hms.aaid.InitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.donkingliang.imageselector.provider.ImageSelectorProvider, cn.jpush.android.service.DataProvider, com.huawei.hms.support.api.push.PushProvider, cn.jpush.android.service.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 27912
+  Total Methods : 185940
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(10): 10.38.162.35, 111.202.1.252, 0.0.0.0, 123.125.102.213, 127.0.0.1, 111.13.141.211, 39.156.81.172, 111.13.142.153, 3.4.0.0, 111.202.1.250
+
+[Certificate]
+  Issuer      : Common Name: cao hui, Organization: 嘉兴礼海电气科技有限公司, Locality: Jiaxing, State/Province: Zhejiang
+  Fingerprint : FB 68 40 02 F2 DC 6F 22 56 F4 3C 4C 51 7D B7 51 EE B6 1C 8F 9F C6 11 E0 8C B9 8C BE 05 86 F6 FD
+
+==========================================

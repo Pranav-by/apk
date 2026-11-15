@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.eedojo.ScribeMD
+  SHA-256       : 0008C035E6C3A63176C9608316BDC19299871E3866634CDCD6BB11BA518257A2
+  Android Group : Android14
+  Version       : 1.4.4 (code: 60)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (38)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, com.eedojo.ScribeMD.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE
+
+[Application Components]
+  Activities (9): com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.eedojo.ScribeMD.MainActivity, com.facebook.react.devsupport.DevSettingsActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.android.billingclient.api.ProxyBillingActivity, com.revenuecat.purchases.ui.revenuecatui.activity.PaywallActivity
+  Services   (12): expo.modules.notifications.service.ExpoFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.transistorsoft.tsbackgroundfetch.FetchJobService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.eedojo.ScribeMD.TranscriptionService, com.doublesymmetry.trackplayer.service.MusicService, com.asterinet.react.bgactions.RNBackgroundActionsTask, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (9): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.transistorsoft.tsbackgroundfetch.BootReceiver, androidx.media.session.MediaButtonReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.amazon.device.iap.ResponseReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, expo.modules.notifications.service.NotificationsService, com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver
+  Providers  (7): expo.modules.filesystem.FileSystemFileProvider, io.sentry.android.core.SentryInitProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider, expo.modules.clipboard.ClipboardFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 39617
+  Total Methods : 256962
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 92 1A 9B 37 EF CC 7C D5 21 EB 94 54 9D 65 EA E1 FD 4B 4C 82 9B 39 90 2F 3F 51 58 00 87 6E C9 43
+
+==========================================

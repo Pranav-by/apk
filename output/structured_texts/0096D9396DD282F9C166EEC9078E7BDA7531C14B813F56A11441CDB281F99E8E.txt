@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : dk.assemble.bnet.kkn
+  SHA-256       : 0096D9396DD282F9C166EEC9078E7BDA7531C14B813F56A11441CDB281F99E8E
+  Android Group : Android13
+  Version       : 3.3.1907-8f81232 (code: 1907)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (17)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH, com.google.android.c2dm.permission.RECEIVE, dk.assemble.bnet.kkn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.BLUETOOTH_SCAN, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.BLUETOOTH_ADMIN, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (29): dk.assemble.bnet.activities.HolidayPeriodActivity, dk.assemble.bnet.sharedmenu.CommentActivity, dk.assemble.bnet.activities.ResumeActivity, dk.assemble.bnet.activities.quickmenu.PlaydateActivity, dk.assemble.bnet.activities.SettingsActivity, dk.assemble.bnet.area.attendance.old.other.PickupCreateRollingActivity, dk.assemble.bnet.area.attendance.old.other.PickupSingleDayCreateActivity, dk.assemble.bnet.activities.ConferenceActivity, dk.assemble.bnet.activities.AcceptActivityInvitationActivity, dk.assemble.bnet.activities.AcceptInvitationActivity, dk.assemble.bnet.activities.login.CreateUserCredentialsActivity, dk.assemble.bnet.activities.quickmenu.DailyMessageActivity, dk.assemble.bnet.activities.quickmenu.IllnessActivity, dk.assemble.bnet.activities.quickmenu.VacationActivity, dk.assemble.bnet.activities.MiniGalleryActivity, com.google.android.gms.common.api.GoogleApiActivity, dk.assemble.bnet.activities.OldVideoActivity, com.karumi.dexter.DexterActivity, dk.assemble.bnet.activities.VideoActivity, dk.assemble.bnet.activities.BNetActivity
+  Services   (10): com.google.firebase.messaging.FirebaseMessagingService, dk.assemble.bnet.fcm.MyFirebaseMessagingService, org.altbeacon.beacon.service.BeaconService, com.google.firebase.components.ComponentDiscoveryService, org.altbeacon.beacon.BeaconIntentProcessor, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, org.altbeacon.beacon.service.ScanJob, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, org.altbeacon.bluetooth.BluetoothTestJob, dk.assemble.bnet.geofence.LocationIntentService
+  Receivers  (3): org.altbeacon.beacon.startup.StartupBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): com.github.dhaval2404.imagepicker.ImagePickerFileProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13840
+  Total Methods : 95943
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://www.w3.org/2000/svg
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Organization: Assemble A/S, Locality: Aarhus, Country: dk
+  Fingerprint : EC 50 87 E5 33 51 2F EA C0 90 6C A7 50 91 13 C7 C5 6F 0A 21 77 79 A1 D3 D2 C1 C9 45 28 CF 0D 53
+
+==========================================

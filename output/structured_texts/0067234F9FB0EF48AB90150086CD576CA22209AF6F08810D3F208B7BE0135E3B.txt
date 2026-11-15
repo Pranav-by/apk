@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mcskin21.Dream
+  SHA-256       : 0067234F9FB0EF48AB90150086CD576CA22209AF6F08810D3F208B7BE0135E3B
+  Android Group : Android12
+  Version       : 13.Vu (code: 13)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_INTERNAL_STORAGE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.skinmapaddon.skincraft.permission.C2D_MESSAGE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (31): com.mcskin21.Dream.ui.ListAvatarActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.ironsource.sdk.controller.InterstitialActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.mcskin21.Dream.ui.DetailSkinActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.mcskin21.Dream.ui.ListMapActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.adview.AppLovinInterstitialActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.mopub.common.MoPubBrowser, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.mopub.mobileads.MoPubFullscreenActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.google.android.gms.ads.AdActivity, com.ironsource.sdk.controller.ControllerActivity
+  Services   (18): com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.startapp.sdk.cachedservice.BackgroundService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.mcskin21.Dream.config.MyFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.startapp.sdk.jobs.SchedulerService
+  Receivers  (12): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (9): com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.startapp.sdk.adsbase.StartAppInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12393
+  Total Methods : 60513
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, https://daneden.me/animate, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(3): 20.3.0.0, 6.6.0.0, 10.3.3.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 99 F4 2F 0E 72 19 67 70 FB 06 12 FB 11 CD 42 C7 01 7C 7A 93 A3 CE FB 16 92 70 6E 3E 37 3B 16 D0
+
+==========================================

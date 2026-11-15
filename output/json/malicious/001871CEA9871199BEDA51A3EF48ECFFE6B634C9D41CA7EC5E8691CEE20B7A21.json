@@ -1,0 +1,49 @@
+{
+  "sha256": "001871CEA9871199BEDA51A3EF48ECFFE6B634C9D41CA7EC5E8691CEE20B7A21",
+  "filename": "001871CEA9871199BEDA51A3EF48ECFFE6B634C9D41CA7EC5E8691CEE20B7A21.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "io.github_pavelfuks.cage_ships_game",
+  "version_name": "0.1",
+  "version_code": "1",
+  "min_sdk": "18",
+  "target_sdk": "33",
+  "permissions": [
+    "io.github_pavelfuks.cage_ships_game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 1,
+  "activities": [
+    "io.github_pavelfuks.cage_ships_game.MainActivity",
+    "io.github_pavelfuks.cage_ships_game.PlacementOfShipsActivity",
+    "io.github_pavelfuks.cage_ships_game.BattleActivity"
+  ],
+  "activity_count": 3,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5118,
+  "method_count": 36448,
+  "cert_fingerprint": "0F 61 92 34 AF E3 CB 2D 5E 36 6F C7 B8 E1 32 9B 71 D9 26 9B 56 FB 55 21 10 39 E2 B2 5E 22 A3 DE",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

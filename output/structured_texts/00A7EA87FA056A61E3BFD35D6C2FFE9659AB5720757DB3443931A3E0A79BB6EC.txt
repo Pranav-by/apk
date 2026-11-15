@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : gbis.gbandroid
+  SHA-256       : 00A7EA87FA056A61E3BFD35D6C2FFE9659AB5720757DB3443931A3E0A79BB6EC
+  Android Group : Android12
+  Version       : 700.67.22647 (code: 22647)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (27)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.HIGH_SAMPLING_RATE_SENSORS, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.CHANGE_WIFI_STATE, android.permission.READ_PHONE_STATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.gms.permission.ACTIVITY_RECOGNITION, android.permission.CAMERA, android.permission.INTERNET, android.permission.ACTIVITY_RECOGNITION, android.permission.READ_EXTERNAL_STORAGE, android.permission.BLUETOOTH_SCAN, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (66): com.stripe.android.paymentsheet.PaymentSheetActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.urbanairship.iam.modal.ModalActivity, com.plaid.internal.LinkRedirectActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetActivity, com.urbanairship.push.NotificationProxyActivity, com.shakebugs.shake.ui.ShakeActivity, com.urbanairship.util.HelperActivity, com.chuckerteam.chucker.api.internal.ui.MainActivity, com.urbanairship.permission.PermissionsActivity, com.urbanairship.google.PlayServicesErrorActivity, com.chuckerteam.chucker.api.internal.ui.error.ErrorActivity, com.masteratul.exceptionhandler.DefaultErrorScreen, com.urbanairship.actions.RateAppActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.facebook.react.devsupport.DevSettingsActivity, com.urbanairship.actions.WalletLoadingActivity, com.chuckerteam.chucker.api.internal.ui.transaction.TransactionActivity, com.google.android.gms.ads.AdActivity
+  Services   (27): com.google.android.gms.auth.api.signin.RevocationBoundService, com.foursquare.pilgrim.PilgrimBootService, com.foursquare.pilgrim.PilgrimForegroundService, com.foursquare.pilgrim.PilgrimSdkForegroundService, com.foursquare.pilgrim.PilgrimLocationClientFireService, com.shakebugs.shake.internal.shake.recording.ScreenRecordingService, com.urbanairship.reactnative.AirshipHeadlessEventService, com.urbanairship.push.fcm.AirshipFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.arity.coreEngine.networking.webservices.NetworkingJobIntentService, com.arity.coreEngine.driving.CoreEngineForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.localytics.androidx.FirebaseService, com.shakebugs.shake.internal.shake.notification.ShakeNotificationListenerService, com.chuckerteam.chucker.api.internal.support.ClearTransactionsService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (40): com.localytics.androidx.BootReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.shakebugs.shake.internal.NotificationReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.pubmatic.sdk.common.network.POBNetworkMonitor$POBNetworkUpdateReceiver, com.urbanairship.push.NotificationProxyReceiver, com.urbanairship.automation.alarms.AlarmOperationReceiver, com.foursquare.internal.receivers.ReceiverPilgrimLocationClientFire, com.foursquare.internal.receivers.ReceiverPilgrimGeofenceFire, com.foursquare.internal.receivers.ReceiverPilgrimActivityRecognitionFire, com.foursquare.internal.receivers.ReceiverPilgrimBootFire, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.foursquare.internal.receivers.AppUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.foursquare.pilgrim.PilgrimBootReceiver
+  Providers  (14): com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.shakebugs.shake.internal.utils.FileProvider, com.foursquare.pilgrimsdk.debugging.PilgrimDebuggingFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.imagepicker.ImagePickerProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.plaid.link.internal.PlaidFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 46160
+  Total Methods : 272161
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Dustin Coupal, Organizational Unit: Mobile Team, Organization: GB Internet Solutions, Locality: Regina, State/Province: SK, Country: CA
+  Fingerprint : 0E 2A 4F C1 24 75 B4 00 39 DA D2 85 36 F0 21 D3 92 D3 51 77 1F 9C 67 AC 33 4B D9 C8 D4 A9 B1 01
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.simyasolutions.ling.lv
+  SHA-256       : 00AA2A96FF54A1FCC1AD7C43EAA848AEDCAB2D7E3B5A720AA3EDEFB87789A1E8
+  Android Group : Android15
+  Version       : 7.11.8 (code: 10059)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (50)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, com.simyasolutions.ling.lv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.android.vending.CHECK_LICENSE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.USE_EXACT_ALARM, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT
+
+[Application Components]
+  Activities (21): com.google.firebase.auth.internal.RecaptchaActivity, com.simyasolutions.ling.SplashActivity, com.simyasolutions.ling.MainActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.notifications.activities.NotificationOpenedActivity, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.onesignal.core.activities.PermissionsActivity, com.google.firebase.auth.internal.GenericIdpActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.NotificationHandlerActivity, app.notifee.core.NotificationReceiverActivity
+  Services   (22): androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.invertase.notifee.AlarmService, com.oney.WebRTCModule.MediaProjectionService, com.google.android.gms.metadata.ModuleDependencies, com.google.firebase.components.ComponentDiscoveryService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, com.onesignal.core.services.SyncJobService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.transistorsoft.tsbackgroundfetch.FetchJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, app.notifee.core.ReceiverService
+  Receivers  (24): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, app.notifee.core.RebootBroadcastReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver, com.transistorsoft.tsbackgroundfetch.BootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (12): androidx.startup.InitializationProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.imagepicker.ImagePickerProvider, io.invertase.notifee.NotifeeInitProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, cl.json.RNShareFileProvider, com.RNFetchBlob.Utils.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, com.bugsnag.android.internal.BugsnagContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 44721
+  Total Methods : 291263
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : AF 3A D9 DE 5A 1A C1 96 8D B5 42 56 E2 AD AD 8C 95 7B 23 AC E7 0E 4D 34 AB 57 CB D9 68 C8 9C B8
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : volti.app
+  SHA-256       : 00A6E38CBBF50B121FBE119E0325BDF6921F36BF0938440F77296931841890AB
+  Android Group : Android15
+  Version       : 9.11 (code: 209110001)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (41)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.STORAGE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, volti.app.permission.C2D_MESSAGE, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, volti.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.NFC
+
+[Application Components]
+  Activities (57): com.stripe.android.ui.core.cardscan.CardScanActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, rideatom.app.DeepLinkActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, rideatom.app.features.SecondActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.facebook.CustomTabMainActivity, com.sumsub.sns.internal.features.presentation.main.SNSAppActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, io.intercom.android.sdk.ui.preview.ui.IntercomPreviewActivity, zendesk.classic.messaging.MessagingActivity, com.facebook.FacebookActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity
+  Services   (19): com.google.android.gms.measurement.AppMeasurementService, rideatom.app.firebase.FirebaseMessagingServiceImpl, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, androidx.credentials.playservices.CredentialProviderMetadataHolder, androidx.camera.core.impl.MetadataHolderService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, com.onesignal.core.services.SyncJobService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.intercom.android.sdk.m5.push.ConversationReplyReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (9): com.facebook.internal.FacebookInitProvider, zendesk.core.MediaFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, rideatom.app.content.AppFileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, io.intercom.android.sdk.IntercomFileProvider, androidx.startup.InitializationProvider, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 29863
+  Total Methods : 147143
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developers.facebook.com/docs/sharing/android, https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://goo.gle/compose-feedback, https://twitter.com/stripestatus,, https://firebase.google.com/support/guides/disable-analytics, https://link.com/terms/ach-authorization, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://link.co/terms, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DB F9 1E D3 7A 58 FA 6C 55 68 16 4F 62 D3 0D AB 9A 90 11 A8 EF D6 FD 45 41 78 C5 55 84 35 4B 94
+
+==========================================

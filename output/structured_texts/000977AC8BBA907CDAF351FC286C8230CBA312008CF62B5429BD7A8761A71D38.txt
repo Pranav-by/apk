@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.androider.vavada.tm
+  SHA-256       : 000977AC8BBA907CDAF351FC286C8230CBA312008CF62B5429BD7A8761A71D38
+  Android Group : Android12
+  Version       : 1.10с (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (6)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (4): com.androider.vavada.tm.LooseActivity, com.androider.vavada.tm.MainActivity, com.androider.vavada.tm.SecondActivity, com.androider.vavada.tm.WinActivity
+  Services   (6): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (1): com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5118
+  Total Methods : 35638
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8F F4 9E 9E 5F C6 BE 1B 07 74 BB 2C 1A 25 1F F4 4D 7B A5 A6 DC C0 76 3C 7F B9 47 2A 84 CE 98 A0
+
+==========================================

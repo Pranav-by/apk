@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : aws.exam
+  SHA-256       : 00A910DE988ECFB2BAC07593C180BFB4AAACB0FB24A4A58827B984F8880A6695
+  Android Group : Android12L
+  Version       : 1.0.1 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (9)]
+  com.google.android.gms.permission.AD_ID, android.permission.READ_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (5): com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, aws.exam.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (2): com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (1): com.adjust.sdk.AdjustReferrerReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4389
+  Total Methods : 25175
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#, https://github.com/adjust/android_sdk#can-i-trigger-an-event-at-application-launch, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 68 6D F5 E9 6E 99 E4 4C D9 1A E1 2E 00 FE 52 92 DD 7C BB 2B 62 64 81 BE BD 41 57 1B 8A D3 C9 2F
+
+==========================================

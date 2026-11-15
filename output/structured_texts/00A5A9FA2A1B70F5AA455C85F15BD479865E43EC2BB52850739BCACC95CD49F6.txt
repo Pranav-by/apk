@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : br.com.connectti.connectarm.mobile
+  SHA-256       : 00A5A9FA2A1B70F5AA455C85F15BD479865E43EC2BB52850739BCACC95CD49F6
+  Android Group : Android12
+  Version       : 2.12.3 (code: 200131)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (15)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, com.google.android.gms.permission.AD_ID, android.permission.READ_PHONE_STATE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (21): br.com.fulltime.fullarm.mobile.ui.modules.camera.activity.DguardActivity, br.com.fulltime.fullarm.mobile.ui.player.activity.PlayerAoVivoActivity, br.com.fulltime.fullarm.mobile.ui.player.activity.VideoPlayerActivity, br.com.fulltime.fullarm.mobile.ui.modules.imagem.activity.PagerImagemActivity, br.com.fulltime.fullarm.mobile.ui.splash.SplashScreenActivity, br.com.fulltime.fullarm.mobile.ui.modules.login.activity.LoginActivity, br.com.fulltime.fullarm.mobile.ui.modules.login.activity.ListaPaisesActivity, br.com.fulltime.fullarm.mobile.ui.modules.grupoacao.activity.GrupoAcaoActivity, br.com.fulltime.fullarm.mobile.ui.modules.app.activity.MainActivity, br.com.fulltime.fullarm.mobile.widgetandroid.activity.ConfirmarActivity, br.com.fulltime.fullarm.mobile.widgetandroid.activity.EntradaAssistidaActivity, br.com.fulltime.fullarm.mobile.widgetandroid.activity.RequestPermssionActivity, br.com.fulltime.fullarm.mobile.widgetandroid.activity.setup.SolicitacoesAppWidgetConfigureActivity, br.com.fulltime.fullarm.mobile.widgetandroid.activity.setup.AtalhoWidgetConfigureActivity, info.hannes.logcat.LogcatActivity, info.hannes.logcat.BothLogActivity, info.hannes.logcat.LogfileActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, br.com.fulltime.fullarm.mobile.ui.modules.grupoacao.activity.FormularioGrupoAcaoActivity
+  Services   (13): info.mqtt.android.service.MqttService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.auth.api.signin.RevocationBoundService, br.com.fulltime.fullarm.mobile.application.MyMessagingService, com.google.firebase.messaging.FirebaseMessagingService, br.com.fulltime.fullarm.mobile.widgetandroid.services.EventsServiceWidget, br.com.fulltime.fullarm.mobile.widgetandroid.services.AtalhosServiceWidget, br.com.fulltime.fullarm.mobile.widgetandroid.services.TodosAtalhosService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, br.com.fulltime.fullarm.mobile.broadcast.SmsRetrieverBroadcast, br.com.fulltime.fullarm.mobile.widgetandroid.provider.AtalhosAppWidget, br.com.fulltime.fullarm.mobile.widgetandroid.provider.SolicitacoesAppWidget, br.com.fulltime.fullarm.mobile.widgetandroid.provider.TodosAtalhosAppWidget, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22497
+  Total Methods : 165750
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 13 F9 62 89 17 27 80 B7 39 92 53 38 EA 53 5E EA 6D 81 A7 5E 17 64 0F 04 4A D0 AA 00 50 91 A0 5A
+
+==========================================

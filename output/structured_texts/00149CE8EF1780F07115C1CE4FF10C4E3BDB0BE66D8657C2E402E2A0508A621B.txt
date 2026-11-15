@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.funny.game.grscanner
+  SHA-256       : 00149CE8EF1780F07115C1CE4FF10C4E3BDB0BE66D8657C2E402E2A0508A621B
+  Android Group : Android12
+  Version       : 1.0.3 (code: 103)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.PACKAGE_USAGE_STATS, com.android.vending.BILLING, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.VIBRATE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.USE_FULL_SCREEN_INTENT, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (87): com.tapjoy.TJAdUnitActivity, com.applovin.adview.AppLovinFullscreenActivity, com.google.android.gms.common.api.GoogleApiActivity, com.adfly.sdk.rewardedvideo.SspRewardVideoShowActivity, com.tapjoy.mraid.view.ActionHandler, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.maticoo.sdk.core.ActionActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.java.game.CustomCaptureActivity, com.chartboost.sdk.CBImpressionActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.journeyapps.barcodescanner.CaptureActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.facebook.CustomTabActivity, com.rad.interstitial.RXInterstitialActivity, com.tapjoy.mraid.view.Browser, com.adfly.sdk.rewardedvideo.InterstitialShowActivity, com.android.billingclient.api.ProxyBillingActivity, com.maticoo.sdk.core.imp.video.VideoAdActivity
+  Services   (20): com.rad.trace.sender.LegacySenderService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.spin.ok.gp.service.SpinService, com.rad.playercommon.business.RoulaxVideoDownloadService, com.rad.playercommon.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService, com.rad.trace.sender.JobSenderService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.bytedance.adsdk.demo.overseaslog.BinderPoolService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (15): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.adjust.sdk.AdjustReferrerReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, net.pubnative.lite.sdk.receiver.VolumeChangedActionReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.spin.ok.gp.receiver.SpinReceiver
+  Providers  (14): androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, sg.bigo.ads.controller.provider.BigoAdsProvider, com.spin.ok.gp.utils.provider.OkSpinProvider, com.rad.RSDKInitializer, com.vungle.warren.utility.VungleProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 44449
+  Total Methods : 261667
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 54 2A 2C 4C E4 48 CE D7 B0 78 E9 C5 70 54 85 E7 3B 95 FE 83 0A 93 F3 58 4E DF 77 65 80 3D B0 CC
+
+==========================================

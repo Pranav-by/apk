@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cbe.cbemarket
+  SHA-256       : 0010833FC9462B67C848975E0AA8DF6CB5E18EB6A8A5723738D197EE932DF3DD
+  Android Group : Android12
+  Version       : 1.1 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (5)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (23): com.cbe.cbemarket.PrivacyPolicyActivity, com.cbe.cbemarket.MyViewPagerActivity, com.cbe.cbemarket.MainActivity, com.cbe.cbemarket.MediaKotlinActivity, com.cbe.cbemarket.SignUpTwoActivity, com.cbe.cbemarket.TermsAndConditionsActivity, com.cbe.cbemarket.MainActivityTwo, com.cbe.cbemarket.ScanInDataAnalysisActivity, com.cbe.cbemarket.UserOrderProcessActivity, com.cbe.cbemarket.PasswordResetCodeActivity, com.cbe.cbemarket.SignUpActivity, com.cbe.cbemarket.LoginTwoActivity, com.cbe.cbemarket.LoginActivity, com.cbe.cbemarket.MainViewPagerActivity, com.cbe.cbemarket.MediaServerTwoActivity, com.cbe.cbemarket.PasswordResetRequestActivity, com.cbe.cbemarket.MediaActivity, com.cbe.cbemarket.CBEPrivacyPolicyActivity, com.cbe.cbemarket.MainScanInScanOutActivity, com.cbe.cbemarket.ScanOutActivity
+  Services   (1): androidx.room.MultiInstanceInvalidationService
+  Receivers  (0): none
+  Providers  (2): com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10649
+  Total Methods : 72578
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 61 4D DE 8D 32 8B 2D 82 D7 07 52 CD 02 66 B4 16 84 87 F8 94 20 C0 A2 B1 E6 42 75 00 77 8F 22 E6
+
+==========================================

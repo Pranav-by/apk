@@ -1,0 +1,83 @@
+{
+  "sha256": "00A48E6800F558322932BD52D9508E3FD86EAEE68ACA7AC9D8FA280C2969F94A",
+  "filename": "00A48E6800F558322932BD52D9508E3FD86EAEE68ACA7AC9D8FA280C2969F94A.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "org.phone.wall.mob.app.roosterphotowall",
+  "version_name": "6.0",
+  "version_code": "6",
+  "min_sdk": "21",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "org.phone.wall.mob.app.roosterphotowall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.google.android.gms.permission.AD_ID permission",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+  ],
+  "permission_count": 12,
+  "activities": [
+    "org.phone.wall.mob.app.roosterphotowall.activity.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.google.android.gms.ads.NotificationHandlerActivity",
+    "org.phone.wall.mob.app.roosterphotowall.activity.InviteFriendsActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "org.phone.wall.mob.app.roosterphotowall.activity.PagerActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.foreground.SystemForegroundService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "org.phone.wall.mob.app.roosterphotowall.AlarmReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+  ],
+  "receiver_count": 10,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 17946,
+  "method_count": 108189,
+  "cert_fingerprint": "32 61 48 61 F5 F0 47 BE B0 14 52 98 CB 48 23 99 6D EC 6D 02 6E D3 26 E0 72 D7 BD B7 9D 6D 0E 50",
+  "cert_issuer": "Common Name: Muhammad Uzair, Organizational Unit: software, Organization: Uzair and Co, Locality: Peshawer, State/Province: kpk, Country: pk",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

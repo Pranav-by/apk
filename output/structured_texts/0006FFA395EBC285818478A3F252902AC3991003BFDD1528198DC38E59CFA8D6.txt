@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : gov.michigan.dhhs.miwic
+  SHA-256       : 0006FFA395EBC285818478A3F252902AC3991003BFDD1528198DC38E59CFA8D6
+  Android Group : Android13
+  Version       : 3.7 (code: 19)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_MOCK_LOCATION, android.permission.ACCESS_LOCATION_EXTRA_COMMANDS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (6): crc6480997b3ef81bf9b2.ZxingActivity, crc64cf4cf6bac5085ed0.MainActivity, crc64b9fa62efa3c1240d.WebAuthenticationCallbackActivity, crc64a0e0a82d0db9a07d.IntermediateActivity, crc64cf4cf6bac5085ed0.SplashActivity1, crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
+  Services   (1): crc64396a3fe5f8138e3f.KeepAliveService
+  Receivers  (4): crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver, crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver, crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver, crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver
+  Providers  (2): xamarin.essentials.fileProvider, mono.MonoRuntimeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6306
+  Total Methods : 46607
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: State of Michigan DHHS, Locality: Lansing, State/Province: MI, Country: US
+  Fingerprint : 3F 30 86 16 F4 6A 24 52 A2 CC C9 87 15 B7 43 4E 5C 30 42 6B 42 E0 14 8B 24 A9 06 61 4D 5C B5 43
+
+==========================================

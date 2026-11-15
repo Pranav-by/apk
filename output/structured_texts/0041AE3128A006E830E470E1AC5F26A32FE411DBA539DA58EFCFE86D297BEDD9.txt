@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.illustrationwallpapers879.app84627781742
+  SHA-256       : 0041AE3128A006E830E470E1AC5F26A32FE411DBA539DA58EFCFE86D297BEDD9
+  Android Group : Android12
+  Version       : 4 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (34)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.WRITE_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.READ_APP_BADGE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (24): com.unity3d.services.ads.adunit.AdUnitActivity, com.startapp.sdk.adsbase.consent.ConsentActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.h2.dynamic_app.MainActivity, com.startapp.sdk.ads.list3d.List3DActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.onesignal.NotificationOpenedReceiver, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, de.mintware.barcode_scan.BarcodeScannerActivity, com.onesignal.PermissionsActivity
+  Services   (21): androidx.room.MultiInstanceInvalidationService, com.onesignal.SyncJobService, com.ryanheise.audioservice.AudioService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.startapp.sdk.cachedservice.BackgroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.startapp.sdk.jobs.SchedulerService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (19): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.ryanheise.audioservice.MediaButtonReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (10): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, vn.hunghd.flutterdownloader.DownloadedFileProvider, androidx.startup.InitializationProvider, io.flutter.plugins.share.ShareFileProvider, vn.hunghd.flutterdownloader.FlutterDownloaderInitializer, com.crazecoder.openfile.FileProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17944
+  Total Methods : 97356
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 32 67 3D 15 66 E4 AD BF 2A 0E FD 31 2E DC 87 22 BC 43 79 73 75 E9 81 AA 01 BF BF 14 32 A9 01 38
+
+==========================================

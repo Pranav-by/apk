@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.rwth_aachen.phyphox
+  SHA-256       : 00A0D7CDD054D6CF3A0C93F0265F72A171B89FAF02A0A25AE66592D39C8D075F
+  Android Group : Android12
+  Version       : 1.1.10 (code: 1011002)
+
+[SDK Information]
+  Minimum SDK   : 14
+  Target SDK    : 31
+
+[Permissions (14)]
+  android.permission.RECORD_AUDIO, android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_COARSE_LOCATION, android.permission.CAMERA, android.permission.BLUETOOTH, android.permission.INTERNET, android.permission.SCHEDULE_EXACT_ALARM, android.permission.BLUETOOTH_CONNECT, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.BLUETOOTH_SCAN, android.permission.ACCESS_FINE_LOCATION, android.permission.HIGH_SAMPLING_RATE_SENSORS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (3): de.rwth_aachen.phyphox.ExperimentList, com.journeyapps.barcodescanner.CaptureActivity, de.rwth_aachen.phyphox.Experiment
+  Services   (1): org.eclipse.paho.android.service.MqttService
+  Receivers  (0): none
+  Providers  (1): androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6634
+  Total Methods : 48872
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://issues.apache.org/bugzilla/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Sebastian Kuhlen, Organizational Unit: 2nd Institute of Physics A, Organization: RWTH Aachen, Locality: Aachen, Country: DE
+  Fingerprint : B1 4D CE 78 47 42 C7 24 9B 9F CA 5F D0 5B 34 E6 CB BC C5 96 E6 F4 7E 71 12 C7 A6 02 5E 98 39 BE
+
+==========================================

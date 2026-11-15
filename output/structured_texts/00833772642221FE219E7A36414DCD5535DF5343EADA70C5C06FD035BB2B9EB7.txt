@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ambassadors.ofchristallsongs
+  SHA-256       : 00833772642221FE219E7A36414DCD5535DF5343EADA70C5C06FD035BB2B9EB7
+  Android Group : Android12
+  Version       : 9.8 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): ambassadors.ofchristallsongs.t_buscador_form, com.startapp.sdk.ads.interstitials.OverlayActivity, ambassadors.ofchristallsongs.t_oficinas, ambassadors.ofchristallsongs.privados, ambassadors.ofchristallsongs.t_buscusus, ambassadors.ofchristallsongs.preinicio, ambassadors.ofchristallsongs.t_video_exoplayer, com.startapp.sdk.ads.list3d.List3DActivity, ambassadors.ofchristallsongs.t_buscador, com.appnext.ads.interstitial.InterstitialActivity, ambassadors.ofchristallsongs.fotogal, ambassadors.ofchristallsongs.t_video_pro, ambassadors.ofchristallsongs.preperfil, ambassadors.ofchristallsongs.profile, ambassadors.ofchristallsongs.SearchableActivity, ambassadors.ofchristallsongs.chat, ambassadors.ofchristallsongs.t_vistafb, ambassadors.ofchristallsongs.t_buscchats_lista, ambassadors.ofchristallsongs.finalizar, ambassadors.ofchristallsongs.fotoperfil
+  Services   (28): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.appnext.core.AdsService, com.google.android.gms.cast.framework.media.MediaNotificationService, ambassadors.ofchristallsongs.s_widget_vistafb, ambassadors.ofchristallsongs.s_cargar_icos, ambassadors.ofchristallsongs.s_cargar_sliderheader, ambassadors.ofchristallsongs.s_cargar_fondo, ambassadors.ofchristallsongs.s_cargar_icos_gen, ambassadors.ofchristallsongs.s_guardarperfil, ambassadors.ofchristallsongs.s_mediaplayer_exo, ambassadors.ofchristallsongs.RegistrationIntentService, ambassadors.ofchristallsongs.MyFcmListenerService, ambassadors.ofchristallsongs.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, ambassadors.ofchristallsongs.alarma_rss, com.google.android.gms.cast.framework.media.MediaIntentReceiver
+  Providers  (10): com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, ambassadors.ofchristallsongs.MySuggestionProvider, ambassadors.ofchristallsongs.StickerContentProvider, androidx.core.content.FileProvider, ambassadors.ofchristallsongs.bd_provider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22370
+  Total Methods : 123866
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(2): 7.1.12.2, 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5A 9D 25 F7 64 8D C3 2A 97 75 BD 4A 9A E7 6D CE E6 22 1D 5D FC AA 39 06 5D 20 2D 45 BE 95 73 AE
+
+==========================================

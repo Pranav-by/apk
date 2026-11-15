@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cclub.accrosport
+  SHA-256       : 006A696EDEB425E2C6843692B9A197F5A89C0EE7137500803088AE22BCAD3A19
+  Android Group : Android13
+  Version       : 9.10.0 (code: 580)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (34)]
+  android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_CONTACTS, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (6): com.cclub.MainActivity, com.reactnative.googlecast.RNGCExpandedControllerActivity, com.facebook.react.devsupport.DevSettingsActivity, com.yalantis.ucrop.UCropActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (13): com.google.firebase.components.ComponentDiscoveryService, com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, androidx.camera.core.impl.MetadataHolderService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.cclub.notification.CCFirebaseMessagingService
+  Receivers  (7): com.dieam.reactnativepushnotification.modules.RNPushNotificationActions, com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher, com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (7): com.ReactNativeBlobUtil.Utils.FileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 22512
+  Total Methods : 150173
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://raw.githubusercontent.com/drewnoakes/metadata-extractor-images/master/%s, http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Baptiste Moreau, Organizational Unit: Mobile Development, Organization: Club Connect, Locality: Paris, State/Province: France, Country: FR
+  Fingerprint : 85 6F D7 E9 CD 49 84 3A BC EF 2F EC BC A2 3F 62 F9 88 69 48 67 C3 FD 53 62 9D 1A E4 75 D5 80 58
+
+==========================================

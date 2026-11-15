@@ -1,0 +1,76 @@
+{
+  "sha256": "0044A3319E25C5DF1F6A9D58FE0D351A2FF059B7DD73F47D20FB21C3B8C93F25",
+  "filename": "0044A3319E25C5DF1F6A9D58FE0D351A2FF059B7DD73F47D20FB21C3B8C93F25.apk",
+  "android_version": "Android15",
+  "label": "malicious",
+  "package_name": "next.wt.allah.names.livewallpaper",
+  "version_name": "6.5",
+  "version_code": "31",
+  "min_sdk": "17",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "next.wt.allah.names.livewallpaper.StartWallpaperActivity",
+    "com.appbrain.AppBrainActivity",
+    "next.wt.allah.names.livewallpaper.HomeActivity",
+    "com.startapp.sdk.adsbase.consent.ConsentActivity",
+    "com.startapp.sdk.ads.interstitials.OverlayActivity",
+    "next.wt.allah.names.livewallpaper.WallpaperSettings",
+    "com.startapp.sdk.ads.list3d.List3DActivity",
+    "next.wt.allah.names.livewallpaper.AboutUs",
+    "next.wt.allah.names.livewallpaper.CropImageActivity"
+  ],
+  "activity_count": 10,
+  "services": [
+    "com.appbrain.AppBrainJobService",
+    "com.startapp.sdk.jobs.SchedulerService",
+    "next.wt.allah.names.livewallpaper.LiveWallpaperService",
+    "com.appbrain.AppBrainService",
+    "com.startapp.sdk.cachedservice.BackgroundService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "next.wt.allah.names.livewallpaper.ReminderNewWallpaper",
+    "com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.startapp.sdk.adsbase.StartAppInitProvider",
+    "com.appbrain.AppBrainInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5159,
+  "method_count": 35322,
+  "cert_fingerprint": "39 5C 0D 41 AA E7 FC 0E 9D 55 35 32 6F 4C E8 29 95 27 DA 0B F1 D1 A7 6D E4 04 B7 50 37 1E DB B4",
+  "cert_issuer": "Common Name: Mohini Shrungarpure, Organizational Unit: Android Next Wallpapers, Organization: Mohini Software, Locality: Pune, State/Province: Unknown, Country: IN",
+  "urls": [
+    "https://support.start.io/hc/en-us/articles/360014774799"
+  ],
+  "ip_addresses": [
+    "10.0.2.15"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.maissimples.runrunit
+  SHA-256       : 00B4795CA2DB9CEDE5C928C1AEB593E968EF8407BB1B4CFBB52482414F477248
+  Android Group : Android16
+  Version       : v4.11.11 (code: 641)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 36
+
+[Permissions (26)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, com.maissimples.runrunit.permission.C2D_MESSAGE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_BIOMETRIC, android.permission.USE_CREDENTIALS, com.maissimples.runrunit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (65): com.maissimples.runrunit.ui.common.ForceUpdateActivity, com.maissimples.runrunit.ui.kanban.sorting.StageSortingActivity, com.maissimples.runrunit.ui.notification.NotificationSettingsActivity, io.intercom.android.sdk.m5.bubble.IntercomBubbleActivity, com.maissimples.runrunit.ui.signup.SignupQuizActivity, com.maissimples.runrunit.ui.signup.SignupInvitationActivity, com.maissimples.runrunit.ui.task.edit.advancedoptions.workedtime.workedtime_create.TaskWorkedTimeCreateActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, com.maissimples.runrunit.ui.task.edit.TaskShowActivityIos, com.maissimples.runrunit.ui.common.RatingPickerActivity, androidx.credentials.playservices.controllers.identityauth.HiddenActivity, com.google.android.gms.common.api.GoogleApiActivity, com.maissimples.runrunit.ui.task.edit.effort.EditEffortActivity, androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity, com.maissimples.runrunit.ui.task.list.filter.TaskListFilterActivity, com.maissimples.runrunit.ui.common.filter.rating.RatingFilterOptionActivity, io.intercom.android.sdk.m5.IntercomRootActivity, com.maissimples.runrunit.ui.signup.SignupCompanyActivity, com.maissimples.runrunit.ui.task.edit.advancedoptions.workedtime.TaskWorkedTimeActivity, com.maissimples.runrunit.ui.task.edit.teams.TaskTeamsActivity
+  Services   (17): com.maissimples.runrunit.core.MyFcmListenerService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.firebase.sessions.SessionLifecycleService
+  Receivers  (15): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, io.intercom.android.sdk.m5.push.ConversationReplyReceiver, com.maissimples.runrunit.utils.DeleteNotificationReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (6): androidx.core.content.FileProvider, io.intercom.android.sdk.IntercomFileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 37113
+  Total Methods : 248971
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Franklin Valadares, Organizational Unit: Runrun.it, Organization: Runrun.it, Locality: São Paulo, State/Province: SP, Country: BR
+  Fingerprint : F4 1A 36 D7 53 31 14 C6 49 3D 42 58 B5 FC 8E B4 64 E9 28 B2 21 2A CC 11 69 74 92 45 71 FD E5 FC
+
+==========================================

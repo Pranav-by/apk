@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ie.flipdish.fd3808
+  SHA-256       : 0070904CC3594D527A13150FCA4DBD0025A4C1A5AB54E4C1EB302F1341F45A6B
+  Android Group : Android12
+  Version       : 1.7.5 (code: 66079)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (11)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (37): io.intercom.android.sdk.activities.IntercomNoteActivity, io.intercom.android.sdk.helpcenter.articles.ArticleActivity, com.google.android.gms.common.api.GoogleApiActivity, ie.flipdish.flipdish_android.MainActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, io.intercom.android.sdk.activities.IntercomPostActivity, com.facebook.FacebookActivity, io.intercom.android.sdk.activities.IntercomMessengerActivity, com.facebook.CustomTabMainActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, com.stripe.android.stripe3ds2.views.ChallengeProgressActivity, ie.flipdish.flipdish_android.SplashActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, io.card.payment.DataEntryActivity, com.stripe.android.googlepay.StripeGooglePayActivity, ie.flipdish.flipdish_android.ActivityUrlResolver, com.facebook.CustomTabActivity
+  Services   (10): com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, ie.flipdish.flipdish_android.FlipdishFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.mixpanel.android.mpmetrics.MixpanelFCMMessagingService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService
+  Receivers  (9): com.google.android.gms.analytics.AnalyticsReceiver, com.google.ads.conversiontracking.InstallReceiver, com.mixpanel.android.mpmetrics.MixpanelPushNotificationDismissedReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.facebook.CampaignTrackingReceiver, ie.flipdish.flipdish_android.data.services.location.LocationUpdatesBroadcastReceiver
+  Providers  (5): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, io.intercom.android.sdk.IntercomInitializeContentProvider, io.sentry.android.core.SentryInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 30504
+  Total Methods : 188602
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Marc O'Morain, Organizational Unit: Unknown, Organization: Flipdish, Locality: Dublin, State/Province: Dublin, Country: IE
+  Fingerprint : 21 C6 DD 48 D2 C2 74 47 FE 0F FA 30 C9 18 AA 50 80 2B 8D 94 54 26 9C BB 9B DB 7D E5 EA 27 1E EF
+
+==========================================

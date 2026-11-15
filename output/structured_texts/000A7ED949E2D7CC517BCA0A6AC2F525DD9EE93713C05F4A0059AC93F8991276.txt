@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.elearning.learnenglish
+  SHA-256       : 000A7ED949E2D7CC517BCA0A6AC2F525DD9EE93713C05F4A0059AC93F8991276
+  Android Group : Android13
+  Version       : 4.98 (code: 201)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (9)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, com.elearning.learnenglish.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (34): com.elearning.learnenglish.viewcontrollers.LessonBuilderListForm, com.google.android.gms.ads.AdActivity, com.elearning.learnenglish.viewcontrollers.IrregularVerbsVC, com.elearning.learnenglish.viewcontrollers.IdiomListVC, com.elearning.learnenglish.viewcontrollers.NewsDetailVC, com.elearning.learnenglish.viewcontrollers.IVDetailVC, com.elearning.learnenglish.viewcontrollers.ConversationDetailVC, com.google.android.gms.common.api.GoogleApiActivity, com.elearning.learnenglish.viewcontrollers.VOAConversationDetailVC, com.elearning.learnenglish.viewcontrollers.NewsListVC, com.elearning.learnenglish.viewcontrollers.StoryTagsVC, com.elearning.learnenglish.viewcontrollers.DailySentencesVC, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.elearning.learnenglish.viewcontrollers.SentenceQuizProgressVC, com.elearning.learnenglish.viewcontrollers.RemoveAdsVC, com.elearning.learnenglish.viewcontrollers.SpeakingPhrasesVC, com.elearning.learnenglish.viewcontrollers.SpeakingTopicsVC, com.elearning.learnenglish.viewcontrollers.TopicsVC, com.elearning.learnenglish.viewcontrollers.ListVC, com.elearning.learnenglish.viewcontrollers.ReadingTestsVC
+  Services   (12): com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (3): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13960
+  Total Methods : 70824
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://firebase.google.com/docs/analytics, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Pham Thu Trang, Organizational Unit: eLearning, Organization: eLearning, Locality: Hai Phong, State/Province: HP, Country: 84
+  Fingerprint : D8 31 4A B9 3B D0 5D 8E 2D F3 07 7B 30 7A 9E 81 41 57 41 5B 2E 40 9F D1 1E 8B 23 49 E6 30 22 1D
+
+==========================================

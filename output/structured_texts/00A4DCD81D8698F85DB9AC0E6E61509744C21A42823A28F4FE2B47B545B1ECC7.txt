@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.geeniappforcamera.geeniwificamera.geeni
+  SHA-256       : 00A4DCD81D8698F85DB9AC0E6E61509744C21A42823A28F4FE2B47B545B1ECC7
+  Android Group : Android13
+  Version       : 3.44.0.4 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (29)]
+  android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_WIFI_STATE, android.permission.READ_MEDIA_*, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (156): com.google.firebase.auth.internal.FederatedSignInActivity, com.mobiroller.youtube.activities.youtubeadvanced.YoutubeDetailActivity, com.mobiroller.youtube.activities.youtubeadvanced.PlaylistDetailActivity, com.mobiroller.user.activities.UserChangePasswordActivity, com.mobiroller.youtube.activities.youtubeadvanced.ChannelDetailActivity, com.mobiroller.rss.activities.aveRSSView, com.mobiroller.user.activities.UserAddressActivity, com.mobiroller.core.activities.GenericActivity, com.google.android.gms.ads.AdActivity, com.sendbird.uikit.activities.OpenChannelActivity, com.mobiroller.core.activities.preview.StoragePermissionActivity, com.mobiroller.shopify.activity.AddEditAddressActivity, com.mobiroller.core.activities.preview.LocationPermissionActivity, com.sendbird.uikit.activities.OpenChannelListActivity, com.sendbird.uikit.activities.CreateOpenChannelActivity, com.mobiroller.core.activities.aveFullScreenVideo, com.mobiroller.user.activities.UserLoginActivity, com.mobiroller.core.services.RestoreAppActivity, com.sendbird.uikit.activities.OpenChannelMutedParticipantListActivity, com.sendbird.uikit.activities.OpenChannelRegisterOperatorActivity
+  Services   (22): com.mobiroller.chat.services.FCMMessagingService, com.sendbird.android.push.SendbirdHmsMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.mobiroller.core.jcplayer.JcPlayerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.mobiroller.core.services.ClosingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.mobiroller.core.util.radio.RadioService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.sendbird.android.push.SendbirdFirebaseInstanceIDService
+  Receivers  (17): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.media.session.MediaButtonReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.mobiroller.chat.services.GCMBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.mobiroller.core.jcplayer.JcPlayerNotificationReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.applyze.ApplyzeNetworkChangeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (5): androidx.core.content.FileProvider, com.canhub.cropper.CropFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.firebase.ui.auth.data.client.AuthUiInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 60078
+  Total Methods : 391676
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Avekon Software, Organizational Unit: MobiRoller, Organization: Avekon Software, Locality: Antalya, State/Province: Turkey, Country: TR
+  Fingerprint : F1 10 DA 8B BE E6 27 E7 67 11 D7 B0 33 9B 50 39 44 FD 44 29 62 E0 B1 77 6A 00 02 36 1B F8 D5 6B
+
+==========================================

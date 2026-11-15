@@ -1,0 +1,82 @@
+{
+  "sha256": "00A4D38A0E7ED75D476D3272DE739518F96D43856495363D9D266746BB2F637F",
+  "filename": "00A4D38A0E7ED75D476D3272DE739518F96D43856495363D9D266746BB2F637F.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "foodzi.delivery.app2",
+  "version_name": "1.0.2",
+  "version_code": "2",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.ACCESS_BACKGROUND_LOCATION",
+    "android.permission.INTERNET",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "oppo.permission.OPPO_COMPONENT_SAFE",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.USE_FULL_SCREEN_INTENT",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permission_count": 15,
+  "activities": [
+    "foodzi.delivery.app2.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.baseflow.geolocator.GeolocatorLocationService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService",
+    "com.lyokone.location.FlutterLocationService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "foodzi.delivery.app2.BackgroundService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService"
+  ],
+  "service_count": 9,
+  "receivers": [
+    "com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver",
+    "com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+  ],
+  "receiver_count": 5,
+  "providers": [
+    "io.flutter.plugins.imagepicker.ImagePickerFileProvider",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider",
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4693,
+  "method_count": 29218,
+  "cert_fingerprint": "36 FE 30 F3 54 8D BF 5B 6C 12 05 02 C9 82 A8 89 BD 97 51 0D 30 53 1A 09 47 D1 D8 8D 43 75 6F 88",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

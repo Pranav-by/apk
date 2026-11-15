@@ -1,0 +1,89 @@
+{
+  "sha256": "008798A28D9EDC43B162B59013E88499BDB017F598DBDA83D5F8FAD350AE7542",
+  "filename": "008798A28D9EDC43B162B59013E88499BDB017F598DBDA83D5F8FAD350AE7542.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "sgutha.com.ts_land",
+  "version_name": "1.2.4",
+  "version_code": "78",
+  "min_sdk": "19",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_MEDIA_VIDEO",
+    "android.permission.READ_MEDIA_AUDIO",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "sgutha.com.ts_land.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 11,
+  "activities": [
+    "com.google.android.gms.ads.AdActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "sgutha.com.ts_land.MainActivity"
+  ],
+  "activity_count": 6,
+  "services": [
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+  ],
+  "receiver_count": 9,
+  "providers": [
+    "com.facebook.ads.AudienceNetworkContentProvider",
+    "androidx.startup.InitializationProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "com.crazecoder.openfile.FileProvider",
+    "dev.fluttercommunity.plus.share.ShareFileProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 9861,
+  "method_count": 46457,
+  "cert_fingerprint": "3A 13 26 E5 90 EB A5 6B 8E 51 F5 1D DB 91 FE C0 5A 36 53 53 8F AB D0 C4 48 B4 D6 E2 20 EE 54 45",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://exoplayer.dev/issues/cleartext-not-permitted",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://developer.android.com/guide/topics/permissions/overview",
+    "https://developers.google.com/admob/android/test-ads#enable_test_devices",
+    "https://goo.gl/J1sWQy",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [
+    "6.14.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

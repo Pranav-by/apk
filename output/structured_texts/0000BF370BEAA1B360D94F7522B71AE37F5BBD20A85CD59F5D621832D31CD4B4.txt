@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.apiture.xpressmobile.msbmil.sub
+  SHA-256       : 0000BF370BEAA1B360D94F7522B71AE37F5BBD20A85CD59F5D621832D31CD4B4
+  Android Group : Android13
+  Version       : 7.48.1 (code: 1708013741)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (52)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, com.apiture.xpressmobile.msbmil.sub.deveventspermission, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.ACCESS_MEDIA_LOCATION
+
+[Application Components]
+  Activities (186): com.ondotsystems.mcs.views.CardDetailFragmentActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.ondotsystems.mcs.views.MerchantAlertActivity, com.google.android.gms.common.api.GoogleApiActivity, com.miteksystems.misnap.misnapworkflow.MiSnapWorkflowActivity, com.dyneti.android.dyscan.DyScanActivity, com.jakewharton.processphoenix.ProcessPhoenix, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.ondotsystems.mcs.views.TransactionAlertActivity, com.ondotsystems.mcs.views.TransactionSearchActivity, com.ondotsystems.mcs.views.WebViewActivity, com.xpressmobile.CardHubActivity, com.ondotsystems.mcs.views.DeviceSettingActivity, com.ondotsystems.mcs.views.LocationEnrichmentActivity, com.ondotsystems.mcs.views.LocationOnBoardingActivity, com.xpressmobile.ZelleActivityLaunch, com.ondotsystems.mcs.views.LocationOnBoardingFragmentActivity, com.ondotsystems.mcs.views.controlsalerts.ControlsAlertsActivity, com.ondotsystems.mcs.views.ManageCardActivity, com.ondotsystems.mcs.views.travelplan.TravelPlanActivity
+  Services   (21): com.google.firebase.messaging.FirebaseMessagingService, com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService, com.glia.widgets.core.chathead.ChatHeadService, com.glia.widgets.core.screensharing.MediaProjectionService, com.glia.widgets.core.notification.NotificationRemovalService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.ondotsystems.mcs.location.SilentPushLocationUpdateService, com.ondotsystems.mcs.service.MCSAppService, com.ondotsystems.mcs.views.additionalalerts.AdditionalAlertIntentService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.burnweb.rnsendintent.RNSendIntentModule, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (18): com.dieam.reactnativepushnotification.modules.RNPushNotificationActions, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, com.glia.widgets.core.notification.NotificationActionReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.ondotsystems.mcs.location.AutoStartService, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.ondotsystems.mcs.location.workmanager.LocationUpdateBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (55): com.ondotsystems.mcs.database.MessageProvider, com.ondotsystems.mcs.database.SubscriberProvider, com.ReactNativeBlobUtil.Utils.FileProvider, com.ondotsystems.mcs.database.SubscriberRegionsProvider, com.ondotsystems.mcs.database.SubscriberCountryProvider, com.ondotsystems.mcs.database.TransactionsProvider, com.ondotsystems.mcs.database.OFWTransactionsProvider, com.ondotsystems.mcs.database.FraudTransactionsProvider, com.ondotsystems.mcs.database.TransactionAttributeProvider, com.ondotsystems.mcs.database.AttachmentsProvider, com.ondotsystems.mcs.database.SubscribersSummary, com.ondotsystems.mcs.database.CardAttributeProvider, com.ondotsystems.mcs.database.EnrichmentDataProvider, com.ondotsystems.mcs.database.FundTransferProvider, com.ondotsystems.mcs.database.TransactionGeoStampingProvider, com.ondotsystems.mcs.database.AuthCardRegionMappingProvider, com.ondotsystems.mcs.database.MyMerchantProvider, com.ondotsystems.mcs.database.AlertCardRegionMappingProvider, com.ondotsystems.mcs.spendinsights.database.MonthlyInsightsProvider, com.ondotsystems.mcs.database.CardsProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 22
+  Total Classes : 120160
+  Total Methods : 371702
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4A D6 56 64 19 D2 98 26 9B 36 D8 73 93 55 F1 F9 1F 60 16 46 18 DD C8 79 06 2D AB E6 31 9E 8C 42
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.boombitgames.TinyGladiators
+  SHA-256       : 00A31E58F87ECFD6E656B699234497132F227AAE075704450E2E745FE2ABFAF3
+  Android Group : Android13
+  Version       : 2.4.4 (code: 2000162)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (16)]
+  com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.INTERNET, android.permission.POST_NOTIFICATIONS, com.android.vending.BILLING, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.boombitgames.TinyGladiators.permission.C2D_MESSAGE, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE, com.boombitgames.TinyGladiators.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (105): com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.mraid.MraidActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.tapjoy.TJAdUnitActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.vungle.ads.internal.ui.VungleActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.hyprmx.android.sdk.activity.HyprMXOfferViewerActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.hyprmx.android.sdk.activity.HyprMXRequiredInformationActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity
+  Services   (11): androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.analytics.AnalyticsService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.analytics.AnalyticsJobService, androidx.work.impl.foreground.SystemForegroundService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.applovin.impl.adview.activity.FullscreenAdService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.ads.AdService
+  Receivers  (16): androidx.work.impl.background.systemalarm.RescheduleReceiver, com.unity.androidnotifications.UnityNotificationRestartReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.ogury.core.internal.OguryLogEnablerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.appsflyer.SingleInstallBroadcastReceiver, com.unity.androidnotifications.UnityNotificationManager, com.google.android.gms.analytics.AnalyticsReceiver
+  Providers  (13): com.hyprmx.android.sdk.utility.HyprMXFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.squareup.picasso.PicassoProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer, io.bidmachine.BidMachineInitProvider, com.facebook.FacebookContentProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.vungle.ads.internal.util.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 10
+  Total Classes : 68632
+  Total Methods : 487712
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: BoomBit Games
+  Fingerprint : 7E C0 3B 5B 93 E9 0D 59 AB 9E 3F 28 F4 82 DF D6 06 EF 35 86 CD B1 0B 9B 55 F4 1A D8 9E 76 E3 D4
+
+==========================================

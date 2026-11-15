@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tiantianwannianli.xsj
+  SHA-256       : 0069C05631463E5AC9CBAA8E3588EB239325E0FCC0E6DC22E643B919DD57C495
+  Android Group : Android13
+  Version       : 2.1 (code: 12)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (21)]
+  android.permission.VIBRATE, com.hihonor.permission.MANAGE_FOLD_SCREEN, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.QUERY_ALL_PACKAGES, android.permission.ACCESS_WIFI_STATE, freemme.permission.msa, com.tiantianwannianli.xsj.com.huawei.openaliance.ad.app.ins, com.asus.msa.SupplementaryDID.ACCESS, com.tiantianwannianli.xsj.openadsdk.permission.TT_PANGOLIN, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.REQUEST_INSTALL_PACKAGES, com.hihonor.permission.MANAGE_FOLD_SCREEN_PRIVILEGED, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (110): com.byted.live.lite.Activity_main_singleTop4, com.by.zhangying.adhelper.activity.PersonalInformationInfoActivity, com.byazt.qhj.Stub_SingleTask_Activity_T, com.huawei.openalliance.ad.activity.ComplianceActivity, com.zhangying.appcollection.ui.activity.GuideActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTWebPageActivity, com.zy.app.weather.ui.activity.AlmanacDetailActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.bytedance.sdk.openadsdk.core.activity.base.TTVideoScrollWebPageActivity, com.byted.live.lite.Activity_bytelive_singleTop3, com.by.zhangying.adhelper.activity.AgreementActivity, com.byted.live.lite.Activity_main_singleTask3, com.bytedance.sdk.openadsdk.core.activity.base.TTNativePageActivity, com.huawei.openalliance.ad.activity.AgProtocolActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTSevenScreenWebPageActivity, com.byted.live.lite.Activity_bytelive_singleTop2, com.ss.android.socialbase.appdownloader.view.DownloadHandleNotificationActivity, com.byted.live.lite.Activity_bytelive_singleTask2, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait3, com.by.zhangying.adhelper.activity.FakeLscrAdActivity
+  Services   (12): com.byazt.k.DownloadNotificationService, com.byazt.gk.SqlDownloadCacheService, com.byazt.n.DownloadHandlerService, com.byazt.gk.CSJDownloadService, com.byazt.pq.ApiDownloadHandlerService, com.byazt.gk.CSJIndependentProcessDownloadService, com.byazt.xsw.BinderPoolService, com.byazt.n.RetryJobSchedulerService, com.efs.sdk.memleaksdk.monitor.UMonitorService, com.byazt.o.DownloadHandleService, com.qq.e.comm.DownloadService, com.blankj.utilcode.util.MessengerUtils$ServerService
+  Receivers  (2): com.byazt.sn.DownloadReceiver, com.byazt.oo.Collector
+  Providers  (17): androidx.startup.InitializationProvider, com.blankj.utilcode.util.UtilsFileProvider, com.byazt.pl.MainProcessProviderProxy, com.byted.live.lite.ServerManager_bytelive, com.byted.live.lite.ServerManager_push, com.byted.live.lite.ServerManager_downloader, com.huawei.openalliance.ad.provider.PPSECProvider, com.qq.e.comm.GDTFileProvider, com.byazt.uw.MainServerManager, com.byazt.usr.FileProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.byazt.uw.DownloaderServerManager, com.by.zhangying.adhelper.AdFileProvider, com.byazt.eq.TTMultiProvider, com.byazt.egc.MainServerManager, androidx.core.content.FileProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18
+  Total Methods : 122
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: 赵, Organizational Unit: 芯时代, Organization: 公司, Locality: 济南, State/Province: 山东, Country: 中国
+  Fingerprint : 65 11 9E 33 8E 72 50 B2 78 8A 26 95 4D AA 27 B5 26 F0 4E 5D 30 98 F5 80 AB BC 59 0B 9F F8 C2 19
+
+==========================================

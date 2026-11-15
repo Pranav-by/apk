@@ -1,0 +1,59 @@
+{
+  "sha256": "00A582CC3A7ABAE49C1A0E5C45FCE8FD92C48D27AEE21F47765779195F6B2BEF",
+  "filename": "00A582CC3A7ABAE49C1A0E5C45FCE8FD92C48D27AEE21F47765779195F6B2BEF.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.exevio.grillmania",
+  "version_name": "1.0.3",
+  "version_code": "8",
+  "min_sdk": "16",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 2,
+  "activities": [
+    "com.ansca.corona.VideoActivity",
+    "com.ansca.corona.purchasing.StoreActivity",
+    "com.ansca.corona.notifications.OnNotificationReceiverActivity",
+    "com.ansca.corona.CoronaActivity",
+    "com.ansca.corona.CameraActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.ansca.corona.CoronaService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "com.ansca.corona.notifications.AlarmManagerBroadcastReceiver",
+    "com.ansca.corona.SystemStartupBroadcastReceiver",
+    "com.ansca.corona.notifications.StatusBarBroadcastReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.ansca.corona.storage.FileContentProvider",
+    "com.ansca.corona.camera.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 676,
+  "method_count": 4162,
+  "cert_fingerprint": "EF C3 A1 FB FA 32 3A 56 45 01 F1 F9 EA 02 7D 9A 91 23 5C 0A F9 1E 02 07 D4 CA FB 2E C2 C0 B2 53",
+  "cert_issuer": "Common Name: Edi Budimilic, Organizational Unit: Owner, Organization: Exevio, Locality: Rijeka, State/Province: PG, Country: hr",
+  "urls": [
+    "https://github.com/coronalabs/corona"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

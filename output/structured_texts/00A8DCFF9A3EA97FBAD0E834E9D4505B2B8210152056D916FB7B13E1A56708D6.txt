@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.inadaydevelopment.herdboss
+  SHA-256       : 00A8DCFF9A3EA97FBAD0E834E9D4505B2B8210152056D916FB7B13E1A56708D6
+  Android Group : Android12L
+  Version       : 3.10 (code: 472)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, android.permission.AUTHENTICATE_ACCOUNTS, com.inadaydevelopment.herdboss.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (3): com.inadaydevelopment.herdboss.PhotoGalleryActivity_, com.inadaydevelopment.herdboss.NavControllerActivity_, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (7): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.inadaydevelopment.herdboss.AndroidAuthenticatorService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12469
+  Total Methods : 90588
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: In A Day Development, Organizational Unit: Android App Development, Organization: In A Day Development, Locality: Los Angeles, State/Province: CA, Country: US
+  Fingerprint : 2F 40 38 1D D1 4B 85 F0 6F D6 97 B7 AB D6 71 B2 E7 1F 38 49 2D 4D FA 07 8C 45 42 F0 87 31 96 DC
+
+==========================================

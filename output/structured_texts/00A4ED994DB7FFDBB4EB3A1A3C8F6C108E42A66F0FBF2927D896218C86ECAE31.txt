@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.realplaystudio.gamepadgames
+  SHA-256       : 00A4ED994DB7FFDBB4EB3A1A3C8F6C108E42A66F0FBF2927D896218C86ECAE31
+  Android Group : Android12
+  Version       : 4.0 (code: 40)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (11): com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.yasirkula.unity.NativeShareCustomShareDialogActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.android.gms.ads.AdActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (10): com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.yasirkula.unity.NativeShareBroadcastListener, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (4): com.yasirkula.unity.NativeShareContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 11078
+  Total Methods : 53348
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : BA 8C 27 C9 2C 8E 21 55 20 CB 1F 0F FE F7 B3 93 7E F9 55 05 58 BB 55 32 78 41 3D 74 05 4E DA 2D
+
+==========================================

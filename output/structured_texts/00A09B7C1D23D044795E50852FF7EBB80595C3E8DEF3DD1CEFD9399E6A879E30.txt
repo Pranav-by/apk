@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.oohlala.lindseywilson
+  SHA-256       : 00A09B7C1D23D044795E50852FF7EBB80595C3E8DEF3DD1CEFD9399E6A879E30
+  Android Group : Android12
+  Version       : 2022.07.1100 (build 10504) (code: 829)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_CALENDAR, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_CALENDAR, android.permission.WAKE_LOCK, android.permission.CALL_PHONE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (2): com.ready.controller.mainactivity.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (8): com.ready.controller.service.REService, com.ready.controller.service.REAuthenticatorService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.ready.controller.service.REFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (4): com.ready.controller.receiver.OnAlarmEventReceiver, com.ready.controller.receiver.OnBootEventReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8993
+  Total Methods : 53255
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): http://xmpp.org/rfcs/rfc6120.html#streams-error-conditions, http://jabber.org/protocol/compress
+  IP Addresses(1): 4.7.2.1
+
+[Certificate]
+  Issuer      : Common Name: James
+  Fingerprint : C5 C7 4B C8 54 A5 91 07 F6 0A 3E 29 15 7C E6 E1 02 9E FF 53 F0 5F C1 87 D5 0C 81 1F 8C 04 36 E5
+
+==========================================

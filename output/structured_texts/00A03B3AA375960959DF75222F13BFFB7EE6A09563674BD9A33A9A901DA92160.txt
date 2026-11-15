@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.reading.coffeeandbeyond
+  SHA-256       : 00A03B3AA375960959DF75222F13BFFB7EE6A09563674BD9A33A9A901DA92160
+  Android Group : Android15
+  Version       : 6.2.2 (code: 264)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (19)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, com.reading.coffeeandbeyond.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (32): com.reading.coffeeandbeyond.activity.MainActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.facebook.FacebookActivity, com.reading.coffeeandbeyond.activity.ObtainCreditActivity, com.reading.coffeeandbeyond.activity.AboutActivity, com.reading.coffeeandbeyond.activity.ObtainCupsActivity, com.reading.coffeeandbeyond.activity.SettingsActivity, com.reading.coffeeandbeyond.activity.ZoomActivity, com.reading.coffeeandbeyond.activity.SubscriptionsActivity, com.reading.coffeeandbeyond.activity.AIReadingActivity, com.reading.coffeeandbeyond.activity.AIReadingDescriptionActivity, com.reading.coffeeandbeyond.activity.AIReadingResultActivity, com.reading.coffeeandbeyond.activity.AIChatActivity, com.reading.coffeeandbeyond.activity.CreateProfileActivity, com.reading.coffeeandbeyond.activity.LanguageSelectionActivity, com.reading.coffeeandbeyond.activity.PostDetailActivity, com.facebook.CustomTabActivity, com.reading.coffeeandbeyond.activity.ProfilesActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity
+  Services   (19): com.google.android.gms.auth.api.signin.RevocationBoundService, com.reading.coffeeandbeyond.service.MyFirebaseMessagingService, com.reading.coffeeandbeyond.service.MyJobService, com.reading.coffeeandbeyond.service.DailyHoroscopeJobService, com.reading.coffeeandbeyond.service.DailyRewardJobService, com.firebase.jobdispatcher.GooglePlayReceiver, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (15): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.reading.coffeeandbeyond.receiver.AlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.reading.coffeeandbeyond.receiver.DailyRewardReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (7): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, siclo.com.ezphotopicker.storage.PhotoIntentContentProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.flurry.android.agent.FlurryContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 21255
+  Total Methods : 109722
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://github.com/firebase/firebase-android-sdk, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., http://onelink.to/35pavt
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Ron
+  Fingerprint : A8 C8 F0 CD 9A 43 F0 13 6D C0 F3 A9 B3 50 BC F9 45 DC BF E0 3E DB 44 BF B3 5C 37 1B 7C FF D7 E4
+
+==========================================

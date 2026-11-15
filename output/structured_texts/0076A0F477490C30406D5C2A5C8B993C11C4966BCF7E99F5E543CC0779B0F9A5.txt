@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.haiy.phone.cleaner
+  SHA-256       : 0076A0F477490C30406D5C2A5C8B993C11C4966BCF7E99F5E543CC0779B0F9A5
+  Android Group : Android12
+  Version       : 1.0.3 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (25)]
+  android.permission.SCHEDULE_EXACT_ALARM, android.permission.MANAGE_ACCOUNTS, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.WRITE_SYNC_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.READ_SYNC_STATS, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT, android.permission.ACCESS_WIFI_STATE, android.permission.AUTHENTICATE_ACCOUNTS, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_SYNC_SETTINGS
+
+[Application Components]
+  Activities (286): c.p.c.c.mwjcmr17.Ysmisd3Activity, c.p.c.c.csvzwg6.Pqqnwj9Activity, c.p.c.c.mwjcmr17.Kyluoc2Activity, c.p.c.c.csvzwg6.Rdguwk10Activity, c.p.c.c.mwjcmr17.Wgxdwe4Activity, c.p.c.c.csvzwg6.Iorjxl11Activity, c.p.c.c.mwjcmr17.Mcwzgf5Activity, c.p.c.c.gskpih7.Nlmkua0Activity, c.p.c.c.mwjcmr17.Mcrxjg6Activity, c.p.c.c.gskpih7.Mjkjrb1Activity, c.p.c.c.mwjcmr17.Gvmdmh7Activity, c.p.c.c.gskpih7.Jzjfuc2Activity, c.p.c.c.mwjcmr17.Uabiri8Activity, c.p.c.c.gskpih7.Hchdid3Activity, c.p.c.c.mwjcmr17.Locvyj9Activity, c.p.c.c.gskpih7.Hzcdte4Activity, c.p.c.c.mwjcmr17.Gbqogk10Activity, c.p.c.c.gskpih7.Aokxaf5Activity, c.p.c.c.mwjcmr17.Muzqol11Activity, c.p.c.c.gskpih7.Oxjceg6Activity
+  Services   (25): c.b.c.k.d.service.d, c.b.c.k.a.f, c.b.c.k.a.g, c.b.c.k.b.k, c.b.c.k.b.k$GrayInnerService, c.b.c.k.c.q, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, c.b.c.k.a.h, androidx.room.MultiInstanceInvalidationService, c.p.c.c.service.NotificationService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.blankj.utilcode.util.MessengerUtils$ServerService
+  Receivers  (16): c.p.c.c.receiver.NotificationCleanReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, c.p.c.c.receiver.AlarmReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, c.p.c.c.receiver.AppInstallReceiver, c.p.c.c.receiver.ConnectChangeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, c.b.c.k.d.receiver.e, c.b.c.k.e.p
+  Providers  (8): com.blankj.utilcode.util.UtilsFileProvider, com.applovin.sdk.AppLovinInitProvider, c.b.c.k.a.j, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, c.b.c.k.a.i
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18179
+  Total Methods : 85546
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 11.4.5.0, 6.11.0.1, 4.6.0.9, 4.4.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 40 AD BA D3 2B 47 09 4A 12 1B 3E B1 D9 92 9E CA 3C B1 9E 4C 53 EA E5 9B 6A 77 45 17 FC 18 B5 C9
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pabbl.android
+  SHA-256       : 007F36C22303DCD71D2C5E904C0142C635FB110B6A9198FFB58E014E49CE8F48
+  Android Group : Android13
+  Version       : 3.15.5 (code: 587)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (21)]
+  android.permission.VIBRATE, oppo.permission.OPPO_COMPONENT_SAFE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.GET_TASKS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, com.huawei.permission.external_app_settings.USE_COMPONENT, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.PACKAGE_USAGE_STATS
+
+[Application Components]
+  Activities (108): com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.applovin.mediation.MaxDebuggerTcfVendorDetailListActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.tapjoy.TJWebViewActivity, com.pollfish.internal.PollfishOverlayActivity, com.fyber.ads.ofw.OfferWallActivity, com.vungle.warren.ui.VungleActivity, com.criteo.publisher.CriteoInterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity
+  Services   (23): com.google.firebase.messaging.FirebaseMessagingService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, io.presage.common.profig.schedule.ProfigSyncIntentService, io.presage.common.profig.schedule.ProfigJobService, com.pabbl.lockscreen.core.processPersistence.LockScreenInitializationNotificationService, com.pabbl.lockscreen.core.processPersistence.LockScreenBackgroundNotificationService, com.pabbl.lockscreen.core.debugUtil.LockScreenDebugControlsNotificationService, com.pabbl.sdk.core.monitors.SdkFirebaseMessagingService, io.adjoe.sdk.AppTrackingService, io.adjoe.sdk.AppTrackingJob, io.adjoe.sdk.DeviceStatusService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService
+  Receivers  (25): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, io.adjoe.protection.PhoneVerificationBroadcastReceiver, com.pabbl.lockscreen.core.processPersistence.LockScreenWatchdogTimeoutReceiver, com.pabbl.lockscreen.core.processPersistence.BootCompletedBroadcastListener, com.pabbl.lockscreen.core.processPersistence.AppUpdateBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.pabbl.lockscreen.core.processPersistence.ActivitylessLaunchIntentReceiver, com.pabbl.onboarding.core.engine.utils.PackageStatusReceiver, io.presage.common.profig.schedule.ProfigAlarmReceiver, com.ogury.core.internal.OguryLogEnablerReceiver, io.adjoe.sdk.AppTrackingAlarmReceiver, io.adjoe.sdk.DeviceStatusTracker, io.adjoe.sdk.AdjoePackageInstallReceiver, net.pubnative.lite.sdk.receiver.VolumeChangedActionReceiver, io.adjoe.sdk.NotificationBroadcastReceiver, io.adjoe.sdk.AdjoeActionReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (9): io.adjoe.sdk.DatabaseContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.vungle.warren.utility.VungleProvider, com.squareup.picasso.PicassoProvider, io.adjoe.sdk.SharedPreferencesProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 51498
+  Total Methods : 315531
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(3): 127.0.0.1, 11.11.1.0, 1.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Jeroen Malotaux, Organizational Unit: Pabbl, Organization: Pabbl B.V., Locality: Amsterdam, State/Province: North-Holland, Country: 31
+  Fingerprint : E9 6C 0D FE 31 D4 51 19 81 01 FD 0E 53 A2 82 4E CE B5 0C BA EF D4 DD 3C 61 60 C9 A9 E1 F5 07 FC
+
+==========================================

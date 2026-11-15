@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.azerion.dordrecht
+  SHA-256       : 00A0358A752B6AF925FBA80F638D0EB46AB68BC730E6A924FE83F2A9AB49FADF
+  Android Group : Android12L
+  Version       : 4.6.5 (code: 57)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (11)]
+  com.google.android.gms.permission.AD_ID, com.google.android.c2dm.permission.RECEIVE, android.permission.INTERNET, com.azerion.dordrecht.permission.C2D_MESSAGE, android.permission.ACCESS_WIFI_STATE, android.permission.POST_NOTIFICATIONS, io.gamedock.sdk.android.application.provider.READ, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (15): io.gamedock.sdk.utils.privacy.PrivacyPolicyActivity, io.gamedock.sdk.utils.apprate.AppRateActivity, io.gamedock.sdk.utils.permissions.PermissionRationaleActivity, io.gamedock.sdk.utils.azerionConnect.AzerionRedirectUriReceiverActivity, io.gamedock.sdk.utils.permissions.air.AIRPermissionActivity, net.openid.appauth.AuthorizationManagementActivity, io.gamedock.sdk.activities.GamedockUnityActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, io.gamedock.sdk.utils.agegate.AgeGateActivity, net.openid.appauth.RedirectUriReceiverActivity, io.gamedock.sdk.support.SupportActivity, com.google.android.gms.common.api.GoogleApiActivity, com.onevcat.uniwebview.UniWebViewFileChooserActivity, io.gamedock.sdk.web.WebViewActivity, io.gamedock.sdk.utils.azerionConnect.AzerionConnectActivity
+  Services   (16): com.evernote.android.job.v14.PlatformAlarmServiceExact, com.evernote.android.job.v21.PlatformJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.nearby.exposurenotification.WakeUpService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.cpp.RegistrationIntentService, com.evernote.android.job.v14.PlatformAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.messaging.cpp.ListenerService, com.evernote.android.job.JobRescheduleService
+  Receivers  (9): com.google.android.gms.analytics.AnalyticsReceiver, com.evernote.android.job.v14.PlatformAlarmReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, io.gamedock.sdk.pushnotifications.NotificationDismissedReceiver, com.evernote.android.job.JobBootReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, io.gamedock.sdk.utils.device.InstallReferrerReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12936
+  Total Methods : 75006
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://github.com/evernote/android-job/wiki/FAQ, http://goo.gl/8Rd3yj
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A1 E3 BC 6C 26 6D 1C F2 C2 D8 7F 34 2D 4A 6D E6 47 48 B1 94 41 95 AB FC 19 42 F1 6C 0A 69 C3 5E
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.SPEKTR.TestingApp
+  SHA-256       : 003ADA9DF07ECC1C956F7944A8183A13DAF83624C989A5D2FF3F87CB9238EB18
+  Android Group : Android13
+  Version       : 1.0.3 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (1)]
+  com.SPEKTR.TestingApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): com.SPEKTR.TestingApp.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10107
+  Total Methods : 64542
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: ООО ИД Спектр, Locality: Москва, State/Province: Москва, Country: RU
+  Fingerprint : C9 65 0A 04 2D 26 71 0C 34 F9 B4 E0 42 B9 4F CB 36 AE 70 2B F9 7D F7 8D AF 9F BC E6 10 40 E5 88
+
+==========================================

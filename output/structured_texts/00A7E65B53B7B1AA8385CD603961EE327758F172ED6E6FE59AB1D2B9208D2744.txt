@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : hr.hac.enc_mobile
+  SHA-256       : 00A7E65B53B7B1AA8385CD603961EE327758F172ED6E6FE59AB1D2B9208D2744
+  Android Group : Android14
+  Version       : 1.9.16 (code: 1916)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (38)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, hr.hac.enc_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE
+
+[Application Components]
+  Activities (5): net.openid.appauth.RedirectUriReceiverActivity, hr.hac.enc_mobile.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, net.openid.appauth.AuthorizationManagementActivity
+  Services   (15): androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationActions, com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (7): io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.ReactNativeBlobUtil.Utils.FileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12919
+  Total Methods : 73679
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 10.0.1.1
+
+[Certificate]
+  Issuer      : Common Name: Karlo Bencic, Organizational Unit: King-ICT, Organization: MSAN, Locality: Zagreb, State/Province: Grad Zagreb, Country: HR
+  Fingerprint : AB E3 65 26 59 E8 1E D8 BD 4A 6F 4F 9C 54 34 1E 72 4C FD 47 E0 52 6A 98 B4 6E 8B 55 40 86 77 B7
+
+==========================================

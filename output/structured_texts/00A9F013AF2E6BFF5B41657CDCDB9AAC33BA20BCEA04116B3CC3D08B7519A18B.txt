@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bioness.talismann
+  SHA-256       : 00A9F013AF2E6BFF5B41657CDCDB9AAC33BA20BCEA04116B3CC3D08B7519A18B
+  Android Group : Android13
+  Version       : 1.1.0 (code: 34)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (11)]
+  android.permission.ACCESS_COARSE_LOCATION, com.android.launcher.permission.INSTALL_SHORT_CUT, android.permission.BLUETOOTH_ADMIN, android.permission.BLUETOOTH, android.permission.INTERNET, android.permission.BLUETOOTH_CONNECT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH_SCAN, android.permission.CALL_PHONE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (1): com.bioness.talismann.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): androidx.core.content.FileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3622
+  Total Methods : 26885
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Bioness Inc, Locality: Valencia, State/Province: California, Country: US
+  Fingerprint : 9E 59 7F 2F 33 DC 12 0B 83 4D 24 29 29 78 FF AC 07 F4 65 45 CA E9 5D 76 C9 34 9C C5 72 EE 99 85
+
+==========================================

@@ -1,0 +1,72 @@
+{
+  "sha256": "00A503826F73E3E63FF7068823B419E8282520A2473FB7C4BCEEE4889A66E33B",
+  "filename": "00A503826F73E3E63FF7068823B419E8282520A2473FB7C4BCEEE4889A66E33B.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.battery.animaton.charginganimation.effect",
+  "version_name": "1.0",
+  "version_code": "1",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.SET_WALLPAPER_HINTS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.SET_WALLPAPER"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.batteryanimaton.charginganimationeffect.AnimationSection.PurviewAnimationAct",
+    "com.batteryanimaton.charginganimationeffect.WallpaperSection.PurviewWallpaperAct",
+    "com.batteryanimaton.charginganimationeffect.WallpaperSection.FullScreenWallpaperAct",
+    "com.batteryanimaton.charginganimationeffect.AnimationSection.SplashScreenAct",
+    "com.batteryanimaton.charginganimationeffect.AnimationSection.FavouriteAnimAct",
+    "com.batteryanimaton.charginganimationeffect.AnimationSection.LockScreenAnimAct",
+    "com.batteryanimaton.charginganimationeffect.AnimationSection.MainActivity",
+    "com.batteryanimaton.charginganimationeffect.WallpaperSection.FavouriteWallpaperAct",
+    "com.batteryanimaton.charginganimationeffect.AnimationSection.AnimationsViewListAct",
+    "com.batteryanimaton.charginganimationeffect.AnimationSection.FullScreenView",
+    "com.batteryanimaton.charginganimationeffect.BatteryInfoAndSetting.BatteryInfoAct",
+    "com.yalantis.ucrop.UCropActivity",
+    "com.batteryanimaton.charginganimationeffect.WallpaperSection.WallpaperListAct",
+    "com.github.dhaval2404.imagepicker.ImagePickerActivity",
+    "com.batteryanimaton.charginganimationeffect.BatteryInfoAndSetting.SettingAct"
+  ],
+  "activity_count": 15,
+  "services": [
+    "com.batteryanimaton.charginganimationeffect.Utils.BatteryService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.batteryanimaton.charginganimationeffect.BroadcastReceiver.BatteryBroadCast"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.github.dhaval2404.imagepicker.ImagePickerFileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6069,
+  "method_count": 47248,
+  "cert_fingerprint": "9F F3 BB BF BF CE 85 6A 83 92 7A FF 35 EB 2C 8E 61 E7 1A C3 7F CA 4C 66 C7 71 65 6D 9D C1 62 98",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

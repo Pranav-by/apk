@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sytacle.updates
+  SHA-256       : 00697FA29D4B260D4E4642C023F7EDE26274A416D5FF31448D97518E6F273CCE
+  Android Group : Android14
+  Version       : 2.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (2)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (4): com.sytacle.updates.MainActivity, com.sytacle.updates.DebugActivity, com.sytacle.updates.WebviewActivity, com.sytacle.updates.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 55
+  Total Classes : 4489
+  Total Methods : 33547
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 66 A5 F7 36 FE 01 D0 FF 79 94 CB 6F F9 76 56 B2 3E 71 36 8C 2F 7A E9 57 B3 0B 95 D5 79 59 9E 83
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.appscroy.oracaodoenriquecimento
+  SHA-256       : 001C21A5DCD6CCDC5E1AB4048A6BCE69A890312365E1141A34A9B7D09BCFCB9D
+  Android Group : Android13
+  Version       : 1.10 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (17): com.appscroy.oracaodoenriquecimento.Principal, com.sangcomz.fishbun.ui.album.AlbumActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.appscroy.oracaodoenriquecimento.whatsapp_api.StickerPackDetailsActivity, com.sangcomz.fishbun.ui.detail.DetailActivity, com.appscroy.oracaodoenriquecimento.activities.AddToStickerPackActivity, com.google.android.gms.ads.AdActivity, com.appscroy.oracaodoenriquecimento.activities.RequestPermissionActivity, com.sangcomz.fishbun.ui.picker.PickerActivity, com.appscroy.oracaodoenriquecimento.figurinhas.EntryActivity, com.appscroy.oracaodoenriquecimento.figurinhas.StickerPackInfoActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.appscroy.oracaodoenriquecimento.whatsapp_api.StickerPackInfoActivity, com.appscroy.oracaodoenriquecimento.activities.NewStickerPackActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.appscroy.oracaodoenriquecimento.figurinhas.StickerPackDetailsActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (16): androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.appscroy.oracaodoenriquecimento.MyFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.appscroy.oracaodoenriquecimento.dia.Feed_Dia, com.appscroy.oracaodoenriquecimento.noite.Feed_Noite, com.appscroy.oracaodoenriquecimento.dia.MyService_Dia, com.google.android.gms.ads.AdService, com.appscroy.oracaodoenriquecimento.noite.MyService_Noite, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (14): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.appscroy.oracaodoenriquecimento.MyBroadCastReceiver_chama_setBaixar, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.appscroy.oracaodoenriquecimento.noite.MyBroadCastReceiver_Noite, com.appscroy.oracaodoenriquecimento.dia.MyBroadCastReceiver_Dia, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (7): androidx.core.content.FileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.appscroy.oracaodoenriquecimento.whatsapp_api.StickerContentProvider2, com.appscroy.oracaodoenriquecimento.figurinhas.StickerContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12190
+  Total Methods : 61768
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://play.google.com/store/apps/details?id=, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: luciano croy
+  Fingerprint : 5E 37 9A 1D AC 02 E1 86 75 AB 5F C6 AE 14 AB E3 9E 03 2B 69 8C 0C FC 5D 55 BC E9 F0 32 53 35 DD
+
+==========================================

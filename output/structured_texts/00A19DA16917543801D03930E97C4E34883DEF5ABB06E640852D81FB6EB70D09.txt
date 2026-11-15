@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pulsmobile
+  SHA-256       : 00A19DA16917543801D03930E97C4E34883DEF5ABB06E640852D81FB6EB70D09
+  Android Group : Android14
+  Version       : 1.1.1 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.WRITE_EXTERNAL_STORAGE, com.pulsmobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (3): com.pulsmobile.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pairip.licensecheck.LicenseActivity
+  Services   (3): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (1): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (6): com.google.mlkit.common.internal.MlKitInitProvider, cl.json.RNShareFileProvider, com.pairip.licensecheck.LicenseContentProvider, com.imagepicker.ImagePickerProvider, androidx.startup.InitializationProvider, com.ReactNativeBlobUtil.Utils.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 15846
+  Total Methods : 105042
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 72 BB 7E 3B D8 7A EB FE 96 3D 90 96 B5 C2 F6 3C 2D 81 AB BA 06 47 EF 65 24 25 1C 18 44 70 12 7B
+
+==========================================

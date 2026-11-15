@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.GoldenHandlestd.animash.brainrot
+  SHA-256       : 00A85F4FDD752B6CF86237AFDB9E93BF888D08E0288236312E09EB81B23526E9
+  Android Group : Android16
+  Version       : 1.5 (code: 15)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (24)]
+  android.permission.BIND_WALLPAPER, android.permission.SET_WALLPAPER, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.READ_LOGS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS
+
+[Application Components]
+  Activities (52): com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.unity3d.ads.adplayer.FullScreenWebViewDisplay, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.ironsource.sdk.controller.ControllerActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.ironsource.sdk.controller.InterstitialActivity, com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity
+  Services   (14): com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.voxelbusters.essentialkit.notificationservices.fcm.FCMMessagingService, com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, com.animash.livewallpaper.AnimashVideoWallpaperService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (14): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.voxelbusters.essentialkit.notificationservices.AlarmBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.unity3d.player.FusionNotificationReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.voxelbusters.essentialkit.notificationservices.RescheduleNotificationsCommandBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (7): com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.voxelbusters.essentialkit.utilities.common.FileProviderExtended, com.pairip.licensecheck.LicenseContentProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 30805
+  Total Methods : 188909
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (6): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://developers.applovin.com/en/max/android/overview/advanced-settings#selective-init, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://support.google.com/admob/answer/13554116, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://www.googletagmanager.com/gtag/js?id=
+  IP Addresses(10): 16.8.51.1, 6.5.0.8, 6.17.0.1, 8.3.6.1, 23.3.0.1, 7.4.1.1, 13.3.1.0, 4.12.2.1, 3.9.0.2, 5.22.1.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9E 8D 83 20 D1 87 04 BB 38 C4 AF AE D1 F9 34 1F 8F 53 47 1E 8B 42 A9 7B A5 30 C8 D3 52 AB 41 EB
+
+==========================================

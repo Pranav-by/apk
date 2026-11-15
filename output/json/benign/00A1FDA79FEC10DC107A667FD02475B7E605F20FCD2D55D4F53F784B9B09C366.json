@@ -1,0 +1,60 @@
+{
+  "sha256": "00A1FDA79FEC10DC107A667FD02475B7E605F20FCD2D55D4F53F784B9B09C366",
+  "filename": "00A1FDA79FEC10DC107A667FD02475B7E605F20FCD2D55D4F53F784B9B09C366.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.golddata.app",
+  "version_name": "1.1.1",
+  "version_code": "2",
+  "min_sdk": "21",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.ACCESS_MEDIA_LOCATION",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.golddata.app.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.ReactNativeBlobUtil.Utils.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14747,
+  "method_count": 103380,
+  "cert_fingerprint": "26 57 08 EF AF 65 9B 8B AB 8D EA 1F C9 68 46 BC EA FE 4D 80 5B 1F DC FA A0 21 EC 8D AF 17 DC D7",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "10.0.2.2",
+    "10.0.1.1",
+    "10.0.3.2"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

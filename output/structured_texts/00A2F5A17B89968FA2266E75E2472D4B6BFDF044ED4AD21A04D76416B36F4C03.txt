@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.veitch.themelodymaster.phl
+  SHA-256       : 00A2F5A17B89968FA2266E75E2472D4B6BFDF044ED4AD21A04D76416B36F4C03
+  Android Group : Android13
+  Version       : onBoarding (code: 162)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (9)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.veitch.themelodymaster.phl.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (32): com.veitch.themelodymaster.phl.ui.activities.ChordProgressionActivity, com.veitch.themelodymaster.phl.ui.activities.MelodicDictationHelpActivity, com.veitch.themelodymaster.phl.ui.activities.MelodicDictationActivity, com.veitch.themelodymaster.phl.ui.activities.PitchIdentificationHelpActivity, com.veitch.themelodymaster.phl.ui.activities.PitchIdentificationActivity, com.veitch.themelodymaster.phl.ui.activities.IntervalComparisonHelpActivity, com.veitch.themelodymaster.phl.ui.activities.IntervalComparisonActivity, com.veitch.themelodymaster.phl.ui.activities.GeneralHelpActivity, com.veitch.themelodymaster.phl.ui.activities.SettingsActivity, com.veitch.themelodymaster.phl.ui.activities.ChordActivity, com.veitch.themelodymaster.phl.ui.activities.IntervalHelpActivity, com.veitch.themelodymaster.phl.ui.activities.IntervalActivity, com.google.android.gms.common.api.GoogleApiActivity, com.veitch.themelodymaster.phl.ui.activities.PitchHelpActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.veitch.themelodymaster.phl.ui.activities.PitchActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.ads.AdActivity, com.veitch.themelodymaster.phl.ui.activities.HigherLowerHelpActivity, com.veitch.themelodymaster.phl.ui.activities.ShopAmazonActivity
+  Services   (10): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18409
+  Total Methods : 109002
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Tom Veitch, Organizational Unit: Play Piano by Ear, Organization: The Melody Master, Locality: Leeds, State/Province: Yorkshire, Country: UK
+  Fingerprint : CF B1 EA 91 C9 0D 67 79 24 B0 48 D4 02 DB 54 4B 93 EC C5 DF 40 A3 75 D4 90 0C EC 7B AF E8 34 98
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.materprivate.patientapp
+  SHA-256       : 000B05EBAF89381FB51D7E020E5F57C97D493959997910CFFF1AD3DCCFCB0D20
+  Android Group : Android16
+  Version       : 3.0.2 (code: 3000201)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (34)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.materprivate.patientapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (7): com.materprivate.patientapp.MainActivity, com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.compose.ui.tooling.PreviewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (10): com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, expo.modules.notifications.service.ExpoFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, expo.modules.notifications.service.NotificationsService, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (9): com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, expo.modules.filesystem.FileSystemFileProvider, expo.modules.clipboard.ClipboardFileProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 46938
+  Total Methods : 294130
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8E D2 49 EE E3 C5 07 D2 26 A5 C3 6C 3F 4B 8A 6D 0F 3D F4 8D 84 B0 65 C2 42 DB 32 20 43 55 77 0B
+
+==========================================

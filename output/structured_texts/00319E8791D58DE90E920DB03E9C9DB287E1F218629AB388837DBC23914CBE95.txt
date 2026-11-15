@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.ieee.mobile.sa.nesc2023
+  SHA-256       : 00319E8791D58DE90E920DB03E9C9DB287E1F218629AB388837DBC23914CBE95
+  Android Group : Android14
+  Version       : 1.0.4 (code: 100040006)
+
+[SDK Information]
+  Minimum SDK   : 27
+  Target SDK    : 34
+
+[Permissions (26)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, com.android.vending.BILLING, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, org.ieee.mobile.sa.nesc2023.permission.C2D_MESSAGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.htc.launcher.permission.READ_SETTINGS, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.oppo.launcher.permission.WRITE_SETTINGS
+
+[Application Components]
+  Activities (4): org.ieee.mobile.sa.nesc2023.MainActivity, com.android.billingclient.api.ProxyBillingActivity, com.adobe.phonegap.push.PushHandlerActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (7): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.adobe.phonegap.push.PushInstanceIDListenerService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.iid.FirebaseInstanceIdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.adobe.phonegap.push.FCMService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.adobe.phonegap.push.BackgroundActionButtonHandler, com.adobe.phonegap.push.PushDismissedHandler
+  Providers  (2): io.github.pwlin.cordova.plugins.fileopener2.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4078
+  Total Methods : 25530
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Matthew Butler, Organizational Unit: MCOE, Organization: IEEE, Locality: Piscataway, State/Province: NJ, Country: US
+  Fingerprint : C3 AA 3F 14 25 F7 E9 F1 8E B8 3B 6C 3D 23 E0 58 0E 2F 98 F2 30 D3 82 A2 86 29 53 F7 58 5C 54 F0
+
+==========================================

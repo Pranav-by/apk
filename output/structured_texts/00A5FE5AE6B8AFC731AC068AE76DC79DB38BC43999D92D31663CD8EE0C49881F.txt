@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.streamlabs.slobsrc
+  SHA-256       : 00A5FE5AE6B8AFC731AC068AE76DC79DB38BC43999D92D31663CD8EE0C49881F
+  Android Group : Android14
+  Version       : 3.8.13 (code: 114)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, com.streamlabs.slobsrc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.READ_MEDIA_VISUAL_USER_SELECTED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (9): com.facebook.FacebookActivity, com.android.billingclient.api.ProxyBillingActivity, com.streamlabs.slobsrc.MainActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.facebook.CustomTabActivity, com.google.android.gms.common.api.GoogleApiActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.CustomTabMainActivity
+  Services   (9): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.gms.measurement.AppMeasurementJobService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+  Receivers  (8): dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (8): androidx.core.content.FileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider, com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider, dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8558
+  Total Methods : 45712
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (9): https://issuetracker.google.com/issues/241760537, https://firebase.google.com/support/guides/disable-analytics, https://firebase.google.com/docs/analytics, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://developers.facebook.com/docs/android/getting-started, https://developer.android.com/guide/topics/permissions/overview, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Streamlabs, Organization: Streamlabs, Locality: SF, State/Province: CA, Country: US
+  Fingerprint : 3F DA 6B 1A 31 9E A4 02 9E 27 76 66 61 BD 51 2E 55 0B F4 B5 2A BC 14 F5 DD EC 0C C3 D2 D0 95 F2
+
+==========================================

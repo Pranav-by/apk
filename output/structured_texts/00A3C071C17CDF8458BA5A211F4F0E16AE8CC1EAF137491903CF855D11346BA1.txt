@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.edrawsoft.mindmaster
+  SHA-256       : 00A3C071C17CDF8458BA5A211F4F0E16AE8CC1EAF137491903CF855D11346BA1
+  Android Group : Android12
+  Version       : 4.0.5 (code: 93)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (37)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, com.edrawsoft.mindmaster.permission.MIPUSH_RECEIVE, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_USER_PRESENT, android.permission.QUERY_ALL_PACKAGES
+
+[Application Components]
+  Activities (131): com.edrawsoft.mindmaster.view.app_view.ShareCloudActivity, com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00, com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T, com.edrawsoft.mindmaster.view.app_view.community.UseTemplateActivity, com.edrawsoft.mindmaster.view.app_view.PermissionsActivity, com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07, com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T, com.edrawsoft.mindmaster.view.app_view.community.CommunityDetailActivity, com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09, com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08, com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01, com.huawei.updatesdk.support.pm.PackageInstallerActivity, com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T, com.edrawsoft.mindmaster.view.app_view.SetActivity, com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T, com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T, com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04, com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06, com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06, com.edrawsoft.mindmaster.view.ocr.OcrCameraActivity
+  Services   (22): cn.jpush.android.service.PluginOppoPushService, com.heytap.msp.push.service.DataMessageCallbackService, com.vivo.push.sdk.service.CommandClientService, com.tencent.tinker.lib.service.TinkerPatchForeService, com.tencent.tinker.lib.service.TinkerPatchService$InnerService, com.tencent.tinker.lib.service.TinkerPatchService, com.tencent.tinker.lib.service.DefaultTinkerResultService, com.huawei.hms.support.api.push.service.HmsMsgService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.xiaomi.mipush.sdk.MessageHandleService, com.huawei.agconnect.core.ServiceDiscovery, com.baidu.speech.VoiceRecognitionService, com.edrawsoft.mindmaster.view.tinker.service.TinkerResultService, com.edrawsoft.mindmaster.view.service.UpdateService, com.edrawsoft.mindmaster.view.jpush.PushService, cn.jpush.android.service.MessagingIntentService, cn.jpush.android.service.PushService, cn.jpush.android.service.DaemonService, com.xiaomi.push.service.XMJobService, com.xiaomi.push.service.XMPushService
+  Receivers  (14): com.edrawsoft.mindmaster.view.jush.OpenMessageReceiver, cn.jpush.android.service.SchedulerReceiver, cn.jpush.android.asus.AsusPushMessageReceiver, com.edrawsoft.mindmaster.view.jpush.MPushMessageReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.edrawsoft.mindmaster.view.jpush.PushMessageReceiver, com.huawei.hms.support.api.push.PushReceiver, cn.jpush.android.service.PushReceiver, cn.jpush.android.service.AlarmReceiver, com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver, com.xiaomi.push.service.receivers.NetworkStatusReceiver, com.xiaomi.push.service.receivers.PingReceiver, cn.jpush.android.service.PluginXiaomiPlatformsReceiver, cn.jpush.android.service.PluginVivoMessageReceiver
+  Providers  (10): com.huawei.hms.update.provider.UpdateProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, androidx.core.content.FileProvider, com.edrawsoft.mindmaster.view.app_view.wondershare.point.PointDataContentProvider, cn.jpush.android.service.DownloadProvider, cn.jpush.android.service.DataProvider, com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider, com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider, com.huawei.hms.support.api.push.PushProvider, com.huawei.hms.aaid.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6
+  Total Methods : 164
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organizational Unit: edrawsoft
+  Fingerprint : 8A 4D 8B EA 7B F2 E9 76 E6 BB 56 EC 4F 20 11 39 0E 00 C6 08 4F 15 65 E9 6D 45 ED 92 49 79 A4 E6
+
+==========================================

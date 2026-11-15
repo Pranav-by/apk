@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.heappi.android.Bubble
+  SHA-256       : 0099B48F3996A0640648EA275CCAE7F4AC3A5F554A56CDF8DC59FD0F4858CFB4
+  Android Group : Android14
+  Version       : 4.8.5 (code: 2543)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (37)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.MANAGE_DOCUMENTS, com.heappi.android.Bubble.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE
+
+[Application Components]
+  Activities (50): io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, io.intercom.android.sdk.push.IntercomPushTrampolineActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity, io.intercom.android.sdk.ui.preview.ui.IntercomPreviewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.batch.android.MessagingActivity, com.stripe.android.payments.StripeBrowserLauncherActivity
+  Services   (19): com.batch.android.BatchDisplayReceiptJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.batch.android.BatchActionService, com.batch.android.BatchPushService, com.batch.android.BatchPushJobService, com.batch.android.eventdispatcher.DispatcherDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.batch.android.push.PushRegistrationDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, io.intercom.android.sdk.m5.push.ConversationReplyReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.batch.android.BatchPushMessageReceiver, com.amazon.device.iap.ResponseReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.batch.android.BatchPushMessageDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (13): io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.ReactNativeBlobUtil.Utils.FileProvider, io.sentry.android.core.SentryInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.imagepicker.ImagePickerProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer, io.intercom.android.sdk.IntercomInitializeContentProvider, io.intercom.android.sdk.m5.push.IntercomPushBitmapFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 35559
+  Total Methods : 192408
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://batch.com/, https://goo.gle/compose-feedback
+  IP Addresses(2): 2.9.0.0, 2.10.1.0
+
+[Certificate]
+  Issuer      : Common Name: Heappi Bubble, Organizational Unit: Dev, Organization: Heappi, Locality: Paris, State/Province: Paris, Country: FR
+  Fingerprint : 13 B0 94 15 57 94 C9 DF 8C 14 91 79 0A A0 B2 27 A2 FE D6 88 AD 02 19 2D A6 FD 16 E7 5C BC 4F 63
+
+==========================================

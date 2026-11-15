@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.clubspire.android.malenovice
+  SHA-256       : 00A6281BBFA0189AE8A5A1F08F65BEF1959ED62AEEA758F0D279E077FE3B7789
+  Android Group : Android16
+  Version       : 2.7.6 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (11)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, com.clubspire.android.malenovice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (43): com.clubspire.android.ui.activity.ReservationActivity, com.clubspire.android.ui.activity.ReservationDetailActivity, com.clubspire.android.ui.activity.SubstituteDetailActivity, com.clubspire.android.ui.activity.MyAccountActivity, com.clubspire.android.ui.activity.WeekScheduleActivity, com.clubspire.android.ui.activity.MyNotificationsActivity, com.clubspire.android.ui.activity.ContactActivity, com.clubspire.android.ui.activity.MyReservationsActivity, com.clubspire.android.ui.activity.NewsStoryDetailActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.clubspire.android.ui.activity.SeasonTicketDetailActivity, com.google.android.gms.common.api.GoogleApiActivity, com.clubspire.android.ui.activity.MyMembershipPaymentActivity, com.clubspire.android.ui.activity.AutomaticSubscriptionTermsActivity, com.clubspire.android.ui.activity.QrActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.clubspire.android.ui.activity.DepositChargeActivity, com.clubspire.android.ui.activity.OpenHoursActivity, com.clubspire.android.ui.activity.RegistrationActivity, com.clubspire.android.ui.activity.PriceListActivity
+  Services   (8): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.clubspire.android.repository.notification.messaging.MessagingService
+  Receivers  (5): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.clubspire.android.repository.notification.messaging.NotificationDismissedReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.crashlytics.android.CrashlyticsInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9649
+  Total Methods : 53377
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(5): 1.2.10.27, 2.7.0.33, 2.10.1.34, 1.4.8.32, 1.4.7.32
+
+[Certificate]
+  Issuer      : Common Name: Martin Odstrcilik, Organizational Unit: Java, Organization: INSPIRE CZ s.r.o., Locality: Brno, State/Province: Czech Republic, Country: CZ
+  Fingerprint : 39 C2 A3 A0 5B F7 8A 7B 3C 79 AB F6 70 58 16 21 44 99 89 14 5A AD 1A B2 B3 79 3B 3F 57 3B A8 F9
+
+==========================================

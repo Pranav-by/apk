@@ -1,0 +1,93 @@
+{
+  "sha256": "00B02A14EC3CF037BFB0B1EB6268A43535D5330DB12A7A39638674BC20A5AB10",
+  "filename": "00B02A14EC3CF037BFB0B1EB6268A43535D5330DB12A7A39638674BC20A5AB10.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.akivi.akivi",
+  "version_name": "2.2.1",
+  "version_code": "143",
+  "min_sdk": "24",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.akivi.akivi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "com.android.vending.BILLING"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.android.billingclient.api.ProxyBillingActivityV2",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "androidx.credentials.playservices.HiddenActivity",
+    "com.google.firebase.auth.internal.GenericIdpActivity",
+    "com.google.firebase.auth.internal.RecaptchaActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.akivi.akivi.MainActivity",
+    "com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "com.revenuecat.purchases.TestStoreErrorDialogActivity",
+    "com.android.billingclient.api.ProxyBillingActivity"
+  ],
+  "activity_count": 12,
+  "services": [
+    "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.messaging.FirebaseMessagingService"
+  ],
+  "service_count": 8,
+  "receivers": [
+    "com.amazon.device.iap.ResponseReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+  ],
+  "receiver_count": 5,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 16472,
+  "method_count": 88908,
+  "cert_fingerprint": "63 43 5A 5B 76 24 3D EE 34 B5 F2 28 EE 6F C7 57 96 12 2F DA 56 7F 0D 9B 82 D4 78 D4 AA 5D 20 F3",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://issuetracker.google.com/issues/241760537",
+    "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+    "https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#",
+    "https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#",
+    "https://developers.google.com/tink/faq/registration_errors",
+    "https://github.com/firebase/firebase-android-sdk",
+    "https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#"
+  ],
+  "ip_addresses": [
+    "2.10.5.0",
+    "2.9.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

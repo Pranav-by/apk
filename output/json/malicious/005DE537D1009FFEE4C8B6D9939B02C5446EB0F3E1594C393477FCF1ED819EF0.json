@@ -1,0 +1,68 @@
+{
+  "sha256": "005DE537D1009FFEE4C8B6D9939B02C5446EB0F3E1594C393477FCF1ED819EF0",
+  "filename": "005DE537D1009FFEE4C8B6D9939B02C5446EB0F3E1594C393477FCF1ED819EF0.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.assafirtracker.android",
+  "version_name": "9.0.6",
+  "version_code": "96",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_BACKGROUND_LOCATION",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_STATE"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.gpswoxtracker.android.login.LoginActivity",
+    "com.gpswoxtracker.android.StartupActivity",
+    "com.gpswoxtracker.android.navigation.settings.status_to_do.AboutActivity",
+    "com.gpswoxtracker.android.navigation.settings.status_to_do.StatusActivity",
+    "com.gpswoxtracker.android.navigation.NavigationActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.gpswoxtracker.android.old.BatteryActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "com.gpswoxtracker.android.navigation.settings.services.TrackingService$HideNotificationService",
+    "com.gpswoxtracker.android.navigation.settings.services.TrackingService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.gpswoxtracker.android.receivers.AutostartReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7075,
+  "method_count": 50568,
+  "cert_fingerprint": "C7 CE 86 1E C4 12 97 2C 5A EC 33 BC 1A 56 27 9A 0C 3A B8 2C DF EC 2F 2C B3 ED 52 7F BA 5B 75 FC",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1",
+    "127.0.0.255",
+    "0.9.6.0",
+    "0.0.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

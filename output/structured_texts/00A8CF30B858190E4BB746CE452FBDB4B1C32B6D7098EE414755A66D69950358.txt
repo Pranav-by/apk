@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : sop.br.com.samisistemas.clienteonline.www
+  SHA-256       : 00A8CF30B858190E4BB746CE452FBDB4B1C32B6D7098EE414755A66D69950358
+  Android Group : Android15
+  Version       : 4.0.0 (code: 40000)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 35
+
+[Permissions (26)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, sop.br.com.samisistemas.clienteonline.www.permission.C2D_MESSAGE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, sop.br.com.samisistemas.clienteonline.www.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.htc.launcher.permission.READ_SETTINGS, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (7): com.onesignal.NotificationOpenedActivityHMS, com.onesignal.notifications.activities.NotificationOpenedActivity, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, sop.br.com.samisistemas.clienteonline.www.MainActivity, com.onesignal.core.activities.PermissionsActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (10): com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.notifications.services.HmsMessageServiceOneSignal, androidx.work.impl.background.systemalarm.SystemAlarmService, com.onesignal.core.services.SyncJobService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.onesignal.notifications.receivers.NotificationDismissReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2762
+  Total Methods : 12712
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 10 D0 26 EC C9 60 2F 74 3E BE 28 49 20 62 90 41 A7 AF 02 35 D1 2B 64 5A 6A 87 03 30 CC 33 8E 46
+
+==========================================

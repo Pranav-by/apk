@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pec1985.VolandooTracker
+  SHA-256       : 00A7BB37A6CBBDDD6E1D2F06B9732E06814F0E4497D77D6B2FC077DE44345F5D
+  Android Group : Android13
+  Version       : 84 (code: 84)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (16)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE, oppo.permission.OPPO_COMPONENT_SAFE, android.permission.READ_PHONE_NUMBERS, android.permission.READ_CONTACTS, com.huawei.permission.external_app_settings.USE_COMPONENT, android.permission.INTERNET, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (11): com.google.android.gms.common.api.GoogleApiActivity, com.pec1985.VolandooTracker.MainActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.github.dhaval2404.imagepicker.ImagePickerActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.yalantis.ucrop.UCropActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (9): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.pec1985.VolandooTracker.helpers.LocationService, com.pec1985.VolandooTracker.helpers.PushNotificationsService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (6): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, com.github.dhaval2404.imagepicker.ImagePickerFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 29291
+  Total Methods : 203291
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8B E7 44 84 6E 57 E1 49 99 FE A7 CD 27 4E 7F D5 40 3E DA 11 BB 5D 87 78 A2 34 8D CA FF AD 47 58
+
+==========================================

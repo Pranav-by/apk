@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.imito.imitowound
+  SHA-256       : 005B91384553CFB16BFE6D721CFA8AAA9F647025CE41664A0E58D257529B4F1A
+  Android Group : Android13
+  Version       : 2.0.19 (code: 178)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, io.imito.imitowound.permission.WRITE_SCHEDULE, android.permission.FOREGROUND_SERVICE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.VIBRATE, com.android.vending.BILLING, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (56): io.imito.imitowound.ui.screen.saveintodofirst.SaveInToDoFirstActivity, com.zoho.desk.asap.asap_community.activities.AddEditTopicActivity, io.imito.imitowound.ui.screen.finalassessment.FinalAssessmentActivity, io.imito.imitowound.ui.screen.manualinput.MInputActivity, com.zoho.livechat.android.ui.activities.ChatActivity, io.imito.imitowound.ui.screen.splash.SplashActivity, io.imito.imitowound.ui.screen.addpatient.AddEditPatientActivity, com.zoho.desk.asap.livechat.chatwindow.ZDChatActivity, io.imito.imitowound.ui.screen.subscription.SubscriptionActivity, io.imito.imitowound.ui.screen.getmarkers.GetCalibrationMarkersActivity, io.imito.imitowound.ui.screen.mypatients.search.SearchPatientActivity, com.zoho.desk.asap.asap_tickets.activities.AddEditTicketActivity, io.imito.wizard.ui.screen.forms.formpicker.FormPickerActivity, io.imito.imitowound.ui.screen.woundboundary.WoundBoundaryActivity, io.imito.imitowound.ui.screen.legalregulatory.LegalRegulatoryActivity, com.zoho.desk.asap.kb.activities.KBActivity, com.zoho.desk.filechooser.ZDFileChooserActivity, com.zoho.accounts.clientframework.WebViewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, io.imito.imitowound.ui.screen.measurementresult.holder.MeasurementResultHolderActivity
+  Services   (15): com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.zoho.desk.asap.livechat.network.ZDGCDownloadService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.measurement.AppMeasurementJobService, com.zoho.desk.asap.livechat.network.ZDGCFileDownloadService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (14): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.zoho.livechat.android.NotificationDeleteReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.zoho.salesiqembed.android.TriggerReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (9): com.google.firebase.provider.FirebaseInitProvider, pl.aprilapps.easyphotopicker.EasyImageFileProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.zoho.desk.filechooser.ZDFileProvider, com.squareup.picasso.PicassoProvider, com.zoho.livechat.android.provider.ZohoLDContentProvider, com.zoho.livechat.android.provider.MobilistenFileProvider, com.zoho.desk.asap.common.utils.ASAPFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 29248
+  Total Methods : 192649
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Alexander Okorokov, Organizational Unit: imito, Organization: imito AG, Locality: Flüelastrasse 31 8047 Zürich, State/Province: Switzerland, Country: 41
+  Fingerprint : A8 72 75 A6 70 6F AB C1 D4 E6 76 A5 2B FC 3F D6 E7 85 06 9A 87 C0 A3 1C 9D 98 C1 DA A8 1F 5C 45
+
+==========================================

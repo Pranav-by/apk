@@ -1,0 +1,92 @@
+{
+  "sha256": "00A6B3E083916CF7CD965BA2BB1B37B2BE5ED28E756BC2AC3D98E3745AE00E03",
+  "filename": "00A6B3E083916CF7CD965BA2BB1B37B2BE5ED28E756BC2AC3D98E3745AE00E03.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "pl.firmao.system.mobile.android",
+  "version_name": "1.2.37",
+  "version_code": "76",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.READ_PHONE_NUMBERS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.CALL_PHONE",
+    "android.permission.READ_CALL_LOG",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.MANAGE_OWN_CALLS",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permission_count": 16,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "pl.firmao.system.mobile.android.MainActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService",
+    "com.google.firebase.messaging.FirebaseMessagingService"
+  ],
+  "service_count": 9,
+  "receivers": [
+    "io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider",
+    "com.imagepicker.ImagePickerProvider",
+    "io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider",
+    "com.ReactNativeBlobUtil.Utils.FileProvider",
+    "com.vinzscam.reactnativefileviewer.FileProvider",
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 7,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7322,
+  "method_count": 47046,
+  "cert_fingerprint": "D7 B3 A7 61 EB 74 B3 5B BB 72 8D 97 C7 0C A8 7A 74 72 41 E5 69 2A B8 C7 A7 22 4E AC C7 A2 2A 0E",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://goo.gl/J1sWQy",
+    "https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#",
+    "https://firebase.google.com/support/guides/disable-analytics",
+    "https://github.com/facebook/react-native/wiki/Breaking-Changes#d4611211-reactnativeandroidbreaking-move-nativemodule-initialization-off-ui-thread---aaachiuuu",
+    "https://shopify.github.io/flash-list/docs/usage#cellrenderercomponent."
+  ],
+  "ip_addresses": [
+    "10.0.1.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

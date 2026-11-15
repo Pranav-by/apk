@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.lucida.androidapp
+  SHA-256       : 00A4B5815B53D00A87E51828342E9737985020815AADA3B1BE04D3F2B17453B2
+  Android Group : Android14
+  Version       : 2.3.7 (code: 250)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (52)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.CAPTURE_MEDIA_OUTPUT, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, android.permission.CAPTURE_TUNER_AUDIO_INPUT, me.everything.badger.permission.BADGE_COUNT_READ, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.CAPTURE_VIDEO_OUTPUT, android.permission.BLUETOOTH
+
+[Application Components]
+  Activities (34): com.applovin.mediation.MaxDebuggerMultiAdActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.facebook.CustomTabMainActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.facebook.CustomTabActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.mediation.MaxDebuggerDetailActivity
+  Services   (17): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, de.julianassmann.flutter_background.IsolateHolderService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.adview.activity.FullscreenAdService, com.onesignal.core.services.SyncJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, com.emrys.rjsniffer.rjsniffer.Sniffer, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (20): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.amazon.device.iap.ResponseReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (6): com.adjust.sdk.SystemLifecycleContentProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22680
+  Total Methods : 134160
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developers.applovin.com/en/android/overview/terms-and-privacy-policy-flow#enabling-google-ump, https://developers.applovin.com/en/max/android/overview/advanced-settings#selective-init, https://issuetracker.google.com/issues/241760537, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, http://developer.android.com/google/play-services/setup.html., https://developers.applovin.com/en/android/overview/integration, https://support.google.com/admob/answer/13554116, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(10): 16.8.51.1, 6.5.0.8, 6.17.0.1, 8.3.6.1, 23.3.0.1, 7.4.1.1, 4.12.2.1, 3.9.0.2, 5.22.1.1, 3.0.1.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4A 34 E5 7F D9 4E 38 F3 56 06 AA CF 7D F7 0F EF 0B 54 B8 97 A4 72 B2 EF 9F 4D B2 35 4B 9E 9D A0
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.serwylo.lexica
+  SHA-256       : 00A9E73857E7FB7B3F8476DE0689704FB35897B40D725EB68E9683DC57B8C13B
+  Android Group : Android13
+  Version       : 3.10.0 (code: 30014)
+
+[SDK Information]
+  Minimum SDK   : 18
+  Target SDK    : 33
+
+[Permissions (0)]
+  none
+
+[Application Components]
+  Activities (11): com.serwylo.lexica.activities.ShareGameLobbyActivity, com.serwylo.lexica.ChooseLexiconActivity, com.serwylo.lexica.activities.HighScoresActivity, com.serwylo.lexica.GameActivity, com.serwylo.lexica.MainMenuActivity, com.serwylo.lexica.NewGameModeActivity, com.serwylo.lexica.ChooseGameModeActivity, com.serwylo.lexica.activities.score.ScoreActivity, com.serwylo.lexica.activities.FoundWordsActivity, com.serwylo.lexica.SettingsActivity, com.serwylo.lexica.activities.NewMultiplayerActivity
+  Services   (1): androidx.room.MultiInstanceInvalidationService
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6061
+  Total Methods : 44928
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: FDroid, Organizational Unit: FDroid, Organization: fdroid.org, Locality: ORG, State/Province: ORG, Country: UK
+  Fingerprint : C8 2E 0F 64 CA 38 B8 8C 8A 6E 6A 45 91 83 F8 B8 31 EB 3E AF FE 03 3D BD A1 38 52 33 1D 57 54 2F
+
+==========================================

@@ -1,0 +1,76 @@
+{
+  "sha256": "000A0D3291986F9431783D4423F76F3E2979E9F7C860474D715412A09454D430",
+  "filename": "000A0D3291986F9431783D4423F76F3E2979E9F7C860474D715412A09454D430.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.danubeone.danubeproperties",
+  "version_name": "1.0.12",
+  "version_code": "13",
+  "min_sdk": "24",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.CAMERA",
+    "android.permission.WAKE_LOCK",
+    "com.danubeone.danubeproperties.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 15,
+  "activities": [
+    "com.jakewharton.processphoenix.ProcessPhoenix",
+    "com.canhub.cropper.CropImageActivity",
+    "com.pairip.licensecheck.LicenseActivity",
+    "com.danubeone.danubeproperties.MainActivity",
+    "expo.modules.imagepicker.ExpoCropImageActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.google.android.gms.metadata.ModuleDependencies"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.pairip.licensecheck.LicenseContentProvider1",
+    "expo.modules.sharing.SharingFileProvider",
+    "com.ReactNativeBlobUtil.Utils.FileProvider",
+    "expo.modules.imagepicker.fileprovider.ImagePickerFileProvider",
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+    "com.canhub.cropper.CropFileProvider",
+    "androidx.startup.InitializationProvider",
+    "com.pairip.licensecheck.LicenseContentProvider"
+  ],
+  "provider_count": 8,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 18193,
+  "method_count": 123046,
+  "cert_fingerprint": "62 14 0C AA 63 8A 6A 6D 35 49 33 D8 73 B5 03 D2 6E AE 31 FC 00 98 47 7C 09 47 EE 7C EF 0C D9 A4",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "10.0.1.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

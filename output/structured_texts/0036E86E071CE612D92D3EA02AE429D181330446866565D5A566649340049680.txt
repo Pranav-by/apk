@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.oversea.readom
+  SHA-256       : 0036E86E071CE612D92D3EA02AE429D181330446866565D5A566649340049680
+  Android Group : Android12
+  Version       : 1.11.0 (code: 11100)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (55): com.oversea.readom.hlyjsb1.Psrvkb1Activity, com.oversea.readom.record.RecordedActivity, com.android.billingclient.api.ProxyBillingActivity, com.oversea.readom.vyidra0.Kubyha0Activity, com.oversea.readom.home.search.BooksSearchActivity, com.oversea.readom.setting.AboutActivity, com.oversea.readom.start.SplashActivity, com.oversea.readom.setting.UserInfoActivity, com.oversea.readom.setting.SettingActivity, com.oversea.readom.wallet.WalletActivity, com.facebook.CustomTabActivity, com.oversea.readom.login.mail.BindEmailActivity, com.facebook.FacebookActivity, com.oversea.readom.home.mall.ClassifyListActivity, com.oversea.readom.home.more.BooksMoreActivity, com.oversea.readom.web.WebDialogActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.oversea.readom.web.WebChargeActivity, com.facebook.CustomTabMainActivity, com.oversea.readom.web.WebActivity
+  Services   (15): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, com.oversea.readom.upload.log.LogUploadService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.gg.isolate.FirebaseMessageService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (13): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (7): com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.blankj.utilcode.util.UtilsFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 32023
+  Total Methods : 190757
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(1): 223.5.5.5
+
+[Certificate]
+  Issuer      : Common Name: WeiTao, Organization: Inke
+  Fingerprint : AE A7 59 D6 51 8E FB AB 05 D2 AE 4C 86 B4 A5 40 68 B8 DC 9B 27 E6 C2 A7 A5 E6 26 89 16 6B 49 45
+
+==========================================

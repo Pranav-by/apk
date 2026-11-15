@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.aep.customerapp.aepohio
+  SHA-256       : 00A5AE30D724CADC91147BD7470BB59F440751B93C7067A572DF069971119CE2
+  Android Group : Android12
+  Version       : 1.18.17.3051.3 (code: 3051)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (13)]
+  com.google.android.gms.permission.AD_ID, android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.VIBRATE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.FLASHLIGHT, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (29): com.aep.cma.aepmobileapp.loginhelp.LoginHelpActivityQtn, com.aep.cma.aepmobileapp.environment.EnvironmentPickerActivityQtn, com.aep.cma.aepmobileapp.activity.WebSSOBaseActivityQtn, com.aep.cma.aepmobileapp.login.LoginActivityQtn, com.aep.cma.aepmobileapp.biometric.BiometricLoginConfigurationActivityQtn, com.aep.cma.aepmobileapp.manageelectricaccounts.addaccount.AddElectricAccountActivityQtn, com.aep.cma.aepmobileapp.managebankaccounts.ManageBankAccountsActivityQtn, com.aep.cma.aepmobileapp.settings.notifications.NotificationsActivityQtn, com.aep.cma.aepmobileapp.splash.SplashActivityQtn, com.aep.cma.aepmobileapp.settings.averagemonthlypayments.AverageMonthlyPaymentsActivityQtn, com.aep.cma.aepmobileapp.paybill.paymentoptions.freeach.PayBillByFreeACHEditPaymentActivityQtn, com.aep.cma.aepmobileapp.energy.weather.WeatherEnergyUsageActivityQtn, com.aep.cma.aepmobileapp.barcodescanner.AuthenticatedBarcodeScannerActivityQtn, com.aep.cma.aepmobileapp.barcodescanner.UnauthenticatedBarcodeScannerActivityQtn, com.aep.cma.aepmobileapp.manageelectricaccounts.ManageElectricAccountsActivityQtn, com.aep.cma.aepmobileapp.settings.alerts.AlertPreferencesActivityQtn, com.aep.cma.aepmobileapp.registration.RegistrationActivityQtn, com.aep.cma.aepmobileapp.paperless.manage.ManagePaperlessBillingActivityQtn, com.aep.cma.aepmobileapp.settings.accountpreferences.AccountPreferencesActivityQtn, com.aep.cma.aepmobileapp.login.PrivacyPolicyActivityQtn
+  Services   (11): androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.aep.cma.aepmobileapp.pushnotifications.CMAFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.flurry.android.agent.FlurryContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16627
+  Total Methods : 103037
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 0.0.0.0, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Jared Utley, Organizational Unit: Customer, Organization: American Electric Power, Locality: Columbus, State/Province: Ohio, Country: US
+  Fingerprint : 02 9F 47 8B 7B 3C 8E 6D 8F 12 64 E0 AB F0 59 7C 55 C4 8C CA 46 FA 29 69 6F 1B 7D A2 A6 AF BF 72
+
+==========================================

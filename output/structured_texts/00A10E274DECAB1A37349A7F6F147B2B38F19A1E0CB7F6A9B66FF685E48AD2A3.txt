@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : saldo.receiptscanner.app
+  SHA-256       : 00A10E274DECAB1A37349A7F6F147B2B38F19A1E0CB7F6A9B66FF685E48AD2A3
+  Android Group : Android12
+  Version       : 1.9.73 (code: 153)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 31
+
+[Permissions (16)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.FOREGROUND_SERVICE, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_DOWNLOAD_MANAGER, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (15): com.theartofdev.edmodo.cropper.CropImageActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity, com.helpcrunch.library.ui.screens.previewer_image.HCImagePreviewerActivity, com.helpcrunch.library.ui.screens.filepicker.media.MediaDetailsActivity, com.helpcrunch.library.ui.screens.filepicker.files.FilePickerActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.helpcrunch.library.ui.screens.main.HelpCrunchMainActivity, com.helpcrunch.library.ui.screens.knowledge_base.article.HcKbArticleActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.facebook.FacebookActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, saldo.receiptscanner.app.ui.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (15): androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, com.helpcrunch.library.core.HcMessageSenderService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.helpcrunch.library.core.HCFirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (14): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, saldo.receiptscanner.app.ui.receivers.RemindLaterPushTrial, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (7): androidx.core.content.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.helpcrunch.library.core.HelpCrunchInitProvider, com.facebook.internal.FacebookInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.helpcrunch.library.utils.file_picker.FilePickerProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 19568
+  Total Methods : 99332
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://www.youtube.com/watch?v=, https://www.facebook.com/facebook/videos/, https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, http://www.hulu.com/watch/, https://www.dailymotion.com/video/, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 68 F7 E7 3C 67 75 0C 41 BC 20 C2 28 BE DF E3 E0 02 64 7F AD C8 1F C5 61 EF E0 D0 F3 36 5B 4F E0
+
+==========================================

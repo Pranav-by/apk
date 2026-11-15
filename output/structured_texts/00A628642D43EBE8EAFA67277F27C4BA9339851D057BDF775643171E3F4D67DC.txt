@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.yc.gloryfitpro
+  SHA-256       : 00A628642D43EBE8EAFA67277F27C4BA9339851D057BDF775643171E3F4D67DC
+  Android Group : Android15
+  Version       : 1.6.5 (code: 65)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (45)]
+  android.permission.health.WRITE_BLOOD_PRESSURE, android.permission.health.WRITE_BODY_TEMPERATURE, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.ANSWER_PHONE_CALLS, android.permission.BLUETOOTH_ADMIN, android.permission.MEDIA_CONTENT_CONTROL, android.permission.READ_CALL_LOG, android.permission.health.WRITE_STEPS, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.health.WRITE_DISTANCE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.health.WRITE_TOTAL_CALORIES_BURNED, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (190): com.yc.gloryfitpro.ui.activity.main.home.MenstrualActivity, com.yc.gloryfitpro.ui.activity.scan.SearchDeviceActivity, com.ute.zxinglibrary.android.CaptureActivity, com.yc.gloryfitpro.ui.activity.main.home.DetailsCsBpActivity, com.ute.zxinglibrary.android.CaptureNewActivity, com.yc.gloryfitpro.ui.activity.main.device.ScanConnectHelpActivity, com.yc.gloryfitpro.watchface.ui.WatchFaceMoreActivity, com.yc.gloryfitpro.ui.activity.main.device.CallRemindActivity, com.yc.gloryfitpro.ui.activity.main.device.SmsRemindActivity, com.yc.gloryfitpro.ui.activity.main.device.AppRemindActivity, com.yc.gloryfitpro.ui.activity.main.device.ContactsActivity, com.yc.gloryfitpro.ui.activity.main.device.ContactsSelectActivity, com.yc.gloryfitpro.ui.activity.main.device.QuickReplyActivity, com.yc.gloryfitpro.ui.activity.main.device.SosCallActivity, com.yc.gloryfitpro.ui.activity.main.device.SmsReplyActivity, com.yc.gloryfitpro.ui.activity.login.GuideActivity, com.yc.gloryfitpro.ui.activity.main.device.WhatsAppQuickReplyActivity, com.yc.gloryfitpro.wxapi.WXEntryActivity, com.yc.gloryfitpro.ui.activity.main.device.BleUpdateActivity, com.yc.gloryfitpro.ui.activity.main.device.HealthMonitorSettingActivity
+  Services   (16): com.yc.gloryfitpro.services.sport.AmapLocationGpsService, androidx.camera.core.impl.MetadataHolderService, com.yc.gloryfitpro.services.sport.GoogleLocationService, androidx.health.platform.client.impl.sdkservice.HealthDataSdkService, com.yc.gloryfitpro.services.sport.GoogleLocationGpsService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.realsil.sdk.dfu.DfuService, com.yc.gloryfitpro.services.sport.LocationGpsService, com.yc.cpts.JobSchedulerService, com.twitter.sdk.android.tweetcomposer.TweetUploadService, com.ute.camera.MediaSaveService, com.yc.gloryfitpro.services.MainService, com.amap.api.location.APSService, com.yc.gloryfitpro.services.StatusbarMsgNotificationListener, com.yc.gloryfitpro.services.sport.AdmapLocationService, com.blankj.utilcode.util.MessengerUtils$ServerService
+  Receivers  (4): com.yc.gloryfitpro.services.Receiver.NotificationClickReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (7): androidx.core.content.FileProvider, com.facebook.FacebookContentProvider, com.tenmeter.smlibrary.provider.BaseProvider, androidx.startup.InitializationProvider, com.blankj.utilcode.util.UtilsFileProvider, com.facebook.internal.FacebookInitProvider, com.microsoft.cognitiveservices.speech.util.InternalContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 43392
+  Total Methods : 302022
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: 黄健超, Organizational Unit: 优创, Organization: 优创, Locality: 桂林, State/Province: 广西, Country: CH
+  Fingerprint : F9 0C BD 89 62 1B 70 E6 DE E4 CA CA 3B C7 14 83 CC F1 71 63 C6 E3 31 32 85 53 5C CA 91 F4 31 08
+
+==========================================

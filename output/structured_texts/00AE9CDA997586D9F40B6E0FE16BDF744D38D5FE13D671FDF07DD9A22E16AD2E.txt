@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tracktech.live.videowallpaper.hd.videowall.livewallpaper
+  SHA-256       : 00AE9CDA997586D9F40B6E0FE16BDF744D38D5FE13D671FDF07DD9A22E16AD2E
+  Android Group : Android12L
+  Version       : 2.0 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, android.permission.SET_WALLPAPER_HINTS, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.SET_WALLPAPER
+
+[Application Components]
+  Activities (21): com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.ads.AdActivity, com.google.firebase.auth.internal.FederatedSignInActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_LiveWallpapers.video_live_wall_Settings, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_Exit_Activity, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_user.video_activity.video_CategoryDetails, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_user.video_activity.video_MainActivity, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_admin.video_admin_activity.video_admin_Category_name, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_user.video_activity.video_privacy_policy, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_admin.video_admin_activity.video_admin_Full_screen, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_LiveWallpapers.video_livewall_MainActivity, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_admin.video_admin_activity.video_admin_AddWallpapers, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_admin.video_admin_activity.video_admin_MainActivity, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_admin.video_admin_activity.video_SplashScreen, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_admin.video_admin_activity.video_AddCategory, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_user.video_activity.After_Splash
+  Services   (12): com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_LiveWallpapers.video_VideoLiveWallpaper, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.ads.AdService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.tracktech.live.videowallpaper.hd.videowall.livewallpaper.video_LiveWallpapers.BootBroadCast, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13411
+  Total Methods : 75305
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 17 60 30 8A 79 42 D8 EB 03 0D D7 55 B2 14 3D 59 71 D4 AC 95 2F 7C FB 16 A3 08 8B 6C B0 0B F7 9A
+
+==========================================

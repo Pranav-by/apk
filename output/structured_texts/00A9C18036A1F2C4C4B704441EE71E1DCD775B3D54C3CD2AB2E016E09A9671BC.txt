@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.optipay.cashgoloans
+  SHA-256       : 00A9C18036A1F2C4C4B704441EE71E1DCD775B3D54C3CD2AB2E016E09A9671BC
+  Android Group : Android12L
+  Version       : 1.9.0 (code: 9)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (6)]
+  com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.optipay.cashgoloans.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (38): com.optipay.cashgoloans.ConfirmActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.optipay.cashgoloans.DurationActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.optipay.cashgoloans.LoanStatusActivity, com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity, com.applovin.adview.AppLovinFullscreenActivity, com.optipay.cashgoloans.WithdrawActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.optipay.cashgoloans.LoanAmountActivity, com.optipay.cashgoloans.RegisterActivity, com.optipay.cashgoloans.EligibleAmountActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.optipay.cashgoloans.BalanceActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.optipay.cashgoloans.DashboardActivity
+  Services   (1): com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (0): none
+  Providers  (4): com.facebook.ads.AudienceNetworkContentProvider, com.vungle.warren.utility.VungleProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9117
+  Total Methods : 60255
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 1.0.0.0, 6.14.0.0, 6.12.1.1, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C0 A1 CD CE C2 B1 6F 94 17 E6 A6 61 93 37 D4 3C 91 AC 7E E7 A0 CD 70 64 6B CF FA 77 2E 3E 47 CF
+
+==========================================

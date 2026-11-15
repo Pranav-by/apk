@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.amitech.allevents
+  SHA-256       : 002D7F553D5F9D9A83694DDEA2D7E8B511E0B89A76AD2C8B180B883284FEE647
+  Android Group : Android16
+  Version       : 12.3.3 (code: 554)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (49)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.BIND_NOTIFICATION_LISTENER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.USE_BIOMETRIC, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (18): com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, io.flutter.plugins.urllauncher.WebViewActivity, com.facebook.CustomTabMainActivity, com.clevertap.android.sdk.InAppNotificationActivity, com.flutter_webview_plugin.WebviewActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.clevertap.android.sdk.inbox.CTInboxActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.FacebookActivity, com.amitech.allevents.MainActivity, androidx.credentials.playservices.IdentityCredentialApiHiddenActivity, com.facebook.CustomTabActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity
+  Services   (24): com.baseflow.geolocator.GeolocatorLocationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.smartlook.android.job.worker.record.UploadRecordJob, com.google.android.gms.auth.api.signin.RevocationBoundService, com.smartlook.android.job.worker.session.UploadSessionJob, com.clevertap.android.sdk.pushnotification.fcm.FcmMessageListenerService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, me.carda.awesome_notifications.DartBackgroundService, com.smartlook.android.job.worker.record.ProcessVideoDataJob, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.smartlook.android.job.worker.internallog.UploadInternalLogJob, me.carda.awesome_notifications.core.managers.StatusBarManager
+  Receivers  (24): dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, me.carda.awesome_notifications.DartScheduledNotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, me.carda.awesome_notifications.DartRefreshSchedulesReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.smartlook.android.core.session.TimeChangeBroadcastReceiver, me.carda.awesome_notifications.DartDismissedNotificationReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (10): com.clevertap.android.sdk.CleverTapFileProvider, androidx.startup.InitializationProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.smartlook.android.SmartlookInstaller, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.crazecoder.openfile.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18877
+  Total Methods : 99849
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developers.facebook.com/docs/sharing/android, https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(1): 7.7.1.0
+
+[Certificate]
+  Issuer      : Common Name: amitech, Organizational Unit: amitech, Organization: amitech, Locality: ahmedabad, State/Province: gujarat, Country: 91
+  Fingerprint : 64 0F E9 7E 13 99 0F FB 99 28 BF 56 35 11 6A E9 00 B9 45 C4 99 8D C5 60 39 66 72 DA 19 FC 3F 92
+
+==========================================

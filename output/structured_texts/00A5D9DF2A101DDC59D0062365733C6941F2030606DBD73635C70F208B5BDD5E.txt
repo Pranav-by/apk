@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.leonardobortolotti.virtualscoreboard
+  SHA-256       : 00A5D9DF2A101DDC59D0062365733C6941F2030606DBD73635C70F208B5BDD5E
+  Android Group : Android16
+  Version       : 2.5.10 (code: 153)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (17)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.leonardobortolotti.virtualscoreboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (64): com.leonardobortolotti.virtualscoreboard.controllers.sports.CricketActivity, com.leonardobortolotti.virtualscoreboard.controllers.sports.CurlingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.leonardobortolotti.virtualscoreboard.controllers.sports.FootballActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.leonardobortolotti.virtualscoreboard.controllers.sports.FootvolleyActivity, androidx.credentials.playservices.HiddenActivity, com.leonardobortolotti.virtualscoreboard.controllers.sports.FutsalActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.leonardobortolotti.virtualscoreboard.controllers.sports.GoalballActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.leonardobortolotti.virtualscoreboard.controllers.ClocksTimersActivity, com.leonardobortolotti.virtualscoreboard.controllers.sports.HandballActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.leonardobortolotti.virtualscoreboard.controllers.sports.HockeyActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.leonardobortolotti.virtualscoreboard.controllers.sports.JudoActivity, com.google.android.gms.ads.AdActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.leonardobortolotti.virtualscoreboard.controllers.sports.KarateActivity
+  Services   (14): com.google.android.gms.measurement.AppMeasurementJobService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (3): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23919
+  Total Methods : 119353
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://issuetracker.google.com/issues/241760537, https://goo.gle/admob-android-update-manifest, https://virtualscoreboard.app/live?code=, https://goo.gle/compose-feedback, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://goo.gle/ad-manager-android-update-manifest., https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json, https://developers.google.com/tink/faq/registration_errors
+  IP Addresses(2): 0.6.0.0, 0.2.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : FF 4A 80 57 2F 9F AC 97 09 49 9C 5D 45 55 6C FF 06 E3 EC FE 01 0D CD E1 6A D7 83 7B 22 BE A1 E9
+
+==========================================

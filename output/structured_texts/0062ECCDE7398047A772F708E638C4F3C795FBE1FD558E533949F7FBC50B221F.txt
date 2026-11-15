@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.lifestyleinsider
+  SHA-256       : 0062ECCDE7398047A772F708E638C4F3C795FBE1FD558E533949F7FBC50B221F
+  Android Group : Android13
+  Version       : 1.0.62 (code: 10062)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (9)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (7): com.synconset.MultiImageChooserActivity, com.lifestyleinsider.MainActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.tagmanager.TagManagerPreviewActivity, com.google.firebase.auth.internal.RecaptchaActivity
+  Services   (9): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.tagmanager.TagManagerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, org.apache.cordova.firebase.FirebasePluginMessagingService
+  Receivers  (5): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, nl.xservices.plugins.ShareChooserPendingIntent, com.google.firebase.iid.FirebaseInstanceIdReceiver, org.apache.cordova.firebase.OnNotificationOpenReceiver
+  Providers  (4): nl.xservices.plugins.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, org.apache.cordova.camera.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 16716
+  Total Methods : 117539
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, http://goo.gl/8Rd3yj
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 80 AF B1 94 3D CB 52 E3 58 B1 84 7C A3 D2 24 FB 6A A1 DA 93 66 15 D9 07 B1 99 9B 5C 0F CD 5C 67
+
+==========================================

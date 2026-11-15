@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : australia.news.au.newspapers.magazines
+  SHA-256       : 00A73E99E75C72DDDEC0A437A78C178B38330CFD0057A2D0BFFFA6467B03AFB4
+  Android Group : Android15
+  Version       : 2025.2.0 (code: 14)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (14)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.READ_BASIC_PHONE_STATE, australia.news.au.newspapers.magazines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (106): australia.news.au.newspapers.magazines.t_url, com.ironsource.sdk.controller.ControllerActivity, australia.news.au.newspapers.magazines.t_buscchats_lista, com.chartboost.sdk.internal.clickthrough.EmbeddedBrowserActivity, australia.news.au.newspapers.magazines.t_video_pro, com.inmobi.ads.rendering.InMobiAdActivity, australia.news.au.newspapers.magazines.t_radio, com.wortise.ads.appopen.AppOpenActivity, australia.news.au.newspapers.magazines.t_video, com.chartboost.sdk.view.CBImpressionActivity, australia.news.au.newspapers.magazines.t_video_exoplayer, com.wortise.ads.rewarded.RewardedActivity, australia.news.au.newspapers.magazines.SearchableActivity, com.wortise.ads.interstitial.InterstitialActivity, australia.news.au.newspapers.magazines.t_html, com.facebook.CustomTabActivity, australia.news.au.newspapers.magazines.t_vistafb, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity, australia.news.au.newspapers.magazines.t_gal_foto
+  Services   (28): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, australia.news.au.newspapers.magazines.s_widget_vistafb, australia.news.au.newspapers.magazines.s_cargar_icos, australia.news.au.newspapers.magazines.s_cargar_sliderheader, australia.news.au.newspapers.magazines.s_cargar_fondo, australia.news.au.newspapers.magazines.s_cargar_icos_gen, australia.news.au.newspapers.magazines.s_guardarperfil, australia.news.au.newspapers.magazines.RegistrationIntentService, australia.news.au.newspapers.magazines.s_mediaplayer_exo, australia.news.au.newspapers.magazines.MyFcmListenerService, australia.news.au.newspapers.magazines.MyInstanceIDListenerService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.cast.framework.ReconnectionService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (18): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, australia.news.au.newspapers.magazines.alarma_rss, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (13): com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, australia.news.au.newspapers.magazines.MySuggestionProvider, australia.news.au.newspapers.magazines.StickerContentProvider, australia.news.au.newspapers.magazines.bd_provider, androidx.core.content.FileProvider, com.wortise.ads.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.vungle.ads.VungleProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 48390
+  Total Methods : 281915
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, http://localhost/playerjs.js
+  IP Addresses(3): 127.0.0.1, 2.0.0.3, 2.7.6.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D3 B2 B0 CA 35 9F D2 C1 52 60 76 A9 8B BE 5A 75 0E EF 56 2D 86 E1 84 AB 63 F7 D3 C2 12 8A 40 F2
+
+==========================================

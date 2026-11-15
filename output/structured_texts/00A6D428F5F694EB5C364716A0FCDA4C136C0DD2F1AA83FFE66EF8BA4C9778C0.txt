@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.coopesanmarcos.coopesanmarcostoken
+  SHA-256       : 00A6D428F5F694EB5C364716A0FCDA4C136C0DD2F1AA83FFE66EF8BA4C9778C0
+  Android Group : Android15
+  Version       : 5.0.2 (code: 28)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 35
+
+[Permissions (6)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, com.coopesanmarcos.coopesanmarcostoken.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.USE_BIOMETRIC, android.permission.CAMERA
+
+[Application Components]
+  Activities (3): crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity, crc64ba438d8f48cf7e75.IntermediateActivity, crc6431dc39b05025d7bc.MainActivity
+  Services   (1): androidx.camera.core.impl.MetadataHolderService
+  Receivers  (4): crc64e53d2f592022988e.ConnectivityBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver, crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver
+  Providers  (3): microsoft.maui.essentials.fileProvider, mono.MonoRuntimeProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12883
+  Total Methods : 100390
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 84 62 72 94 2D 8C 51 38 D6 EA 5B A7 4B 8E B9 D0 E6 7A D8 66 B2 5A 37 8D C0 1D B6 AA 1F 1B E1 AF
+
+==========================================

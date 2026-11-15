@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : software.sandra.navigation
+  SHA-256       : 00A90C8AED4B05358D875A378E86854BFBECDE1A277A4A992B9488B27D0B5BFB
+  Android Group : Android13
+  Version       : 2.0.5 (code: 37)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (8)]
+  android.permission.DISABLE_KEYGUARD, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.c2dm.permission.RECEIVE, android.permission.GET_ACCOUNTS, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (5): com.google.android.gms.common.api.GoogleApiActivity, software.sandra.navigation.view.settings.SettingsActivity, software.sandra.navigation.view.setup.SetupActivity, software.sandra.navigation.app.StartupActivity, software.sandra.navigation.MainActivity
+  Services   (5): software.sandra.navigation.services.FCMService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (2): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2835
+  Total Methods : 12561
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : ED A0 D5 A6 70 5F 3A 58 07 B3 CA 75 97 60 37 0D B7 0F D9 A4 68 D6 D5 AC ED EE 0B 56 1F A8 D2 23
+
+==========================================

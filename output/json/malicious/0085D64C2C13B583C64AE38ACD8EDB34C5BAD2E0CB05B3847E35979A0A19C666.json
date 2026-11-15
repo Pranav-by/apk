@@ -1,0 +1,48 @@
+{
+  "sha256": "0085D64C2C13B583C64AE38ACD8EDB34C5BAD2E0CB05B3847E35979A0A19C666",
+  "filename": "0085D64C2C13B583C64AE38ACD8EDB34C5BAD2E0CB05B3847E35979A0A19C666.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "com.ftp_manager",
+  "version_name": "4.0.2",
+  "version_code": "43",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.MANAGE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.ftp_manager.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 1043,
+  "method_count": 4998,
+  "cert_fingerprint": "A9 C5 97 08 8E 21 66 4F 6C FC 29 8C AD 50 D2 F9 EA AE B8 D6 45 92 AC 5D DA 8C 6E C7 71 2B 9B 53",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

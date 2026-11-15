@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fitnessapp.activitytracking.homeworkout.bodybuilding.health.stepscount.aerobics
+  SHA-256       : 00588225834098225ECD2331B11DC84CE5C99EF0545B0B9B80DB7DF8021576EE
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (30)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, com.fitnessapp.activitytracking.homeworkout.bodybuilding.health.stepscount.aerobics.permission.C2D_MESSAGE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (30): com.fitness.app.workout.activities.Finish_ExerciseActivity, com.fitness.app.workout.activities.RestActivity, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedActivityHMS, com.fitness.app.workout.activities.TotalSetActivity, com.fitness.app.workout.MoreApp.ExitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.google.android.gms.common.api.GoogleApiActivity, com.fitness.app.workout.activities.MainActivity, com.fitness.app.workout.activities.Day_wise_ActivityInformation, com.fitness.app.workout.activities.TipsActivity, com.fitness.app.workout.activities.AllDayDetailsActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.fitness.app.workout.activities.SummaryActivity, com.onesignal.NotificationOpenedReceiver, com.google.android.gms.ads.AdActivity, com.fitness.app.workout.activities.Splash_Activity, com.fitness.app.workout.activities.BmiCalculatorActivity, com.fitness.app.workout.activities.InformationOfExercise, com.fitness.app.workout.MoreApp.MoreAppActivity
+  Services   (14): androidx.work.impl.background.systemjob.SystemJobService, com.onesignal.FocusDelaySyncService, com.onesignal.FocusDelaySyncJobService, com.onesignal.SyncService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.SyncJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, com.onesignal.FCMIntentService, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentJobService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.BootUpReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (5): androidx.core.content.FileProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14812
+  Total Methods : 89650
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 41 A8 92 F7 03 58 FA 4B 94 DA 99 63 68 99 72 6B 92 69 A8 49 D3 47 FF 74 BA BC D4 97 A4 41 32 6D
+
+==========================================

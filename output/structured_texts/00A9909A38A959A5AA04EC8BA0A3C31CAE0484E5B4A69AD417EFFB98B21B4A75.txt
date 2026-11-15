@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : br.com.wiki4fit.vectorfitness
+  SHA-256       : 00A9909A38A959A5AA04EC8BA0A3C31CAE0484E5B4A69AD417EFFB98B21B4A75
+  Android Group : Android16
+  Version       : 12.01.00 (code: 120100)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (7)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, br.com.wiki4fit.vectorfitness.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (2): br.com.wiki4fit.vectorfitness.MainActivity, com.pairip.licensecheck.LicenseActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (5): com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.startup.InitializationProvider, expo.modules.sharing.SharingFileProvider, com.pairip.licensecheck.LicenseContentProvider, expo.modules.filesystem.FileSystemFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 18613
+  Total Methods : 124636
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F9 D0 70 25 70 0F 11 D8 FE BD D5 85 3B 28 41 1D 5D 02 E1 2D 5F FD 64 53 DE 7A F2 AD 81 7F FA A9
+
+==========================================

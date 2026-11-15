@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.OneColorGames.BrainMathExpert
+  SHA-256       : 0010489EF94BFE4B63164DC6FB676884763439AA6C706270F55C141FB9985688
+  Android Group : Android12
+  Version       : 2.0.172 (code: 2000172)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (29): com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.vungle.warren.ui.VungleFlexViewActivity, com.OneColorGames.BrainMathExpert.RunnerActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.ironsource.sdk.controller.InterstitialActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.adview.AppLovinInterstitialActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.ironsource.sdk.controller.ControllerActivity, com.applovin.mediation.MaxDebuggerActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (14): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemjob.SystemJobService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.foreground.SystemForegroundService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.OneColorGames.BrainMathExpert.LocalNotifications_BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (8): com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.vungle.warren.utility.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19771
+  Total Methods : 110408
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: OCG, Organizational Unit: Development, Organization: OneColorGames, Locality: Aalborg, Country: Denmark
+  Fingerprint : C4 5F E7 BA 3E 30 49 E4 52 0D 9A 5E 04 CD B0 BE 21 82 C5 F6 BB D9 51 4A 93 B6 F4 BA 37 36 CA 24
+
+==========================================

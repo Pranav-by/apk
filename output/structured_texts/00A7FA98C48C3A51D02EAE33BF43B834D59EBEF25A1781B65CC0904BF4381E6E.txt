@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.x2line.android.cafeformula
+  SHA-256       : 00A7FA98C48C3A51D02EAE33BF43B834D59EBEF25A1781B65CC0904BF4381E6E
+  Android Group : Android16
+  Version       : 1.31.1 (code: 26141311)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (11)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.x2line.android.cafeformula.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (21): com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.games.internal.v2.appshortcuts.PlayGamesAppShortcutsActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.common.api.GoogleApiActivity, com.x2line.android.cafeformula.IAPActivity, com.x2line.android.cafeformula.Main, com.x2line.android.cafeformula.CareActions, com.x2line.android.cafeformula.ClothesStore, com.x2line.android.cafeformula.DiningRoom, com.x2line.android.cafeformula.Fridge, com.x2line.android.cafeformula.Settings, com.x2line.android.cafeformula.Kitchen, com.x2line.android.cafeformula.Office, com.x2line.android.cafeformula.About, com.x2line.android.cafeformula.TrophyList, com.x2line.android.solitaire.SolitaireCG, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.NotificationHandlerActivity
+  Services   (8): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.ads.AdService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.x2line.android.cafeformula.OnAlarmReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (4): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.x2line.android.cafeformula.MediaContentProvider, com.google.android.gms.games.provider.PlayGamesInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 19433
+  Total Methods : 110190
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://play.google.com/store/apps/details?id=%s, https://goo.gle/admob-android-update-manifest, https://goo.gle/admob-android-update-manifest., https://goo.gle/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A7 C2 9A 82 47 17 72 44 25 D3 BF 9D 1E 35 20 5B 52 36 0E E3 6C FA 3A B7 19 1F E4 C1 D1 0B 43 D7
+
+==========================================

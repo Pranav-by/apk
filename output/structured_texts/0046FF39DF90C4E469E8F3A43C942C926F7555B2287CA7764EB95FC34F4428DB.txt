@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fws.plantsnap2
+  SHA-256       : 0046FF39DF90C4E469E8F3A43C942C926F7555B2287CA7764EB95FC34F4428DB
+  Android Group : Android15
+  Version       : 6.6.3 (code: 651293)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (27)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.fws.plantsnap2.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.CHECK_LICENSE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, com.android.vending.BILLING, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+
+[Application Components]
+  Activities (20): com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.fws.plantsnap2.MainActivity, androidx.credentials.playservices.HiddenActivity, com.superwall.sdk.paywall.vc.SuperwallPaywallActivity, com.google.android.gms.ads.NotificationHandlerActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.clevertap.android.sdk.inbox.CTInboxActivity, com.google.android.gms.ads.AdActivity, com.facebook.CustomTabActivity, com.clevertap.android.sdk.InAppNotificationActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (21): androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.clevertap.android.sdk.pushnotification.fcm.FcmMessageListenerService, com.google.firebase.components.ComponentDiscoveryService, com.clevertap.android.sdk.pushnotification.CTNotificationIntentService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.gms.metadata.ModuleDependencies, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.baseflow.geolocator.GeolocatorLocationService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.sessions.SessionLifecycleService, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (21): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver, com.amazon.device.iap.ResponseReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.clevertap.android.pushtemplates.PTPushNotificationReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.clevertap.android.pushtemplates.PushTemplateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (7): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 30832
+  Total Methods : 167500
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://issuetracker.google.com/issues/new?component=618491&template=1257717
+  IP Addresses(3): 2.10.5.0, 2.9.0.0, 7.2.2.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C5 70 39 7F 70 C7 B6 A9 FE 55 3A EC F7 1D E0 6C B1 56 1D 2B 8C 67 DC 13 CE D9 2F 6E 8C 8C 26 D8
+
+==========================================

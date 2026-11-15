@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wanted5games.stratego
+  SHA-256       : 00A952D13D0A0EBB78DB5EC76E70367055BA093831C41D3C042236BC803A2A2F
+  Android Group : Android14
+  Version       : 1.7.0 (code: 246)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (4)]
+  com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (4): com.google.android.gms.common.api.GoogleApiActivity, com.cocos.lib.CocosEditBoxActivity, com.android.billingclient.api.ProxyBillingActivity, com.cocos.game.AppActivity
+  Services   (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (1): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5372
+  Total Methods : 26900
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 55 44 26 69 58 27 C1 D4 51 CA 40 EF 2D F2 E7 96 58 53 8F 26 E5 63 C0 50 95 9E 4E 8B 1E 01 BE A7
+
+==========================================

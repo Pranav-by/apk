@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : softwareupdate.systeminfo.cloudpresume
+  SHA-256       : 00A059A50B3AB733F0792FE5020DDD9CAEF355EFE380A19722C1BD054A02EF9D
+  Android Group : Android12L
+  Version       : 1.5 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (25)]
+  android.permission.FOREGROUND_SERVICE, android.permission.REQUEST_DELETE_PACKAGES, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, android.permission.BLUETOOTH_ADMIN, android.permission.USE_BIOMETRIC, android.permission.READ_PHONE_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.BLUETOOTH, android.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.READ_EXTERNAL_STORAGE, android.permission.PACKAGE_USAGE_STATS, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (51): softwareupdate.systeminfo.cloudpresume.FastUpdate.AppUsageActivity, softwareupdate.systeminfo.cloudpresume.FastUpdate.SystemAppActivity, softwareupdate.systeminfo.cloudpresume.FastSettingActivity.HardwareTeat, softwareupdate.systeminfo.cloudpresume.FastQRActivity.GenerateQRActivity, softwareupdate.systeminfo.cloudpresume.FastStartActivity.AppPolicy, softwareupdate.systeminfo.cloudpresume.FastQRActivity.QRDisplayActivity, softwareupdate.systeminfo.cloudpresume.FastUpdate.SoftwareActivity, softwareupdate.systeminfo.cloudpresume.FastSettingActivity.PermissionInfo, softwareupdate.systeminfo.cloudpresume.FastSettingActivity.Vibration, softwareupdate.systeminfo.cloudpresume.FastCalibrationActivity.TouchScreenCalibration, softwareupdate.systeminfo.cloudpresume.FastQRActivity.CreationActivity, softwareupdate.systeminfo.cloudpresume.FastUpdate.ScanAppActivity, softwareupdate.systeminfo.cloudpresume.FastQRActivity.CreationShareActivity, softwareupdate.systeminfo.cloudpresume.FastQRActivity.PDFViewerActivity, softwareupdate.systeminfo.cloudpresume.FastQRActivity.DisplayScanResultActivity, softwareupdate.systeminfo.cloudpresume.FastSettingActivity.BatteryInfo, softwareupdate.systeminfo.cloudpresume.FastQRActivity.QRCustomizeActivity, softwareupdate.systeminfo.cloudpresume.FastSettingActivity.MemoryInfo, softwareupdate.systeminfo.cloudpresume.FastSettingActivity.SystemInfo, softwareupdate.systeminfo.cloudpresume.FastStartActivity.ExitActivity
+  Services   (7): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, softwareupdate.systeminfo.cloudpresume.FastUpdate.AppService, softwareupdate.systeminfo.cloudpresume.FastUpdate.AlarmService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (9): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, softwareupdate.systeminfo.cloudpresume.FastUpdate.AlarmReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (4): com.google.android.gms.ads.MobileAdsInitProvider, softwareupdate.systeminfo.cloudpresume.FastUtil.GenericFileProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11443
+  Total Methods : 60370
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(1): 5.5.13.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : BE 54 13 68 48 0F 72 B2 E8 1A 00 12 20 C3 22 60 B7 26 E5 FE 95 00 EA 36 0C 7F 44 43 87 04 E2 2F
+
+==========================================

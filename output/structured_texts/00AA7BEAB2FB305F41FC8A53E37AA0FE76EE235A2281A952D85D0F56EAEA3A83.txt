@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.anishu.homebudget.lite
+  SHA-256       : 00AA7BEAB2FB305F41FC8A53E37AA0FE76EE235A2281A952D85D0F56EAEA3A83
+  Android Group : Android12L
+  Version       : 3.3.7 (code: 62)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (9)]
+  android.permission.READ_PHONE_STATE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.Manifest.permission.READ_PHONE_STATE, android.permission.CALL_PHONE, android.permission.READ_LOGS, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (84): com.anishu.homebudget.expense.AddRecurringExpense, com.anishu.homebudget.expense.AdditionalOptions, com.anishu.homebudget.bill.BillOptions, com.anishu.homebudget.expense.RecurringExpensesList, com.anishu.homebudget.budget.SetBudget, com.anishu.homebudget.budget.SubCatBudgetList, com.anishu.homebudget.bill.BillsList, com.anishu.homebudget.budget.CatBudgetList, com.anishu.homebudget.SearchTransactions, com.anishu.homebudget.payee.AddPayee, com.anishu.homebudget.bill.AddBill, com.anishu.homebudget.familysync.DeviceList, com.anishu.homebudget.common.RecurringDateSelect, com.anishu.homebudget.payee.PayeeList, com.anishu.homebudget.income.RecurringIncomeList, com.anishu.homebudget.bill.RecurringBillsList, com.anishu.homebudget.income.AddRecurringIncome, com.anishu.homebudget.payee.PayeeTransactions, com.anishu.homebudget.budget.ExpenseList, com.anishu.homebudget.familysync.JoinGroup
+  Services   (0): none
+  Receivers  (3): com.anishu.homebudget.AddExpenseWidgetProvider, com.anishu.homebudget.bill.AlarmReceiver, com.anishu.homebudget.bill.SimpleBootReceiver
+  Providers  (1): androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7955
+  Total Methods : 56913
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): http://www.apple.com/DTDs/PropertyList-1.0.dtd, http://%s:%d/, http://ns.adobe.com/pdf/1.3/, http://ns.adobe.com/xap/1.0/, http://www.w3.org/1999/02/22-rdf-syntax-ns#, http://purl.org/dc/elements/1.1/, http://www.aiim.org/pdfa/ns/id/, http://developer.android.com/index.html, http://www.anishu.com., http://www.apache.org/licenses/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Anishu
+  Fingerprint : C3 EF 4B 49 1F 5F DA 9D 00 65 F5 6C 53 98 55 60 A5 45 83 02 9A DC 07 DB 65 F9 9C 0C 0C 51 62 2E
+
+==========================================

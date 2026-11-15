@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.madness.man.whirl
+  SHA-256       : 009F341AE92046F24FED0E8B6D5E491692F8C8FCFAA70B3928B14701CD1ACAFC
+  Android Group : Android13
+  Version       : 1.3.0 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.READ_SYNC_SETTINGS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.WRITE_SYNC_SETTINGS, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.madness.man.whirl.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.READ_SYNC_STATS, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (73): com.wbetin.madness.MainActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.mbridge.msdk.activity.MBCommonActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.mraid.MraidActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.onevcat.uniwebview.UniWebViewProxyActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.mbridge.msdk.interstitial.view.MBInterstitialActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
+  Services   (19): androidx.work.impl.foreground.SystemForegroundService, com.madness.MadnessLinkService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, arh.Ark, arh.Arj, arh.Arl, arm.Arn, aro.Arp, aro.Arq, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (11): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, net.pubnative.lite.sdk.receiver.VolumeChangedActionReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (13): arh.Ari, aro.Arr, io.bidmachine.BidMachineInitProvider, arm.Ars, com.vungle.warren.utility.VungleProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.onevcat.uniwebview.UniWebViewFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 48180
+  Total Methods : 314440
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): https://goo.gle/compose-feedback, http://www.w3.org/2000/svg, http://www.w3.org/1999/xlink, http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd, http://www.inkscape.org/namespaces/inkscape
+  IP Addresses(7): 5.3.0.4, 6.12.1.1, 4.0.2.0, 16.4.81.0, 22.2.0.0, 7.3.1.1, 10.1.4.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B7 7A E0 CC EC C5 64 DA F0 9A 5A B9 1E 98 92 DC 2E A9 BE ED 9D 34 35 8C 63 5E 44 86 21 A1 1B 72
+
+==========================================

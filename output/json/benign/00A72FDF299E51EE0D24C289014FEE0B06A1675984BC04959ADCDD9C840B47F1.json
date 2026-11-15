@@ -1,0 +1,64 @@
+{
+  "sha256": "00A72FDF299E51EE0D24C289014FEE0B06A1675984BC04959ADCDD9C840B47F1",
+  "filename": "00A72FDF299E51EE0D24C289014FEE0B06A1675984BC04959ADCDD9C840B47F1.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "no.nortrip.guide",
+  "version_name": "2.4.8",
+  "version_code": "248",
+  "min_sdk": "21",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "no.nortrip.guide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "no.nortrip.reiseguide.MainActivity",
+    "com.android.billingclient.api.ProxyBillingActivityV2"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.mapbox.common.LifecycleService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 3,
+  "receivers": [
+    "com.mapbox.common.location.LocationUpdatesReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.bugsnag.android.internal.BugsnagContentProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 4,
+  "class_count": 20733,
+  "method_count": 149360,
+  "cert_fingerprint": "D2 53 22 1F 1C 99 31 4C 83 B6 E2 BD 93 11 E4 C0 B5 42 81 1F 9E 9F 70 08 FE 2E 33 4B 7D A7 3E 05",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

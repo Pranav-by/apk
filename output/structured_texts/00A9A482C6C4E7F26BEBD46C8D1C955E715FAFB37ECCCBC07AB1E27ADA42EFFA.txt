@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.rayan.animalsemoticons
+  SHA-256       : 00A9A482C6C4E7F26BEBD46C8D1C955E715FAFB37ECCCBC07AB1E27ADA42EFFA
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (5)]
+  android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (13): com.rayan.animalsemoticons.pages.emojiPages.EmojiPage1, com.rayan.animalsemoticons.pages.emoticonsPages.EmoticonsPage2, com.startapp.sdk.ads.interstitials.OverlayActivity, com.rayan.animalsemoticons.pages.emoticonsPages.EmoticonsPage1, com.rayan.animalsemoticons.pages.emoticonsPages.EmoticonsPage3, com.rayan.animalsemoticons.pages.emoticonsPages.EmoticonsPage5, com.rayan.animalsemoticons.OtherApps, com.rayan.animalsemoticons.pages.emojiPages.EmojiPage3, com.rayan.animalsemoticons.pages.emoticonsPages.EmoticonsPage4, com.startapp.sdk.ads.list3d.List3DActivity, com.rayan.animalsemoticons.pages.emojiPages.EmojiPage2, com.rayan.animalsemoticons.MainActivity, com.startapp.sdk.adsbase.consent.ConsentActivity
+  Services   (2): com.startapp.sdk.jobs.SchedulerService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (1): com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (2): androidx.startup.InitializationProvider, com.startapp.sdk.adsbase.StartAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5905
+  Total Methods : 44848
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://daneden.me/animate, https://support.start.io/hc/en-us/articles/360014774799, https://play.google.com/store/apps/details?id=com.rayan.textemoji, https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://opensource.org/licenses/MIT
+  IP Addresses(2): 10.0.2.15, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F4 1A 50 F1 34 F6 3B 8B 4D 0C 58 4D 12 F1 5A D3 C7 3F 7A 1D 41 2A 48 B9 8D 39 8C 0C 02 D4 97 AA
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : stophopper.cpta
+  SHA-256       : 00A69C962C7138CB97374AB941781295E6D85DBD9273B0641D64CCD838ADA271
+  Android Group : Android13
+  Version       : 4.11.15 (code: 8069)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 33
+
+[Permissions (34)]
+  android.permission.FOREGROUND_SERVICE, stophopper.cpta.permission.ACCESS, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CALL_PHONE, stophopper.cpta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (82): via.rider.activities.DeeplinkingActivity, com.facebook.CustomTabMainActivity, via.rider.activities.InboxActivity, com.facebook.CustomTabActivity, via.rider.activities.LoginActivity, com.facebook.FacebookActivity, via.rider.activities.LoginPhoneActivity, io.smooch.ui.NotificationActivity, via.rider.activities.SignUpActivity, com.twitter.sdk.android.core.identity.OAuthActivity, com.twitter.sdk.android.tweetcomposer.ComposerActivity, via.rider.activities.tickets.WebRemoteTicketsActivity, via.rider.activities.tickets.FlutterRemoteTicketsActivity, via.rider.activities.tickets.NativeTicketsActivity, via.rider.activities.MapActivity, via.rider.features.consent_manager.activity.ConsentManagerEditActivity, io.smooch.ui.ConversationActivity, com.canhub.cropper.CropImageActivity, via.rider.activities.concessions.ConcessionsActivity, zendesk.support.requestlist.RequestListActivity
+  Services   (22): com.zopim.android.sdk.api.ChatService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.adyen.checkout.base.analytics.AnalyticsDispatcher, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, via.rider.services.ViaFirebaseMessagingService, com.twitter.sdk.android.tweetcomposer.TweetUploadService, com.leanplum.LeanplumPushFirebaseMessagingService, com.leanplum.LeanplumLocalPushListenerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, io.smooch.core.service.SmoochService
+  Receivers  (22): io.smooch.ui.notification.NotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, via.rider.AdhocChangedReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, via.rider.receivers.JetbrainsBroadcastReceiver, via.rider.receivers.MailIntentBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.leanplum.LeanplumPushReceiver, com.forter.mobile.fortersdk.integrationkit.NetworkChangesListener, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.forter.mobile.fortersdk.utils.AlarmReceiver, androidx.profileinstaller.ProfileInstallReceiver, zendesk.support.DeepLinkingBroadcastReceiver, com.leanplum.LeanplumJobStartReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (15): com.zendesk.belvedere.BelvedereFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, zendesk.support.SupportSdkStartupProvider, com.squareup.picasso.PicassoProvider, com.facebook.FacebookContentProvider, zendesk.belvedere.BelvedereFileProvider, com.cardinalcommerce.a.setShadowLayer, androidx.core.content.FileProvider, io.sentry.android.core.SentryPerformanceProvider, com.canhub.cropper.CropFileProvider, zendesk.support.guide.GuideSdkStartupProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 47317
+  Total Methods : 283316
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Daniel Ramot; Organizational Unit: Unknown; Organization: Via Transportation, Inc.; Locality: New York; State/Province: NY; Country: US
+  Fingerprint : 44 29 8F DF D9 CD 9D AF 6E 4C 59 0D 55 B3 02 41 BF BA D3 A0 29 CB 1B 2A 33 76 C6 4E CD E8 5A D1
+
+==========================================

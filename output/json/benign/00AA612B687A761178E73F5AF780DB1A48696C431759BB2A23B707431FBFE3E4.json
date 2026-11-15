@@ -1,0 +1,71 @@
+{
+  "sha256": "00AA612B687A761178E73F5AF780DB1A48696C431759BB2A23B707431FBFE3E4",
+  "filename": "00AA612B687A761178E73F5AF780DB1A48696C431759BB2A23B707431FBFE3E4.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.mavr.splitter",
+  "version_name": "1.0.6",
+  "version_code": "6",
+  "min_sdk": "24",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.READ_CONTACTS",
+    "android.permission.INTERNET",
+    "com.mavr.splitter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.mavr.splitter.MainActivity",
+    "com.yandex.mobile.ads.common.AdActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "io.appmetrica.analytics.internal.AppMetricaService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "dev.fluttercommunity.plus.share.SharePlusPendingIntent",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "dev.fluttercommunity.plus.share.ShareFileProvider",
+    "io.appmetrica.analytics.internal.PreloadInfoContentProvider",
+    "com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider",
+    "com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14099,
+  "method_count": 60704,
+  "cert_fingerprint": "BF 81 65 ED CA 1D E0 27 97 18 D6 B1 89 68 EB 26 4C EF 0F 60 F3 F2 44 A0 4E 56 05 00 EE CB 8C D3",
+  "cert_issuer": "Common Name: mvrvntn, Organizational Unit: mvrvntn, Organization: mvrvntn, Locality: Kazan, State/Province: Tatarstan, Country: RU",
+  "urls": [
+    "https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+    "https://issuetracker.google.com/issues/241760537",
+    "https://appmetrica.io/docs/mobile-sdk-dg/android/about/android-initialize.html",
+    "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+    "https://developers.google.com/tink/faq/registration_errors",
+    "https://developer.android.com/guide/topics/permissions/overview",
+    "https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

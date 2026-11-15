@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.apps.tv9live.tv9liveapp
+  SHA-256       : 00A0E481054CB646AD382B99295821367F5430C622EF7DAF903F2B2EDD781202
+  Android Group : Android14
+  Version       : 4.9.1v (code: 45)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (13)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.FOREGROUND_SERVICE, android.permission.READ_PHONE_STATE, android.permission.VIBRATE, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (27): com.apps.tv9live.tv9liveapp.SearchActivity, com.apps.tv9live.tv9liveapp.storyScreen.LiveBlogActivity, com.apps.tv9live.tv9liveapp.liveTV.LiveTvActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.vidgyor.activity.VODFullScreenActivity, com.apps.tv9live.tv9liveapp.SettingsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.apps.tv9live.tv9liveapp.storyScreen.WebViewActivity, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity, com.apps.tv9live.tv9liveapp.videoScreen.MoreVideosActivity, com.apps.tv9live.tv9liveapp.storyScreen.StoryPagesActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.apps.tv9live.tv9liveapp.videoScreen.VideoPlayerActivity, com.facebook.CustomTabActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.apps.tv9live.tv9liveapp.videoScreen.VideoActivity, com.apps.tv9live.tv9liveapp.BookmarkedStories, com.apps.tv9live.tv9liveapp.storyScreen.ShowStoryImageActivity, com.apps.tv9live.tv9liveapp.storyScreen.VodFullScreenActivity
+  Services   (20): com.google.firebase.components.ComponentDiscoveryService, com.vidgyor.screen_handler.UpdateServices, com.google.android.gms.cast.framework.media.MediaNotificationService, com.vidgyor.livemidroll.notification.OnClearFromRecentService, com.google.android.gms.cast.framework.ReconnectionService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.feed.sdk.push.FeedMessagingService
+  Receivers  (16): com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.feed.sdk.push.activity.FeedSDKActionButton$ButtonReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.vidgyor.livemidroll.notification.NotificationActionServices, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (7): com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.marketing.internal.MarketingInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 28493
+  Total Methods : 173299
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): https://play.google.com/store/apps/details?id=, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://platform.twitter.com/widgets.js, https://developers.facebook.com/docs/sharing/android, https://twitter.com
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: ab cl, Organizational Unit: Associated Broadcasting Company P.Ltd, Organization: Associated Broadcasting Company P.Ltd, Locality: Hyderabad, State/Province: Andhra Pradesh, Country: IN
+  Fingerprint : E0 C5 2E C8 4E DE 7F A3 26 B5 FC 60 A6 E8 F7 C4 60 80 10 CC E5 0F FE 98 81 BD 07 D0 7F 52 BA F5
+
+==========================================

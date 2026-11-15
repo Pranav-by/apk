@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : nl.coffeeit.babymanager
+  SHA-256       : 00A8ED31546F6EC604BACCD36AD810FECC10E3410F67BE2190130A32A314A41F
+  Android Group : Android12
+  Version       : 1.5.0 (code: 105)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (11)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECORD_AUDIO, android.permission.CAMERA, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, android.permission.MODIFY_AUDIO_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (27): nl.coffeeit.babymanager.presentation.ui.main.video_call.StartVideoCallActivity, nl.coffeeit.babymanager.presentation.ui.main.subscription.early_bird_ended.EarlyBirdEndedActivity, nl.coffeeit.babymanager.presentation.ui.main.chat.ended.ChatEndedActivity, nl.coffeeit.babymanager.presentation.ui.main.chat.history.ChatHistoryActivity, nl.coffeeit.babymanager.presentation.ui.authenticate.AuthenticateActivity, nl.coffeeit.babymanager.presentation.ui.main.MainActivity, nl.coffeeit.babymanager.presentation.ui.main.courses.courses_home.courses_user.UserCoursesActivity, nl.coffeeit.babymanager.presentation.ui.splash.SplashActivity, nl.coffeeit.babymanager.presentation.ui.onboarding.OnboardingActivity, com.android.billingclient.api.ProxyBillingActivity, com.twilio.live.player.ui.VideoPlaybackActivity, nl.coffeeit.babymanager.presentation.ui.main.checklist.ChecklistActivity, nl.coffeeit.babymanager.presentation.ui.main.live.CourseLiveActivity, nl.coffeeit.babymanager.presentation.ui.main.courses.courses_home.courses_info.InfoCoursesActivity, nl.coffeeit.babymanager.presentation.ui.main.article.ArticleActivity, nl.coffeeit.babymanager.presentation.ui.main.videos.PlayVideoActivity, nl.coffeeit.babymanager.presentation.ui.main.feedback.FeedbackActivity, nl.coffeeit.babymanager.presentation.ui.main.chat.StartChatActivity, nl.coffeeit.babymanager.presentation.ui.main.update.pregnancy_date.UpdatePregnancyDateActivity, nl.coffeeit.babymanager.presentation.ui.main.payment.add.AddPaymentActivity
+  Services   (8): com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, nl.coffeeit.babymanager.presentation.services.AppFirebaseMessagingService
+  Receivers  (5): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, nl.coffeeit.babymanager.utils.notification.WakefulReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, nl.coffeeit.babymanager.utils.notification.BootReceiver
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 25129
+  Total Methods : 181826
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D0 4F EC 67 19 20 D7 16 3A 0E 06 B8 F1 27 87 A4 DE CB 26 E4 99 CA E1 33 F2 3F FF 5A 04 1E DA EF
+
+==========================================

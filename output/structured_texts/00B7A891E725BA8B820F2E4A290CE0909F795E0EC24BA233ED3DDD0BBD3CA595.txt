@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.orangemason.sba.ggze
+  SHA-256       : 00B7A891E725BA8B820F2E4A290CE0909F795E0EC24BA233ED3DDD0BBD3CA595
+  Android Group : Android12
+  Version       : 2.5.0 (code: 2050000)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (33)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.WRITE_CALENDAR, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.GET_ACCOUNTS, android.permission.RECORD_AUDIO, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_CONTACTS, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.USE_FINGERPRINT, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (6): com.orangemason.sba.ggze.MainActivity, com.google.zxing.client.android.CaptureActivity, com.google.android.gms.common.api.GoogleApiActivity, com.adobe.phonegap.push.BackgroundHandlerActivity, com.google.zxing.client.android.encode.EncodeActivity, com.adobe.phonegap.push.PushHandlerActivity
+  Services   (4): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.adobe.phonegap.push.FCMService, com.adobe.phonegap.push.PushInstanceIDListenerService
+  Receivers  (3): com.adobe.phonegap.push.PushDismissedHandler, com.adobe.phonegap.push.BackgroundActionButtonHandler, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): io.github.pwlin.cordova.plugins.fileopener2.FileProvider, org.apache.cordova.camera.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4937
+  Total Methods : 34359
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Thom Eijken, Organizational Unit: Unknown, Organization: OrangeMason BV, Locality: Amsterdam, State/Province: Unknown, Country: NL
+  Fingerprint : FC 19 75 E4 30 4A 0A DF C3 33 9D 55 F9 ED 7E 20 5C 59 10 C6 79 D5 78 F1 8E 02 E5 71 DA 8D 3A 29
+
+==========================================

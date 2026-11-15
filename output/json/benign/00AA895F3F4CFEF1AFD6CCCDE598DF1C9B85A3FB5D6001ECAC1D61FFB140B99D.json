@@ -1,0 +1,73 @@
+{
+  "sha256": "00AA895F3F4CFEF1AFD6CCCDE598DF1C9B85A3FB5D6001ECAC1D61FFB140B99D",
+  "filename": "00AA895F3F4CFEF1AFD6CCCDE598DF1C9B85A3FB5D6001ECAC1D61FFB140B99D.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "org.ya2.wvpn",
+  "version_name": "3.0",
+  "version_code": "8",
+  "min_sdk": "23",
+  "target_sdk": "32",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.google.android.gms.ads.AdActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "org.ya2.wvpn.MainActivity",
+    "org.ya2.wvpn.ServerActivity",
+    "org.ya2.wvpn.AdActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "com.google.android.gms.ads.AdService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 13165,
+  "method_count": 78592,
+  "cert_fingerprint": "AB B4 03 41 F2 D3 95 72 93 13 88 A0 8F 62 07 52 72 A2 8F 48 C6 28 F0 23 46 93 46 BA F8 B9 9B 12",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

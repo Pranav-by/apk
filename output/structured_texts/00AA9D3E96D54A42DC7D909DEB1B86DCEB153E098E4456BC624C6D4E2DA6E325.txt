@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.LocalRadioPlayer.HOTRadio
+  SHA-256       : 00AA9D3E96D54A42DC7D909DEB1B86DCEB153E098E4456BC624C6D4E2DA6E325
+  Android Group : Android15
+  Version       : 2025.06.01 (code: 250601)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (9)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.LocalRadioPlayer.HOTRadio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.MEDIA_CONTENT_CONTROL
+
+[Application Components]
+  Activities (3): crc64ba438d8f48cf7e75.IntermediateActivity, crc646051e9fbd76cbd37.MainActivity, crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity
+  Services   (2): crc64396a3fe5f8138e3f.KeepAliveService, communityToolkit.maui.media.services
+  Receivers  (4): crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver, crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver, crc64e53d2f592022988e.ConnectivityBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): microsoft.maui.essentials.fileProvider, androidx.startup.InitializationProvider, mono.MonoRuntimeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18015
+  Total Methods : 135951
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0D 33 A9 D7 DE 79 B7 12 86 16 51 A4 49 9C 57 4B A4 52 FE 1A FC 21 99 0E 7E 6C 5F 56 31 44 B0 F6
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.hodor.bztfd
+  SHA-256       : 006E42CB4260410D2C93DF12973AF5F8B8D6BF3BA5B79D38D0BE039ACBC1E028
+  Android Group : Android12
+  Version       : 1.4.60.1 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (28)]
+  android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.CHANGE_NETWORK_STATE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.apps.photos.permission.GOOGLE_PHOTOS, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.truecaller.permission.sdk.internal.read_account_state, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE
+
+[Application Components]
+  Activities (226): co.classplus.app.ui.base.viewModelTest.VMTestActivity, com.freshchat.consumer.sdk.activity.DeeplinkInterstitialActivity, com.freshchat.consumer.sdk.activity.PictureAttachmentActivity, com.freshchat.consumer.sdk.activity.CategoryListActivity, com.freshchat.consumer.sdk.activity.ArticleListActivity, com.freshchat.consumer.sdk.activity.ArticleDetailActivity, co.classplus.app.ui.tutor.batchdetails.resources.addresource.AddResourceActivity, com.freshchat.consumer.sdk.activity.InterstitialActivity, co.classplus.app.ui.tutor.testdetails.testupdate.UpdateTestActivity, com.clevertap.android.sdk.inbox.CTInboxActivity, co.classplus.app.ui.common.signup.onboarding.RevampOnBoardingActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, co.classplus.app.ui.common.game.GameZopWebViewActivity, co.classplus.app.ui.tutor.feemanagement.settings.structures.StructuresSettingsActivity, com.facebook.CustomTabActivity, co.classplus.app.ui.common.counselling.CounsellingActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.webengage.sdk.android.actions.render.WebEngageActivity
+  Services   (39): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, co.classplus.app.ui.common.attachment.AttachmentUploadService, com.webengage.sdk.android.ExecutorService, com.webengage.sdk.android.EventLogService, co.classplus.app.ui.antmedia.ui.session.LiveClassService, co.classplus.app.ui.antmedia.ui.session.screensharing.ScreenCaptureService, com.webengage.sdk.android.NotificationClickHandlerService, io.antmedia.android.broadcaster.LiveVideoBroadcaster, com.webengage.sdk.android.WebEngageJobService, co.classplus.app.ui.common.splash.updateUtm.UtmUpdateService, com.google.android.gms.auth.api.signin.RevocationBoundService, co.classplus.app.ui.tutor.batchdetails.resources.playvideo.youtubeanalytics.YoutubeAnalyticsService, live.hms.video.services.HMSScreenCaptureService, co.classplus.app.ui.common.jwplayer.updatesubscriberservice.SubscriberUpdateService, com.google.android.gms.analytics.AnalyticsJobService, co.classplus.app.cloudmessaging.handle.FcmMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, co.classplus.app.ui.tutor.batchdetails.announcements.sendservice.SendNewNoticeService, androidx.work.impl.background.systemjob.SystemJobService, co.classplus.app.ui.common.chat.SendChatMessageService
+  Receivers  (24): co.classplus.app.utils.receiver.SMSRetrieverBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.razorpay.RzpTokenReceiver, com.freshchat.consumer.sdk.receiver.FreshchatReceiver, com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.webengage.sdk.android.WebEngageReceiver, live.hms.video.services.LogAlarmManager, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (9): io.intercom.android.sdk.IntercomInitializeContentProvider, com.facebook.internal.FacebookInitProvider, com.freshchat.consumer.sdk.provider.FreshchatInitProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, droidninja.filepicker.utils.FilePickerProvider, co.classplus.app.utils.ClassplusFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 30322
+  Total Methods : 183072
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 1.4.60.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 2C 6C BA 8F 83 00 0D D4 FD 30 B6 F2 BA 05 62 56 C5 70 73 34 3D 86 E2 3E A1 74 B6 8B CD 55 C3 D6
+
+==========================================

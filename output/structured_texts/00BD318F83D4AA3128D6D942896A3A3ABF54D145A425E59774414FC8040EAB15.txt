@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pgstudio.survival
+  SHA-256       : 00BD318F83D4AA3128D6D942896A3A3ABF54D145A425E59774414FC8040EAB15
+  Android Group : Android12
+  Version       : 0.3.478 (code: 326)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (10)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (14): com.android.billingclient.api.ProxyBillingActivity, net.openid.appauth.AuthorizationManagementActivity, com.google.games.bridge.NativeBridgeActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.elringus.unitygoogledriveandroid.AuthorizationActivity, com.unity3d.player.UnityPlayerActivity, net.openid.appauth.RedirectUriReceiverActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (8): com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (4): com.appsflyer.MultipleInstallBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.hippogames.simpleandroidnotifications.Controller, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (1): com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10730
+  Total Methods : 61126
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Darkbarkltd
+  Fingerprint : 5F 43 D6 09 3F 26 C0 BD DB 04 76 00 FF 28 B6 98 9A 4B BB 09 AF 1D 35 7D 05 49 0E 16 88 B9 E3 93
+
+==========================================

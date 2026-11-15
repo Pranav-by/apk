@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.luyun.pinkdiary
+  SHA-256       : 008BA408F72341F352391DFDA8AA21B865CD64C643171D0700E350FDE474EBB0
+  Android Group : Android12
+  Version       : 2.8.0 (code: 280)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (25)]
+  android.permission.MOUNT_UNMOUNT_FILESYSTEMS, org.simalliance.openmobileapi.SMARTCARD, android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.REORDER_TASKS, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.QUERY_ALL_PACKAGES, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.USE_FINGERPRINT, android.permission.CAMERA, com.asus.msa.SupplementaryDID.ACCESS, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (119): com.byazt.tc.Stub_SingleTask_Activity_T, com.byazt.tc.Stub_SingleTask_Activity, com.byazt.tc.Stub_Activity, com.byazt.ou.ApiDownloadHandleNotificationActivity, com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy, com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityLiveProcessProxy, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait2, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait4, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait5, com.byted.live.lite.Activity_bytelive_singleTask4, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait3, com.byazt.tc.Stub_Standard_Activity_T, com.byazt.tc.Stub_Standard_Landscape_Activity, com.byted.live.lite.Activity_bytelive_singleTop3, com.byted.live.lite.Activity_bytelive_singleTop2, com.byted.live.lite.Activity_bytelive_singleTop5, com.byted.live.lite.Activity_bytelive_singleTop4, com.byted.live.lite.Activity_bytelive_standard, com.byted.live.lite.Activity_bytelive_singleTop1
+  Services   (14): com.qq.e.comm.DownloadService, com.ss.android.socialbase.appdownloader.DownloadHandlerService, com.azhon.appupdate.service.DownloadService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.byazt.ou.ApiDownloadHandlerService, com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService, com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService, com.ss.android.socialbase.downloader.downloader.CSJIndependentProcessDownloadService, com.byazt.gl.BinderPoolService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.ss.android.socialbase.downloader.downloader.CSJDownloadService, com.luck.picture.lib.service.ForegroundService, com.ss.android.socialbase.downloader.impls.DownloadHandleService
+  Receivers  (2): com.byazt.oak.Collector, com.ss.android.downloadlib.core.download.DownloadReceiver
+  Providers  (16): com.byted.live.lite.ServerManager_downloader, com.byazt.zl.MainServerManager, com.byazt.vf.TTMultiProvider, com.byazt.ods.MainServerManager, androidx.startup.InitializationProvider, com.byazt.gm.MainProcessProviderProxy, com.luck.picture.lib.basic.PictureFileProvider, androidx.core.content.FileProvider, com.byazt.et.FileProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.byted.live.lite.ServerManager_bytelive, com.azhon.appupdate.config.AppUpdateFileProvider, razerdp.basepopup.BasePopupInitializer, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byted.live.lite.ServerManager_push, com.byazt.zl.DownloaderServerManager
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 217
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: LuDeQingYun, Locality: ShenZhen, State/Province: GuangDong, Country: 86
+  Fingerprint : 70 9F 1E CB D2 3F B7 4F 22 1F 34 1F B7 D0 8F 00 CB EF 73 93 99 B7 31 59 CA D3 0A 72 EC AE 79 D5
+
+==========================================

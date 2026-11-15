@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.subsplashconsulting.s_BV9MB8
+  SHA-256       : 00482404A9E5B3787238C69050F34888FB660DB38E8489FFA6F71A3550FDD740
+  Android Group : Android13
+  Version       : 6.3.1 (code: 2290)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (22)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, com.subsplashconsulting.s_BV9MB8.permission.MAPS_RECEIVE, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (34): com.subsplash.thechurchapp.handlers.groups.GroupsActivity, com.facebook.react.devsupport.DevSettingsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.yalantis.ucrop.UCropActivity, com.subsplash.thechurchapp.handlers.inbox.InboxActivity, com.subsplash.thechurchapp.SplashActivity, com.subsplash.thechurchapp.DeepLinkActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.subsplash.thechurchapp.BaseActivity, com.subsplash.thechurchapp.AppUtilityActivity, com.subsplash.thechurchapp.auth.AuthActivity, com.subsplash.thechurchapp.ErrorActivity, com.subsplash.thechurchapp.FragmentHostActivity, com.subsplash.thechurchapp.handlers.notes.NoteActivity, com.subsplash.thechurchapp.media.MediaActivity, com.subsplash.thechurchapp.media.MediaDownloadsActivity, com.subsplash.thechurchapp.handlers.browser.BrowserActivity, com.subsplash.thechurchapp.handlers.detail.MediaDetailActivity, com.subsplash.thechurchapp.handlers.reader.ReaderPostActivity, com.subsplash.thechurchapp.handlers.settings.SettingsActivity
+  Services   (19): com.google.firebase.messaging.FirebaseMessagingService, com.subsplash.thechurchapp.media.TrackMediaProgress, com.subsplash.thechurchapp.api.PushIntentService, com.subsplash.thechurchapp.media.MediaPlaybackService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (14): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.subsplash.thechurchapp.media.MediaIntentReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (10): androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.core.content.FileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.vinzscam.reactnativefileviewer.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16485
+  Total Methods : 96855
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://goo.gl/8Rd3yj
+  IP Addresses(1): 10.0.1.1
+
+[Certificate]
+  Issuer      : Common Name: Tim Turner, Organizational Unit: Product Development, Organization: Subsplash, Locality: Seattle, State/Province: Washington, Country: US
+  Fingerprint : B3 0B 41 D1 AB A6 A0 DE A5 78 DF 76 F0 7A 02 6A 2E FC B5 B1 20 21 E2 A4 F8 EB 08 48 E1 55 81 0D
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : id.BeeDev.FullHDBlackWallpaper
+  SHA-256       : 00A2F2B45512913F5EF6296B3F7DC1B70E6292028CC001CE572DC812E0237243
+  Android Group : Android12L
+  Version       : 1.0.18 (code: 20)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (15)]
+  com.google.android.gms.permission.AD_ID, android.permission.SET_WALLPAPER_HINTS, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.SET_WALLPAPER, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_SETTINGS, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (12): dev.jahir.frames.ui.activities.ViewerActivity, dev.jahir.frames.ui.activities.MuzeiSettingsActivity, com.google.android.gms.ads.AdActivity, dev.jahir.frames.ui.activities.FramesActivity, com.github.javiersantos.piracychecker.activities.LicenseActivity, com.google.android.gms.common.api.GoogleApiActivity, dev.jahir.frames.ui.activities.AboutActivity, com.android.billingclient.api.ProxyBillingActivity, dev.jahir.frames.app.MainActivity, com.google.android.gms.ads.OutOfContextTestingActivity, dev.jahir.frames.ui.activities.SettingsActivity, dev.jahir.frames.ui.activities.CollectionActivity
+  Services   (5): com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, dev.jahir.frames.app.MuzeiService
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 11310
+  Total Methods : 43897
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.google.com/admob/android/test-ads#enable_test_devices, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : BB 82 8A 75 3B 84 2B 06 13 4D 49 D9 79 B1 3E C3 B7 07 D9 DE 6F 32 0E D3 0F FC A0 1E BB E8 EC B9
+
+==========================================

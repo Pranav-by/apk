@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.Merriciya.movies.oppo_health
+  SHA-256       : 000DB2A2C11A8EC902E3D586574026E43CB09284F695BCDC1FC0F407EE81B87A
+  Android Group : Android12
+  Version       : 1.1 Merriciya movies (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (36)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (37): com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.applovin.creative.MaxCreativeDebuggerActivity, com.yandex.mobile.ads.common.AdActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.Merriciya.movies.oppo_health.SbolActivity, com.ironsource.sdk.controller.ControllerActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.google.android.gms.ads.AdActivity, com.facebook.ads.AudienceNetworkActivity, com.Merriciya.movies.oppo_health.Activity.AppIntroActivity, com.onesignal.PermissionsActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.Merriciya.movies.oppo_health.Activity.NoInternetConnectionActivity, com.applovin.sdk.AppLovinWebViewActivity, com.Merriciya.movies.oppo_health.Activity.Splash, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.onesignal.NotificationOpenedReceiver
+  Services   (21): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentJobService, com.onesignal.FCMIntentService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.google.firebase.components.ComponentDiscoveryService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.BootUpReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (9): com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.my.target.common.MyTargetContentProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.yandex.metrica.PreloadInfoContentProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 33776
+  Total Methods : 190577
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://techmodawin.github.io/nacerapps/nacer.json//, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 6.5.1.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 15 E2 1F AE CB 81 05 46 BE A2 1B 9E 22 33 F8 31 12 0D F0 F8 C2 1D 0C 23 A6 59 D3 56 A5 DF 91 5D
+
+==========================================

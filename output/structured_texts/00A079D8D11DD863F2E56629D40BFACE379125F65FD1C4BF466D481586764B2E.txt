@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : br.com.radiosapp5.msrdiogospel
+  SHA-256       : 00A079D8D11DD863F2E56629D40BFACE379125F65FD1C4BF466D481586764B2E
+  Android Group : Android15
+  Version       : 1.3 (code: 1300)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (12)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, br.com.radiosapp5.msrdiogospel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.USE_FULL_SCREEN_INTENT
+
+[Application Components]
+  Activities (3): io.flutter.plugins.urllauncher.WebViewActivity, br.com.radiosapp5.msrdiogospel.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.cheebeez.radio_player.RadioPlayerService, com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+  Receivers  (8): com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.media.session.MediaButtonReceiver
+  Providers  (3): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5109
+  Total Methods : 28719
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Mauricio Souza, Organizational Unit: TI, Organization: R dios do Brasil APP, Locality: Itaja¡, State/Province: SC, Country: BR
+  Fingerprint : 22 C4 2F 9F DB AB 69 B3 14 DF A7 7D 8D 27 5A F2 4C D2 A1 A1 3E 64 6D A5 C9 69 5A 8B EB 22 01 87
+
+==========================================

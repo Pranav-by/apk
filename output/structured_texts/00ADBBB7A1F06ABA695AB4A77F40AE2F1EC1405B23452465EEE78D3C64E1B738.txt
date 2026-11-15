@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.twansoftware.invoicemakerpro
+  SHA-256       : 00ADBBB7A1F06ABA695AB4A77F40AE2F1EC1405B23452465EEE78D3C64E1B738
+  Android Group : Android12L
+  Version       : 9.32 (code: 9320000)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (46): com.stripe.android.view.PaymentRelayActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.firebase.ui.auth.ui.credentials.CredentialSaveActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.twansoftware.invoicemakerpro.SignDocumentActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, io.card.payment.DataEntryActivity, com.twansoftware.invoicemakerpro.NewMainActivity, com.android.billingclient.api.ProxyBillingActivity, com.twansoftware.invoicemakerpro.SingleFragmentActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.twansoftware.invoicemakerpro.NotSetupActivity, io.card.payment.CardIOActivity, com.twansoftware.invoicemakerpro.StartupActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.twansoftware.invoicemakerpro.UpgradeActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity
+  Services   (12): com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.twansoftware.invoicemakerpro.gcm.FirebaseListenerService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.twansoftware.invoicemakerpro.service.DownloadAndShareService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.twansoftware.invoicemakerpro.service.PngAndShareService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (5): androidx.core.content.FileProvider, com.firebase.ui.auth.data.client.AuthUiInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 38270
+  Total Methods : 248665
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Tony Chuinard, Organizational Unit: Boss, Organization: Twan Software, Locality: Chicago, State/Province: IL, Country: US
+  Fingerprint : E6 0D 02 7A 6B 2C 40 32 36 CA 05 E7 B3 B9 14 F0 4B C2 BF 9F C1 15 EA 7F 10 A4 52 28 FF 60 C1 FC
+
+==========================================

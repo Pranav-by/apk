@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hapitu.wsdwys
+  SHA-256       : 0002628A6672B7450F5D149A811B22329AB5E6EE4E220E5BCBE4750756FE935C
+  Android Group : Android14
+  Version       : 1.0.1 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_SETTINGS, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_NETWORK_STATE, com.hapitu.wsdwys.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.VIBRATE, freemme.permission.msa, android.permission.WRITE_EXTERNAL_STORAGE, com.hapitu.wsdwys.openadsdk.permission.TT_PANGOLIN, com.asus.msa.SupplementaryDID.ACCESS, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (152): com.bytedance.msdk.api.activity.TTDelegateActivity, com.hapitu.wsdwys.sqfobk10.Muoaab1Activity, com.hapitu.wsdwys.ogziuq16.Fjmimb1Activity, com.hapitu.wsdwys.eadbaz25.Mwzdrc2Activity, com.byted.live.lite.Activity_bytelive_singleTask3, com.hapitu.wsdwys.xymmri8.Yrpgvc2Activity, com.byted.live.lite.Activity_bytelive_standard, com.byted.live.lite.Activity_main_standard, com.byted.live.lite.Activity_main_singleTop4, com.byted.live.lite.Activity_bytelive_singleTop6, com.hapitu.wsdwys.wmgpzm12.Gjosqc2Activity, com.hapitu.wsdwys.ujxirl11.Iuzkdb1Activity, com.hapitu.wsdwys.cozclx23.Tmnxhb1Activity, com.hapitu.wsdwys.gywinp15.Hiwfzb1Activity, com.hapitu.wsdwys.nunuzb1.Szfuea0Activity, com.hapitu.wsdwys.ogziuq16.Moeozc2Activity, com.hapitu.wsdwys.ghhfyt19.Nxsbfa0Activity, com.hapitu.wsdwys.pmdqkd3.Dpftra0Activity, com.hapitu.wsdwys.hyswjj9.Rabcmc2Activity, com.hapitu.wsdwys.gsajzbb27.Zpsoha0Activity
+  Services   (12): com.byazt.gxh.CSJDownloadService, com.luck.picture.lib.service.ForegroundService, com.byazt.hmg.DownloadHandleService, com.efs.sdk.memleaksdk.monitor.UMonitorService, com.byazt.gxh.SqlDownloadCacheService, com.byazt.gxh.CSJIndependentProcessDownloadService, com.byazt.ok.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.byazt.bis.DownloadHandlerService, com.byazt.gk.ApiDownloadHandlerService, com.byazt.bis.RetryJobSchedulerService, com.byazt.wjq.DownloadNotificationService
+  Receivers  (3): com.byazt.ni.Collector, com.byazt.nzk.DownloadReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (14): com.byazt.sdt.FileProvider, com.byted.live.lite.ServerManager_bytelive, com.byted.live.lite.ServerManager_push, com.luck.picture.lib.basic.PictureFileProvider, androidx.core.content.FileProvider, com.byazt.fy.TTMultiProvider, androidx.startup.InitializationProvider, me.jessyan.autosize.InitProvider, com.byazt.mn.DownloaderServerManager, com.byted.live.lite.ServerManager_downloader, com.byazt.mn.MainServerManager, com.byazt.eag.MainServerManager, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byazt.fs.MainProcessProviderProxy
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 22124
+  Total Methods : 176346
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(10): 5.4.0.3, 5.3.3.8, 6.8.1.6, 4.25.9.0, 4.4.0.0, 127.0.0.1, 5.1.0.0, 17.2.0.73, 8.7.2.0, 7.5.1.6
+
+[Certificate]
+  Issuer      : Common Name: 合肥奥瑞利科技有限公司, Organizational Unit: 合肥奥瑞利科技有限公司, Organization: 合肥奥瑞利科技有限公司, Locality: 合肥, State/Province: 安徽, Country: CN
+  Fingerprint : 2C 7A 8D D4 FA DE 6E 5A 92 24 5E F3 CB B0 32 93 05 6C C3 B7 2B 99 60 71 06 8A 0B 71 E2 C9 00 74
+
+==========================================

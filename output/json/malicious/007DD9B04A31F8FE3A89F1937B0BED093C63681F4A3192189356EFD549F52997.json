@@ -1,0 +1,60 @@
+{
+  "sha256": "007DD9B04A31F8FE3A89F1937B0BED093C63681F4A3192189356EFD549F52997",
+  "filename": "007DD9B04A31F8FE3A89F1937B0BED093C63681F4A3192189356EFD549F52997.apk",
+  "android_version": "Android14",
+  "label": "malicious",
+  "package_name": "com.searchgrand.foodapp",
+  "version_name": "1.6",
+  "version_code": "6",
+  "min_sdk": "21",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.android.vending.CHECK_LICENSE",
+    "com.searchgrand.foodapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "com.pairip.licensecheck.LicenseActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "com.searchgrand.foodapp.MainActivity",
+    "com.razorpay.CheckoutActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.google.android.gms.auth.api.signin.RevocationBoundService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "com.razorpay.RzpTokenReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.pairip.licensecheck.LicenseContentProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 8405,
+  "method_count": 60921,
+  "cert_fingerprint": "26 05 C8 45 82 24 1E F3 C9 EF D0 63 23 B4 D2 58 06 4F BA 4F 0D 3A 25 A0 9D 45 DC 92 11 14 82 59",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

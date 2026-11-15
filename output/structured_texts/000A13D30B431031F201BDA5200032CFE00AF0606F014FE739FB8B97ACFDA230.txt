@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tonestro.recorder
+  SHA-256       : 000A13D30B431031F201BDA5200032CFE00AF0606F014FE739FB8B97ACFDA230
+  Android Group : Android14
+  Version       : @7F12001D (code: 159641)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (18)]
+  android.permission.RECORD_AUDIO, android.permission.CREATE_USERS, com.google.android.gms.permission.AD_ID, com.tonestro.recorder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.MANAGE_USERS, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, com.android.vending.BILLING, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (10): com.facebook.FacebookActivity, crc64ba438d8f48cf7e75.IntermediateActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabMainActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.CustomTabActivity, crc641a85dfeab80bb1fa.MainActivity, crc641a85dfeab80bb1fa.SplashActivity
+  Services   (7): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, crc641a85dfeab80bb1fa.TonestroFirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (10): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, crc64e53d2f592022988e.ConnectivityBroadcastReceiver, crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver, crc641a85dfeab80bb1fa.InstallReferrerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+  Providers  (7): io.sentry.android.core.SentryInitProvider, microsoft.maui.essentials.fileProvider, mono.MonoRuntimeProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryPerformanceProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15363
+  Total Methods : 104252
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : AA 9E EB CE 10 BD 42 70 38 FF 8C 9C FA B5 09 C9 3F 49 A9 E1 71 05 33 37 BD A0 EC B7 E6 E3 DC 7B
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.etermax.trivia.preguntados2
+  SHA-256       : 00A78C06330CD3F997984D5D8D9CB1A4B8D7C859A9A97CEFD13C57578E24D1EF
+  Android Group : Android14
+  Version       : 1.194.2 (code: 412)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (22)]
+  com.etermax.trivia.preguntados2.permission.C2D_MESSAGE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.USE_CREDENTIALS, com.etermax.trivia.preguntados2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.MANAGE_ACCOUNTS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.GET_ACCOUNTS, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.AUTHENTICATE_ACCOUNTS, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (128): com.google.android.gms.ads.AdActivity, com.hyprmx.android.sdk.activity.HyprMXNoOffersActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.x3mads.android.xmediator.core.debuggingsuite.eventviewer.presentation.EventViewerActivity, com.chartboost.sdk.view.CBImpressionActivity, com.applovin.adview.AppLovinFullscreenActivity, com.ogury.cm.ConsentActivity, com.applovin.sdk.AppLovinWebViewActivity, io.presage.interstitial.ui.InterstitialActivity, com.hyprmx.android.sdk.overlay.HyprMXBrowserActivity, com.facebook.unity.FBUnityGamingServicesFriendFinderActivity, com.fyber.inneractive.sdk.activities.FyberReportAdActivity, com.google.android.gms.ads.NotificationHandlerActivity, io.presage.interstitial.ui.InterstitialAndroid8RotableActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.mbridge.msdk.activity.MBCommonActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.appboy.unity.UnityNotificationsFix, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore
+  Services   (24): com.google.firebase.messaging.cpp.ListenerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.cpp.RegistrationIntentService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.messaging.cpp.MessageForwardingService, com.google.firebase.messaging.MessageForwardingService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, com.etermax.sharedaccount.AuthenticatorAccountService, com.braze.push.BrazeFirebaseMessagingService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (21): com.yasirkula.unity.NativeShareBroadcastListener, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.appboy.unity.AppboyUnityPushBroadcastReceiver, com.braze.push.BrazePushReceiver, com.ogury.core.internal.OguryLogEnablerReceiver, com.unity.androidnotifications.UnityNotificationManager, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (16): com.google.firebase.provider.FirebaseInitProvider, com.fyber.fairbid.internal.UncaughtExceptionHandlerContentProvider, com.facebook.ads.AudienceNetworkContentProvider, com.vungle.ads.internal.util.VungleProvider, com.facebook.internal.FacebookInitProvider, com.etermax.anrdetector.tracker.amplitude.AmplitudeAnrTrackerProvider, io.bidmachine.BidMachineInitProvider, com.squareup.picasso.PicassoProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.yasirkula.unity.NativeShareContentProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.FacebookContentProvider, androidx.startup.InitializationProvider, com.hyprmx.android.sdk.utility.HyprMXFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 10
+  Total Classes : 71961
+  Total Methods : 445854
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Etermax
+  Fingerprint : 6D 56 0E 33 C6 C6 9C A4 6F 37 98 8B DF 42 CC 8D E2 BC BB E8 1D 87 36 D6 42 44 18 02 67 D1 F3 EE
+
+==========================================

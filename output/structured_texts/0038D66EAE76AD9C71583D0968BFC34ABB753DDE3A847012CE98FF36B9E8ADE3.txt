@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.persis.app
+  SHA-256       : 0038D66EAE76AD9C71583D0968BFC34ABB753DDE3A847012CE98FF36B9E8ADE3
+  Android Group : Android12
+  Version       : 8.5.2 (code: 38)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (31)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (5): com.persis.app.MainActivity, com.zoontek.rnbootsplash.RNBootSplashActivity, com.yalantis.ucrop.UCropActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (13): com.google.firebase.components.ComponentDiscoveryService, com.wix.reactnativenotifications.fcm.FcmInstanceIdListenerService, com.wix.reactnativenotifications.fcm.FcmInstanceIdRefreshHandlerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService, com.wix.reactnativenotifications.core.ProxyService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+  Receivers  (7): com.google.android.gms.measurement.AppMeasurementReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationActions, com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
+  Providers  (8): com.reactnativecommunity.webview.RNCWebViewFileProvider, com.chirag.RNMail.RNMailFileProvider, androidx.core.content.FileProvider, com.imagepicker.ImagePickerProvider, cl.json.RNShareFileProvider, com.RNFetchBlob.Utils.FileProvider, com.google.firebase.provider.FirebaseInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 16444
+  Total Methods : 109054
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://raw.githubusercontent.com/drewnoakes/metadata-extractor-images/master/%s, http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  IP Addresses(4): 10.0.2.2, 10.0.1.1, 10.0.3.2, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 45 F9 3C 35 4A 29 30 E5 B8 C6 FB 24 94 5D F5 28 4E D8 29 16 05 5C 09 45 7A 5A 60 0B 40 B0 C0 F1
+
+==========================================

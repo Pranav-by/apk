@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.app.p4877EI
+  SHA-256       : 00A40DAC02572672065D2CF0CC18BAF2898D3C4CF04AAA4DFD2983B5B98CA9B9
+  Android Group : Android13
+  Version       : 1.52.0 (code: 1656521497)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (13)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.app.p4877EI.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (11): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, io.flutter.plugins.urllauncher.WebViewActivity, com.app.p4877EI.MainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.linusu.flutter_web_auth.CallbackActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (16): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, com.baseflow.geolocator.GeolocatorLocationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.ryanheise.audioservice.AudioService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, androidx.room.MultiInstanceInvalidationService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.ryanheise.audioservice.MediaButtonReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (9): vn.hunghd.flutterdownloader.DownloadedFileProvider, com.pichillilorenzo.flutter_inappwebview.InAppWebViewFileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.dataxad.flutter_mailer.FlutterMailerFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7442
+  Total Methods : 37809
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://goo.gl/J1sWQy, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: AppMachine B.V., Organizational Unit: AppMachine B.V., Organization: AppMachine B.V., Locality: Heerenveen, State/Province: Friesland, Country: NL
+  Fingerprint : 80 59 A1 02 79 BF AC AE 08 18 00 E1 3A 6C D9 84 1F 8C 34 00 E2 84 92 4E 29 0C 4F 29 D7 BF DE DB
+
+==========================================

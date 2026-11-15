@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hungama.myplay.activity
+  SHA-256       : 007307CF64970CB95F2B9EC6AD9D5311FEF049210EB9385E6E96AC417B494922
+  Android Group : Android12L
+  Version       : 6.1.1 (code: 478)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (24)]
+  android.permission.VIBRATE, android.permission.BLUETOOTH_ADMIN, android.permission.CHANGE_NETWORK_STATE, com.hungama.myplay.activity.permission.MIPUSH_RECEIVE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permiunamagamssion.BLUETOOTH, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.READ_CONTACTS, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PHONE_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS
+
+[Application Components]
+  Activities (34): com.hungama.music.ui.main.view.activity.CommonWebViewActivity, com.moengage.pushbase.activities.PushTracker, com.hungama.music.player.videoplayer.VideoPlayerActivity, com.android.billingclient.api.ProxyBillingActivity, com.moengage.pushbase.activities.PushClickDialogTracker, com.hungama.music.ui.main.view.activity.StoryDisplayActivity, com.moengage.integrationverifier.internal.IntegrationVerificationActivity, com.hungama.music.ui.main.view.activity.EnterMobileNumberActivity, com.hungama.music.ui.main.view.activity.EnterEmailActivity, com.hungama.music.ui.main.view.activity.PaymentWebViewActivity, com.hungama.music.ui.main.view.activity.ChooseMusicLanguageActivity, com.moe.pushlibrary.activities.MoEActivity, com.moengage.cards.ui.CardActivity, com.hungama.music.ui.main.view.activity.HapticFeedback, com.google.android.gms.common.api.GoogleApiActivity, com.hungama.music.ui.main.view.activity.ChromeCustomTab, com.facebook.FacebookActivity, com.hungama.music.ui.main.view.activity.MainActivity, com.facebook.CustomTabMainActivity, com.hungama.music.ui.main.view.activity.SplashActivity
+  Services   (35): com.moengage.rtt.internal.RttIntentService, com.moengage.rtt.internal.RttSyncJob, com.moengage.pushamp.internal.PushAmpIntentService, com.appsflyer.FirebaseMessagingServiceListener, com.moengage.pushamp.internal.PushAmpSyncJob, com.moengage.pushbase.push.MoEPushWorker, com.moengage.core.MoEWorker, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.hungama.music.player.videoplayer.services.VideoPlayerService, com.hungama.music.player.audioplayer.services.AudioPlayerService, com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService, com.hungama.music.player.download.DemoDownloadService, com.hungama.music.eventanalytic.util.MyFirebaseMessagingService, com.xiaomi.push.service.XMPushService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.xiaomi.push.service.XMJobService, com.xiaomi.mipush.sdk.MessageHandleService, com.moengage.firebase.MoEFireBaseMessagingService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService
+  Receivers  (28): com.moengage.rtt.internal.RttReceiver, com.moengage.pushamp.internal.PushAmpAlarmReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.media.session.MediaButtonReceiver, com.hungama.music.player.download.DownloadReceiver, com.hungama.music.player.audioplayer.widget.PlayerWidget, com.hungama.music.player.audioplayer.widget.PlayerWidget2, com.hungama.music.player.audioplayer.widget.PlayerWidget3, com.xiaomi.push.service.receivers.PingReceiver, com.moengage.pushbase.MoEPushReceiver, com.appsflyer.SingleInstallBroadcastReceiver, com.moengage.mi.MoEMiPushReceiver, com.hungama.music.utils.CommonUtils$ShareIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (6): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.facebook.FacebookContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 29246
+  Total Methods : 159145
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Kunwar Handa, Organizational Unit: Technical(Mobile), Organization: Hungama Digital Media Entertainment Pvt. Ltd, Locality: Mumbai, State/Province: Maharashtra, Country: 91
+  Fingerprint : CA 82 1D 62 F2 04 D9 B3 15 6F 66 CF A7 D1 AD 8B FC 1A 9E C6 66 00 E9 CD 62 67 77 00 AF 69 46 7D
+
+==========================================

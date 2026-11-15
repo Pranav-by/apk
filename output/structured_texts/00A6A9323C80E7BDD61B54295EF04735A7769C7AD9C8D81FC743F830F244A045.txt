@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.odnovolov.forgetmenot
+  SHA-256       : 00A6A9323C80E7BDD61B54295EF04735A7769C7AD9C8D81FC743F830F244A045
+  Android Group : Android12
+  Version       : 1.9.0 (code: 19)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (3)]
+  android.permission.WAKE_LOCK, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE
+
+[Application Components]
+  Activities (2): com.jakewharton.processphoenix.ProcessPhoenix, com.odnovolov.forgetmenot.presentation.common.mainactivity.MainActivity
+  Services   (1): com.odnovolov.forgetmenot.presentation.screen.player.service.PlayerService
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6837
+  Total Methods : 26585
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://play.google.com/store/apps/details?id=com.odnovolov.forgetmenot
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6D 9E 6E 99 05 77 69 BF BB AE C9 EA 81 3D 39 1D EE 0F CC C4 74 F7 12 D7 81 DD B2 D4 E5 D1 ED CD
+
+==========================================

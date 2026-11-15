@@ -1,0 +1,53 @@
+{
+  "sha256": "00A5B01FD321B7C0BDD7EBC1FD2BA51977E007C48E4EF903DAF0A2A7267FAEC8",
+  "filename": "00A5B01FD321B7C0BDD7EBC1FD2BA51977E007C48E4EF903DAF0A2A7267FAEC8.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.kandurr.FemaleReproductiveSystem3D",
+  "version_name": "1.0.8",
+  "version_code": "9",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.facebook.ads.AudienceNetworkActivity"
+  ],
+  "activity_count": 6,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.facebook.ads.AudienceNetworkContentProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2426,
+  "method_count": 13954,
+  "cert_fingerprint": "D1 D0 5F 88 ED 0E EE F7 0D AB 0F 49 BC 7F 8A FA 17 1B 21 A1 A6 3C 66 17 1C CF CC 8E 4E CE 8A 4D",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

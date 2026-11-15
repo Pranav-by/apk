@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sihog.behedgingfast
+  SHA-256       : 003640BBA98BDF5C69FBE87C327719BCFEE5ECE1C4A2176AC60EE94222784F62
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (29): com.sihog.behedgingfast.SkinActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, com.ironsource.sdk.controller.InterstitialActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.ironsource.sdk.controller.ControllerActivity, com.sihog.behedgingfast.SplashActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.mopub.common.privacy.ConsentDialogActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.gms.ads.AdActivity, com.applovin.sdk.AppLovinWebViewActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.adview.AppLovinInterstitialActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity
+  Services   (14): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.startapp.sdk.cachedservice.BackgroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.startapp.sdk.jobs.SchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (10): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (8): com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.flurry.android.agent.FlurryContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 11598
+  Total Methods : 57199
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://aliendro.id/projek/newskintool/offscreen-render.html, https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css, https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, https://daneden.me/animate
+  IP Addresses(6): 7.1.12.1, 6.8.0.0, 10.3.5.0, 20.3.0.0, 3.7.5.0, 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5B 20 B9 DF 26 66 74 C7 77 73 10 B7 E0 31 75 3A 85 67 11 B2 C6 67 0F DA 9A DD 24 7E B5 E7 69 FE
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ds.zlpx_live_push
+  SHA-256       : 00544BBEFD8ECA463E9A223407B23898DEC9C5E9AC5188E77AAC86D55EB23A7A
+  Android Group : Android15
+  Version       : 1.4.9 (code: 64)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (40)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.BLUETOOTH_ADMIN, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.ACCESS_MEDIA_LOCATION, com.ds.zlpx_live_push.permission.PROCESS_PUSH_MSG, android.permission.QUERY_ALL_PACKAGES, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (29): com.alipay.sdk.app.H5AuthActivity, com.alipay.sdk.app.PayResultActivity, com.alipay.sdk.app.H5PayActivity, com.huawei.hms.activity.EnableServiceActivity, cn.android.service.JTransitActivity, com.huawei.hms.activity.BridgeActivity, cn.jpush.android.service.JNotifyActivity, cn.jpush.android.ui.PopWinActivity, cn.jpush.android.ui.PushActivity, com.alipay.sdk.app.APayEntranceActivity, com.alivc.rtc.share.ScreenShareControl$ScreenCaptureAssistantActivity, com.alipay.sdk.app.H5OpenAuthActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.mobile.auth.gatewayauth.activity.AuthWebVeiwActivity, com.mobile.auth.gatewayauth.LoginAuthActivity, com.cmic.sso.sdk.activity.LoginAuthActivity, com.ds.zlpx_live_push.pages.MainActivity, com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity, io.github.v7lin.wechat_kit.WechatCallbackActivity, io.flutter.embedding.android.FlutterActivity
+  Services   (17): com.xiaomi.push.service.XMJobService, com.huawei.agconnect.core.ServiceDiscovery, cn.jpush.android.service.PushService, androidx.camera.core.impl.MetadataHolderService, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.gms.metadata.ModuleDependencies, com.xiaomi.mipush.sdk.PushMessageHandler, com.heytap.msp.push.service.DataMessageCallbackService, com.jiguang.jpush.JPushCustomService, com.xiaomi.mipush.sdk.MessageHandleService, com.huawei.hms.support.api.push.service.HmsMsgService, com.xiaomi.push.service.XMPushService, cn.jpush.android.service.PluginHuaweiPlatformsService, cn.jpush.android.service.PluginOppoPushService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.vivo.push.sdk.service.CommandClientService, cn.jpush.android.service.JHonorService
+  Receivers  (12): cn.jpush.android.asus.AsusPushMessageReceiver, cn.jpush.android.service.SchedulerReceiver, cn.jpush.android.service.PushReceiver, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, cn.jpush.android.service.PluginXiaomiPlatformsReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver, cn.jpush.android.service.PluginVivoMessageReceiver, com.jiguang.jpush.JPushEventReceiver, cn.jpush.android.service.AlarmReceiver
+  Providers  (9): com.huawei.hms.aaid.InitProvider, cn.jpush.android.service.DataProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, io.github.v7lin.wechat_kit.WechatFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.crazecoder.openfile.FileProvider, androidx.startup.InitializationProvider, com.huawei.hms.support.api.push.PushProvider, cn.jpush.android.service.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 273
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: kk, Organizational Unit: zl, Organization: zl, Locality: beijing, State/Province: beijing, Country: 100000
+  Fingerprint : 14 D7 63 82 A2 DE 01 08 EA 96 59 13 57 AD 78 F8 7E 95 FA 90 59 A3 2D 9B EE 51 17 3F 7E B2 DC F1
+
+==========================================

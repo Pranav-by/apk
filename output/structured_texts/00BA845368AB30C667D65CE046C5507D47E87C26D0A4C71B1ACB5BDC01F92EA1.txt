@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : kr.toit.wv.templ.cashwiki
+  SHA-256       : 00BA845368AB30C667D65CE046C5507D47E87C26D0A4C71B1ACB5BDC01F92EA1
+  Android Group : Android16
+  Version       : v2025.10.2-59 (code: 2025100259)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (13)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.FOREGROUND_SERVICE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, kr.toit.wv.templ.cashwiki.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (9): com.kakao.sdk.flutter.CustomTabsActivity, com.kakao.sdk.flutter.AppsHandlerActivity, in.jvapps.system_alert_window.BubbleActivity, kr.toit.hybrid.template.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.kakao.sdk.flutter.FollowChannelHandlerActivity, com.kakao.sdk.flutter.AuthCodeCustomTabsActivity, com.kakao.sdk.flutter.TalkAuthCodeActivity
+  Services   (7): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, in.jvapps.system_alert_window.services.WindowServiceNew, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (5): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent
+  Providers  (4): dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 2509
+  Total Methods : 11806
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://issuetracker.google.com/issues/241760537, https://crbug.com/388824130, https://developer.android.com/guide/topics/permissions/overview, https://youtrack.jetbrains.com/issue/KT-55980, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : AF 94 B8 69 7C FA F9 71 8A E5 B2 30 7F 80 B2 87 CB 31 A9 10 57 23 B2 A8 0C 96 D8 C3 E6 BF F5 0D
+
+==========================================

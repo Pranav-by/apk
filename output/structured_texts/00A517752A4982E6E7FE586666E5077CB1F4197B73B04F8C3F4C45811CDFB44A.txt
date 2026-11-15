@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.finch.finch
+  SHA-256       : 00A517752A4982E6E7FE586666E5077CB1F4197B73B04F8C3F4C45811CDFB44A
+  Android Group : Android15
+  Version       : 3.73.0 (code: 1059)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 35
+
+[Permissions (25)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, com.finch.finch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (9): com.google.firebase.auth.internal.RecaptchaActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.finch.finch.MainActivity, com.android.billingclient.api.ProxyBillingActivityV2, io.flutter.plugins.urllauncher.WebViewActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (13): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.camera.core.impl.MetadataHolderService, com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.dexterous.flutterlocalnotifications.ForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.ryanheise.audioservice.AudioService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+  Receivers  (12): dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.amazon.device.iap.ResponseReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.finch.finch.FinchHomeWidgetProvider, com.adjust.sdk.AdjustReferrerReceiver, com.ryanheise.audioservice.MediaButtonReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+  Providers  (7): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18451
+  Total Methods : 101365
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://firebase.google.com/docs/analytics, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://github.com/adjust/android_sdk#can-i-trigger-an-event-at-application-launch
+  IP Addresses(2): 2.10.5.0, 2.9.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 58 1D B9 64 C6 1C 25 36 9A 50 14 2A 3E 96 F1 C8 25 C3 7A 70 C2 DD F3 33 21 4B 4B E3 1C 95 5B C7
+
+==========================================

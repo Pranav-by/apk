@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.shield.ttkuh
+  SHA-256       : 005CB3AB7D56108A8AF8A1DAFDD52F79E9AAD135EC512E73BFEA8DF770EE5E50
+  Android Group : Android12
+  Version       : 1.4.60.1 (code: 26)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (28)]
+  android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.CHANGE_NETWORK_STATE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, com.google.android.apps.photos.permission.GOOGLE_PHOTOS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.truecaller.permission.sdk.internal.read_account_state, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE
+
+[Application Components]
+  Activities (226): co.classplus.app.ui.tutor.batchdetails.students.addstudent.addmanually.AddContactManuallyActivity, co.classplus.app.ui.base.BottomSheetBaseActivity, co.classplus.app.ui.tutor.batchdetails.homework.selectStudent.SelectHomeworkStudentActivity, co.classplus.app.ui.tutor.studentDetails.addparent.AddParentFromContactsActivity, co.classplus.app.ui.common.videostore.coursedetail.CourseDetailActivity, co.classplus.app.ui.common.userprofile.ProfilePictureViewingActivity, co.classplus.app.ui.tutor.batchdetails.students.addstudent.addfromcontacts.AddStudentFromContactsActivity, co.classplus.app.ui.common.videostore.editCourse.subcategorySelection.MultiItemSelectActivity, co.classplus.app.ui.tutor.testdetails.TestPerformanceActivity, co.classplus.app.ui.tutor.batchdetails.students.addstudent.AddStudentsActivity, co.classplus.app.ui.tutor.batchdetails.BatchDetailsActivity, co.classplus.app.ui.common.profile.EditProfileActivity, co.classplus.app.ui.student.cms.solutions.SolutionsActivity, co.classplus.app.ui.tutor.batchdetails.announcements.view.AnnouncementPreviewActivity, co.classplus.app.ui.common.videostore.batchdetail.overview.AddAddressActivity, co.classplus.app.ui.tutor.composemessage.CreateMessageActivity, co.classplus.app.ui.tutor.batchdetails.students.RequestedStudentsActivity, co.classplus.app.ui.common.splash.KSplashActivity, co.classplus.app.ui.common.liveClasses.courseList.CourseListLiveActivity, co.classplus.app.ui.common.userprofile.paymentsfragment.paymentslisting.PaymentsListingActivity
+  Services   (39): co.classplus.app.ui.common.attachment.AttachmentUploadService, co.classplus.app.ui.common.chat.SendChatMessageService, io.antmedia.android.broadcaster.LiveVideoBroadcaster, com.google.android.gms.analytics.CampaignTrackingService, com.google.android.gms.analytics.AnalyticsService, co.classplus.app.ui.common.offline.manager.OfflineVideoDownloadService, com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.freshchat.consumer.sdk.service.FreshchatService, co.classplus.app.ui.common.splash.updateUtm.UtmUpdateService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundIntentService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundJobService, co.classplus.app.ui.antmedia.ui.session.LiveClassService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.webengage.sdk.android.ExecutorService
+  Receivers  (24): com.google.android.gms.analytics.CampaignTrackingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.razorpay.RzpTokenReceiver, com.freshchat.consumer.sdk.receiver.FreshchatReceiver, com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.webengage.sdk.android.WebEngageReceiver, live.hms.video.services.LogAlarmManager, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (9): androidx.core.content.FileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, droidninja.filepicker.utils.FilePickerProvider, com.freshchat.consumer.sdk.provider.FreshchatInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, co.classplus.app.utils.ClassplusFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 30322
+  Total Methods : 183072
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 1.4.60.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8A ED 77 43 0A D1 C3 EB 61 14 F7 4B 35 CA 86 05 B0 4E A3 05 E3 17 E7 F0 AC 8B A4 FF 78 FF 47 AC
+
+==========================================

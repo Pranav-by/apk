@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : mn.mobicom.candy
+  SHA-256       : 00A0ADBB610B4F255A68F4E484829E8CFCEE320312497AD22F928572ECBCA903
+  Android Group : Android15
+  Version       : 7.4.20 (code: 304)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (23)]
+  android.permission.VIBRATE, android.permission.USE_BIOMETRIC, mn.mobicom.candy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECORD_AUDIO, android.permission.NFC, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_CONTACTS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.CALL_PHONE
+
+[Application Components]
+  Activities (6): com.huawei.hms.support.api.push.TransActivity, com.huawei.hms.activity.EnableServiceActivity, mn.mobicom.candy.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.huawei.hms.activity.BridgeActivity
+  Services   (17): com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.huawei.agconnect.core.ServiceDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.huawei.hms.flutter.push.hms.FlutterHmsMessageService, com.lyokone.location.FlutterLocationService, com.google.android.gms.metadata.ModuleDependencies, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.camera.core.impl.MetadataHolderService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.huawei.hms.support.api.push.service.HmsMsgService, com.huawei.hms.flutter.push.backgroundmessaging.BackgroundMessagingService
+  Receivers  (9): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.huawei.hms.flutter.push.receiver.local.HmsLocalNotificationActionsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver
+  Providers  (9): com.google.mlkit.common.internal.MlKitInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.huawei.hms.support.api.push.PushProvider, com.huawei.hms.aaid.InitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31560
+  Total Methods : 203285
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/training/testing/espresso/setup#set-up-environment
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Mobicom
+  Fingerprint : DA 68 97 EA 98 56 C7 82 7A F0 03 F1 EC 65 DB 62 D5 82 35 AC E7 20 90 EF 5E 15 EC C2 E5 23 BD 8C
+
+==========================================

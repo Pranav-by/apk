@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.fitbase.fthreefivezeroonesix
+  SHA-256       : 00B70F0253F3F3547069BD58CA965DD53DFE8410D242F81F7806BAD2EF202FF6
+  Android Group : Android12L
+  Version       : 2000.16.41 (code: 18807004)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (16)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_CONTACTS, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.USE_FINGERPRINT, android.permission.VIBRATE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.READ_PROFILE, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_BIOMETRIC, android.permission.CAMERA, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (11): com.fitbase.MainActivity, ru.whalemare.rn.library.result.TransparentActivity, com.google.android.gms.common.api.GoogleApiActivity, com.yandex.pay.core.ui.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.yandex.authsdk.internal.AuthSdkActivity, com.yalantis.ucrop.UCropActivity, com.yandex.authsdk.internal.BrowserLoginActivity, com.yandex.authsdk.internal.BrowserDataActivity, com.yandex.authsdk.internal.WebViewLoginActivity, ru.cloudpayments.sdk.ui.PaymentActivity
+  Services   (12): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.yandex.metrica.ConfigurationJobService, com.yandex.metrica.ConfigurationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.yandex.metrica.MetricaService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (9): androidx.startup.InitializationProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 26600
+  Total Methods : 171992
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(4): 10.0.2.2, 10.0.1.1, 10.0.3.2, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DE 78 E9 D7 A2 67 18 14 2C 00 FC C2 2A 76 79 E7 61 15 C3 C8 BD 2B 95 1B 71 C7 3D C2 87 2A 6C 49
+
+==========================================

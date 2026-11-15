@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.taximaster.tmtaxicaller.id2951
+  SHA-256       : 00A262391AAB1E35ABEDDA27C8E342BB3E1F75A73DFC3C0CFAA0A82F8276B924
+  Android Group : Android12
+  Version       : 14.0.0-202209081340 (code: 4605)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.READ_CONTACTS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.BLUETOOTH, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH_ADMIN, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (43): ru.taximaster.taxophone.view.activities.MainActivity, ru.taximaster.taxophone.ui.about.AboutActivity, ru.taximaster.taxophone.ui.balance_detail.BalanceDetailActivity, ru.taximaster.taxophone.view.activities.BundlesHistoryActivity, ru.taximaster.taxophone.ui.sharing.SharingActivity, ru.taximaster.taxophone.ui.funds_filling.FundsFillingActivity, ru.taximaster.taxophone.view.activities.SelectVtmActivity, ru.taximaster.taxophone.ui.account_delete.AccountDeleteActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, ru.taximaster.taxophone.view.activities.BundlesStatusActivity, ru.taximaster.taxophone.ui.feedbacks.FeedbacksActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, ru.taximaster.taxophone.view.activities.TaxiCompanyActivity, ru.taximaster.taxophone.view.activities.base.MenuActivity, ru.taximaster.taxophone.view.activities.GuidesActivity, com.facebook.FacebookActivity, ru.taximaster.taxophone.view.activities.AddCardActivity, ru.taximaster.taxophone.view.activities.SelectCityActivity, ru.taximaster.taxophone.ui.auth.AuthActivity
+  Services   (19): com.google.firebase.messaging.FirebaseMessagingService, ru.taximaster.taxophone.provider.push_provider.internal.fcm.FcmMsgListenerService, com.google.firebase.components.ComponentDiscoveryService, com.evernote.android.job.patched.internal.v21.PlatformJobService, com.evernote.android.job.patched.internal.v14.PlatformAlarmService, com.evernote.android.job.patched.internal.v14.PlatformAlarmServiceExact, com.yandex.runtime.connectivity.internal.ConnectivityService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsJobService, androidx.room.MultiInstanceInvalidationService, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.evernote.android.job.patched.internal.JobRescheduleService
+  Receivers  (8): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.evernote.android.job.patched.internal.JobBootReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): com.yandex.metrica.PreloadInfoContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 19370
+  Total Methods : 109619
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://firebase.google.com/support/guides/disable-analytics, https://github.com/evernote/android-job/wiki/FAQ, http://goo.gl/8Rd3yj, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5E E0 63 0C 2C 88 07 09 92 BA 37 8A 6D 4B 94 E5 D3 CB 25 27 9C 6F 85 10 6A 3A B3 CB 41 EC 1C 25
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.officehq.receptionhq
+  SHA-256       : 004802ECFAC3ACEB497946AA9C18F2722C58E653C270B590C0F73FC4E5DD5D6D
+  Android Group : Android13
+  Version       : 3.6.3 (code: 306004)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (34)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_CREDENTIALS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.amazon.device.messaging.permission.RECEIVE, com.officehq.receptionhq.permission.RECEIVE_ADM_MESSAGE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (8): com.facebook.FacebookActivity, com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.NotificationOpenedActivityHMS, com.officehq.receptionhq.MainActivity, com.onesignal.PermissionsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity
+  Services   (13): com.onesignal.GcmIntentService, com.google.firebase.components.ComponentDiscoveryService, com.onesignal.NotificationRestoreService, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.ADMMessageHandler, com.onesignal.RestoreJobService, com.onesignal.SyncJobService, com.onesignal.SyncService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.onesignal.GcmIntentJobService, com.onesignal.RestoreKickoffJobService, com.google.firebase.iid.FirebaseInstanceIdService
+  Receivers  (8): com.facebook.CampaignTrackingReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.onesignal.GcmBroadcastReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, com.onesignal.ADMMessageHandler$Receiver, com.onesignal.NotificationOpenedReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5361
+  Total Methods : 32616
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: ReceptionHQ
+  Fingerprint : 20 02 CE 95 61 C9 45 48 B6 42 3A 98 8E 8F 4E 91 12 1F A8 F1 C7 EF F3 97 47 86 55 52 5B 2C C2 DE
+
+==========================================

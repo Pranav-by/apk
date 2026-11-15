@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cardex.android
+  SHA-256       : 00A7E925F14321D77B9B2F4AEFB11332125741969A56224A56AAF03937590817
+  Android Group : Android13
+  Version       : 1.0.2.6 (code: 16)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (18)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_MEDIA_IMAGES, android.permission.CAMERA, android.permission.VIBRATE, android.permission.READ_PHONE_STATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.FLASHLIGHT, com.cardex.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, android.permission.NFC, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_NOTIFICATION_POLICY
+
+[Application Components]
+  Activities (40): crc64aaf2805f58e56d13.PremiumWaitActivity, crc645ff435851f1c2612.EditCompanyProcessActivity, com.google.android.gms.common.api.GoogleApiActivity, crc645ff435851f1c2612.RemoveCompanyProcessActivity, crc645ff435851f1c2612.SignUpActivity, crc645ff435851f1c2612.CardsCreatingProcessActivity, crc645ff435851f1c2612.LinkStickerActivity, com.facebook.CustomTabActivity, com.yalantis.ucrop.UCropActivity, crc645ff435851f1c2612.WaitingEmailConfirmActivity, crc645ff435851f1c2612.PremiumSplashActivity, crc645ff435851f1c2612.SettingsActivity, crc645ff435851f1c2612.MyCardActivity, crc645ff435851f1c2612.NoConnectionActivity, crc645ff435851f1c2612.MainActivity, crc645ff435851f1c2612.EditActivity, crc645ff435851f1c2612.AboutActivity, crc645ff435851f1c2612.ScannerActivity, crc645ff435851f1c2612.EditPersonalProcessActivity, crc645ff435851f1c2612.PremiumCancelActivity
+  Services   (6): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.appcompat.app.AppLocalesMetadataHolderService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (4): com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, crc64cea48322b3427ae9.ConnectivityChangeBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): mono.MonoRuntimeProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, xamarin.essentials.fileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10903
+  Total Methods : 70957
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8A 52 94 5D 35 7E 7D 86 8D 7D 2C 82 58 3B 22 3A DF 94 DC B5 57 53 79 C9 4F E8 EF FA F8 3C 0F 52
+
+==========================================

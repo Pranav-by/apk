@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.alphaprogression.alphaprogression
+  SHA-256       : 007831AFFD1EF1F932E657AA8558DE1BBF14EF665DDC7D103B5294C9D508C28D
+  Android Group : Android12L
+  Version       : 2.23 (code: 189)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (15)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.BODY_SENSORS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_FINE_LOCATION, android.gms.permission.ACTIVITY_RECOGNITION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACTIVITY_RECOGNITION
+
+[Application Components]
+  Activities (7): com.alphaprogression.alphaprogression.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity
+  Services   (10): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.play.core.assetpacks.ExtractionForegroundService, io.capawesome.capacitorjs.plugins.firebase.messaging.MessagingService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (9): nl.xservices.plugins.ShareChooserPendingIntent, com.google.android.gms.measurement.AppMeasurementReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.amazon.device.iap.ResponseReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.capacitorjs.plugins.localnotifications.LocalNotificationRestoreReceiver, com.capacitorjs.plugins.localnotifications.NotificationDismissReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.capacitorjs.plugins.localnotifications.TimedNotificationPublisher
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, nl.xservices.plugins.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9513
+  Total Methods : 55201
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 2F E5 75 89 2B A5 F5 21 1D B8 C7 91 DD D0 3D E8 F9 BD AB CA 59 D4 43 D6 CA 08 CE 05 0C A6 58 D4
+
+==========================================

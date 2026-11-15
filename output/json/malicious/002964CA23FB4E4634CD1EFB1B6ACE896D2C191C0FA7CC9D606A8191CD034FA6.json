@@ -1,0 +1,54 @@
+{
+  "sha256": "002964CA23FB4E4634CD1EFB1B6ACE896D2C191C0FA7CC9D606A8191CD034FA6",
+  "filename": "002964CA23FB4E4634CD1EFB1B6ACE896D2C191C0FA7CC9D606A8191CD034FA6.apk",
+  "android_version": "Android15",
+  "label": "malicious",
+  "package_name": "com.neuroticfly.interdimensionalvendingmachine",
+  "version_name": "0.3.3.0",
+  "version_code": "11",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 1,
+  "activities": [
+    "com.godot.game.GodotApp",
+    "org.godotengine.godot.utils.ProcessPhoenix",
+    "com.pairip.licensecheck.LicenseActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "org.godotengine.godot.GodotDownloaderService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "com.pairip.licensecheck.LicenseContentProvider1",
+    "androidx.startup.InitializationProvider",
+    "com.pairip.licensecheck.LicenseContentProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3857,
+  "method_count": 26528,
+  "cert_fingerprint": "E4 91 57 89 F7 F6 01 D2 E6 34 2A 6F F6 16 40 04 4B AA C5 31 02 21 C3 FA 5B 88 59 F9 89 5E A6 D6",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

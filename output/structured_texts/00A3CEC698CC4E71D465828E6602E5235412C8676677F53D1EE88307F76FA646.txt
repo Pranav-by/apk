@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fsavalve.developer.irrigationcloudv1releasecopy1copy1copy1
+  SHA-256       : 00A3CEC698CC4E71D465828E6602E5235412C8676677F53D1EE88307F76FA646
+  Android Group : Android14
+  Version       : 30.0.0 (code: 30)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (10)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_FINE_LOCATION, android.permission.BLUETOOTH, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.BLUETOOTH_SCAN, com.fsavalve.developer.irrigationcloudv1releasecopy1copy1copy1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.BLUETOOTH_CONNECT
+
+[Application Components]
+  Activities (1): crc64bd4b44450972dadc.MainActivity
+  Services   (0): none
+  Receivers  (2): crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): androidx.startup.InitializationProvider, mono.MonoRuntimeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10655
+  Total Methods : 81427
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 50 91 20 BA 6E 4D 23 4D 36 95 69 6E 91 22 99 1E 4A F1 E7 D8 62 E1 66 09 EB BF DF 87 66 D6 7C C2
+
+==========================================

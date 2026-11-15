@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : kr.co.s1.mobilecard.s1mobilecard
+  SHA-256       : 00A6E935C257014A9DB0C835FE5A019D33869C413CDFEE1852F91885B11210E7
+  Android Group : Android15
+  Version       : 2.0.2 (code: 119)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (32)]
+  android.permission.READ_PHONE_NUMBERS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.BIND_INPUT_METHOD, android.permission.GET_TASKS, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+
+[Application Components]
+  Activities (31): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.CardMainActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.ManagementDetailSecurityZoneActivity, kr.co.s1.mobilecard.s1mobilecard.ui.activity.MainActivity, kr.co.s1.mobilecard.s1mobilecard.ui.activity.CardAuthActiviy, com.google.android.gms.common.api.GoogleApiActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.MenuSettingActivity, com.karumi.dexter.DexterActivity, kr.co.s1.mobilecard.s1mobilecard.ui.activity.LoginActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, kr.co.s1.mobilecard.s1mobilecard.ui.activity.WebViewActivity, com.blankj.utilcode.util.UtilsTransActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.SimpleAuthNumberActivity, kr.co.s1.mobilecard.s1mobilecard.ui.activity.PermissionsActivity, kr.co.s1.mobilecard.s1mobilecard.ui.activity.SplashActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.MobileAuthActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.ManagementDetailActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.CardApplyInfoActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.CardRegistActivity, kr.co.s1.mobilecard.s1mobilecard.ui.brandnew.CardRegistConfirmActivity
+  Services   (11): kr.co.s1.mobilecard.s1mobilecard.service.BaseApduService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, kr.co.s1.mobilecard.s1mobilecard.push.FCMBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementJobService, kr.co.s1.mobilecard.s1mobilecard.push.RegistrationIntentService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.blankj.utilcode.util.MessengerUtils$ServerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (8): kr.co.s1.mobilecard.s1mobilecard.reciever.SmsReceiver, kr.co.s1.mobilecard.s1mobilecard.reciever.StartHceReceiver, kr.co.s1.mobilecard.s1mobilecard.reciever.ModuLoginInfoReceiver, kr.co.s1.mobilecard.s1mobilecard.reciever.TaggingInfoReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (5): com.blankj.utilcode.util.UtilsFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, co.ab180.airbridge.internal.lifecycle.LifecycleProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17473
+  Total Methods : 128744
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organizational Unit: S1
+  Fingerprint : 79 7D 4B FC AF 74 4B 57 50 70 2B 48 42 93 DC C8 F2 55 E3 78 B5 29 31 98 EC 9C F3 62 18 38 D2 67
+
+==========================================

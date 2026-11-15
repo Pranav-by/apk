@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.yoigo.HomeGo
+  SHA-256       : 00ADC2696FD243F1EFB77C80652E170C4FDBFE270E0634F07AF9E9D96345B678
+  Android Group : Android12L
+  Version       : 1.0.14 (code: 59)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (22)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.gms.permission.AD_ID, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (6): com.google.android.gms.common.api.GoogleApiActivity, com.yoigo.HomeGo.MainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, androidx.biometric.DeviceCredentialHandlerActivity, de.niklasmerz.cordova.biometric.BiometricActivity
+  Services   (9): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.capacitorjs.plugins.pushnotifications.MessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.yoigo.HomeGo.GeofenceBroadcastReceiver, com.google.firebase.messaging.directboot.FirebaseMessagingDirectBootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): com.byteowls.capacitor.filesharer.FileSharerProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8507
+  Total Methods : 52960
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Grupo MasMovil, Organizational Unit: HomeGO, Organization: HomeGO, Locality: Madrid, State/Province: Madrid, Country: ES
+  Fingerprint : 5E 47 1F 0D AC 5F 84 2A 90 E9 AE 27 CA B5 A3 21 E7 21 46 0C 0F 28 81 30 8D 54 26 9D 27 D4 AD A9
+
+==========================================

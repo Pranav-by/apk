@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kkgames.IdleDungeonTycoon
+  SHA-256       : 00A90D9C899EA3D1CF0402577FB432DFA6BDA4A1843AC5CAD4347E70A48E9413
+  Android Group : Android12L
+  Version       : 1.8.9 (code: 93)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (9)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (25): com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.facebook.unity.FBUnityAppLinkActivity, com.ironsource.sdk.controller.InterstitialActivity, com.facebook.unity.FBUnityGameRequestActivity, com.facebook.unity.FBUnityDialogsActivity, com.facebook.unity.FBUnityCreateGameGroupActivity, com.facebook.ads.InterstitialAdActivity, com.facebook.CustomTabMainActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.google.android.gms.ads.AdActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.facebook.unity.FBUnityJoinGameGroupActivity, com.facebook.ads.AudienceNetworkActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.unity.FBUnityLoginActivity, com.facebook.CustomTabActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.google.android.gms.ads.OutOfContextTestingActivity
+  Services   (5): androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService
+  Receivers  (9): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (6): com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.FacebookContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14504
+  Total Methods : 80805
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8D 28 04 F7 22 8A 9A F6 4B F3 93 A6 91 D2 6C 37 04 B6 6A 22 A2 1C 38 DA 48 60 72 69 D0 04 4F D7
+
+==========================================

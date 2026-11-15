@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.carrental.carrentalvendor
+  SHA-256       : 00AA1FBE6CC1C58CEE1E467D4CF3C42E2B56EBDE6F70080530C73034AEAB60C5
+  Android Group : Android12L
+  Version       : 10.2 (code: 147)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (25)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, your.package.name.permission.MAPS_RECEIVE, android.permission.POST_NOTIFICATIONS, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.DISABLE_KEYGUARD, com.carrental.carrentalvendor.permission.C2D_MESSAGE, com.carrental.carrentalvendor.permission.WRITE_SCHEDULE, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (185): com.carrental.carrentalvendor.Activitys.Friends.contacts.ContactsActivity, com.carrental.carrentalvendor.Utils.location.LocationUtilsActivity, com.carrental.carrentalvendor.Activitys.subscription.WebsiteSubscriptionActivity, com.carrental.carrentalvendor.Activitys.subscription.paymentresponse.PaymentResponseActivity, com.carrental.carrentalvendor.Activitys.subscription.details.SubscriptionActivity, com.carrental.carrentalvendor.Activitys.Performance.PerformanceActivity, com.carrental.carrentalvendor.Activitys.Performance.reviews.AllCarReviewsActivity, com.carrental.carrentalvendor.Activitys.Performance.tips.TipsActivity, com.carrental.carrentalvendor.Activitys.permission.PermissionActivity, com.carrental.carrentalvendor.Activitys.qrcode.QrCodeActivity, com.carrental.carrentalvendor.Activitys.ConfigureWebsite.ConfigureWebsiteActivity, com.carrental.carrentalvendor.Activitys.Changepss_Support_About_tracking_Dashboard.KnowMoreActivity, com.carrental.carrentalvendor.Activitys.Profile.Profile, com.carrental.carrentalvendor.Activitys.News.NewsActivity, com.carrental.carrentalvendor.Activitys.YoutubePlayer.YoutubePlayerActivity, com.carrental.carrentalvendor.Activitys.NearbyMap.NearByUserActivity, com.carrental.carrentalvendor.Activitys.NearbyMap.NearByMapActivity, com.carrental.carrentalvendor.Activitys.Profile.ProfileCompletion.ProfileCompletionActivity, com.carrental.carrentalvendor.Activitys.Profile.ProfileCompletion.AccountCreatedActivity, com.carrental.carrentalvendor.Activitys.Profile.ProfileCompletion.ProfileDetailsActivity
+  Services   (22): com.google.firebase.messaging.FirebaseMessagingService, com.carrental.carrentalvendor.GCM.FCMPushReceiverService, com.carrental.carrentalvendor.Utils.AppKilledService, com.carrental.carrentalvendor.service.AndroidLocationServices, com.paytm.pgsdk.IntentServicePostNotification, com.paytm.pgsdk.IntentServicePreNotification, easypay.utils.EasyPayConfigDownloader, easypay.utils.AnalyticsService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (19): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.carrental.carrentalvendor.GCM.FcmNotificationReceiver, com.carrental.carrentalvendor.DialogWindow.DialogReceiver, com.carrental.carrentalvendor.SmsReciver.SMSReceiver, com.razorpay.RzpTokenReceiver, com.zoho.livechat.android.NotificationDeleteReceiver, com.zoho.salesiqembed.android.TriggerReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.facebook.FacebookContentProvider, androidx.core.content.FileProvider, com.zoho.livechat.android.provider.ZohoLDContentProvider, com.zoho.livechat.android.provider.MobilistenFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31128
+  Total Methods : 192800
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://bit.ly/2m290SK
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 34 D0 59 33 5C B3 64 B9 0F BB BB BC C1 0C 47 4E 6F C8 63 51 A2 82 B4 24 9C 8E D7 E8 39 A6 F3 4D
+
+==========================================

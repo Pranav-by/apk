@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.foursakenmedia.heroesandcastles2free
+  SHA-256       : 00B2BC6168B91471C389AD55791ADBE83237222DD5215AA6116C581EAEA5CEA0
+  Android Group : Android13
+  Version       : 1.01.16 (code: 101160)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (22): com.ironsource.sdk.controller.ControllerActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.vungle.warren.ui.VungleActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.vungle.warren.ui.VungleFlexViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.google.android.gms.ads.AdActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.adcolony.sdk.AdColonyInterstitialActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.android.billingclient.api.ProxyBillingActivity, com.foursakenmedia.OriginNativeActivityHandheld
+  Services   (10): com.google_play_services_implementation.FMDownloaderService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.adview.activity.FullscreenAdService, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google_play_services_implementation.FMAlarmReceiver, com.foursakenmedia.FMNotificationsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.vungle.warren.utility.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 19688
+  Total Methods : 116892
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Email Address: android@android.com, Common Name: Android, Organizational Unit: Android, Organization: Android, Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A4 0D A8 0A 59 D1 70 CA A9 50 CF 15 C1 8C 45 4D 47 A3 9B 26 98 9D 8B 64 0E CD 74 5B A7 1B F5 DC
+
+==========================================

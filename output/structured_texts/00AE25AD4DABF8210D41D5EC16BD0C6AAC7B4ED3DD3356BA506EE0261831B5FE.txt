@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.harri.manage
+  SHA-256       : 00AE25AD4DABF8210D41D5EC16BD0C6AAC7B4ED3DD3356BA506EE0261831B5FE
+  Android Group : Android12
+  Version       : 1.6.22 (code: 116)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (205): com.harri.manage.ui.requests.availability.history.AvailabilityRequestsHistoryActivity, com.harri.manage.ui.login.LoginActivity, com.harri.manage.ui.schedule.selector.labels.LabelsSelectorActivity, com.harri.manage.ui.requests.availability.filters.AvailabilityFiltersActivity, com.harri.manage.ui.home.dailyIssues.healthcheck.details.HealthCheckDetailsActivity, com.harri.manage.ui.corehr.people.filter.PeopleFiltersActivity, com.harri.manage.ui.requests.approved.filters.ApprovedRequestsFiltersActivity, com.harri.manage.ui.filters.employees.EmployeeSelectorActivity, com.harri.manage.ui.requests.selector.categories.RequestCategorySelectorActivity, com.harri.manage.ui.corehr.people.filter.categories.PeopleCategorySelectorActivity, com.harri.manage.ui.home.more.about.WebViewActivity, com.harri.manage.ui.requests.selector.type.AbsenceTypeSelectorActivity, com.harri.manage.ui.home.dailyIssues.healthcheck.summary.HealthCheckSummaryActivity, com.harri.manage.ui.landing.notificationsettings.emails.EmailNotificationSettingsActivity, com.harri.manage.ui.schedule.selector.revenue.RevenueCentersSelectorActivity, com.harri.manage.ui.requests.selector.positions.RequestPositionSelectorActivity, com.harri.manage.ui.home.more.feedbacks.add.AddEditFeedbackActivity, com.harri.manage.ui.landing.notificationsettings.push.PushNotificationSettingsActivity, com.harri.manage.ui.requests.sickness.closeRequest.CloseSicknessRequestActivity, com.harri.manage.ui.home.more.feedbacks.FeedbacksActivity
+  Services   (9): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.harri.manage.services.HarriFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): zendesk.support.DeepLinkingBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (8): zendesk.support.SupportSdkStartupProvider, zendesk.support.guide.GuideSdkStartupProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.perf.provider.FirebasePerfProvider, com.squareup.picasso.PicassoProvider, zendesk.belvedere.BelvedereFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 26151
+  Total Methods : 151432
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://tools.android.com/tech-docs/new-build-system/user-guide/manifest-merger
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Harri, Organizational Unit: Harri, Organization: Harri, Locality: New York, State/Province: New York, Country: US
+  Fingerprint : C4 6E 76 A0 EB 81 91 F6 0A 31 41 4C CB 37 A9 B1 81 C7 8D 19 72 A6 E2 DB CC 55 8D 36 2E C3 B2 7E
+
+==========================================

@@ -1,0 +1,76 @@
+{
+  "sha256": "00C3D9DA84A9BD2881DE64D4166F5B5AFAD3782BB29CFCE1B63D904F04D9B4E8",
+  "filename": "00C3D9DA84A9BD2881DE64D4166F5B5AFAD3782BB29CFCE1B63D904F04D9B4E8.apk",
+  "android_version": "Android15",
+  "label": "malicious",
+  "package_name": "com.riyga.volga.birds",
+  "version_name": "2.0.1",
+  "version_code": "23",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.INTERNET",
+    "com.riyga.volga.birds.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.pairip.licensecheck.LicenseActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "com.riyga.volga.androidapp.MainActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.firebase.sessions.SessionLifecycleService"
+  ],
+  "service_count": 6,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "org.jetbrains.compose.resources.AndroidContextProvider",
+    "com.pairip.licensecheck.LicenseContentProvider",
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6672,
+  "method_count": 31484,
+  "cert_fingerprint": "6E 1A F2 F6 DF 42 27 9B 8A 16 28 C7 FE BF 29 94 7D 5D C2 0C C8 A0 37 9D 58 2F AB 49 8B B3 F5 46",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+    "https://issuetracker.google.com/issues/241760537",
+    "https://goo.gle/compose-feedback",
+    "https://firebase.google.com/support/",
+    "https://firebase.google.com/support/guides/disable-analytics",
+    "https://github.com/saket/telephoto/issues/41?"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

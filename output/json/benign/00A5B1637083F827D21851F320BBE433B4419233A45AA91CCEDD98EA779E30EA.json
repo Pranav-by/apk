@@ -1,0 +1,53 @@
+{
+  "sha256": "00A5B1637083F827D21851F320BBE433B4419233A45AA91CCEDD98EA779E30EA",
+  "filename": "00A5B1637083F827D21851F320BBE433B4419233A45AA91CCEDD98EA779E30EA.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "org.holidates.energy",
+  "version_name": "2.5",
+  "version_code": "27",
+  "min_sdk": "23",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_CONTACTS"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "org.holidates.app.act.MyResRawWebActivity",
+    "org.holidates.energy.appui.activity.MatrixWebActivity",
+    "org.holidates.energy.appui.prefers.MainAppSettings",
+    "org.holidates.energy.appui.together.TogetherActivity",
+    "org.holidates.energy.appui.MainAppActivity",
+    "org.holidates.energy.appui.about.AboutArcanaActivity",
+    "org.holidates.energy.appui.today.TodayActivity"
+  ],
+  "activity_count": 7,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3533,
+  "method_count": 23280,
+  "cert_fingerprint": "20 D3 CE CC 3A 9E 9D 22 5A 22 79 F8 E8 93 E0 7C BF 0F D2 9A 28 4C 17 AE 84 46 4A CA 9D 25 30 00",
+  "cert_issuer": "Common Name: Yuriy Krymlov, Organization: Softworks, Locality: Kyiv, Country: UA",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

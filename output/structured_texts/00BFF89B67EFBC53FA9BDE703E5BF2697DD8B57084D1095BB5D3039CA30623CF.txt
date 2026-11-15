@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nick.mowen.texpert
+  SHA-256       : 00BFF89B67EFBC53FA9BDE703E5BF2697DD8B57084D1095BB5D3039CA30623CF
+  Android Group : Android12
+  Version       : 2022.2.0 (code: 477)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (47)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.ACCESS_BACKGROUND_LOCATION, com.nick.mowen.texpertfree.IMPORT_DATA, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_SMS, com.anddoes.launcher.permission.UPDATE_COUNT, android.provider.Telephony.SMS_RECEIVED, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (44): com.nick.mowen.texpert.archive.ArchiveActivity, com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt, com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity, com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt, com.google.firebase.auth.internal.RecaptchaActivity, com.facebook.FacebookActivity, com.nick.mowen.texpert.startup.StartupActivity, com.nick.mowen.texpert.inbox.MainActivity, com.nick.mowen.texpert.conversation.ConversationActivity, com.nick.mowen.texpert.conversation.ConversationBannerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.nick.mowen.texpert.share.MessageShareActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.nick.mowen.texpert.media.ConversationMediaActivity, com.nick.mowen.texpert.create.CreateActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity, com.android.billingclient.api.ProxyBillingActivity, com.nick.mowen.texpert.settings.SettingsActivity
+  Services   (26): com.nick.mowen.texpert.service.DeltaSyncService, com.nick.mowen.texpert.schedule.WifiSendService, com.android.mms.transaction.TransactionService, com.nick.mowen.texpert.service.QuickResponseService, com.nick.mowen.texpert.service.FireSyncService, com.nick.mowen.texpert.service.MessageJobService, com.nick.mowen.texpert.service.NotifyTitleService, com.nick.mowen.texpert.message.MessageWidgetAdapter, com.nick.mowen.texpert.service.ExternalSyncService, com.nick.mowen.texpert.schedule.LocationSendService, com.nick.mowen.texpert.service.SettingsWearSyncService, com.nick.mowen.texpert.service.WearDataRequestService, androidx.sharetarget.ChooserTargetServiceCompat, com.nick.mowen.texpert.service.SpeechService, androidx.camera.core.impl.MetadataHolderService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (20): com.nick.mowen.texpert.receiver.NotificationActionReceiver, com.nick.mowen.texpert.receiver.AutoReplyReceiver, com.nick.mowen.texpert.receiver.SmsBroadcastReceiver, com.nick.mowen.texpert.receiver.MmsLogger, com.nick.mowen.texpert.receiver.MmsBroadcastReceiver, com.nick.mowen.texpert.receiver.MmsSentReceiver, com.nick.mowen.texpert.receiver.ReadStatusReceiver, com.nick.mowen.texpert.receiver.SmsSentBroadcast, com.nick.mowen.texpert.receiver.SmsDeliverBroadcast, com.nick.mowen.texpert.receiver.NotificationBroadcastReceiver, com.nick.mowen.texpert.receiver.ScheduleReboot, com.nick.mowen.texpert.receiver.FailedSendReceiver, com.nick.mowen.texpert.receiver.DeleteReceiver, com.nick.mowen.texpert.receiver.SearchRequestReceiver, com.nick.mowen.texpert.receiver.JoinActionsReceiver, com.nick.mowen.texpert.receiver.ImportDataReceiver, com.nick.mowen.texpert.message.MessageWidget, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.firebase.ui.auth.data.client.AuthUiInitProvider, androidx.core.content.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.klinker.android.send_message.MmsFileProvider, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14337
+  Total Methods : 64491
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://github.com/grpc/grpc-java/issues/5015, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Nick Mowen, Locality: Dripping Springs, State/Province: Texas, Country: US
+  Fingerprint : 26 3A 23 31 89 CD 4F E8 36 C6 DB 50 A2 39 F7 19 2F 35 F5 80 2B B8 89 F4 1E EA 43 C3 62 D3 81 CD
+
+==========================================

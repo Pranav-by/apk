@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ct.canlidoviz
+  SHA-256       : 003483FF2A74BF9B2AA6CC20850DF8D0EA0EEDC16089E6B65159D692157E658C
+  Android Group : Android12
+  Version       : 5 (code: 534)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (11)]
+  android.permission.ACCESS_NETWORK_STATE, ct.canlidoviz.permission.C2D_MESSAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, ct.canlidoviz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.VIBRATE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (8): com.google.android.gms.ads.purchase.InAppPurchaseActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity, ct.canlidoviz.grafikdetay, com.google.android.gms.ads.AdActivity, com.android.billingclient.api.ProxyBillingActivity, ct.canlidoviz.main, com.facebook.ads.AudienceNetworkActivity
+  Services   (14): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, ct.canlidoviz.httputils2service, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, ct.canlidoviz.starter, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.iid.FirebaseInstanceIdService, com.google.firebase.iid.FirebaseInstanceIdService, com.google.firebase.components.ComponentDiscoveryService, anywheresoftware.b4a.objects.FirebaseNotificationsService
+  Receivers  (11): ct.canlidoviz.starter$starter_BR, com.google.firebase.iid.FirebaseInstanceIdInternalReceiver, ct.canlidoviz.firebasemessaging, ct.canlidoviz.httputils2service$httputils2service_BR, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.firebase.iid.FirebaseInstanceIdInternalReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13808
+  Total Methods : 74963
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organization: Unknown, Country: Unknown
+  Fingerprint : 08 52 F0 51 CA 53 18 00 AB 66 C8 5B 71 51 45 FB A9 99 0E 7F 1D CF CB 0F AC 89 1C E8 F9 87 4E AC
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.life.palm
+  SHA-256       : 0030D28857EEE9F320CC35A09F4EB5FFC6211607BEF5A477A1C4E0021567F98D
+  Android Group : Android15
+  Version       : 2.6.4 (code: 61)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (21)]
+  com.life.palm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.GET_TASKS, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (50): com.life.palm.module.report.NPalmReportActivity, com.life.palm.module.soulmate.SoulmateActivity, com.life.palm.module.test.TestResultActivity, com.life.palm.module.aging.AgingVideoActivity, com.life.palm.module.face.SingleDetectActivity, com.life.palm.module.degeneration.DegenerationResultActivity, com.life.palm.module.test.TestPreviewActivity, com.life.palm.module.guide.SplashActivity, com.life.palm.module.guide.GuideNameActivity, com.life.palm.activity.MainActivity, com.life.palm.module.appearance.AppearanceResultActivity, com.life.palm.module.camera.FSCropActivity, com.life.palm.module.aging.AgingReportActivity, com.life.palm.module.discover.result.LoveResultActivity, com.life.palm.module.my.WebViewActivity, com.life.palm.module.trottie.TrottieResultActvity, com.life.palm.module.report.FortuneActivity, com.life.palm.module.my.feedback.FeedbackActivity, com.life.palm.module.discover.result.PalmResultActivity, com.life.palm.module.aging.AgingVideoReportActivity
+  Services   (12): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, com.google.firebase.messaging.FirebaseMessagingService, com.life.palm.firebase.MyFirebaseMessagingService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (8): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, com.life.palm.receiver.GlobalReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.palm.buychannel.api.GABroadcastReceiver, com.palm.statistic.StatisticAlarmReceiver
+  Providers  (8): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.liulishuo.okdownload.OkDownloadProvider, com.blankj.utilcode.util.UtilsFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, androidx.core.content.FileProvider, s.e.d.a.MultiSharedPreferences, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 4464
+  Total Methods : 22092
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://firebase.google.com/support/guides/disable-analytics, http://image.cnamedomain.com, https://firebase.google.com/docs/analytics, http://oss-cn-****.aliyuncs.com, https://goo.gl/NAOOOI.
+  IP Addresses(1): 203.107.1.1
+
+[Certificate]
+  Issuer      : Common Name: lp, Organizational Unit: lp, Organization: lp, Locality: lp, State/Province: lp, Country: lp
+  Fingerprint : 4B 22 E1 B6 8D 90 D9 A3 51 2B DB 55 78 1B 45 84 07 4C 38 59 3F 99 24 26 43 48 BF 24 FE C3 F9 B7
+
+==========================================

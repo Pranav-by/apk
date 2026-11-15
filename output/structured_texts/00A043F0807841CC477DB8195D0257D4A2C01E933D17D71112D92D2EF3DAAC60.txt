@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mansoninsulation.tp.mansonevents
+  SHA-256       : 00A043F0807841CC477DB8195D0257D4A2C01E933D17D71112D92D2EF3DAAC60
+  Android Group : Android14
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (18)]
+  android.permission.READ_CALENDAR, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WRITE_CALENDAR, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.mansoninsulation.tp.mansonevents.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_CONTACTS
+
+[Application Components]
+  Activities (79): com.gatherdigital.android.activities.SurveyActivity, com.gatherdigital.android.activities.GatheringListActivity, com.gatherdigital.android.activities.BrowserActivity, com.gatherdigital.android.activities.ContactActivity, com.gatherdigital.android.activities.EventListActivity, com.gatherdigital.android.activities.LocationActivity, com.gatherdigital.android.activities.LeaderboardActivity, com.gatherdigital.android.activities.AttendeeListActivity, com.gatherdigital.android.activities.EventActivity, com.gatherdigital.android.activities.BadgeListActivity, com.gatherdigital.android.widget.ConfirmationActivity, com.gatherdigital.android.activities.CustomSchemeActivity, com.gatherdigital.android.activities.LinkListActivity, com.gatherdigital.android.activities.ContactScanActivity, com.gatherdigital.android.activities.MainActivity, com.gatherdigital.android.activities.MapActivity, com.gatherdigital.android.activities.MapListActivity, com.gatherdigital.android.activities.MeetingActivity, com.gatherdigital.android.activities.MemberActivity, com.gatherdigital.android.activities.MemberListActivity
+  Services   (15): com.gatherdigital.android.services.AppConfigurationSyncService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.gatherdigital.android.fcm.MessagingService, com.gatherdigital.android.services.GatheringSyncService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (12): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (73): com.gatherdigital.android.data.providers.EventLinkProvider, com.gatherdigital.android.data.providers.NoteProvider, com.gatherdigital.android.data.providers.PageProvider, com.gatherdigital.android.data.providers.PersonalEventProvider, com.gatherdigital.android.data.providers.PhotoProvider, com.gatherdigital.android.data.providers.NewsStoryLinkProvider, com.gatherdigital.android.data.providers.PollProvider, com.gatherdigital.android.data.providers.EventSpeakerProvider, com.gatherdigital.android.data.providers.ExhibitorTermProvider, com.gatherdigital.android.data.providers.PostProvider, com.gatherdigital.android.data.providers.AttendeeProvider, com.gatherdigital.android.data.providers.EventVideoProvider, com.gatherdigital.android.data.providers.AttendeeLinkProvider, com.gatherdigital.android.data.providers.RatingProvider, com.gatherdigital.android.data.providers.RecipientProvider, com.gatherdigital.android.data.providers.ScheduledEventProvider, com.gatherdigital.android.data.providers.CategoryProvider, com.gatherdigital.android.data.providers.NewsStoryViewsProvider, com.gatherdigital.android.data.providers.SocialFeedProvider, com.gatherdigital.android.data.providers.SocialObjectProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 25279
+  Total Methods : 178330
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Organizational Unit: Touchpoint, Organization: Certain Inc, Locality: San Francisco, State/Province: California, Country: US
+  Fingerprint : FF 4D CF 84 93 76 D2 B8 04 FA D6 9C 59 74 5F 3D 64 66 81 5B 92 90 11 A5 65 0E 03 A9 4F BB AB AE
+
+==========================================

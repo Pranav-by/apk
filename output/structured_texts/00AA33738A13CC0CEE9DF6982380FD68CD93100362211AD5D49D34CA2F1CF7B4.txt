@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : youi.clientapp
+  SHA-256       : 00AA33738A13CC0CEE9DF6982380FD68CD93100362211AD5D49D34CA2F1CF7B4
+  Android Group : Android16
+  Version       : 6.8.6 (code: 60806704)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (13)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, youi.clientapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (9): androidx.credentials.playservices.HiddenActivity, androidx.credentials.playservices.IdentityCredentialApiHiddenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.youi.client.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.braze.ui.activities.ContentCardsActivity, com.braze.push.NotificationTrampolineActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.braze.ui.BrazeWebViewActivity
+  Services   (11): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.gms.measurement.AppMeasurementService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.braze.push.BrazeFirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (7): androidx.profileinstaller.ProfileInstallReceiver, com.braze.BrazeFlushPushDeliveryReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.braze.push.BrazePushReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5497
+  Total Methods : 30365
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://issuetracker.google.com/issues/241760537, https://firebase.google.com/support/guides/disable-analytics, https://issues.apache.org/jira/projects/TIKA, https://developer.android.com/guide/topics/permissions/overview, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://www.braze.com/docs/user_guide/administrative/access_braze/sdk_endpoints
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Youi Pty Ltd, C=AU
+  Fingerprint : 6B 96 CC 8C E6 D0 AA 1A 73 96 B8 C4 CA 1A 01 51 9F 2F FB C0 39 8A 5F 90 82 98 F4 39 6F E7 AF B5
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : conversor.conversaotaxasbasico.jpyvnd
+  SHA-256       : 00B752E20F6AF04838A0A9E1569DF1D47048AED5D4575A7AAC62C5BA13FD9A14
+  Android Group : Android16
+  Version       : 6.3.0 (code: 53)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (13)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, conversor.conversaotaxasbasico.jpyvnd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (40): conversor.conversaotaxas.view.activity.SobreActivity, conversor.conversaotaxas.view.activity.ListarConversoesActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.chartboost.sdk.view.CBImpressionActivity, com.chartboost.sdk.internal.clickthrough.EmbeddedBrowserActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.vungle.ads.internal.ui.VungleActivity, com.applovin.adview.AppLovinFullscreenActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.mediation.MaxDebuggerActivity, com.ironsource.sdk.controller.InterstitialActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.unity3d.ads.adplayer.FullScreenWebViewDisplay, com.ironsource.sdk.controller.ControllerActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity
+  Services   (13): com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, conversor.conversaotaxas.view.widget.WidgetService, com.google.android.gms.auth.api.signin.RevocationBoundService, conversor.conversaotaxas.view.widget.SimpleJobIntentService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService
+  Receivers  (11): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, conversor.conversaotaxas.view.widget.WidgetCurrencyX, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (9): com.facebook.ads.AudienceNetworkContentProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 32842
+  Total Methods : 206064
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://developers.applovin.com/en/max/android/overview/advanced-settings#selective-init, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://support.google.com/admob/answer/13554116
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Vagner Xavier, Locality: Fortaleza, State/Province: CE, Country: 55
+  Fingerprint : FF ED AD 4E 5D 06 38 B6 B1 BD BD B6 5F 34 AB BB 21 3B 6E AF A2 60 0C B0 43 DC 30 F9 54 C7 C7 DB
+
+==========================================

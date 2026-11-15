@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.rosterimport.app
+  SHA-256       : 0089E363BD945DCE58199A456EBC7B9BFA242E9E1F4680C5A6FF048541C5D4A1
+  Android Group : Android15
+  Version       : 1.0.53 (code: 81)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (14)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, com.rosterimport.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (27): com.rosterimport.app.activities.BaseActivity, com.rosterimport.app.activities.EventDetailsActivity, com.rosterimport.app.activities.EditCalendarActivity, com.rosterimport.app.activities.AdvancedOptionCategoryActivity, com.rosterimport.app.activities.AfterRegistrationActivity, com.rosterimport.app.activities.ForgotPasswordActivity, com.rosterimport.app.activities.HomeActivity, com.rosterimport.app.activities.FamilyFriendActivity, com.rosterimport.app.activities.ConfirmRegistrationActivity, com.rosterimport.app.activities.RegistrationActivity, com.rosterimport.app.activities.LoginActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.rosterimport.app.activities.IntroActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.rosterimport.app.activities.SplashActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.google.android.gms.common.api.GoogleApiActivity, com.rosterimport.app.activities.NotificationDetailActivity, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity
+  Services   (8): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.rosterimport.app.services.MyFirebaseMessagingService, com.rosterimport.app.services.FloatingWidgetService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (5): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (5): com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16775
+  Total Methods : 109932
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: roster, Organizational Unit: roster, Organization: roster, Locality: roster, State/Province: roster, Country: roster
+  Fingerprint : E8 1A B3 40 6C CB DC BA D2 4C 07 36 F2 62 B2 23 BF A8 37 42 3B 4E 44 6D 12 D1 D1 FC B3 60 AE 8C
+
+==========================================

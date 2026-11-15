@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.easterngraphics.ipi
+  SHA-256       : 0085B9B3777EF0CCEB947151546303025F70A903D5D40858407F0548CF788726
+  Android Group : Android13
+  Version       : 3.14.1.1 (code: 3140101)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 33
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_BIOMETRIC, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (5): net.openid.appauth.RedirectUriReceiverActivity, com.xapp.MainActivity, com.proyecto26.inappbrowser.ChromeTabsManagerActivity, net.openid.appauth.AuthorizationManagementActivity, com.google.ar.core.InstallActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (9): cl.json.RNShareFileProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.ReactNativeBlobUtil.Utils.FileProvider, io.sentry.android.core.SentryPerformanceProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.vinzscam.reactnativefileviewer.FileProvider, com.imagepicker.ImagePickerProvider, io.sentry.android.core.SentryInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12518
+  Total Methods : 88482
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Andreas Handschuh, Organizational Unit: Management, Organization: EasternGraphics GmbH, Locality: Ilmenau, State/Province: Thuriniga, Country: DE
+  Fingerprint : 40 B6 05 D4 2E 7A 1D A0 18 36 E2 22 5A EC E6 F5 3F 95 D2 CD BA B4 CD 75 90 70 C8 5D 58 69 2A A3
+
+==========================================

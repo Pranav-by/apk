@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.proview.dc.dashcam
+  SHA-256       : 00A75AEEEF4ADAF5AAF9208DC4EF28E5812654830E65A5995A63CEF44AF8CAFC
+  Android Group : Android15
+  Version       : 1.0.1.20250731 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (28)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, com.android.vending.CHECK_LICENSE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.DEVICE_POWER, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+
+[Application Components]
+  Activities (70): cn.com.blackview.azdome.ui.activity.cam.mstar.NewMstarGPSInfoActivity, cn.com.blackview.azdome.ui.activity.cam.mstar.NewMstarSGActivity, cn.com.blackview.azdome.ui.activity.FlashActivity, cn.com.blackview.azdome.ui.activity.personal.tabs.PersonalAboutDeviceActivity, cn.com.blackview.azdome.ui.activity.personal.PersonalSettingActivity, com.pairip.licensecheck.LicenseActivity, cn.com.blackview.azdome.ui.activity.MainActivity, cn.com.blackview.azdome.ui.activity.cam.IjkVideoActivity, cn.com.blackview.azdome.ui.activity.GuideActivity, cn.com.blackview.azdome.ui.activity.cam.CameraLinkActivity, com.huantansheng.easyphotos.ui.PuzzleSelectorActivity, com.blackview.logmanager.guide.LocationGuideAty, cn.com.blackview.azdome.ui.activity.cam.HiVideoActivity, com.blackview.logmanager.guide.MobileDataAty, cn.com.blackview.azdome.ui.activity.cam.NovaVideoActivity, cn.com.blackview.azdome.ui.activity.domestic.DomesticHiSSIDActivity, cat.ereza.customactivityoncrash.activity.DefaultErrorActivity, cn.com.blackview.azdome.ui.activity.cam.MstarVideoActivity, cn.com.blackview.azdome.ui.activity.cam.tabs.CameraImageBrowseActivity, cn.com.blackview.azdome.ui.activity.cam.hi.NewHiWifiActivity
+  Services   (7): cn.com.blackview.azdome.service.DownloadService, cn.com.blackview.azdome.service.MessageService, cn.com.blackview.azdome.service.NovaMessageService, cn.com.blackview.azdome.service.MstarMessageService, cn.com.blackview.azdome.service.LeLianSmallMessageService, com.mapbox.android.telemetry.crash.CrashReporterJobIntentService, cn.com.blackview.azdome.service.WiFiMonitorService
+  Receivers  (0): none
+  Providers  (7): com.pairip.licensecheck.LicenseContentProvider1, com.pairip.licensecheck.LicenseContentProvider, cat.ereza.customactivityoncrash.provider.CaocInitProvider, com.blankj.utilcode.util.Utils$FileProvider4UtilCode, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14647
+  Total Methods : 100538
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(8): 192.168.0.1, 0.0.0.0, 223.5.5.5, 8.8.8.8, 180.76.76.76, 192.72.1.1, 192.168.1.254, 192.168.1.33
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 22 4B 23 F9 51 E8 56 05 70 67 50 A2 92 EC C5 06 A6 37 C2 85 C3 1C 63 95 1A 9E 5D CC 8F CE B2 DF
+
+==========================================

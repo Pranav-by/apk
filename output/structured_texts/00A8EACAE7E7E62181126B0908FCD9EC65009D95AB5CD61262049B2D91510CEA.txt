@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.jsrfamily.pawnshopcalculator
+  SHA-256       : 00A8EACAE7E7E62181126B0908FCD9EC65009D95AB5CD61262049B2D91510CEA
+  Android Group : Android14
+  Version       : 1.14 (code: 15)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (2)]
+  com.jsrfamily.pawnshopcalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_CONTACTS
+
+[Application Components]
+  Activities (40): com.jsrfamily.pawnshopcalculator.Standard_Pawn_Calc, com.jsrfamily.pawnshopcalculator.Advanced_Multi_sheet_, com.jsrfamily.pawnshopcalculator.Pawn_Shop_Compound_Interest_Calculator, com.jsrfamily.pawnshopcalculator.Advanced_Single_Pawn_Calc, com.jsrfamily.pawnshopcalculator.Multi_Pawn_Calc_Standard, com.jsrfamily.pawnshopcalculator.ALL_IN_ONE_PAISAL_, com.jsrfamily.pawnshopcalculator.Amount_Calculator, com.jsrfamily.pawnshopcalculator.Percentage_To_Paisa_Convertor_Vice_Versa, com.jsrfamily.pawnshopcalculator.First_Month_Interest_Calc, com.jsrfamily.pawnshopcalculator.Cash_Denomination, com.jsrfamily.pawnshopcalculator.One_Month_interest, com.jsrfamily.pawnshopcalculator.Multiple_First_Month_Interest_calc, com.jsrfamily.pawnshopcalculator.Jewelry_List_activity, com.jsrfamily.pawnshopcalculator.MainActivity, com.jsrfamily.pawnshopcalculator.More_Info_Pawn_Shop_features, com.jsrfamily.pawnshopcalculator.Splash_Activity, com.jsrfamily.pawnshopcalculator.Loan_Paisal_New_Ticket_Loan_amt, com.jsrfamily.pawnshopcalculator.Multiple_Sheets, com.jsrfamily.pawnshopcalculator.Loan_Paisal_New_Ticket_paisalamt, com.jsrfamily.pawnshopcalculator.Jsr_Pawnbroker_shop
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14113
+  Total Methods : 102659
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F0 FA F1 93 7E 43 21 4D 06 6A EA 20 6F 1E A9 8F FC 3D CE B9 77 7C AD 08 72 61 9A C7 56 F4 DE 9F
+
+==========================================

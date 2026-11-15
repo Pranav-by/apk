@@ -1,0 +1,50 @@
+{
+  "sha256": "00ABE4D92DEA6C3D3058E5552993070C23A6A1A2E78CC68C988601D54BEBADF8",
+  "filename": "00ABE4D92DEA6C3D3058E5552993070C23A6A1A2E78CC68C988601D54BEBADF8.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "futuristicgoo.emotic",
+  "version_name": "0.1.1",
+  "version_code": "13",
+  "min_sdk": "21",
+  "target_sdk": "35",
+  "permissions": [
+    "futuristicgoo.emotic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 1,
+  "activities": [
+    "futuristicgoo.emotic.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 1221,
+  "method_count": 5333,
+  "cert_fingerprint": "E3 A5 E7 9E DA 4E EA E0 0C 5F 44 A2 27 83 83 31 91 4F 50 E0 7B 68 2F EA 50 6E 2F FA 16 6D B9 2A",
+  "cert_issuer": "Common Name: Futuristic Goo, Organizational Unit: Unknown, Organization: Futuristic Goo Org, Locality: Unknown, State/Province: Unknown, Country: Unknown",
+  "urls": [
+    "https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures",
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.emui.launcher.cool
+  SHA-256       : 00B7628E90C2069593CF0586B50A435479AA1D790B08EFADDC726F221DD74EFD
+  Android Group : Android15
+  Version       : 8.6 (code: 104)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (58)]
+  android.permission.BIND_WALLPAPER, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.SET_WALLPAPER, com.android.launcher.permission.READ_SETTINGS, android.permission.ACCESS_WEATHERCLOCK_PROVIDER, android.permission.VIBRATE, com.android.launcher.permission.WRITE_SETTINGS, android.permission.BLUETOOTH_ADMIN, android.permission.BATTERY_STATS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.WRITE_SYNC_SETTINGS, com.emui.launcher.permission.WRITE_SETTINGS, android.permission.BROADCAST_PACKAGE_REPLACED, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, com.emui.launcher.permission.RECEIVE_LAUNCH_BROADCASTS, android.permission.ACCESS_ADSERVICES_TOPICS
+
+[Application Components]
+  Activities (101): com.emui.launcher.Launcher, com.emui.prime.PrimeActivity, com.emui.launcher.ToggleWeightWatcher, com.emui.prime.PrimeCloseAdActivity, com.emui.launcher.setting.pref.SettingsActivity, com.emui.launcher.MemoryDumpActivity, com.emui.launcher.setting.pref.DrawerSortingActivity, com.emui.launcher.setting.pref.EmDrawerSortingPrefActivity, com.emui.launcher.EmEmHideAppsShowActivity, com.emui.launcher.desktop.EmChangeIconSelectActivity, com.emui.launcher.locker.UnlockPatternActivity, com.emui.launcher.setting.pref.CommonSecurityAndPrivacyPrefActivity, com.emui.launcher.ChoseAppsActivity, com.emui.launcher.EmShortcutActivity, com.emui.launcher.locker.ChooseLockPattern, com.emui.launcher.setting.sub.HomeReset, com.emui.launcher.gesture.EmAppChooserActivity, com.emui.wallpaper.KKLiveWallpaper, com.emui.launcher.theme.EmIconThemeApplyActivity, com.emui.launcher.util.HelpActivity
+  Services   (19): com.launcher.videowallpaper.service.VideoWallpaperService, com.lib.parallax.wallpaper.LiveWallpaperService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.example.feedback_client.GetFeedBackService, com.emui.launcher.MemoryTracker, com.emui.accessibility.NotificationAccessService, com.emui.launcher.alive.AliveJobService, com.collection.widgetbox.widgets.TestGridWidgetRemoteService, com.collection.widgetbox.widgets.GridWidgetService3, com.collection.widgetbox.widgets.GridWidgetService4, com.collection.widgetbox.widgets.DateGridServices, com.collection.widgetbox.widgets.WeatherRemoteViewsService, com.widgetbox.lib.widgetset.DateService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.emui.launcher.PreloadReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.emui.launcher.InstallShortcutReceiver, com.emui.launcher.UninstallShortcutReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.emui.launcher.UserInitializeReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.emui.launcher.PackageChangedReceiver, com.emui.launcher.alive.LauncherBootReceiver, com.collection.widgetbox.receiver.DateChangeBroadcastReceiver, com.muugi.shortcut.special.AutoCreateBroadcastReceiver, com.muugi.shortcut.broadcast.NormalCreateBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (9): com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, androidx.core.content.FileProvider, me.jessyan.autosize.InitProvider, com.emui.launcher.graphics.GridCustomizationsProvider, com.facebook.ads.AudienceNetworkContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.emui.launcher.LauncherProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 28649
+  Total Methods : 164245
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Country: IN
+  Fingerprint : 3B 61 C2 A8 2A FF 9F 76 52 FF E0 B0 4B E3 C8 F2 48 B5 E1 AA 70 63 F1 A3 84 6F 0C F5 C7 78 62 8A
+
+==========================================

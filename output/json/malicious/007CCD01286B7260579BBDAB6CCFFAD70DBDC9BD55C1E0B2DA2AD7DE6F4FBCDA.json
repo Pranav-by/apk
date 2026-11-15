@@ -1,0 +1,93 @@
+{
+  "sha256": "007CCD01286B7260579BBDAB6CCFFAD70DBDC9BD55C1E0B2DA2AD7DE6F4FBCDA",
+  "filename": "007CCD01286B7260579BBDAB6CCFFAD70DBDC9BD55C1E0B2DA2AD7DE6F4FBCDA.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "com.musicbrothers.shredder",
+  "version_name": "0.1.3",
+  "version_code": "18",
+  "min_sdk": "22",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.BLUETOOTH",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.musicbrothers.shredder.permission.C2D_MESSAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECORD_AUDIO",
+    "com.android.vending.BILLING",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 13,
+  "activities": [
+    "com.google.firebase.MessagingUnityPlayerActivity",
+    "com.flurry.android.marketing.messaging.notification.NotificationClickedActivity",
+    "com.google.firebase.auth.internal.GenericIdpActivity",
+    "com.google.firebase.auth.internal.RecaptchaActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity",
+    "com.yasirkula.unity.NativeShareCustomShareDialogActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+  ],
+  "activity_count": 9,
+  "services": [
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.flurry.android.marketing.messaging.FCM.FlurryMessageListenerService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.firebase.messaging.MessageForwardingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.messaging.cpp.RegistrationIntentService",
+    "com.google.firebase.messaging.cpp.ListenerService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 11,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.flurry.android.marketing.messaging.notification.NotificationCancelledReceiver",
+    "com.flurry.android.marketing.messaging.notification.NotificationClickedReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.amazon.device.iap.ResponseReceiver",
+    "com.yasirkula.unity.NativeShareBroadcastListener",
+    "com.google.android.gms.measurement.AppMeasurementReceiver"
+  ],
+  "receiver_count": 7,
+  "providers": [
+    "com.flurry.android.agent.FlurryContentProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "com.yasirkula.unity.NativeShareContentProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 17891,
+  "method_count": 117258,
+  "cert_fingerprint": "E0 85 FA 35 54 0C 73 43 39 B7 53 9D 47 CA C5 B5 F0 7B 19 3F 83 71 3C 38 AE 72 1F 55 8A 50 40 9C",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "2.9.0.0",
+    "2.10.1.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

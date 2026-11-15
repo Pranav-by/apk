@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.trainerize.relentlesscoaching
+  SHA-256       : 00ABF2CD38914C92DFD3CCD93C1FCCED291B36752C8D3EA99BCE52AA5E2BA16B
+  Android Group : Android16
+  Version       : 8.16.0 (code: 1016000)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (50)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.PROJECT_MEDIA, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.health.READ_ACTIVE_CALORIES_BURNED, android.permission.WRITE_INTERNAL_STORAGE, android.permission.health.READ_RESTING_HEART_RATE, android.permission.BLUETOOTH_ADMIN, android.permission.health.READ_WEIGHT, android.permission.health.READ_HEALTH_DATA_IN_BACKGROUND, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.android.vending.CHECK_LICENSE, android.permission.health.READ_SLEEP, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.health.READ_BLOOD_PRESSURE, android.permission.WRITE_CALENDAR, android.permission.ACCESS_ADSERVICES_TOPICS
+
+[Application Components]
+  Activities (13): com.capacitorjs.plugins.browser.BrowserControllerActivity, com.facebook.CustomTabActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, app.notifee.core.NotificationReceiverActivity, com.trainerize.healthconnect.PermissionsRationaleActivity, com.trainerize.MainActivity, com.jakewharton.processphoenix.ProcessPhoenix, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.yalantis.ucrop.UCropActivity, com.proyecto26.inappbrowser.ChromeTabsManagerActivity
+  Services   (25): androidx.camera.core.impl.MetadataHolderService, com.twiliorn.library.ScreenCapturerService, com.google.android.gms.cast.framework.media.MediaNotificationService, net.gotev.uploadservice.UploadService, com.google.firebase.components.ComponentDiscoveryService, com.trainerize.workoutintervalplayer.WorkoutIntervalPlayerService, com.trainerize.appWidgets.ui.appointments.AppointmentsRemoteViewsService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.android.gms.cast.framework.ReconnectionService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.trainerize.appWidgets.ui.thingsToDo.ThingsToDoRemoteViewsService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.health.platform.client.impl.sdkservice.HealthDataSdkService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (27): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.trainerize.appWidgets.ui.quickAdd.WidgetQuickAddSmallProvider, com.trainerize.appWidgets.ui.quickAdd.WidgetQuickAddMediumProvider, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.trainerize.appWidgets.ui.quickAdd.WidgetQuickAddTrainerMediumProvider, app.notifee.core.RebootBroadcastReceiver, com.trainerize.appWidgets.ui.calories.WidgetCaloriesProvider, com.trainerize.appWidgets.ui.nutritionGoal.WidgetNutritionGoalProvider, com.trainerize.appWidgets.ui.steps.WidgetStepsProvider, com.trainerize.appWidgets.ui.appointments.WidgetAppointmentsProvider, com.trainerize.appWidgets.ui.thingsToDo.WidgetThingsToDoProvider, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, app.notifee.core.BlockStateBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (14): cl.json.RNShareFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.RNFetchBlob.Utils.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.vinzscam.reactnativefileviewer.FileProvider, com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider, io.invertase.notifee.NotifeeInitProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider, com.imagepicker.ImagePickerProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 45598
+  Total Methods : 302239
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: John La, Organizational Unit: Trainerize, Organization: Trainerize, Locality: Vancouver, State/Province: BC, Country: CA
+  Fingerprint : 63 B7 7E 56 A3 56 80 5E D4 F0 9B 81 4E D8 4E AF C2 AF 7A FA 56 91 EF 2B 4E B6 CC 52 14 3C 3B 44
+
+==========================================

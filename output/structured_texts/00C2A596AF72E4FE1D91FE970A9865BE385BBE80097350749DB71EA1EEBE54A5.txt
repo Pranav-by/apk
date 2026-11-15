@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : appinventor.ai_mauriziocinnirella.SICILIA_IN_TV
+  SHA-256       : 00C2A596AF72E4FE1D91FE970A9865BE385BBE80097350749DB71EA1EEBE54A5
+  Android Group : Android13
+  Version       : 1.9 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 7
+  Target SDK    : 33
+
+[Permissions (5)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.ACCESS_MOCK_LOCATION, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (1): appinventor.ai_mauriziocinnirella.SICILIA_IN_TV.Screen1
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 3407
+  Total Methods : 31538
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (9): http://developer.android.com/guide/appendix/media-formats.html, http://www.facebook.com, https://en.wikipedia.org/wiki/GeoJSON, http://www.twitter.com, https://en.wikipedia.org/wiki/Tesla_(unit)., https://developers.google.com/fusiontables/docs/v2/getting_started, https://code.google.com/apis/console/, https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html, http://twitter.com/oauth_clients/new
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 08 10 D7 38 52 07 A1 17 B7 53 2C 88 98 B0 54 F1 52 6E 63 62 15 7E C6 74 AB 13 86 63 40 79 41 CB
+
+==========================================

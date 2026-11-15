@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.facilita.incsm
+  SHA-256       : 00A72DD0C6601B03230E4F6EE3C4D9EAD0C66FDBB7DCC92702EB707628D69152
+  Android Group : Android13
+  Version       : 2.00.00 (code: 20000000)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (30)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, app.facilita.incsm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_MEDIA_AUDIO, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (31): io.intercom.android.sdk.activities.IntercomNoteActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, io.intercom.android.sdk.helpcenter.articles.ArticleActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, io.intercom.android.sdk.activities.IntercomVideoActivity, io.intercom.android.sdk.push.IntercomPushTrampolineActivity, io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, io.intercom.android.sdk.activities.IntercomConversationActivity, io.intercom.android.sdk.m5.IntercomRootActivity, io.intercom.android.sdk.tickets.create.ui.IntercomCreateTicketActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedReceiver, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.intercom.input.gallery.GalleryInputFullScreenActivity, com.intercom.input.gallery.GalleryLightBoxActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.compose.ui.tooling.PreviewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (14): com.onesignal.FCMIntentJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.SyncService, androidx.room.MultiInstanceInvalidationService, com.onesignal.SyncJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService
+  Receivers  (19): com.onesignal.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.onesignal.BootUpReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, io.maido.intercom.PushInterceptReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (5): io.intercom.android.sdk.IntercomInitializeContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14255
+  Total Methods : 80698
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 98 0D 48 8E 4B 62 A5 71 E8 6C 09 0C 79 19 57 A5 4C DB 64 5D DC 46 F2 7E AA 00 BF 0E 47 41 88 1F
+
+==========================================

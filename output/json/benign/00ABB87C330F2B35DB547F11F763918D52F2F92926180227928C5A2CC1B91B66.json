@@ -1,0 +1,71 @@
+{
+  "sha256": "00ABB87C330F2B35DB547F11F763918D52F2F92926180227928C5A2CC1B91B66",
+  "filename": "00ABB87C330F2B35DB547F11F763918D52F2F92926180227928C5A2CC1B91B66.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.sygecom.scr",
+  "version_name": "2.6.0",
+  "version_code": "23",
+  "min_sdk": "24",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.sygecom.scr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.CAMERA"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.sygecom.scr.MainActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity",
+    "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity",
+    "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity",
+    "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance",
+    "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+  ],
+  "activity_count": 7,
+  "services": [
+    "com.google.android.gms.metadata.ModuleDependencies"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "io.flutter.plugins.imagepicker.ImagePickerFileProvider",
+    "androidx.startup.InitializationProvider",
+    "io.sentry.android.core.SentryPerformanceProvider",
+    "io.sentry.ndk.SentryNdkPreloadProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 8655,
+  "method_count": 51893,
+  "cert_fingerprint": "A1 C9 81 A3 C1 A1 A8 3E 2E 29 AB 61 26 B4 3D BC E1 B6 62 D0 F0 BB 21 B2 CF 2E 3C ED 6D B7 DE 0C",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://issuetracker.google.com/issues/241760537",
+    "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+    "https://developers.google.com/tink/faq/registration_errors",
+    "https://developer.android.com/guide/topics/permissions/overview",
+    "https://issues.apache.org/jira/projects/TIKA",
+    "https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

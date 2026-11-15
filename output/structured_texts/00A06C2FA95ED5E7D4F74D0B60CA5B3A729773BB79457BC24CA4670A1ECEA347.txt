@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ir.ham3da.speech
+  SHA-256       : 00A06C2FA95ED5E7D4F74D0B60CA5B3A729773BB79457BC24CA4670A1ECEA347
+  Android Group : Android14
+  Version       : 2.1.5 (code: 10221)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (15)]
+  com.google.android.gms.permission.AD_ID, android.permission.READ_MEDIA_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, ir.ham3da.speech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (9): com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.common.api.GoogleApiActivity, ir.ham3da.speech.AboutActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, ir.ham3da.speech.ActivityProcessText, ir.ham3da.speech.SettingsActivity, ir.ham3da.speech.MainActivity, com.google.android.gms.ads.AdActivity
+  Services   (14): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, ir.ham3da.speech.MyFirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (12): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (3): com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 19500
+  Total Methods : 113816
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(2): 0.0.0.0, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CB A0 53 90 79 8B C9 DB 4E 90 BC 64 EA E6 1B 6F 4E A5 A9 A8 2D 7B 3E 1F 8A 2A B1 25 3F 76 80 8F
+
+==========================================

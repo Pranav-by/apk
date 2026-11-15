@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : devyac.app.adoptme
+  SHA-256       : 00AB84EF73B31ABBF7C0DB058DE59B224FE6802123322CB5E1D4F985E4DC69B9
+  Android Group : Android12L
+  Version       : 1.3.2 (code: 15)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (11)]
+  android.permission.ACCESS_COARSE_LOCATION, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (46): com.facebook.ads.AudienceNetworkActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.google.android.gms.ads.AdActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.mbridge.msdk.activity.MBCommonActivity, com.tapjoy.TJContentActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.applovin.adview.AppLovinFullscreenActivity, com.mbridge.msdk.out.LoadingActivity, com.applovin.sdk.AppLovinWebViewActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.applovin.mediation.MaxDebuggerActivity, com.mbridge.msdk.interstitial.view.MBInterstitialActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.ironsource.sdk.controller.ControllerActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity
+  Services   (14): com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (11): com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, androidx.startup.InitializationProvider, com.vungle.warren.utility.VungleProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.squareup.picasso.PicassoProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.my.target.common.MyTargetContentProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 26641
+  Total Methods : 141022
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): https://play.google.com/store/apps/details?id=, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://github.com/cleveradssolutions/CAS-Android/wiki/Project-Setup#add-own-settings-file, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(10): 16.1.51.0, 10.0.7.0, 12.10.0.1, 21.0.0.1, 7.2.2.1, 5.15.0.5, 6.11.0.0, 4.8.0.0, 4.2.1.0, 10.0.7.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : BB 43 1A BC 36 EC 18 3E 69 FF 1E E0 7B C1 51 6E 31 6E 78 4B 9D 35 86 88 03 92 B2 15 1C CB 3D C6
+
+==========================================

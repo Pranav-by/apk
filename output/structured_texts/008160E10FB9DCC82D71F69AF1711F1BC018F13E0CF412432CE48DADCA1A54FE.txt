@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : a2bliving.ie.a2bs
+  SHA-256       : 008160E10FB9DCC82D71F69AF1711F1BC018F13E0CF412432CE48DADCA1A54FE
+  Android Group : Android12
+  Version       : 7.0.7 (code: 720230522)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (33)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.READ_LOGS, getui.permission.GetuiService.a2bliving.ie.a2bs, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (19): io.dcloud.feature.unipush.PrivacyActivity, com.dmcbig.mediapicker.PreviewActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, com.dmcbig.mediapicker.PickerActivity, com.facebook.FacebookActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, io.dcloud.WebviewActivity, io.dcloud.PandoraEntry, io.dcloud.WebAppActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity, com.igexin.sdk.GetuiActivity, com.igexin.sdk.GActivity, io.dcloud.sdk.activity.WebViewActivity, io.dcloud.feature.nativeObj.photoview.PhotoActivity, io.dcloud.ProcessMediator, io.dcloud.PandoraEntryActivity, com.igexin.sdk.PushActivity
+  Services   (13): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.igexin.sdk.PushService, com.igexin.sdk.FcmPushIntentService, com.igexin.sdk.FcmIntentService, io.dcloud.feature.unipush.GTNormalIntentService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.dcloud.feature.aps.ApsActionService, io.dcloud.feature.unipush.GTPushDevService, io.dcloud.sdk.base.service.DownloadService, com.igexin.sdk.FcmPushService
+  Receivers  (5): com.igexin.sdk.PushReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.taobao.weex.WXGlobalEventReceiver
+  Providers  (4): io.dcloud.sdk.base.service.provider.DCloudAdFileProvider, io.dcloud.common.util.DCloud_FileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17363
+  Total Methods : 113596
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(4): 2.13.1.0, 2.12.0.0, 4.4.3.1, 2.11.0.0
+
+[Certificate]
+  Issuer      : Common Name: A2B
+  Fingerprint : 74 AF 93 6E F6 1D 9C 05 38 81 8E 1F A1 C1 C1 C4 E5 BD 4E 24 C2 5C 2B 4F CA 8E E3 44 24 BF B2 CC
+
+==========================================

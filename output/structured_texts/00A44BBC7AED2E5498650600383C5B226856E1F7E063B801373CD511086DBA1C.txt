@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.communi.segenskirchgemeindechemnitz
+  SHA-256       : 00A44BBC7AED2E5498650600383C5B226856E1F7E063B801373CD511086DBA1C
+  Android Group : Android14
+  Version       : 1.37.61 (code: 1037061)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 34
+
+[Permissions (32)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.communi.segenskirchgemeindechemnitz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.WRITE_CALENDAR, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, com.huawei.permission.external_app_settings.USE_COMPONENT, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+
+[Application Components]
+  Activities (4): com.communi.segenskirchgemeindechemnitz.MainActivity, com.adobe.phonegap.push.BackgroundHandlerActivity, com.adobe.phonegap.push.PushHandlerActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (5): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.adobe.phonegap.push.FCMService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (5): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.adobe.phonegap.push.PushDismissedHandler, com.adobe.phonegap.push.BackgroundActionButtonHandler, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, nl.xservices.plugins.ShareChooserPendingIntent
+  Providers  (5): org.apache.cordova.camera.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, nl.xservices.plugins.FileProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6696
+  Total Methods : 42306
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Communi App, Organizational Unit: ca, Organization: ca, Locality: w�rzburg, State/Province: by, Country: de
+  Fingerprint : EB 69 FA 73 28 DB 1F A1 68 04 9F D6 F7 8A B9 A1 71 2C AF F7 11 FD ED 6A E4 C2 78 15 3F 8A D5 11
+
+==========================================

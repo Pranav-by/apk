@@ -1,0 +1,53 @@
+{
+  "sha256": "000B47E232012FD298ED4B38E1F36BEBC3E14A5D0BCCE7BD0DEDBBCC07326CDA",
+  "filename": "000B47E232012FD298ED4B38E1F36BEBC3E14A5D0BCCE7BD0DEDBBCC07326CDA.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.mtx.sivashghx",
+  "version_name": "1.00",
+  "version_code": "1",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.mtx.sivashghx.main",
+    "com.mtx.sivashghx.player"
+  ],
+  "activity_count": 2,
+  "services": [
+    "com.mtx.sivashghx.httputils2service",
+    "com.mtx.sivashghx.starter"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.mtx.sivashghx.starter$starter_BR",
+    "com.mtx.sivashghx.httputils2service$httputils2service_BR"
+  ],
+  "receiver_count": 2,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2839,
+  "method_count": 23830,
+  "cert_fingerprint": "4D 96 AA 49 5E 02 BA 9A 73 64 8A 81 09 F8 3A 0F 9F 59 9A F2 F2 82 DD 68 1B 84 DB 80 C5 00 80 58",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

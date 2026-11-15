@@ -1,0 +1,50 @@
+{
+  "sha256": "00BC69805F15F9CAFD712A7B69F8661659F6E63021E79E3885E64624713FC4BD",
+  "filename": "00BC69805F15F9CAFD712A7B69F8661659F6E63021E79E3885E64624713FC4BD.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.creatorbizzo.pizzamob",
+  "version_name": "1.8",
+  "version_code": "5",
+  "min_sdk": "25",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.creatorbizzo.pizzamob.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "com.unity3d.player.UnityPlayerGameActivity",
+    "com.onevcat.uniwebview.UniWebViewProxyActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider",
+    "com.onevcat.uniwebview.UniWebViewFileProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5018,
+  "method_count": 35858,
+  "cert_fingerprint": "A0 44 85 42 0E 53 89 F0 4D 9C 5C E7 D4 49 E1 FE 4B D3 64 8C BA 9D 41 CF E5 B6 24 37 9F B3 7D 97",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

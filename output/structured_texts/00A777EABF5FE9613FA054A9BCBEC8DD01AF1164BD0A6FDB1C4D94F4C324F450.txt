@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mobileappsprn.ciocca
+  SHA-256       : 00A777EABF5FE9613FA054A9BCBEC8DD01AF1164BD0A6FDB1C4D94F4C324F450
+  Android Group : Android14
+  Version       : 3.9.5 (code: 38)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.GET_TASKS, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (88): com.mobileappsprn.alldealership.activities.menu.MoreLocationActivity, com.mobileappsprn.alldealership.activities.socialmedia.SocialMediaActivity, com.mobileappsprn.alldealership.activities.map.MapActivity, com.mobileappsprn.alldealership.activities.mpgcalculator.MPGCalculatorActivity, com.mobileappsprn.alldealership.activities.qrscanner.ScannerListActivity, com.mobileappsprn.alldealership.activities.qrscanner.ScannerWebActivity, com.mobileappsprn.alldealership.activities.station.GasStationActivity, com.mobileappsprn.alldealership.activities.webview.WebViewActivity, com.mobileappsprn.alldealership.activities.parking.ParkingActivity, com.mobileappsprn.alldealership.activities.splash.SplashActivity, com.mobileappsprn.alldealership.activities.menu.MoreLocationMapActivity, com.mobileappsprn.alldealership.activities.dashboard.DashboardActivity, com.mobileappsprn.alldealership.activities.connectedcar.CCTripDetailsActivity, com.mobileappsprn.alldealership.activities.signin.SignInActivity, com.mobileappsprn.alldealership.activities.accidentReport.AccidentReport1Activity, com.mobileappsprn.alldealership.activities.map.MapPinHoleActivity, com.mobileappsprn.alldealership.activities.dashboardgolf.GolfDashboardActivity, com.theartofdev.edmodo.cropper.CropImageActivity, com.mobileappsprn.alldealership.activities.socialmedia.ImageDocumentActivity, com.google.firebase.auth.internal.GenericIdpActivity
+  Services   (10): com.mobileappsprn.alldealership.activities.splash.DownloadUpdateService, com.mobileappsprn.alldealership.fcm.MyFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.mobileappsprn.alldealership.fcm.MyFirebaseInstanceIDService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7605
+  Total Methods : 43764
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://goo.gl/J1sWQy
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: ITeam, Organizational Unit: Software Development, Organization: Tvishi, Locality: Bangalore, State/Province: India, Country: 91
+  Fingerprint : DE 91 22 C7 3B 97 60 A3 F3 36 1E 44 4C 25 B6 7C 2C 63 BC 82 67 32 5B D7 30 63 3A 30 0B A0 20 D9
+
+==========================================

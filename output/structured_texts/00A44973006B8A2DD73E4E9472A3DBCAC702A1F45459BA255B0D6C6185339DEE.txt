@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gusanitosabehablar.lenguaje
+  SHA-256       : 00A44973006B8A2DD73E4E9472A3DBCAC702A1F45459BA255B0D6C6185339DEE
+  Android Group : Android12L
+  Version       : 1.0.0 (code: 10000)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (1)]
+  android.permission.INTERNET
+
+[Application Components]
+  Activities (1): com.gusanitosabehablar.lenguaje.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3102
+  Total Methods : 24356
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C1 EF 6B A2 56 2A 71 7A 1B C8 06 D3 2A 13 CF CC 76 04 27 75 37 96 38 7A 1A 49 F0 45 D4 06 AC 87
+
+==========================================

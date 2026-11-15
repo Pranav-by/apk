@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.app.theshineindia
+  SHA-256       : 00565400449086164AFD49E4F6AC408047154FFC6DD38A4582BEEE1E4AC9806D
+  Android Group : Android12L
+  Version       : 1.1.46 (code: 46)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (25)]
+  android.permission.READ_PHONE_NUMBERS, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.GET_TASKS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS
+
+[Application Components]
+  Activities (35): com.app.theshineindia.location.LocationTestActivity, com.app.theshineindia.location.GeoLocationActivity, com.app.theshineindia.splash.SplashActivity, com.app.theshineindia.login.LoginActivity, com.app.theshineindia.location.LocationActivity, com.app.theshineindia.app_locker.activities.lock.GestureCreateActivity, com.app.theshineindia.forgot_password.ForgotActivity, com.google.android.gms.common.api.GoogleApiActivity, com.app.theshineindia.app_locker.activities.pwd.CreatePwdActivity, com.app.theshineindia.phone_info.PhoneInfoActivity, com.app.theshineindia.home.HomeActivity, com.app.theshineindia.app_hide.AppHideActivity, com.app.theshineindia.registration.RegistrationActivity, com.app.theshineindia.payment.PaymentActivity, com.tapadoo.alerter.MockActivity, com.app.theshineindia.Plan.SelectPlanActivity, com.app.theshineindia.app_locker.activities.about.AboutMeActivity, com.karumi.dexter.DexterActivity, com.app.theshineindia.family_device.FamilyDeviceActivity, com.app.theshineindia.intruder_selfie.IntruderSelfieActivity
+  Services   (18): com.app.theshineindia.intruder_selfie.CameraBGService, com.app.theshineindia.services.LocationService, com.app.theshineindia.services.SingleService, com.app.theshineindia.intruder_selfie.CameraNewService, com.app.theshineindia.secret_code.KioskService, com.app.theshineindia.services.MyFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.app.theshineindia.app_locker.services.LoadAppListService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.app.theshineindia.app_locker.services.LockService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.app.theshineindia.services.SchedulerEventReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.app.theshineindia.app_locker.receiver.LockRestarterBroadcastReceiver, com.app.theshineindia.services.SchedulerSetupReceiver, com.app.theshineindia.intruder_selfie.AdminReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.app.theshineindia.app_locker.receiver.BootBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5897
+  Total Methods : 34559
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://goo.gl/J1sWQy
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4C 4D 56 9C 8A 6A 44 5C 68 97 1E 9F 6F 77 94 A0 C9 BA 1E 2A 85 E9 CE 11 74 3A E3 30 5B 1F 6F F3
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.google.android.apps.subscriptions.red
+  SHA-256       : 002D30B507F10C65E9D72A43FFC6E26F976F6E004BE91ECCE8BF01AAE8A7115D
+  Android Group : Android14
+  Version       : 1.196.580728785 (code: 436879)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 34
+
+[Permissions (17)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.QUERY_ALL_PACKAGES, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_CREDENTIALS, android.permission.GET_ACCOUNTS, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.MANAGE_ACCOUNTS, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.GET_PACKAGE_SIZE
+
+[Application Components]
+  Activities (67): com.google.android.apps.subscriptions.red.dwm.dashboard.DwmDashboardActivity, com.google.android.apps.subscriptions.red.partnership.onboarding.flow.PartnerOnboardingActivity, com.google.android.apps.subscriptions.red.settings.storage.nonmember.StorageChangeNMActivity, com.google.android.apps.subscriptions.red.error.network.NetworkErrorActivity, com.google.android.apps.subscriptions.red.settings.storage.playpass.details.PlayPassDetailsActivity, com.google.android.apps.subscriptions.red.partnership.onboarding.flow.fopgated.LaunchRedeemFopgatedOfferPageActivity, com.google.android.apps.subscriptions.red.settings.storage.StorageChangeActivity, com.google.android.apps.subscriptions.red.partnership.onboarding.fopgated.RedeemFopgatedOfferActivity, com.google.android.apps.subscriptions.red.setup.backup.BackupActivity, com.google.android.apps.subscriptions.red.dwm.onboarding.DwmHowItWorksActivity, com.google.android.apps.subscriptions.red.partnership.onboarding.fopless.RedeemFoplessOfferActivity, com.google.android.apps.subscriptions.red.setup.partner.PartnerOnboardActivity, com.google.android.apps.subscriptions.red.partnership.onboarding.fopless.LaunchRedeemFoplessOfferPageActivity, com.google.android.apps.subscriptions.red.setup.SetupWizardActivity, com.google.android.apps.subscriptions.red.perks.history.PerkHistoryActivity, com.google.android.apps.subscriptions.red.storage.management.StorageFreeUpActivity, com.google.android.apps.subscriptions.red.perks.redeem.PerkRedeemActivity, com.google.android.apps.subscriptions.red.storage.management.StorageFreeUpActivityV2, com.google.android.apps.subscriptions.red.backup.BackupDetailsActivity, com.google.android.apps.subscriptions.red.ppn.debugmenu.debuginfo.DebugInfoActivity
+  Services   (18): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.libraries.directboot.DirectBootHelperService, com.google.android.build.data.PropertiesServiceHolder, com.google.android.libraries.internal.growth.growthkit.internal.jobs.impl.GrowthKitJobService, com.google.android.libraries.internal.growth.growthkit.internal.jobs.impl.GrowthKitBelowLollipopJobService, com.google.android.libraries.notifications.entrypoints.scheduled.ScheduledTaskService, com.google.apps.tiktok.concurrent.AndroidFuturesService, com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService, com.google.apps.tiktok.concurrent.InternalForegroundService, com.google.android.apps.subscriptions.red.ppn.lib.PpnJobService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.libraries.privacy.ppn.PpnVpnService, com.google.android.apps.subscriptions.red.ppn.quicksettings.PpnTileService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (31): com.google.android.libraries.notifications.entrypoints.systemtray.SystemTrayBroadcastReceiver, com.google.android.libraries.notifications.platform.entrypoints.localechanged.LocaleChangedReceiver, com.google.android.libraries.notifications.platform.entrypoints.push.PushReceiver, com.google.android.libraries.notifications.platform.entrypoints.restart.RestartReceiver, com.google.android.apps.subscriptions.red.ppn.SnoozePpnReceiver_Receiver, com.google.android.apps.subscriptions.red.ppn.ExtendSnoozeReceiver_Receiver, com.google.android.libraries.notifications.platform.entrypoints.timezonechanged.TimezoneChangedReceiver, com.google.android.apps.subscriptions.red.ppn.BootCompletedPpnStateCheckReceiver_Receiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.libraries.internal.growth.growthkit.tiktok.GrowthKitBootCompletedListener_Receiver, com.google.android.libraries.notifications.entrypoints.blockstatechanged.BlockStateChangedReceiver, com.google.android.libraries.notifications.entrypoints.accountchanged.AccountChangedReceiver, com.google.android.apps.subscriptions.red.notifications.receivers.ToggleNotificationChannelListener_Receiver, com.google.android.apps.subscriptions.red.ppn.ResumePpnReceiver_Receiver, com.google.android.apps.subscriptions.red.ppn.DisablePpnReceiver_Receiver, com.google.android.apps.subscriptions.red.ppn.PackageReplacedPpnStateCheckReceiver_Receiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.libraries.internal.growth.growthkit.internal.debug.TestingToolsBroadcastReceiver, com.google.android.libraries.notifications.platform.entrypoints.update.UpdateReceiver, com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 13916
+  Total Methods : 72745
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, http://go/tiktok-futures#limitations, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, http://go/tiktok/dev/dataservice/subscriptionmixin#best-practices.
+  IP Addresses(10): 0.0.0.0, 192.168.0.0, 10.0.0.0, 224.0.0.0, 240.0.0.0, 198.18.0.0, 169.254.0.0, 100.64.0.0, 239.255.255.250, 172.16.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E3 57 F0 22 AB 8E DB 77 1E 37 4E 58 68 08 E2 68 C9 14 EB 34 DC 6C 7A 06 8C 0E 0A 05 C8 12 89 53
+
+==========================================

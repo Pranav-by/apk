@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.krystalapps.imagetopdf
+  SHA-256       : 00A20F30CF883FE13AC45611D473A6EB5D72D55C9C77559D1DE1ACAD8D9B07E5
+  Android Group : Android15
+  Version       : 1.6.0 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, com.krystalapps.imagetopdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (18): com.krystalapps.imagetopdf.imagepickerfiles.ui.imagepicker.ImagePickerActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.AdActivity, com.krystalapps.imagetopdf.SettingsActivity, com.krystalapps.imagetopdf.imagepickerfiles.ui.camera.CameraActivity, com.google.android.gms.common.api.GoogleApiActivity, com.krystalapps.imagetopdf.PDFViewerActivity, com.krystalapps.imagetopdf.ImageToPDFActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.ads.NotificationHandlerActivity, com.krystalapps.imagetopdf.ImageSelectActivity, com.krystalapps.imagetopdf.ExitApplicationActivity, com.krystalapps.imagetopdf.GeneratedFilesActivity, com.yalantis.ucrop.UCropActivity, com.krystalapps.imagetopdf.AppLauncherActivity, com.krystalapps.imagetopdf.AppStarterActivity, com.krystalapps.imagetopdf.PrivacyPolicyActivity
+  Services   (7): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (3): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 23271
+  Total Methods : 149233
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/training/testing/espresso/setup#set-up-environment
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : EF 8B 9D 55 12 78 E3 1F 35 16 C3 63 CF BF A0 6B 8F 4B 32 FA CB 00 6B 6D FE D8 BA 75 4C 4E 11 12
+
+==========================================

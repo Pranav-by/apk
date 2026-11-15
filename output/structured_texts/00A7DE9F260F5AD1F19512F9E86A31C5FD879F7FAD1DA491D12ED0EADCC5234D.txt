@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.french.english.typing.keyboard.emoji.french.language
+  SHA-256       : 00A7DE9F260F5AD1F19512F9E86A31C5FD879F7FAD1DA491D12ED0EADCC5234D
+  Android Group : Android13
+  Version       : 1.5 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (4)]
+  android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, com.french.english.typing.keyboard.emoji.french.language.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.VIBRATE
+
+[Application Components]
+  Activities (6): com.toolapp.frenchkeyboard.setting, com.toolapp.frenchkeyboard.Home, com.toolapp.frenchkeyboard.themes, com.toolapp.frenchkeyboard.Splash, com.toolapp.frenchkeyboard.Main, com.toolapp.frenchkeyboard.Privacy
+  Services   (1): com.toolapp.frenchkeyboard.android.SoftKeyboard
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7038
+  Total Methods : 52436
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Badar Yaqoob, Organizational Unit: Developer, Organization: HBN Technologies, Locality: Rawalpindi, State/Province: punjab, Country: 46000
+  Fingerprint : A7 03 6D 8A 01 FC 86 25 B2 58 2F 74 5A 61 EC 57 34 70 06 BE 93 32 1D D2 CF DE C9 97 B0 AD A5 E2
+
+==========================================

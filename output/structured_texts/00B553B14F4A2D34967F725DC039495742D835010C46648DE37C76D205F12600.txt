@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.brightoncorporation
+  SHA-256       : 00B553B14F4A2D34967F725DC039495742D835010C46648DE37C76D205F12600
+  Android Group : Android13
+  Version       : 3.19.24 (code: 634)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (29)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (140): com.brightoncorporation.ui.settings.datavalue.DataValueActivity, com.brightoncorporation.ui.explore.submit.EditVideoActivity, com.brightoncorporation.ui.secondary.container.ContainerListingActivity, com.brightoncorporation.ui.event.list.ListEventActivity, com.brightoncorporation.ui.oboarding.OnboardingActivity, com.brightoncorporation.ui.agent.container.ContainerAgentActivity, com.brightoncorporation.ui.address.ListAddressActivity, com.brightoncorporation.ui.explore.container.SearchResultExploreActivity, com.brightoncorporation.ui.classroom.ClassroomActivity, com.brightoncorporation.ui.classroom.detail.DetailClassroomActivity, com.brightoncorporation.ui.agent.container.ContainerAgentPostActivity, com.brightoncorporation.ui.notification.NotificationCenterActivity, com.adevinta.leku.LocationPickerActivity, com.brightoncorporation.ui.webviewer.virtualtour.VirtualTourViewerActivity, com.brightoncorporation.ui.photo.PhotoThumbViewerActivity, com.brightoncorporation.ui.video.VideoViewerActivity, com.brightoncorporation.ui.search.container.AdvanceSearchActivity, com.brightoncorporation.ui.member.registeraccount.RegisterAccountActivity, com.brightoncorporation.ui.member.login.LoginActivity, com.brightoncorporation.ui.member.profile.ProfileActivity
+  Services   (20): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, com.brightoncorporation.service.firebase.MyFirebaseMessagingService, com.brightoncorporation.service.ExoPlayerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.tagmanager.TagManagerService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.camera.core.impl.MetadataHolderService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (16): com.brightoncorporation.ui.member.phone.PhoneActivity$MySMSBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.brightoncorporation.ui.chat.ChatReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (7): com.esafirm.imagepicker.helper.ImagePickerFileProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.iceteck.silicompressorr.provider.GenericFileProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 48697
+  Total Methods : 313598
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Andrew Azlan, Organizational Unit: Android Dev, Organization: Crosstechno, Locality: Surabaya, State/Province: Indonesia, Country: ID
+  Fingerprint : EA BB 3A EF 78 28 33 4B A6 E8 38 4D 53 DA 5C E8 71 8E 38 98 53 E5 CC 45 76 A6 85 70 70 C5 22 A9
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.delivery.samuraiGourmet
+  SHA-256       : 00AA169CDC9DED5C02E1763EF5B98CB4CC5543D4D2344313B3BB49D773FF668C
+  Android Group : Android12L
+  Version       : 2.18.13 (code: 240)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (15)]
+  com.google.android.gms.permission.AD_ID, android.permission.READ_CLIPBOARD, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_COARSE_LOCATION, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WRITE_CLIPBOARD, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (27): com.delivery.direto.activities.AuthenticationActivity, com.delivery.direto.base.DeliveryActivity, com.delivery.direto.activities.OnOrOfflinePaymentActivity, com.delivery.direto.activities.OrderSingleActivity, com.delivery.direto.activities.PizzaItemsActivity, com.delivery.direto.activities.WebviewActivity, com.delivery.direto.base.PaymentMethodsActivity, com.delivery.direto.base.ItemOptionsActivity, com.delivery.direto.activities.CardDetailsActivity, com.delivery.direto.activities.AddressActivity, com.delivery.direto.activities.CameraActivity, com.delivery.direto.activities.PromotionsActivity, com.delivery.direto.activities.PhotoActivity, com.google.android.gms.common.api.GoogleApiActivity, com.delivery.direto.activities.FlutterIntegrationActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.CustomTabActivity, com.delivery.direto.activities.MainAddressActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (14): com.google.android.gms.analytics.CampaignTrackingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.tagmanager.TagManagerService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.delivery.direto.services.NotificationService, com.google.android.gms.measurement.AppMeasurementService, com.delivery.direto.services.InstanceIDService, com.google.android.gms.analytics.AnalyticsService
+  Receivers  (7): com.google.android.gms.analytics.CampaignTrackingReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (5): dev.fluttercommunity.plus.share.ShareFileProvider, com.facebook.internal.FacebookInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 12672
+  Total Methods : 50086
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, http://goo.gl/8Rd3yj, https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Leonardo Passos, Organizational Unit: Mobile Developer, Organization: Kekanto, Locality: São Paulo, State/Province: São Paulo, Country: BR
+  Fingerprint : 5D 53 24 CB D0 72 80 E6 57 0E E9 E0 23 E7 65 B9 F0 A4 88 FB EA E7 78 CD 86 D1 2D 3F BE C9 5A BE
+
+==========================================

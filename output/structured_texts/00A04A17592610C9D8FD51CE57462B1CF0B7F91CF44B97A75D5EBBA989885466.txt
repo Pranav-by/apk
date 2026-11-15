@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.udr.resident.app
+  SHA-256       : 00A04A17592610C9D8FD51CE57462B1CF0B7F91CF44B97A75D5EBBA989885466
+  Android Group : Android14
+  Version       : 2.25.2 (code: 307)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (31)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.USE_BIOMETRIC, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.udr.resident.app.permission.C2D_MESSAGE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.USE_FINGERPRINT, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.htc.launcher.permission.UPDATE_SHORTCUT
+
+[Application Components]
+  Activities (18): com.udr.resident.app.ui.login.UnAuthenticatedActivity, com.udr.resident.app.ui.base.player.FullScreenYoutubeActivity, com.auth0.android.provider.AuthenticationActivity, com.udr.resident.app.ui.main.movein.MoveInWizardActivity, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.yalantis.ucrop.UCropActivity, com.onesignal.notifications.activities.NotificationOpenedActivityHMS, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.udr.resident.app.ui.helpcenter.HelpCenterActivity, com.onesignal.notifications.activities.NotificationOpenedActivity, com.google.android.gms.common.api.GoogleApiActivity, com.udr.resident.app.ui.web.WebActivity, sdk.pendo.io.activities.PendoGateActivity, com.onesignal.core.activities.PermissionsActivity, sdk.pendo.io.activities.PendoGuideVisualActivity, com.udr.resident.app.ui.main.MainActivity, com.auth0.android.provider.RedirectActivity, com.udr.resident.app.ui.splash.SplashActivity
+  Services   (13): com.google.android.gms.measurement.AppMeasurementJobService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.onesignal.core.services.SyncService, com.onesignal.core.services.SyncJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (3): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 25959
+  Total Methods : 170238
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(5): 0.4.0.127, 127.0.0.1, 1.3.6.1, 3.1.2.1, 1.2.643.2
+
+[Certificate]
+  Issuer      : Common Name: UDR, Organizational Unit: UDR, Organization: UDR, Locality: Denver, State/Province: Colorado, Country: US
+  Fingerprint : A9 44 3F E5 CC F0 09 B3 3A 78 FB BD F9 E0 C4 6A CE AB 1F CF F9 2C 01 9D E1 FB 9F C7 5A 2B A0 26
+
+==========================================

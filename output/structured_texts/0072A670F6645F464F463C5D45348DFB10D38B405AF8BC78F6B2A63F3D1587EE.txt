@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.infomaniak.drive
+  SHA-256       : 0072A670F6645F464F463C5D45348DFB10D38B405AF8BC78F6B2A63F3D1587EE
+  Android Group : Android14
+  Version       : 4.4.6 (code: 40400601)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (20)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_BIOMETRIC, com.infomaniak.drive.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FINGERPRINT, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.CAMERA, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (18): com.infomaniak.lib.login.WebViewLoginActivity, com.infomaniak.drive.ui.SaveExternalFilesActivity, com.infomaniak.drive.ui.login.NoDriveActivity, com.infomaniak.lib.stores.updaterequired.UpdateRequiredActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.infomaniak.drive.ui.MaintenanceActivity, com.infomaniak.drive.ui.menu.settings.AppSecuritySettingsActivity, com.infomaniak.drive.ui.OnlyOfficeActivity, com.infomaniak.lib.applock.LockActivity, com.infomaniak.drive.ui.fileList.SelectFolderActivity, com.infomaniak.drive.ui.login.LoginActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.infomaniak.lib.login.WebViewCreateAccountActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.infomaniak.drive.ui.menu.settings.SyncSettingsActivity, com.infomaniak.drive.ui.LaunchActivity, com.infomaniak.drive.ui.SwitchUserActivity, com.infomaniak.drive.ui.MainActivity
+  Services   (7): androidx.work.impl.foreground.SystemForegroundService, com.infomaniak.drive.data.sync.MediaObserverService, androidx.appcompat.app.AppLocalesMetadataHolderService, androidx.work.impl.background.systemalarm.SystemAlarmService, info.mqtt.android.service.MqttService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.infomaniak.drive.utils.RebootReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, org.matomo.sdk.extra.InstallReferrerReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (5): io.sentry.android.core.SentryPerformanceProvider, androidx.core.content.FileProvider, com.infomaniak.drive.data.documentprovider.CloudStorageProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 26282
+  Total Methods : 183968
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: FDroid, Organizational Unit: FDroid, Organization: fdroid.org, Locality: ORG, State/Province: ORG, Country: UK
+  Fingerprint : BF 93 6C 18 D8 B3 B1 0A 14 2A 0A 05 26 FE 9F 44 72 31 95 5E 27 7F 10 10 2D E6 66 50 5C E4 FF C5
+
+==========================================

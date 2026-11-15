@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : cn.bluecrane.babyalbum
+  SHA-256       : 008A28F1DD35D3593A4B3A3C89511BDB32385DC66BAEC07CBDFC789CE6E96CD7
+  Android Group : Android13
+  Version       : 4.0.0 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (27)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.QUERY_ALL_PACKAGES, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.CAMERA, com.asus.msa.SupplementaryDID.ACCESS, android.permission.ACCESS_COARSE_UPDATES
+
+[Application Components]
+  Activities (95): com.tencent.tauth.AuthActivity, cn.bluecrane.babyalbum.wxapi.WXEntryActivity, com.alipay.sdk.app.PayResultActivity, com.alipay.sdk.app.AlipayResultActivity, com.alipay.sdk.app.H5AuthActivity, com.alipay.sdk.app.H5OpenAuthActivity, cn.bluecrane.babyalbum.wxapi.WXPayEntryActivity, com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity, com.alipay.sdk.app.APayEntranceActivity, com.bytedance.android.openliveplugin.stub.activity.StubActivity$AppCompat_SingleTask2, com.qq.e.ads.ADActivity, com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy, com.qq.e.ads.PortraitADActivity, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait, com.qq.e.ads.LandscapeADActivity, cn.bluecrane.babyalbum.photo.ChoosePhotoBrowseActivity, com.bytedance.android.openliveplugin.stub.activity.Stub_Standard_Activity_DouyinWebAuthorizeActivity, com.qq.e.ads.RewardvideoPortraitADActivity, com.qq.e.ads.RewardvideoLandscapeADActivity, com.qq.e.ads.DialogActivity
+  Services   (16): cn.bluecrane.babyalbum.service.RecycleService, com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService, cn.bluecrane.babyalbum.service.SyncLabelDataService, com.ss.android.socialbase.downloader.downloader.DownloadService, com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.ss.android.socialbase.appdownloader.DownloadHandlerService, cn.bluecrane.babyalbum.service.SyncPhotoService, cn.bluecrane.babyalbum.service.DownloadLoginService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, cn.bluecrane.babyalbum.service.DownloadSyncPhotoService, com.huawei.agconnect.core.ServiceDiscovery, com.qq.e.comm.DownloadService, cn.bluecrane.babyalbum.service.CreatePhotoGridThumbnailService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, cn.bluecrane.babyalbum.service.CompressPhotoService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService
+  Receivers  (2): cn.bluecrane.babyalbum.wxapi.AppRegister, com.ss.android.downloadlib.core.download.DownloadReceiver
+  Providers  (11): com.squareup.picasso.PicassoProvider, cn.bluecrane.babyalbum.dbservice.AlbumContentProvider, androidx.core.content.FileProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.bytedance.sdk.openadsdk.stub.server.MainServerManager, com.bytedance.pangle.provider.MainProcessProviderProxy, com.bytedance.pangle.FileProvider, com.huawei.hms.mlsdk.common.provider.MLInitializerProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 131
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: 钱长浩, Organizational Unit: 蓝鹤信息技术有限公司, Organization: 蓝鹤信息技术有限公司, Locality: 苏州, State/Province: 江苏, Country: cn
+  Fingerprint : 77 BA 3F 62 47 31 C2 53 A3 3A D1 B8 FF 31 5A C9 CF 1D 3B 12 EF 22 1D 8A 94 9C 43 8A 6A BD A5 1A
+
+==========================================

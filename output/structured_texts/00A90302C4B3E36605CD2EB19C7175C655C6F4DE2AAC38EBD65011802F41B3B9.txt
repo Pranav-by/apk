@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : jp.co.bronco.app.bronco
+  SHA-256       : 00A90302C4B3E36605CD2EB19C7175C655C6F4DE2AAC38EBD65011802F41B3B9
+  Android Group : Android15
+  Version       : 1.1.7 (code: 35)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (11)]
+  jp.co.bronco.app.bronco.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (3): jp.co.gingdang.hybridapp.appbase.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, jp.co.bronco.app.bronco.AppActivity
+  Services   (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, jp.co.gingdang.hybridapp.appbase.plugin.firebase_messaging.MessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (7): jp.co.gingdang.hybridapp.appbase.api.localnotification.LocalNotificationReceiver, jp.co.gingdang.hybridapp.appbase.receiver.LocaleChangedReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, jp.co.gingdang.hybridapp.appbase.plugin.firebase_messaging.MessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, jp.co.gingdang.hybridapp.appbase.receiver.BootCompleteReceiver
+  Providers  (2): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 2778
+  Total Methods : 13707
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://issuetracker.google.com/issues/241760537, https://youtrack.jetbrains.com/issue/KT-55980
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: BRONCO BILLY CO.,LTD.; Organizational Unit: manager; Organization: manager; Locality: NAGOYA; State/Province: Aichi; Country: JP
+  Fingerprint : 67 CC 22 69 63 DD 9C 78 06 6E 43 8C 97 11 90 9D 00 9E 95 5C D9 87 AE 7B B1 A4 76 A8 D4 AE A1 F3
+
+==========================================

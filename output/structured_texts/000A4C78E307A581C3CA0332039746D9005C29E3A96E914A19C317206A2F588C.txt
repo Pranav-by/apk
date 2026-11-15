@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.withapp
+  SHA-256       : 000A4C78E307A581C3CA0332039746D9005C29E3A96E914A19C317206A2F588C
+  Android Group : Android13
+  Version       : 1.67.1 (code: 425)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (22)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, com.withapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.HIGH_SAMPLING_RATE_SENSORS, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.READ_MEDIA_IMAGES
+
+[Application Components]
+  Activities (9): com.shakebugs.shake.ui.ChatLauncherActivity, com.withapp.home.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.amplifyframework.auth.cognito.activities.CustomTabsManagerActivity, com.withapp.share.ShareToActivity, com.shakebugs.shake.ui.ShakeActivity, com.shakebugs.shake.ui.permissions.RequestPermissionActivity
+  Services   (17): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.withapp.notification.FCMService, com.withapp.workers.ScreenRecordService, com.shakebugs.shake.internal.shake.recording.ScreenRecordingService, androidx.room.MultiInstanceInvalidationService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.camera.core.impl.MetadataHolderService, com.shakebugs.shake.internal.shake.notification.ShakeNotificationListenerService
+  Receivers  (15): com.withapp.notification.NotifyCancelReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.shakebugs.shake.internal.NotificationReceiver, com.instacart.library.truetime.BootCompletedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (6): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.shakebugs.shake.internal.utils.FileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, pl.aprilapps.easyphotopicker.EasyImageFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 49842
+  Total Methods : 268580
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1B E9 01 E8 12 9C 93 7B 1F 14 2F B5 94 82 F5 3D 39 51 EB 61 68 A7 82 19 85 DF B1 09 B1 9D C7 79
+
+==========================================

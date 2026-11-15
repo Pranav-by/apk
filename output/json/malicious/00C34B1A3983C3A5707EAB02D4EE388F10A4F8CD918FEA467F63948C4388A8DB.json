@@ -1,0 +1,60 @@
+{
+  "sha256": "00C34B1A3983C3A5707EAB02D4EE388F10A4F8CD918FEA467F63948C4388A8DB",
+  "filename": "00C34B1A3983C3A5707EAB02D4EE388F10A4F8CD918FEA467F63948C4388A8DB.apk",
+  "android_version": "Android16",
+  "label": "malicious",
+  "package_name": "com.barla.risolainur",
+  "version_name": "1.0.5",
+  "version_code": "6",
+  "min_sdk": "26",
+  "target_sdk": "36",
+  "permissions": [
+    "com.barla.risolainur.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.android.vending.CHECK_LICENSE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.barla.risolainur.presentation.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.pairip.licensecheck.LicenseActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+  ],
+  "service_count": 4,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "com.pairip.licensecheck.LicenseContentProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 6,
+  "class_count": 40204,
+  "method_count": 317374,
+  "cert_fingerprint": "E8 13 25 51 3A F6 FF 58 5B 80 3F 4E 79 23 1F A5 92 72 0F 50 1F 31 B7 DB EA AF 35 28 AB DA F0 39",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

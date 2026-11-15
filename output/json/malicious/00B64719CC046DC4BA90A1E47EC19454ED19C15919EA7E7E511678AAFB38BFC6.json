@@ -1,0 +1,62 @@
+{
+  "sha256": "00B64719CC046DC4BA90A1E47EC19454ED19C15919EA7E7E511678AAFB38BFC6",
+  "filename": "00B64719CC046DC4BA90A1E47EC19454ED19C15919EA7E7E511678AAFB38BFC6.apk",
+  "android_version": "Android15",
+  "label": "malicious",
+  "package_name": "com.ylt.rubberfistboom",
+  "version_name": "1.0.1",
+  "version_code": "1001",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_PHONE_STATE",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.fakerandroid.boot.FakerActivity",
+    "com.pairip.licensecheck.LicenseActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.pairip.licensecheck.LicenseContentProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 18653,
+  "method_count": 111332,
+  "cert_fingerprint": "0D EE 62 2A C7 59 80 B7 EE 24 C0 92 2B 25 A9 37 DB 3B 2E F1 9D 93 9E 0B 3B B4 3A 16 D4 52 F1 4E",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "4.9.0.3",
+    "0.0.0.0",
+    "4.6.0.1",
+    "4.7.0.650",
+    "4.9.0.2",
+    "4.8.0.0",
+    "1.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

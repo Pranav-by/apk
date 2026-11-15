@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.google.android.apps.docs
+  SHA-256       : 00A5B9C8F529FB6B1ED9E5AED87F48AA581BEB8F81CA6D8F61EB13392C369325
+  Android Group : Android12
+  Version       : 2.21.417.3.90 (code: 212650700)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (35)]
+  android.permission.FOREGROUND_SERVICE, com.google.android.googleapps.permission.GOOGLE_AUTH.writely, android.permission.VIBRATE, android.permission.NFC, com.android.launcher.permission.INSTALL_SHORTCUT, android.permission.SUBSCRIBED_FEEDS_READ, com.google.android.c2dm.permission.RECEIVE, com.android.launcher.permission.UNINSTALL_SHORTCUT, android.permission.READ_CONTACTS, android.permission.ACCESS_WIFI_STATE, android.permission.READ_SYNC_SETTINGS, com.google.android.googleapps.permission.GOOGLE_AUTH, android.permission.USE_CREDENTIALS, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, com.google.android.apps.docs.permission.SYNC_STATUS, android.permission.MANAGE_ACCOUNTS, android.permission.CAMERA, android.permission.WRITE_SYNC_SETTINGS, com.google.android.gm.permission.READ_GMAIL, android.permission.INTERNET
+
+[Application Components]
+  Activities (84): com.google.android.apps.docs.common.drivecore.integration.ServiceUpdateActivity, com.google.android.apps.docs.drive.carbon.TurnOffBackupEntityActivity, com.google.android.apps.docs.drive.startup.StartupActivity, com.google.android.apps.docs.drive.documentopener.OpenSafUrlActivity, com.google.android.apps.docs.doclist.documentopener.DocumentOpenerActivity, com.google.android.apps.docs.common.shareitem.UploadMenuActivity, com.google.android.apps.docs.drive.carbon.BackupContentListActivity, com.google.android.apps.docs.common.shareitem.UploadActivity, com.google.android.apps.docs.drive.carbon.BackupEntityListActivity, com.google.android.apps.docs.drive.carbon.BackupAppListActivity, com.google.android.apps.docs.drive.carbon.DeleteBackupEntityActivity, com.google.android.apps.docs.drive.filepicker.GetContentActivity, com.google.android.apps.docs.drive.filepicker.PickActivity, com.google.android.apps.docs.common.sharingactivity.LinkSharingActivity, com.google.android.apps.docs.drive.documentopener.DocumentOpenerActivityProxy, com.google.android.apps.docs.drive.openurl.OpenUrlActivity, com.google.android.apps.docs.common.billing.PaymentsActivity, com.google.android.apps.docs.common.androidshortcuts.CreateShortcutActivity, com.google.android.apps.docs.common.androidshortcuts.ScanToDriveActivity, com.google.android.apps.docs.common.billing.googleone.GoogleOneActivity
+  Services   (26): com.google.android.apps.viewer.client.ProjectorClientService, com.google.android.apps.viewer.pdflib.PdfDocumentService, com.google.android.apps.viewer.viewer.audio.AudioService, com.google.android.apps.viewer.viewer.exo.notification.TaskRemovedService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.libraries.internal.growth.growthkit.internal.jobs.impl.GrowthKitJobService, com.google.android.libraries.internal.growth.growthkit.internal.jobs.impl.GrowthKitBelowLollipopJobService, com.google.android.libraries.notifications.entrypoints.scheduled.ScheduledTaskService, com.google.android.libraries.notifications.executor.impl.basic.ChimeExecutorApiService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.build.data.PropertiesServiceHolder, com.google.android.apps.docs.drive.devtools.DeveloperToolsService, com.google.android.apps.docs.drive.appindexing.AppIndexingJobService, com.google.android.apps.docs.drive.ipcservice.DriveIpcService, com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService, com.google.android.apps.docs.common.sharing.giveaccess.QuickGiveAccessIntentService, com.google.android.apps.docs.common.sync.syncadapter.DocsSyncAdapterService, com.google.android.apps.docs.common.sync.content.ContentSyncForegroundService
+  Receivers  (27): com.google.android.apps.docs.drive.widget.suggestion.SuggestionReplacementReceiver, com.google.android.libraries.notifications.entrypoints.localechanged.LocaleChangedReceiver, com.google.android.apps.docs.drive.appindexing.AppIndexingReceiver, com.google.android.apps.docs.notification.common.NotificationBanReceiver, com.google.android.apps.docs.doclist.statesyncer.CrossAppStateChangedEventReceiver, com.google.android.apps.docs.doclist.statesyncer.DocumentContentStatusChangedReceiver, com.google.android.apps.docs.common.sync.content.notifier.ContentSyncNotificationReceiver, com.google.android.apps.docs.common.sync.content.notifier.TransferNotificationActionReceiver, com.google.android.apps.docs.common.sync.content.ContentSyncBroadcastReceiver, com.google.android.libraries.notifications.entrypoints.restart.RestartReceiver, com.google.android.libraries.notifications.entrypoints.systemtray.SystemTrayBroadcastReceiver, com.google.android.libraries.notifications.entrypoints.timezonechanged.TimezoneChangedReceiver, com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver, com.google.android.apps.docs.download.DownloadManagerReceiver, com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver, com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver, com.google.android.apps.docs.drive.phenotype.DrivePhenotypeUpdateReceiver, com.google.android.apps.docs.drive.widget.suggestion.SuggestionAppWidgetProvider, com.google.android.apps.docs.drive.widget.CakemixAppWidgetProvider, com.google.android.apps.docs.notification.common.NotificationChannelReceiver
+  Providers  (10): com.google.android.apps.viewer.fetcher.FileProvider, com.google.bionics.scanner.docscanner.systemcapture.SystemCaptureFileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.apps.docs.common.sync.filemanager.FileProvider, com.google.android.apps.docs.storagebackend.StorageBackendContentProvider, com.google.android.apps.docs.drive.slices.DriveSliceProvider, com.google.android.apps.docs.storagebackend.LegacyStorageBackendContentProvider, com.google.android.apps.docs.doclist.contentprovider.DocListProvider, com.google.android.apps.docs.doclist.statesyncer.CrossAppStateProvider, android.support.v4.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17759
+  Total Methods : 84380
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://exoplayer.dev/issues/cleartext-not-permitted, http://goo.gl/8Rd3yj
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F0 FD 6C 5B 41 0F 25 CB 25 C3 B5 33 46 C8 97 2F AE 30 F8 EE 74 11 DF 91 04 80 AD 6B 2D 60 DB 83
+
+==========================================

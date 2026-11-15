@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pengyou.videodownloader
+  SHA-256       : 00494E64C7FA71F370070A24C7D143502F4A6B23F6743BA78C97F8AB931EAE8A
+  Android Group : Android15
+  Version       : 1.1.2 (code: 114)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (23)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, com.android.vending.CHECK_LICENSE, android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.pengyou.videodownloader.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS
+
+[Application Components]
+  Activities (84): com.unity3d.ads.adplayer.FullScreenWebViewDisplay, com.pengyou.videodownloader.widget.LoginActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pengyou.videodownloader.HomeActivity, com.pengyou.videodownloader.widget.LogoutActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.pengyou.videodownloader.HowToDownloadNewActivity, com.pengyou.videodownloader.SelectLocalMediaActivity, com.pengyou.videodownloader.PrivacyFolderActivity, com.pengyou.videodownloader.DownloadedActivity, com.pengyou.videodownloader.DiscoverActivity, com.pengyou.videodownloader.RecentActivity, com.pengyou.videodownloader.ShakeHistoryActivity, com.pengyou.videodownloader.HowToDownloadNew2Activity, com.pengyou.videodownloader.DownloadGuideActivity, com.pengyou.videodownloader.FCodeActivity, com.pengyou.videodownloader.GuideActivity, com.pengyou.videodownloader.SearchActivity, com.pengyou.videodownloader.BrowserHistoryActivity
+  Services   (16): com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService, com.pengyou.videodownloader.service.VideoDownloadService, com.google.android.gms.measurement.AppMeasurementJobService, com.pengyou.videodownloader.cloudmessage.MyFirebaseMessaginService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService
+  Receivers  (13): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (8): com.applovin.sdk.AppLovinInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.vungle.ads.VungleProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.mbridge.msdk.config.component.status.MBComponentLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 32434
+  Total Methods : 196395
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (10): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://issuetracker.google.com/issues/241760537, https://support.axon.ai/en/max/getting-started#step-2-create-an-ad-unit, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://support.axon.ai/en/max/android/overview/integration, https://support.google.com/admob/answer/13554116, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://play.google.com/store/apps/details?id=, https://support.axon.ai/en/max/android/overview/advanced-settings#selective-init
+  IP Addresses(10): 16.8.51.1, 17.0.51.0, 6.5.0.8, 4.16.5.0, 6.17.0.1, 13.5.1.0, 8.3.6.1, 23.3.0.1, 7.4.1.1, 4.12.2.1
+
+[Certificate]
+  Issuer      : Country: IN
+  Fingerprint : 3B 61 C2 A8 2A FF 9F 76 52 FF E0 B0 4B E3 C8 F2 48 B5 E1 AA 70 63 F1 A3 84 6F 0C F5 C7 78 62 8A
+
+==========================================

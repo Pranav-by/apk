@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.launcher.os14.launcher
+  SHA-256       : 0023BA3071B20BA73B5218CCBD11C77DCC7FFF67BB92A2D14A9BEF9F8543F107
+  Android Group : Android13
+  Version       : 4.5 (code: 54)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (56)]
+  com.zte.appwidget.contact.permission.READ_SETTINGS, com.huawei.android.totemweather.permission.ACCESS_WEATHERCLOCK_PROVIDER, android.permission.BIND_NOTIFICATION_LISTENER_SERVICE, android.permission.READ_MEDIA_IMAGES, android.permission.SET_WALLPAPER, com.android.launcher.permission.READ_SETTINGS, android.permission.ACCESS_WEATHERCLOCK_PROVIDER, android.permission.VIBRATE, com.android.launcher.permission.WRITE_SETTINGS, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, android.permission.BATTERY_STATS, android.permission.ACCESS_NOTIFICATION_POLICY, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.WRITE_SYNC_SETTINGS, android.permission.BROADCAST_PACKAGE_REPLACED, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE
+
+[Application Components]
+  Activities (120): com.launcher.os14.launcher.locker.ChooseLockPattern, com.inmobi.ads.rendering.InMobiAdActivity, com.gallery.imageselector.VideoSelectorActivity, com.liblauncher.wallpaperwall.WallpaperWallGuideActivity, com.taboola.android.global_components.fsd.FSDActivity, com.launcher.os14.launcher.ShortcutActivity, com.example.feedback_client.MainActivity, com.launcher.os14.launcher.locker.UnlockPatternActivity, com.ironsource.sdk.controller.ControllerActivity, com.android.billingclient.api.ProxyBillingActivity, com.launcher.os14.launcher.setting.sub.HomeReset, com.liveeffectlib.LiveEffectSettingActivity, com.facebook.ads.AudienceNetworkActivity, com.example.feedback_client.FeedbackFAQActivity, com.liblauncher.launcherguide.HomeReset, com.launcher.os14.launcher.IOSGuideActivity, com.liblauncher.launcherguide.GuideSetDefaultActivity, com.launcher.os14.launcher.gesture.AppChooserActivity, com.liblauncher.launcherguide.GuideSetDefaultSelectorActivity, com.extra.iconshape.activity.IconShapeSettingActivity
+  Services   (21): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.liveeffectlib.wallpaper.LiveWallpaperServices, com.launcher.os14.launcher.MemoryTracker, services.ControlCenterService, com.launcher.os14.notificationtoolbar.OverlayService, com.launcher.os14.launcher.update.InfoCenterConfigService, com.launcher.os14.launcher.service.PersistentService, com.launcher.os14.launcher.notificationbadge.ShowBadgeListenerService, com.launcher.theme.store.config.ThemeConfigService, com.launcher.theme.store.config.WpaperConfigService, com.launcher.os14.launcher.alive.AliveJobService, com.tcg.libgdxwallpaper.FireworkLiveWallpaper, com.liveeffectlib.wallpaper.GlLiveWallpaperServices, com.liblauncher.wallpaperwall.service.WallpaperWallServices, com.example.feedback_client.GetFeedBackService
+  Receivers  (18): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.launcher.os14.launcher.PackageChangedReceiver, com.launcher.os14.launcher.alive.LauncherBootReceiver, com.taboola.android.global_components.fsd.FSDReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.launcher.os14.launcher.PreloadReceiver, com.launcher.os14.launcher.SessionCommitReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.launcher.os14.launcher.InstallShortcutReceiver, com.launcher.theme.store.MobclickThemeReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.launcher.os14.launcher.UninstallShortcutReceiver, com.launcher.os14.launcher.UserInitializeReceiver
+  Providers  (8): com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider, com.taboola.android.TBLContextProvider, com.launcher.os14.launcher.LauncherProvider, androidx.core.content.FileProvider, com.facebook.ads.AudienceNetworkContentProvider, com.launcher.os14.launcher.graphics.GridCustomizationsProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 23934
+  Total Methods : 136599
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C0 03 A1 4A 48 4B F0 8C 90 34 85 B2 2F DC 21 D2 71 CA B2 7B 0A B4 8B AF 8B DA 4B 50 B1 6B 5C C8
+
+==========================================

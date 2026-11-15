@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.acousticsheep.harmony.harmony
+  SHA-256       : 00AB002CF179B643080FEE31143342825364E7B6DE2F5000ED57E6BA0335ABDF
+  Android Group : Android15
+  Version       : 1.30.2 (code: 95)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (15)]
+  com.acousticsheep.harmony.harmony.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.ACCESS_ADSERVICES_TOPICS, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_NOTIFICATION_POLICY
+
+[Application Components]
+  Activities (8): com.facebook.FacebookActivity, com.acousticsheep.harmony.harmony.view.LoginActivity, com.facebook.CustomTabMainActivity, com.acousticsheep.harmony.harmony.view.OnboardingActivity, com.facebook.CustomTabActivity, com.google.android.gms.common.api.GoogleApiActivity, com.acousticsheep.harmony.harmony.view.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (10): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.acousticsheep.harmony.harmony.controller.PlayerManager, com.google.firebase.components.ComponentDiscoveryService, com.acousticsheep.harmony.harmony.controller.NotificationManager, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (7): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.media.session.MediaButtonReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7000
+  Total Methods : 42175
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://firebase.google.com/docs/analytics, https://developers.facebook.com/docs/android/getting-started, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://goo.gl/NAOOOI.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 92 CA 2E ED 08 7B 42 09 68 2F BB 84 F3 EC D3 DF 93 72 10 D5 76 12 9A 2C E0 9D DC 6B B8 F9 3B 37
+
+==========================================

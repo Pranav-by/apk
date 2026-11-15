@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.facebook.lite
+  SHA-256       : 00A3EE3F5F7A7E9B25F9A17E555093C3F968A0BBA2B9B75F181E3359394DB653
+  Android Group : Android13
+  Version       : 333.0.0.12.108 (code: 427961510)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (54)]
+  android.permission.RECORD_AUDIO, android.permission.AUTHENTICATE_ACCOUNTS, android.permission.FOREGROUND_SERVICE, android.permission.READ_PHONE_NUMBERS, android.permission.READ_PROFILE, android.permission.VIBRATE, com.facebook.katana.provider.ACCESS, android.permission.WRITE_CALENDAR, com.android.launcher.permission.INSTALL_SHORTCUT, com.facebook.orca.provider.ACCESS, android.permission.CALL_PHONE, com.facebook.receiver.permission.ACCESS, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_CONTACTS, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.android.launcher.permission.UNINSTALL_SHORTCUT, com.sec.android.provider.badge.permission.WRITE, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE
+
+[Application Components]
+  Activities (16): com.facebook.lite.nativeRtc.NativeRtcCallActivity, com.facebook.lite.waotp.WAOtpReceiveCodeActivity, com.facebook.lite.media.AlbumGalleryActivity, com.facebook.lite.inappbrowser.common.BrowserLiteProxyActivity, com.facebook.browser.lite.BrowserLiteInMainProcessActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.lite.bugreporter.screencast.ScreencastActivity, com.facebook.lite.MainActivity, com.facebook.lite.ShortcutLauncherActivity, com.facebook.lite.webviewrtc.RTCIncomingCallActivity, com.facebook.lite.platform.LoginGDPDialogActivityV2, com.facebook.lite.storagemanager.ManageStorageActivity, com.facebook.lite.ShortcutActivity, com.facebook.lite.rtc.RTCActivity, com.facebook.lite.deeplinking.UIQRE2EActivity, com.facebook.browser.lite.BrowserLiteActivity
+  Services   (33): com.facebook.lite.service.AppInitService, com.facebook.lite.messagingapps.FirstPartyMessagingAppsDetectionService, com.facebook.lite.service.MediaUploadService, com.facebook.browser.lite.BrowserLiteIntentService, com.facebook.lite.ForegroundService, com.facebook.appcomponentmanager.AppComponentManagerService, com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheService, com.facebook.lite.browser.BrowserLiteCallbackService, com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheJobService, com.facebook.analyticslite.memory.MemoryDumpUploadService, com.facebook.video.heroplayer.service.MainProcHeroService, com.facebook.video.heroplayer.service.HeroKeepAliveService, com.facebook.videolite.api.VideoUploadForegroundService, com.facebook.lite.webviewrtc.RTCService, com.facebook.videolite.api.jobscheduler.UploadJobSchedulerService, com.facebook.analytics2.logger.AlarmBasedUploadService, com.facebook.secure.packagefinder.PackageFinderService, com.facebook.lite.rtc.impl.service.RtcService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (28): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.lite.notification.NotificationsRemovalTimerReceiver, com.facebook.lite.notification.PushNotificationLogBroadcastReceiver, com.facebook.lite.pretos.LiteAppComponentReceiver, com.facebook.lite.rtc.IncomingCallReceiver, com.facebook.lite.campaign.CampaignReceiver, com.facebook.lite.browser.ChromeCustomTabsReceiver, com.facebook.lite.appManager.AppManagerReceiver, com.facebook.lite.deviceid.FbLitePhoneIdRequestReceiver, com.facebook.appupdate.DownloadCompleteReceiver, com.facebook.lite.intent.IntentScheduler, com.facebook.lite.deviceid.FbLitePhoneIdUpdater$LocalBroadcastReceiver, com.facebook.lite.FbnsIntentService$CallbackReceiver, com.facebook.rti.push.service.MqttSystemBroadcastReceiver, com.facebook.lite.AppController$NetworkStateBroadcastReceiver, com.facebook.lite.shortcuts.ShortcutCreationReceiver, com.facebook.lite.intent.WakefulIntentForwarder, com.facebook.lite.notification.LocalNotificationLogBroadcastReceiver, com.facebook.lite.datausage.DataUsageBroadCastReceiver, com.facebook.lite.notification.widget.receiver.NotificationsWidgetProvider
+  Providers  (6): com.facebook.lite.deviceid.FbLitePhoneIdProvider, androidx.core.content.FileProvider, com.facebook.secure.fileprovider.SecureFileProvider, com.facebook.lite.photo.PhotoFileProvider, com.facebook.lite.photo.MediaContentProvider, com.facebook.lite.diode.UserValuesProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 565
+  Total Methods : 2017
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): http://www.android.com/, http://schemas.android.com/apk/res/android
+  IP Addresses(5): 203.0.113.5, 192.0.2.5, 333.0.0.12, 203.0.113.2, 192.0.2.1
+
+[Certificate]
+  Issuer      : Common Name: Facebook Corporation, Organizational Unit: Facebook, Organization: Facebook Mobile, Locality: Palo Alto, State/Province: CA, Country: US
+  Fingerprint : E3 F9 E1 E0 CF 99 D0 E5 6A 05 5B A6 5E 24 1B 33 99 F7 CE A5 24 32 6B 0C DD 6E C1 32 7E D0 FD C1
+
+==========================================

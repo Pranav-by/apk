@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.infratel.omnivoice
+  SHA-256       : 000A7D21BF81423520C411E2A2EBAEF8A2A1926F2C060CA93BE8C4332F7EF279
+  Android Group : Android14
+  Version       : 5.89.0 (code: 1218)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (35)]
+  android.permission.RECORD_AUDIO, android.permission.AUTHENTICATE_ACCOUNTS, android.permission.FOREGROUND_SERVICE, android.permission.READ_PROFILE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_CONTACTS, com.infratel.omnivoice.permission.C2D_MESSAGE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.READ_SYNC_SETTINGS, android.permission.ACCESS_WIFI_STATE, android.permission.DISABLE_KEYGUARD, android.permission.USE_FULL_SCREEN_INTENT, android.permission.FOREGROUND_SERVICE_MICROPHONE, android.permission.WRITE_SETTINGS, com.infratel.omnivoice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (45): com.infratel.mightycall.ui.settings.ProfileActivity, com.infratel.mightycall.ui.account.AccountActivity, com.infratel.mightycall.ui.settings.SettingsActivity, com.infratel.mightycall.ui.settings.StorageActivity, com.infratel.mightycall.ui.settings.thememode.ThemeActivity, com.infratel.mightycall.ui.whatsnew.WhatsNewActivity, com.infratel.mightycall.ui.gallery.GalleryActivity, com.infratel.mightycall.ui.settings.PermissionsActivity, com.infratel.mightycall.ui.dev.DeveloperActivity, com.infratel.mightycall.ui.dev.NotificationTestActivity, com.infratel.mightycall.ui.message.NewMessageActivity, com.infratel.mightycall.ui.dev.SpeedTestActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.infratel.mightycall.ui.PopupActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.infratel.mightycall.ui.TelLinkActivity, com.infratel.mightycall.ui.journal.TimeToUpgradeActivity
+  Services   (17): androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.infratel.mightycall.managers.sync.mAuthenticationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.infratel.mightycall.fcm.FCMService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.infratel.mightycall.managers.sync.mSyncService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementJobService, com.infratel.mightycall.util.NotificationsActionHandler
+  Receivers  (16): com.infratel.mightycall.util.RejectCallReceiver, com.infratel.mightycall.util.bluetooth.BluetoothReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.infratel.mightycall.util.bluetooth.BluetoothAdapterReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.infratel.mightycall.util.sim.CallReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17822
+  Total Methods : 81867
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://goo.gle/compose-feedback
+  IP Addresses(4): 0.0.0.0, 8.8.4.4, 8.8.8.8, 1.1.1.1
+
+[Certificate]
+  Issuer      : Organization: Infratel
+  Fingerprint : 3F 35 46 A2 A3 33 CE 72 8C 1E 9B D6 AF E0 6A E9 F8 97 6E BC 19 51 54 AC 86 7D 22 58 97 49 CA A8
+
+==========================================

@@ -1,0 +1,74 @@
+{
+  "sha256": "00A95184C07B8F2EF88F14B87313550C6A024757AB24690863F488AA4E4E3D8D",
+  "filename": "00A95184C07B8F2EF88F14B87313550C6A024757AB24690863F488AA4E4E3D8D.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.dynogeek.vmpslips",
+  "version_name": "7.02",
+  "version_code": "25",
+  "min_sdk": "28",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.dynogeek.vmpslips.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.BLUETOOTH",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.CAMERA",
+    "android.permission.WAKE_LOCK",
+    "android.permission.BLUETOOTH_CONNECT",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 12,
+  "activities": [
+    "com.dynogeek.vmpslips.Views.QualificationReportActivity",
+    "com.dynogeek.vmpslips.subscription.SubscribeSharingAccess",
+    "com.dynogeek.vmpslips.subscription.SubscribePremiumAccess",
+    "com.dynogeek.vmpslips.Views.ShowPdfView",
+    "com.android.billingclient.api.ProxyBillingActivityV2",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.dynogeek.vmpslips.Views.PairingReportActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.journeyapps.barcodescanner.CaptureActivity",
+    "com.dynogeek.vmpslips.Views.TimeSlipActivity",
+    "com.dynogeek.vmpslips.Views.LadderReportActivity"
+  ],
+  "activity_count": 11,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 5,
+  "class_count": 20578,
+  "method_count": 141901,
+  "cert_fingerprint": "C1 12 77 20 96 34 A0 FB 28 53 00 CF 52 47 2A 26 99 7C AE 37 08 6C 2F 63 63 9A 45 3D C3 DC 19 64",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

@@ -1,0 +1,66 @@
+{
+  "sha256": "00A3F9DBB4AB68A0F1A90C6B2761868E854EDFDD06272D4ABB5F7A0C748D1651",
+  "filename": "00A3F9DBB4AB68A0F1A90C6B2761868E854EDFDD06272D4ABB5F7A0C748D1651.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.benefit_express.fismobile",
+  "version_name": "22.05.00",
+  "version_code": "2205",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.fis.fismobile.activity.ActivityLogin",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.fis.fismobile.activity.ActivityOnboarding",
+    "com.fis.fismobile.activity.ActivityWebView",
+    "com.fis.fismobile.activity.ActivityMain"
+  ],
+  "activity_count": 5,
+  "services": [
+    "androidx.camera.core.impl.MetadataHolderService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 4,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "com.google.mlkit.common.internal.MlKitInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 11281,
+  "method_count": 51117,
+  "cert_fingerprint": "40 9F EE A2 BE D4 03 B0 66 63 B6 72 E7 35 00 3B 83 04 90 39 E3 59 EE 62 17 B3 8D F0 A8 42 13 34",
+  "cert_issuer": "Common Name: FIS",
+  "urls": [
+    "https://app.tpastream.com/static/js/sdk.js"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.aboutjsp.thedaybefore
+  SHA-256       : 0076205C92DA2443FDE8DA1FD6F2C8B3F28D9F88ECF78DE92190D70C32CB5FF3
+  Android Group : Android15
+  Version       : v4.7.54 (code: 931)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (31)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, com.aboutjsp.thedaybefore.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.VIBRATE, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, android.permission.SCHEDULE_EXACT_ALARM, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.DISABLE_KEYGUARD, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (109): com.karumi.dexter.DexterActivity, com.bytedance.sdk.openadsdk.activity.TTCeilingLandingPageActivity, com.applovin.adview.AppLovinFullscreenActivity, com.gomfactory.adpie.sdk.videoads.VideoFullScreenActivity, com.zhihu.matisse.internal.ui.AlbumPreviewActivity, com.applovin.creative.MaxCreativeDebuggerActivity, me.thedaybefore.firstscreen.activities.FirstActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.bytedance.sdk.openadsdk.activity.TTAdActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.zhihu.matisse.ui.MatisseActivity, com.google.firebase.auth.internal.GenericIdpActivity, me.thedaybefore.lib.background.background.BackgroundImageSearchActivity, me.thedaybefore.firstscreen.activities.FirstSettingActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.zhihu.matisse.ui.CaptureDelegateActivity, com.google.android.gms.ads.NotificationHandlerActivity
+  Services   (20): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.firebase.sessions.SessionLifecycleService, androidx.room.MultiInstanceInvalidationService, com.aboutjsp.thedaybefore.notification.TheDayBeforeFirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.metadata.ModuleDependencies, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.aboutjsp.thedaybefore.service.ThedaybeforePEService, com.aboutjsp.thedaybefore.service.RepostListenerService, me.thedaybefore.firstscreen.services.ThedaybeforePService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (23): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.aboutjsp.thedaybefore.TheDayBeforeAppWidgetProvider, com.aboutjsp.thedaybefore.TheDayBeforeAppWidgetProvider2x1, com.aboutjsp.thedaybefore.TheDayBeforeAppWidgetProvider4x2, com.aboutjsp.thedaybefore.TheDayBeforeAppWidgetProvider2x2, com.aboutjsp.thedaybefore.widget.WidgetPinnedReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.aboutjsp.thedaybefore.receiver.MainReceiver, com.aboutjsp.thedaybefore.receiver.LockscreenReceiver, com.aboutjsp.thedaybefore.service.RebindReceiver, me.thedaybefore.firstscreen.receiver.FirstScreenPreferenceReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (12): com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.kakao.adfit.AdFitSdkInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, com.squareup.picasso.PicassoProvider, pl.aprilapps.easyphotopicker.ExtendedFileProvider, com.aboutjsp.thedaybefore.provider.RoomDdayContentProvider, com.facebook.FacebookContentProvider, com.aboutjsp.thedaybefore.provider.ShareFileProvider, me.thedaybefore.lib.background.image.PickerFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 53127
+  Total Methods : 353630
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://github.com/tink-crypto/tink-java, https://issuetracker.google.com/issues?q=componentid:610764, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://support.google.com/admob/answer/13554116
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Country: IN
+  Fingerprint : 3B 61 C2 A8 2A FF 9F 76 52 FF E0 B0 4B E3 C8 F2 48 B5 E1 AA 70 63 F1 A3 84 6F 0C F5 C7 78 62 8A
+
+==========================================

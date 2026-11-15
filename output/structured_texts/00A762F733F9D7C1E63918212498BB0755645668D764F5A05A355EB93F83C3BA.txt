@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : cz.mpizza.pizzaagnese
+  SHA-256       : 00A762F733F9D7C1E63918212498BB0755645668D764F5A05A355EB93F83C3BA
+  Android Group : Android14
+  Version       : 5.0.5 (code: 506)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (6)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, cz.mpizza.pizzaagnese.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): cz.mpizza.pizzaagnese.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.startup.InitializationProvider, expo.modules.filesystem.FileSystemFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18582
+  Total Methods : 124301
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Stefan Mitrik, Organizational Unit: mPizza, Organization: mPizza, Locality: Bratislava, State/Province: Slovakia, Country: SK
+  Fingerprint : 86 D9 22 5C E8 D3 3E 1D 09 6C C4 38 B3 67 2A 66 6E 3C D8 C0 A9 76 BF CB BA 18 66 A2 E1 2B F8 15
+
+==========================================

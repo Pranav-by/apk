@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.equiptoserve.bible
+  SHA-256       : 00A54E50F8A54A38D913B1C059AC92579668D2A1C3144785832D84FAE5432D65
+  Android Group : Android13
+  Version       : 1.2 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (4)]
+  android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (7): io.flutter.plugins.urllauncher.WebViewActivity, org.equiptoserve.bible.MainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity
+  Services   (0): none
+  Receivers  (1): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+  Providers  (2): androidx.startup.InitializationProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4124
+  Total Methods : 25588
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/reference/javax/net/ssl/SSLSocket, https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8F 92 D2 6E 1C 76 42 8A 90 06 47 8D 9C D0 9F B3 25 6B 34 05 D1 D2 49 CC 1F 65 13 CE 6D 29 E4 7C
+
+==========================================

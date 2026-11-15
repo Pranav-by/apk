@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.antsmediadua.undertalewallpaper
+  SHA-256       : 000A4E4CD049A2F1BBFE8A49E7142029BBFC3FC9E100F7B4E7A0B60A9226F68E
+  Android Group : Android12L
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (10)]
+  android.permission.FOREGROUND_SERVICE, android.permission.READ_PHONE_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.SET_WALLPAPER
+
+[Application Components]
+  Activities (10): com.yalantis.ucrop.UCropActivity, com.antsmediadua.undertalewallpaper.activity.MainActivity, com.antsmediadua.undertalewallpaper.activity.ActivityZoom, com.antsmediadua.undertalewallpaper.activity.ActivityPrivacy, com.google.android.gms.ads.AdActivity, com.antsmediadua.undertalewallpaper.activity.ActivityByCategory, com.antsmediadua.undertalewallpaper.activity.ActivitySetWallpaper, com.antsmediadua.undertalewallpaper.activity.ActivityWallpaper, com.antsmediadua.undertalewallpaper.activity.ActivityDetail, com.antsmediadua.undertalewallpaper.Splash
+  Services   (8): com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (9): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (5): androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12488
+  Total Methods : 75428
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://play.google.com/store/apps/details?id=, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 60 0A 1D 22 AA E3 6A C1 04 24 F4 D5 19 A3 DD 85 81 E4 F5 C3 46 34 D1 EE 7D BB C9 3B CF 0F 37 E0
+
+==========================================

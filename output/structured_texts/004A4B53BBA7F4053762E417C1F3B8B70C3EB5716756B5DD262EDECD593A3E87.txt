@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.togrill.haibosi
+  SHA-256       : 004A4B53BBA7F4053762E417C1F3B8B70C3EB5716756B5DD262EDECD593A3E87
+  Android Group : Android13
+  Version       : 6.0 (code: 57)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (37)]
+  android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.READ_LOGS, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.BROADCAST_PACKAGE_REPLACED, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (79): com.umeng.union.UMBoardActivity, com.togrill.haibosi.config.ECGuideActivity, com.togrill.haibosi.config.ECApGuideActivity, com.togrill.haibosi.bbq.SettingActivity, com.togrill.haibosi.bbq.subdevice.PushDefaultActivity, com.togrill.haibosi.bbq.setting.FAQActivity, com.togrill.haibosi.bbq.GuideActivity, com.togrill.haibosi.base.activity.BleScanActivity, com.togrill.haibosi.base.activity.BleConnectActivity, com.togrill.haibosi.bbq.MainBBQActivity, com.togrill.haibosi.bbq.grill.SelectGrillActivity, com.togrill.haibosi.bbq.grill.SetupGuidedGrillActivity, com.togrill.haibosi.base.activity.StartActivity, com.togrill.haibosi.bbq.grill.SetupCustomGrillActivity, com.togrill.haibosi.bbq.grill.GrillInfoActivity, com.togrill.haibosi.bbq.grill.ProbeSettingActivity, com.togrill.haibosi.scene.activity.ConditionTaskChooseActivity, com.togrill.haibosi.login.activity.LoginActivity, org.zhx.common.bgstart.library.BridgeActivity, com.togrill.haibosi.login.activity.AccountInputActivity
+  Services   (24): com.taobao.accs.internal.AccsJobService, com.taobao.accs.ChannelService$KernelService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.tuya.sdk.blelib.BluetoothService, com.tuya.smart.android.hardware.service.DevTransferService, com.tuya.smart.android.hardware.service.GwBroadcastMonitorService, androidx.camera.core.impl.MetadataHolderService, com.togrill.haibosi.bbq.service.firebaseMessagingService, com.togrill.haibosi.bbq.service.BleService, com.togrill.haibosi.bbq.service.umengPushService, com.taobao.accs.ChannelService, com.taobao.accs.data.MsgDistributeService, org.android.agoo.accs.AgooService, com.umeng.message.UmengIntentService, com.umeng.message.XiaomiIntentService, com.umeng.message.UmengMessageIntentReceiverService, com.umeng.message.UmengMessageCallbackHandlerService, com.umeng.message.UmengDownloadResourceService, com.tuya.smart.mqtt.MqttService
+  Receivers  (9): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.umeng.message.UmengNotificationReceiver, com.taobao.accs.EventReceiver, com.umeng.union.UMBoardReceiver, com.taobao.accs.ServiceReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.tuya.smart.ble.bs.beacon.BeaconScanFilterReceiver, com.taobao.agoo.AgooCommondReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.umeng.message.provider.MessageProvider, com.tuya.smart.optimus.sdk.TuyaOptimusProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 21423
+  Total Methods : 137037
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(5): 1.3.2.3, 203.107.1.100, 114.114.114.114, 203.107.1.1, 203.107.1.97
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 55 DF 90 DA D8 55 6F BE C8 8C 2A B5 80 FC 0D EE 2A 40 70 15 C5 34 62 E3 BA E3 DC 01 65 27 51 10
+
+==========================================

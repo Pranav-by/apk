@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mrowlgame.pinball
+  SHA-256       : 00A7CA1919EA1B0283E0027C797065DAAFDB87DD759C552D2FF6CEBFA81FFD59
+  Android Group : Android14
+  Version       : 1.13 (code: 17)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 34
+
+[Permissions (14)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, com.android.vending.BILLING, android.permission.ACCESS_ADSERVICES_TOPICS, com.mrowlgame.pinball.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (38): com.jakewharton.processphoenix.ProcessPhoenix, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, org.axmol.cpp.AppActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.android.billingclient.api.ProxyBillingActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity
+  Services   (11): com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, klib.BaseBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (8): com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 28932
+  Total Methods : 173772
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://support.google.com/admob/answer/13554116
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 91 B3 84 F7 43 C3 35 E6 E9 CC 69 BC 24 AF 30 AA DE 49 24 2C E5 A4 BD 35 9F 6E 6B A9 D2 94 8B AA
+
+==========================================

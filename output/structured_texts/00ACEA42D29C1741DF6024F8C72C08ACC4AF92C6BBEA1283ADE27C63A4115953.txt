@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : uni.UNI199C480
+  SHA-256       : 00ACEA42D29C1741DF6024F8C72C08ACC4AF92C6BBEA1283ADE27C63A4115953
+  Android Group : Android13
+  Version       : 1.2.5 (code: 125)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.VIBRATE, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, com.vivo.notification.permission.BADGE_ICON, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_MEDIA_VISUAL_USER_SELECTED, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (10): io.dcloud.PandoraEntryActivity, com.dmcbig.mediapicker.PickerActivity, io.dcloud.PandoraEntry, io.dcloud.WebviewActivity, io.dcloud.ProcessMediator, io.dcloud.sdk.activity.WebViewActivity, com.dmcbig.mediapicker.PreviewActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, io.dcloud.WebAppActivity, io.dcloud.feature.nativeObj.photoview.PhotoActivity
+  Services   (1): io.dcloud.sdk.base.service.DownloadService
+  Receivers  (1): com.taobao.weex.WXGlobalEventReceiver
+  Providers  (2): io.dcloud.common.util.DCloud_FileProvider, io.dcloud.sdk.base.service.provider.DCloudAdFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7894
+  Total Methods : 54232
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://ask.dcloud.net.cn/article/35058
+  IP Addresses(1): 1.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5C F5 C5 80 71 88 EB 3D 58 F3 D9 C3 9A F7 09 1A 2D 75 C5 B5 FE 98 08 08 7F 84 A2 74 DB 6F 9D 3A
+
+==========================================

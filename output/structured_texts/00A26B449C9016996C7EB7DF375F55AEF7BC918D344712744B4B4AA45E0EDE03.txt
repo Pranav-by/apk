@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tieline.reportit
+  SHA-256       : 00A26B449C9016996C7EB7DF375F55AEF7BC918D344712744B4B4AA45E0EDE03
+  Android Group : Android13
+  Version       : 3.8.28 (code: 304)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (17)]
+  android.permission.BROADCAST_STICKY, android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE, android.permission.RECORD_AUDIO, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, android.permission.MODIFY_AUDIO_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (10): com.tieline.reportit.playlist.PlayListEditActivity, com.tieline.reportit.settings.SettingsActivity, com.tieline.reportit.recording.FurtherDetailActivity, com.tieline.reportit.recording.RecordingDetailsActivity, com.tieline.reportit.recording.ManageReportsActivity, com.tieline.reportit.recording.PlaybackActivity, com.tieline.reportit.ftp.FTPReportActivity, com.tieline.reportit.recording.RecordReportActivity, com.tieline.reportit.SplashScreenActivity, com.tieline.reportit.LiveAudioActivity
+  Services   (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.tieline.reportit.AudioService, com.tieline.reportit.LocationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (2): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.tieline.reportit.connection.DataContentProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5839
+  Total Methods : 35080
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): http://www.tieline.com/page/Product-Support/Android-Audio-message, https://goo.gl/J1sWQy, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 10.0.2.2
+
+[Certificate]
+  Issuer      : Organizational Unit: Tieline Technology, Organization: Tieline Technology, Locality: Malaga, State/Province: Western Australia, Country: AU
+  Fingerprint : 6A B2 43 7C 83 61 8F 40 29 A6 2D BD 54 47 D0 AA 45 81 CE 31 53 E7 88 4D 28 7A 36 DF 66 54 54 DB
+
+==========================================

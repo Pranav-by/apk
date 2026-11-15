@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.myfitnesspal.android
+  SHA-256       : 0086EE2A3A2961BF4F914624BBDB1E0E639D291174F8A8137481AF8EC12BA341
+  Android Group : Android15
+  Version       : 26.9.1 (code: 49563)
+
+[SDK Information]
+  Minimum SDK   : 31
+  Target SDK    : 35
+
+[Permissions (37)]
+  com.myfitnesspal.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_CREDENTIALS, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.ACTIVITY_RECOGNITION, android.permission.health.READ_SLEEP, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.health.WRITE_TOTAL_CALORIES_BURNED, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.samsung.WATCH_APP_TYPE.Companion, android.permission.ACCESS_WIFI_STATE, android.permission.READ_CONTACTS, android.permission.health.READ_STEPS, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (219): com.myfitnesspal.feature.help.ui.activity.AboutUs, com.myfitnesspal.feature.settings.ui.activity.RemindersActivity, com.myfitnesspal.feature.registration.ui.activity.AccountRestrictedActivity, com.myfitnesspal.feature.settings.ui.activity.EditReminder, com.myfitnesspal.waterlogging.ui.WaterLoggingActivity, com.myfitnesspal.feature.settings.ui.activity.SelectReminder, com.myfitnesspal.intermittentfasting.ui.activity.FastingHistoryActivity, com.myfitnesspal.feature.settings.ui.activity.SharingAndPrivacySettings, com.myfitnesspal.feature.barcode.ui.match.BarcodeMatchActivity, com.myfitnesspal.intermittentfasting.ui.activity.IntermittentFastingActivity, com.myfitnesspal.feature.search.ui.dialog.SearchCategoryDialog, com.myfitnesspal.intermittentfasting.ui.activity.FastingSetupActivity, com.myfitnesspal.feature.registration.ui.activity.OAuthActivity, com.myfitnesspal.intermittentfasting.ui.activity.FastingSettingsActivity, com.myfitnesspal.feature.addfriends.ui.activity.AddFriendsSplashActivity, io.uacf.gymworkouts.ui.internal.activitysearch.ActivitySearchActivity, com.myfitnesspal.feature.addfriends.ui.activity.AddFriendsContacts, io.uacf.gymworkouts.ui.internal.gymworkouts.GymWorkoutsTabsActivity, com.myfitnesspal.feature.addfriends.ui.activity.AddFriendsParentActivity, io.uacf.gymworkouts.ui.internal.routinedetails.RoutineDetailsActivity
+  Services   (18): com.myfitnesspal.shared.service.message.MFPFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.horologist.datalayer.phone.PhoneDataLayerListenerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService, com.google.firebase.sessions.SessionLifecycleService, androidx.room.MultiInstanceInvalidationService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.health.platform.client.impl.sdkservice.HealthDataSdkService, com.brightcove.player.playback.MediaPlaybackService, androidx.camera.core.impl.MetadataHolderService, com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService, com.myfitnesspal.shared.notification.service.InAppNotificationService, com.myfitnesspal.shared.notification.service.MfpNotificationActionService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.braze.BrazeFlushPushDeliveryReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.myfitnesspal.dashboard.widget.CaloriesAppWidget, com.braze.push.BrazePushReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.myfitnesspal.shared.receiver.MfpNotificationActionReceiver, com.myfitnesspal.dashboard.widget.MacronutrientsAppWidget, zendesk.support.DeepLinkingBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.myfitnesspal.service.notifications.local.LocalNotificationReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (14): com.squareup.picasso.PicassoProvider, com.myfitnesspal.shared.provider.FileProviderShareCache, zendesk.messaging.android.internal.ZendeskFileProvider, com.facebook.internal.FacebookInitProvider, com.myfitnesspal.shared.provider.FileProviderPrivateInternal, zendesk.support.SupportSdkStartupProvider, androidx.startup.InitializationProvider, zendesk.support.guide.GuideSdkStartupProvider, com.google.firebase.provider.FirebaseInitProvider, io.uacf.gymworkouts.ui.internal.GymWorkoutsFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.myfitnesspal.legacy.api.auth.IdentityContentProvider, com.facebook.FacebookContentProvider, zendesk.core.MediaFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 20
+  Total Classes : 125729
+  Total Methods : 683840
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Country: IN
+  Fingerprint : 3B 61 C2 A8 2A FF 9F 76 52 FF E0 B0 4B E3 C8 F2 48 B5 E1 AA 70 63 F1 A3 84 6F 0C F5 C7 78 62 8A
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.phototranslator.languagetranslator.translate
+  SHA-256       : 00655F539849A97D5425FAD8E0EFCC3719A839BFE41989924D8E968F0CF8E232
+  Android Group : Android15
+  Version       : 1.0.6 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, com.phototranslator.languagetranslator.translate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (21): com.google.android.gms.ads.NotificationHandlerActivity, com.pairip.licensecheck.LicenseActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.android.billingclient.api.ProxyBillingActivity, com.phototranslator.languagetranslator.translate.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity, com.phototranslator.languagetranslator.translate.SplashActivity, com.phototranslator.languagetranslator.translate.activity.GalleryActivity, com.phototranslator.languagetranslator.translate.activity.CameraActivity, com.phototranslator.languagetranslator.translate.activity.HistoryActivity, com.phototranslator.languagetranslator.translate.activity.FavouriteActivity, com.phototranslator.languagetranslator.translate.activity.SaveTranslationShow, com.phototranslator.languagetranslator.translate.activity.CameraTranslateActivity, com.phototranslator.languagetranslator.translate.activity.LocalizationActivity, com.phototranslator.languagetranslator.translate.activity.DrawerActivity, com.phototranslator.languagetranslator.translate.activity.RecentActivity, com.phototranslator.languagetranslator.translate.activity.RealtimeActivity, com.phototranslator.languagetranslator.translate.activity.OnBoardActivity
+  Services   (14): com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, androidx.camera.core.impl.MetadataHolderService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (12): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (6): com.pairip.licensecheck.LicenseContentProvider, androidx.startup.InitializationProvider, com.google.mlkit.common.internal.MlKitInitProvider, androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 31822
+  Total Methods : 193534
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 45 73 E1 12 EA 33 8F F0 D3 91 21 EF A3 24 AB 9C 94 41 36 0E 97 7B 35 90 54 B2 14 DA 55 1D CD 23
+
+==========================================

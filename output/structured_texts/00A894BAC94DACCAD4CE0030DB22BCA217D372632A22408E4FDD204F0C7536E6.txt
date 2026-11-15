@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.q2e.WisconsinBankandTrust_335310.mobile.production
+  SHA-256       : 00A894BAC94DACCAD4CE0030DB22BCA217D372632A22408E4FDD204F0C7536E6
+  Android Group : Android13
+  Version       : 5.8.12 (code: 816)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 33
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.POST_NOTIFICATIONS, android.permission.READ_CONTACTS, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.USE_FINGERPRINT, com.q2e.WisconsinBankandTrust_335310.mobile.production.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_BIOMETRIC, android.permission.ACCESS_MEDIA_LOCATION, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (25): com.q2.q2_mrdc_camera.camera.RDCCameraActivity, com.q2.app.modules.fiserv_zelle_sdk.FiservZelleSDKActivity, sdk.pendo.io.activities.PendoGateActivity, com.q2.q2_2fa.userauthorization.UserAuthorizationActivity, com.q2.q2_mrdc_camera.rdchelp.RDCCameraHelp, com.q2.app.core.ui.MainActivity, com.q2.push.enrollmentprompt.PushEnrollmentActivity, com.q2.app.core.ui.quickviewsettings.QuickViewSettingsActivity, com.q2.app.core.ui.WebActivity, com.q2.fiserv_zelle.webview.Q2SSOWebViewActivity, com.q2.app.core.ui.LauncherActivity, com.q2.push.enrollmentprompt.PushEnrollmentLearnMoreActivity, com.q2.q2_mrdc_camera.checkconfirmation.CheckConfirmationActivity, com.q2.app.core.qr_code.QrCaptureActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.q2.app.core.ui.CameraActivity, com.fiserv.dps.mobile.sdk.activity.ScanQRActivity, com.journeyapps.barcodescanner.CaptureActivity, com.q2.app.core.mrdc.camera2.Camera2Activity, com.q2.q2_2fa.userauthorization.ExplanationActivity
+  Services   (7): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.app.q2.modules.push.q2_push_service.firebase.PushMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.q2.q2_2fa.userauthorization.NotificationResultReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): com.q2.app.core.utils.Q2FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 16017
+  Total Methods : 91682
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: q2mpkg, Organizational Unit: development, Organization: q2ebanking, Locality: Austin, State/Province: TX, Country: US
+  Fingerprint : 08 3B 8B FF 93 C4 44 80 4F 70 A1 DF DC FA FC 55 C5 B9 47 A6 70 33 64 2A CB 80 99 6A FA 8D 16 52
+
+==========================================

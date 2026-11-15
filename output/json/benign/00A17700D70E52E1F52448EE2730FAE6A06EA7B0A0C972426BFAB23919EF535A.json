@@ -1,0 +1,80 @@
+{
+  "sha256": "00A17700D70E52E1F52448EE2730FAE6A06EA7B0A0C972426BFAB23919EF535A",
+  "filename": "00A17700D70E52E1F52448EE2730FAE6A06EA7B0A0C972426BFAB23919EF535A.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.omysoft.interpretation.des.reves",
+  "version_name": "1.1",
+  "version_code": "2",
+  "min_sdk": "21",
+  "target_sdk": "35",
+  "permissions": [
+    "com.omysoft.interpretation.des.reves.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.omysoft.interpretation.des.reves.Splash",
+    "com.google.android.gms.ads.NotificationHandlerActivity",
+    "com.omysoft.interpretation.des.reves.DictioList",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.omysoft.interpretation.des.reves.DictioDetail",
+    "com.google.android.gms.ads.OutOfContextTestingActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.foreground.SystemForegroundService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+  ],
+  "receiver_count": 9,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 4,
+  "class_count": 18520,
+  "method_count": 112919,
+  "cert_fingerprint": "69 AB CA 13 62 06 A4 CF 32 53 D1 08 DB 6E 76 74 3B 05 BB F7 67 5A 2D 01 8A 4A 03 5A 20 59 0C 56",
+  "cert_issuer": "Common Name: OmySoft",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

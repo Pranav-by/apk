@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.cubun.lematization
+  SHA-256       : 00A9CA156EC72517FB35C6F5EEB875A2257EB28344561F70404D734781F4D0E4
+  Android Group : Android14
+  Version       : 1.6 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 34
+
+[Permissions (1)]
+  org.cubun.lematization.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): org.cubun.lematization.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13999
+  Total Methods : 94035
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7C 80 3E 4B B2 AC 86 B7 6B 50 E1 97 60 96 EE 0A 67 2E A0 73 D9 7E 68 A0 CB 15 72 AA 11 9E AF FC
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nippon.shogun
+  SHA-256       : 00A1F187CC5B1BF9E76AC0E2CD54BB87187533F71FDD3831DCD0FEE3135D3EC0
+  Android Group : Android14
+  Version       : 0.0.7 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (2)]
+  com.nippon.shogun.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET
+
+[Application Components]
+  Activities (1): com.nippon.shogun.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4783
+  Total Methods : 33697
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6F 22 21 8A B8 B1 D1 9D A7 BB BA 9E A3 CD D5 64 43 8B 78 28 A6 72 A1 3C 95 8F 9C 5D 85 CE 58 8E
+
+==========================================

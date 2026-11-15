@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.donkeymobile.pknwoudenberghervormd
+  SHA-256       : 00A19D00EF306135BDC0BCC4A58497D5AE9904E5735E861724660041656E3CF0
+  Android Group : Android14
+  Version       : 2.22.0 (code: 121)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, app.donkeymobile.pknwoudenberghervormd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (68): app.donkeymobile.church.notifications.center.NotificationCenterActivity, app.donkeymobile.church.main.giving.moneytransfer.MoneyTransferViewImpl, app.donkeymobile.church.user.unapprovedusers.UnapprovedUsersActivity, app.donkeymobile.church.main.giving.directdebit.iban.EnterIbanViewImpl, app.donkeymobile.church.group.accessrequests.GroupAccessRequestsActivity, app.donkeymobile.church.main.giving.paymentMethods.select.SelectPaymentMethodActivity, com.google.android.gms.common.api.GoogleApiActivity, app.donkeymobile.church.appupdate.AppUpdateViewImpl, app.donkeymobile.church.main.giving.information.GivingInformationViewImpl, app.donkeymobile.church.main.giving.directdebit.start.EnterDirectDebitAmountViewImpl, app.donkeymobile.church.webview.WebViewImpl, app.donkeymobile.church.feed.detail.FeedDetailActivity, com.google.android.libraries.places.widget.AutocompleteActivity, app.donkeymobile.church.group.edit.CreateOrEditGroupActivity, app.donkeymobile.church.main.giving.transaction.enteramount.EnterTransactionAmountActivity, app.donkeymobile.church.fullscreenmediagallery.FullscreenMediaGalleryViewImpl, app.donkeymobile.church.user.detail.UserDetailActivity, app.donkeymobile.church.choosemedia.ChooseMediaViewImpl, app.donkeymobile.church.group.addgroupmember.AddGroupMemberActivity, app.donkeymobile.church.cropphoto.CropPhotoViewImpl
+  Services   (6): com.google.android.gms.metadata.ModuleDependencies, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, app.donkeymobile.church.notifications.push.PushNotificationServiceImpl
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12762
+  Total Methods : 73712
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A1 80 02 D3 3D 38 10 78 E0 CA C2 CD 52 5C 17 36 38 EF 5F 89 19 42 63 D0 3B 90 B5 6B 20 E9 FE AB
+
+==========================================

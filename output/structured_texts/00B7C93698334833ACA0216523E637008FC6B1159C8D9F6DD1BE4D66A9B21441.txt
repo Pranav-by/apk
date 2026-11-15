@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : at.apa.pdfwlclient.augustin
+  SHA-256       : 00B7C93698334833ACA0216523E637008FC6B1159C8D9F6DD1BE4D66A9B21441
+  Android Group : Android13
+  Version       : 6.9 (code: 6901)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (11)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, at.apa.pdfwlclient.augustin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (32): com.google.android.gms.common.api.GoogleApiActivity, at.apa.pdfwlclient.util.dev.TestRestApiActivity, at.apa.pdfwlclient.ui.authentification.webauth.AuthActivity, at.apa.pdfwlclient.ui.popover.EPaperPopoverActivity, at.apa.pdfwlclient.ui.video.VideoActivity, net.openid.appauth.AuthorizationManagementActivity, at.apa.pdfwlclient.ui.onboarding.OnboardingActivity, at.apa.pdfwlclient.ui.abocode.AboCodeActivity, at.apa.pdfwlclient.util.dev.AnimatedProgressActivity, at.apa.pdfwlclient.ui.articlereader.ArticleReaderActivity, at.apa.pdfwlclient.ui.audio.AudioPodcastPlaylistActivity, at.apa.pdfwlclient.ui.gridshelf.GridShelfActivity, at.apa.pdfwlclient.ui.debuginfoscreen.DebugInfoScreenActivity, at.apa.pdfwlclient.util.dev.NotificationTestActivity, at.apa.pdfwlclient.pdfreader.PDFReaderActivity, at.apa.pdfwlclient.ui.authentification.nativeauth.NativeAuthActivity, at.apa.pdfwlclient.ui.audio.AudioTTSPlaylistActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, at.apa.pdfwlclient.ui.inappwebview.InAppWebViewActivity
+  Services   (15): com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.ExtractionForegroundService, at.apa.pdfwlclient.audio.tts.TTSAudioService, androidx.room.MultiInstanceInvalidationService, at.apa.pdfwlclient.gcm.MyFirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, at.apa.pdfwlclient.audio.podcast.PlaybackService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (15): webtrekk.android.sdk.integration.MappIntelligenceListener, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, at.apa.pdfwlclient.gcm.NotificationActionBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.media.session.MediaButtonReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, at.apa.pdfwlclient.ui.articlereader.helper.SharingReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.cxense.cxensesdk.CxSdkInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 21232
+  Total Methods : 126792
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 127.0.0.1, 6.9.15.2
+
+[Certificate]
+  Issuer      : Common Name: Augustin Zeitung, Organizational Unit: Zeitung, Organization: Augustin Zeitung, Locality: Wien, State/Province: Wien, Country: AT
+  Fingerprint : 11 D6 78 DD 57 66 46 57 EB 98 95 B0 F6 D4 54 33 D7 7F 00 EB C0 07 D6 B6 9A 00 C2 3C 26 A0 18 F8
+
+==========================================

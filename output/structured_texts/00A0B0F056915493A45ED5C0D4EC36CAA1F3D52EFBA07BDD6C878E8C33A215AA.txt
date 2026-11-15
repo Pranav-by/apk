@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : tram.simulator.game
+  SHA-256       : 00A0B0F056915493A45ED5C0D4EC36CAA1F3D52EFBA07BDD6C878E8C33A215AA
+  Android Group : Android12
+  Version       : 1.8 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.READ_LOGS, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (16): com.facebook.unity.FBUnityAppLinkActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.facebook.unity.FBUnityJoinGameGroupActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.player.UnityPlayerActivity, com.facebook.CustomTabActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.facebook.unity.FBUnityLoginActivity, com.facebook.unity.FBUnityGameRequestActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.facebook.unity.FBUnityGamingServicesFriendFinderActivity, com.facebook.unity.FBUnityCreateGameGroupActivity, com.facebook.unity.FBUnityDialogsActivity
+  Services   (4): androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (9): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.facebook.FacebookContentProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6934
+  Total Methods : 45451
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 2C 2F 54 17 6A 97 10 D3 C1 23 FC E2 AC 81 2A 7A 62 28 B9 4F 9F C0 71 20 72 4F 7D 7B 4C 4D 06 2C
+
+==========================================

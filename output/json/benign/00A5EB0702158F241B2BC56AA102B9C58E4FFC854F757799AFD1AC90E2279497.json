@@ -1,0 +1,56 @@
+{
+  "sha256": "00A5EB0702158F241B2BC56AA102B9C58E4FFC854F757799AFD1AC90E2279497",
+  "filename": "00A5EB0702158F241B2BC56AA102B9C58E4FFC854F757799AFD1AC90E2279497.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.knjigaprica",
+  "version_name": "1.1.0",
+  "version_code": "88",
+  "min_sdk": "19",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "com.ryanheise.audioservice.AudioServiceActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.ryanheise.audioservice.AudioService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "com.ryanheise.audioservice.MediaButtonReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3920,
+  "method_count": 23519,
+  "cert_fingerprint": "CC B5 39 15 1E 4B B1 22 D0 39 75 04 F3 B9 9B 79 FE 16 5B 24 B3 D5 CE 70 7A 04 67 EC 4F F0 22 20",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://exoplayer.dev/issues/cleartext-not-permitted",
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

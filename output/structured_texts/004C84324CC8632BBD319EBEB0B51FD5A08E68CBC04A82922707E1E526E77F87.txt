@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.prinex.sic1056
+  SHA-256       : 004C84324CC8632BBD319EBEB0B51FD5A08E68CBC04A82922707E1E526E77F87
+  Android Group : Android13
+  Version       : 2.1 (code: 14)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (31)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.prinex.sic1056.permission.C2D_MESSAGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.READ_APP_BADGE, com.sec.android.provider.badge.permission.WRITE, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (13): ti.modules.titanium.media.TiCameraXActivity, com.onesignal.NotificationOpenedReceiver, com.google.android.gms.common.api.GoogleApiActivity, com.prinex.sic1056.splashActivity, com.prinex.sic1056.NeinorActivity, ti.modules.titanium.ui.android.TiPreferencesActivity, org.appcelerator.titanium.TiActivity, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, org.appcelerator.titanium.TiTranslucentActivity, ti.modules.titanium.media.TiVideoActivity, ti.modules.titanium.media.TiCameraActivity
+  Services   (22): com.onesignal.NotificationRestoreService, com.onesignal.FCMIntentJobService, androidx.camera.core.impl.MetadataHolderService, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.ADMMessageHandlerJob, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.FCMIntentService, com.onesignal.sdktest.notification.HmsMessageServiceAppLevel, com.onesignal.HmsMessageServiceOneSignal, androidx.work.impl.background.systemjob.SystemJobService, com.onesignal.GcmIntentService, com.onesignal.GcmIntentJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.SyncService, com.onesignal.SyncJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.onesignal.RestoreJobService, com.onesignal.RestoreKickoffJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (16): com.onesignal.UpgradeReceiver, com.onesignal.ADMMessageHandler$Receiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.BootUpReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.NotificationOpenedReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, org.appcelerator.titanium.io.TiFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12971
+  Total Methods : 85793
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Prinex, Organizational Unit: Shebel Consultoria y servicios, Organization: Prinex, Locality: Madrid, State/Province: Madrid, Country: ES
+  Fingerprint : C0 C0 CF 2D 6F E1 46 95 15 CF DC 7B 7A 9C FF F0 BD B7 29 2B 7F 6D 34 0D 6F 43 E9 60 FE 3E E7 A6
+
+==========================================

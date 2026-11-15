@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.benefit_express.fismobile
+  SHA-256       : 00A3F9DBB4AB68A0F1A90C6B2761868E854EDFDD06272D4ABB5F7A0C748D1651
+  Android Group : Android12L
+  Version       : 22.05.00 (code: 2205)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.USE_BIOMETRIC, android.permission.ACCESS_COARSE_LOCATION, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (5): com.fis.fismobile.activity.ActivityLogin, com.google.android.gms.common.api.GoogleApiActivity, com.fis.fismobile.activity.ActivityOnboarding, com.fis.fismobile.activity.ActivityWebView, com.fis.fismobile.activity.ActivityMain
+  Services   (4): androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (1): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 11281
+  Total Methods : 51117
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://app.tpastream.com/static/js/sdk.js
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: FIS
+  Fingerprint : 40 9F EE A2 BE D4 03 B0 66 63 B6 72 E7 35 00 3B 83 04 90 39 E3 59 EE 62 17 B3 8D F0 A8 42 13 34
+
+==========================================

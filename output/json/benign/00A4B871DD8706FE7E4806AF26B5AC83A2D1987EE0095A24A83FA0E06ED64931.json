@@ -1,0 +1,65 @@
+{
+  "sha256": "00A4B871DD8706FE7E4806AF26B5AC83A2D1987EE0095A24A83FA0E06ED64931",
+  "filename": "00A4B871DD8706FE7E4806AF26B5AC83A2D1987EE0095A24A83FA0E06ED64931.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.siok.redrose.love.theme",
+  "version_name": "3.0",
+  "version_code": "8",
+  "min_sdk": "17",
+  "target_sdk": "33",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.REQUEST_DELETE_PACKAGES",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.startapp.sdk.adsbase.consent.ConsentActivity",
+    "com.siok.redrose.love.theme.Screen",
+    "com.startapp.sdk.ads.interstitials.OverlayActivity",
+    "com.startapp.sdk.ads.list3d.List3DActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.startapp.sdk.cachedservice.BackgroundService",
+    "com.startapp.sdk.jobs.SchedulerService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener"
+  ],
+  "receiver_count": 1,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3916,
+  "method_count": 27007,
+  "cert_fingerprint": "A2 F0 BF 1D B6 39 F4 27 6F FC FB 02 FD 43 FA 3C FF C9 F5 AE C2 F3 81 AA 5F FB 70 20 3D 10 AC 05",
+  "cert_issuer": "Common Name: Ugani Siok, Organizational Unit: Ugani Infotech, Organization: Siok Info, Locality: seville, State/Province: Andalusia, Country: ES",
+  "urls": [
+    "https://daneden.me/animate",
+    "https://www.startapp.com",
+    "https://support.start.io/hc/en-us/articles/360014774799",
+    "https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200",
+    "https://opensource.org/licenses/MIT"
+  ],
+  "ip_addresses": [
+    "10.0.2.15"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

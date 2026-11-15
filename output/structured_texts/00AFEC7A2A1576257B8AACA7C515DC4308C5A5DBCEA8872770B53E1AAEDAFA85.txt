@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.qapital
+  SHA-256       : 00AFEC7A2A1576257B8AACA7C515DC4308C5A5DBCEA8872770B53E1AAEDAFA85
+  Android Group : Android13
+  Version       : 4.72.0 (code: 10133)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (260): com.qapital.termsconditions.termsconditions.views.TermsConditionsActivity, com.qapital.rules.AddRuleToSpendingActivity, com.qapital.rules.create.views.CreateRuleActivity, com.qapital.accounts.views.VerifyPennyDepositActivity, com.qapital.retirement.views.AccountTypeQuestionActivity, com.qapital.missions.views.MissionSetupActivity, com.qapital.devtools.debug.views.DevPreviewActivity, com.qapital.banks.details.BankDetailsActivity, com.qapital.onboarding2.dreamteam.views.WaitingForPartnerActivity, com.qapital.customer.views.ManualReviewIntroActivity, com.qapital.investments.views.InvestEligibilityActivity, com.qapital.goals.retirement.overflow.OverflowAccountActivity, com.qapital.user.delete.views.RequestDeleteUserNoticeActivity, com.qapital.goals.activity.ActivityFeedActivity, com.qapital.activities.settings.accounts.AccountSettingsActivity, com.qapital.missions.views.MissionInfoActivity, com.qapital.profile.views.QuickActionsSettingsActivity, com.qapital.budget.edit.EditBudgetActivity, com.qapital.accounts.views.FundingSourceActivity, com.qapital.activities.auth.views.EmailAuthActivity
+  Services   (16): com.qapital.integrations.firebase.AppIndexingUpdateService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.qapital.integrations.firebase.QFcmListenerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.iterable.iterableapi.IterableFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, com.qapital.referral.ReferralActivity$ShareReceiver, com.qapital.integrations.firebase.QAppIndexingUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.iterable.iterableapi.IterablePushActionReceiver, zendesk.support.DeepLinkingBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.qapital.receivers.QBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (8): androidx.core.content.FileProvider, zendesk.support.SupportSdkStartupProvider, zendesk.support.guide.GuideSdkStartupProvider, com.plaid.link.internal.PlaidFileProvider, com.google.firebase.provider.FirebaseInitProvider, zendesk.belvedere.BelvedereFileProvider, com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 36176
+  Total Methods : 210775
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Erik Akterin; Organizational Unit: Unknown; Organization: Qapital, Inc.; Locality: New York; State/Province: New York; Country: US
+  Fingerprint : 14 08 0D 3B AA CE 08 B8 4D 2F 74 50 15 E7 4B A7 99 29 27 47 92 24 B9 AC 4C C1 44 70 B8 12 D2 FC
+
+==========================================

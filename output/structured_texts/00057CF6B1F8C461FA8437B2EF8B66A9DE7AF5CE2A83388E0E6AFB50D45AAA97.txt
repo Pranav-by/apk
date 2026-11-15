@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : newmcpe.findthebutton.maps
+  SHA-256       : 00057CF6B1F8C461FA8437B2EF8B66A9DE7AF5CE2A83388E0E6AFB50D45AAA97
+  Android Group : Android12L
+  Version       : 5.0 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (10)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (60): com.google.android.gms.common.api.GoogleApiActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.ironsource.sdk.controller.InterstitialActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.amazon.device.ads.DTBInterstitialActivity, io.bidmachine.nativead.view.VideoPlayerActivity, com.my.target.common.MyTargetActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.unity3d.services.ads.adunit.AdUnitActivity, newmcpe.findthebutton.maps.activity.HomeActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.yandex.mobile.ads.common.AdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, newmcpe.findthebutton.maps.activity.BookmarksActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity
+  Services   (14): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, newmcpe.findthebutton.maps.service.DownloadService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, io.presage.common.profig.schedule.ProfigSyncIntentService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.MetricaService, io.presage.common.profig.schedule.ProfigJobService, com.yandex.metrica.ConfigurationJobService, com.google.android.gms.ads.AdService
+  Receivers  (11): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.appodeal.ads.AppodealPackageAddedReceiver, io.presage.common.profig.schedule.ProfigAlarmReceiver, com.ogury.core.internal.OguryLogEnablerReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (14): com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.vungle.warren.utility.VungleProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.core.content.FileProvider, com.appodeal.ads.ApdContentProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider, com.my.target.common.MyTargetContentProvider, com.appodeal.ads.services.crash_hunter.ApdCrashHunterContentProvider, com.appodeal.ads.services.event_service.ApdEventContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 36892
+  Total Methods : 238205
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(5): 127.0.0.1, 4.2.5.2, 2.11.1.4, 7.2.1.1, 2.11.1.1
+
+[Certificate]
+  Issuer      : Common Name: new.findthebutton.maps
+  Fingerprint : C2 A0 47 E8 7D B1 C3 23 2D C1 B8 72 BC 1F 88 0B D1 87 17 46 49 F2 B7 1E DA E6 4C 64 89 1E 37 22
+
+==========================================

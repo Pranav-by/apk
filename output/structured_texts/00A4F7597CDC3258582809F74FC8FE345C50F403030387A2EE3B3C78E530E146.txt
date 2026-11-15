@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sheerme.app
+  SHA-256       : 00A4F7597CDC3258582809F74FC8FE345C50F403030387A2EE3B3C78E530E146
+  Android Group : Android12
+  Version       : 1.11.0 (code: 41)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (37)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, android.permission.WRITE_CALENDAR, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.google.android.gms.permission.ACTIVITY_RECOGNITION, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.READ_CALENDAR, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (22): com.stripe.android.view.PaymentFlowActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.theartofdev.edmodo.cropper.CropImageActivity, com.sheerme.app.MainActivity, com.facebook.CustomTabActivity, com.proyecto26.inappbrowser.ChromeTabsManagerActivity, com.stripe.android.view.AddPaymentMethodActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity
+  Services   (12): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService, com.google.firebase.components.ComponentDiscoveryService, expo.modules.location.services.LocationTaskService, com.google.android.gms.measurement.AppMeasurementService, expo.modules.notifications.service.ExpoFirebaseMessagingService, io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.auth.api.signin.RevocationBoundService, io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+  Receivers  (7): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, expo.modules.notifications.service.NotificationsService
+  Providers  (10): com.reactnativecommunity.webview.RNCWebViewFileProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, expo.modules.filesystem.FileSystemFileProvider, expo.modules.imagepicker.ImagePickerFileProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 33325
+  Total Methods : 211199
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5F 2C 45 25 B4 5E 45 08 67 57 68 30 F1 5A F1 66 31 21 22 23 95 A5 66 69 20 94 AB 99 2A 83 F4 99
+
+==========================================

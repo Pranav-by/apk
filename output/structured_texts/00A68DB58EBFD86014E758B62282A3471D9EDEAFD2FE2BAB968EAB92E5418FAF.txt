@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : dev.qori.dimension
+  SHA-256       : 00A68DB58EBFD86014E758B62282A3471D9EDEAFD2FE2BAB968EAB92E5418FAF
+  Android Group : Android12
+  Version       : 1.0.11 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 20
+  Target SDK    : 31
+
+[Permissions (2)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (2): dev.qori.hn_client.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1019
+  Total Methods : 4850
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C9 3A 31 64 FF 12 FB 0C BF F3 DB 2C 30 04 59 AF 5E 54 63 70 AA B4 AA 9E 4C 7A E8 D7 8D 3C 83 57
+
+==========================================

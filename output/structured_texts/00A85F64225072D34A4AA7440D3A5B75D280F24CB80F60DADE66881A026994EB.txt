@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.owlonedev.parkourmapsmcpe
+  SHA-256       : 00A85F64225072D34A4AA7440D3A5B75D280F24CB80F60DADE66881A026994EB
+  Android Group : Android12L
+  Version       : 2.1.5 (code: 39)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (11)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (5): com.owlonedev.parkourmapsmcpe.AndroidLauncher, com.android.billingclient.api.ProxyBillingActivity, com.yandex.mobile.ads.common.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity
+  Services   (11): com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.yandex.metrica.ConfigurationService, com.google.android.gms.measurement.AppMeasurementJobService, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationJobService
+  Receivers  (9): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (6): com.yandex.metrica.PreloadInfoContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 19299
+  Total Methods : 88180
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://firebase.google.com/support/guides/disable-analytics, https://yandex.com/dev/appmetrica/doc/mobile-sdk-dg/concepts/android-initialize.html, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DD 04 5E FB 4B 1D AD 95 89 A9 5B 94 13 C2 AF F9 D7 2E 8E 21 78 54 AC 64 F3 B1 19 72 35 34 73 F3
+
+==========================================

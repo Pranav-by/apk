@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pkj.datastructure
+  SHA-256       : 00A627A16177114800C26A2C63F7D8BE39648B6F6F591D9AC4349DDA42BF227C
+  Android Group : Android15
+  Version       : 1.1.9 (code: 14026)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (23): com.pkj.datastructure.ds_question, com.pkj.datastructure.ds_quiz_5, com.pkj.datastructure.ds_quiz_7, com.pkj.datastructure.ds_quiz_main, com.pkj.datastructure.ds_quiz_9, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.pkj.datastructure.program_1, com.pkj.datastructure.ds_quiz_12, com.pkj.datastructure.ds_quiz_11, com.pkj.datastructure.MainActivity, com.pkj.datastructure.ds_quiz_1, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.pkj.datastructure.DSMain, com.google.android.gms.ads.AdActivity, com.pkj.datastructure.ds_quiz_10, com.pkj.datastructure.ds_quiz_6, com.pkj.datastructure.ds_quiz_2, com.pkj.datastructure.ds_quiz_4
+  Services   (7): androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (2): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8940
+  Total Methods : 44452
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/line-numbers/prism-line-numbers.min.js, https://googlemobileadssdk.page.link/admob-interstitial-policies, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js, https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/line-numbers/prism-line-numbers.min.css, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://play.google.com/store/apps/details?id=com.pkj.datastructure
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 69 B5 94 DD 1D D9 5F D1 D0 B9 5C 83 32 BE 4E A3 CE 19 B9 A7 C2 98 C8 5A 28 B8 4D E2 75 E0 07 A6
+
+==========================================

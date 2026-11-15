@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.techcrafts.banglajuktoborno
+  SHA-256       : 008D0F12E073F624C6813236575E011A93236053DBD5FD6EAFA58D0D48274DA9
+  Android Group : Android13
+  Version       : 5.0 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, com.techcrafts.banglajuktoborno.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (22): com.techcrafts.banglajuktoborno.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.ads.AudienceNetworkActivity, com.techcrafts.banglajuktoborno.A7, com.techcrafts.banglajuktoborno.A15, com.techcrafts.banglajuktoborno.A16, com.techcrafts.banglajuktoborno.A13, com.google.android.gms.ads.AdActivity, com.techcrafts.banglajuktoborno.A14, com.techcrafts.banglajuktoborno.A12, com.techcrafts.banglajuktoborno.A11, com.techcrafts.banglajuktoborno.A10, com.techcrafts.banglajuktoborno.A9, com.techcrafts.banglajuktoborno.A6, com.techcrafts.banglajuktoborno.A8, com.techcrafts.banglajuktoborno.A5, com.techcrafts.banglajuktoborno.A3, com.techcrafts.banglajuktoborno.A4, com.techcrafts.banglajuktoborno.A1, com.techcrafts.banglajuktoborno.A2
+  Services   (5): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (8): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14865
+  Total Methods : 88408
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(2): 127.0.0.1, 6.16.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C4 5C C0 AD 57 46 39 07 5A E1 21 7C A3 02 E7 65 7C 97 2E BB 9E CD 2B A8 25 31 49 C7 36 27 26 9F
+
+==========================================

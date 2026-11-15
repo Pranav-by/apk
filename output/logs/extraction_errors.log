@@ -1,0 +1,229 @@
+[2026-11-03T13:40:30.516517] SHA256=00A52D3F9E18AABEDF2BD5E33B6E61A03D750D99339D0401D7027E9914E82934 PATH=/media/pranav/HP P900/apks/b/Android12/00A52D3F9E18AABEDF2BD5E33B6E61A03D750D99339D0401D7027E9914E82934.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 139, in extract_features
+    apk = APK(apk_path)
+          ^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 377, in __init__
+    self.zip = ZipEntry.parse(filename, False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 409, in parse
+    eocd = EndOfCentralDirectoryRecord.parse(apk_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 60, in parse
+    raise ValueError("End of central directory record (EOCD) signature not found")
+ValueError: End of central directory record (EOCD) signature not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: End of central directory record (EOCD) signature not found
+
+
+[2026-11-03T14:29:28.777962] SHA256=00AFD139B1C7D5776EE3CC4B473B75E911BC5628FEAEB1A3DF75BD1405173AF3 PATH=/media/pranav/HP P900/apks/b/Android12L/00AFD139B1C7D5776EE3CC4B473B75E911BC5628FEAEB1A3DF75BD1405173AF3.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 139, in extract_features
+    apk = APK(apk_path)
+          ^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 377, in __init__
+    self.zip = ZipEntry.parse(filename, False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 409, in parse
+    eocd = EndOfCentralDirectoryRecord.parse(apk_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 60, in parse
+    raise ValueError("End of central directory record (EOCD) signature not found")
+ValueError: End of central directory record (EOCD) signature not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: End of central directory record (EOCD) signature not found
+
+
+[2026-11-03T15:07:08.731057] SHA256=00A80B729E2338A0FC4F8D4D0D323E2BAC7964373AA17AC0B918C69CDE2A5071 PATH=/media/pranav/HP P900/apks/b/Android13/00A80B729E2338A0FC4F8D4D0D323E2BAC7964373AA17AC0B918C69CDE2A5071.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 139, in extract_features
+    apk = APK(apk_path)
+          ^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 377, in __init__
+    self.zip = ZipEntry.parse(filename, False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 409, in parse
+    eocd = EndOfCentralDirectoryRecord.parse(apk_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 60, in parse
+    raise ValueError("End of central directory record (EOCD) signature not found")
+ValueError: End of central directory record (EOCD) signature not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: End of central directory record (EOCD) signature not found
+
+
+[2026-11-14T08:43:47.966611] SHA256=00A52D3F9E18AABEDF2BD5E33B6E61A03D750D99339D0401D7027E9914E82934 PATH=/media/pranav/HP P900/apks/b/Android12/00A52D3F9E18AABEDF2BD5E33B6E61A03D750D99339D0401D7027E9914E82934.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 139, in extract_features
+    apk = APK(apk_path)
+          ^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 377, in __init__
+    self.zip = ZipEntry.parse(filename, False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 409, in parse
+    eocd = EndOfCentralDirectoryRecord.parse(apk_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 60, in parse
+    raise ValueError("End of central directory record (EOCD) signature not found")
+ValueError: End of central directory record (EOCD) signature not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: End of central directory record (EOCD) signature not found
+
+
+[2026-11-14T08:43:48.025365] SHA256=00AFD139B1C7D5776EE3CC4B473B75E911BC5628FEAEB1A3DF75BD1405173AF3 PATH=/media/pranav/HP P900/apks/b/Android12L/00AFD139B1C7D5776EE3CC4B473B75E911BC5628FEAEB1A3DF75BD1405173AF3.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 139, in extract_features
+    apk = APK(apk_path)
+          ^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 377, in __init__
+    self.zip = ZipEntry.parse(filename, False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 409, in parse
+    eocd = EndOfCentralDirectoryRecord.parse(apk_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 60, in parse
+    raise ValueError("End of central directory record (EOCD) signature not found")
+ValueError: End of central directory record (EOCD) signature not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: End of central directory record (EOCD) signature not found
+
+
+[2026-11-14T08:43:48.143775] SHA256=00A80B729E2338A0FC4F8D4D0D323E2BAC7964373AA17AC0B918C69CDE2A5071 PATH=/media/pranav/HP P900/apks/b/Android13/00A80B729E2338A0FC4F8D4D0D323E2BAC7964373AA17AC0B918C69CDE2A5071.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 139, in extract_features
+    apk = APK(apk_path)
+          ^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 377, in __init__
+    self.zip = ZipEntry.parse(filename, False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 409, in parse
+    eocd = EndOfCentralDirectoryRecord.parse(apk_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 60, in parse
+    raise ValueError("End of central directory record (EOCD) signature not found")
+ValueError: End of central directory record (EOCD) signature not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: End of central directory record (EOCD) signature not found
+
+
+[2026-11-14T09:13:38.625979] SHA256=00A7285BF7945E5878A80D58CE48605DB227918D9A7B598D9DFE9E816B55867F PATH=/media/pranav/HP P900/apks/b/Android14/00A7285BF7945E5878A80D58CE48605DB227918D9A7B598D9DFE9E816B55867F.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 139, in extract_features
+    apk = APK(apk_path)
+          ^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 377, in __init__
+    self.zip = ZipEntry.parse(filename, False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 409, in parse
+    eocd = EndOfCentralDirectoryRecord.parse(apk_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 60, in parse
+    raise ValueError("End of central directory record (EOCD) signature not found")
+ValueError: End of central directory record (EOCD) signature not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: End of central directory record (EOCD) signature not found
+
+
+[2026-11-14T10:29:53.859041] SHA256=00AC0625B7E2C4A6D1484F81FD29DE354275F716D51A83EB5067FB22CA32B6B5 PATH=/media/pranav/HP P900/apks/b/Android15/00AC0625B7E2C4A6D1484F81FD29DE354275F716D51A83EB5067FB22CA32B6B5.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 139, in extract_features
+    apk = APK(apk_path)
+          ^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 377, in __init__
+    self.zip = ZipEntry.parse(filename, False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 409, in parse
+    eocd = EndOfCentralDirectoryRecord.parse(apk_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/apkInspector/headers.py", line 60, in parse
+    raise ValueError("End of central directory record (EOCD) signature not found")
+ValueError: End of central directory record (EOCD) signature not found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: End of central directory record (EOCD) signature not found
+
+
+[2026-11-14T11:17:50.315922] SHA256=00C0F73A079124E73882E48C5E933E807FB4E4232C0B69772AF30EECD6A7CF0B PATH=/media/pranav/HP P900/apks/b/Android16/00C0F73A079124E73882E48C5E933E807FB4E4232C0B69772AF30EECD6A7CF0B.apk
+  ERROR: Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 142, in extract_features
+    features["version_name"] = apk.get_androidversion_name()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pranav/.local/lib/python3.12/site-packages/androguard/core/apk/__init__.py", line 802, in get_androidversion_name
+    return self.androidversion["Name"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 312, in main
+    features = extract_features(apk_path, sha256, label, android_version)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/pranav/HP P900/apks/scripts/02_extract_features.py", line 246, in extract_features
+    raise RuntimeError(f"Androguard parse failed: {e}") from e
+RuntimeError: Androguard parse failed: 'Name'
+
+

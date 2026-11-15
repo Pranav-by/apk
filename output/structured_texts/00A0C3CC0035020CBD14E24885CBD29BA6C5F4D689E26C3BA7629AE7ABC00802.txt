@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.guardian.security.pri
+  SHA-256       : 00A0C3CC0035020CBD14E24885CBD29BA6C5F4D689E26C3BA7629AE7ABC00802
+  Android Group : Android12
+  Version       : 1.6.9 (code: 255)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (42)]
+  android.permission.AUTHENTICATE_ACCOUNTS, android.permission.FOREGROUND_SERVICE, android.permission.REQUEST_DELETE_PACKAGES, android.permission.EXPAND_STATUS_BAR, android.permission.POST_NOTIFICATIONS, com.android.launcher.permission.INSTALL_SHORTCUT, android.permission.CLEAR_APP_CACHE, com.asus.msa.SupplementaryDID.ACCESS, com.android.launcher3.permission.READ_SETTINGS, com.google.android.c2dm.permission.RECEIVE, com.android.launcher.permission.UNINSTALL_SHORTCUT, android.permission.CHANGE_WIFI_STATE, freemme.permission.msa, android.permission.READ_SYNC_SETTINGS, android.permission.ACCESS_WIFI_STATE, android.permission.GET_TASKS, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.WRITE_SETTINGS, com.android.launcher2.permission.READ_SETTINGS, android.permission.MANAGE_ACCOUNTS
+
+[Application Components]
+  Activities (226): com.notification.ns.NotificationSecurityResultNewActivity, com.guardian.security.pro.ui.RemindBoosterActivity, com.tapjoy.TJContentActivity, com.tapjoy.TJAdUnitActivity, com.guardian.security.pro.cpu.ui.CpuCoolResultNewActivity, com.notification.ns.NotificationSecurityResultActivity, org.crashrecovery.service.CrashDetailsActivity, com.notification.nc.NotificationCleanResultNewActivity, com.guardian.security.pro.cpu.ui.CpuCoolerActivity, com.guardian.security.pro.cpu.ui.CpuCoolDownProgressActivity, com.notification.nc.NotificationHistoryResultNewActivity, com.guardian.security.pro.ui.BoostResultNewActivity, com.guardian.security.pro.ui.BoostResultActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.guardian.security.pro.ui.setting.ManageEUDataActivity, com.unity3d.services.ads.adunit.AdUnitActivity, org.tercel.searchlocker.activity.LockerClearDataActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity
+  Services   (49): com.la.sy.SyService, com.la.sy.SA, com.la.sy.SB, com.la.sy.ServiceStart, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.widget.cores.DataService, com.guardian.av.ui.rtp.RtpService, org.crashrecovery.service.CrashRecoveryService, com.guardian.security.pro.service.CoreService, org.cc.component.CCService, com.guardian.security.pro.service.BootStrategyService, org.gj.Ogs, com.rubbish.cache.scanner.base.DataSaveService, com.google.android.gms.ads.AdService, com.guardian.security.pro.service.InnerService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.guardian.security.pro.service.MainService, androidx.work.impl.background.systemjob.SystemJobService, com.apollo.downloadlibrary.DownloadRetryJobService, com.guardian.security.pro.service.AdLoadService
+  Receivers  (25): com.apollo.downloadlibrary.DownloadReceiver, com.guardian.wifi.ui.receiver.WifiStateReceiver, com.guardian.av.ui.NotificationReceiver, com.guardian.av.ui.receiver.PackageReceiver, com.la.da.BroadcastReceiver, org.adoto.xrg.receiver.PlayReceiver, org.adoto.xrg.receiver.GuardPlayReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.oreo.receiver.OreoCheckReceiver, com.guardian.security.pro.receiver.BootStrategyReceiver
+  Providers  (34): androidx.core.content.FileProvider, com.guardian.security.pro.behavior.BehaviorProvider, com.guardian.av.lib.db.ignore.IgnoreProvider, com.guardian.av.lib.db.virus.VirusProvider, com.guardian.av.lib.db.cache.CacheProvider, com.guardian.av.lib.db.upload.UploadProvider, com.guardian.av.lib.db.mark.MarkProvider, com.guardian.av.lib.db.abnormal.AbnormalProvider, com.ultron.era.keepalive.KeepAliveProvider, com.la.da.ContactsProvider, com.la.sy.SyProvider, androidx.widget.cores.FileIndexProvider, androidx.widget.cores.ResidualProvider, androidx.widget.cores.CacheRuleProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.apus.taskmanager.OptimizerProvider, com.fantasy.core.dao.FantasyProvider, com.tbu.lib.binder.MultiProcessBinderProvider, com.apollo.downloadlibrary.DownloadProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 36434
+  Total Methods : 201335
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(10): 10.0.6.0, 12.10.0.1, 20.6.0.11, 6.11.0.1, 1.1.4.2, 6.11.0.4, 4.2.1.0, 16.1.81.0, 4.5.0.3, 4.7.1.1
+
+[Certificate]
+  Issuer      : Common Name: SECURITY FOUR, Organizational Unit: SECURITY FOUR TEAM, Organization: SECURITY FOUR DEV, Locality: Los Angeles, State/Province: State of California, Country: US
+  Fingerprint : E6 EC 72 BA 4F 42 BA 5D 84 8B F7 C4 EA CE 7B B2 AD CC 44 88 9F 3C 6E EF 49 4F 40 09 93 09 0A A7
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wMessengerLite_16374132
+  SHA-256       : 000A84D3524B25623EEE935E0D20BD7530E0F8D777461EEB1172CBCDF6F0D9B9
+  Android Group : Android12L
+  Version       : 1.0 (code: 1556459496)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (61)]
+  android.permission.RECORD_AUDIO, android.permission.AUTHENTICATE_ACCOUNTS, android.permission.FOREGROUND_SERVICE, android.permission.READ_PROFILE, android.permission.QUICKBOOT_POWERON, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.NFC, com.android.launcher.permission.INSTALL_SHORTCUT, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INSTALL_SHORTCUT, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.BLUETOOTH_ADMIN, android.permission.USE_BIOMETRIC, com.android.launcher.permission.UNINSTALL_SHORTCUT, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS
+
+[Application Components]
+  Activities (65): com.appsgeyser.sdk.ui.AboutDialogActivity, com.appodeal.ads.VideoPlayerActivity, io.bidmachine.nativead.view.VideoPlayerActivity, com.google.android.gms.ads.AdActivity, com.android.billingclient.api.ProxyBillingActivity, com.explorestack.iab.mraid.MraidActivity, org.telegram.ui.VoIPFeedbackActivity, com.criteo.publisher.CriteoInterstitialActivity, com.explorestack.iab.vast.activity.VastActivity, com.applovin.adview.AppLovinFullscreenActivity, org.telegram.messenger.GoogleVoiceClientActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, org.telegram.ui.PopupNotificationActivity, com.adcolony.sdk.AdColonyInterstitialActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity
+  Services   (47): org.telegram.messenger.BringAppForegroundService, org.telegram.messenger.NotificationsService, org.telegram.messenger.NotificationRepeat, org.telegram.messenger.VideoEncodingService, org.telegram.messenger.ImportingService, org.telegram.messenger.voip.VoIPService, org.telegram.messenger.GoogleVoiceClientService, org.telegram.messenger.MusicPlayerService, org.telegram.messenger.MusicBrowserService, org.telegram.messenger.voip.TelegramConnectionService, org.telegram.messenger.ChatsWidgetService, org.telegram.messenger.FilesMigrationService, org.telegram.messenger.ContactsWidgetService, androidx.sharetarget.ChooserTargetServiceCompat, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.appsgeyser.sdk.push.AlarmService, org.altbeacon.beacon.service.BeaconService, org.altbeacon.beacon.BeaconIntentProcessor, org.altbeacon.beacon.service.ScanJob
+  Receivers  (35): org.telegram.messenger.MusicPlayerReceiver, org.telegram.messenger.voip.VoIPMediaButtonReceiver, org.telegram.messenger.AppStartReceiver, org.telegram.messenger.RefererReceiver, org.telegram.messenger.WearReplyReceiver, org.telegram.messenger.StopLiveLocationReceiver, org.telegram.messenger.NotificationCallbackReceiver, org.telegram.messenger.ShareBroadcastReceiver, org.telegram.messenger.CustomTabsCopyReceiver, org.telegram.messenger.NotificationDismissReceiver, org.telegram.messenger.voip.VoIPActionsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.appsgeyser.sdk.datasdk.DataSdksReceiver, org.altbeacon.beacon.startup.StartupBroadcastReceiver, com.appsgeyser.sdk.push.AlarmReceiver, com.appsgeyser.sdk.push.PushStarterReceiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver
+  Providers  (16): com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider, com.yandex.metrica.PreloadInfoContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.appodeal.ads.ApdContentProvider, androidx.core.content.FileProvider, com.squareup.picasso.PicassoProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, org.telegram.messenger.NotificationImageProvider, com.facebook.ads.AudienceNetworkContentProvider, com.appodeal.ads.services.crash_hunter.ApdCrashHunterContentProvider, com.appodeal.ads.services.event_service.ApdEventContentProvider, com.applovin.sdk.AppLovinInitProvider, org.telegram.messenger.voip.CallNotificationSoundProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 50381
+  Total Methods : 311126
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 2.11.1.1, 7.2.1.1, 2.6.6.473, 2.11.1.4
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D5 E3 B7 DC A9 9F EC 0A 74 A6 0C 87 BF C6 10 34 4B 91 9A 1E A4 52 A0 2D 7C 1E 39 B0 B7 F7 DF A1
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.xcyh.novelpal
+  SHA-256       : 00A7E5CAE0C434FA53E7CA092229B4F2C1A28DF32D5FDBB39B6417499AC77356
+  Android Group : Android15
+  Version       : 2.0.9 (code: 41)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (23)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, freemme.permission.msa, com.google.android.c2dm.permission.RECEIVE, com.asus.msa.SupplementaryDID.ACCESS, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (87): com.xcyh.novelpal.submergeProgressDeceitNews1.distribute.Porter, com.xcyh.novelpal.submergeProgressDeceitNews1.distribute.RespectiveMemorize2, com.unity3d.ironsourceads.internal.services.InlineStoreActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.ironsource.sdk.controller.InterstitialActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.bytedance.sdk.openadsdk.activity.TTAdActivity, com.facebook.ads.AudienceNetworkActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.xcyh.dictate.lavatory.Concentration, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.ironsource.sdk.controller.ControllerActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.xcyh.cureCritical3.automationPlasterWidth3.Dominate5, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity
+  Services   (17): com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.credentials.playservices.CredentialProviderMetadataHolder, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.ads.AdService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.xcyh.assemble.AffectionMinusVanish
+  Receivers  (14): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (12): com.blankj.utilcode.util.UtilsFileProvider, com.facebook.ads.AudienceNetworkContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider, com.vungle.ads.VungleProvider, com.squareup.picasso.PicassoProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 47480
+  Total Methods : 271457
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E2 EE 8C 24 52 F4 51 B3 D9 FF 25 DE B4 9F E5 7D 10 60 41 33 47 92 90 D0 B6 A6 37 E6 E0 AA 93 D1
+
+==========================================

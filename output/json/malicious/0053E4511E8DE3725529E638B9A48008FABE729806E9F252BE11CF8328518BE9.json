@@ -1,0 +1,49 @@
+{
+  "sha256": "0053E4511E8DE3725529E638B9A48008FABE729806E9F252BE11CF8328518BE9",
+  "filename": "0053E4511E8DE3725529E638B9A48008FABE729806E9F252BE11CF8328518BE9.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "dev.andrewblankenship.com.heraldandbanner",
+  "version_name": "0.0.11",
+  "version_code": "11",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "com.android.vending.BILLING",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "dev.andrewblankenship.com.heraldandbanner.MainActivity",
+    "com.android.billingclient.api.ProxyBillingActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3428,
+  "method_count": 26049,
+  "cert_fingerprint": "9E 1A 28 1C 4C 02 3B B8 BC 1A 7E CA 8E C5 E4 A6 E6 60 9E 97 95 5B 49 2C B5 12 A0 3D C1 62 78 73",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

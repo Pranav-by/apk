@@ -1,0 +1,79 @@
+{
+  "sha256": "00A98C9EEFFE55367339BBB2C90C7C82466A82478292D05DC238070B1567D7BB",
+  "filename": "00A98C9EEFFE55367339BBB2C90C7C82466A82478292D05DC238070B1567D7BB.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "nl.app_vise.android.spirit",
+  "version_name": "1.0.8",
+  "version_code": "45",
+  "min_sdk": "19",
+  "target_sdk": "34",
+  "permissions": [
+    "nl.app_vise.android.spirit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.READ_CALENDAR",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.firebase.auth.internal.GenericIdpActivity",
+    "com.google.firebase.auth.internal.RecaptchaActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.example.spirit.MainActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService"
+  ],
+  "service_count": 8,
+  "receivers": [
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6695,
+  "method_count": 33498,
+  "cert_fingerprint": "A5 FF AD 3F BC 75 F0 62 D1 51 1E EA 6F 17 EB A9 34 54 E4 30 F4 B7 F6 3B FD 13 32 85 4B 0E E1 F1",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics",
+    "https://firebase.google.com/docs/analytics",
+    "https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#",
+    "https://developer.android.com/guide/topics/permissions/overview",
+    "https://goo.gl/NAOOOI."
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

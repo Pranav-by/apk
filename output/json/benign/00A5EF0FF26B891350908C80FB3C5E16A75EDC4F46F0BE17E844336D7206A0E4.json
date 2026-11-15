@@ -1,0 +1,72 @@
+{
+  "sha256": "00A5EF0FF26B891350908C80FB3C5E16A75EDC4F46F0BE17E844336D7206A0E4",
+  "filename": "00A5EF0FF26B891350908C80FB3C5E16A75EDC4F46F0BE17E844336D7206A0E4.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.gameverse.wizardrush",
+  "version_name": "1.0.5",
+  "version_code": "6",
+  "min_sdk": "22",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+  ],
+  "permission_count": 12,
+  "activities": [
+    "com.facebook.unity.FBUnityGamingServicesFriendFinderActivity",
+    "com.facebook.unity.FBUnityGameRequestActivity",
+    "com.facebook.unity.FBUnityLoginActivity",
+    "com.facebook.CustomTabMainActivity",
+    "com.facebook.FacebookActivity",
+    "com.facebook.CustomTabActivity",
+    "com.facebook.unity.FBUnityDeepLinkingActivity",
+    "com.facebook.unity.FBUnityDialogsActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.facebook.unity.FBUnityAppLinkActivity",
+    "com.unity3d.player.UnityPlayerActivity"
+  ],
+  "activity_count": 11,
+  "services": [
+    "com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+    "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.facebook.FacebookContentProvider",
+    "com.facebook.internal.FacebookInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6173,
+  "method_count": 42656,
+  "cert_fingerprint": "EF BB 31 A5 43 1B BC D5 06 0A 3E 89 BA 62 41 77 37 33 A3 B1 B7 A6 A6 A2 4D 1D 0A BB DC CC AF 1F",
+  "cert_issuer": "Common Name: Lex Holynskyi, Organizational Unit: Development, Organization: GameVersePublishing, Locality: Odesa, State/Province: Ukraine, Country: +380",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

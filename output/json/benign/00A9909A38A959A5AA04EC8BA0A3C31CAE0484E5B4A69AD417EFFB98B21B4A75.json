@@ -1,0 +1,58 @@
+{
+  "sha256": "00A9909A38A959A5AA04EC8BA0A3C31CAE0484E5B4A69AD417EFFB98B21B4A75",
+  "filename": "00A9909A38A959A5AA04EC8BA0A3C31CAE0484E5B4A69AD417EFFB98B21B4A75.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "br.com.wiki4fit.vectorfitness",
+  "version_name": "12.01.00",
+  "version_code": "120100",
+  "min_sdk": "24",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "br.com.wiki4fit.vectorfitness.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "br.com.wiki4fit.vectorfitness.MainActivity",
+    "com.pairip.licensecheck.LicenseActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+    "androidx.startup.InitializationProvider",
+    "expo.modules.sharing.SharingFileProvider",
+    "com.pairip.licensecheck.LicenseContentProvider",
+    "expo.modules.filesystem.FileSystemFileProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 4,
+  "class_count": 18613,
+  "method_count": 124636,
+  "cert_fingerprint": "F9 D0 70 25 70 0F 11 D8 FE BD D5 85 3B 28 41 1D 5D 02 E1 2D 5F FD 64 53 DE 7A F2 AD 81 7F FA A9",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

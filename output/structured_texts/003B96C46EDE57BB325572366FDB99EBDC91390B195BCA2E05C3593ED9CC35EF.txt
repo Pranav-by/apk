@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.migym.com.LeoFit
+  SHA-256       : 003B96C46EDE57BB325572366FDB99EBDC91390B195BCA2E05C3593ED9CC35EF
+  Android Group : Android12
+  Version       : 110.5.13 (code: 338)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (17)]
+  ANDROID.PERMISSION.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.ACCESS_LOCATION_EXTRA_COMMANDS, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_INTERNAL_STORAGE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.BROADCAST_STICKY, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (47): com.bottegasol.com.android.migym.features.home.activities.HomeActivity, com.bottegasol.com.android.migym.features.notification.activities.NotificationsActivity, com.bottegasol.com.android.migym.features.feedback.activities.FeedbackActivity, com.bottegasol.com.android.migym.features.trp.login.activities.MemberShipAccountDetailsActivity, com.bottegasol.com.android.migym.features.schedules.activities.SchedulesActivity, com.bottegasol.com.android.migym.features.newsandinfo.activities.NewsDetailActivity, com.bottegasol.com.android.migym.features.schedules.activities.ReservationBaseActivity, com.bottegasol.com.android.migym.features.barcode.activities.LoginEnabledBarcodeActivity, com.bottegasol.com.android.migym.features.settings.activities.PrivacyPolicyActivity, com.bottegasol.com.android.migym.util.customchrometabs.main.CustomChromeTabsFallbackActivity, com.bottegasol.com.android.migym.features.youtube.activities.YoutubeActivity, com.bottegasol.com.android.migym.features.contactus.activities.ContactUsActivity, com.bottegasol.com.android.migym.features.locations.activities.LocationActivity, com.bottegasol.com.android.migym.features.favorites.activities.FavoritesEventListActivity, com.bottegasol.com.android.migym.features.newsandinfo.activities.NewsActivity, com.bottegasol.com.android.migym.features.articles.activities.ArticlesActivity, com.bottegasol.com.android.migym.features.articles.activities.ArticlesDetailActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.bottegasol.com.android.migym.features.splashscreen.activities.SplashScreenActivity, com.bottegasol.com.android.migym.features.chainsearch.activities.DevelopmentSetting
+  Services   (11): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.room.MultiInstanceInvalidationService, com.twitter.sdk.android.tweetcomposer.TweetUploadService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.bottegasol.com.android.migym.util.amazonaws.mobile.PushListenerService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.flurry.android.agent.FlurryContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11867
+  Total Methods : 71717
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developers.facebook.com/docs/sharing/android, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Sujan Kanna, Organizational Unit: Solstice Consulting, Organization: Solstice Consulting, Locality: Chicago, State/Province: Illinois, Country: US
+  Fingerprint : E2 97 7D 01 8C 4D 96 E7 E6 5C 79 8F 55 EC E3 5B 19 6A E4 CC A9 68 36 D5 7A F5 8D 4D 43 EF DC E2
+
+==========================================

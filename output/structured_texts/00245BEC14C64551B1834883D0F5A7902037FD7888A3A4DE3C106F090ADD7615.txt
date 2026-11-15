@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.unlimited.hotspot.vpnbrazil.secure.proxy
+  SHA-256       : 00245BEC14C64551B1834883D0F5A7902037FD7888A3A4DE3C106F090ADD7615
+  Android Group : Android13
+  Version       : 2.8.0.9 (code: 2809)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (8)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (14): com.facebook.ads.AudienceNetworkActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, de.blinkt.openvpn.DisconnectVPNActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.ads.AdActivity, com.unlimited.hotspot.vpnbrazil.secure.proxy.MainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (13): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, de.blinkt.openvpn.core.OpenVPNService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (7): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.pichillilorenzo.flutter_inappwebview.InAppWebViewFileProvider, androidx.core.content.FileProvider, io.flutter.plugins.share.ShareFileProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 11366
+  Total Methods : 55749
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://github.com/pichillilorenzo/flutter_inappwebview#important-note-for-android, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://developer.android.com/guide/topics/permissions/overview, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(7): 6.8.0.0, 8.8.8.8, 127.0.0.1, 255.255.255.255, 224.0.0.0, 2.0.76.4, 8.8.4.4
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 20 F8 50 B5 EA 0E 77 D0 95 3D BE F7 B4 22 4F 8B C6 C3 F9 E7 5E 96 C7 4C D0 07 0E D3 16 B8 1E B8
+
+==========================================

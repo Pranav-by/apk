@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.EruptionGame.BridgeMonsterRace
+  SHA-256       : 007440679DB07F9195FAEB285FBB3FC2C46F5ADB79DE281EF650100D7D9D70AA
+  Android Group : Android13
+  Version       : 0.0.2 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (6)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.VIBRATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (3): com.unity3d.player.UnityPlayerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.yandex.mobile.ads.common.AdActivity
+  Services   (3): com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService
+  Receivers  (0): none
+  Providers  (2): com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.yandex.metrica.PreloadInfoContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12772
+  Total Methods : 67565
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://yandex.com/dev/appmetrica/doc/mobile-sdk-dg/concepts/android-initialize.html
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 94 96 88 FC E2 3C FA CB 09 EE 17 D0 F1 59 E6 A1 D4 BE 27 B5 5C EE 67 94 C9 BF EB 50 F0 D4 31 FF
+
+==========================================

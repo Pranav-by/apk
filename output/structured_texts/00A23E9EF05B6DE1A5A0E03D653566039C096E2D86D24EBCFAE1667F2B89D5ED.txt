@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : nl.nos.jeugdjournaal
+  SHA-256       : 00A23E9EF05B6DE1A5A0E03D653566039C096E2D86D24EBCFAE1667F2B89D5ED
+  Android Group : Android16
+  Version       : 20260521.9762 (code: 9762)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 36
+
+[Permissions (8)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, nl.nos.jeugdjournaal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (3): nl.nos.jeugdjournaal.MainActivity, androidx.compose.ui.tooling.PreviewActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (8): androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, nl.nos.jeugdjournaal.push.messaging.Service, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (7): androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, nl.nos.jeugdjournaal.AppUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10135
+  Total Methods : 45951
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://goo.gle/compose-feedback, https://static.nos.nl/img/jeugd/avondjournaal/1920x1080a.jpg), https://jeugdjournaal.nl/uitzending/, https://jeugdjournaal.nl/artikel/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Matthijs IJkema, Organizational Unit: Digitale Media, Organization: NOS, Locality: Hilversum, State/Province: Noord-Holland, Country: NL
+  Fingerprint : A8 E9 B0 88 9F 28 20 00 6C C1 C2 0C 39 A5 7D 13 3F 2F 6E C3 CD 3F 19 AF AD 0B A4 87 53 D0 CE 7C
+
+==========================================

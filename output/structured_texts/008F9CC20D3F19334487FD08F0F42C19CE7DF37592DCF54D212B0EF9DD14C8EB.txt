@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.reachplc.ayrshirelive
+  SHA-256       : 008F9CC20D3F19334487FD08F0F42C19CE7DF37592DCF54D212B0EF9DD14C8EB
+  Android Group : Android12
+  Version       : 6.4.0 (code: 322)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_CREDENTIALS, android.permission.GET_ACCOUNTS, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.MANAGE_ACCOUNTS, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE, com.reachplc.ayrshirelive.permission.C2D_MESSAGE
+
+[Application Components]
+  Activities (60): com.reachplc.auth.email.RegisterEmailActivity, com.reachplc.tutorial.ui.TutorialActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.reachplc.gallery.detail.PhotoDetailActivity, com.reachplc.podcast.ui.player.fullscreen.PodcastPlayerActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.tagmanager.TagManagerPreviewActivity, com.reachplc.discover.followed_content.FollowedContentActivity, com.google.android.gms.common.api.GoogleApiActivity, com.mirror.news.ui.topic.main.activity.MainMirrorActivity, com.reachplc.social.view.twitter.PlayerActivity, com.urbanairship.actions.WalletLoadingActivity, com.reachplc.auth.email.LoginEmailActivity, tv.teads.sdk.utils.browser.BrowserActivity, androidx.core.splashscreen.test.SplashScreenAppCompatTestActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.reachplc.sharedtest.util.EmptyActivity, com.taboola.android.global_components.fsd.FSDActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+  Services   (22): com.google.android.gms.cast.framework.ReconnectionService, com.urbanairship.push.fcm.AirshipFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.tagmanager.TagManagerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.reachplc.podcast.service.PodcastsService, com.chartbeat.androidsdk.ChartbeatService
+  Receivers  (20): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.urbanairship.push.NotificationProxyReceiver, com.urbanairship.locale.LocaleChangeReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.taboola.android.global_components.fsd.FSDReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.reachplc.news.data.util.AppLaunchReceiver, androidx.media.session.MediaButtonReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver
+  Providers  (7): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.taboola.android.TBLContextProvider, com.facebook.internal.FacebookInitProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.urbanairship.UrbanAirshipProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 38036
+  Total Methods : 229775
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): http://www.ngs.ac.uk/tools/jcepolicyfiles, https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Guy Marks, Organizational Unit: Development, Organization: TMG, Locality: London, State/Province: London, Country: UK
+  Fingerprint : 1B 33 0A 7C 31 6D D6 87 43 AE E2 ED 3B E3 CE 50 1F CC 75 A5 EC A0 AF 67 19 3F E3 7D 43 88 48 32
+
+==========================================

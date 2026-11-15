@@ -1,0 +1,49 @@
+{
+  "sha256": "00A06F2E5EFBB15F3B3089F99AB15445E660EEBBBAEDA925DB8D440FF2635E81",
+  "filename": "00A06F2E5EFBB15F3B3089F99AB15445E660EEBBBAEDA925DB8D440FF2635E81.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "pl.micromax.te616_android",
+  "version_name": "1.4",
+  "version_code": "5",
+  "min_sdk": "22",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.BLUETOOTH_SCAN",
+    "android.permission.BLUETOOTH_ADMIN"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "pl.micromax.te616_android.ui.MainActivity",
+    "pl.micromax.te616_android.ui.PeripheralControlActivity"
+  ],
+  "activity_count": 2,
+  "services": [
+    "pl.micromax.te616_android.bluetooth.BleAdapterService"
+  ],
+  "service_count": 1,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 2084,
+  "method_count": 17248,
+  "cert_fingerprint": "6C CD A7 48 65 BA 76 F3 9E D7 E8 56 F8 01 38 86 09 41 2F 11 C5 AC 63 4B 35 23 0E CA 48 A8 1E FA",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

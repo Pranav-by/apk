@@ -1,0 +1,51 @@
+{
+  "sha256": "00BB735A383085BC259893C78DAE5BB8BA7BC8E0ECCD1C5D7A5CF306B4B14E7B",
+  "filename": "00BB735A383085BC259893C78DAE5BB8BA7BC8E0ECCD1C5D7A5CF306B4B14E7B.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.as.urllogger",
+  "version_name": "18",
+  "version_code": "18",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+  ],
+  "permission_count": 1,
+  "activities": [
+    "apk.urllogger.AccessibilityActivity",
+    "apk.urllogger.MainActivity"
+  ],
+  "activity_count": 2,
+  "services": [
+    "apk.urllogger.AccSvc"
+  ],
+  "service_count": 1,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 805,
+  "method_count": 4644,
+  "cert_fingerprint": "74 A5 50 56 8B 5A 93 8F 4B 5A 1A 82 4D AB 9D 51 C9 EC D7 C8 8A 95 71 76 B0 C3 E5 A8 72 EB 2F B0",
+  "cert_issuer": "Country: US",
+  "urls": [
+    "http://schemas.android.com/apk/res/android",
+    "https://www.google.com/search?q="
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

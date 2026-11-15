@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : usa.newspapers
+  SHA-256       : 00220427B4857AA33EA8286CECFA933ED92705396D69ADB3006A63D2D4AD2AE7
+  Android Group : Android12
+  Version       : 9.8 (code: 9)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): usa.newspapers.t_qr, com.facebook.ads.AudienceNetworkActivity, usa.newspapers.ExpandedControlsActivity, usa.newspapers.contactar, com.adcolony.sdk.AdColonyInterstitialActivity, usa.newspapers.t_vistafb, usa.newspapers.chat, com.unity3d.services.ads.adunit.AdUnitActivity, usa.newspapers.cats, usa.newspapers.t_card, usa.newspapers.t_buscador_form, usa.newspapers.t_url, usa.newspapers.t_buscador, usa.newspapers.t_gal, usa.newspapers.t_gal_foto, usa.newspapers.t_html, usa.newspapers.t_menu, com.appnext.core.result.ResultPageActivity, usa.newspapers.t_detalle, usa.newspapers.profile
+  Services   (28): com.google.android.gms.cast.framework.media.MediaNotificationService, usa.newspapers.s_widget_vistafb, usa.newspapers.s_cargar_icos, usa.newspapers.s_cargar_sliderheader, usa.newspapers.s_cargar_fondo, usa.newspapers.s_cargar_icos_gen, usa.newspapers.s_guardarperfil, usa.newspapers.s_mediaplayer_exo, usa.newspapers.RegistrationIntentService, usa.newspapers.MyFcmListenerService, usa.newspapers.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService
+  Receivers  (15): usa.newspapers.alarma_rss, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (10): usa.newspapers.MySuggestionProvider, com.facebook.internal.FacebookInitProvider, usa.newspapers.StickerContentProvider, usa.newspapers.bd_provider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22370
+  Total Methods : 123866
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(1): 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Team Nahid, Organizational Unit: Unknow, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: BD
+  Fingerprint : 94 17 6E CF 4A 3E 36 A5 AE 46 42 39 56 C4 94 4F B6 B2 FA 6D 72 79 98 D7 0D 46 1C CA 5C 4B 3A 56
+
+==========================================

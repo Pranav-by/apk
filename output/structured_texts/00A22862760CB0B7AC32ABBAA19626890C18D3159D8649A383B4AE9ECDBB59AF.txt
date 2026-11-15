@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ttcoin.trees
+  SHA-256       : 00A22862760CB0B7AC32ABBAA19626890C18D3159D8649A383B4AE9ECDBB59AF
+  Android Group : Android15
+  Version       : 5.4 (code: 46)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (37)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, com.ttcoin.trees.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.ttcoin.trees.permission.C2D_MESSAGE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+
+[Application Components]
+  Activities (83): com.ttcoin.trees.activities.BuySubscriptionsActivity, com.ttcoin.trees.activities.MarketActivity, com.ttcoin.trees.activities.ForestKingdomActivity, sg.bigo.ads.api.LandscapeCompanionAdActivity, sg.bigo.ads.core.mraid.MraidVideoActivity, sg.bigo.ads.api.LandscapeAdActivity, sg.bigo.ads.api.CompanionAdActivity, com.ttcoin.trees.activities.TransactionsActivity, sg.bigo.ads.api.PopupAdActivity, com.ttcoin.trees.activities.FarmActivity, sg.bigo.ads.api.LandingStyleableActivity, sg.bigo.ads.controller.form.AdFormActivity, sg.bigo.ads.api.AdActivity, sg.bigo.ads.ad.splash.AdSplashActivity, sg.bigo.ads.ad.splash.LandscapeAdSplashActivity, com.ironsource.sdk.controller.InterstitialActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.ironsource.sdk.controller.ControllerActivity, com.google.android.gms.ads.AdActivity
+  Services   (20): io.appmetrica.analytics.internal.AppMetricaService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.ttcoin.trees.notify.MyFirebaseMessaging, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (23): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.ttcoin.trees.util.TimeReceiver, com.ttcoin.trees.util.FarmReminder, com.ttcoin.trees.util.ClearForestReminder, com.ttcoin.trees.util.StakeReminder, com.ttcoin.trees.util.CardGameReminder, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (12): com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.applovin.sdk.AppLovinInitProvider, com.squareup.picasso.PicassoProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 58981
+  Total Methods : 348845
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://dash.applovin.com/o/account?r=2#app_ads_txt
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 80 A0 1E D3 E8 8F 5D 99 ED 50 91 A4 A5 73 B6 16 49 A8 8D 25 61 0C 41 AD C0 6D D0 0E C6 34 F9 0E
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.rjiang.jzldds
+  SHA-256       : 00100CC408EB77C596F2120027172E1C1256C5BAA757FDF8A441F1D6DDFD2B63
+  Android Group : Android12L
+  Version       : 3.8.5 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (31)]
+  android.permission.MOUNT_UNMOUNT_FILESYSTEMS, com.rjiang.jzldds.andpermission.bridge, android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WRITE_CALL_LOG, android.permission.GET_TASKS, android.permission.CHANGE_WIFI_STATE, android.permission.DISABLE_KEYGUARD, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.QUERY_ALL_PACKAGES, com.rjiang.jzldds.openadsdk.permission.TT_PANGOLIN, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+
+[Application Components]
+  Activities (61): com.jt.fakeincomingcall.ui.activity.call.HuaweiCallActivity, com.jt.fakeincomingcall.ui.activity.QuickStartActivity, com.jt.fakeincomingcall.ui.activity.call.XiaomiCallActivity, com.yanzhenjie.permission.bridge.BridgeActivity, com.alipay.sdk.app.AlipayResultActivity, com.jt.fakeincomingcall.ui.activity.AddCallLogActivity, com.jt.fakeincomingcall.ui.activity.call.VivoCallActivity, com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity_T, com.alipay.sdk.app.PayResultActivity, com.jt.fakeincomingcall.ui.activity.CallSkinActivity, com.jt.fakeincomingcall.ui.activity.call.OppoCallActivity, com.alipay.sdk.app.H5OpenAuthActivity, com.jt.fakeincomingcall.ui.activity.StartActivity, com.yalantis.ucrop.UCropActivity, com.alipay.sdk.app.APayEntranceActivity, com.jt.fakeincomingcall.ui.activity.CreateLogActivity, com.rjiang.jzldds.wxapi.WXEntryActivity, com.jt.fakeincomingcall.ui.activity.GuideSetActivity, com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity, com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity
+  Services   (20): com.gyf.cactus.service.RemoteService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.camera.core.impl.MetadataHolderService, androidx.room.MultiInstanceInvalidationService, com.yanzhenjie.permission.bridge.BridgeService, com.jt.fakeincomingcall.mms.SmsService, com.zlw.main.recorderlib.recorder.RecordService, com.ss.android.socialbase.appdownloader.DownloadHandlerService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.ss.android.socialbase.downloader.downloader.DownloadService, com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService, com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.luck.picture.lib.service.ForegroundService, com.gyf.cactus.service.CactusJobService, com.gyf.cactus.service.HideForegroundService, com.gyf.cactus.service.LocalService
+  Receivers  (12): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.ss.android.downloadlib.core.download.DownloadReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.jt.fakeincomingcall.mms.SmsReceiver, com.jt.fakeincomingcall.mms.MmsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.jt.fakeincomingcall.FakeIncomingCallReceive, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (10): androidx.startup.InitializationProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.bytedance.pangle.servermanager.MainServerManager, com.bytedance.pangle.provider.MainProcessProviderProxy, com.luck.picture.lib.basic.PictureFileProvider, com.yanzhenjie.permission.FileProvider, com.just.agentweb.AgentWebFileProvider, com.download.library.DownloadFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8
+  Total Methods : 117
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: rongjiang, Organizational Unit: jituo, Organization: shibu, Locality: HuNan, State/Province: ChangSha, Country: cn
+  Fingerprint : 65 0C A8 5E AB 2B E8 48 1F 63 DD 97 24 80 79 94 CE EC 8F 6B C4 A5 75 E7 C7 BC 80 5E CC 2C 8B 95
+
+==========================================

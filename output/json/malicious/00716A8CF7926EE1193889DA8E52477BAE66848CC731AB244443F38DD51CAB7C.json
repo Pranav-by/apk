@@ -1,0 +1,78 @@
+{
+  "sha256": "00716A8CF7926EE1193889DA8E52477BAE66848CC731AB244443F38DD51CAB7C",
+  "filename": "00716A8CF7926EE1193889DA8E52477BAE66848CC731AB244443F38DD51CAB7C.apk",
+  "android_version": "Android15",
+  "label": "malicious",
+  "package_name": "com.csheryi.xzapp",
+  "version_name": "1.0.0",
+  "version_code": "100",
+  "min_sdk": "21",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_MEDIA_VIDEO",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.huawei.android.launcher.permission.CHANGE_BADGE",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.FLASHLIGHT",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.vivo.notification.permission.BADGE_ICON",
+    "com.asus.msa.SupplementaryDID.ACCESS",
+    "android.permission.CAMERA",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+    "android.permission.INSTALL_PACKAGES",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 17,
+  "activities": [
+    "io.dcloud.WebAppActivity",
+    "io.dcloud.feature.gallery.imageedit.IMGEditActivity",
+    "io.dcloud.ProcessMediator",
+    "io.dcloud.feature.nativeObj.photoview.PhotoActivity",
+    "com.dmcbig.mediapicker.PreviewActivity",
+    "com.dmcbig.mediapicker.PickerActivity",
+    "io.dcloud.sdk.activity.WebViewActivity",
+    "io.dcloud.PandoraEntry",
+    "io.dcloud.PandoraEntryActivity",
+    "io.dcloud.WebviewActivity"
+  ],
+  "activity_count": 10,
+  "services": [
+    "io.dcloud.sdk.base.service.DownloadService"
+  ],
+  "service_count": 1,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "io.dcloud.common.util.DCloud_FileProvider",
+    "io.dcloud.sdk.base.service.provider.DCloudAdFileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5702,
+  "method_count": 42568,
+  "cert_fingerprint": "F8 73 F4 9C 32 50 C2 59 98 7D 39 2E A1 5A AE DF 4D 94 96 ED A0 FA 88 47 6E EC A8 51 10 A5 3A 6D",
+  "cert_issuer": "Common Name: yourcomname, Organizational Unit: IT, Organization: yourcomname, Country: CN",
+  "urls": [
+    "https://ask.dcloud.net.cn/article/35058",
+    "https://ask.dcloud.net.cn/article/282"
+  ],
+  "ip_addresses": [
+    "1.0.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

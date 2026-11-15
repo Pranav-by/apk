@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.innosoftfusiongo.stonybrookuniversity
+  SHA-256       : 00A4823A03AFB66683DFDA5183DB46887BCC895A822BC07ECDFD5257BDB4D03D
+  Android Group : Android15
+  Version       : 9.0.0 (code: 9)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (10)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.POST_NOTIFICATIONS, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.READ_CALENDAR, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.innosoftfusiongo.stonybrookuniversity.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (3): io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.innosoftfusiongo.stonybrookuniversity.MainActivity
+  Services   (7): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (5): com.google.firebase.iid.FirebaseInstanceIdReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+  Providers  (4): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4778
+  Total Methods : 23467
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://issuetracker.google.com/issues/241760537, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Stuart Irvine
+  Fingerprint : D3 8B 1B 7B EE BC 9B EF DD D1 79 43 57 29 6A F3 AE D3 C3 C5 6A 27 47 4A 61 D5 CA 5E 82 1F AE 6A
+
+==========================================

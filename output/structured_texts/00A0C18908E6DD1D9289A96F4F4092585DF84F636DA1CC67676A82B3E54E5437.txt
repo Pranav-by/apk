@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : flutter.urbansewa.driver
+  SHA-256       : 00A0C18908E6DD1D9289A96F4F4092585DF84F636DA1CC67676A82B3E54E5437
+  Android Group : Android12L
+  Version       : 1.0.4 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (19)]
+  android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.VIBRATE, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.USE_FULL_SCREEN_INTENT, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NOTIFICATION_POLICY
+
+[Application Components]
+  Activities (10): com.facebook.FacebookActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.fox.jek.foxjek_driver_2022.MainActivity, com.facebook.CustomTabActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.yalantis.ucrop.UCropActivity, com.facebook.CustomTabMainActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (12): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, yukams.app.background_locator_2.IsolateHolderService, com.lyokone.location.FlutterLocationService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.firebase.components.ComponentDiscoveryService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+  Receivers  (8): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, yukams.app.background_locator_2.BootBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (4): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8905
+  Total Methods : 52482
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gl/J1sWQy, https://firebase.google.com/support/guides/disable-analytics, https://github.com/firebase/firebase-android-sdk, https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 85 E4 8F CC E8 15 D8 0E 27 18 6A 12 B1 7F 07 A6 EF B8 FD 78 DD 13 95 F5 8F E1 46 E8 54 0E 21 E8
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : works.jubilee.timetree
+  SHA-256       : 00A51320C80BCE86795D0E1B1346FB2E13AC03DA8A457A17FFBC6DEF503985CC
+  Android Group : Android13
+  Version       : 12.2.1 (code: 521)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (26)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_FINE_LOCATION, works.jubilee.timetree.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (118): works.jubilee.timetree.ui.intro.IntroActivity, works.jubilee.timetree.ui.accountprofileedit.AccountProfileEditActivity, works.jubilee.timetree.ui.eventedit.EditEventActivity, works.jubilee.timetree.ui.searchevent.SearchEventActivity, works.jubilee.timetree.ui.searchmonthly.SearchMonthlyActivity, works.jubilee.timetree.ui.globalmenu.PublicCalendarWarningActivity, works.jubilee.timetree.ui.publiceventdetail.PublicEventActivity, works.jubilee.timetree.ui.publiccalendarcreate.PublicCalendarCreateActivity, works.jubilee.timetree.ui.publiceventdetail.PublicEventDetailActivity, works.jubilee.timetree.ui.publiccalendaraliascode.PublicCalendarAliasCodeValidationActivity, works.jubilee.timetree.ui.publiceventcreate.PublicEventCreateActivity, works.jubilee.timetree.ui.globalsetting.GlobalSettingActivity, works.jubilee.timetree.ui.publiceventoverviewedit.PublicEventOverviewEditActivity, works.jubilee.timetree.ui.common.WebViewActivity, works.jubilee.timetree.ui.imageselect.ImageMultipleSelectActivity, works.jubilee.timetree.ui.calendarlabeledit.LabelEditActivity, works.jubilee.timetree.ui.publiceventcreate.PublicEventPresetImageSelectActivity, works.jubilee.timetree.ui.globalsetting.InquiryActivity, works.jubilee.timetree.ui.globalsetting.NoticeActivity, works.jubilee.timetree.ui.imagepreview.ImagePreviewActivity
+  Services   (22): androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, androidx.appcompat.app.AppLocalesMetadataHolderService, works.jubilee.timetree.application.appwidget.monthly.AppWidgetMonthlyEventViewsService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, works.jubilee.timetree.ui.appwidget.BlackEventViewsService, works.jubilee.timetree.ui.appwidget.WhiteEventViewsService, works.jubilee.timetree.application.push.FcmListenerService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.gcm.WorkManagerGcmService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (25): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, works.jubilee.timetree.application.alarm.AlarmReceiver, works.jubilee.timetree.application.alarm.LocalReminderReceiver, works.jubilee.timetree.application.push.ChatReplyBroadcastReceiver, works.jubilee.timetree.application.appwidget.monthly.AppWidgetMonthlyProvider, works.jubilee.timetree.application.AppWidgetBlackProvider, works.jubilee.timetree.application.AppWidgetWhiteProvider, works.jubilee.timetree.application.AppWidgetBlackEventOnlyProvider, zendesk.support.DeepLinkingBroadcastReceiver, works.jubilee.timetree.application.AppWidgetWhiteEventOnlyProvider, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (10): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.canhub.cropper.CropFileProvider, com.facebook.ads.AudienceNetworkContentProvider, zendesk.support.SupportSdkStartupProvider, zendesk.support.guide.GuideSdkStartupProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, zendesk.belvedere.BelvedereFileProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 65216
+  Total Methods : 403360
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: JUBILEE WORKS, Organizational Unit: JUBILEE WORKS, Organization: JUBILEE WORKS, Locality: Shibuya, State/Province: Tokyo, Country: JP
+  Fingerprint : 68 17 79 93 2E EB DD 0F 4B 69 0D B6 09 73 8E 6F 30 DB B4 4C FA BB 48 B8 2D 6F 08 62 FE E9 03 6B
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.path.bukoli.app
+  SHA-256       : 000A59D5A965992D3DD716E9C78A08152F0CE815E5428EF66D93A6BCCF23D3C6
+  Android Group : Android13
+  Version       : 1.0.56 (code: 107)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (30)]
+  com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, com.android.vending.CHECK_LICENSE, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (6): com.facebook.react.devsupport.DevSettingsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.userexperior.ui.UeConsentActivity, com.path.bukoli.SplashActivity, com.google.android.gms.common.api.GoogleApiActivity, com.path.bukoli.MainActivity
+  Services   (12): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.userexperior.services.JIUploadService, com.userexperior.services.recording.EventSession, com.google.firebase.components.ComponentDiscoveryService, com.userexperior.services.recording.ScreenShotService, com.google.android.gms.measurement.AppMeasurementService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+  Receivers  (4): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): com.userexperior.provider.UeContentProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.RNFetchBlob.Utils.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12426
+  Total Methods : 77221
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, http://www.w3.org/1999/02/22-rdf-syntax-ns#, https://raw.githubusercontent.com/drewnoakes/metadata-extractor-images/master/%s
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C1 92 AA EB C8 0E 0D 14 A7 15 B4 11 1C 7A AE 74 BD 9F 41 0D 56 92 46 2C 7F F4 05 5E 61 6F D3 39
+
+==========================================

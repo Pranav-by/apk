@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.foodbooking.oishisyracuse
+  SHA-256       : 00868877D582799242ECB65F4787BDBB4817D4A4BCCAA7A267B13088A7A632E2
+  Android Group : Android15
+  Version       : 3.1.16 (code: 10477)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (14)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, com.foodbooking.oishisyracuse.permission.C2D_MESSAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.CHANGE_CONFIGURATION, android.permission.INTERNET, android.permission.VIBRATE, android.permission.CALL_PHONE, android.permission.ACCESS_FINE_LOCATION, com.foodbooking.oishisyracuse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (11): com.foodbooking.oishisyracuse.page.LanguagesActivity, com.foodbooking.oishisyracuse.page.FavoriteActivity, com.foodbooking.oishisyracuse.page.FeedbackActivity, com.foodbooking.oishisyracuse.page.AboutActivity, com.google.android.gms.common.api.GoogleApiActivity, com.foodbooking.oishisyracuse.page.ScanActivity, com.foodbooking.oishisyracuse.page.EulaActivity, com.foodbooking.oishisyracuse.page.RestaurantListActivity, com.foodbooking.oishisyracuse.page.AddressMapActivity, com.foodbooking.oishisyracuse.page.profile.ProfileWebViewActivity, com.foodbooking.oishisyracuse.page.address.AddressWebViewActivity
+  Services   (6): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.foodbooking.oishisyracuse.services.CheckRestaurantsStatusService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 12649
+  Total Methods : 81528
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://help.branch.io/developers-hub/docs/android-basic-integration#:~:text=package%3D%22com.example.android%22, https://help.branch.io/developers-hub/docs/android-basic-integration#section-configure-app, https://firebase.google.com/support/guides/disable-analytics, https://help.branch.io/developers-hub/docs/android-basic-integration#4-configure-app:~:text=%3Cintent%2Dfilter%3E%0A%09%09%09%09%3C!%2D%2D%20If,/%3E%0A%09%09%09%3C/intent%2Dfilter%3E, https://help.branch.io/developers-hub/docs/android-basic-integration#4-configure-app:~:text=%3C!%2D%2D%20Branch%20App%20Links%20%2D%20Live,%3C/intent%2Dfilter%3E, https://help.branch.io/developers-hub/docs/android-basic-integration#1-configure-branch-dashboard:~:text=%22Android%20URI%20Scheme%22, https://help.branch.io/developers-hub/docs/android-basic-integration#:~:text=%3C!%2D%2D%20REPLACE%20%60BranchKey%60%20with,%22key_test_XXX%22%20/%3E, https://help.branch.io/developers-hub/docs/android-basic-integration#:~:text=%3C!%2D%2D%20Branch%20App%20Links%20%2D%20Live,%3C/intent%2Dfilter%3E, https://help.branch.io/developers-hub/docs/android-basic-integration#:~:text=The%20%2Dalternate.app.link%20domain%20associated%20with%20your%20app, https://help.branch.io/developers-hub/docs/android-basic-integration#:~:text=Branch.getAutoInstance(this)
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F8 6B 90 EE E7 A7 9F EE DF FE B7 57 F1 C9 A6 4E B6 DA 23 F7 91 A4 BF B4 FD AC 12 9B 81 57 C7 75
+
+==========================================

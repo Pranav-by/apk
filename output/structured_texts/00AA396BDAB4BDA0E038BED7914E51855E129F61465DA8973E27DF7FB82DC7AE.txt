@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.mysty.mellstroy
+  SHA-256       : 00AA396BDAB4BDA0E038BED7914E51855E129F61465DA8973E27DF7FB82DC7AE
+  Android Group : Android15
+  Version       : 1.4.1 (code: 17)
+
+[SDK Information]
+  Minimum SDK   : 15
+  Target SDK    : 35
+
+[Permissions (1)]
+  android.permission.INTERNET
+
+[Application Components]
+  Activities (5): com.ansca.corona.CameraActivity, com.ansca.corona.VideoActivity, com.ansca.corona.purchasing.StoreActivity, com.ansca.corona.notifications.OnNotificationReceiverActivity, com.ansca.corona.CoronaActivity
+  Services   (1): com.ansca.corona.CoronaService
+  Receivers  (3): com.ansca.corona.notifications.AlarmManagerBroadcastReceiver, com.ansca.corona.notifications.StatusBarBroadcastReceiver, com.ansca.corona.SystemStartupBroadcastReceiver
+  Providers  (2): com.ansca.corona.storage.FileContentProvider, com.ansca.corona.camera.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 677
+  Total Methods : 4170
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://github.com/coronalabs/corona
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Mysty, Organizational Unit: Mysty, Organization: Mysty, Locality: int 21h, State/Province: 8086 asm, Country: AA
+  Fingerprint : CC E2 D6 24 01 7E AC 18 93 C4 60 7F DC DC E1 EE 15 06 56 AE 13 A9 5A 0A 8F 8C 08 5B 06 F3 AE 9F
+
+==========================================

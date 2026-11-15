@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : mp3converter.videotomp3.ringtonemaker
+  SHA-256       : 00A4356EC9F378ECB9A322C10BC04F2EA9D2B3603B27B3F77746085E27AB688C
+  Android Group : Android13
+  Version       : 3.0.0.204 (code: 214)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (28)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, android.permission.MEDIA_CONTENT_CONTROL, android.permission.GET_TASKS, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (59): com.mp3convertor.recording.PlayingChangedVoice, mp3converter.videotomp3.ringtonemaker.Activity.SetRingtoneActivity, com.mp3convertor.recording.voiceChange.SelectFileForVoiceChangeActivity, mp3converter.videotomp3.ringtonemaker.ExoPlayerMainActivity, mp3converter.videotomp3.ringtonemaker.Activity.ActivityForVideoToAudio, mp3converter.videotomp3.ringtonemaker.Activity.ActivityForFormating, mp3converter.videotomp3.ringtonemaker.ViewPagerActivity, mp3converter.videotomp3.ringtonemaker.screenrecorder.PlayerScreen, mp3converter.videotomp3.ringtonemaker.Activity.AnimTestActivity, com.mp3convertor.recording.ActivityForRecordingTrim, com.mp3convertor.recording.ActivityForAudioFormat, mp3converter.videotomp3.ringtonemaker.Activity.RecorderActivity, com.mp3convertor.recording.voiceChange.ChangeMultipleVoiceScreenActivity, com.mp3convertor.recording.ActivityForPlaySong, mp3converter.videotomp3.ringtonemaker.ActivityFormatting, mp3converter.videotomp3.ringtonemaker.Activity.ActivityForMerging, com.mp3convertor.recording.voiceChange.BasicRecorderActivity, com.mp3convertor.recording.ActivityForPlayFormat, mp3converter.videotomp3.ringtonemaker.GameActivity, com.mp3convertor.recording.NewRecorderActivity
+  Services   (24): mp3converter.videotomp3.ringtonemaker.notification.NotificationService, mp3converter.videotomp3.ringtonemaker.screenrecorder.ScreenRecordService, mp3converter.videotomp3.ringtonemaker.BackgroundService, com.google.android.gms.ads.AdService, mp3converter.videotomp3.ringtonemaker.DownloadService, mp3converter.videotomp3.ringtonemaker.AudioRecordingService, androidx.work.impl.background.systemjob.SystemJobService, mp3converter.videotomp3.ringtonemaker.NotificationIntentService, com.mp3convertor.recording.Services.NotificationIntentServiceCancel, com.mp3convertor.recording.Services.AudioRecordingService, com.mp3convertor.recording.Services.RecordingBackgroundSevice, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.mp3convertor.recording.Services.BasicVoiceChangeRecordingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.room.MultiInstanceInvalidationService, com.rocks.addownplayer.RocksPlayerService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, mp3converter.videotomp3.ringtonemaker.screenrecorder.NotificationReceiver
+  Providers  (5): com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16653
+  Total Methods : 92902
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://exoplayer.dev/issues/cleartext-not-permitted
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 83 BB 42 00 7C 2D B1 EB 71 66 1A 17 FC 09 80 87 D0 10 CE 80 14 A4 12 BE 9C AF 70 14 C3 0A BA 9C
+
+==========================================

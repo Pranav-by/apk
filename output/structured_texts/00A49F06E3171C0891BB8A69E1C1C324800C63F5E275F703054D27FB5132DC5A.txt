@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.mts.twomem
+  SHA-256       : 00A49F06E3171C0891BB8A69E1C1C324800C63F5E275F703054D27FB5132DC5A
+  Android Group : Android12
+  Version       : 1.26 (code: 12600)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (23)]
+  android.permission.AUTHENTICATE_ACCOUNTS, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_CONTACTS, android.permission.USE_BIOMETRIC, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.USE_CREDENTIALS, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.MANAGE_ACCOUNTS, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (7): ru.mts.twomem.common.debug.DebugActivity, com.google.android.gms.tagmanager.TagManagerPreviewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, ru.mts.twomem.app.AppActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (21): androidx.work.impl.background.systemjob.SystemJobService, com.yandex.metrica.MetricaService, com.google.android.gms.tagmanager.TagManagerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.yandex.metrica.ConfigurationService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, ru.mts.twomem.common.fcm.PushService, com.google.android.gms.auth.api.signin.RevocationBoundService, ru.mts.twomem.features.download.MediaDownloadService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.yandex.metrica.ConfigurationJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, ru.mts.twomem.features.upload.UploadService, ru.mts.sso.authenticator.MtsAuthService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.ExtractionForegroundService
+  Receivers  (12): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.appsflyer.SingleInstallBroadcastReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16991
+  Total Methods : 79203
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): http://goo.gl/8Rd3yj, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://yandex.com/dev/appmetrica/doc/mobile-sdk-dg/concepts/android-initialize.html, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Alexandr Vetchinov, Organizational Unit: Stream, Organization: Stream, Locality: Moscow
+  Fingerprint : DF 5D 24 4B A2 D4 F6 A0 02 43 BF 2B A9 A7 1B 12 1B 4F DE 8B DB 8D 48 2B 65 B0 CB A9 8C 23 B2 1A
+
+==========================================

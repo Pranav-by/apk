@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.isharelife.medstream
+  SHA-256       : 00A54A205BA0CEF4E11BB8AD68045D023B15BE0218D7B970CEB1E23D0D40D0EA
+  Android Group : Android13
+  Version       : 3.14.0 (code: 300314001)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (24)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, com.isharelife.medstream.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.isharelife.medstream.permission.C2D_MESSAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (40): com.isharelife.MainActivity, io.intercom.android.sdk.push.IntercomPushTrampolineActivity, io.intercom.android.sdk.helpcenter.articles.ArticleActivity, androidx.compose.ui.tooling.PreviewActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, com.facebook.react.devsupport.DevSettingsActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, io.intercom.android.sdk.ui.preview.ui.IntercomPreviewActivity, io.intercom.android.sdk.m5.conversation.GalleryPreviewActivity, com.facebook.CustomTabActivity, io.intercom.android.sdk.post.PostActivityV2, com.facebook.FacebookActivity, com.google.android.gms.common.api.GoogleApiActivity, io.intercom.android.sdk.m5.IntercomRootActivity, com.google.android.gms.ads.AdActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, net.openid.appauth.RedirectUriReceiverActivity, com.masteratul.exceptionhandler.DefaultErrorScreen, io.intercom.android.sdk.activities.IntercomConversationActivity
+  Services   (15): com.webengage.sdk.android.NotificationClickHandlerService, com.webengage.sdk.android.WebEngageJobService, com.google.firebase.components.ComponentDiscoveryService, com.webengage.sdk.android.EventLogService, com.google.android.gms.cast.framework.ReconnectionService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.uxcam.service.HttpPostService, com.isharelife.MyFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.webengage.sdk.android.ExecutorService
+  Receivers  (11): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.media.session.MediaButtonReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.webengage.sdk.android.WebEngageReceiver, com.intercom.reactnative.RNIntercomPushBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (9): com.reactnativecommunity.webview.RNCWebViewFileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, androidx.core.content.FileProvider, com.ReactNativeBlobUtil.Utils.FileProvider, cl.json.RNShareFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 26556
+  Total Methods : 131427
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://goo.gle/compose-feedback, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 63 1E ED 13 2C 36 0C 36 74 B4 A4 32 81 BF FF 4F EB 69 B8 04 6C 6D 50 81 F8 04 40 46 0F 2C 37 E3
+
+==========================================

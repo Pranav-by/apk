@@ -1,0 +1,90 @@
+{
+  "sha256": "00A6D51F537024C85427F39A55E4F7C2F9B0AA2232D0D9FB1C20993600E687F4",
+  "filename": "00A6D51F537024C85427F39A55E4F7C2F9B0AA2232D0D9FB1C20993600E687F4.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.mifly.MakarViewerApp",
+  "version_name": "3.5.16",
+  "version_code": "3061",
+  "min_sdk": "24",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "com.mifly.MakarViewerApp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.mifly.MakarViewerApp.permission.C2D_MESSAGE",
+    "android.permission.CAMERA",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+  ],
+  "permission_count": 16,
+  "activities": [
+    "org.mifly.makar.unity.UnityARPlayerActivity",
+    "com.vuplex.webview.HelperActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.ar.core.InstallActivity",
+    "com.unity3d.player.UnityPlayerActivity",
+    "org.artoolkit.ar.base.camera.CameraPreferencesActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "com.google.firebase.messaging.cpp.RegistrationIntentService",
+    "com.google.android.gms.messaging.cpp.MessageForwardingService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.messaging.cpp.ListenerService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.messaging.MessageForwardingService",
+    "com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.firebase.components.ComponentDiscoveryService"
+  ],
+  "service_count": 12,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.unity.androidnotifications.UnityNotificationManager",
+    "com.unity.androidnotifications.UnityNotificationRestartReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 5,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11053,
+  "method_count": 73338,
+  "cert_fingerprint": "E6 F5 F0 65 9D 5E 5E 42 83 A9 C7 D4 B8 E9 60 E5 81 EF 7C F2 E9 11 D9 18 A6 21 BC 0C F3 D2 27 1C",
+  "cert_issuer": "Common Name: MiflyDesign, Organizational Unit: Mifly, Organization: Mifly, Locality: Taipei, State/Province: Taiwan, Country: 886",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "127.0.0.1",
+    "0.0.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

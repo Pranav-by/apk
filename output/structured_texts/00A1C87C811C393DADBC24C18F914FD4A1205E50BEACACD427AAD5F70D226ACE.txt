@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.powermobile.hello
+  SHA-256       : 00A1C87C811C393DADBC24C18F914FD4A1205E50BEACACD427AAD5F70D226ACE
+  Android Group : Android12L
+  Version       : 2.0.6 (code: 1300197)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (31)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, com.powermobile.hello.permission.PushHandlerActivity, com.htc.launcher.permission.READ_SETTINGS
+
+[Application Components]
+  Activities (8): com.journeyapps.barcodescanner.CaptureActivity, com.adobe.phonegap.push.BackgroundHandlerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.adobe.phonegap.push.PushHandlerActivity, com.powermobile.hello.MainActivity, com.sip.linphone.LinphoneMiniActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (8): com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, de.appplant.cordova.plugin.background.ForegroundService, com.adobe.phonegap.push.FCMService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (5): nl.xservices.plugins.ShareChooserPendingIntent, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.adobe.phonegap.push.BackgroundActionButtonHandler, com.adobe.phonegap.push.PushDismissedHandler
+  Providers  (4): org.apache.cordova.camera.FileProvider, androidx.startup.InitializationProvider, nl.xservices.plugins.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6402
+  Total Methods : 45082
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Chuharev Vasiliy, Organization: POWERNET
+  Fingerprint : A2 18 02 30 F6 78 5B 29 99 AA CF 76 C1 1B 53 DB 0C 11 57 A9 DE 3C A2 60 BB 3D 54 A6 CB 2F 0B D9
+
+==========================================

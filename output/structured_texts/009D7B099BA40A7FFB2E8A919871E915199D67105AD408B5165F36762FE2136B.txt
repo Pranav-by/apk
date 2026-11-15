@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.censusfcu.mobile
+  SHA-256       : 009D7B099BA40A7FFB2E8A919871E915199D67105AD408B5165F36762FE2136B
+  Android Group : Android12L
+  Version       : 22.2.40 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 32
+
+[Permissions (22)]
+  android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.censusfcu.mobile.permission.CPPS, com.censusfcu.mobile.permission.C2D_MESSAGE, android.permission.ACCESS_WIFI_STATE, com.censusfcu.mobile.deveventspermission, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, android.permission.HIGH_SAMPLING_RATE_SENSORS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.fiserv.touchbanking.permission.BROADCAST, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_LOCATION_EXTRA_COMMANDS, android.permission.FLASHLIGHT
+
+[Application Components]
+  Activities (47): nz.co.mcom.phone.shared.components.ViewCheckActivity, nz.co.mcom.phone.deposit.remotedepositcheck.NewDepositResultActivity, nz.co.mcom.phone.shared.components.challenge.SharedMfaActivity, nz.co.mcom.phone.shared.components.stepup.SharedStepUpAuthenticationActivity, nz.co.mcom.phone.deposit.remotedepositcheck.DepositHistoryActivity, nz.co.mcom.phone.deposit.remotedepositcheck.DepositDetailsActivity, nz.co.mcom.phone.deposit.remotedepositcheck.DepositLimitsErrorActivity, nz.co.mcom.phone.services.ManageFIActivity, nz.co.mcom.phone.services.AffiliationDisclosureActivity, nz.co.mcom.phone.fingerprint.FingerprintSettingsActivity, com.miteksystems.misnap.cardio.CardIoWrapperActivity, nz.co.mcom.phone.location.LocationActivity, com.google.android.gms.common.api.GoogleApiActivity, nz.co.mcom.phone.deposit.remotedepositcheck.NewDepositImmediateFundActivity, nz.co.mcom.phone.instantbalance.InstantBalanceActivity, hcd948c2c.ja3e7fb87.z66a4c794.q8c0eafde, nz.co.mcom.phone.deposit.remotedepositcheck.NewDepositActivity, androidx.biometric.DeviceCredentialHandlerActivity, nz.co.mcom.phone.paymentsplugin.PaymentsPluginContainerActivity, com.topimagesystems.controllers.imageanalyze.CameraManagerController
+  Services   (12): com.fiserv.notifi.services.NotifiFcmListenerService, zed002da2.h34ed33ce.p50d97603.ra4779b78.r8e920c65, runtime.initdevice.AssertZygote, zed002da2.h34ed33ce.p50d97603.ra4779b78.a1d9ac2d2, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, runtime.initdevice.Assert, com.google.firebase.iid.FirebaseInstanceIdService, com.fiserv.coremodule.common.BackgroundTimeoutService, com.fiserv.coremodule.common.BackgroundExitAppTimeoutService
+  Receivers  (2): com.fiserv.notifi.DismissNotificationReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 25886
+  Total Methods : 139613
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Fiserv Solutions, Inc.; Organizational Unit: Fiserv Solutions, Inc.; Organization: Fiserv Solutions, Inc.; Locality: Norcross; State/Province: GA; Country: US
+  Fingerprint : 45 42 F0 9A 49 2C 34 E4 1A 90 2B 15 61 C8 DD F5 4D 74 52 64 53 24 BB 00 74 37 2F 08 03 39 F2 24
+
+==========================================

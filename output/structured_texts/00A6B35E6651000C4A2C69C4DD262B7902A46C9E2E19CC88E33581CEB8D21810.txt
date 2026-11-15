@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.infinity.crm
+  SHA-256       : 00A6B35E6651000C4A2C69C4DD262B7902A46C9E2E19CC88E33581CEB8D21810
+  Android Group : Android14
+  Version       : 2.0.8 (code: 15)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 34
+
+[Permissions (37)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_CONTACTS, android.permission.READ_APP_BADGE
+
+[Application Components]
+  Activities (7): com.onesignal.NotificationOpenedActivityHMS, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedReceiver, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.example.ifa_crm_client_flutter_app.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (13): androidx.room.MultiInstanceInvalidationService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.FCMIntentService, com.onesignal.HmsMessageServiceOneSignal, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.FCMIntentJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.UpgradeReceiver, com.onesignal.BootUpReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (6): io.flutter.plugins.imagepicker.ImagePickerFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.joutvhu.openfile.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5986
+  Total Methods : 33134
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://developer.android.com/guide/topics/permissions/overview, https://github.com/bluefireteam/audioplayers/blob/main/troubleshooting.md
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: INFINITY FINANCIAL ADVISORY PTE. LTD., Organization: INFINITY FINANCIAL ADVISORY PTE. LTD., Country: Singapore (SG)
+  Fingerprint : 35 E2 21 96 15 48 BB 7B 01 8C 16 DA D2 7D 57 F8 39 0E 04 6C 41 70 80 FF 8B BB 6E A8 CB FD EB FC
+
+==========================================

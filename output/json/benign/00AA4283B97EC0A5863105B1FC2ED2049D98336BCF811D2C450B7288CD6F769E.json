@@ -1,0 +1,49 @@
+{
+  "sha256": "00AA4283B97EC0A5863105B1FC2ED2049D98336BCF811D2C450B7288CD6F769E",
+  "filename": "00AA4283B97EC0A5863105B1FC2ED2049D98336BCF811D2C450B7288CD6F769E.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.poran_shrem",
+  "version_name": "1.47",
+  "version_code": "47",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.poran_shrem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "com.poran_shrem.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14865,
+  "method_count": 107479,
+  "cert_fingerprint": "4F 1D 91 93 62 D4 E5 9D 1B 23 65 58 AE 47 E2 B9 A1 2A 90 07 BC 6F 4B 49 DA 10 98 65 A1 51 40 CE",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mobilebuilder.bartiebeauty
+  SHA-256       : 00A2AC15F3F8A50BCCADBE9AAD16185969D242A79E759220043693C1FDDC95DB
+  Android Group : Android14
+  Version       : 1.4.0 (code: 140)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (7)]
+  com.mobilebuilder.bartiebeauty.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (3): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.mobilebuilder.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (7): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 10415
+  Total Methods : 65573
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F0 8F 20 9E 64 CA 68 6B 2D 4C 6D 1E 6B 70 D2 E1 FE E2 A0 AF CE B4 35 FB 87 B0 13 DD 0D 76 B0 55
+
+==========================================

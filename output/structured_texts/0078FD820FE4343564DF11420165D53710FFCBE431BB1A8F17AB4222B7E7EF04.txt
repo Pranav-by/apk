@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ltech.smarthome
+  SHA-256       : 0078FD820FE4343564DF11420165D53710FFCBE431BB1A8F17AB4222B7E7EF04
+  Android Group : Android12
+  Version       : 2.1.1 (code: 211)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (43)]
+  com.ltech.smarthome.permission.C2D_MESSAGE, android.permission.VIBRATE, com.ltech.smarthome.andpermission.bridge, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.BLUETOOTH_ADMIN, com.meizu.c2dm.permission.RECEIVE, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, no.nordicsemi.android.LOG, com.ltech.smarthome.ACCS, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH
+
+[Application Components]
+  Activities (335): com.ltech.smarthome.ui.control.ActFeedback, com.ltech.smarthome.ui.automation.ActSelectEffectPeriod, com.ltech.smarthome.ui.device.setting.ActDeviceSettingDefault, com.ltech.smarthome.ui.home.ActHideDeviceManager, com.ltech.smarthome.ui.device.remote_controller.ActSelectBleLightDeviceAndGroup, com.ltech.smarthome.ui.device.ir.ActMotorConfig, com.ltech.smarthome.ui.device.knobpanel.ActKnobPanel, com.ltech.smarthome.ui.home.ActSortRoom, com.ltech.smarthome.ui.login.ActFindPwd, com.ltech.smarthome.ui.device.curtain_motor.ActBleCurtainMotorMoreSetting, com.ltech.smarthome.ui.device.ir.ActFan, com.ltech.smarthome.ui.scene.ActSelectLightRhythmAction, com.ltech.smarthome.ui.scene.ActSelectDeviceForAction, com.ltech.smarthome.ui.my.ActLanguageSelect, com.ltech.smarthome.ui.automation.ActSelectPmWeather, com.ltech.smarthome.ui.device.mesh_gateway.ActMeshGatewayNetConfig, com.ltech.smarthome.ui.home.ActAddFloor, com.ltech.smarthome.ui.circadianlighting.ActLightPlanList, com.ltech.smarthome.ui.device.super_panel.ActSuperPanelRelateGroup, com.ltech.smarthome.ui.config.ActQrCodeScan
+  Services   (31): com.alibaba.sdk.android.push.channel.KeepChannelService, com.alibaba.sdk.android.push.AgooFirebaseInstanceIDService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.xiaomi.push.service.XMPushService, com.xiaomi.push.service.XMJobService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.xiaomi.mipush.sdk.PushMessageHandler, com.alibaba.sdk.android.push.AgooFirebaseMessagingService, com.yanzhenjie.permission.bridge.BridgeService, com.xiaomi.mipush.sdk.MessageHandleService, com.google.firebase.iid.FirebaseInstanceIdService, com.vivo.push.sdk.service.CommandClientService, no.nordicsemi.android.support.v18.scanner.ScannerService, androidx.room.MultiInstanceInvalidationService, com.tencent.bugly.beta.tinker.TinkerResultService, com.meizu.cloud.pushsdk.NotificationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, org.android.agoo.accs.AgooService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (12): com.ltech.smarthome.push.PushMessageReceiver, com.alibaba.sdk.android.push.MeizuPushReceiver, no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver, com.taobao.accs.ServiceReceiver, com.alibaba.sdk.android.push.impl.PushMessageReceiverImpl, com.taobao.accs.EventReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.xiaomi.push.service.receivers.NetworkStatusReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, com.alibaba.sdk.android.push.MiPushBroadcastReceiver
+  Providers  (8): androidx.core.content.FileProvider, com.yanzhenjie.permission.FileProvider, com.tencent.bugly.beta.utils.BuglyFileProvider, com.simple.spiderman.SpiderManFileProvider, com.blankj.utilcode.util.UtilsFileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.provider.FirebaseInitProvider, me.jessyan.autosize.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 38878
+  Total Methods : 265960
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://bbs.lbsyun.baidu.com/forum.php?mod=viewthread&tid=106461
+  IP Addresses(10): 114.114.114.114, 0.0.0.0, 172.31.254.250, 172.31.254.153, 6.5.1.3, 100.67.64.54, 224.0.1.187, 1.5.5.2, 3.0.0.4, 192.192.192.192
+
+[Certificate]
+  Issuer      : Common Name: nz, Organizational Unit: four, Organization: ltech, Locality: zhuhai, State/Province: guangdong, Country: china
+  Fingerprint : 75 39 D0 FF 6E 94 4F C1 B3 48 7A 76 68 AE 7A 87 74 DC 73 59 60 B8 68 82 64 B0 F6 F0 7F BF 79 A8
+
+==========================================

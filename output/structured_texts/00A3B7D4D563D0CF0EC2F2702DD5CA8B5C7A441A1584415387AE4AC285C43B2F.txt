@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.docterz.connect.velocity
+  SHA-256       : 00A3B7D4D563D0CF0EC2F2702DD5CA8B5C7A441A1584415387AE4AC285C43B2F
+  Android Group : Android16
+  Version       : 2.80 (code: 180)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 36
+
+[Permissions (32)]
+  oppo.permission.OPPO_COMPOENT_SAFE, oppo.permission.OPPO_COMPONENT_SAFE, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, com.docterz.connect.velocity.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.huawei.permission.external_app_settings.USE_COMPONENT, android.permission.USE_FULL_SCREEN_INTENT, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (115): com.docterz.connect.activity.TuliQRScanActivity, com.docterz.connect.activity.MedicalHistoryDetailActivity, com.docterz.connect.activity.partners.PayBillActivity, pub.devrel.easypermissions.AppSettingsDialogHolderActivity, com.docterz.connect.activity.clinic.DoctorClinicDetailsActivity, com.razorpay.CheckoutActivity, com.docterz.connect.activity.authentication.PreLoginActivity, com.docterz.connect.activity.AddRecordsActivity, com.docterz.connect.activity.medicine.OrderMedicinesHistoryDetailsActivity, com.razorpay.MagicXActivity, com.docterz.connect.activity.DepartmentsActivity, com.docterz.connect.activity.DiscoverActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.docterz.connect.activity.AddUpdateMilestoneActivity, com.docterz.connect.activity.MyFamilyActivity, com.google.android.gms.common.api.GoogleApiActivity, com.docterz.connect.activity.CustomViewActivity, com.docterz.connect.activity.MyActivitiesActivity, com.razorpay.DeeplinkActivity, com.docterz.connect.activity.DoctorProfileActivity
+  Services   (16): com.quickblox.messages.services.SubscribeService, com.google.firebase.sessions.SessionLifecycleService, androidx.room.MultiInstanceInvalidationService, com.docterz.connect.services.NotificationMessagingService, com.quickblox.messages.services.fcm.QBFcmPushInstanceIDService, com.docterz.connect.sendbird.CallService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, androidx.work.impl.background.systemjob.SystemJobService, com.docterz.connect.chat.fcm.PushListenerService
+  Receivers  (7): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.docterz.connect.background.receiver.MySMSBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 49449
+  Total Methods : 345586
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : ED 13 42 2A 44 0E 6B 6B 9D 65 FB 99 6A A9 30 16 1F CB 7E B9 16 E8 8F DD 56 F1 B9 E8 96 AC 97 D6
+
+==========================================

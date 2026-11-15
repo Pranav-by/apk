@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.starblazestudio.missiledefence
+  SHA-256       : 0050D002E8B03825FDE519055FE98D907B7ECF9E69B85063F693B1AA1C643C50
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (7)]
+  com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (21): com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.player.UnityPlayerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.google.android.gms.ads.AdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity
+  Services   (7): com.google.android.gms.ads.AdService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15017
+  Total Methods : 83676
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B3 C0 B9 50 78 33 58 70 ED 73 E3 68 18 D1 D8 C4 D0 9D 39 AB 69 56 21 B3 93 37 41 BB CC 1B 14 B4
+
+==========================================

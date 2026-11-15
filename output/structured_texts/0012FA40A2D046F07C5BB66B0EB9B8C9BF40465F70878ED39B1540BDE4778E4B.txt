@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.transsion.phoenix
+  SHA-256       : 0012FA40A2D046F07C5BB66B0EB9B8C9BF40465F70878ED39B1540BDE4778E4B
+  Android Group : Android12
+  Version       : 11.9.2.4220 (code: 4220)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (69)]
+  android.permission.SET_WALLPAPER, com.android.ContactWidget.permission.WRITE_SETTINGS, com.android.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.MANAGE_EXTERNAL_STORAGE, com.android.launcher.permission.WRITE_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, com.transsion.XOSLauncher.permission.READ_SETTINGS, android.permission.WRITE_SETTINGS, android.permission.WRITE_SYNC_SETTINGS, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, com.android.alarm.permission.SET_ALARM
+
+[Application Components]
+  Activities (55): com.cloudview.phx.deeplink.TestActivity, com.tencent.mtt.BlockActivity, com.tencent.mtt.base.utils.ApkInstallJumpActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.transsnet.gcd.sdk.ui._page.GateActivity2, com.transsnet.gcd.sdk.ui._page.ResultPage, com.tencent.bang.crashlytics.DebugCrashActivity, com.tencent.mtt.MainActivity, com.transsnet.gcd.sdk.ui.GateActivity, com.transsnet.gcd.sdk.ui._page.SearchBankPage, com.transsnet.gcd.sdk.ui._page._VerifyPage, com.verizontal.phx.setting.view.DefaultBrowserSetAnimActivity, com.transsnet.gcd.sdk.ui._page.USSDPage, com.cloudview.qrcode.result.NormalResultActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.transsnet.gcd.sdk.ui._page.FourElementsPage, com.cloudview.ads.browser.AdBrowserActivity, com.cloudview.performance.crash.debug.DebugCrashActivity, com.transsnet.gcd.sdk.ui._page._PayPage, com.transsnet.gcd.sdk.ui._page.BindPalmPayPage
+  Services   (44): com.data.datacollect.services.datasync.AppsSyncService, com.cloudview.daemon.start.DaemonBootService, com.data.datacollect.services.upload.UploadSmsService, com.data.datacollect.services.upload.UploadAppsService, com.cloudview.phx.vpn.service.VpnKeepAliveService, com.cloudview.phx.entrance.notify.debug.DebugInfoService, com.data.datacollect.services.upload.UploadRtSmsService, com.data.datacollect.services.upload.UploadDeviceDynamicDataService, com.cloudview.phx.entrance.notify.listen.NotificationListener, com.data.datacollect.services.upload.UploadContactService, com.data.datacollect.services.upload.UploadStaticDeviceInfoService, com.cloudview.phx.music.player.control.service.MusicService, com.tencent.bang.crashlytics.memory.utils.FloatMemoryService, com.data.datacollect.services.upload.UploadDeviceForNodeService, com.tencent.bang.crashlytics.memory.leak.HeapAnalyzedService, com.tencent.mtt.browser.download.engine.DownloadHelper, com.google.firebase.messaging.FirebaseMessagingService, com.dopplerauth.datalib.services.ScShotImageService, com.cloudview.push.channel.fcm.FcmMessageService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (35): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.verizontal.phx.muslim.page.quran.audio.MuslimQuranPlayBroadcastReceiver, com.verizontal.phx.muslim.page.prayer.notify.server.ServiceNotifyBroadcastReceiver, com.cloudview.phx.entrance.common.EntranceBroadcastCenter, com.verizontal.phx.messagecenter.MessageCenterReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, com.verizontal.phx.playinstaller.PlayInstallerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.cloudview.phx.entrance.widget.WidgetCreateCallback, com.verizontal.cleaner.widget.WidgetProviderForClean, com.cloudview.phx.entrance.widget.game.GameWidgetProvider, com.cloudview.phx.entrance.shortcut.pin.ShortcutCreateReceiver, com.cloudview.phx.entrance.notify.hotnews.view.NewsNotifyClickReceiver, com.cloudview.phx.entrance.notify.pushv2.presenter.consume.PushDeleteReceiver, com.cloudview.phx.entrance.notify.tools.ToolsNotifyCloseReceiver, com.cloudview.file.clean.apk.uninstall.UninstallCleanNotifyReceiver, com.cloudview.phx.music.widget.MusicPlayWidgetProvider, com.cloudview.phx.music.widget.WidgetCreateCallback, com.cloudview.phx.music.player.control.notification.MusicPlayBroadcastReceiver, com.tencent.mtt.browser.download.engine.DownloadReceiver
+  Providers  (16): com.cloudview.ipc.common.IPCMainProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.cloudview.ipc.common.IPCServiceProvider, com.cloudview.core.sp.SharePreferencesProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.cloudview.daemon.way.account.AccountProvider, com.facebook.ads.AudienceNetworkContentProvider, com.verizontal.phx.messagecenter.view.PushMessageProvider, com.tencent.mtt.base.utils.FileProvider, com.cloudview.ads.utils.AdShareFileProvider, com.facebook.internal.FacebookInitProvider, com.cloudview.share.utils.ShareFileProvider, com.cloudview.file.whatsapp.sticker.provider.StickerContentProvider, com.cloudview.phx.DebugContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23395
+  Total Methods : 130012
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://lkphx.net/ttBv
+  IP Addresses(7): 10.230.0.1, 0.0.0.0, 8.8.8.8, 127.0.0.1, 8.8.4.4, 1.1.1.1, 10.254.254.1
+
+[Certificate]
+  Issuer      : Common Name: www.transsion.com, Organizational Unit: TRANSSION, Organization: MI, Locality: Shanghai, State/Province: Shanghai, Country: CN
+  Fingerprint : 3B 8C 62 5F 58 2A 8C B7 0D 85 71 47 46 19 08 52 E1 62 C2 8F 26 82 6E 30 AF E0 CA F9 50 DB 7D 7F
+
+==========================================

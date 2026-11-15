@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.h5lab.guessthedogname
+  SHA-256       : 00A2AFF9C2E715CDC1F32C58BEFCCC4D373B8680AD4E0572FCDDA79F0FB53B11
+  Android Group : Android12
+  Version       : 1.0.5 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (3): com.unity3d.player.UnityPlayerActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (5): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.unity.androidnotifications.UnityNotificationManager, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (2): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8592
+  Total Methods : 41875
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 99 E5 75 50 02 07 67 76 27 2A B2 C3 84 94 13 B5 5E AC CF D3 78 C4 6F 96 63 D4 35 7D 12 E2 8D C3
+
+==========================================

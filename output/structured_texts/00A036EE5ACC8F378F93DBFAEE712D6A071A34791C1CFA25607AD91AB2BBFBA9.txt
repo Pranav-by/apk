@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : net.manoloworks.usa_radio_arkansas
+  SHA-256       : 00A036EE5ACC8F378F93DBFAEE712D6A071A34791C1CFA25607AD91AB2BBFBA9
+  Android Group : Android14
+  Version       : 7.6.9 (code: 85)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (35)]
+  android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, net.manoloworks.usa_radio_arkansas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, net.manoloworks.usa_radio_arkansas.permission.C2D_MESSAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (35): com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.google.android.gms.ads.NotificationHandlerActivity, net.manoloworks.usa_radio_arkansas.activities.ActivityWebView, com.applovin.sdk.AppLovinWebViewActivity, com.onesignal.core.activities.PermissionsActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, com.onesignal.notifications.activities.NotificationOpenedActivity, com.applovin.adview.AppLovinFullscreenActivity
+  Services   (16): com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, net.manoloworks.usa_radio_arkansas.services.RadioPlayerService, androidx.work.impl.background.systemjob.SystemJobService, net.manoloworks.usa_radio_arkansas.notification.MyFirebaseMessageService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, com.onesignal.core.services.SyncJobService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.notifications.receivers.NotificationDismissReceiver, net.manoloworks.usa_radio_arkansas.utils.SleepTimeReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, net.manoloworks.usa_radio_arkansas.services.MediaButtonIntentReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 28692
+  Total Methods : 178700
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): https://support.google.com/admob/answer/13554116, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://developers.applovin.com/en/android/overview/terms-and-privacy-policy-flow, https://dash.applovin.com/o/account?r=2#app_ads_txt, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Florentin Manole, Locality: Galati, State/Province: Galati, Country: RO
+  Fingerprint : F1 E5 DA 28 7C 7B 11 28 C5 29 41 00 69 BF 90 5B D9 AC 05 96 C3 A1 03 65 95 57 FB FB 31 FF 1C EE
+
+==========================================

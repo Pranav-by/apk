@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.app.hdfc
+  SHA-256       : 00988F2E076D244075E4DCB7E7939833BA3D2E9600175368C5902A5D30FBD229
+  Android Group : Android12
+  Version       : 3.20 (code: 70)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, android.permission.CALL_PHONE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH, android.permission.USE_BIOMETRIC, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (6): com.inka.appsealing.AppSealingAlertDialog, com.app.hdfc.MainActivity, de.niklasmerz.cordova.biometric.BiometricActivity, com.gae.scaffolder.plugin.FCMPluginActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.biometric.DeviceCredentialHandlerActivity
+  Services   (8): com.inka.appsealing.AppSealingIPService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.gae.scaffolder.plugin.MyFirebaseMessagingService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider, org.apache.cordova.camera.FileProvider, de.sitewaerts.cordova.documentviewer.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2837
+  Total Methods : 18687
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: hdfc
+  Fingerprint : EF FD 58 88 A6 3E 1B 5C 57 D7 22 D4 ED 3A C4 97 23 A2 4E B0 30 93 A5 57 39 98 B1 E0 3E 03 64 73
+
+==========================================

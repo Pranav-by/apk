@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : bot.hedy.mobile
+  SHA-256       : 00A6FB9E3E73387C836EA1412E2A8E276D3A5FC0049A26EBCB354C5FE11C4992
+  Android Group : Android15
+  Version       : 2.10.4 (code: 150)
+
+[SDK Information]
+  Minimum SDK   : 31
+  Target SDK    : 35
+
+[Permissions (31)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPT, android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WRITE_MEDIA_VIDEO, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.RECORD_AUDIO, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.WRITE_MEDIA_AUDIO
+
+[Application Components]
+  Activities (28): androidx.credentials.playservices.HiddenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, io.intercom.android.sdk.post.PostActivityV2, bot.hedy.mobile.MainActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, io.intercom.android.sdk.activities.IntercomPostActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.helpcenter.articles.IntercomArticleActivity, io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, io.intercom.android.sdk.m5.bubble.IntercomBubbleActivity, io.flutter.plugins.urllauncher.WebViewActivity, io.intercom.android.sdk.m5.IntercomRootActivity
+  Services   (17): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.room.MultiInstanceInvalidationService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.dooboolab.TauEngine.ForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, bot.hedy.mobile.ForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (20): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.android.gms.measurement.AppMeasurementReceiver, com.amazon.device.iap.ResponseReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, io.intercom.android.sdk.m5.push.ConversationReplyReceiver, com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (7): com.google.firebase.provider.FirebaseInitProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, io.sentry.android.core.SentryPerformanceProvider, com.facebook.internal.FacebookInitProvider, io.intercom.android.sdk.IntercomFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 54941
+  Total Methods : 363949
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E2 6C C6 F4 90 2E 1F 5E F4 25 E9 EE 82 DB 50 5C 92 0C 75 4C 80 F0 AA 58 34 62 EE 9B 37 5F 47 04
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.businessvalue.android.app
+  SHA-256       : 005D9C756C96A591F74777D2C912F8E3D2161309590A8F5B5991642511A2B647
+  Android Group : Android13
+  Version       : 9.7.24 (code: 20231122)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (46)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.businessvalue.android.app.permission.MIPUSH_RECEIVE, com.android.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, com.businessvalue.android.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.businessvalue.android.app.permission.C2D_MESSAGE, com.meizu.c2dm.permission.RECEIVE, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, getui.permission.GetuiService.com.businessvalue.android.app, com.businessvalue.android.app.push.permission.MESSAGE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.DEVICE_POWER, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (109): com.mobile.auth.gatewayauth.LoginAuthActivity, com.mobile.auth.gatewayauth.PrivacyDialogActivity, com.mobile.auth.gatewayauth.activity.AuthWebVeiwActivity, com.google.android.gms.common.api.GoogleApiActivity, com.xiaomi.mipush.sdk.NotificationClickedActivity, com.huawei.hms.support.api.push.TransActivity, com.huawei.hms.activity.BridgeActivity, com.huawei.hms.activity.EnableServiceActivity, com.businessvalue.android.app.account.WechatLoginDialogActivity, com.businessvalue.android.app.word.fragment.WordCategoryDetailActivity, com.businessvalue.android.app.fragment.mine.AccountPhoneActivity, com.businessvalue.android.app.live.polyv.PLVStartActivity, com.businessvalue.android.app.fragment.mine.push.PushSettingActivity, com.businessvalue.android.app.activities.NewActivity, com.businessvalue.android.app.fragment.mine.push.PushSettingHuaweiActivity, com.businessvalue.android.app.pdfviewer.PDFViewActivity, com.businessvalue.android.app.fragment.mine.certification.LiveCertificationActivity, com.businessvalue.android.app.socialcomm.ShareCallbackActivity, com.businessvalue.android.app.wxapi.WXPayEntryActivity, com.businessvalue.android.app.fragment.tag.AllTagActivity
+  Services   (35): com.getui.gtc.GtcService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.businessvalue.android.app.push.TMTIntentService, com.igexin.sdk.HmsPushMessageService, com.huawei.agconnect.core.ServiceDiscovery, com.meizu.cloud.pushsdk.NotificationService, com.businessvalue.android.app.audioservice.BackgroundAudioService, com.igexin.sdk.OppoPushService, com.huawei.hms.support.api.push.service.HmsMsgService, com.igexin.sdk.OppoAppPushService, com.xiaomi.mipush.sdk.PushMessageHandler, com.xiaomi.mipush.sdk.MessageHandleService, com.vivo.push.sdk.service.CommandClientService, com.businessvalue.android.app.book.audioservice.BackgroundAudioService, com.businessvalue.android.app.activities.InitializeService, io.dcloud.feature.sdk.multi.DCUniMPService0, io.dcloud.feature.sdk.multi.DCUniMPService1, com.businessvalue.android.app.live.websocket.ChatRoomService, io.dcloud.feature.sdk.multi.DCUniMPService2, io.dcloud.feature.sdk.multi.DCUniMPService3
+  Receivers  (10): com.igexin.sdk.FlymePushReceiver, com.igexin.sdk.VivoPushMessageReceiver, com.igexin.sdk.MiuiPushReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver, com.taobao.weex.WXGlobalEventReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.igexin.sdk.PushReceiver
+  Providers  (11): top.shixinzhang.bitmapmonitor.internal.BitmapMonitorProvider, com.luck.picture.lib.basic.PictureFileProvider, com.sina.weibo.sdk.content.FileProvider, com.getui.gtc.base.GtcProvider, com.huawei.hms.support.api.push.PushProvider, androidx.startup.InitializationProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, androidx.core.content.FileProvider, io.dcloud.common.util.DCloud_FileProvider, com.easefun.polyv.livecommon.module.utils.PLVFileProvider, com.huawei.hms.aaid.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 53862
+  Total Methods : 349194
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(7): 2.9.0.107, 203.107.1.100, 6.5.1.3, 100.67.64.54, 127.0.0.1, 203.107.1.1, 203.107.1.97
+
+[Certificate]
+  Issuer      : Common Name: Windmaker, Locality: Beijing, State/Province: Beijing, Country: CN
+  Fingerprint : 6D 22 0F AA 86 5E B4 25 E6 98 5F 2A 5D 6E FF E9 CA 4C CC 7E 49 5E 39 68 A6 A0 64 26 6A 09 E1 BB
+
+==========================================

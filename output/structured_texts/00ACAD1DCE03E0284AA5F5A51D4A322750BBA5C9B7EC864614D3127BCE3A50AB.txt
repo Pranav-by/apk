@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.americanexpress.android
+  SHA-256       : 00ACAD1DCE03E0284AA5F5A51D4A322750BBA5C9B7EC864614D3127BCE3A50AB
+  Android Group : Android16
+  Version       : 9.0.65 (code: 1413480267)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (35)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_BIOMETRIC, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.americanexpress.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS
+
+[Application Components]
+  Activities (9): com.isracard.hatavot.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.jakewharton.processphoenix.ProcessPhoenix, com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.tagmanager.TagManagerPreviewActivity
+  Services   (16): com.google.android.gms.tagmanager.TagManagerService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.asterinet.react.bgactions.RNBackgroundActionsTask, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.clarisite.mobile.GlassboxJobX, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+  Receivers  (16): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.isracard.hatavot.receivers.GooglePayReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (10): com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.ReactNativeBlobUtil.Utils.FileProvider, com.imagepicker.ImagePickerProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, cl.json.RNShareFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19156
+  Total Methods : 121983
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Locality: Israel
+  Fingerprint : 8F 09 5E 17 B1 C5 E2 E1 51 D4 D8 8F AA C5 6E F1 22 E1 DC 6F D1 1A 8C DF FE 62 23 44 BC 7B D1 9F
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : photo.album.hd.gallery.quickpic
+  SHA-256       : 00A8DCBA53B118E274874E47FAAEE7A86BD02D386FA9A4498FC8A1905B62C45C
+  Android Group : Android15
+  Version       : 5.6.1 (code: 561)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (25)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.SET_WALLPAPER, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.USE_BIOMETRIC, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.USE_FINGERPRINT, photo.album.hd.gallery.quickpic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CAMERA, android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+
+[Application Components]
+  Activities (87): com.ijoysoft.test.ActivityAdvTest, com.google.android.gms.ads.AdActivity, com.ijoysoft.gallery.activity.ActivityFeedback, com.ijoysoft.gallery.activity.OtherStoryActivity, com.ijoysoft.gallery.activity.SetStoryCoverActivity, com.ijoysoft.gallery.activity.MemoryPreviewActivity, com.ijoysoft.gallery.activity.MemoryManagerActivity, com.ijoysoft.gallery.activity.MemoryActivity, com.ijoysoft.photoeditor.activity.ShareActivity, com.ijoysoft.photoeditor.activity.ShopDetailsActivity, com.ijoysoft.photoeditor.activity.MosaicActivity, com.ijoysoft.photoeditor.activity.CutoutActivity, com.ijoysoft.photoeditor.activity.TemplateActivity, com.ijoysoft.photoeditor.activity.CropActivity, com.ijoysoft.photoeditor.activity.MultiFitActivity, com.ijoysoft.photoeditor.activity.CropImageActivity, com.ijoysoft.photoeditor.activity.FreestyleActivity, com.ijoysoft.photoeditor.activity.TemplateListActivity, com.ijoysoft.photoeditor.activity.PhotoEditorActivity, com.ijoysoft.photoeditor.activity.StitchActivity
+  Services   (6): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.ijoysoft.gallery.module.video.play.service.VideoPlayService, com.google.android.gms.ads.AdService
+  Receivers  (10): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.ijoysoft.gallery.receiver.UninstallProtectionReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.ijoysoft.gallery.module.hide.provider.PrivacyProvider, com.lb.library.CustomFileProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 20189
+  Total Methods : 117539
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://goo.gle/admob-android-update-manifest, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://goo.gle/ad-manager-android-update-manifest., https://developers.google.com/tink/faq/registration_errors, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gle/admob-android-update-manifest.
+  IP Addresses(3): 6.19.0.1, 0.6.0.0, 0.2.0.0
+
+[Certificate]
+  Issuer      : Common Name: iJoysoft, Organizational Unit: iJoysoft, Organization: iJoysoft
+  Fingerprint : 51 CC 8F A6 1B A1 61 36 FD 12 F2 44 25 9C 6B 2D 13 04 DC B0 0B DC A9 77 33 B9 72 16 3F B1 EB B2
+
+==========================================

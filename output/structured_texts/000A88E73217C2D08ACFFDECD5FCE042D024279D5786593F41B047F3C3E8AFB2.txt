@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.srmapp
+  SHA-256       : 000A88E73217C2D08ACFFDECD5FCE042D024279D5786593F41B047F3C3E8AFB2
+  Android Group : Android15
+  Version       : 3.9.8 (code: 1754617838)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 35
+
+[Permissions (39)]
+  android.permission.MOUNT_UNMOUNT_FILESYSTEMS, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.GET_TASKS, android.permission.WRITE_SETTINGS, com.srmapp.AGOO, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.REORDER_TASKS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.huawei.systemmanager.permission.ACCESS_INTERFACE, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+
+[Application Components]
+  Activities (5): com.srmapp.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.alibaba.sdk.android.push.keeplive.PushExtActivity, com.brzhang.dalipush.PopupPushActivity, com.aliyun.ams.emas.push.NotificationActivity
+  Services   (12): com.taobao.accs.internal.AccsJobService, com.aliyun.ams.emas.push.AgooInnerService, com.taobao.accs.ChannelService, com.aliyun.ams.emas.push.MsgService, com.taobao.accs.ChannelService$KernelService, com.taobao.accs.data.MsgDistributeService, org.android.agoo.accs.AgooService, com.alibaba.sdk.android.push.channel.CheckService, com.alibaba.sdk.android.push.MsgService, com.alibaba.sdk.android.push.AliyunPushIntentService, com.alibaba.sdk.android.push.channel.KeepChannelService, com.alibaba.sdk.android.push.channel.TaobaoRecvService
+  Receivers  (6): androidx.profileinstaller.ProfileInstallReceiver, com.taobao.accs.EventReceiver, com.alibaba.sdk.android.push.SystemEventReceiver, com.taobao.accs.ServiceReceiver, com.taobao.agoo.AgooCommondReceiver, com.brzhang.dalipush.MyMessageReceiver
+  Providers  (2): com.tealium.core.internal.TealiumInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14536
+  Total Methods : 102752
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 114.114.114.114
+
+[Certificate]
+  Issuer      : Common Name: Sands, Organizational Unit: Sands, Organization: Sands, Locality: Sands, State/Province: Sands, Country: MO
+  Fingerprint : C9 92 53 F5 FB 1C 3B F2 95 FC 3A 72 67 65 4E AB 19 10 02 2F C4 CF 58 C4 7B 4B FF C9 1E 2C 19 B5
+
+==========================================

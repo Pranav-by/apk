@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.klook
+  SHA-256       : 0000FE4903C785213804ED174B931D4B2FF12D75A4C0D422D110FFFC26B413F9
+  Android Group : Android12
+  Version       : 6.20.0 (code: 6283)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH, com.klook.andpermission.bridge, android.permission.CAMERA, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (250): com.klook.account_implementation.public_login.LoginSignupVerifyPhoneCodeActivity, com.klooklib.country.introduce.CountryMapMapBoxActivity, com.klook.account_implementation.register.view.kakao.KrRegisterActivity, com.klook.account_implementation.register.view.kakao.KrRegisterActivityNew, com.klooklib.activity.test.string_i18n.TestTemplateStringActivity, com.klook.account_implementation.register.view.generic.RegisterActivity, com.klooklib.activity.test.map.MapTestActivity, com.klook.account_implementation.register.view.generic.RegisterNormalSetPasswordActivity, com.klook.account_implementation.register.view.generic.RegisterNormalSetPasswordActivityNew, com.klook.account_implementation.register.view.generic.RegisterPhoneVerifyCodeCheckActivity, com.klook.account_implementation.register.view.verify.RegisterVerifyListActivity, com.klook.account_implementation.register.view.verify.RegisterVerifySetPasswordActivity, com.klooklib.modules.wifi.view.WifiPageActivity, com.klook.account_implementation.register.view.verify.VerifyEmailPhoneInputActivity, com.klook.account_implementation.account.forget_password.view.ForgetPwdActivity, com.klook.account_implementation.account.forget_password.view.ForgetPwdCheckVerifyCodeActivity, com.klooklib.activity.SurveyComponentActivity, com.klook.account_implementation.account.forget_password.view.ForgetPwdVerifyOrderActivity, com.klook.account_implementation.account.forget_password.view.ForgetPwdSetNewPasswordActivity, com.klook.account_implementation.account.account_security.view.AccountSecurityActivity
+  Services   (32): com.yanzhenjie.permission.bridge.BridgeService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.analytics.AnalyticsJobService, androidx.work.impl.background.systemjob.SystemJobService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService, com.klooklib.service.VerifyOfflineVouncherRedeemedService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.tagmanager.TagManagerService, com.klooklib.gcmquickstart.FirebaseMessagingListenerService, androidx.work.impl.foreground.SystemForegroundService, com.klooklib.service.AppConfigService, com.klooklib.service.CaptureService, com.huawei.agconnect.core.ServiceDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsService, com.klooklib.service.UploadRecommendActivityService
+  Receivers  (23): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.analytics.CampaignTrackingReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.klooklib.receiver.ReviewReceiver, com.google.android.gms.tagmanager.InstallReferrerReceiver, com.klooklib.receiver.GoogleAdsTestReceiver, com.klook.cashier_implementation.receiver.WxRegister, com.google.ads.conversiontracking.InstallReceiver, com.forter.mobile.fortersdk.integrationkit.InstallReferrerReceiver
+  Providers  (12): com.facebook.FacebookContentProvider, com.klook.base_library.data.InstallFileProvider, com.yanzhenjie.permission.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, androidx.startup.InitializationProvider, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, com.huawei.hms.mlsdk.common.provider.MLInitializerProvider, com.google.firebase.provider.FirebaseInitProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.klooklib.provider.SharedFileProvider, androidx.core.content.FileProvider, com.luck.picture.lib.PictureFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 60500
+  Total Methods : 396702
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: zw, Organizational Unit: klook, Organization: klook, Locality: shenzhen, State/Province: GD, Country: 0086
+  Fingerprint : AD B8 11 84 1B 66 C5 B2 D4 26 47 D4 89 7D 8B 01 64 82 CA 46 31 A8 87 C6 80 5B 1E 33 BB 31 5D 14
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : vsa.visionanimes
+  SHA-256       : 009F502903A12D7E680A139F4FA0F0654F301F28BE7EF3265F9DC8F295281A9A
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (4)]
+  android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (11): vsa.visionanimes.AnimeepActivity, vsa.visionanimes.PlayerActivity, vsa.visionanimes.AnimeinfActivity, vsa.visionanimes.Player2Activity, vsa.visionanimes.DebugActivity, vsa.visionanimes.ViewActivity, vsa.visionanimes.WebActivity, com.google.android.gms.ads.AdActivity, vsa.visionanimes.HomeActivity, vsa.visionanimes.SelectplayerActivity, vsa.visionanimes.MainActivity
+  Services   (1): vsa.visionanimes.backgroundService
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 11019
+  Total Methods : 66539
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://animesonline.cc/wp-content/uploads
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 57 39 F7 33 3B BE 32 94 B8 9B 62 0F 9F 28 3C B2 A7 E0 6C 92 71 3C C7 42 AB 86 E4 C6 71 F9 C5 04
+
+==========================================

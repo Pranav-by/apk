@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.aokj.compass
+  SHA-256       : 003F89BC287C3AC3BAF1503EDAE0F6DC1831CAB6E3FD84D0B539BFAB86B9AC15
+  Android Group : Android12
+  Version       : 6.0409.22 (code: 22)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 31
+
+[Permissions (31)]
+  android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, com.hihonor.permission.MANAGE_FOLD_SCREEN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.REORDER_TASKS, android.permission.RECEIVE_USER_PRESENT, android.permission.QUERY_ALL_PACKAGES, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.aokj.compass.com.huawei.openaliance.ad.app.ins, freemme.permission.msa, android.permission.ACCESS_FINE_LOCATION, com.asus.msa.SupplementaryDID.ACCESS, android.permission.CAMERA
+
+[Application Components]
+  Activities (93): com.byted.live.lite.Activity_main_singleTask3, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait3, com.byazt.hf.ApiDownloadHandleNotificationActivity, com.huawei.openalliance.ad.activity.FeedbackActivity, com.huawei.openalliance.ad.activity.PPSBridgeActivity, com.aokj.compass.SettingsActivity, com.byted.live.lite.Activity_bytelive_singleTop3, com.aokj.compass.ClockActivity, com.byted.live.lite.Activity_main_singleTask4, com.aokj.sdk.advip.wxpay.VipAdActivity, com.byazt.ao.Stub_Standard_Activity, com.byted.live.lite.Activity_bytelive_singleTask2, com.ss.android.socialbase.appdownloader.view.DownloadHandleNotificationActivity, com.byazt.ao.Stub_SingleTask_Activity, com.huawei.openalliance.ad.activity.PPSNotificationActivity, com.bytedance.sdk.openadsdk.core.activity.base.TTVideoScrollWebPageActivity, com.byted.live.lite.Activity_main_singleTop2, com.byted.live.lite.Activity_main_singleTop4, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait4, com.byted.live.lite.Activity_main_singleTask1
+  Services   (11): com.byazt.rpc.DownloadNotificationService, com.qq.e.comm.DownloadService, com.byazt.hf.ApiDownloadHandlerService, com.byazt.kt.CSJIndependentProcessDownloadService, com.byazt.ps.DownloadHandlerService, com.byazt.kt.CSJDownloadService, com.byazt.de.DownloadHandleService, com.byazt.ps.RetryJobSchedulerService, com.byazt.qk.BinderPoolService, com.byazt.kt.SqlDownloadCacheService, com.amap.api.location.APSService
+  Receivers  (3): com.kongzue.wechatsdkhelper.util.WXAppRegister, com.byazt.lik.Collector, com.byazt.cxq.DownloadReceiver
+  Providers  (15): com.byazt.zk.MainServerManager, com.byazt.jrl.MainProcessProviderProxy, com.byted.live.lite.ServerManager_bytelive, cn.bmob.v3.util.BmobContentProvider, com.byazt.ze.FileProvider, com.huawei.openalliance.ad.provider.PPSECProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byazt.lk.MainServerManager, com.byted.live.lite.ServerManager_push, com.byazt.ee.TTMultiProvider, com.byted.live.lite.ServerManager_downloader, com.just.agentweb.AgentWebFileProvider, com.qq.e.comm.GDTFileProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.byazt.lk.DownloaderServerManager
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 21133
+  Total Methods : 150538
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明
+  IP Addresses(6): 0.0.0.0, 7.5.1.7, 6.6.0.0, 2.0.0.0, 7.5.0.0, 15.20.00.104
+
+[Certificate]
+  Issuer      : Common Name: aokj, Organizational Unit: aokj, Organization: aokj, Locality: aokj, State/Province: aokj, Country: aokj
+  Fingerprint : CC ED 9C 87 18 83 76 BE 21 54 01 DE 8E 14 46 84 AB EE E3 9E 94 90 EC 56 50 28 6E 88 09 B7 49 F7
+
+==========================================

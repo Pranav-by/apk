@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.maxhealthcare
+  SHA-256       : 00A8DEA53976EEF2A5440AD0ACA8845E74D27813866D02194D485D40B7916D1D
+  Android Group : Android15
+  Version       : 8.6.8 (code: 86)
+
+[SDK Information]
+  Minimum SDK   : 30
+  Target SDK    : 35
+
+[Permissions (33)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_PHONE_NUMBERS, com.maxhealthcare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT
+
+[Application Components]
+  Activities (27): com.payu.nfc.view.NFCActivity, com.maxhealthcare.ManageSpaceActivity, com.clevertap.android.sdk.inbox.CTInboxActivity, com.maxhealthcare.MainActivity, com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, live.hms.hmssdk_flutter.SecondActivity, com.razorpay.MagicXActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.clevertap.android.sdk.InAppNotificationActivity, com.razorpay.CheckoutActivity, com.payu.gpay.GPayResponseActivity, com.google.android.gms.common.api.GoogleApiActivity, com.payu.ui.view.activities.CheckoutActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.payu.phonepe.PayUPhonePeActivity
+  Services   (21): com.phonepe.intent.sdk.ui.PreCacheService, com.clevertap.android.sdk.pushnotification.fcm.FcmMessageListenerService, com.google.firebase.components.ComponentDiscoveryService, com.dexterous.flutterlocalnotifications.ForegroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.gms.metadata.ModuleDependencies, com.baseflow.geolocator.GeolocatorLocationService, com.lyokone.location.FlutterLocationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, live.hms.video.services.HMSScreenCaptureService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (18): com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, live.hms.video.services.LogAlarmManager, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+  Providers  (6): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 35347
+  Total Methods : 241817
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Prajkta Aggarwal, Organizational Unit: IT, Organization: MaxHealthCare, Locality: Okhla, State/Province: Delhi, Country: IN
+  Fingerprint : FA F6 7D 7A 03 FA A0 3B B4 0F E7 2A EF 79 10 A0 78 23 E4 73 C4 37 17 C4 FA A4 2C CD DF 8F BC 19
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.calea.echo
+  SHA-256       : 00A073C25980E614098F927742F21AF44513705320A84F2FC4DC6A74E010B8F0
+  Android Group : Android14
+  Version       : 2.21.0.3279 (code: 3279)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (76)]
+  android.permission.SEND_SMS, android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, oppo.permission.OPPO_COMPONENT_SAFE, android.permission.POST_NOTIFICATIONS, android.permission.WRITE_CALENDAR, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_VIDEO, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_CONTACTS
+
+[Application Components]
+  Activities (91): com.calea.echo.ForwardActivityLauncher, com.snapchat.kit.sdk.SnapKitActivity, com.google.android.gms.ads.AdActivity, com.calea.echo.emojiStore.EmojiStoreActivity, com.calldorado.ui.wic.WicDialogActivity, com.calldorado.ui.debug_dialog_items.DebugActivity, com.calldorado.ui.settings.StateLegislationActivity, com.calea.echo.CalldoradoOnboardingActivity, com.calldorado.ui.settings.LicensesActivity, com.calldorado.permissions.PermissionCheckActivity, com.calldorado.search.manual_search.LoadingActivity, com.calldorado.ui.OverlayGuideActivity, com.calldorado.optin.OptinDialogActivity, com.calldorado.optin.OptinActivity, com.calea.echo.InviteActivity, com.calldorado.optin.CcpaActivity, com.calea.echo.LaunchActivity, com.calldorado.ui.aftercall.CallerIdActivity, com.calea.echo.InfosActivity, com.calldorado.optin.CpraLimitDataActivity
+  Services   (84): com.calea.echo.application.online.ISMessageSynchronizer, com.calea.echo.application.online.ISCheckPhoneContact, com.calea.echo.application.online.ISContactSynchronizer, com.calea.echo.application.online.ISGroupMessageSynchronizer, com.calea.echo.application.online.ISResolveContactInvite, com.calea.echo.tools.MoodDbMigrationService, com.calea.echo.application.localDatabase.ConversationsMessagesDbService, com.calea.echo.application.online.ISRequestRetry, com.calea.echo.application.online.ISCheckAppVersion, com.calea.echo.tools.notification.WearReplyIntentService, com.calea.echo.tools.notification.WearMarkAsRead, com.calea.echo.sms_mms.services.MmsSendIServiceV2, com.calea.echo.sms_mms.services.MmsSendIServiceLollipop, com.calea.echo.sms_mms.services.MmsScheduleSendService, com.calea.echo.sms_mms.services.SmsDeliveredIntentService, com.calea.echo.sms_mms.services.MmsGetAddressesService, com.calea.echo.application.receiver.BootIntentService, com.calea.echo.sms_mms.services.SmsSendService, com.calea.echo.view.settings.FlashLight$FlashIntentService, com.calea.echo.application.gcm.GcmIntentService
+  Receivers  (66): com.calldorado.receivers.chain.OreoUpgradeReceiver, com.calldorado.stats.StatsReceiver, com.calldorado.ui.shared_wic_aftercall.viewpager.pages.reminder_page.ReminderBroadcastReceiver, com.calea.echo.sms_mms.utils.EncryptionResponseBroadcastReceiver, com.calldorado.receivers.cdfQWCBReceiver, com.calldorado.receivers.NewsDebugReceiver, com.calea.echo.sms_mms.utils.ISSendMessageBroadcastReceiver, com.calldorado.notifications.ReoptinNotificationReceiver, com.calldorado.notifications.UpdateNotificationReceiver, com.calldorado.notifications.CallReminderNotificationReceiver, com.calea.echo.sms_mms.utils.ISMediaMessageUploadBroadcastReceiver, com.calldorado.notifications.LocalNotificationReceiver, com.calea.echo.sms_mms.utils.ScheduledMoodMessageSendBroadcastReceiver, com.calea.echo.sms_mms.receivers.SmsReceiverKLP, com.qualityinfo.InsightReceiver, com.calea.echo.sms_mms.utils.SnoozeBroadcastReceiver, com.calea.echo.application.receiver.FirebaseEventBroadcastReceiver, com.calldorado.optin.receivers.CcpaTestReceiver, com.calea.echo.application.receiver.InviteResolveReceiver, com.calea.echo.tools.notification.ReengagementReceiver
+  Providers  (16): androidx.startup.InitializationProvider, com.calldorado.lookup.contentprovider.EmojiProvider, com.calldorado.lookup.contentprovider.FavoritesProvider, com.snapchat.kit.sdk.SnapKitInitProvider, com.calea.echo.sms_mms.mms.MmsFileProvider, com.squareup.picasso.PicassoProvider, com.facebook.internal.FacebookInitProvider, com.calea.echo.sms_mms.mms.contentProviderMms.MmsPartContentProvider, com.calea.echo.tools.zipProviderTools.EmojisProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.facebook.FacebookContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.calldorado.contentprovider.CdoContentProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 68005
+  Total Methods : 353223
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: calea
+  Fingerprint : 96 CE FA 44 37 1E 7D 6D 4B 3A BA 1C 8B 42 9E E5 16 3E CE C8 98 85 53 65 21 36 3A CA 61 07 A0 B7
+
+==========================================

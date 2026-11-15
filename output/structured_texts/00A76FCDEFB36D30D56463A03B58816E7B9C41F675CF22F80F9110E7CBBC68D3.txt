@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : net.mediacode.ala
+  SHA-256       : 00A76FCDEFB36D30D56463A03B58816E7B9C41F675CF22F80F9110E7CBBC68D3
+  Android Group : Android14
+  Version       : 1.02 (code: 12)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (38)]
+  net.mediacode.ala.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.WRITE_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_SECURE_SETTINGS, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+
+[Application Components]
+  Activities (38): com.google.android.gms.ads.NotificationHandlerActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.onesignal.NotificationOpenedActivityHMS, net.mediacode.ala.Act_Favorite, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, net.mediacode.ala.Act_Startup, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, net.mediacode.ala.Act_Welcome, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity
+  Services   (14): androidx.work.impl.background.systemjob.SystemJobService, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.SyncService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.onesignal.SyncJobService, com.google.android.gms.ads.AdService, com.onesignal.HmsMessageServiceOneSignal, com.google.firebase.messaging.FirebaseMessagingService, net.mediacode.ala.NotificationService
+  Receivers  (15): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (6): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 8195
+  Total Methods : 48943
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://developers.applovin.com/en/android/overview/terms-and-privacy-policy-flow, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developers.applovin.com/en/android/overview/integration, https://support.google.com/admob/answer/13554116, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://exoplayer.dev/issues/cleartext-not-permitted, https://developers.google.com/tink/faq/registration_errors
+  IP Addresses(3): 12.5.0.1, 6.17.0.0, 1.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0E 0E 63 25 8D 00 57 E5 E9 37 4F C7 75 37 67 37 F3 DF 1A A9 E0 EF 55 0E EC B5 A7 07 12 6D 24 5E
+
+==========================================

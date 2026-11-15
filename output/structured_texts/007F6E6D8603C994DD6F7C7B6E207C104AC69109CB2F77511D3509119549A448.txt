@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gp.dog.rescuedog
+  SHA-256       : 007F6E6D8603C994DD6F7C7B6E207C104AC69109CB2F77511D3509119549A448
+  Android Group : Android12
+  Version       : 1.0.3 (code: 103)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (63): com.applovin.sdk.AppLovinWebViewActivity, com.mbridge.msdk.interstitial.view.MBInterstitialActivity, com.facebook.FacebookActivity, com.tapjoy.mraid.view.ActionHandler, com.rad.core.interactivead.activity.RXBrowserActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.appsflyer.plugin.cocos.v242.AppActivity, com.tapjoy.mraid.view.Browser, com.adcolony.sdk.AdColonyAdViewActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.mbridge.msdk.activity.MBCommonActivity, com.mbridge.msdk.out.LoadingActivity, com.facebook.CustomTabMainActivity, com.android.billingclient.api.ProxyBillingActivity, sg.bigo.ads.api.AdActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.unity3d.services.ads.adunit.AdUnitActivity, sg.bigo.ads.core.mraid.MraidVideoActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+  Services   (18): com.google.android.gms.ads.AdService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.rad.playercommon.business.RoulaxVideoDownloadService, com.rad.playercommon.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService, com.rad.trace.sender.LegacySenderService, com.rad.trace.sender.JobSenderService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (13): net.pubnative.lite.sdk.receiver.VolumeChangedActionReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (12): androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, com.squareup.picasso.PicassoProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, com.rad.RSDKInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 40898
+  Total Methods : 246756
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E1 9F 5F 3B 89 4F 43 E6 8F 62 CA 03 4D CC 3C EA FD B1 24 A8 2D 23 63 C3 D7 ED BE A9 73 1A EE EC
+
+==========================================

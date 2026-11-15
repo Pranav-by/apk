@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gretzky.app
+  SHA-256       : 0092A60AAB0D09B3D0157AE40E131C946B2449858485C3F7A69F016F0F2083DB
+  Android Group : Android15
+  Version       : 1.20.6 (code: 157)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (11)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.REORDER_TASKS, com.gretzky.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.CHANGE_NETWORK_STATE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (43): com.podplay.app.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity, com.google.android.gms.common.api.GoogleApiActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetActivity, androidx.compose.ui.tooling.PreviewActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.stripe.android.financialconnections.lite.FinancialConnectionsSheetLiteRedirectActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.pairip.licensecheck.LicenseActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.stripe.android.customersheet.CustomerSheetActivity, com.stripe.android.paymentsheet.addresselement.AddressElementActivity, com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity
+  Services   (8): com.google.firebase.messaging.FirebaseMessagingService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.podplay.core.wrapper.firebase.messaging.PodPlayMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 20537
+  Total Methods : 111170
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://goo.gle/compose-feedback, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://developers.google.com/tink/faq/registration_errors, http://www.slf4j.org/codes.html#log4jDelegationLoop
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4C A2 0D 04 3A 83 E8 C0 6B 95 1D 80 F2 C1 A9 AB 6B C2 F3 8A F6 41 20 18 23 60 08 19 A0 9B F8 B7
+
+==========================================

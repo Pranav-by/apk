@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.familytime.parentalcontrol
+  SHA-256       : 00BCC90DD04F596735010FF27B445F5CC052C83B0FEDF886853B4563A01252FE
+  Android Group : Android13
+  Version       : 3.4.5.ps (code: 3316)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (33)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.GET_TASKS, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.providers.gsf.permisson.READ_GSERVICES, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.QUERY_ALL_PACKAGES, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS
+
+[Application Components]
+  Activities (40): io.familytime.parentalcontrol.androidcomponents.ui.activities.Child_SOS, io.familytime.parentalcontrol.androidcomponents.ui.activities.StudentNameView, io.familytime.parentalcontrol.androidcomponents.ui.activities.Child_PickMe, io.familytime.parentalcontrol.androidcomponents.ui.activities.Child_Profile, io.familytime.parentalcontrol.androidcomponents.ui.activities.Parent_Dashboard, io.familytime.parentalcontrol.androidcomponents.ui.activities.ChildUnAuth, io.familytime.parentalcontrol.androidcomponents.ui.activities.UnInstallApp, io.familytime.parentalcontrol.androidcomponents.ui.activities.TakePermissionsActivity, io.familytime.parentalcontrol.androidcomponents.ui.activities.SettingsScreen, io.familytime.parentalcontrol.androidcomponents.ui.activities.UnInstallProtectionScreen, io.familytime.parentalcontrol.androidcomponents.ui.activities.UnLockScreenActivity, io.familytime.parentalcontrol.androidcomponents.ui.activities.Child_TimeBank, io.familytime.parentalcontrol.androidcomponents.ui.activities.About, io.familytime.parentalcontrol.androidcomponents.ui.activities.AddStep1, io.familytime.parentalcontrol.androidcomponents.ui.activities.LockScreenView, io.familytime.parentalcontrol.androidcomponents.ui.activities.LoginQRCodeActivity, io.familytime.parentalcontrol.androidcomponents.ui.adddevicewizard.ActivationWizardActivity, io.familytime.parentalcontrol.androidcomponents.ui.activities.LoginErrorActivity, io.familytime.parentalcontrol.androidcomponents.ui.activities.Splash, io.familytime.parentalcontrol.androidcomponents.ui.activities.PassCodeProtectionScreen
+  Services   (21): com.google.android.gms.analytics.AnalyticsJobService, io.familytime.parentalcontrol.androidcomponents.services.TimerService, io.familytime.parentalcontrol.androidcomponents.services.Ft_ParentalControl, io.familytime.parentalcontrol.androidcomponents.services.ActivityRecognitionIntentService, io.familytime.parentalcontrol.androidcomponents.alarms.StartServiceFromJob, io.familytime.parentalcontrol.androidcomponents.services.WindowChangeDetectingService, io.familytime.parentalcontrol.androidcomponents.fcm.FCMIntentService, de.blinkt.openvpn.core.OpenVPNService, io.familytime.parentalcontrol.androidcomponents.services.ScreenIntentService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (28): io.familytime.parentalcontrol.rebornIntegration.locationModule.firebaselocation.FirebaseSaveLocationReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.familytime.parentalcontrol.androidcomponents.newLocationModule.receivers.GeofenceBroadcastReceiver, io.familytime.parentalcontrol.androidcomponents.receivers.ScreenReceiver, io.familytime.parentalcontrol.rebornIntegration.installAppModule.receivers.AppInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, io.familytime.parentalcontrol.androidcomponents.receivers.AppReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, io.familytime.parentalcontrol.rebornIntegration.contactWatchList.ContactsWatchlistReceiver, io.familytime.parentalcontrol.androidcomponents.receivers.DateTimeChangeReceiver, io.familytime.parentalcontrol.androidcomponents.receivers.MyDeviceAdminReceiver, io.familytime.parentalcontrol.rebornIntegration.appblocker.broadcast.ReceiverAppBlock, io.familytime.parentalcontrol.rebornIntegration.installAppModule.receivers.InstallAppsUploadReceiver, io.familytime.parentalcontrol.rebornIntegration.smsmodule.receiver.SmsBroadcastReceiver, io.familytime.parentalcontrol.rebornIntegration.locationModule.LocationUpdateReceiver, io.familytime.parentalcontrol.rebornIntegration.locationModule.firebaselocation.FirebaseLocationReceiver
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15014
+  Total Methods : 89524
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, http://goo.gl/8Rd3yj
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Aziz Ahmed, Organizational Unit: Soracode
+  Fingerprint : 90 F8 09 65 36 83 CC DB 4E 91 30 C7 0A 26 79 60 D3 C7 23 37 FE 27 88 BF 65 75 45 80 29 F2 D6 1A
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cta.liquorlineup
+  SHA-256       : 00A2D973476E967F884B1295FEFF3CEBBE4AFCD8E2D1A19CDD33F5DF5608E70B
+  Android Group : Android15
+  Version       : 12.2.6 (code: 19)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (22)]
+  android.permission.VIBRATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, com.cta.liquorlineup.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FLASHLIGHT
+
+[Application Components]
+  Activities (113): com.cta.liquorlineup.Subscription.SubscriptionsActivity, com.cta.liquorlineup.GiftCards.GiftCardActivity, com.cta.liquorlineup.Subscription.SubscribedListActivity, com.cta.liquorlineup.Cart.ActivityCartDetail, com.cta.liquorlineup.GiftCards.GiftCards, com.cta.liquorlineup.GiftCards.GiftCardPurchaseActivity, com.cta.liquorlineup.Subscriptions.SubscriptionEditActivity, com.cta.liquorlineup.Subscriptions.SubscriptionsDetailActivity, com.cta.liquorlineup.Search.SearchTypeSelectActivity, com.cta.liquorlineup.Rewards.FAQ_activity, com.cta.liquorlineup.Events.EventsCheckOut, com.cta.liquorlineup.Address.AddressEditActivity, com.cta.liquorlineup.Product.VideoDialogFragment, com.cta.liquorlineup.Payment.PaymentMethodActivity, com.cta.liquorlineup.Home.AccessbilityActivity, com.cta.liquorlineup.AdsPromotions.AddInternalinkActivity, com.cta.liquorlineup.Loyality.FAQ_activity_ABC, com.cta.liquorlineup.Loyality.LoyalityCardActivity, com.facebook.FacebookActivity, com.cta.liquorlineup.Loyality.KeyClubActivity
+  Services   (12): com.cta.liquorlineup.Utility.FusedLocationService, androidx.work.impl.foreground.SystemForegroundService, com.cta.liquorlineup.Utility.LoginService, androidx.room.MultiInstanceInvalidationService, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, com.cta.liquorlineup.FCM.FCMMessageReceiverService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.cta.liquorlineup.Home.MyBroadCastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, io.branch.referral.InstallListener, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (5): androidx.core.content.FileProvider, com.facebook.FacebookContentProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 47792
+  Total Methods : 299943
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: CTA Inc, Organizational Unit: Classic
+  Fingerprint : 61 63 01 D4 D8 67 9C A3 BD 99 10 7F 8B 85 58 4A 34 8B D9 1C AF 2B C4 71 A4 0C 4E E4 10 68 CE B4
+
+==========================================

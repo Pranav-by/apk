@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : motivational.life.quotes
+  SHA-256       : 0049F79CDE73907252FBA7FFB680C4504B45193149BECC30B6A8FB7B86565A27
+  Android Group : Android12L
+  Version       : 1.0.2 (code: 10002)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (13)]
+  com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.BILLING, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (31): com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.google.android.gms.tagmanager.TagManagerPreviewActivity, com.applovin.sdk.AppLovinWebViewActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.keyes.youtube.OpenYouTubePlayerActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, motivational.life.quotes.MainActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.bunkerpalace.cordova.YouTubeActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
+  Services   (18): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.tagmanager.TagManagerService, com.google.android.gms.measurement.AppMeasurementJobService, org.apache.cordova.firebase.FirebasePluginMessagingService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.applovin.impl.sdk.utils.AppKilledService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (14): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, org.apache.cordova.firebase.OnNotificationOpenReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, nl.xservices.plugins.ShareChooserPendingIntent, com.amazon.device.iap.ResponseReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (7): nl.xservices.plugins.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 32793
+  Total Methods : 205805
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(3): 11.5.5.0, 2.9.0.0, 2.10.1.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 3C DB EF 0C B9 2A A7 1A 51 17 92 3C FA 10 A2 9F 80 39 C4 3E C8 8D C7 A4 2E CA F7 67 9A 27 08 C6
+
+==========================================

@@ -1,0 +1,92 @@
+{
+  "sha256": "000B4FF116FEE312E3AA4D059785005E9F7AC516644CD69B7B3CF33A592BA7A3",
+  "filename": "000B4FF116FEE312E3AA4D059785005E9F7AC516644CD69B7B3CF33A592BA7A3.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.sm.funnysounds",
+  "version_name": "1.8.7",
+  "version_code": "88",
+  "min_sdk": "23",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.WRITE_SETTINGS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.READ_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.ironsource.sdk.controller.OpenUrlActivity",
+    "com.tapjoy.TJAdUnitActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.inmobi.ads.rendering.InMobiAdActivity",
+    "com.sm.smfmaincode.WelcomeScreenActivity",
+    "com.adcolony.sdk.AdColonyInterstitialActivity",
+    "com.adcolony.sdk.AdColonyAdViewActivity",
+    "com.tapjoy.TJContentActivity",
+    "com.sm.smfmaincode.MainActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.ironsource.sdk.controller.ControllerActivity",
+    "com.ironsource.sdk.controller.InterstitialActivity"
+  ],
+  "activity_count": 13,
+  "services": [
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.facebook.ads.AudienceNetworkContentProvider",
+    "com.squareup.picasso.PicassoProvider",
+    "com.ironsource.lifecycle.IronsourceLifecycleProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 12956,
+  "method_count": 67927,
+  "cert_fingerprint": "76 C8 4E 36 3C B5 D2 8E C9 90 AF E6 94 3D E9 19 6E F2 31 EC 56 29 04 07 D2 CB A6 29 D0 13 76 C8",
+  "cert_issuer": "Common Name: Silver Media",
+  "urls": [
+    "https://exoplayer.dev/issues/cleartext-not-permitted",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://developers.google.com/admob/android/test-ads#enable_test_devices",
+    "https://goo.gl/J1sWQy",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [
+    "7.2.3.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

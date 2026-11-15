@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : net.greward.app
+  SHA-256       : 00A4A544282418D77570F4F714E801A9BEADAC9D3D50B72D41CF17E57E044628
+  Android Group : Android12L
+  Version       : 1.0.35 (code: 1034)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (22)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, com.android.launcher.permission.INSTALL_SHORTCUT, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.USE_FULL_SCREEN_INTENT, android.permission.GET_TASKS, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.PACKAGE_USAGE_STATS, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (79): com.app.earncashmoney.ui.splash.Auth, com.app.earncashmoney.Wannads, com.app.earncashmoney.RevuActivity, com.app.earncashmoney.ui.more.HangActivity, com.app.earncashmoney.ui.splash.MoreDetails, com.app.earncashmoney.ui.more.IOSActivity, com.app.earncashmoney.ui.more.SurveyActivity, com.app.earncashmoney.ui.more.AndroidActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.app.earncashmoney.ui.more.ComputerActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.app.earncashmoney.FaceTec, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.app.earncashmoney.ui.MainActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.app.earncashmoney.ui.splash.Loader, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.tapjoy.TJAdUnitActivity, com.ironsource.sdk.controller.ControllerActivity, com.adgatemedia.sdk.activities.AdgateWebViewActivity
+  Services   (21): com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.adview.activity.FullscreenAdService, com.app.earncashmoney.HelloService, io.adjoe.sdk.AppTrackingService, io.adjoe.sdk.AppTrackingJob, io.adjoe.sdk.DeviceStatusService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService
+  Receivers  (19): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.adjoe.sdk.AppTrackingAlarmReceiver, io.adjoe.sdk.DeviceStatusTracker, io.adjoe.sdk.AdjoePackageInstallReceiver, io.adjoe.sdk.NotificationBroadcastReceiver, io.adjoe.sdk.AdjoeActionReceiver, io.adjoe.protection.PhoneVerificationBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.offertoro.sdk.sdk.OfferToroReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (9): io.adjoe.sdk.SharedPreferencesProvider, com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider, io.adjoe.sdk.DatabaseContentProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.vungle.warren.utility.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 35321
+  Total Methods : 182479
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://play.google.com/store/apps/details?id=, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(2): 4.5.0.4, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D7 35 62 71 6A 0A 7D E2 A5 9A 36 EF 87 3F 7E E4 E1 2C 82 93 5A 31 B2 36 ED 69 25 CC 63 70 35 E5
+
+==========================================

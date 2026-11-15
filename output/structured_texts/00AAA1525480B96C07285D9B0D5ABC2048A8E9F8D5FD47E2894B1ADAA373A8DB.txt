@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.alllatestnews.philippinesnews
+  SHA-256       : 00AAA1525480B96C07285D9B0D5ABC2048A8E9F8D5FD47E2894B1ADAA373A8DB
+  Android Group : Android15
+  Version       : 11.3 (code: 122)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.alllatestnews.philippinesnews.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (26): com.alllatestnews.philippinesnews.DetailHotTopicActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.android.billingclient.api.ProxyBillingActivity, com.alllatestnews.philippinesnews.HotTopicSearchActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.alllatestnews.philippinesnews.UserSettingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.alllatestnews.philippinesnews.StartupActivity, com.alllatestnews.philippinesnews.NotificationTopicActivity, com.alllatestnews.philippinesnews.CompactSiteActivity, com.alllatestnews.philippinesnews.SelectCountryActivity, com.alllatestnews.philippinesnews.MainActivity, com.alllatestnews.philippinesnews.SelectNewspapersActivity, com.alllatestnews.philippinesnews.ShowWebViewActivity, com.alllatestnews.philippinesnews.DetailSiteActivity, com.alllatestnews.philippinesnews.WebViewGoneActivity, com.google.android.gms.ads.AdActivity, com.alllatestnews.philippinesnews.InAppBillingActivity
+  Services   (12): com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.alllatestnews.philippinesnews.MyFirebaseMessagingService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 24795
+  Total Methods : 159852
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): http://[^\s]+(.jpg, .png, .gif))
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: TomDev, Organizational Unit: MobileApp, Organization: MobileApp, Locality: LA, State/Province: LA, Country: US
+  Fingerprint : DE 26 B0 96 35 C8 F4 F3 18 EF 57 2C 84 52 43 D0 4A 78 35 42 7D 48 8C 68 D5 C1 82 23 64 72 C6 D4
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.smg_ingelheim.androidapp
+  SHA-256       : 00AD1CB2E90E1EEC794780BE5EBB0491963A765C6532D12A2B2D241531B7B5A7
+  Android Group : Android12L
+  Version       : 4.3.12 (code: 400057)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (8)]
+  android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (2): io.schulportal.app.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (5): com.google.firebase.messaging.FirebaseMessagingService, com.capacitorjs.plugins.pushnotifications.MessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 7201
+  Total Methods : 49175
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DC 65 3C 2F A5 4B 0D B5 51 9A 03 E5 58 06 FF 99 B5 5F BD 01 BA 75 D5 74 FF 16 1E 61 7F 03 53 BF
+
+==========================================

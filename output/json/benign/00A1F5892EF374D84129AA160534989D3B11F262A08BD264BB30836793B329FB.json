@@ -1,0 +1,69 @@
+{
+  "sha256": "00A1F5892EF374D84129AA160534989D3B11F262A08BD264BB30836793B329FB",
+  "filename": "00A1F5892EF374D84129AA160534989D3B11F262A08BD264BB30836793B329FB.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.markany.marcode",
+  "version_name": "1.8.46",
+  "version_code": "96",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "com.markany.marcode.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.CAMERA"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "com.markany.marcode.MainActivity",
+    "com.markany.marcode.PopupWindow",
+    "com.markany.marcode.PdfViewActivity",
+    "com.markany.marcode.TextViewActivity",
+    "com.markany.marcode.OZViewActivity",
+    "com.markany.marcode.RDViewActivity",
+    "com.markany.marcode.HtmlViewActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.markany.marcode.VoiceViewActivity",
+    "com.markany.marcode.WebViewActivity",
+    "com.markany.marcode.UBSViewActivity",
+    "com.markany.marcode.PermissionActivity",
+    "com.markany.marcode.MArcodeScannerActivity"
+  ],
+  "activity_count": 13,
+  "services": [
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 3,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.google.mlkit.common.internal.MlKitInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11855,
+  "method_count": 74824,
+  "cert_fingerprint": "D7 F8 00 63 8B 63 28 B6 B5 90 EB 7C 83 30 1E 06 99 A9 B6 B3 0B 5C AB 95 7F 25 A8 55 FB B7 D3 FA",
+  "cert_issuer": "Common Name: markany, Organizational Unit: markany, Organization: markany, Locality: seoul, State/Province: seoul, Country: kr",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

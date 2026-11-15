@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.holidates.energy
+  SHA-256       : 00A5B1637083F827D21851F320BBE433B4419233A45AA91CCEDD98EA779E30EA
+  Android Group : Android12
+  Version       : 2.5 (code: 27)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (3)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_CONTACTS
+
+[Application Components]
+  Activities (7): org.holidates.app.act.MyResRawWebActivity, org.holidates.energy.appui.activity.MatrixWebActivity, org.holidates.energy.appui.prefers.MainAppSettings, org.holidates.energy.appui.together.TogetherActivity, org.holidates.energy.appui.MainAppActivity, org.holidates.energy.appui.about.AboutArcanaActivity, org.holidates.energy.appui.today.TodayActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3533
+  Total Methods : 23280
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Yuriy Krymlov, Organization: Softworks, Locality: Kyiv, Country: UA
+  Fingerprint : 20 D3 CE CC 3A 9E 9D 22 5A 22 79 F8 E8 93 E0 7C BF 0F D2 9A 28 4C 17 AE 84 46 4A CA 9D 25 30 00
+
+==========================================

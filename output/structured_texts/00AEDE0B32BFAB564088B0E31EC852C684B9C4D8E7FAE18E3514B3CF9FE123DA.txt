@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : englishbiologyphysicschemistry.klbmathematics.kcsekcpe.form1_4englishcompletenotes
+  SHA-256       : 00AEDE0B32BFAB564088B0E31EC852C684B9C4D8E7FAE18E3514B3CF9FE123DA
+  Android Group : Android16
+  Version       : CBC-Notes-Exams-KILEA-KJSEA-KPSEA-Pastpapers (code: 48)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 36
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, englishbiologyphysicschemistry.klbmathematics.kcsekcpe.form1_4englishcompletenotes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (247): com.example.carwash.a14, com.example.carwash.d17, com.example.carwash.a15, com.example.carwash.a21, com.example.carwash.a17, com.example.carwash.a24, com.example.carwash.a4, com.example.carwash.d104, com.example.carwash.d26, com.example.carwash.d1, com.example.carwash.d79, com.example.carwash.d74, com.example.carwash.d13, com.example.carwash.d62, com.example.carwash.a39, com.example.carwash.form3, com.example.carwash.d89, com.example.carwash.d29, com.example.carwash.TableofContents, com.example.carwash.d63
+  Services   (5): androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (9): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17632
+  Total Methods : 104980
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 90 D9 47 B0 64 84 0E 55 D9 7A 1C 0E 5A 26 C6 F3 F3 B2 16 41 F6 5B 0B F2 33 53 0F B4 73 A5 89 7F
+
+==========================================

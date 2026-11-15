@@ -1,0 +1,89 @@
+{
+  "sha256": "00A8FBE2E2FCCF61AA727FFB0C576D1A536C76F5DBEA7F6C01DF97C293B81348",
+  "filename": "00A8FBE2E2FCCF61AA727FFB0C576D1A536C76F5DBEA7F6C01DF97C293B81348.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.emerson.AmsDeviceConfigurator",
+  "version_name": "1.4.25232.2",
+  "version_code": "37",
+  "min_sdk": "29",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.USE_FINGERPRINT",
+    "com.emerson.AmsDeviceConfigurator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.BLUETOOTH",
+    "android.permission.READ_PRIVILEGED_PHONE_STATE",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.BLUETOOTH_SCAN",
+    "android.permission.BLUETOOTH_CONNECT",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 17,
+  "activities": [
+    "crc648c973eb0ab36b2e5.StartupActivity",
+    "crc648c973eb0ab36b2e5.SplashActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "crc648c973eb0ab36b2e5.MainActivity",
+    "crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity",
+    "androidx.biometric.DeviceCredentialHandlerActivity",
+    "com.pairip.licensecheck.LicenseActivity",
+    "crc64a0e0a82d0db9a07d.IntermediateActivity"
+  ],
+  "activity_count": 8,
+  "services": [
+    "crc64396a3fe5f8138e3f.KeepAliveService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.measurement.AppMeasurementService"
+  ],
+  "service_count": 4,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver",
+    "crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver",
+    "crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver"
+  ],
+  "receiver_count": 6,
+  "providers": [
+    "com.pairip.licensecheck.LicenseContentProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "xamarin.essentials.fileProvider",
+    "androidx.startup.InitializationProvider",
+    "mono.MonoRuntimeProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 10557,
+  "method_count": 74038,
+  "cert_fingerprint": "53 A9 EF 52 EF E0 27 58 7E EF BB C2 CB B4 62 2C 93 56 12 BA BB C1 5B 9C 38 81 9D 6F 5B AB C6 27",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#",
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

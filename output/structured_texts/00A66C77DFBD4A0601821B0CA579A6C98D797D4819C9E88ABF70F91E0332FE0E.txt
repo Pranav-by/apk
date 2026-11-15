@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.swiss4ward.edfguidelines
+  SHA-256       : 00A66C77DFBD4A0601821B0CA579A6C98D797D4819C9E88ABF70F91E0332FE0E
+  Android Group : Android12L
+  Version       : 1.6.5 (code: 24)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 32
+
+[Permissions (4)]
+  android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (10): com.swiss4ward.edfguidelines.view.activities.LearningObjectActivity, com.swiss4ward.edfguidelines.view.activities.BaseActivity, com.swiss4ward.edfguidelines.view.activities.SettingsActivity, com.swiss4ward.edfguidelines.view.activities.SearchResultsActivity, com.swiss4ward.edfguidelines.view.activities.RootIndexActivity, com.swiss4ward.edfguidelines.view.activities.IndexActivity, com.swiss4ward.edfguidelines.view.activities.ImageActivity, com.swiss4ward.edfguidelines.view.activities.InitialActivity, com.swiss4ward.edfguidelines.view.activities.RelatedActivity, com.swiss4ward.edfguidelines.view.activities.SplashActivity
+  Services   (1): com.swiss4ward.edfguidelines.datamodel.DataDownloadService
+  Receivers  (1): com.swiss4ward.edfguidelines.datamodel.RemoteDataModel
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6325
+  Total Methods : 47522
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Swiss4ward Europe
+  Fingerprint : 83 BD 07 5A 02 B8 4D 5D 4A 71 34 9B A5 FC C0 8A B4 A0 C0 CF B6 4D FD 21 CB 55 36 EB 6E 04 9A 82
+
+==========================================

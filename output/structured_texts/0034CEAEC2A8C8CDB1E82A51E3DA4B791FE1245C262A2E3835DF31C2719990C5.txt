@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.khal.rkf
+  SHA-256       : 0034CEAEC2A8C8CDB1E82A51E3DA4B791FE1245C262A2E3835DF31C2719990C5
+  Android Group : Android12
+  Version       : 1.4.60.1 (code: 30)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (28)]
+  android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.CHANGE_NETWORK_STATE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, com.google.android.apps.photos.permission.GOOGLE_PHOTOS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.truecaller.permission.sdk.internal.read_account_state, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE
+
+[Application Components]
+  Activities (226): co.classplus.app.ui.tutor.feemanagement.feerecord.FeeRecordActivity, co.classplus.app.ui.common.settings.SettingsActivity, co.classplus.app.ui.tutor.attendance.AttendanceActivity, co.classplus.app.ui.tutor.studentDetails.StudentDetailsActivity, co.classplus.app.ui.common.userprofile.UserProfileActivity, co.classplus.app.ui.tutor.createclass.CreateClassActivity, co.classplus.app.ui.common.loginV2.LoginLandingActivity, co.classplus.app.ui.common.chat.chatwindow.ChatWindowActivity, co.classplus.app.ui.student.testdetails.StudentTestPerformanceActivity, co.classplus.app.ui.student.testdetails.givetest.WebTestActivity, co.classplus.app.ui.tutor.studentDetails.studentattendance.StudentAttendanceActivity, co.classplus.app.ui.common.signup.onboarding.OnboardingActivity, co.classplus.app.ui.parent.home.ParentHomeActivity, co.classplus.app.ui.common.userprofile.paymentsfragment.paymentslisting.PaymentsListingActivity, co.classplus.app.ui.tutor.createtest.selecttopic.PreviewTestActivity, co.classplus.app.ui.common.edituserprofile.EditUserProfile, co.classplus.app.ui.common.pickcontact.PickContactActivity, co.classplus.app.ui.common.chatV2.selectrecipient.SelectRecipientActivity, co.classplus.app.ui.common.signup.onboarding.RevampOnBoardingActivity, co.classplus.app.ui.common.utils.multipleselection.MultipleSelectionActivity
+  Services   (39): com.webengage.sdk.android.ExecutorService, com.webengage.sdk.android.EventLogService, com.webengage.sdk.android.NotificationClickHandlerService, com.webengage.sdk.android.WebEngageJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, live.hms.video.services.HMSScreenCaptureService, com.google.android.gms.analytics.AnalyticsJobService, co.classplus.app.ui.tutor.feemanagement.downloadreceipt.DownloadPaymentReceiptService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, co.classplus.app.ui.common.attachment.AttachmentUploadService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.uxcam.service.HttpPostService, co.classplus.app.ui.antmedia.ui.session.LiveClassService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, co.classplus.app.ui.antmedia.ui.session.screensharing.ScreenCaptureService, io.antmedia.android.broadcaster.LiveVideoBroadcaster, co.classplus.app.ui.tutor.batchdetails.resources.playvideo.youtubeanalytics.YoutubeAnalyticsService
+  Receivers  (24): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, co.classplus.app.ui.common.splash.UtmReceiver, co.classplus.app.utils.receiver.SMSRetrieverBroadcastReceiver, co.classplus.app.ui.common.videostore.batchdetail.FileDownloadWorker$ZIPFileReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.razorpay.RzpTokenReceiver, com.freshchat.consumer.sdk.receiver.FreshchatReceiver, com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.webengage.sdk.android.WebEngageReceiver, live.hms.video.services.LogAlarmManager, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (9): co.classplus.app.utils.ClassplusFileProvider, androidx.core.content.FileProvider, droidninja.filepicker.utils.FilePickerProvider, com.freshchat.consumer.sdk.provider.FreshchatInitProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 30322
+  Total Methods : 183072
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 1.4.60.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0C 13 88 A7 08 1E 2E EC 97 B1 D4 8F CC 00 50 7D D1 89 37 D7 B7 41 2A 08 CA 13 F1 48 69 61 A9 04
+
+==========================================

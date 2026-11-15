@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.exevio.grillmania
+  SHA-256       : 00A582CC3A7ABAE49C1A0E5C45FCE8FD92C48D27AEE21F47765779195F6B2BEF
+  Android Group : Android15
+  Version       : 1.0.3 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 35
+
+[Permissions (2)]
+  android.permission.WRITE_EXTERNAL_STORAGE, android.permission.INTERNET
+
+[Application Components]
+  Activities (5): com.ansca.corona.VideoActivity, com.ansca.corona.purchasing.StoreActivity, com.ansca.corona.notifications.OnNotificationReceiverActivity, com.ansca.corona.CoronaActivity, com.ansca.corona.CameraActivity
+  Services   (1): com.ansca.corona.CoronaService
+  Receivers  (3): com.ansca.corona.notifications.AlarmManagerBroadcastReceiver, com.ansca.corona.SystemStartupBroadcastReceiver, com.ansca.corona.notifications.StatusBarBroadcastReceiver
+  Providers  (2): com.ansca.corona.storage.FileContentProvider, com.ansca.corona.camera.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 676
+  Total Methods : 4162
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://github.com/coronalabs/corona
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Edi Budimilic, Organizational Unit: Owner, Organization: Exevio, Locality: Rijeka, State/Province: PG, Country: hr
+  Fingerprint : EF C3 A1 FB FA 32 3A 56 45 01 F1 F9 EA 02 7D 9A 91 23 5C 0A F9 1E 02 07 D4 CA FB 2E C2 C0 B2 53
+
+==========================================

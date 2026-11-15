@@ -1,0 +1,72 @@
+{
+  "sha256": "00A73ADDD2E632E6D093A6C7AD4930228EC0F1F85BE16EEB2EB95A7CCDA43EE9",
+  "filename": "00A73ADDD2E632E6D093A6C7AD4930228EC0F1F85BE16EEB2EB95A7CCDA43EE9.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.fib.faidaatlite",
+  "version_name": "2.0.5",
+  "version_code": "2025",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.READ_MEDIA_AUDIO",
+    "com.fib.faidaatlite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_MEDIA_VIDEO"
+  ],
+  "permission_count": 12,
+  "activities": [
+    "com.fib.faidaatlite.MainActivity",
+    "com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance",
+    "com.wongpiwat.trust_location.TrustLocationPlugin",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity",
+    "com.yalantis.ucrop.UCropActivity"
+  ],
+  "activity_count": 10,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "io.flutter.plugins.imagepicker.ImagePickerFileProvider",
+    "com.crazecoder.openfile.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3679,
+  "method_count": 20928,
+  "cert_fingerprint": "CB 2B 75 33 7D F7 07 E4 CD AD 1B CE D8 C2 1C 36 EA 92 FE F1 67 D5 3A 57 EA D5 C8 F2 2C 90 24 0A",
+  "cert_issuer": "Common Name: Faida Investment Bank, Organizational Unit: Faida, Organization: Faida, Locality: Nairobi, State/Province: Kenya, Country: 254",
+  "urls": [
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

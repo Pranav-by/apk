@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.great.chatbotagriculture1
+  SHA-256       : 0040C31B918DF64B4AEA374AA8E550DAADF60D45D261A53DF93E02B49FFC3D07
+  Android Group : Android16
+  Version       : 1.0 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.great.chatbotagriculture1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (14): com.great.chatbotagriculture1.MainActivity, com.google.android.gms.ads.AdActivity, com.great.chatbotagriculture1.SavedMessagesActivity, com.great.chatbotagriculture1.DomainSelectionActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.great.chatbotagriculture1.LanguageSelectionActivity, com.google.android.gms.common.api.GoogleApiActivity, com.great.chatbotagriculture1.admin.AdminReportsActivity, com.pairip.licensecheck.LicenseActivity, com.great.chatbotagriculture1.NotificationSettingsActivity, com.great.chatbotagriculture1.SimpleNotificationActivity, com.great.chatbotagriculture1.TestActivity, com.great.chatbotagriculture1.HomeActivity
+  Services   (5): com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.great.chatbotagriculture1.receivers.BootCompletedReceiver, com.great.chatbotagriculture1.receivers.RescheduleAlarmsReceiver, com.great.chatbotagriculture1.receivers.NotificationReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (3): androidx.startup.InitializationProvider, com.pairip.licensecheck.LicenseContentProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17940
+  Total Methods : 108039
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 42 23 B7 C2 FF 05 D6 3B A0 C2 38 24 09 C0 01 C3 C6 BB 9F 7D 31 AA E6 23 FB C7 3F E3 3D E2 36 73
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : digifit.android.virtuagym.pro.trainwithjulie
+  SHA-256       : 00A8B9951EE187A968EFFD89AC712D69892AC6D838ED025630ED3072340CB564
+  Android Group : Android13
+  Version       : 10.6.3 (code: 4300605)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (27)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.BLUETOOTH_ADVERTISE, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_CONTACTS, android.permission.CHANGE_WIFI_STATE, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.CAMERA, android.permission.INTERNET, android.permission.ACTIVITY_RECOGNITION, android.permission.READ_EXTERNAL_STORAGE, android.permission.BLUETOOTH_SCAN, com.android.vending.BILLING
+
+[Application Components]
+  Activities (101): digifit.android.virtuagym.presentation.screen.training.summary.view.TrainingSummaryActivity, com.android.billingclient.api.ProxyBillingActivity, digifit.android.virtuagym.presentation.screen.workout.history.view.WorkoutHistoryActivity, digifit.android.virtuagym.presentation.screen.activity.player.view.ActivityPlayerActivity, digifit.android.virtuagym.presentation.screen.workout.editor.view.WorkoutEditorActivity, digifit.android.virtuagym.presentation.screen.scanner.QrCaptureActivity, digifit.android.virtuagym.presentation.screen.onboarding.pro.view.ProIntakeActivity, digifit.android.virtuagym.presentation.screen.activity.detail.view.ActivityDetailActivity, digifit.android.ui.activity.presentation.screen.training.gpstracking.view.GpsTrackerActivity, digifit.android.features.achievements.presentation.view.AchievementActivity, digifit.android.virtuagym.presentation.screen.schedule.overview.view.ScheduleActivity, digifit.android.common.presentation.screen.webpage.view.WebPageActivity, digifit.android.virtuagym.presentation.screen.myplan.view.MyPlanActivity, digifit.android.common.presentation.screen.devsettings.view.DevSettingsActivity, digifit.android.virtuagym.presentation.screen.onboarding.habit.view.HabitIntakeActivity, digifit.android.ui.activity.presentation.screen.activity.browser.view.ActivityBrowserActivity, digifit.android.features.vod.presentation.screen.overview.view.VideoWorkoutOverviewActivity, digifit.android.ui.activity.presentation.screen.training.gpsmap.view.GpsMapActivity, digifit.android.features.notifications.presentation.NotificationPermissionActivity, digifit.android.virtuagym.presentation.screen.challenge.overview.view.ChallengeOverviewActivity
+  Services   (29): com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService, com.google.android.gms.cast.framework.ReconnectionService, com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.tagmanager.TagManagerService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.qingniu.scale.measure.ble.ScaleBleService, com.qingniu.scale.measure.broadcast.ScaleBroadcastService, com.google.android.gms.measurement.AppMeasurementService, com.qingniu.heightscale.ble.HeightScaleBleService, androidx.room.MultiInstanceInvalidationService, digifit.android.features.devices.domain.model.jstyle.device.go.NeoHealthGoService, digifit.android.features.devices.domain.heartrate.BluetoothDeviceHeartRateSessionService, digifit.android.gps_tracking.service.GpsTrackingSessionService
+  Receivers  (18): androidx.work.impl.diagnostics.DiagnosticsReceiver, digifit.android.ui.activity.presentation.screen.training.gpstracking.model.GpsTrackingLocationProviderStatusChangedReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, digifit.android.virtuagym.domain.reminder.AlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, digifit.android.virtuagym.data.notification.reminder.ReminderBootReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.analytics.AnalyticsReceiver, digifit.android.features.devices.domain.model.jstyle.device.go.reminder.receiver.call.NeoHealthGoIncomingCallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 57985
+  Total Methods : 243302
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: DIGIFiT, Organizational Unit: DIGIFiT, Organization: DIGIFiT, Locality: Amsterdam, State/Province: NH, Country: NL
+  Fingerprint : 06 09 57 3E D9 92 08 95 4E A1 26 1C 07 C0 37 DE 92 DC 5C C2 50 30 2D 59 56 CC 21 2D 27 71 73 D5
+
+==========================================

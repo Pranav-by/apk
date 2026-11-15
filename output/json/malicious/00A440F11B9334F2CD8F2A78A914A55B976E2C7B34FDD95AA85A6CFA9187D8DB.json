@@ -1,0 +1,79 @@
+{
+  "sha256": "00A440F11B9334F2CD8F2A78A914A55B976E2C7B34FDD95AA85A6CFA9187D8DB",
+  "filename": "00A440F11B9334F2CD8F2A78A914A55B976E2C7B34FDD95AA85A6CFA9187D8DB.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.mhm.cardgames",
+  "version_name": "21.1.2.20",
+  "version_code": "211220",
+  "min_sdk": "16",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.mhm.cardgames.Main",
+    "com.unity3d.services.ads.adunit.AdUnitActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11827,
+  "method_count": 67207,
+  "cert_fingerprint": "E7 4E 1D 34 0F E9 A9 40 56 1D BC F9 D6 7F 30 9F B0 97 49 CD 65 54 17 A7 C0 5E A2 C7 C0 F4 44 40",
+  "cert_issuer": "Common Name: MHM",
+  "urls": [
+    "https://play.google.com/store/apps/details?id="
+  ],
+  "ip_addresses": [
+    "1.0.0.1",
+    "21.1.2.20"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

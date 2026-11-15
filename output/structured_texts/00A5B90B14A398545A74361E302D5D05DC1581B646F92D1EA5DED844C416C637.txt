@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.guardianlifeinsurance.myguardian
+  SHA-256       : 00A5B90B14A398545A74361E302D5D05DC1581B646F92D1EA5DED844C416C637
+  Android Group : Android12
+  Version       : 70 (code: 70)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 31
+
+[Permissions (11)]
+  android.permission.FOREGROUND_SERVICE, android.permission.CAMERA, android.permission.GET_ACCOUNTS, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.CALL_PHONE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (76): com.guardianlifeinsurance.myguardian.view.activity.proposal.ProposalInfoListActivity, com.guardianlifeinsurance.myguardian.view.activity.GopCustomerFeedbackActivity, com.guardianlifeinsurance.myguardian.view.activity.claim.ClaimIndividual, com.guardianlifeinsurance.myguardian.view.activity.proposal.manpower.ProposalManPowerActivity, com.guardianlifeinsurance.myguardian.view.activity.applynow.ApplyNowOptionsActivity, com.guardianlifeinsurance.myguardian.view.activity.claim.ClaimMicro, com.guardianlifeinsurance.myguardian.view.activity.GopRequest, com.guardianlifeinsurance.myguardian.view.activity.claim.ClaimGroup, com.guardianlifeinsurance.myguardian.view.activity.ProductAjibonPensionActivity, com.guardianlifeinsurance.myguardian.view.activity.ShowLocationOnMapActivity, com.guardianlifeinsurance.myguardian.view.activity.gop.GOPActivity, com.guardianlifeinsurance.myguardian.view.activity.applynow.SearchByATNActivity, com.guardianlifeinsurance.myguardian.view.activity.EnlistProposalActivity, com.guardianlifeinsurance.myguardian.view.activity.PolicyInformationDetailsActivity, com.guardianlifeinsurance.myguardian.view.activity.businessChainView.BusinessChainViewActivity, com.guardianlifeinsurance.myguardian.view.activity.claim.ClaimTracking, com.guardianlifeinsurance.myguardian.view.activity.gop.tracking.GOPTrackingActivity, com.guardianlifeinsurance.myguardian.view.activity.PaymentActivity, com.guardianlifeinsurance.myguardian.view.activity.GuardianBracBimaActivity, com.guardianlifeinsurance.myguardian.view.activity.ProductTermLife
+  Services   (9): com.guardianlifeinsurance.myguardian.firebase.MyFirebaseInstanceService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.sslwireless.sslcommerzlibrary.view.custom.SSLSmsBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.crashlytics.android.CrashlyticsInitProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14223
+  Total Methods : 87900
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(4): 1.4.1.19, 2.6.1.23, 2.9.1.23, 1.2.7.19
+
+[Certificate]
+  Issuer      : Common Name: Sudip Podder, Organization: SSL Wirelesss
+  Fingerprint : ED 8A 8A D7 40 AE 9E 9C 2F 52 59 2D DC E0 AE 01 86 CA 10 29 F9 43 AB A5 25 58 5D F9 D7 24 00 F5
+
+==========================================

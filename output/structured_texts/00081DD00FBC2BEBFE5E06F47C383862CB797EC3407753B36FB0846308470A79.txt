@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.novatoon
+  SHA-256       : 00081DD00FBC2BEBFE5E06F47C383862CB797EC3407753B36FB0846308470A79
+  Android Group : Android15
+  Version       : 1.0.0 (code: 21)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (21)]
+  android.permission.DETECT_SCREEN_CAPTURE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.novatoon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (6): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.pairip.licensecheck.LicenseActivity, com.google.android.gms.common.api.GoogleApiActivity, app.notifee.core.NotificationReceiverActivity, com.novatoon.MainActivity, androidx.credentials.playservices.HiddenActivity
+  Services   (14): androidx.credentials.playservices.CredentialProviderMetadataHolder, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, app.notifee.core.ForegroundService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, app.notifee.core.ReceiverService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, app.notifee.core.AlarmPermissionBroadcastReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, app.notifee.core.BlockStateBroadcastReceiver, app.notifee.core.NotificationAlarmReceiver, app.notifee.core.RebootBroadcastReceiver
+  Providers  (11): com.google.firebase.provider.FirebaseInitProvider, com.pairip.licensecheck.LicenseContentProvider, com.facebook.react.modules.blob.BlobProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.ReactNativeBlobUtil.Utils.FileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, io.invertase.notifee.NotifeeInitProvider, com.imagepicker.ImagePickerProvider, expo.modules.clipboard.ClipboardFileProvider, expo.modules.filesystem.FileSystemFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 14536
+  Total Methods : 84628
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://docs.swmansion.com/react-native-reanimated/docs/guides/troubleshooting#mismatch-between-java-code-version-and-c-code-version
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 47 E4 08 1B AB A1 F9 84 3E 5C FB C1 2E 00 06 B3 77 C6 C5 CB AD 88 22 4F 53 03 37 4F EC A1 AE E6
+
+==========================================

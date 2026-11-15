@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.orange.car.transform.racing
+  SHA-256       : 005951D5D7C42EC70859DAC4DA803AB3BA64867639C15ABF2CAA5833071F79F6
+  Android Group : Android12
+  Version       : 1 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (24)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, com.orange.car.transform.racing.permission.C2D_MESSAGE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.htc.launcher.permission.READ_SETTINGS, android.permission.ACCESS_NETWORK_STATE, com.oppo.launcher.permission.WRITE_SETTINGS, com.htc.launcher.permission.UPDATE_SHORTCUT
+
+[Application Components]
+  Activities (6): com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.BootUpReceiver, com.unity.purchasing.googleplay.VRPurchaseActivity, com.onesignal.PermissionsActivity, com.unity3d.player.UnityPlayerActivity
+  Services   (9): com.google.firebase.iid.FirebaseInstanceIdService, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.onesignal.NotificationRestoreService, com.onesignal.GcmIntentService, com.onesignal.RestoreJobService, com.onesignal.RestoreKickoffJobService, com.onesignal.GcmIntentJobService
+  Receivers  (6): com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, com.onesignal.UpgradeReceiver, com.onesignal.GcmBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.onesignal.NotificationOpenedReceiver
+  Providers  (1): com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4835
+  Total Methods : 27783
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://opensource.org/licenses/MIT, https://daneden.me/animate
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 87 05 1F C8 84 0B 7F E0 08 93 B3 8D 83 FE B0 12 BB C6 D0 D8 12 56 4D 30 8B 02 CF 87 36 7F 9E BE
+
+==========================================

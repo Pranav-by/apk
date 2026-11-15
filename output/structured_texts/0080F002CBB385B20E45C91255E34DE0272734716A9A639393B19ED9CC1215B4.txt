@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : in.ecap.www.ecapsoftwareusb
+  SHA-256       : 0080F002CBB385B20E45C91255E34DE0272734716A9A639393B19ED9CC1215B4
+  Android Group : Android16
+  Version       : 6.7.15 (code: 40)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 36
+
+[Permissions (1)]
+  in.ecap.www.ecapsoftwareusb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): in.ecap.www.ecapsoftwareusb.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 10905
+  Total Methods : 145550
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): http://purl.org/dc/terms/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DB 15 0B 0F 42 91 AB 4E 28 07 96 36 B2 D2 A3 03 BF 3A 68 75 AE 42 CB 3E 17 CA 9A 38 A0 37 F0 7F
+
+==========================================

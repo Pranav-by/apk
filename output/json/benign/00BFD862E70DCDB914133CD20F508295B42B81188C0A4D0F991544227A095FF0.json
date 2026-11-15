@@ -1,0 +1,50 @@
+{
+  "sha256": "00BFD862E70DCDB914133CD20F508295B42B81188C0A4D0F991544227A095FF0",
+  "filename": "00BFD862E70DCDB914133CD20F508295B42B81188C0A4D0F991544227A095FF0.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.darkurio.tastytipcalculator",
+  "version_name": "2.0.2",
+  "version_code": "4",
+  "min_sdk": "21",
+  "target_sdk": "36",
+  "permissions": [
+    "com.darkurio.tastytipcalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 1,
+  "activities": [
+    "com.darkurio.tastytipcalculator.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2395,
+  "method_count": 11229,
+  "cert_fingerprint": "B8 81 8C 61 06 B6 7D 21 F7 DA EA B3 F3 F8 29 68 83 00 55 E8 48 87 EB 3A D0 4D 31 19 90 FF FC 44",
+  "cert_issuer": "Common Name: Johnson Wong, Locality: Vancouver, State/Province: BC, Country: CA",
+  "urls": [
+    "https://goo.gle/compose-feedback",
+    "https://youtrack.jetbrains.com/issue/KT-55980"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.argenprop
+  SHA-256       : 0070925CC434EB85D3B889D5E66B7079513C4274FCDBFE9246AEF2DD12B41629
+  Android Group : Android15
+  Version       : 40.8.3 (code: 300010233)
+
+[SDK Information]
+  Minimum SDK   : 27
+  Target SDK    : 35
+
+[Permissions (25)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE, android.permission.USE_BIOMETRIC, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT, com.argenprop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_FINE_LOCATION, com.argenprop.permission.C2D_MESSAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (85): com.argenprop.front.screens.aviso.contact.phone.AvisoContactPhoneActivity, com.argenprop.mvp.searchresults.container.activity.SearchResultsActivity, com.argenprop.front.screens.loginandregistration.login.hub.LoginActivity, com.argenprop.front.screens.aviso.contact.done.AvisoContactDoneActivity, com.argenprop.front.screens.deeplink.splash.DeepLinkSplashActivity, com.argenprop.front.screens.deeplink.searchresults.DeepLinkSearchResultsActivity, com.argenprop.front.screens.deeplink.activacionalerta.DeepLinkActivacionAlertaActivity, com.argenprop.front.screens.deeplink.webview.DeepLinkWebviewActivity, com.argenprop.front.screens.home.misfavoritos.detail.TableroDetailActivity, com.argenprop.front.screens.deeplink.registracionexitosa.DeepLinkRegistracionExitosaActivity, com.argenprop.front.screens.aviso.ficha.favorito.emprendimiento.AvisoDetailFavoritoEmprendimientoActivity, com.argenprop.front.screens.aviso.gallery.AvisoGalleryActivity, com.argenprop.front.screens.home.misfavoritos.comments.ComentariosFavoritosNotificationActivity, com.argenprop.front.screens.splash.SplashActivity, com.argenprop.front.screens.locationautocomplete.LocationAutocompleteActivity, com.argenprop.front.screens.home.HomeActivity, com.argenprop.front.screens.filtersuggestions.FilterSuggestionsActivity, com.argenprop.front.screens.home.misalertas.results.SavedSearchResultsActivity, com.argenprop.front.screens.aviso.contact.message.AvisoContactMessageActivity, com.argenprop.front.screens.home.countries.webview.CountriesWebviewActivity
+  Services   (18): androidx.camera.core.impl.MetadataHolderService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.tagmanager.TagManagerService, androidx.room.MultiInstanceInvalidationService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.argenprop.core.notifications.ArgenpropFirebaseMessagingService
+  Receivers  (15): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.argenprop.desktopwidget.QuickAccessWidgetProvider, com.argenprop.desktopwidget.SearchWidgetProvider, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.argenprop.core.notifications.NotificationDismissedReceiver
+  Providers  (5): com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 66434
+  Total Methods : 359559
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: agea
+  Fingerprint : 46 4B 01 9B 9B 92 C7 12 84 D4 68 01 03 74 64 EE 0C 48 68 32 CE A0 69 60 D4 52 4F 92 85 87 D3 FD
+
+==========================================

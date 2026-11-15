@@ -1,0 +1,84 @@
+{
+  "sha256": "00A7636608D8F705581C1CA06840FE539947DC2E8E762461DEB45DD40FE16615",
+  "filename": "00A7636608D8F705581C1CA06840FE539947DC2E8E762461DEB45DD40FE16615.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.sctcstudios_happyracingonline",
+  "version_name": "28",
+  "version_code": "28",
+  "min_sdk": "26",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.sctcstudios_happyracingonline.webgizlilik",
+    "com.sctcstudios_happyracingonline.web",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.sctcstudios_happyracingonline.girisekrani",
+    "com.sctcstudios_happyracingonline.MainActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 8,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+  ],
+  "receiver_count": 9,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14536,
+  "method_count": 84892,
+  "cert_fingerprint": "5D 73 21 ED CF 16 82 4D 69 E8 DC 9C 21 C5 7A 15 71 F2 06 4B BE 4A 03 B0 E7 5A B3 3C 3E 55 8F 99",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

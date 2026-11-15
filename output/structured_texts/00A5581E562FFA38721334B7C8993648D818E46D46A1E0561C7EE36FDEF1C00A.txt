@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.lagofast.mobile.acclerater
+  SHA-256       : 00A5581E562FFA38721334B7C8993648D818E46D46A1E0561C7EE36FDEF1C00A
+  Android Group : Android14
+  Version       : 1.14.2 (code: 11402)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (23)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, com.android.permission.GET_INSTALLED_APPS, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (49): com.lagofast.mobile.acclerater.v.SetPwdActivity, com.facebook.FacebookActivity, com.lagofast.mobile.acclerater.v.SearchActivity, com.facebook.CustomTabMainActivity, com.vk.id.internal.auth.AuthActivity, com.vk.id.test.TestAuthProviderActivity, com.facebook.CustomTabActivity, com.lagofast.mobile.acclerater.v.RegisterActivity, com.luck.picture.lib.basic.PictureSelectorSupporterActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, net.aihelp.ui.HostActivity, com.google.android.gms.common.api.GoogleApiActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, androidx.compose.ui.tooling.PreviewActivity, net.aihelp.ui.preview.PreviewActivity, com.alipay.sdk.app.H5PayActivity, com.blankj.utilcode.util.UtilsTransActivity, com.alipay.sdk.app.H5AuthActivity, com.alipay.sdk.app.PayResultActivity, com.alipay.sdk.app.AlipayResultActivity
+  Services   (13): com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.luck.picture.lib.service.ForegroundService, com.lagofast.mobile.acclerater.tool.xapk.apks.installer.rootless.RootlessSAIPIService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.qiyou.floatTranslation.core.TranslateBallFloatService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.qeeyou.qyproxy.core.QyProxyService, com.blankj.utilcode.util.MessengerUtils$ServerService
+  Receivers  (5): com.qeeyou.qyvpn.utils.QyAccReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (13): com.petterp.floatingx.assist.FxContentProvider, com.qy.log.recorder.QyLogProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, com.qeeyou.qyvpn.utils.QyAccProvider, androidx.startup.InitializationProvider, com.lagofast.mobile.acclerater.tool.xapk.InstallFileProvider, com.luck.picture.lib.basic.PictureFileProvider, com.blankj.utilcode.util.UtilsFileProvider, org.lzh.framework.updatepluginlib.util.UpdateInstallProvider, com.lzf.easyfloat.EasyFloatInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 29195
+  Total Methods : 167608
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1A 53 F3 A6 26 22 29 D5 DF 99 35 FD CB 61 50 0F 22 47 49 55 ED 34 26 C9 81 69 54 26 EB 06 BC A6
+
+==========================================

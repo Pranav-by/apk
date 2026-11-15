@@ -1,0 +1,66 @@
+{
+  "sha256": "00A4AEEEA9A00A60D2A6503C547EEF25A9E4D13651CBD725B4499F26EB23CCA3",
+  "filename": "00A4AEEEA9A00A60D2A6503C547EEF25A9E4D13651CBD725B4499F26EB23CCA3.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.thefactindia.new",
+  "version_name": "1.0.4",
+  "version_code": "5",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.RECORD_AUDIO",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.nlet.pratapweb.SplashScreenActivity",
+    "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+    "com.nlet.pratapweb.MainActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.android.play.core.assetpacks.AssetPackExtractionService",
+    "com.google.android.play.core.assetpacks.ExtractionForegroundService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4212,
+  "method_count": 31411,
+  "cert_fingerprint": "E2 32 20 4D 0F A1 57 ED A7 8E 44 BA 8F 27 40 EF 7A 97 CB B7 0A 99 34 9A 6B C2 E7 4F 9E 11 1C E2",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#",
+    "https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#",
+    "https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#",
+    "https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

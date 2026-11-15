@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.myspots.myspots.myspots
+  SHA-256       : 006F08F5F077A5D5C3923D4C9A198D99A43D7804E1EB82A5EBE1FFCE5F9CAE98
+  Android Group : Android13
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 27
+  Target SDK    : 33
+
+[Permissions (3)]
+  com.myspots.myspots.myspots.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET
+
+[Application Components]
+  Activities (1): com.myspots.myspots.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10096
+  Total Methods : 66658
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 26 D5 F3 33 B1 CB 35 87 29 BE 0D D2 DE 60 11 5C 7D 13 ED 22 DD 58 56 E1 D9 25 2C 86 67 48 2C 0F
+
+==========================================

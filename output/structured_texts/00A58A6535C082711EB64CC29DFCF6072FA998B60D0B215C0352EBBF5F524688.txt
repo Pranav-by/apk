@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.pschool.tamil
+  SHA-256       : 00A58A6535C082711EB64CC29DFCF6072FA998B60D0B215C0352EBBF5F524688
+  Android Group : Android13
+  Version       : 1.2.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (9)]
+  com.google.android.c2dm.permission.RECEIVE, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.INTERNET, android.permission.POST_NOTIFICATIONS, android.permission.USE_FULL_SCREEN_INTENT, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (5): com.razorpay.CheckoutActivity, com.google.android.gms.common.api.GoogleApiActivity, app.pschool.tamil.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (7): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (6): com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.razorpay.RzpTokenReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (2): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4698
+  Total Methods : 26367
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 87 45 DC EE 6F F7 B3 94 9A 37 49 32 D2 28 1B F5 BD E3 F6 AF D0 2C 59 B0 35 A6 86 D8 2C 45 C1 D6
+
+==========================================

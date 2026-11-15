@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.happydev4u.somalichinesetranslator
+  SHA-256       : 00A6D81FCABA82995F406348097BCE26F86FBB1793187F239EAAB27C4D78DAD5
+  Android Group : Android12L
+  Version       : 2.0.62 (code: 62)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.CAMERA, android.permission.BLUETOOTH, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (34): com.startapp.sdk.ads.list3d.List3DActivity, com.happydev4u.somalichinesetranslator.GoogleImageChooserActivity, com.startapp.sdk.adsbase.consent.ConsentActivity, com.happydev4u.somalichinesetranslator.TestSettingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.happydev4u.somalichinesetranslator.YourPackagesActivity, com.google.android.gms.ads.AdActivity, com.theartofdev.edmodo.cropper.CropImageActivity, com.happydev4u.somalichinesetranslator.TestResultActivity, com.happydev4u.somalichinesetranslator.ocrreader.OcrCaptureActivity, com.happydev4u.somalichinesetranslator.DragnDropGameActivity, com.happydev4u.somalichinesetranslator.ImageChoiceGameActivity, com.happydev4u.somalichinesetranslator.FavoriteActivity, com.happydev4u.somalichinesetranslator.ImageMatchingGameActivity, com.happydev4u.somalichinesetranslator.HistoryActivity, com.happydev4u.somalichinesetranslator.PrivatePolicyActivity, com.happydev4u.somalichinesetranslator.AdsVersionActivity, com.happydev4u.somalichinesetranslator.SettingActivity, com.happydev4u.somalichinesetranslator.TestActivity, com.happydev4u.somalichinesetranslator.SplashActivity
+  Services   (8): com.startapp.sdk.cachedservice.BackgroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.startapp.sdk.jobs.SchedulerService, androidx.room.MultiInstanceInvalidationService, com.happydev4u.somalichinesetranslator.CBTranslatorWatcherService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10433
+  Total Methods : 46286
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://goo.gl/J1sWQy, https://daneden.me/animate, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://www.startapp.com, https://support.start.io/hc/en-us/articles/360014774799, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://opensource.org/licenses/MIT
+  IP Addresses(1): 10.0.2.15
+
+[Certificate]
+  Issuer      : Organizational Unit: TTMA Studio, Locality: Dong Anh, State/Province: Ha Noi, Country: 084
+  Fingerprint : 19 51 6D 00 37 18 76 3C 1F 22 F4 16 D6 70 EF AF 14 75 61 8E 0C 1A 8C 69 64 42 15 14 C1 75 78 8F
+
+==========================================

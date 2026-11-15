@@ -1,0 +1,73 @@
+{
+  "sha256": "00A69DA48FE3762693EB5F11411BF542068C3B8DD450176D81738C86E793C643",
+  "filename": "00A69DA48FE3762693EB5F11411BF542068C3B8DD450176D81738C86E793C643.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "ru.lesegais.mobile",
+  "version_name": "1.13.0",
+  "version_code": "2936",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.FOREGROUND_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 11,
+  "activities": [
+    "ru.lesegais.mobile.MainActivity",
+    "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "ru.lesegais.mobile.SplashActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "ru.lesegais.mobile.services.location.google.TrackLocationService",
+    "ru.lesegais.mobile.services.location.huawei.TrackLocationService",
+    "ru.lesegais.mobile.services.location.TrackLocationEventService"
+  ],
+  "service_count": 3,
+  "receivers": [
+    "com.instacart.library.truetime.BootCompletedBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "cl.json.RNShareFileProvider",
+    "io.sentry.android.core.SentryInitProvider",
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+    "androidx.startup.InitializationProvider",
+    "io.sentry.android.core.SentryPerformanceProvider",
+    "com.imagepicker.ImagePickerProvider"
+  ],
+  "provider_count": 6,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6818,
+  "method_count": 49349,
+  "cert_fingerprint": "72 92 28 9A 95 B7 EF 38 A6 7E 9D 31 88 2B A6 8F B4 7E 2A 67 3A 93 5E 59 BF 83 C0 F0 A2 68 85 3D",
+  "cert_issuer": "Common Name: Unknown, Organizational Unit: rtds, Organization: rtds, Locality: russia, State/Province: moscow, Country: Unknown",
+  "urls": [],
+  "ip_addresses": [
+    "10.0.1.1",
+    "10.0.3.2",
+    "10.0.2.2"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.dominigames.mt12
+  SHA-256       : 00A76AAA9D1E4F32AA38131E7114743D803F007999158B5E2FFD286939738FAC
+  Android Group : Android13
+  Version       : 1.0.23 (code: 23)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (16)]
+  android.permission.ACCESS_COARSE_LOCATION, com.dominigames.mt12.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.FOREGROUND_SERVICE, com.google.android.gms.permission.AD_ID, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, com.android.vending.CHECK_LICENSE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_INTERNAL_STORAGE
+
+[Application Components]
+  Activities (62): zendesk.answerbot.AnswerBotArticleActivity, com.adcolony.sdk.AdColonyInterstitialActivity, zendesk.support.request.RequestActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.google.android.gms.common.api.GoogleApiActivity, com.vungle.warren.ui.VungleFlexViewActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.chartboost.sdk.view.CBImpressionActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, zendesk.support.guide.ViewArticleActivity, com.facebook.ads.AudienceNetworkActivity, zendesk.support.guide.HelpCenterActivity, com.applovin.sdk.AppLovinWebViewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (22): com.applovin.impl.adview.activity.FullscreenAdService, com.dominigames.bfg.placeholder.downloader.GooglePlayObbDownloaderService, com.dominigames.analytics.DominiFirebaseMessagingService, com.dominigames.bfg.placeholder.support.Zendesk.push.ZendeskFirebaseMessagingService, com.dominigames.bfg.placeholder.support.Zendesk.push.ZendeskFirebaseInstanceIdService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (18): com.dominigames.bfg.placeholder.downloader.GooglePlayObbAlarmReciever, com.dominigames.bfg.placeholder.support.Zendesk.LocalNotification, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.dominigames.bfg.placeholder.notifications.NotificationPublisher, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, zendesk.support.DeepLinkingBroadcastReceiver
+  Providers  (15): zendesk.support.guide.GuideSdkStartupProvider, androidx.startup.InitializationProvider, zendesk.belvedere.BelvedereFileProvider, com.dominigames.dominiclub.DCContentProvider, com.facebook.internal.FacebookInitProvider, zendesk.support.SupportSdkStartupProvider, com.vungle.warren.utility.VungleProvider, com.my.target.common.MyTargetContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.squareup.picasso.PicassoProvider, com.applovin.sdk.AppLovinInitProvider, com.dominigames.bfg.placeholder.sharedStorage.SharedStorageProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 39695
+  Total Methods : 235770
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 22.2.0.1, 6.12.1.1, 5.17.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CE B5 0A 5F 2E 51 8C 44 05 9C 43 02 65 B5 8D B2 3D 73 87 A5 7A 35 51 A7 57 15 77 7C D0 AD B3 19
+
+==========================================

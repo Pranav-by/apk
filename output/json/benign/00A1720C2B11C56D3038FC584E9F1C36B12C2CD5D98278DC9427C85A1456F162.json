@@ -1,0 +1,59 @@
+{
+  "sha256": "00A1720C2B11C56D3038FC584E9F1C36B12C2CD5D98278DC9427C85A1456F162",
+  "filename": "00A1720C2B11C56D3038FC584E9F1C36B12C2CD5D98278DC9427C85A1456F162.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.comanyname.Riico",
+  "version_name": "1.4.1",
+  "version_code": "29",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "com.comanyname.Riico.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.BIND_AUTOFILL_SERVICE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "crc64e6d3ada7824adad3.MainActivity",
+    "crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity",
+    "crc64ba438d8f48cf7e75.IntermediateActivity"
+  ],
+  "activity_count": 3,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver",
+    "crc64e53d2f592022988e.ConnectivityBroadcastReceiver",
+    "crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "mono.MonoRuntimeProvider",
+    "androidx.startup.InitializationProvider",
+    "microsoft.maui.essentials.fileProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11771,
+  "method_count": 95008,
+  "cert_fingerprint": "89 B9 EA 54 35 0F 61 C2 E3 15 FE 44 4F 04 19 8E E7 6A F4 2A E6 FC 12 E5 C3 5A 3B 52 37 A1 C3 91",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

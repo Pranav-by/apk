@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.akivi.akivi
+  SHA-256       : 00B02A14EC3CF037BFB0B1EB6268A43535D5330DB12A7A39638674BC20A5AB10
+  Android Group : Android16
+  Version       : 2.2.1 (code: 143)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (10)]
+  android.permission.READ_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.akivi.akivi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING
+
+[Application Components]
+  Activities (12): com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, androidx.credentials.playservices.HiddenActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.akivi.akivi.MainActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.revenuecat.purchases.TestStoreErrorDialogActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (8): androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (5): com.amazon.device.iap.ResponseReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16472
+  Total Methods : 88908
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://issuetracker.google.com/issues/241760537, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://developers.google.com/tink/faq/registration_errors, https://github.com/firebase/firebase-android-sdk, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(2): 2.10.5.0, 2.9.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 63 43 5A 5B 76 24 3D EE 34 B5 F2 28 EE 6F C7 57 96 12 2F DA 56 7F 0D 9B 82 D4 78 D4 AA 5D 20 F3
+
+==========================================

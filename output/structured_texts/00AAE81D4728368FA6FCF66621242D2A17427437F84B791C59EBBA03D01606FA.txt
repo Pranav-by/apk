@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.letpot
+  SHA-256       : 00AAE81D4728368FA6FCF66621242D2A17427437F84B791C59EBBA03D01606FA
+  Android Group : Android13
+  Version       : 2.3.6 (code: 44)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (40)]
+  com.letpot.permission.MIPUSH_RECEIVE, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.READ_LOGS, android.permission.BLUETOOTH_ADMIN, com.meizu.c2dm.permission.RECEIVE, android.permission.GET_TASKS, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.letpot.permission.C2D_MESSAGE, android.permission.ACCESS_WIFI_STATE, com.meizu.flyme.permission.PUSH
+
+[Application Components]
+  Activities (16): io.dcloud.feature.nativeObj.photoview.PhotoActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, io.dcloud.ProcessMediator, io.dcloud.WebAppActivity, com.dmcbig.mediapicker.PreviewActivity, io.dcloud.sdk.activity.WebViewActivity, com.igexin.sdk.PushActivity, io.dcloud.PandoraEntryActivity, com.xiaomi.mipush.sdk.NotificationClickedActivity, com.dmcbig.mediapicker.PickerActivity, io.dcloud.feature.unipush.PrivacyActivity, io.dcloud.WebviewActivity, com.igexin.sdk.GetuiActivity, com.igexin.sdk.GActivity, io.dcloud.PandoraEntry, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (22): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.getui.gtc.GtcService, com.igexin.sdk.PushService, com.vivo.push.sdk.service.CommandClientService, io.dcloud.feature.aps.ApsActionService, com.meizu.cloud.pushsdk.NotificationService, com.igexin.sdk.GService, com.google.android.gms.measurement.AppMeasurementService, com.igexin.sdk.FcmPushIntentService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.igexin.sdk.FcmPushService, io.dcloud.feature.unipush.GTPushDevService, com.xiaomi.mipush.sdk.PushMessageHandler, io.dcloud.sdk.base.service.DownloadService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.xiaomi.mipush.sdk.MessageHandleService, com.igexin.sdk.OppoAppPushService, io.dcloud.feature.unipush.GTNormalIntentService, com.igexin.sdk.OppoPushService
+  Receivers  (10): io.dcloud.common.adapter.io.DownloadReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.igexin.sdk.PushReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.igexin.sdk.VivoPushMessageReceiver, com.igexin.sdk.MiuiPushReceiver, com.taobao.weex.WXGlobalEventReceiver, com.igexin.sdk.FlymePushReceiver
+  Providers  (5): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.getui.gtc.base.GtcProvider, io.dcloud.sdk.base.service.provider.DCloudAdFileProvider, io.dcloud.common.util.DCloud_FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16511
+  Total Methods : 107955
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(3): 4.10.1.0, 0.0.0.0, 1.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: letpot, Organizational Unit: letpot, Organization: letpot, Locality: Unknown, State/Province: Unknown, Country: Unknown
+  Fingerprint : 15 D5 A2 B8 AD 08 9B 60 69 D5 4B 2F 4D E0 9E 5A C5 89 4E 5B 4D E0 8C 26 86 7E CE 35 2F 45 FA F9
+
+==========================================

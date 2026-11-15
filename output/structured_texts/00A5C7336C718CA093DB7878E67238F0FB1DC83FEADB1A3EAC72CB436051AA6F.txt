@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.madduck.callrecorder
+  SHA-256       : 00A5C7336C718CA093DB7878E67238F0FB1DC83FEADB1A3EAC72CB436051AA6F
+  Android Group : Android14
+  Version       : 1.1.0 (code: 40)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (20)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.USE_BIOMETRIC, com.madduck.callrecorder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PHONE_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE_MICROPHONE, android.permission.CALL_PHONE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (20): com.madduck.recorder.presentation.paywall.PaywallActivity, com.madduck.onboarding.presentation.main.OnboardingActivity, com.alexstyl.warden.WardenActivity, com.simplemobiletools.commons.activities.FAQActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.simplemobiletools.commons.activities.LicenseActivity, androidx.credentials.playservices.HiddenActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.simplemobiletools.commons.activities.ContributorsActivity, com.blankj.utilcode.util.UtilsTransActivity, com.facebook.CustomTabActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.CustomTabMainActivity, com.madduck.callrecorder.ui.home.HomeActivity, com.madduck.recorder.presentation.recordings.RecordingsActivity, com.facebook.FacebookActivity
+  Services   (13): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.madduck.voicerecorder.services.RecorderService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.madduck.onboarding.presentation.splash.MadduckFirebaseMessagingService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (8): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.madduck.recorder.presentation.record.PhoneCallReceiver, com.simplemobiletools.commons.receivers.SharedThemeReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (4): androidx.startup.InitializationProvider, com.blankj.utilcode.util.UtilsFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14391
+  Total Methods : 66821
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://developers.google.com/tink/faq/registration_errors, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C5 FF 05 55 FA 7A 4E F0 3F BD C5 71 D5 71 24 53 3B 07 26 02 E2 2D 79 14 F0 19 E9 1F 2F 88 DD 05
+
+==========================================

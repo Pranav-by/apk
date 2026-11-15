@@ -1,0 +1,79 @@
+{
+  "sha256": "00BB8FCF3A1557F3F53BE0533077F1D6321EB636F29A64462E2E2E027B4DC5BF",
+  "filename": "00BB8FCF3A1557F3F53BE0533077F1D6321EB636F29A64462E2E2E027B4DC5BF.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.tarya.sansutv",
+  "version_name": "4.10",
+  "version_code": "87",
+  "min_sdk": "23",
+  "target_sdk": "36",
+  "permissions": [
+    "com.tarya.sansutv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "com.google.android.gms.ads.NotificationHandlerActivity",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.google.android.gms.ads.AdActivity"
+  ],
+  "activity_count": 6,
+  "services": [
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+  ],
+  "receiver_count": 9,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 16895,
+  "method_count": 99241,
+  "cert_fingerprint": "2F 17 18 34 F2 BC 4D 9B 0E 1B E2 C2 8B A6 BB A2 BB 17 DB B5 1B C4 AB 6E 69 CF E9 08 2D D4 97 20",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://goo.gle/admob-android-update-manifest",
+    "https://goo.gle/admob-android-update-manifest.",
+    "https://goo.gle/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

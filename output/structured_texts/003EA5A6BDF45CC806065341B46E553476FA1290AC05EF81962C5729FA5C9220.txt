@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.yhk.rabbit.print.walkprint
+  SHA-256       : 003EA5A6BDF45CC806065341B46E553476FA1290AC05EF81962C5729FA5C9220
+  Android Group : Android12
+  Version       : FVersion 4.1 (code: 31)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (25)]
+  android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_USER_PRESENT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH_CONNECT, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (90): cn.bertsir.zbar.QRActivity, com.luck.picture.lib.PictureSelectorActivity, com.luck.picture.lib.PicturePreviewActivity, com.luck.picture.lib.PictureVideoPlayActivity, com.luck.picture.lib.PictureExternalPreviewActivity, com.yalantis.ucrop.PictureMultiCuttingActivity, com.luck.picture.lib.PicturePlayAudioActivity, com.yhk.rabbit.print.mine.MessageActivity, com.yhk.rabbit.print.bluetooth.SettingBTActivity, com.journeyapps.barcodescanner.CaptureActivity, com.yhk.rabbit.print.index.QuestionActivity, cn.finalteam.galleryfinal.PhotoSelectActivity, cn.finalteam.galleryfinal.PhotoEditActivity, com.tencent.connect.common.AssistActivity, com.yhk.rabbit.print.index.QuestionFavourListActivity, cn.finalteam.galleryfinal.PhotoPreviewActivity, com.yhk.rabbit.print.index.SearchProblemActivity, com.yhk.rabbit.print.index.HistoricalNoteActivity, com.yhk.rabbit.print.index.FileActivity, com.yhk.rabbit.print.index.BoardOtherEditActivity
+  Services   (4): com.yhk.rabbit.print.netclient.service.ServerService, com.yhk.rabbit.print.netclient.service.ServerService, com.yhk.rabbit.print.service.ZService, com.yhk.rabbit.print.netclient.service.ServerService
+  Receivers  (1): com.yhk.rabbit.print.bluetooth.BluetoothReceiver
+  Providers  (4): android.support.v4.content.FileProvider, com.luck.picture.lib.PictureFileProvider, cn.nineox.xframework.core.common.update.UpdateFileProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 21114
+  Total Methods : 178136
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(4): 1.4.8.7, 0.0.0.0, 10.0.0.172, 10.0.0.200
+
+[Certificate]
+  Issuer      : Email Address: pc@yihengke.com, Common Name: zhangwei, Organizational Unit: software, Organization: yhk, Locality: ShenZhen, State/Province: GuangDong, Country: CN
+  Fingerprint : D8 8D 80 8F 17 8F 05 C3 E6 BF 88 1C 77 56 00 14 F4 F4 8F E3 34 3E FA 9C F1 87 99 69 D8 B7 00 9C
+
+==========================================

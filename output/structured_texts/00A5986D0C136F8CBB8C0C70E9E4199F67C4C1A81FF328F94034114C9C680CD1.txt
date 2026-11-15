@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sibisoft.ausgc
+  SHA-256       : 00A5986D0C136F8CBB8C0C70E9E4199F67C4C1A81FF328F94034114C9C680CD1
+  Android Group : Android15
+  Version       : 1.0.49 (code: 50)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (37)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, com.sibisoft.ausgc.permission.C2D_MESSAGE, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.BLUETOOTH, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, android.permission.USE_FINGERPRINT, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (19): com.google.android.gms.common.api.GoogleApiActivity, com.google.zxing.client.androidlegacy.encode.EncodeActivity, com.sibisoft.ausgc.activities.MainActivity, com.sibisoft.ausgc.activities.DeepLinkingActivity, com.sibisoft.ausgc.newdesign.activities.MainActivity, com.sibisoft.ausgc.activities.SplashActivityCC, com.sibisoft.ausgc.activities.ConnectLoginActivity, com.sibisoft.ausgc.newdesign.activities.LoginActivityNewDesign, com.sibisoft.ausgc.clubnow3.activities.LoginActivity, com.sibisoft.ausgc.activities.LoginActivity, com.sibisoft.ausgc.activities.RegistrationActivity, com.sibisoft.ausgc.activities.WebViewActivity, com.sibisoft.ausgc.activities.ExoPlayerActivity, com.google.zxing.client.android.CaptureActivity, com.google.zxing.client.android.HelpActivity, com.google.zxing.client.android.encode.EncodeActivity, com.google.zxing.client.androidlegacy.CaptureActivity, com.google.zxing.client.androidlegacy.HelpActivity, com.estimote.sdk.DefaultRequirementsCheckerCallback$Activity
+  Services   (16): com.sibisoft.ausgc.service.EddyStoneBeaconMonitorServiceNew, com.sibisoft.ausgc.service.LocationUpdateService, com.sibisoft.ausgc.services.AndroidFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, com.estimote.sdk.service.BeaconService, com.estimote.sdk.repackaged.dfu_v0_6_1.no.nordicsemi.android.dfu.DfuBaseService, com.estimote.sdk.connection.internal.DeviceConnectionProviderService, com.sibisoft.ausgc.service.BeaconMonitorService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.sibisoft.ausgc.service.EddyStoneBeaconMonitorService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (6): com.sibisoft.ausgc.utils.GeofenceBroadcastReceiver, com.estimote.sdk.service.BeaconService$ScanAlarmBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): com.sibisoft.ausgc.model.AppFileProvider, com.iceteck.silicompressorr.provider.GenericFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.kbeanie.multipicker.utils.AMPFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19972
+  Total Methods : 139964
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): http://www.aQute.biz, http://www.ngs.ac.uk/tools/jcepolicyfiles, http://www.aQute.biz/Code/Bnd, http://www.opensource.org/licenses/jabberpl.php, http://www.acme.com/Firewall/bundle.jar
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Aijaz Asif, Organizational Unit: Development, Organization: Northstar Technologies Inc, Locality: Alpharetta, State/Province: Georgia, Country: 1
+  Fingerprint : 9F 25 16 F6 7B 1B AE C1 DC 75 05 92 D8 AA 65 09 78 B2 97 ED D9 A9 8B EB 89 98 63 3C CF AC 08 23
+
+==========================================

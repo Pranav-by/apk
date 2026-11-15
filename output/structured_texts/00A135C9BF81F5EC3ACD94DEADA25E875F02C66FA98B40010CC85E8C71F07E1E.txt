@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : health.step.walk
+  SHA-256       : 00A135C9BF81F5EC3ACD94DEADA25E875F02C66FA98B40010CC85E8C71F07E1E
+  Android Group : Android13
+  Version       : 1.44 (code: 44)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (19)]
+  com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.CHANGE_WIFI_STATE, android.permission.ACTIVITY_RECOGNITION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_USER_PRESENT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.USE_FULL_SCREEN_INTENT, android.permission.ACCESS_WIFI_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (101): com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.ironsource.sdk.controller.ControllerActivity, com.ironsource.sdk.controller.InterstitialActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.adcolony.sdk.AdColonyInterstitialActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.mbridge.msdk.interstitial.view.MBInterstitialActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.mbridge.msdk.activity.MBCommonActivity, com.mbridge.msdk.out.LoadingActivity, health.step.walk.activity.workout.DaySportListActivity, health.step.walk.activity.workout.AboutSportActivity, health.step.walk.activity.MenuAboutActivity, health.step.walk.activity.workout.DoingSportActivity, health.step.walk.activity.PrivacyActivity, health.step.walk.activity.workout.ExitSportActivity
+  Services   (28): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, health.step.walk.service.StepService, health.step.walk.utils.old.BaseService, health.step.walk.service.StepService, health.step.walk.utils.old.SolveListService, health.step.walk.utils.old.JobSchedulerService, health.step.walk.utils.old.SyncDataService, health.step.walk.utils.old.SyncDataInnerService, health.step.walk.service.StepCounterServices, health.step.walk.service.DaemonInnerService, health.step.walk.service.JobSchedulerService
+  Receivers  (20): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, health.step.walk.utils.old.BaseReceiver, health.step.walk.utils.old.StartupReceiver, health.step.walk.receiver.AlarmReceiver, health.step.walk.stepservice.StepCounterReceiver, health.step.walk.stepservice.StepSyncReceiver, health.step.walk.stepservice.VendingInstallReferrerReceiver, health.step.walk.stepservice.StepHistoryService$StepReceiver, com.kochava.base.location.LocationReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.kochava.base.ReferralReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (10): com.mobilefuse.sdk.MobileFuseSdkInitProvider, com.flurry.android.agent.FlurryContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31794
+  Total Methods : 177046
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(8): 16.5.21.0, 1.0.0.0, 7.2.7.0, 127.0.0.1, 1.6.2.0, 2.1.1.0, 10.1.4.3, 4.8.0.4
+
+[Certificate]
+  Issuer      : Common Name: walk82102key22672309, Organizational Unit: walk82102key22672309, Organization: walk82102key22672309, Locality: walk82102key22672309, State/Province: walk82102key22672309, Country: walk82102key22672309
+  Fingerprint : 79 75 67 DF 28 0E 69 CB F8 D4 9D E6 F7 3C 6A AD AA DF 94 6A F1 19 DC 63 51 F6 AC C0 60 65 F9 6D
+
+==========================================

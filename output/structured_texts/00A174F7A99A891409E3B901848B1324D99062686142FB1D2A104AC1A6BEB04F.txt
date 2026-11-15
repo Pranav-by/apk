@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wakko.hwt
+  SHA-256       : 00A174F7A99A891409E3B901848B1324D99062686142FB1D2A104AC1A6BEB04F
+  Android Group : Android13
+  Version       : 1.9.5 (code: 96)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, com.wakko.hwt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.POWER_SERVICE, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (19): com.wakko.hwt.activities.AboutActivity, com.wakko.compatstyle.NotImplemented, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.wakko.hwt.CrashWindow, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.wakko.sshservice.StartVpn, com.google.android.gms.ads.OutOfContextTestingActivity, com.wakko.hwt.LauncherActivity, com.wakko.hwt.WakkoVPNMainActivity, com.wakko.hwt.activities.ConfigGeralActivity, com.wakko.hwt.activities.ServerslistActivity, me.dawson.proxyserver.ui.ProxySettings, com.wakko.hwt.servers.ServersActivity, com.wakko.hwt.activities.ConfigExportFileActivity, com.wakko.hwt.activities.ConfigImportFileActivity, com.wakko.sshservice.util.DummyActivity
+  Services   (21): com.google.android.gms.ads.AdService, me.dawson.proxyserver.ui.ProxyService, androidx.room.MultiInstanceInvalidationService, com.wakko.hwt.PushNotification, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemjob.SystemJobService, com.wakko.sshservice.tunnel.vpn.TunnelVpnService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.wakko.sshservice.WakkoVPNService, com.google.android.gms.measurement.AppMeasurementService, com.wakko.sshservice.tunnel.V2Proxy, com.wakko.sshservice.V2Service, com.wakko.sshservice.NetSpeedNotification, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.wakko.sshservice.MainReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12524
+  Total Methods : 63070
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (9): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developer.android.com/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(10): 192.168.44.0, 26.26.26.2, 255.255.255.252, 0.0.0.0, 172.16.0.2, 192.168.0.2, 169.254.1.1, 172.16.0.0, 255.255.255.0, 10.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 55 3D 9E 15 FB 9A AD 19 68 42 0F 43 94 57 29 02 EF FA 33 B0 FB A6 C3 C1 12 1E 14 4D 85 E6 28 B8
+
+==========================================

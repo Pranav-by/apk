@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : cris.icms.ntes
+  SHA-256       : 00A573465DDB6FA6E0FB9F8862633D26B04D639FC03ADFD7ABB17D15E81E05AC
+  Android Group : Android16
+  Version       : 25.3 (code: 144)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 36
+
+[Permissions (9)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.javapapers.android.permission.C2D_MESSAGE, android.permission.FOREGROUND_SERVICE, android.permission.REQUEST_DELETE_PACKAGES, com.google.android.c2dm.permission.RECEIVE, cris.icms.ntes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (35): cris.icms.ntes.StationSearchActivity, cris.icms.ntes.LiveStationActivityNew, com.google.android.gms.ads.OutOfContextTestingActivity, cris.icms.ntes.StationActivity, cris.icms.ntes.TrainBtwStationActivity, cris.icms.ntes.RescheduledActivity, cris.icms.ntes.DivertedActivity, cris.icms.ntes.FavStationActivity, cris.icms.ntes.ScheduleActivity, cris.icms.ntes.SearchTrainActivity, cris.icms.ntes.MapActivity, cris.icms.ntes.SpotTrainActivity, cris.icms.ntes.FavScheduleActivity, cris.icms.ntes.TimeTableActivity, cris.icms.ntes.FullRunningActivity, cris.icms.ntes.NotificationActivity, cris.icms.ntes.TrainActivity, cris.icms.ntes.TrainScheduleActivity, cris.icms.ntes.TrainExceptionActivity, cris.icms.ntes.RouteMapActivity
+  Services   (10): cris.icms.ntes.MyFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, cris.icms.ntes.MyJobService
+  Receivers  (6): androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 21843
+  Total Methods : 143872
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Ashutosh Kumar, Organizational Unit: NTES, Organization: Centre for Railway Information Systems, Locality: New Delhi, State/Province: Delhi, Country: 91
+  Fingerprint : 61 B1 95 57 9E A5 C9 D6 D5 A1 13 63 68 70 BD F0 BE 20 D9 E4 9B 04 93 F5 19 BA 52 C4 F3 D8 1B 57
+
+==========================================

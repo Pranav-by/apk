@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.joke.chongya
+  SHA-256       : 00BEEC556C2A9D9BAF26C8F181D0549DEDA8F94C93F8BFA90A79F1ACC6A217E0
+  Android Group : Android12L
+  Version       : 1.5.6 (code: 1506004)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (37)]
+  freemme.permission.msa.SECURITY_ACCESS, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, com.vivo.identifier.permission.OAID_STATE_DIALOG, android.permission.VIBRATE, com.android.permission.GET_INSTALLED_APPS, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.BLUETOOTH_ADMIN, android.permission.BATTERY_STATS, com.joke.chongya.openadsdk.permission.TT_PANGOLIN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.BROADCAST_PACKAGE_REMOVED, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.QUERY_ALL_PACKAGES
+
+[Application Components]
+  Activities (289): com.joke.chongya.usercenter.ui.activity.RegisterByTelActivity, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop1, com.joke.chongya.usercenter.ui.activity.UpdateUserInfoActivity, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB19, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB22HF, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop2, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB20, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB23HF, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop3, com.joke.chongya.usercenter.ui.activity.UserInfoActivity, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB21, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB21HF, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB24HF, com.joke.chongya.usercenter.ui.activity.VerificationCodeLoginActivity, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB22, com.zhangkong.InstallApkActivity, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance1, com.joke.chongya.usercenter.ui.activity.LoginActivity, top.bienvenido.mundo.manifest.MundoActivity$Companion$STUB23, com.joke.virutalbox_floating.screenshot.TransparentScreenshotActivity
+  Services   (51): top.bienvenido.mundo.manifest.MundoService$Companion$STUB20, androidx.work.impl.background.systemalarm.SystemAlarmService, top.bienvenido.mundo.manifest.MundoService$Companion$STUB21, androidx.work.impl.background.systemjob.SystemJobService, top.bienvenido.mundo.manifest.MundoService$Companion$STUB22, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.byazt.dcl.DownloadHandleService, androidx.room.MultiInstanceInvalidationService, top.bienvenido.mundo.manifest.MundoService$Companion$STUB23, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, top.bienvenido.mundo.manifest.MundoService$Companion$STUB24, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, top.bienvenido.mundo.manifest.MundoService$Companion$STUB7, com.joke.virutalbox_floating.screenshot.MediaProjectionService, com.modifier.aidl.PluginModifierService, joke.library.hermes.HermesService$HermesService4, com.joke.chongya.usercenter.service.LoginService, com.byazt.yd.DownloadHandlerService, top.bienvenido.mundo.manifest.MundoService$Companion$STUB
+  Receivers  (16): com.byazt.uxb.DownloadReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.joke.chongya.sandbox.broadcast.StartStatusBroadCast, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.joke.chongya.sandbox.broadcast.BMPackageReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, top.bienvenido.mundo.manifest.MundoReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.joke.chongya.basecommons.weight.ShortcutReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.byazt.ln.Collector
+  Providers  (52): com.byazt.gm.MainServerManager, top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB8, com.byazt.zl.TTMultiProvider, com.qq.e.comm.GDTFileProvider, top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB21, com.byazt.xr.MainServerManager, com.byazt.ggx.MainProcessProviderProxy, top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB22, com.byazt.nja.FileProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, top.bienvenido.mundo.supervisor.MundoSupervisorProvider, top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB23, com.byted.live.lite.ServerManager_bytelive, top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB2, top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB24, com.byted.live.lite.ServerManager_push, top.bienvenido.mundo.manifest.MundoProvider$Companion$STUB4, cj.mobile.utils.CJFileProvider, com.byazt.gm.DownloaderServerManager, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 42020
+  Total Methods : 254936
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(6): 2.0.6.6, 7.4.0.7, 127.0.0.1, 7.7.15.12, 8.7.2.0, 203.107.1.1
+
+[Certificate]
+  Issuer      : Common Name: zhangkong, Organizational Unit: zhangkong, Organization: android, Locality: changsha, State/Province: hunan, Country: CN
+  Fingerprint : 7A 14 A7 E3 29 3A 94 04 22 5E 7E 93 BC BB 24 C3 D3 3E 95 AD 93 85 16 E1 CB 5B F6 12 C3 0D 2D F0
+
+==========================================

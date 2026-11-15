@@ -1,0 +1,92 @@
+{
+  "sha256": "003258912BE86402A1DB4C479E8D69EC0C548B1E08B843E048697E57D5ACA8EF",
+  "filename": "003258912BE86402A1DB4C479E8D69EC0C548B1E08B843E048697E57D5ACA8EF.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "md.gamefifty.twolivelink",
+  "version_name": "2.0",
+  "version_code": "2",
+  "min_sdk": "23",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.SET_WALLPAPER",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.QUICKBOOT_POWERON",
+    "android.permission.USE_FULL_SCREEN_INTENT"
+  ],
+  "permission_count": 16,
+  "activities": [
+    "com.google.android.gms.ads.AdActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "md.gamefifty.twolivelink.ui.SplashActivity",
+    "md.gamefifty.twolivelink.ui.MainActivity",
+    "md.gamefifty.twolivelink.BroActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.pci.beacon.service.ScanJob",
+    "com.pci.beacon.BeaconIntentProcessor",
+    "md.gamefifty.twolivelink.CoreService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "md.gamefifty.twolivelink.Firebase",
+    "com.pci.beacon.service.BeaconService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.pci.bluetooth.BluetoothTestJob"
+  ],
+  "service_count": 11,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "md.gamefifty.twolivelink.RerunReceiver",
+    "md.gamefifty.twolivelink.UnlockedReceiver",
+    "md.gamefifty.twolivelink.MainAlarmReceiver",
+    "com.pci.beacon.startup.StartupBroadcastReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+  ],
+  "receiver_count": 6,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.squareup.picasso.PicassoProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "com.flurry.android.agent.FlurryContentProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 12142,
+  "method_count": 74202,
+  "cert_fingerprint": "EC 19 06 10 E1 7D B9 C7 F1 E3 1F 4E 94 BA 0A 7C C8 04 C4 AC D7 16 2D 76 DA 61 16 06 34 04 33 E0",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://issuetracker.google.com/issues/new?component=413107&template=1096568"
+  ],
+  "ip_addresses": [
+    "2.3.1.6",
+    "2.3.0.0",
+    "2.3.1.7"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

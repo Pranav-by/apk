@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.honeycommb.amawa
+  SHA-256       : 00B7B4E84016F6A0EF40AE2B94CBEDFC07F797FDB1F507446C91B5B11423C8D0
+  Android Group : Android12
+  Version       : 1.50.38 (code: 368)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (77): com.potatotrain.base.activities.DataPolicyActivity, com.potatotrain.base.activities.FollowSheetActivity, com.potatotrain.base.activities.LicensesActivity, com.potatotrain.base.activities.SocialAccountsActivity, com.potatotrain.base.activities.HashtagActivity, com.potatotrain.base.activities.EditProfileActivity, com.potatotrain.base.activities.PrivacyPolicyActivity, com.potatotrain.base.activities.BrowserActivity, com.potatotrain.base.activities.CameraActivity, com.potatotrain.base.activities.SearchActivity, com.potatotrain.base.activities.VideoTrimmerActivity, com.potatotrain.base.activities.GroupViewActivity, com.potatotrain.base.activities.GroupJoinActivity, com.potatotrain.base.activities.LiveStreamerActivity, com.potatotrain.base.activities.GroupPermissionsActivity, com.potatotrain.base.activities.GroupSettingsActivity, com.potatotrain.base.activities.ErrorActivity, com.potatotrain.base.activities.LiveConsumerActivity, com.potatotrain.base.activities.AccountPickerSheetActivity, com.potatotrain.base.activities.PostSheetActivity
+  Services   (8): com.potatotrain.base.services.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, com.twitter.sdk.android.tweetcomposer.TweetUploadService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (5): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.mixpanel.android.mpmetrics.MixpanelPushNotificationDismissedReceiver, com.potatotrain.base.receivers.InstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 35091
+  Total Methods : 225666
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): http://www.ngs.ac.uk/tools/jcepolicyfiles, https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Honeycommb, Locality: Boston, State/Province: MA, Country: US
+  Fingerprint : D6 F6 DF B0 F9 16 2D 07 B3 3D E6 DC 95 37 8E B4 6A A3 BA 74 17 B1 74 FD E1 A2 9B E2 4F F7 D2 6B
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : net.bitburst.makecash
+  SHA-256       : 0069717A4FDBE593E848594629D4FED5586A208EDCEFD2CA28DDCE6FE4248C54
+  Android Group : Android13
+  Version       : 6.12.0 (code: 877)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (13)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.PACKAGE_USAGE_STATS, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_CREDENTIALS, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.GET_TASKS, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (11): com.clevertap.android.sdk.inbox.CTInboxActivity, net.openid.appauth.AuthorizationManagementActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, io.adjoe.sdk.AdjoeActivity, com.journeyapps.barcodescanner.CaptureActivity, net.bitburst.makecash.MainActivity, com.clevertap.android.sdk.InAppNotificationActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, net.openid.appauth.RedirectUriReceiverActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (18): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundIntentService, com.clevertap.android.sdk.pushnotification.fcm.FcmMessageListenerService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundJobService, io.adjoe.sdk.AppTrackingJob, com.google.android.gms.auth.api.signin.RevocationBoundService, io.adjoe.sdk.AppTrackingService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, io.adjoe.sdk.DeviceStatusService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (18): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, io.adjoe.sdk.AppTrackingAlarmReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, io.adjoe.sdk.AdjoePackageInstallReceiver, io.adjoe.sdk.DeviceStatusTracker, io.adjoe.sdk.NotificationBroadcastReceiver, io.adjoe.sdk.AdjoeActionReceiver, io.adjoe.protection.PhoneVerificationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): io.adjoe.sdk.SharedPreferencesProvider, androidx.core.content.FileProvider, io.adjoe.sdk.DatabaseContentProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 12321
+  Total Methods : 78375
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 4.5.2.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 71 E7 6C 14 4E E4 56 56 0B 41 ED 68 A2 F9 2F 61 0D 1D 9A 4E D6 A5 F3 F2 CB E5 F8 56 3B 4C 4F E1
+
+==========================================

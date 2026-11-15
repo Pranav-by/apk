@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fibrum.skyrunnersvr
+  SHA-256       : 0082CB0ADD9F8ECB24504511F4B548E37DE881CA4A30E71E2D0FB21487665247
+  Android Group : Android14
+  Version       : 1.23 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 34
+
+[Permissions (6)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (5): com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 969
+  Total Methods : 5112
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: FIBRUM
+  Fingerprint : D8 A7 0C 07 50 83 FC 66 84 7D 9E 9B 9E 3A C5 07 E6 1B CB C0 24 EE CB 5E B1 92 A6 54 B0 44 5E 80
+
+==========================================

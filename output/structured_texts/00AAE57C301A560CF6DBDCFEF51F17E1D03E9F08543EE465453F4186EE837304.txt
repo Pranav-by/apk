@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tx3MiniRemote
+  SHA-256       : 00AAE57C301A560CF6DBDCFEF51F17E1D03E9F08543EE465453F4186EE837304
+  Android Group : Android12
+  Version       : 1.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (6)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.TRANSMIT_IR, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (11): com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.tx3MiniRemote.RemoteviewActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.sdk.AppLovinWebViewActivity, com.tx3MiniRemote.MainActivity, com.applovin.mediation.MaxDebuggerActivity
+  Services   (2): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (0): none
+  Providers  (2): com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4569
+  Total Methods : 32485
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): http://developer.android.com/google/play-services/setup.html., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 6.8.0.3
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 09 C5 DA D9 E0 F8 30 F6 24 AB 04 DE 26 C3 C6 5B F9 8E 37 DB 00 35 DC 6A 02 D3 2E 56 84 C2 56 FF
+
+==========================================

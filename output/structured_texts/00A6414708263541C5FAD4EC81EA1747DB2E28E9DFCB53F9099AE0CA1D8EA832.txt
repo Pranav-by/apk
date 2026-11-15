@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.zoho.projects
+  SHA-256       : 00A6414708263541C5FAD4EC81EA1747DB2E28E9DFCB53F9099AE0CA1D8EA832
+  Android Group : Android16
+  Version       : 3.10.5 (code: 587)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (24)]
+  android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_BIOMETRIC, android.permission.USE_CREDENTIALS, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RUN_USER_INITIATED_JOBS, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, com.zoho.projects.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.AUTHENTICATE_ACCOUNTS, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (52): com.zoho.projects.android.setting.PushNotificationActivity, com.zoho.apptics.ui.AppticsAnalyticsSettingsActivity, com.zoho.projects.android.setting.ReleaseNotesActivity, com.zoho.accounts.zohoaccounts.BottomSheetHostActivity, com.zoho.projects.android.setting.PrivacyActivity, com.zoho.vtouch.annotator.AnnotatorActivity, com.zoho.projects.android.addevnt.TimerWithCorrectionForm, com.zoho.accounts.zohoaccounts.GoogleSignInActivity, com.zoho.projects.android.activity.PortalListActivity, com.zoho.accounts.zohoaccounts.ProfileCropActivity, com.zoho.projects.android.setting.SettingsActivity, com.zoho.accounts.zohoaccounts.ChromeTabActivity, com.zoho.accounts.zohoaccounts.utils.BiometricFallbackVerificationActivity, com.zoho.accounts.zohoaccounts.ManageActivity, com.zoho.projects.android.addevnt.FramListActivity, com.zoho.zia.ui.ChatActivity, com.zoho.projects.android.ForumForm.PresentationLayer.AddForumFieldsActivity, com.zoho.videoplayerlibrary.PlayerHolderActivity, com.zoho.projects.android.activity.DescriptionFullViewActivity, com.zoho.applock.PasscodeLockActivity
+  Services   (24): com.zoho.projects.android.service.StartOrStopTimerService, com.zoho.projects.android.service.WidgetService, com.zoho.projects.android.service.AddOrUpdateWithAttachmentJobService, com.zoho.projects.android.service.RegisterNotificationService, com.zoho.projects.android.fcm.ProjectsFirebaseMessagingService, com.zoho.projects.android.service.FileDownloadService, com.zoho.projects.android.service.MyTaskAndBugDownloadService, com.zoho.projects.android.service.AddOrUpdateService, com.zoho.projects.android.service.AddOrUpdateWithAttachmentService, com.zoho.projects.android.service.ModuleRefreshService, com.zoho.projects.android.service.ModuleSyncJobService, com.zoho.projects.android.service.TodayTaskorBugService, com.zoho.audioplayer.notificationmanager.AudioNotificationService, com.zoho.accounts.zohoaccounts.DeviceIDHelper, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.credentials.playservices.CredentialProviderMetadataHolder, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (21): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.zoho.projects.android.receiver.WidgetBroadcasts, com.zoho.projects.android.receiver.NotificationActionBroadcastReceiver, com.zoho.projects.android.receiver.PinningShortcutReceiver, com.zoho.projects.android.receiver.AlarmReceiver, com.zoho.projects.android.receiver.BootCompletedReceiver, com.zoho.projects.android.receiver.TaskWidgetProvider, com.zoho.projects.android.receiver.BugsWidgetProvider, com.zoho.applock.BootReceiver, com.zoho.videoplayerlibrary.PlayerBroadCastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.zoho.accounts.zohoaccounts.CustomTabReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (6): androidx.core.content.FileProvider, com.zoho.projects.android.persistence.ZohoProjectProvider, com.zoho.zia.provider.ZiaSdkFileProvider, com.zoho.rteditor.utils.RTEFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18437
+  Total Methods : 88574
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://goo.gle/compose-feedback, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Zoho Corporation, Organizational Unit: Zoho, Organization: Zoho Corporation, Locality: Pleasanton, State/Province: California, Country: US
+  Fingerprint : A9 D6 D0 A2 AF DB 15 84 9B 8C D3 1D 51 FE 73 B8 E1 B1 70 BA A5 70 C2 F8 F2 A3 F8 65 28 29 CB BD
+
+==========================================

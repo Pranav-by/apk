@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.zenoti.organicpharmacy
+  SHA-256       : 00A2E042808C303EE4B608BC6D3696226E1E567A91534CAF0D551E358075EADA
+  Android Group : Android13
+  Version       : 5.6.1 (code: 300)
+
+[SDK Information]
+  Minimum SDK   : 20
+  Target SDK    : 33
+
+[Permissions (20)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, android.permission.WRITE_CALENDAR, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_PHONE_STATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.USE_FULL_SCREEN_INTENT, android.permission.READ_CALENDAR, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (13): io.flutter.plugins.urllauncher.WebViewActivity, com.amazonaws.mobile.auth.userpools.ForceChangePasswordActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.amazonaws.mobile.auth.ui.SignInActivity, com.google.android.gms.tagmanager.TagManagerPreviewActivity, com.amazonaws.mobile.auth.userpools.SignUpConfirmActivity, com.amazonaws.mobile.auth.userpools.MFAActivity, com.example.consumer_app.MainActivity, com.amazonaws.mobile.auth.userpools.ForgotPasswordActivity, com.amazonaws.mobile.auth.userpools.SignUpActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.libraries.places.widget.AutocompleteActivity
+  Services   (12): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.tagmanager.TagManagerService, com.google.android.play.core.assetpacks.ExtractionForegroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.baseflow.geolocator.GeolocatorLocationService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (6): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8428
+  Total Methods : 45389
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gl/J1sWQy, http://goo.gl/8Rd3yj, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 55 8F 3B 22 CF E5 85 9B A1 A9 84 3C CC FC BF 4E AA 13 32 23 F4 A2 EB E1 A1 3E 2D 35 19 1C 4C EA
+
+==========================================

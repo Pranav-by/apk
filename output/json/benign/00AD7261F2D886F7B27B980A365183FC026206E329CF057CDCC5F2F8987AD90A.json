@@ -1,0 +1,50 @@
+{
+  "sha256": "00AD7261F2D886F7B27B980A365183FC026206E329CF057CDCC5F2F8987AD90A",
+  "filename": "00AD7261F2D886F7B27B980A365183FC026206E329CF057CDCC5F2F8987AD90A.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.logancrcu.mteller2",
+  "version_name": "3.7",
+  "version_code": "31007",
+  "min_sdk": "22",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.logancrcu.mteller2.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "org.apache.cordova.camera.FileProvider",
+    "androidx.startup.InitializationProvider",
+    "io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3621,
+  "method_count": 27435,
+  "cert_fingerprint": "31 42 DF 67 45 A6 DD 25 E2 88 95 FA 2E AD 31 B2 F3 EA 2C CB 27 E1 E8 27 C5 A3 65 4C F1 5C 9F 49",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

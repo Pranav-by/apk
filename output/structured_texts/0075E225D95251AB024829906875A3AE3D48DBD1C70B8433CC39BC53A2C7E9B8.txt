@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.nppstels.MiragePrivate.Monitor
+  SHA-256       : 0075E225D95251AB024829906875A3AE3D48DBD1C70B8433CC39BC53A2C7E9B8
+  Android Group : Android15
+  Version       : 1.3.7 (code: 15)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.READ_CONTACTS, ru.nppstels.MiragePrivate.Monitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.SEND_SMS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.RECEIVE_SMS, android.permission.READ_SMS
+
+[Application Components]
+  Activities (12): ru.nppstels.MiragePrivate.Monitor.TypesActivity, ru.nppstels.MiragePrivate.Monitor.GPRSConnectACtivity, ru.nppstels.MiragePrivate.Monitor.UnitActivity, ru.nppstels.MiragePrivate.Monitor.FileBrowser.FileBrowser, ru.nppstels.MiragePrivate.Monitor.UnitCard, ru.nppstels.MiragePrivate.Monitor.MainActivity, ru.nppstels.MiragePrivate.Monitor.SoundSettingsActivity, ru.nppstels.MiragePrivate.Monitor.SettingsActivity, ru.nppstels.MiragePrivate.Monitor.OutputsEditActivity, ru.nppstels.MiragePrivate.Monitor.EventFilterActivity, ru.nppstels.MiragePrivate.Monitor.PartitionsActivity, ru.nppstels.MiragePrivate.Monitor.ContatsActivity
+  Services   (1): ru.nppstels.MiragePrivate.Monitor.MonitorService
+  Receivers  (4): ru.nppstels.MiragePrivate.Monitor.StartUpReceiver, ru.nppstels.MiragePrivate.Monitor.PrivateMMSReceiver, ru.nppstels.MiragePrivate.Monitor.PrivateSMSReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5022
+  Total Methods : 35372
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Boris, Organizational Unit: RND, Organization: LLC Stels, Locality: Tomsk
+  Fingerprint : B7 E9 4B 80 32 5E 0C F2 20 66 F3 36 9F 5D F7 1E 04 1C 0A 23 E5 C8 B0 A7 5D FA 03 32 56 3A 1D 41
+
+==========================================

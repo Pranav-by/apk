@@ -1,0 +1,74 @@
+{
+  "sha256": "00A53F91571B136A69E944A87D7B205940ABDA14295484EF30D2C43DE3614F21",
+  "filename": "00A53F91571B136A69E944A87D7B205940ABDA14295484EF30D2C43DE3614F21.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.rayalaseema.spice",
+  "version_name": "1.1.0",
+  "version_code": "8",
+  "min_sdk": "22",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.rayalaseema.spice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.rayalaseema.spice.MainActivity",
+    "com.yalantis.ucrop.UCropActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.baseflow.geolocator.GeolocatorLocationService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService",
+    "com.google.firebase.components.ComponentDiscoveryService"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "io.flutter.plugins.imagepicker.ImagePickerFileProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5848,
+  "method_count": 34074,
+  "cert_fingerprint": "28 B9 97 F3 A2 73 EF 5B 99 D5 97 2F EC BC 38 F9 BE 9D CE C8 A0 7F 25 DA 5C F5 9C B7 F7 06 60 7E",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted",
+    "https://developer.android.com/reference/javax/net/ssl/SSLSocket",
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hyperstudio.font
+  SHA-256       : 004AA78977727021E264F3E34DC073848895FB550ED69E9903FA2C8B050B543C
+  Android Group : Android12L
+  Version       : 3.2 (code: 29)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_DOWNLOAD_MANAGER, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (12): com.hyperstudio.font.DebugActivity, com.applovin.adview.AppLovinInterstitialActivity, com.facebook.ads.AudienceNetworkActivity, com.hyperstudio.font.ViewActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.hyperstudio.font.DownloadActivity, com.adcolony.sdk.AdColonyInterstitialActivity, com.hyperstudio.font.MainActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.adview.AppLovinFullscreenActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.ads.AdActivity
+  Services   (2): com.applovin.impl.adview.activity.FullscreenAdService, com.applovin.impl.sdk.utils.AppKilledService
+  Receivers  (0): none
+  Providers  (1): androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 11029
+  Total Methods : 74748
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B5 FB 99 CE B0 49 EE 31 96 FB 12 FB E6 E8 B8 A3 8B 15 CA ED 9B 0A 7D 98 C2 77 BB 4D 89 50 35 36
+
+==========================================

@@ -1,0 +1,68 @@
+{
+  "sha256": "000977AC8BBA907CDAF351FC286C8230CBA312008CF62B5429BD7A8761A71D38",
+  "filename": "000977AC8BBA907CDAF351FC286C8230CBA312008CF62B5429BD7A8761A71D38.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.androider.vavada.tm",
+  "version_name": "1.10\u0441",
+  "version_code": "2",
+  "min_sdk": "22",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.androider.vavada.tm.LooseActivity",
+    "com.androider.vavada.tm.MainActivity",
+    "com.androider.vavada.tm.SecondActivity",
+    "com.androider.vavada.tm.WinActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService"
+  ],
+  "service_count": 6,
+  "receivers": [
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5118,
+  "method_count": 35638,
+  "cert_fingerprint": "8F F4 9E 9E 5F C6 BE 1B 07 74 BB 2C 1A 25 1F F4 4D 7B A5 A6 DC C0 76 3C 7F B9 47 2A 84 CE 98 A0",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

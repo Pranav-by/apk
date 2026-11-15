@@ -1,0 +1,53 @@
+{
+  "sha256": "0091C31AC530CF7968FBC0511BD08C8A66481FDBE021C0ABB185B97622CE2B97",
+  "filename": "0091C31AC530CF7968FBC0511BD08C8A66481FDBE021C0ABB185B97622CE2B97.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.DefaultCompany.HangrySnake",
+  "version_name": "1.1",
+  "version_code": "7",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity"
+  ],
+  "activity_count": 6,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 855,
+  "method_count": 4162,
+  "cert_fingerprint": "35 A4 3A D4 0A 7A E3 92 15 20 3F CD F5 EB 25 40 4E 8B 7E BF 64 36 C1 18 08 C7 59 08 60 98 EE E9",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://config.unityads.unity3d.com/webview/",
+    "https://config.unityads.unitychina.cn/webview/"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

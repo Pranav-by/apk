@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.FullBooks.DatabaseManagementSystem
+  SHA-256       : 008446D4ECA61E6DEDDE4A07513874CAB62FB30C906C944749795FBF18CC01F3
+  Android Group : Android12L
+  Version       : Database Management System 5.20.22 (code: 25)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (27)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.htc.launcher.permission.READ_SETTINGS, android.permission.ACCESS_NETWORK_STATE, com.oppo.launcher.permission.WRITE_SETTINGS
+
+[Application Components]
+  Activities (46): com.FullBooks.DatabaseManagementSystem.activities.ActivityCategoryDetails, com.startapp.sdk.ads.interstitials.OverlayActivity, com.FullBooks.DatabaseManagementSystem.activities.ActivityNotificationDetail, com.onesignal.NotificationOpenedActivityHMS, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.startapp.sdk.ads.list3d.List3DActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.FullBooks.DatabaseManagementSystem.activities.ActivityComments, com.FullBooks.DatabaseManagementSystem.activities.ActivityPostDetail, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.FullBooks.DatabaseManagementSystem.activities.MainActivity, com.FullBooks.DatabaseManagementSystem.activities.ActivityPublisherInfo, com.FullBooks.DatabaseManagementSystem.activities.ActivityPostDetailOffline, com.FullBooks.DatabaseManagementSystem.activities.ActivityUserRegister, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.onesignal.PermissionsActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.FullBooks.DatabaseManagementSystem.activities.ActivityUserLogin, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+  Services   (24): com.applovin.impl.sdk.utils.AppKilledService, com.FullBooks.DatabaseManagementSystem.notification.MyFirebaseMessageService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentJobService, com.onesignal.FCMIntentService, com.onesignal.FocusDelaySyncService, com.onesignal.FocusDelaySyncJobService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.ads.AdService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (15): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.onesignal.FCMBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver
+  Providers  (8): com.startapp.sdk.adsbase.StartAppInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.work.impl.WorkManagerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 20468
+  Total Methods : 124943
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://play.google.com/store/apps/details?id=, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 127.0.0.1, 6.5.1.0, 0.0.0.0, 20.2.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9F 43 F6 29 F3 F2 AF FE 95 89 EA E2 D8 19 2A DF FA FE A3 5E 9E 7A D7 58 D6 4F 25 98 41 B0 54 7B
+
+==========================================

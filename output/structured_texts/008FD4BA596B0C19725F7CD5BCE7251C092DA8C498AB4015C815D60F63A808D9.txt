@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.shortvideo.playlet
+  SHA-256       : 008FD4BA596B0C19725F7CD5BCE7251C092DA8C498AB4015C815D60F63A808D9
+  Android Group : Android14
+  Version       : 3.3.09 (code: 33009)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (45)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, me.everything.badger.permission.BADGE_COUNT_READ, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.google.android.gms.permission.ACTIVITY_RECOGNITION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.READ_PRIVILEGED_PHONE_STATE, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (56): com.shortvideo.playlet.main.MainActivity, com.shortvideo.playlet.topup.TopUpActivityNew, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.shortvideo.playlet.search.SearchMainActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.shortvideo.playlet.view.NetErrorActivity, com.mbridge.msdk.out.LoadingActivity, com.shortvideo.playlet.video.VideoActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.shortvideo.playlet.activity.EarnRewardsActivity, com.shortvideo.playlet.view.WebViewMainActivity, com.google.android.gms.ads.AdActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.shortvideo.playlet.view.ErrorActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.shortvideo.playlet.user.FeedbackEditActivity, me.goldze.mvvmhabit.base.ContainerActivity, com.facebook.FacebookActivity, com.shortvideo.playlet.activity.library.LibraryActivity
+  Services   (17): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.shortvideo.playlet.mgr.MyFirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.applovin.impl.adview.activity.FullscreenAdService, com.luck.picture.lib.service.ForegroundService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, com.blankj.utilcode.util.MessengerUtils$ServerService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (16): cn.thinkingdata.analytics.utils.broadcast.TDReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (9): me.goldze.mvvmhabit.crash.CaocInitProvider, com.luck.picture.lib.basic.PictureFileProvider, com.facebook.internal.FacebookInitProvider, com.blankj.utilcode.util.UtilsFileProvider, androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 43759
+  Total Methods : 283901
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 127.0.0.1, 0.9.6.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E7 69 89 C9 0D 84 A5 44 1E A0 15 91 0B 5F 6F BD CC 35 A5 98 6C AF 65 CF 35 A7 34 8C 6E 28 82 47
+
+==========================================

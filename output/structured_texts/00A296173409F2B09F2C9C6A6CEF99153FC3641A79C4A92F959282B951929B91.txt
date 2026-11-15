@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : gymfitness.kettlebellworkout.crossfitwodworkout
+  SHA-256       : 00A296173409F2B09F2C9C6A6CEF99153FC3641A79C4A92F959282B951929B91
+  Android Group : Android12L
+  Version       : 1.1.3 (code: 14)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (8)]
+  com.google.android.gms.permission.AD_ID, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (9462): gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity1, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity2, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity3, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity4, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity5, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity6, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity7, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity8, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity9, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity10, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity11, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity12, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity13, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity14, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.workouts.MainActivity15, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.pause.Pause_2, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.pause.Pause_3, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.pause.Pause_4, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.pause.Pause_5, gymfitness.kettlebellworkout.crossfitwodworkout.ClasesB.Clases6.nivel_3.Entreno_5.pause.Pause_6
+  Services   (6): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (5): com.google.android.gms.measurement.AppMeasurementReceiver, gymfitness.kettlebellworkout.crossfitwodworkout.Tools.Alarma.AlarmReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, gymfitness.kettlebellworkout.crossfitwodworkout.Tools.Alarma.BootCompletedReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 12
+  Total Classes : 162767
+  Total Methods : 594734
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D1 4C 49 7B A8 FC 3D 47 47 64 39 AA 68 D6 C0 DE DD 42 4D 8A 1F 1D 1D DA FE 29 C7 BD D5 97 0C CD
+
+==========================================

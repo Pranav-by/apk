@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : vivid.money
+  SHA-256       : 00A17442F288B632C74985971052858D8C4CB737A9AA426B2F016D78DCA2B568
+  Android Group : Android12L
+  Version       : 2.35.1 (code: 3914)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (31)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.NFC, android.permission.HIGH_SAMPLING_RATE_SENSORS, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, android.permission.GET_TASKS, com.android.vending.CHECK_LICENSE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (49): io.card.payment.DataEntryActivity, de.idnow.sdk.Activities.Activities_ResultActivity, com.ahoyrtc.sdk.AhoyAudioCallActivity, io.card.payment.CardIOActivity, de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, de.idnow.sdk.Activities.Activities_HelpDataActivity, com.ahoyrtc.sdk.AhoyVideoCallActivity, com.google.android.gms.common.api.GoogleApiActivity, de.idnow.sdk.Activities.Activities_PhotoCountrySelectionActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, de.idnow.sdk.Activities.Activities_PhotoDocumentSelectionActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, de.idnow.sdk.Activities.Activities_HelpIDActivity, androidx.activity.ComponentActivity, ru.tinkoff.commonchat.ui.channels.ChannelsListActivity, de.idnow.sdk.Activities.Activities_PhotoProcessOverviewActivity, com.paymentpagesdk.core.components.d3s.Core3dsActivity, de.idnow.sdk.Activities.Activities_PhotoLiveActivity, com.paymentpagesdk.core.CoreActivity
+  Services   (26): com.google.android.gms.analytics.AnalyticsJobService, de.idnow.sdk.util.IDnowForegroundService, com.leanplum.LeanplumLocalPushListenerService, de.idnow.sdk.util.Util_KillNotificationService, vivid.money.common_messaging.GmsPushService, ru.tinkoff.commonchat.notification.ChatNotificationService, com.leanplum.LeanplumPushFirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService, com.mapbox.android.telemetry.MapboxTelemetryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.camera.core.impl.MetadataHolderService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (21): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.ironz.binaryprefs.dump.DumpReceiver, com.appsflyer.SingleInstallBroadcastReceiver, vivid.money.feature_onboarding.interview.reminder.notification.InterviewReminderReceiver, de.idnow.sdk.NetworkStatusReceiver, com.leanplum.LeanplumPushReceiver, com.leanplum.LeanplumJobStartReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (10): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, ru.tinkoff.commonchat.files.ChatFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, cl.json.RNShareFileProvider, com.RNFetchBlob.Utils.FileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 89233
+  Total Methods : 340913
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://goo.gle/compose-feedback, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(1): 10.0.1.1
+
+[Certificate]
+  Issuer      : Organization: Supreme Germany GmbH
+  Fingerprint : D3 23 5C 34 C6 8F E6 62 05 34 80 50 24 47 F8 F0 80 44 5F 18 02 6B 3B F2 AD F1 68 CC C4 A8 F4 3D
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.condecosoftware.deskbooking
+  SHA-256       : 00A2E62F7AB22A0D27D1C8BB1CA85485DB08A3E988066308C2BC60CE10E8CB3E
+  Android Group : Android12
+  Version       : 3.0.0 (code: 35)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (9)]
+  com.google.android.gms.permission.AD_ID, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (3): com.condecosoftware.deskbooking.application.main.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.condecosoftware.deskbooking.application.startup.StartupActivity
+  Services   (8): com.google.android.gms.measurement.AppMeasurementService, com.condecosoftware.deskbooking.geofence.GeoFenceTransitionsJobIntentService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.condecosoftware.deskbooking.application.fcm.MessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): com.condecosoftware.deskbooking.geofence.GeoFenceBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9739
+  Total Methods : 55752
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://realm.io/docs/java/latest/#rxjava, https://issuetracker.google.com/issues/36918154
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Richard Gladwin, Organizational Unit: Mobile, Organization: Condeco Software, Locality: London, State/Province: London, Country: GB
+  Fingerprint : 99 C8 7F 03 CB 78 B5 B6 D9 BF 59 9C BB 13 02 23 7A D7 48 64 2E BE DB D5 22 3D CA ED 66 EE 63 CC
+
+==========================================

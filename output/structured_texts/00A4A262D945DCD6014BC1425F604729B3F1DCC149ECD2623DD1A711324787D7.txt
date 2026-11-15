@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mightybell.beyondtype1
+  SHA-256       : 00A4A262D945DCD6014BC1425F604729B3F1DCC149ECD2623DD1A711324787D7
+  Android Group : Android12L
+  Version       : 8.109.5 (code: 501469)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (29)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.BLUETOOTH_ADMIN, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, android.permission.USE_FULL_SCREEN_INTENT, android.permission.BROADCAST_STICKY, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.BLUETOOTH_SCAN
+
+[Application Components]
+  Activities (35): com.facebook.CustomTabActivity, androidx.compose.ui.tooling.PreviewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, us.zoom.internal.helper.PrivacyDisclaimerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.zipow.videobox.SimpleInMeetingActivity, com.zipow.videobox.JoinByURLActivity, com.zipow.videobox.MeetingEndMessageActivity, com.zipow.videobox.IntegrationActivity, com.zipow.videobox.ConfActivityNormal, us.zoom.androidlib.app.ZMFileListActivity, com.zipow.videobox.JoinMeetingFailActivity, com.zipow.videobox.PListActivity, com.zipow.videobox.conference.ui.ZmFoldableConfActivity, com.zipow.videobox.confapp.meeting.videoeffects.VideoEffectsActivity, com.zipow.videobox.CallInActivity, com.zipow.videobox.ZmPollingActivity, com.mightybell.android.contexts.MainActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.mightybell.android.contexts.MediaActivity
+  Services   (18): com.mightybell.android.contexts.services.MNFCMListenerService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, com.mightybell.android.contexts.services.RegistrationIntentService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.analytics.AnalyticsService, com.zipow.videobox.kubi.KubiService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.zipow.videobox.share.ScreenShareServiceForSDK, com.google.android.gms.analytics.AnalyticsJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.messaging.FirebaseMessagingService, com.mightybell.android.features.media.services.VideoUploadService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.mightybell.android.contexts.services.AppUpdateListener, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): com.google.firebase.perf.provider.FirebasePerfProvider, androidx.core.content.FileProvider, com.github.dhaval2404.imagepicker.ImagePickerFileProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 61206
+  Total Methods : 431374
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Mightybell Beyond Type 1, Organizational Unit: Engineering, Organization: Mightybell, Locality: Palo Alto, State/Province: California, Country: US
+  Fingerprint : DD D7 1F E3 A3 53 01 9E 91 1B 66 A0 57 05 DA C9 62 6C D4 5D 9C 07 7E 64 87 D1 68 5C 83 74 9B EF
+
+==========================================

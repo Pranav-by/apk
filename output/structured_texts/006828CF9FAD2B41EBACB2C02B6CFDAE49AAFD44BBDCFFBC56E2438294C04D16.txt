@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mt.kenzularsduasi
+  SHA-256       : 006828CF9FAD2B41EBACB2C02B6CFDAE49AAFD44BBDCFFBC56E2438294C04D16
+  Android Group : Android12L
+  Version       : 1.12 (code: 81)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (4)]
+  com.google.android.gms.permission.AD_ID, android.permission.Ad_ID, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (2): com.mt.kenzularsduasi.MainActivity, com.mt.kenzularsduasi.Main
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5739
+  Total Methods : 43858
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, https://daneden.me/animate
+  IP Addresses(2): 127.0.0.1, 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F4 5C 37 35 01 91 37 07 A8 BC 92 8F 78 A3 26 D2 AA 4F A7 8C 87 37 B2 3F 87 AA D4 38 1F E2 FE 61
+
+==========================================

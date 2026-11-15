@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.ankumgloria.android
+  SHA-256       : 00AB9325B872C2A5B2A60EE44A1451B8BC6AE72640F155CCFEF88651680DDAD5
+  Android Group : Android15
+  Version       : 1.0.73-b098733.ankum-gloria (code: 10073)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 35
+
+[Permissions (6)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, de.ankumgloria.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (7): de.mars.kinotickets.activities.WebActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, de.mars.kinotickets.activities.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, de.mars.kinotickets.activities.StartActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, de.mars.kinotickets.notifications.KinoTicketsFirebaseMessagingService, androidx.credentials.playservices.CredentialProviderMetadataHolder
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (4): dev.hotwire.core.files.util.HotwireFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8494
+  Total Methods : 48553
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: , Organizational Unit: , Organization: , Locality: , State/Province: , Country: 
+  Fingerprint : E5 49 1F 5F 92 E7 24 EE E2 F2 A1 A6 05 94 6B FC DF FA C0 D2 75 52 70 05 09 62 58 78 FC 65 3F FC
+
+==========================================

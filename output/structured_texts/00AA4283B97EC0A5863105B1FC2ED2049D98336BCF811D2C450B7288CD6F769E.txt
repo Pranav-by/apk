@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.poran_shrem
+  SHA-256       : 00AA4283B97EC0A5863105B1FC2ED2049D98336BCF811D2C450B7288CD6F769E
+  Android Group : Android15
+  Version       : 1.47 (code: 47)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (3)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.poran_shrem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): com.poran_shrem.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14865
+  Total Methods : 107479
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4F 1D 91 93 62 D4 E5 9D 1B 23 65 58 AE 47 E2 B9 A1 2A 90 07 BC 6F 4B 49 DA 10 98 65 A1 51 40 CE
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.darkurio.tastytipcalculator
+  SHA-256       : 00BFD862E70DCDB914133CD20F508295B42B81188C0A4D0F991544227A095FF0
+  Android Group : Android16
+  Version       : 2.0.2 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 36
+
+[Permissions (1)]
+  com.darkurio.tastytipcalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): com.darkurio.tastytipcalculator.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2395
+  Total Methods : 11229
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://goo.gle/compose-feedback, https://youtrack.jetbrains.com/issue/KT-55980
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Johnson Wong, Locality: Vancouver, State/Province: BC, Country: CA
+  Fingerprint : B8 81 8C 61 06 B6 7D 21 F7 DA EA B3 F3 F8 29 68 83 00 55 E8 48 87 EB 3A D0 4D 31 19 90 FF FC 44
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.boatm3.app
+  SHA-256       : 00A9DAA16E43694F48DDDF482E0A184009C76223FE464FA0C8D343CDB3939A3F
+  Android Group : Android12
+  Version       : 2.0.18 (code: 161)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (39)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.WRITE_CALENDAR, com.android.launcher.permission.INSTALL_SHORTCUT, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.google.android.gms.permission.ACTIVITY_RECOGNITION, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.READ_CALENDAR, android.permission.CAMERA, android.permission.INTERNET
+
+[Application Components]
+  Activities (12): expo.modules.appauth.AppAuthBrowserActivity, com.facebook.CustomTabActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.boatm3.app.MainActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, net.openid.appauth.RedirectUriReceiverActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, net.openid.appauth.AuthorizationManagementActivity, com.facebook.react.devsupport.DevSettingsActivity, com.canhub.cropper.CropImageActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (13): androidx.work.impl.foreground.SystemForegroundService, io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService, io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService, androidx.work.impl.background.systemjob.SystemJobService, io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService, expo.modules.location.services.LocationTaskService, expo.modules.notifications.service.ExpoFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, expo.modules.notifications.service.NotificationsService, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (7): com.canhub.cropper.CropFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, expo.modules.imagepicker.fileprovider.ImagePickerFileProvider, expo.modules.clipboard.ClipboardFileProvider, expo.modules.filesystem.FileSystemFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 24842
+  Total Methods : 159133
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 45 ED 17 5B 98 C5 A5 D1 E0 9C 4A 84 5D 87 F2 94 BD 3A CF 26 7B E6 FE F6 5F 0E C4 66 FC AF D4 76
+
+==========================================

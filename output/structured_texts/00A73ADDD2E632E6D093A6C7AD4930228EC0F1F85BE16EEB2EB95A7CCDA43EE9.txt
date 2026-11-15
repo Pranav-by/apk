@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fib.faidaatlite
+  SHA-256       : 00A73ADDD2E632E6D093A6C7AD4930228EC0F1F85BE16EEB2EB95A7CCDA43EE9
+  Android Group : Android13
+  Version       : 2.0.5 (code: 2025)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (12)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_MEDIA_AUDIO, com.fib.faidaatlite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_MEDIA_IMAGES, android.permission.USE_BIOMETRIC, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_VIDEO
+
+[Application Components]
+  Activities (10): com.fib.faidaatlite.MainActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.wongpiwat.trust_location.TrustLocationPlugin, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.google.android.gms.common.api.GoogleApiActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.yalantis.ucrop.UCropActivity
+  Services   (0): none
+  Receivers  (2): androidx.profileinstaller.ProfileInstallReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+  Providers  (3): io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.crazecoder.openfile.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3679
+  Total Methods : 20928
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Faida Investment Bank, Organizational Unit: Faida, Organization: Faida, Locality: Nairobi, State/Province: Kenya, Country: 254
+  Fingerprint : CB 2B 75 33 7D F7 07 E4 CD AD 1B CE D8 C2 1C 36 EA 92 FE F1 67 D5 3A 57 EA D5 C8 F2 2C 90 24 0A
+
+==========================================

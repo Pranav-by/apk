@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : us.TommyTime.PathFind2
+  SHA-256       : 008EE4F037BE1E74C224FD582B7667580DA6D8CC7CBC228DA55267C48C3E80A0
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (8)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.VIBRATE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.Ad_ID
+
+[Application Components]
+  Activities (12): us.TommyTime.PathFind2.Upfeo, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, us.TommyTime.PathFind2.Umvid, com.startapp.sdk.ads.list3d.List3DActivity, com.unity3d.services.ads.adunit.AdUnitActivity, us.TommyTime.PathFind2.Uu, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, us.TommyTime.PathFind2.Ubhdt, com.startapp.sdk.adsbase.consent.ConsentActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, us.TommyTime.PathFind2.Upwao
+  Services   (2): com.startapp.sdk.jobs.SchedulerService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (1): com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (2): com.startapp.sdk.adsbase.StartAppInitProvider, com.flurry.android.agent.FlurryContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4700
+  Total Methods : 28915
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, https://daneden.me/animate, https://docs.google.com/document/d/1dbo2xji-hmUSa_EYG_Fof__WE8FrZPHU9rxHjHPHPmA/edit?usp=sharing, https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200
+  IP Addresses(1): 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7C B5 5F 72 B3 9C 40 F8 75 43 49 1F 86 A0 96 9A C4 76 27 8A FC CB 33 73 12 76 DD 21 CF A4 93 0F
+
+==========================================

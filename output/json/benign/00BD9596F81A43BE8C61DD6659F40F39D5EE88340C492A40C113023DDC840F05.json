@@ -1,0 +1,72 @@
+{
+  "sha256": "00BD9596F81A43BE8C61DD6659F40F39D5EE88340C492A40C113023DDC840F05",
+  "filename": "00BD9596F81A43BE8C61DD6659F40F39D5EE88340C492A40C113023DDC840F05.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "uk.co.sumxgames.crabholepinch",
+  "version_name": "1.0.2",
+  "version_code": "9",
+  "min_sdk": "24",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.CAMERA",
+    "uk.co.sumxgames.crabholepinch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.RECORD_AUDIO"
+  ],
+  "permission_count": 12,
+  "activities": [
+    "com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity",
+    "uk.co.sumxgames.crabholepinch.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+    "expo.modules.audio.service.AudioControlsService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "expo.modules.audio.service.AudioRecordingService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "androidx.camera.core.impl.MetadataHolderService"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "expo.modules.filesystem.FileSystemFileProvider",
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+    "androidx.startup.InitializationProvider",
+    "com.google.mlkit.common.internal.MlKitInitProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 4,
+  "class_count": 34873,
+  "method_count": 218425,
+  "cert_fingerprint": "11 00 80 09 4F 08 B0 77 DA C4 F8 27 11 FD E8 8B 73 A1 07 47 09 06 FA 0C EF 2F 0A 8E 14 EE BE 7A",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : dev.andrewblankenship.com.heraldandbanner
+  SHA-256       : 0053E4511E8DE3725529E638B9A48008FABE729806E9F252BE11CF8328518BE9
+  Android Group : Android12L
+  Version       : 0.0.11 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (4)]
+  com.android.vending.BILLING, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (2): dev.andrewblankenship.com.heraldandbanner.MainActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3428
+  Total Methods : 26049
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9E 1A 28 1C 4C 02 3B B8 BC 1A 7E CA 8E C5 E4 A6 E6 60 9E 97 95 5B 49 2C B5 12 A0 3D C1 62 78 73
+
+==========================================

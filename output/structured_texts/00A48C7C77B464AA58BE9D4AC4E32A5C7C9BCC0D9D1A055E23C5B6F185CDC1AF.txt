@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ril.rcareer
+  SHA-256       : 00A48C7C77B464AA58BE9D4AC4E32A5C7C9BCC0D9D1A055E23C5B6F185CDC1AF
+  Android Group : Android16
+  Version       : 2.0 (code: 14)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 36
+
+[Permissions (11)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, com.ril.rcareer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (33): com.ril.rcareer.ui.activity.LandingActivity, com.ril.rcareer.ui.faceDetection.LivePreviewActivity, com.ril.rcareer.ui.activity.LoginActivity, com.ril.rcareer.ui.activity.RegisterActivity, com.ril.rcareer.ui.activity.HomeActivity, com.ril.rcareer.ui.activity.OtherInfoActivity, com.ril.rcareer.ui.activity.ReviewActivity, com.ril.rcareer.ui.videoInterview.BasicInstructionActivity, com.ril.rcareer.ui.activity.EducationActivity, com.ril.rcareer.ui.activity.WorkExperienceActivity, com.ril.rcareer.ui.activity.JobListActivity, com.ril.rcareer.ui.activity.BasicInfoActivity, com.ril.rcareer.ui.activity.AddEducationActivity, com.ril.rcareer.ui.activity.AddWorkActivity, com.ril.rcareer.ui.activity.JobDescriptionActivity, com.ril.rcareer.ui.activity.ValidateOTPForPassActivity, com.ril.rcareer.ui.activity.JobSectionsActivity, com.ril.rcareer.ui.activity.ChangePasswordActivity, com.ril.rcareer.ui.AssesmentAndScreening.ValidateSessionActivity, com.ril.rcareer.SplashActivity
+  Services   (8): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, androidx.camera.core.impl.MetadataHolderService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (3): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (4): com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18874
+  Total Methods : 107531
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Reliance Industries Ltd., Organizational Unit: IT, Organization: RIL, Locality: Navi Mumbai, State/Province: MH, Country: IN
+  Fingerprint : 36 54 AF 3B 08 E8 54 17 07 B9 6E 13 D2 34 E5 81 01 8B 2C 1C E4 CE AF 2E B4 DA B9 45 74 7F C1 12
+
+==========================================

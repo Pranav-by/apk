@@ -1,0 +1,67 @@
+{
+  "sha256": "0020BAA98B2F311BDC94F0E153D347327B905A3879BD0329C0D78E476551A3A3",
+  "filename": "0020BAA98B2F311BDC94F0E153D347327B905A3879BD0329C0D78E476551A3A3.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.oh.brop",
+  "version_name": "1.5.2",
+  "version_code": "48",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.EXPAND_STATUS_BAR",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.oh.brop.activity.MainActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.oh.brop.downloads.OHDownloadService",
+    "com.google.android.play.core.assetpacks.AssetPackExtractionService",
+    "com.jp.adblock.service.AbpUpdateService",
+    "com.google.android.play.core.assetpacks.ExtractionForegroundService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.tonyodev.fetch2.FetchNotificationBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 5021,
+  "method_count": 31561,
+  "cert_fingerprint": "01 17 8C F1 23 CD 7C A6 DA 4B C8 6F 14 80 9C 0E 7B 57 0F F6 23 5E CB 76 83 FE CC 44 3D 2B A6 38",
+  "cert_issuer": "Common Name: Jayachithta; Organizational Unit: Dev; Organization: Android; Street Address: 11/8, Ezhil Nagar, Round Road Pudhur,; Locality: Dindigul; State/Province: Tamilnadu; Country: 91",
+  "urls": [
+    "https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

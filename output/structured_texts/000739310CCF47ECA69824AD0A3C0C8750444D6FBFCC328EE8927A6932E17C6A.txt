@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.calendar2019.hindicalendar
+  SHA-256       : 000739310CCF47ECA69824AD0A3C0C8750444D6FBFCC328EE8927A6932E17C6A
+  Android Group : Android14
+  Version       : 2.0.2.4 (code: 2024)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (51)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.ANSWER_PHONE_CALLS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, com.calendar2019.hindicalendar.permission.C2D_MESSAGE, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.ACCESS_ADSERVICES_TOPICS, com.android.alarm.permission.SET_ALARM, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (47): com.calendar2019.hindicalendar.activity.SubscriptionMainActivity, com.calendar2019.hindicalendar.activity.SubscriptionMainFreeTrialActivity, com.calendar2019.hindicalendar.activity.EventDetailActivity, com.calendar2019.hindicalendar.activity.AdUpEventifyActivityNew, com.onesignal.notifications.activities.NotificationOpenedActivity, com.calendar2019.hindicalendar.activity.AppInfoActivity, com.calendar2019.hindicalendar.activity.SearchActivity, com.calendar2019.hindicalendar.activity.LanguageActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.calendar2019.hindicalendar.activity.ThemeActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.calendar2019.hindicalendar.activity.PermissionBGLocationActivity, com.calendar2019.hindicalendar.activity.MapsActivity, androidx.compose.ui.tooling.PreviewActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.calendar2019.hindicalendar.activity.ReminderSettingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (36): androidx.room.MultiInstanceInvalidationService, com.example.mylibrary.calling.Receiver.CallingJobSchedulerService, com.calendar2019.hindicalendar.services.AddressIntentServicer, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.huq.sourcekit.service.HIVisitSubmissionJob, io.huq.sourcekit.service.HIDeviceInformationSubmissionJob, io.huq.sourcekit.wifi.HIWifiJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.huq.sourcekit.wifi.HICellularJobService, io.huq.sourcekit.service.HIPeriodicListeningJobService, com.example.mylibrary.calling.Services.CallingServices, com.example.mylibrary.calling.Services.AdLoadingJobService, com.umlaut.crowd.service.ConnectivityService, com.umlaut.crowd.service.InsightService, com.umlaut.crowd.service.ConnectivityJobService, com.umlaut.crowd.service.InsightJobService, com.umlaut.crowd.service.BackgroundTestJobService, com.uxcam.service.HttpPostService, com.onesignal.notifications.services.HmsMessageServiceOneSignal
+  Receivers  (49): io.huq.sourcekit.location.HILocationReceiver, com.calendar2019.hindicalendar.AlarmingCast, com.jksol.utils.MainBroadcastReceiver, com.jksol.utils.LibraryBroadcastReceiver, com.jksol.utils.InitialBroadcastReceiver, com.calendar2019.hindicalendar.utils.BootBroadcastReceiver, com.calendar2019.hindicalendar.receiver.TimeChangeBroadcastReceiver, com.calendar2019.hindicalendar.utils.NativeEventChangeReceiver, com.cellrebel.sdk.utils.PhoneStateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.calendar2019.hindicalendar.widget.CalendarAppWidgetNew, com.google.android.gms.measurement.AppMeasurementReceiver, com.calendar2019.hindicalendar.locationIntelligence.receiver.ScreenOnOffReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.calendar2019.hindicalendar.receiver.GeofenceBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (11): com.jksol.common.UtilityProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.yandex.metrica.PreloadInfoContentProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.umlaut.crowd.InsightStarter, com.facebook.internal.FacebookInitProvider, io.monedata.InitializationProvider, com.jksol.common.AppProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 50980
+  Total Methods : 317759
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A9 43 F2 81 43 C7 5F 5F 24 49 9D CF 8F 0F 33 C0 72 3F 51 33 91 CB 3E 40 88 BD F8 53 29 47 01 07
+
+==========================================

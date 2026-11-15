@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wawa.fighting
+  SHA-256       : 00BC8E80556AD0DE142DBA90135C4EBBBB7CD0B7B43657BA1460C5EB497CEACB
+  Android Group : Android12L
+  Version       : 4.0.5 (code: 226)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (58)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, freemme.permission.msa.SECURITY_ACCESS, com.vivo.identifier.permission.OAID_STATE_DIALOG, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.MANAGE_EXTERNAL_STORAGE, com.meizu.c2dm.permission.RECEIVE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, com.wawa.fighting.permission.MIPUSH_RECEIVE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS
+
+[Application Components]
+  Activities (93): com.loovee.module.dolls.dollsdetails.TestActivity, com.loovee.module.shop.fanshang.FanshangDetailsActivity, com.loovee.module.dolls.dollsorder.CommitOrderActivity, com.loovee.module.dolls.dollsorder.ExpiredDollsActivity, com.loovee.module.main.WebViewActivity, com.loovee.module.main.WebViewKeFuActivity, com.loovee.fastwawa.wxapi.WXPayEntryActivity, com.loovee.module.main.LoginActivity, com.loovee.module.inviteqrcode.FaceToFaceActivity, com.wawa.fighting.wxapi.WXPayEntryActivity, com.loovee.module.common.WeeklyCardActivity, com.loovee.module.main.WelcomeActivity, com.loovee.module.coin.buycoin.WrapFragemntActivity, com.loovee.module.dolls.dollsorder.EditAddrActivity, com.loovee.module.wawajiLive.WaWaLiveRoomActivity, com.loovee.module.wawaList.WaWaListActivity, com.loovee.module.myinfo.feedback.FeedbackActivity, com.loovee.module.wawajiLive.WawaRoomGuideActivity, com.loovee.module.myinfo.about.AboutActivity, com.loovee.module.myinfo.act.ActCenterActivity
+  Services   (16): com.loovee.service.LogService, com.shenzhen.push.HuaweiPushService, com.xiaomi.mipush.sdk.MessageHandleService, com.huawei.hms.support.api.push.service.HmsMsgService, com.xiaomi.push.service.XMPushService, com.huawei.agconnect.core.ServiceDiscovery, com.xiaomi.push.service.XMJobService, com.tencent.smtt.export.external.DexClassLoaderProviderService, com.xiaomi.mipush.sdk.PushMessageHandler, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.luck.picture.lib.service.ForegroundService, com.heytap.msp.push.service.DataMessageCallbackService, com.loovee.service.UploadService, com.meizu.cloud.pushsdk.NotificationService, com.vivo.push.sdk.service.CommandClientService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (9): com.loovee.receiver.AlarmReceiver, com.shenzhen.push.MzPushReceiver, com.loovee.receiver.NotificationReceiver, com.shenzhen.push.MiPushReceiver, com.shenzhen.push.VivoPushReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver
+  Providers  (8): com.huawei.hms.support.api.push.PushProvider, com.luck.picture.lib.basic.PictureFileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.sina.weibo.sdk.content.FileProvider, com.huawei.hms.aaid.InitProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, androidx.core.content.FileProvider, com.loovee.compose.main.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 29322
+  Total Methods : 214888
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://, http://)?([\w-]+\.)+[\w-]+(:\d+)*(/[\w-, https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(10): 255.255.255.128, 10.0.2.15, 192.168.255.255, 255.255.255.255, 2.5.29.15, 255.255.255.254, 255.255.0.0, 255.255.255.240, 255.255.255.252, 255.240.0.0
+
+[Certificate]
+  Issuer      : Common Name: ZSX; Organizational Unit: ZSX; Organization: ZSX; Locality: Shenzhen,China; State/Province: GD; Country: cn
+  Fingerprint : C3 E8 27 A4 8E 4A BC 3B 2C 1A 74 63 4C 2E 71 6E 94 51 60 37 AE 3D 6A 4E 68 5B 81 2A 83 9F E2 F1
+
+==========================================

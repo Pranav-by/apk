@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.diet.pixsterstudio.ketodietican
+  SHA-256       : 0093A58D0AA057924EA087577BBD5D79334AF4C9B42D6F9A88C96DAAF43C45DC
+  Android Group : Android12
+  Version       : 10.1 (code: 117)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (23)]
+  android.permission.SCHEDULE_EXACT_ALARM, com.android.vending.CHECK_LICENSE, android.permission.ACCESS_COARSE_LOCATION, com.diet.pixsterstudio.ketodietican.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.android.alarm.permission.SET_ALARM, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, com.diet.pixsterstudio.ketodietican.permRead, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (141): com.android.billingclient.api.ProxyBillingActivity, com.diet.pixsterstudio.ketodietican.update_version.Barcode_custom_food.food_sub_category, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.CustomTabMainActivity, com.google.firebase.auth.internal.FederatedSignInActivity, com.diet.pixsterstudio.ketodietican.update_version.setting.Prefrence_Activity, com.diet.pixsterstudio.ketodietican.update_version.Activity.WeightJourney, com.diet.pixsterstudio.ketodietican.update_version.setting.dairy_activity, com.diet.pixsterstudio.ketodietican.update_version.KnowIt.newknowit.knowit_imageExpanded, com.diet.pixsterstudio.ketodietican.update_version.Recipy.track_insta_recipe, com.fitbit.authentication.ui.LoginActivity, com.diet.pixsterstudio.ketodietican.update_version.Measurement.Graph.measurement_graph_view, com.diet.pixsterstudio.ketodietican.update_version.setting.Account_activity, com.diet.pixsterstudio.ketodietican.update_version.setting.userguide, com.diet.pixsterstudio.ketodietican.update_version.KnowIt.newknowit.bookmarkArticle_newActivity, com.diet.pixsterstudio.ketodietican.update_version.Activity.Inapp_purchase_new, com.diet.pixsterstudio.ketodietican.update_version.stories.screen.NewStorieActivtiy, com.diet.pixsterstudio.ketodietican.update_version.Activity.privacy_policy, com.diet.pixsterstudio.ketodietican.update_version.Recipy.WebRecipy.recipy_instruction
+  Services   (10): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.diet.pixsterstudio.ketodietican.MyService, com.google.android.gms.measurement.AppMeasurementJobService, com.diet.pixsterstudio.ketodietican.update_version.Utils.MyFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (8): com.diet.pixsterstudio.ketodietican.update_version.Notification.BootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.diet.pixsterstudio.ketodietican.update_version.Notification.AlarmReceiver, com.diet.pixsterstudio.ketodietican.update_version.Notification.DismissReceiver, com.diet.pixsterstudio.ketodietican.update_version.Notification.NagReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (6): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.crashlytics.android.CrashlyticsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31685
+  Total Methods : 211539
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://ketomanager.sng.link/Dfg4e/ff4v, https://ketomanager.sng.link/Dfg4e/3rir, https://ketomanager.sng.link/Dfg4e/6o78, https://ketomanager.sng.link/Dfg4e/ag6n
+  IP Addresses(4): 1.2.10.27, 1.4.7.32, 2.7.0.33, 2.10.1.34
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 26 BB EF FB CC 36 DE 50 3F 25 51 85 F2 DA 49 C6 10 04 FC C1 1B 46 EC 32 6B 2F F1 99 51 CD 66 DC
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kandurr.FemaleReproductiveSystem3D
+  SHA-256       : 00A5B01FD321B7C0BDD7EBC1FD2BA51977E007C48E4EF903DAF0A2A7267FAEC8
+  Android Group : Android12
+  Version       : 1.0.8 (code: 9)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (4)]
+  com.google.android.gms.permission.AD_ID, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (6): com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.facebook.ads.AudienceNetworkActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2426
+  Total Methods : 13954
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D1 D0 5F 88 ED 0E EE F7 0D AB 0F 49 BC 7F 8A FA 17 1B 21 A1 A6 3C 66 17 1C CF CC 8E 4E CE 8A 4D
+
+==========================================

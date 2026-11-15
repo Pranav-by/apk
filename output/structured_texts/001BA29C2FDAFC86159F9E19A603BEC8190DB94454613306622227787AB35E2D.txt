@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.creativeoffice.ripcoin
+  SHA-256       : 001BA29C2FDAFC86159F9E19A603BEC8190DB94454613306622227787AB35E2D
+  Android Group : Android12
+  Version       : 8.660 (code: 8660)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (11)]
+  android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (58): com.creativeoffice.ripcoin.Activity.Activity.MainActivity, com.creativeoffice.ripcoin.Activity.Activity.SplashScreenActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.yandex.mobile.ads.common.AdActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.creativeoffice.ripcoin.Activity.Activity.AddStakeActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.ironsource.sdk.controller.ControllerActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.creativeoffice.ripcoin.Activity.Activity.UsersListActivity, com.google.android.gms.common.api.GoogleApiActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (20): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.creativeoffice.ripcoin.Activity.Services.MyFirebaseMessagingService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (12): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.creativeoffice.ripcoin.Activity.Receiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (11): com.facebook.ads.AudienceNetworkContentProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.squareup.picasso.PicassoProvider, com.yandex.metrica.PreloadInfoContentProvider, com.my.target.common.MyTargetContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.vungle.warren.utility.VungleProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 48987
+  Total Methods : 286470
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(10): 5.1.1.0, 11.4.2.0, 6.10.5.1, 10.0.7.0, 127.0.0.1, 5.15.1.5, 21.0.0.1, 6.11.0.2, 4.5.0.3, 4.2.1.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F1 8D B8 9F A1 B6 1D 57 BE 1C 93 2A 20 7E 2B 38 05 9A F2 B4 29 62 5A 45 8D 44 4B 35 90 18 BB EA
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.buzzato.lungcancer
+  SHA-256       : 00B1E36925C1BC1E1BEEE9F29519D380C15D05B6FB684BCFBD713D4EEE819CA1
+  Android Group : Android14
+  Version       : 1.0 (code: 32)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 34
+
+[Permissions (5)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (2): com.buzzato.amarnathyatra.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (5): com.buzzato.amarnathyatra.MyFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (2): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1705
+  Total Methods : 9533
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/privacy/init-options.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 66 A1 0F 6F E3 53 5F 45 D3 95 26 7F CA 42 75 43 D4 54 18 7B 47 D7 D6 59 49 62 63 37 A9 59 10 E3
+
+==========================================

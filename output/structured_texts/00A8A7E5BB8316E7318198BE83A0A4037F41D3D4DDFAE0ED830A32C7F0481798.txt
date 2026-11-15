@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bosco.boscoApp
+  SHA-256       : 00A8A7E5BB8316E7318198BE83A0A4037F41D3D4DDFAE0ED830A32C7F0481798
+  Android Group : Android12L
+  Version       : 6.7.6 (code: 1668496167)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 32
+
+[Permissions (31)]
+  android.permission.RECORD_AUDIO, android.permission.SEND_SMS, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_COARSE_LOCATION, android.permission.USE_BIOMETRIC, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, com.android.alarm.permission.SET_ALARM, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (36): com.boscoapp.android.parent.ui.childData.createChild.CreateChildProfileActivity, debugTools.DebugLogActivity, com.boscoapp.android.parent.ui.childDashboard.innerClasses.InnerActivity, com.facebook.CustomTabMainActivity, com.boscoapp.android.parent.ui.phoneVerification.PhoneAuthActivity, com.karumi.dexter.DexterActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.bosco.boscoApp.ui.SplashScreenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.bosco.boscoApp.ui.GetStartedActivity, com.google.android.gms.common.api.GoogleApiActivity, com.bosco.boscoApp.ui.MainActivity, com.android.billingclient.api.ProxyBillingActivity, com.boscoapp.android.parent.ui.childDashboard.ChildViewDashboardActivity, com.boscoapp.android.parent.ui.alertSettings.AlertSettingsActivity, com.boscoapp.android.parent.ui.dailyreport.DailyReportActivity, com.boscoapp.android.parent.ui.notification.NotificationActivity, com.boscoapp.android.parent.ui.childMap.ChildMapActivity, com.boscoapp.android.parent.ui.editProfile.ParentEditProfileActivity, com.boscoapp.android.parent.ui.voucher.VoucherActivity
+  Services   (23): services.heavyUploads.UploaderIntentService, com.bosco.boscoApp.services.MessagingHandlerService, com.chuckerteam.chucker.internal.support.ClearDatabaseService, androidx.work.multiprocess.RemoteWorkManagerService, com.mapbox.common.LifecycleService, dataCollection.accesibility.BoscoAccessibilityService, services.device_notifications.DeviceNotificationsListener, significantPlaces.ContinuousLocationService, services.common.RunBroadcastReceiversService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, permissionsFeature.gcmAppHider.AppHiderJob, services.UploadNetworkConnectionStatusJob, com.mapbox.android.telemetry.MapboxTelemetryService, androidx.work.impl.background.gcm.WorkManagerGcmService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (20): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.mapbox.common.location.LocationUpdatesReceiver, broadcastReceivers.DeviceBootReceiver, broadcastReceivers.PhoneReceiver, broadcastReceivers.BatteryReceiver, broadcastReceivers.DeviceProvidersReceiver, services.common.ChildNotificationsReceiver, permissionsFeature.AdminReceiver, broadcastReceivers.RingerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.chuckerteam.chucker.internal.support.ChuckerFileProvider, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 28851
+  Total Methods : 206936
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): http://www.ngs.ac.uk/tools/jcepolicyfiles, https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Yariv Goren, Organizational Unit: R&D, Organization: sFBI, Locality: Rishpon, State/Province: Israel, Country: Israel
+  Fingerprint : 58 7E 50 DA CB FA C6 EE F0 09 08 58 5E 20 9C D6 AC 27 A0 50 48 E6 D0 79 E7 08 55 00 85 20 B8 92
+
+==========================================

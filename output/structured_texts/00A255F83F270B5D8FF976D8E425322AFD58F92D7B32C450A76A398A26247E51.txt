@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.stryd.pioneer
+  SHA-256       : 00A255F83F270B5D8FF976D8E425322AFD58F92D7B32C450A76A398A26247E51
+  Android Group : Android14
+  Version       : 8.17.104 (code: 901226)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (36)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, com.stryd.pioneer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.USE_CREDENTIALS, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.FOREGROUND_SERVICE_LOCATION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, no.nordicsemi.android.LOG, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.android.vending.BILLING
+
+[Application Components]
+  Activities (132): com.stryd.pioneer.power_calculator.EditEventActivity, com.stryd.pioneer.training_plans.createflow.steps.ScheduleSuccessActivity, com.stryd.pioneer.settings.notification.NotificationSettingsActivity, com.stryd.pioneer.power_calculator.SelectEventPriorityActivity, com.stryd.pioneer.training_plans.createflow.selectlib.SelectLibraryActivity, com.stryd.pioneer.power_calculator.SelectEventCourseActivity, com.stryd.pioneer.training_plans.createflow.steps.phasetype.PhaseTypeSelectorActivity, com.stryd.pioneer.settings.trainingplans.TrainingPlansActivity, com.stryd.pioneer.getstarted.besteffort.CongratsStartRunningActivity, com.stryd.pioneer.power_calculator.SelectEventTargetActivity, com.stryd.pioneer.discovery.category.DiscoverCategoryActivity, com.stryd.pioneer.training_plans.library.singlelibrary.PlanLibraryActivity, com.stryd.pioneer.settings.run_analysis.RunAnalysisActivity, com.stryd.pioneer.calendar.CalendarActivity, com.stryd.pioneer.workout_lib.WorkoutLibraryActivity, com.stryd.pioneer.settings.CriticalPowerConfigActivity, com.stryd.pioneer.power_calculator.SelectEventDistanceActivity, com.stryd.pioneer.power_calculator.CustomEventDistanceActivity, com.stryd.pioneer.training_plans.planbuilder.weekedit.WorkoutLibraryActivityPicker, com.stryd.pioneer.summary.pdc.PdcTipsActivity
+  Services   (24): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService, com.mapbox.common.LifecycleService, androidx.core.widget.RemoteViewsCompatService, no.nordicsemi.android.support.v18.scanner.ScannerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.stryd.pioneer.run.RunRecordingService, com.stryd.pioneer.podsync.offlinesync.OfflineSyncService, com.stryd.pioneer.wizard.firmware_update.FirmwareUpdateOngoingNotificationService, com.stryd.pioneer.podsync.footpath.FootpathSyncService, com.stryd.pioneer.podsync.footpath.autosync.FootpathAutoSyncService, com.stryd.pioneer.podsync.podhealthsync.PodHealthService, com.stryd.pioneer.dfu.DfuService, com.stryd.pioneer.messaging.MessagingService
+  Receivers  (28): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.glance.appwidget.MyPackageReplacedReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.stryd.pioneer.widget.StrydPodBatteryWidget, com.stryd.pioneer.podsync.footpath.autosync.FootpathAlarmTriggerReceiver, com.stryd.pioneer.podsync.ScheduleExactAlarmPermissionChangedReceiver, com.stryd.pioneer.widget.criticalpower.CriticalPowerWidgetReceiver, com.stryd.pioneer.widget.criticalpower.CriticalPowerHistoryWidgetReceiver, com.mapbox.common.location.LocationUpdatesReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver, com.stryd.pioneer.widget.upcomingworkouts.UpcomingCalendarWidgetWidgetReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.stryd.pioneer.widget.rsb.RunningStressBalanceWidgetReceiver, com.stryd.pioneer.podsync.CancelSyncNotificationReceiver, androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver, androidx.glance.appwidget.UnmanagedSessionReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (5): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider, com.facebook.FacebookContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 43866
+  Total Methods : 300688
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Kun Li, Organization: Stryd, Locality: Boulder, State/Province: Colorado, Country: 01
+  Fingerprint : B6 87 F8 38 33 F9 D7 31 27 F7 E1 6B 2B 7A 55 5E 2D 95 5D AC A8 15 9E 0F 84 07 EF 81 28 A7 18 58
+
+==========================================

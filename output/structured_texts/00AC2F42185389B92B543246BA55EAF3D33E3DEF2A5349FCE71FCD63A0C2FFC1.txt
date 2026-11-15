@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.km.cutpaste.util
+  SHA-256       : 00AC2F42185389B92B543246BA55EAF3D33E3DEF2A5349FCE71FCD63A0C2FFC1
+  Android Group : Android12L
+  Version       : 10.0.3 (code: 89)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (105): com.km.cutpaste.ColorSettingScreen, com.km.cutpaste.advanceedit.CutPhotoListViewerScreen, com.km.gifsearch.GifSearchScreen, com.km.cutpaste.CrossPlatformAdsActivity, com.km.cutpaste.memecreator.MemeCreatorActivity, com.km.cutpaste.covercreation.CoverCreationScreen, com.facebook.ads.AudienceNetworkActivity, com.km.cutpaste.PermissionRejectActivity, com.km.postertemplate.AllTemplatesActivity, com.km.gifsearch.GifCategoryScreen, com.km.cutpaste.inpaint.AdvanceEditInPaintScreen, com.km.cutpaste.inpaint.InPaintEraseObjectScreen, com.km.cutpaste.textart.AddTextScreen, com.km.postertemplate.PosterEditScreen, com.km.postertemplate.PreviewActivity, com.km.cutpaste.inpaint.AICutActivityInPaint, com.km.cutpaste.StartScreen2, com.km.postertemplate.PosterEditFreeCollageScreen, com.km.postertemplate.TemplateDownloaderScreen, com.android.billingclient.api.ProxyBillingActivity
+  Services   (14): com.dexati.adclient.DexatiCampaignTrackingService, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.dexati.adclient.CampaignJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (11): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.dexati.adclient.DexatiCampaignTrackingReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (7): com.km.cutpaste.util.CustomProvider, com.km.cutpaste.cutstickers.provider.StickerContentProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13653
+  Total Methods : 74720
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(1): 6.11.0.1
+
+[Certificate]
+  Issuer      : Common Name: Kumar Mettu, Organizational Unit: Android Dev, Organization: kumarmettu.com, Locality: San Ramon, State/Province: CA, Country: US
+  Fingerprint : DA B4 C1 CA 62 95 FA B2 31 1F BD B5 7A 94 8D EB 28 98 3B FD 9E 13 58 B9 FA 8D 71 DA 01 D1 06 74
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.vantixlaw.services
+  SHA-256       : 00A002A834BB472EB4892500206E1E65087F5B2777989968088C7F45335B67A0
+  Android Group : Android15
+  Version       : 1.1.0 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 27
+  Target SDK    : 35
+
+[Permissions (20)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.vantixlaw.services.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (21): io.intercom.android.sdk.helpcenter.articles.ArticleActivity, com.pairip.licensecheck.LicenseActivity, io.intercom.android.sdk.m5.IntercomRootActivity, androidx.compose.ui.tooling.PreviewActivity, io.intercom.android.sdk.post.PostActivityV2, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.ui.preview.ui.IntercomPreviewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.canhub.cropper.CropImageActivity, com.google.android.gms.common.api.GoogleApiActivity, io.intercom.android.sdk.activities.IntercomPostActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, com.americor.funding.MainActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, io.intercom.android.sdk.m5.bubble.IntercomBubbleActivity, io.intercom.android.sdk.helpcenter.articles.IntercomArticleActivity, com.americor.debugtool.ui.DebugToolActivity
+  Services   (14): androidx.work.impl.foreground.SystemForegroundService, com.americor.funding.push.FCMService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.sessions.SessionLifecycleService, androidx.camera.core.impl.MetadataHolderService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (14): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, io.intercom.android.sdk.m5.push.ConversationReplyReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (8): com.pairip.licensecheck.LicenseContentProvider, androidx.startup.InitializationProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, androidx.core.content.FileProvider, io.intercom.android.sdk.IntercomFileProvider, com.canhub.cropper.CropFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 14
+  Total Classes : 89417
+  Total Methods : 710837
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9C B3 0B 8A BB 59 55 C4 E7 D4 70 21 00 75 E7 E4 DF FC 2D 12 58 5B 7B 51 B2 3A 09 83 62 91 DD C2
+
+==========================================

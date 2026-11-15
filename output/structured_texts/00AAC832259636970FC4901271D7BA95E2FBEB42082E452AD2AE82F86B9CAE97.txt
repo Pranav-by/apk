@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : eu.balzo.bowlingrun
+  SHA-256       : 00AAC832259636970FC4901271D7BA95E2FBEB42082E452AD2AE82F86B9CAE97
+  Android Group : Android12L
+  Version       : 1.0.09 (code: 13)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (7)]
+  com.google.android.gms.permission.AD_ID, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (13): com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.unity.FBUnityLoginActivity, com.facebook.unity.FBUnityJoinGameGroupActivity, com.facebook.unity.FBUnityGamingServicesFriendFinderActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.facebook.unity.FBUnityGameRequestActivity, com.unity3d.player.UnityPlayerActivity, com.facebook.unity.FBUnityDialogsActivity, com.facebook.FacebookActivity, com.facebook.unity.FBUnityCreateGameGroupActivity, com.facebook.unity.FBUnityAppLinkActivity
+  Services   (6): com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (3): com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7765
+  Total Methods : 50068
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 82 2F 27 3C ED AA DB 97 BE A4 AE 5D B2 60 7F 51 C0 02 91 DD 24 91 0A A5 B1 4D AC 6D AC EC 57 6C
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.agus.southafrica.calendar
+  SHA-256       : 00C20D4F7C34E2CB2861052CADD57DABC87FDFDC8C451FA7660A9802C1AFDFE4
+  Android Group : Android13
+  Version       : 2.0.5 (code: 34)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (12)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WRITE_EXTERNAL_STORAGE, com.agus.southafrica.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.USE_EXACT_ALARM
+
+[Application Components]
+  Activities (10): com.agus.southafrica.calendar.OtherAppActivity, com.agus.southafrica.calendar.MyOtherAppActivity, com.agus.southafrica.calendar.PrivacyPolicyActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.agus.southafrica.calendar.ScoreActivity, com.agus.southafrica.calendar.MainActivity, com.theartofdev.edmodo.cropper.CropImageActivity, com.agus.southafrica.calendar.IconLicenseActivity, com.google.android.gms.ads.AdActivity, com.agus.southafrica.calendar.QuoteActivity
+  Services   (6): androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, com.agus.southafrica.calendar.reminder.ReminderService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (10): com.agus.southafrica.calendar.reminder.OnBootReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.agus.southafrica.calendar.AlarmReceiver
+  Providers  (3): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3981
+  Total Methods : 24443
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): http://jackietran.deviantart.com/, http://www.aiga.org/, https://www.iconfinder.com/icondesigner, https://www.iconfinder.com/Bres, http://www.kde-look.org/usermanager/search.php?username=mentalrey, http://www.iconeden.com, https://www.iconfinder.com/icons/134159/aid_emergency_first_hospital_room_icon, http://www.iconeden.com/, https://googlemobileadssdk.page.link/admob-android-update-manifest, http://www.everaldo.com/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Agus Haryanto, Organizational Unit: android, Organization: http://agusharyanto.net, Locality: Jakarta, State/Province: Jakarta, Country: ID
+  Fingerprint : 8C 17 33 31 AB 7F 9D 21 9F 9F AB B7 79 AC 44 90 5F 58 19 15 D8 BD C3 65 69 9E 26 79 57 7D 06 E9
+
+==========================================

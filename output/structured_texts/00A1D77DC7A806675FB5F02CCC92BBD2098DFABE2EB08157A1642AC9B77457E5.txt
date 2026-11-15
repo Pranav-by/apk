@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.threedrop.three_drop
+  SHA-256       : 00A1D77DC7A806675FB5F02CCC92BBD2098DFABE2EB08157A1642AC9B77457E5
+  Android Group : Android16
+  Version       : 1.9.9 (code: 436)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (11)]
+  com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.threedrop.three_drop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (20): com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.threedrop.three_drop.MainActivity, com.revenuecat.purchases.SimulatedStoreErrorDialogActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.google.android.gms.ads.NotificationHandlerActivity, com.google.android.gms.ads.AdActivity, io.flutter.plugins.urllauncher.WebViewActivity, androidx.credentials.playservices.HiddenActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity
+  Services   (11): com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.metadata.ModuleDependencies, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.credentials.playservices.CredentialProviderMetadataHolder
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver, com.amazon.device.iap.ResponseReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent
+  Providers  (6): dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.crazecoder.openfile.FileProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23918
+  Total Methods : 126606
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://issuetracker.google.com/issues/241760537, https://rev.cat/how-to-configure-offerings., https://goo.gle/admob-android-update-manifest, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://github.com/RevenueCat/purchases-android/issues/381, https://rev.cat/google-duplicated-listener-timeouts, https://goo.gle/ad-manager-android-update-manifest., https://docs.revenuecat.com/docs/ios-subscription-offers, https://errors.rev.cat/configuring-products, https://rev.cat/why-are-offerings-empty
+  IP Addresses(2): 2.10.5.0, 2.9.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 21 22 57 C3 52 04 68 8E 7F AB 07 97 40 A7 6C B2 CE DF ED FF 31 D0 FA 5A 7D 2C B2 49 8A 9B 79 23
+
+==========================================

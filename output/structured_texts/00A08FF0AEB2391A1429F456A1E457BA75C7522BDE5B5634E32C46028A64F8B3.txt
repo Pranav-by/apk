@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.relaxingsoothingmusic.pianosoundstosleep
+  SHA-256       : 00A08FF0AEB2391A1429F456A1E457BA75C7522BDE5B5634E32C46028A64F8B3
+  Android Group : Android12L
+  Version       : 1.6 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (6)]
+  com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.Ad_ID, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (13): com.applovin.mediation.MaxDebuggerMultiAdActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.relaxingsoothingmusic.pianosoundstosleep.MainActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity
+  Services   (2): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (0): none
+  Providers  (3): androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6248
+  Total Methods : 38130
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://exoplayer.dev/issues/cleartext-not-permitted, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, http://developer.android.com/google/play-services/setup.html.
+  IP Addresses(1): 6.11.0.5
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: Unknown
+  Fingerprint : 1C 42 E8 76 7B 21 BE 23 CC CE 7A 36 F3 65 47 DF E9 FE C8 C7 03 11 33 59 30 F3 2C F8 DA 41 DA CB
+
+==========================================

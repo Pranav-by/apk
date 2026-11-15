@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gf.clearnodedroid
+  SHA-256       : 00A7A2BFE2185764517AD68BDA7592283FD4F5086EF958989EA8DFF61FD22F72
+  Android Group : Android12L
+  Version       : 1.37.1 (code: 66)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.CAMERA, android.permission.INTERNET, android.permission.POST_NOTIFICATIONS, android.permission.FLASHLIGHT, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (24): com.gf.clearnodedroid.GpioControllerActivity, com.gf.clearnodedroid.OSSetupActivity, com.gf.clearnodedroid.NotificationsSetupActivity, com.gf.clearnodedroid.LoginActivity, com.gf.clearnodedroid.EditOptionActivity, com.gf.clearnodedroid.ManageWiFiActivity, com.gf.clearnodedroid.StrobeActivity, com.google.android.gms.common.api.GoogleApiActivity, com.gf.clearnodedroid.TimezoneActivity, com.gf.clearnodedroid.LinksActivity, com.gf.clearnodedroid.SearchWiFiActivity, com.gf.clearnodedroid.EditWiFiActivity, com.gf.clearnodedroid.RadioActivity, com.gf.clearnodedroid.EditTimedEventActivity, com.gf.clearnodedroid.ManageTimedEventsActivity, com.gf.clearnodedroid.USBAudioSetupActivity, com.gf.clearnodedroid.ConnectActivity, com.gf.clearnodedroid.ManageOptionsActivity, com.gf.clearnodedroid.NodeSetupActivity, com.gf.clearnodedroid.FleetLastHeardActivity
+  Services   (5): com.gf.clearnodedroid.services.NotificationService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13183
+  Total Methods : 93400
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 1.1.1.1, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B0 1C 4A 8B 0B 64 76 D0 59 4E E4 69 9B D8 FC 17 4E F3 02 26 FC 9E D4 E8 D3 D6 63 FF 1B 5B C1 0E
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.whosyourdaddyreal.modgamemultiplayer
+  SHA-256       : 00ADB731E154D02F6EE94605904E1E210116EE47A031320C28D25BC4FA0248AB
+  Android Group : Android12L
+  Version       : 2.0.0 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (9)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.SET_WALLPAPER
+
+[Application Components]
+  Activities (25): com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.whosyourdaddyreal.modgamemultiplayer.ui.DetailActivity, com.applovin.mediation.MaxDebuggerActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.whosyourdaddyreal.modgamemultiplayer.ui.MainActivity, com.google.android.gms.ads.AdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.whosyourdaddyreal.modgamemultiplayer.ui.SplashActivity
+  Services   (9): com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.foreground.SystemForegroundService, com.applovin.impl.sdk.utils.AppKilledService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (5): com.squareup.picasso.PicassoProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18911
+  Total Methods : 112641
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 1.0.0.0, 6.13.7.0, 4.6.0.0, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 31 75 05 8F 69 A3 AB CE DE 3B 27 3B 62 86 8B 9F C0 D3 31 C0 A7 1E 6D BA 4A 40 F5 D5 86 BE CA 9E
+
+==========================================

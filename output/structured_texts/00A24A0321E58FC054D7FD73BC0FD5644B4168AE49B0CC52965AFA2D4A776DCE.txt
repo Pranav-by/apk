@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.debank.meme
+  SHA-256       : 00A24A0321E58FC054D7FD73BC0FD5644B4168AE49B0CC52965AFA2D4A776DCE
+  Android Group : Android12L
+  Version       : 1.0.26 (code: 72)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (7): androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.canhub.cropper.CropImageActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.debank.meme.MainActivity
+  Services   (8): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.burnweb.rnsendintent.RNSendIntentModule, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (11): io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, androidx.startup.InitializationProvider, com.canhub.cropper.CropFileProvider, com.imagepicker.ImagePickerProvider, com.burnweb.rnsendintent.FileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.RNFetchBlob.Utils.FileProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 24083
+  Total Methods : 154653
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): http://www.w3.org/1999/02/22-rdf-syntax-ns#, https://raw.githubusercontent.com/drewnoakes/metadata-extractor-images/master/%s
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A0 43 0C 31 6E 91 F6 DA F1 9D CF DC F5 E5 F4 AB 19 FD A9 BA 50 14 3C F4 C6 B4 2C C3 C4 62 2D 26
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.april2019.matics
+  SHA-256       : 00A9E1456E41467370BFF8407B1FC82F62FF537DC7EF15659826939842C7554B
+  Android Group : Android15
+  Version       : 1.11.1.2 (code: 87)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (27)]
+  android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.CHANGE_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.apps.photos.permission.GOOGLE_PHOTOS, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.truecaller.permission.sdk.internal.read_account_state, android.permission.READ_CONTACTS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH_CONNECT, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (199): co.classplus.app.ui.common.chatV2.createGroup.CreateGroupActivity, com.facebook.CustomTabMainActivity, co.classplus.app.ui.common.videostore.batchdetail.overview.AddAddressActivity, co.classplus.app.ui.tutor.batchdetails.homework.createupdate.update.EditHomeworkActivity, com.razorpay.CheckoutActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, co.classplus.app.ui.tutor.home.HomeActivity, co.classplus.app.ui.tutor.couponManagement.couponShare.CouponShare, co.classplus.app.ui.tutor.grow.common.MarketingCollateralActivity, co.classplus.app.ui.tutor.home.timetable.create.CreateEventActivity, co.classplus.app.ui.common.aboutus.CommonRefreshWebViewActivity, com.xprep.library.doodling.DoodleActivity, co.classplus.app.ui.tutor.feemanagement.settings.PaymentSettingsActivity, co.classplus.app.ui.tutor.couponManagement.couponHelp.CouponHelp, co.classplus.app.ui.tutor.createbatch.batchupdate.UpdateBatchActivity, co.classplus.app.ui.common.videostore.recommendCourse.selectReceipt.RecommendReceiptActivity, co.classplus.app.ui.common.chat.chatwindow.ChatWindowActivity, co.classplus.app.ui.tutor.batchdetails.students.addstudent.addfromcontacts.AddStudentFromContactsActivity, co.classplus.app.ui.parent.home.ParentHomeActivity, co.classplus.app.ui.common.userprofile.UserProfileActivity
+  Services   (28): com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.tagmanager.TagManagerService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.measurement.AppMeasurementService, co.classplus.app.ui.common.attachment.AttachmentUploadService, io.antmedia.android.broadcaster.LiveVideoBroadcaster, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, co.classplus.app.ui.common.splash.updateUtm.UtmUpdateService, androidx.work.impl.background.systemjob.SystemJobService, co.classplus.app.ui.tutor.batchdetails.resources.playvideo.youtubeanalytics.YoutubeAnalyticsService, co.classplus.app.ui.common.jwplayer.updatesubscriberservice.SubscriberUpdateService, co.classplus.app.cloudmessaging.handle.FcmMessagingService, androidx.work.impl.foreground.SystemForegroundService, co.classplus.app.ui.tutor.batchdetails.announcements.sendservice.SendNewNoticeService, androidx.camera.core.impl.MetadataHolderService, live.hms.video.services.HMSScreenCaptureService, co.classplus.app.ui.common.chat.SendChatMessageService, androidx.room.MultiInstanceInvalidationService, co.classplus.app.ui.tutor.feemanagement.downloadreceipt.DownloadPaymentReceiptService
+  Receivers  (20): live.hms.video.services.LogAlarmManager, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, co.classplus.app.ui.common.splash.UtmReceiver, co.classplus.app.utils.receiver.SMSRetrieverBroadcastReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.razorpay.RzpTokenReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, co.classplus.app.utils.ClassplusFileProvider, droidninja.filepicker.utils.FilePickerProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 37190
+  Total Methods : 229125
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gle/compose-feedback, http://ns.adobe.com/xdp/, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, http://www.xfa.org/schema/xfa-data/1.0/, http://www.xfa.org/schema/xfa-template/3.3/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B0 57 F8 00 C4 62 B3 66 EE 52 50 20 DF 2F 1E D7 12 43 9D 79 91 98 2E 19 E3 EA BB 48 00 9A 2A 69
+
+==========================================

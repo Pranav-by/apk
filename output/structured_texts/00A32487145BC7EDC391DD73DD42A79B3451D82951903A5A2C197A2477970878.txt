@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bujiadian.partnerhomework
+  SHA-256       : 00A32487145BC7EDC391DD73DD42A79B3451D82951903A5A2C197A2477970878
+  Android Group : Android13
+  Version       : 1.3.5 (code: 27)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (27)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.QUERY_ALL_PACKAGES, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.huawei.android.launcher.permission.CHANGE_BADGE, com.vivo.notification.permission.BADGE_ICON, android.permission.CAMERA, com.asus.msa.SupplementaryDID.ACCESS, android.permission.READ_PHONE_STATE
+
+[Application Components]
+  Activities (114): com.ss.android.downloadlib.activity.JumpKllkActivity, com.yalantis.ucrop.UCropActivity, com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity, com.yalantis.ucrop.PictureMultiCuttingActivity, com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity, com.luck.picture.lib.PicturePlayAudioActivity, com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy, com.luck.picture.lib.PictureExternalPreviewActivity, com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityLiveProcessProxy, com.luck.picture.lib.PictureVideoPlayActivity, com.byted.live.lite.Activity_bytelive_standard, com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity, com.byted.live.lite.Activity_bytelive_singleTask4, com.luck.picture.lib.PicturePreviewActivity, com.byted.live.lite.Activity_bytelive_singleTop3, com.luck.picture.lib.PictureCustomCameraActivity, com.byted.live.lite.Activity_bytelive_singleTop2, com.luck.picture.lib.PictureSelectorCameraEmptyActivity, com.byted.live.lite.Activity_main_standard, com.qq.e.ads.DialogActivity
+  Services   (20): com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.ss.android.socialbase.downloader.downloader.DownloadService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.umeng.message.component.UmengIntentService, com.umeng.message.component.UmengMessageReceiverService, com.umeng.message.component.UmengMessageHandlerService, com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.taobao.accs.ChannelService, com.bujiadian.partnerhomework.data.UploadImgService, com.taobao.accs.ChannelService$KernelService, com.bujiadian.partnerhomework.data.UploadImgService2, com.taobao.accs.data.MsgDistributeService, com.amap.api.location.APSService, com.taobao.accs.internal.AccsJobService, com.qq.e.comm.DownloadService, org.android.agoo.accs.AgooService, com.tataera.sdk.common.TataAppService, com.ss.android.socialbase.appdownloader.DownloadHandlerService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService
+  Receivers  (6): com.tataera.sdk.common.TataTrackerReceiver, com.ss.android.downloadlib.core.download.DownloadReceiver, com.umeng.message.component.UmengNotificationReceiver, com.taobao.accs.ServiceReceiver, com.tencent.mm.sdk.plugin.MMPluginOAuth$Receiver, com.tencent.mm.sdk.channel.MMessage$Receiver
+  Providers  (12): androidx.core.content.FileProvider, com.bytedance.pangle.provider.MainProcessProviderProxy, com.bytedance.sdk.openadsdk.TTFileProvider, com.bytedance.pangle.FileProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byted.live.lite.ServerManager_bytelive, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.byted.live.lite.ServerManager_push, com.luck.picture.lib.PictureFileProvider, com.umeng.message.component.UmengMessageProvider, com.bytedance.sdk.openadsdk.stub.server.MainServerManager
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 165
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: 不加点, Organizational Unit: 北京不加点科技有限公司, Organization: 北京不加点科技有限公司, Locality: 北京, State/Province: 北京, Country: 中国
+  Fingerprint : BD 9D C7 1E CB B5 7C 05 8A 55 5D 79 6F 93 C7 DE AC 95 17 D1 A2 E5 43 AA A1 88 F9 85 A5 75 58 F2
+
+==========================================

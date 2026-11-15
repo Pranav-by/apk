@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.global.ztmslg
+  SHA-256       : 00A93EC5CD26A01ABF805E7DABF1CAB2531107DB7CC80BF151ADF1BBAF38A88A
+  Android Group : Android15
+  Version       : 7.0.235 (code: 305)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (41)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, com.meizu.c2dm.permission.RECEIVE, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, com.android.vending.CHECK_LICENSE, android.permission.WRITE_SETTINGS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.BROADCAST_PACKAGE_REPLACED, com.global.ztmslg.permission.C2D_MESSAGE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.RECEIVE_BOOT_COMPLETED, com.global.ztmslg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING
+
+[Application Components]
+  Activities (25): com.games37.riversdk.functions.vk.VKActivity, com.google.android.gms.common.api.GoogleApiActivity, com.games37.sdk.AtlasPluginDemoActivity, com.igexin.sdk.PushActivity, com.twitter.sdk.android.core.identity.OAuthActivity, com.igexin.sdk.GActivity, com.igexin.sdk.GetuiActivity, com.vk.api.sdk.ui.VKWebViewAuthActivity, com.vk.api.sdk.ui.VKConfirmationActivity, com.vk.api.sdk.ui.VKCaptchaActivity, com.twitter.sdk.android.tweetcomposer.ComposerActivity, androidx.credentials.playservices.HiddenActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.games37.riversdk.core.login.activity.SDKLoginActivity, com.facebook.CustomTabActivity
+  Services   (25): com.games37.riversdk.core.firebase.SdkFirebaseMessagingService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.igexin.sdk.PushService, org.OpenUDID.OpenUDID_service, com.igexin.download.DownloadService, com.getui.getuiunity.GTPushService, com.getui.getuiunity.GTPushIntentService, com.igexin.sdk.FcmPushService, com.igexin.sdk.FcmIntentService, com.igexin.sdk.FcmPushIntentService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (18): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.unity.androidnotifications.UnityNotificationManager, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.igexin.sdk.PushReceiver, com.igexin.download.DownloadReceiver
+  Providers  (7): com.facebook.platform.common.provider.PlatformProviderBase, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, com.vk.api.sdk.internal.VKInitProvider, androidx.startup.InitializationProvider, com.facebook.FacebookContentProvider, com.igexin.download.DownloadProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 28960
+  Total Methods : 183737
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7E 0C 3B 2C 0C 0C 30 F2 41 01 C5 B7 7C A4 35 E6 90 1E AB 11 FA 5D 63 87 4C 43 C0 CA 10 47 67 AF
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.CainWuMingLooSolis.TowerDefenceWumo
+  SHA-256       : 00A3D344E980D510EDEFCD12787E9114E950BD462D3C126BF816C1E2873A1004
+  Android Group : Android12L
+  Version       : 1.5 (code: 15)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (2)]
+  android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (5): com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.player.UnityPlayerActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 764
+  Total Methods : 3805
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://config.unityads.unity3d.com/webview/, https://config.unityads.unitychina.cn/webview/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F3 F3 39 9C BD C2 CA 8E 63 80 AA CD F2 84 88 B3 B6 35 93 AF C8 6C 6D D1 69 5B 07 F9 46 17 81 4E
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nowcars.passengerapp
+  SHA-256       : 00A08A7371A8986832A754819DE3488C6DF5D5E5EBC14D3F5CB492A711F264F9
+  Android Group : Android12
+  Version       : 3.0.0 (code: 29)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (10)]
+  android.permission.ACCESS_COARSE_LOCATION, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (38): com.icabbi.passengerapp.presentation.history.presentation.HistoryActivity, com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, com.icabbi.passengerapp.presentation.payments.presentation.EditCardFlowActivity, com.icabbi.passengerapp.presentation.payments.presentation.AddCardFlowActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.icabbi.passengerapp.presentation.onboarding.presentation.OnboardingActivity, net.openid.appauth.AuthorizationManagementActivity, com.icabbi.passengerapp.presentation.favourites.presentation.AddFavouriteFlowActivity, com.google.android.gms.common.api.GoogleApiActivity, com.icabbi.passengerapp.presentation.about.presentation.AboutActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.icabbi.passengerapp.presentation.coupon.presentation.ManageCouponsFlowActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.icabbi.passengerapp.presentation.favourites.presentation.ManageFavouritesFlowActivity, com.icabbi.booking.presentation.BookingActivity, androidx.compose.ui.tooling.PreviewActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.icabbi.passengerapp.presentation.settings.presentation.SettingsActivity, com.icabbi.passengerapp.presentation.questions.presentation.QuestionsFlowActivity, com.stripe.android.view.PaymentMethodsActivity
+  Services   (13): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, com.icabbi.passengerapp.service.PassengerAppMessagingService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryPerformanceProvider, io.sentry.android.core.SentryInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 25194
+  Total Methods : 116082
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4A F1 B3 B2 56 B9 34 23 A2 CF E7 82 23 DC 04 20 DF D1 39 57 A5 52 86 F8 46 23 71 72 81 06 83 52
+
+==========================================

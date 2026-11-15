@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ijgprog.mbadealthlelalnfse.com
+  SHA-256       : 00A0CC02E546DD8D6A8281C7E1D534A658B8B67D6CB4AFB106202F6E3A7F23F9
+  Android Group : Android12
+  Version       : 3 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (35)]
+  android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_MEDIA_LOCATION, com.ijgprog.mbadealthlelalnfse.com.permission.C2D_MESSAGE, com.sec.android.provider.badge.permission.READ, android.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (21): com.startapp.sdk.adsbase.consent.ConsentActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.google.firebase.auth.internal.RecaptchaActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.ads.AdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.onesignal.NotificationOpenedReceiver, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.h2.dynamic_app.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, de.mintware.barcode_scan.BarcodeScannerActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+  Services   (22): com.onesignal.FocusDelaySyncJobService, com.ryanheise.audioservice.AudioService, com.google.firebase.components.ComponentDiscoveryService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.startapp.sdk.cachedservice.BackgroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.startapp.sdk.jobs.SchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.onesignal.HmsMessageServiceOneSignal, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.FocusDelaySyncService, androidx.room.MultiInstanceInvalidationService, com.onesignal.SyncService, com.onesignal.SyncJobService
+  Receivers  (18): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.ryanheise.audioservice.MediaButtonReceiver
+  Providers  (9): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.share.ShareFileProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.crazecoder.openfile.FileProvider, androidx.startup.InitializationProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16125
+  Total Methods : 88041
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 54 87 3D C6 A4 09 9D 2E A0 EC 9C 6F BE 64 4B 20 30 84 F2 FB 89 9D 29 9B EA 4E AF FC 45 27 BF 5A
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.jedari.Ubuntu
+  SHA-256       : 00AB18CB25B555C28961021CE1CD9E82CEE1DE0B07F31F23EE936AB43B90A3EC
+  Android Group : Android12L
+  Version       : 1.0 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (35)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, com.jedari.Ubuntu.permission.C2D_MESSAGE, android.permission.SCHEDULE_EXACT_ALARM, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (6): com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.NotificationOpenedReceiver, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.jedari.Ubuntu.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (13): com.onesignal.FCMIntentService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.SyncService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.FCMIntentJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.SyncJobService, com.onesignal.HmsMessageServiceOneSignal
+  Receivers  (14): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.BootUpReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, org.apache.cordova.camera.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4068
+  Total Methods : 25108
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 38 6F 7D B8 11 23 D3 24 C9 1D FF 04 4D 37 D1 1D 66 0E E2 B7 7B 8D 52 8A 51 8E B5 4D 11 4A 54 F0
+
+==========================================

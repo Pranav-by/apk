@@ -1,0 +1,47 @@
+{
+  "sha256": "005B77773757C90AA419DE8D2B808260BDB7C9DFF9BCE18A9F91A8D563BB7800",
+  "filename": "005B77773757C90AA419DE8D2B808260BDB7C9DFF9BCE18A9F91A8D563BB7800.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "com.atlanto.app",
+  "version_name": "1.0.1",
+  "version_code": "11",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "com.atlanto.app.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 1976,
+  "method_count": 13740,
+  "cert_fingerprint": "9C F2 8F 01 DA C6 3F 52 40 93 FE 3E B5 28 D9 F4 2F 40 FB DB 61 5E 1E 5F 9D 1C 41 7A 8B FB 24 51",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gpayback
+  SHA-256       : 00A7BAA85E628ACFFA2B919F59377FF67E320C557251845BED6D7505EA0954C2
+  Android Group : Android13
+  Version       : 1.0.3 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (15)]
+  android.permission.USE_BIOMETRIC, android.permission.ACCESS_COARSE_LOCATION, com.google.android.gms.permission.AD_ID, android.permission.CAMERA, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (4): com.gpayback.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.yalantis.ucrop.UCropActivity, com.jakewharton.processphoenix.ProcessPhoenix
+  Services   (4): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, androidx.camera.core.impl.MetadataHolderService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (1): com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider, com.imagepicker.ImagePickerProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19623
+  Total Methods : 128592
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A0 C1 FA 4F 32 C4 7C BD 0C 1A 93 BA 59 AB FA FE 01 59 63 53 6F 81 67 AA 87 88 C6 F2 90 AE AD BC
+
+==========================================

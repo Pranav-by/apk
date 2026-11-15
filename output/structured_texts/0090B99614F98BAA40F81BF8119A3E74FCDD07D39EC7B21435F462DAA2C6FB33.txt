@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.athome
+  SHA-256       : 0090B99614F98BAA40F81BF8119A3E74FCDD07D39EC7B21435F462DAA2C6FB33
+  Android Group : Android13
+  Version       : 5.3.263 (code: 500)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (29)]
+  com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, com.htc.launcher.permission.READ_SETTINGS
+
+[Application Components]
+  Activities (11): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, lu.athome.mobileappsconsumer.MainActivity, com.google.android.gms.ads.AdActivity, com.facebook.react.devsupport.DevSettingsActivity, com.facebook.ads.AudienceNetworkActivity, com.facebook.FacebookActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabActivity
+  Services   (20): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, org.acra.sender.LegacySenderService, com.google.android.gms.measurement.AppMeasurementService, org.acra.sender.JobSenderService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.firebase.components.ComponentDiscoveryService, com.criteo.events.EventSenderService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsJobService
+  Receivers  (15): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.analytics.AnalyticsReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (15): com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, org.acra.attachment.AcraContentProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.RNFetchBlob.Utils.FileProvider, cl.json.RNShareFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 27894
+  Total Methods : 173299
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: mobilu.lu, Organizational Unit: mobilu, Locality: Leudelange, State/Province: Luxembourg, Country: LU
+  Fingerprint : C2 6C 17 DF 4C 19 F6 62 7B 71 72 1F 43 45 41 67 0D 61 25 05 87 C4 F2 11 A1 5F 6F F5 93 1E FF E7
+
+==========================================

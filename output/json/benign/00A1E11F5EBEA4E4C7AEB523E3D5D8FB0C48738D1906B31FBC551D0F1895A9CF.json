@@ -1,0 +1,76 @@
+{
+  "sha256": "00A1E11F5EBEA4E4C7AEB523E3D5D8FB0C48738D1906B31FBC551D0F1895A9CF",
+  "filename": "00A1E11F5EBEA4E4C7AEB523E3D5D8FB0C48738D1906B31FBC551D0F1895A9CF.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.brodski.android.battleship",
+  "version_name": "3.4.2",
+  "version_code": "60",
+  "min_sdk": "19",
+  "target_sdk": "33",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.brodski.android.battleship.About",
+    "com.google.android.gms.ads.AdActivity",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.brodski.android.battleship.BattleAtSea"
+  ],
+  "activity_count": 5,
+  "services": [
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemjob.SystemJobService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7753,
+  "method_count": 33018,
+  "cert_fingerprint": "2C 48 EC 52 46 72 98 E5 31 EA 7D CB BB 34 5F 1E D4 6E 1F 8C 23 FA 29 C1 EF A2 98 D6 42 FC 9D 7B",
+  "cert_issuer": "Common Name: Mark Brodski, Organization: M. Brodski Software, Locality: Frankfurt am Main, Country: DE",
+  "urls": [
+    "https://goo.gl/J1sWQy",
+    "https://googlemobileadssdk.page.link/admob-interstitial-policies",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://exoplayer.dev/issues/cleartext-not-permitted",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://developers.google.com/admob/android/test-ads#enable_test_devices"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

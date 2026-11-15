@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.rammstein.app
+  SHA-256       : 000A6B28E32AD0E4A8D536419A9EC818527EFAE2A0C7773AA771D7613C240E53
+  Android Group : Android13
+  Version       : 2.0.0 (code: 209)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (34)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sec.android.provider.badge.permission.READ, com.google.android.gms.permission.ACTIVITY_RECOGNITION, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, de.rammstein.app.permission.C2D_MESSAGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (7): com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.notifications.activities.NotificationOpenedActivityHMS, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.facebook.react.devsupport.DevSettingsActivity, com.onesignal.notifications.activities.NotificationOpenedActivity, com.onesignal.core.activities.PermissionsActivity, de.rammstein.app.MainActivity
+  Services   (15): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService, com.onesignal.core.services.SyncService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService, androidx.room.MultiInstanceInvalidationService, io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService, expo.modules.location.services.LocationTaskService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.core.services.SyncJobService, com.onesignal.notifications.services.HmsMessageServiceOneSignal
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.onesignal.notifications.receivers.BootUpReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (4): com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, expo.modules.filesystem.FileSystemFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19938
+  Total Methods : 127415
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Organization: Rammstein, Country: DE
+  Fingerprint : 14 66 52 B0 E9 60 B3 7B 06 4C DC DD 7C FB 50 28 9C 72 7A 9C 7E 7F 3A E9 99 DB 50 B5 EB 45 B9 21
+
+==========================================

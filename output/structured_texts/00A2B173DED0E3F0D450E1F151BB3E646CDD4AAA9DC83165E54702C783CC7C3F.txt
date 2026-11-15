@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.shopify.shopifyapp
+  SHA-256       : 00A2B173DED0E3F0D450E1F151BB3E646CDD4AAA9DC83165E54702C783CC7C3F
+  Android Group : Android12
+  Version       : 3.12 (code: 58)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (11)]
+  android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (55): com.shopify.shopifyapp.productsection.activities.AllReviewListActivity, com.shopify.shopifyapp.homesection.activities.HomePage, com.journeyapps.barcodescanner.CaptureActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.shopify.shopifyapp.productsection.activities.VideoPlayerActivity, com.shopify.shopifyapp.trialsection.activities.TrialExpired, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.shopify.shopifyapp.productsection.activities.JudgeMeCreateReview, com.shopify.shopifyapp.checkoutsection.activities.CheckoutWeblink, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity, com.shopify.shopifyapp.searchsection.activities.AutoSearch, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.shopify.shopifyapp.productsection.activities.AllJudgeMeReviews, com.shopify.shopifyapp.ordersection.activities.OrderList, com.shopify.shopifyapp.ordersection.activities.OrderDetails, com.shopify.shopifyapp.productsection.activities.AllAliReviewsListActivity, com.shopify.shopifyapp.cartsection.activities.CartList, com.facebook.CustomTabMainActivity, com.shopify.shopifyapp.maintenence_section.MaintenenceActivity
+  Services   (12): com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.shopify.shopifyapp.notificationsection.FirebaseInstanceIDService, com.google.android.gms.measurement.AppMeasurementJobService, com.shopify.shopifyapp.notificationsection.FirebaseMessagingService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.shopify.shopifyapp.jobservicessection.JobScheduler
+  Receivers  (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, zendesk.support.DeepLinkingBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (8): zendesk.support.SupportSdkStartupProvider, zendesk.support.guide.GuideSdkStartupProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, zendesk.belvedere.BelvedereFileProvider, androidx.core.content.FileProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16006
+  Total Methods : 88455
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://github.com/grpc/grpc-java/issues/5015, http://tools.android.com/tech-docs/new-build-system/user-guide/manifest-merger
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: shopifyapp, Organizational Unit: shopifyapp
+  Fingerprint : 71 4D AC 1B B5 98 61 48 6D 4D 41 9D BD 97 52 C2 0F 67 2D 15 E5 04 D6 3E FC 0F 23 08 45 DA 38 95
+
+==========================================

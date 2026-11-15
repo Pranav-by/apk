@@ -1,0 +1,47 @@
+{
+  "sha256": "00A054E5CA48D616DCC1192B4FD2BEFEE2CD237983D67D03D859C8C81590E873",
+  "filename": "00A054E5CA48D616DCC1192B4FD2BEFEE2CD237983D67D03D859C8C81590E873.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.korisoft.AnimalShot",
+  "version_name": "1.1.0",
+  "version_code": "10",
+  "min_sdk": "24",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.POST_NOTIFICATIONS"
+  ],
+  "permission_count": 2,
+  "activities": [
+    "com.unity3d.player.UnityPlayerActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver",
+    "com.unity.androidnotifications.UnityNotificationManager"
+  ],
+  "receiver_count": 2,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 257,
+  "method_count": 1185,
+  "cert_fingerprint": "03 0C 4E 33 11 53 2C A0 D0 95 13 77 5F 16 C7 66 7D C2 81 D6 87 0F B6 AD 31 A1 1F 71 AB 78 96 3F",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

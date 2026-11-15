@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hmsec.mts
+  SHA-256       : 00A2169D21CAF99FAE0CF3A65303EE95458CDA6A44A438F11D2B59C2A091371F
+  Android Group : Android14
+  Version       : 030.025.025 (code: 110)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (38)]
+  com.hmsec.mts.permission.C2D_MESSAGE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_PHONE_NUMBERS, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.BOOT_COMPLETED, com.samsung.android.pass.permissions.USE_PASS_SERVICE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, com.samsung.android.camera.iris.permission.USE_IRIS, org.fidoalliance.uaf.permissions.FIDO_CLIENT, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.DISABLE_KEYGUARD, android.permission.INTERNET, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (47): kr.saerom.talk.widget.note.EMateNoteListActivity, kr.saerom.talk.widget.note.EMateNoteViewer, kr.saerom.talk.widget.band.EMateBandListActivity, kr.or.kftc.openauth.NewPatternActivity, org.kftc.mobile.authenticator.ui.activity.KFTCPatternActivity, org.kftc.mobile.authenticator.ui.activity.OMSPatternActivity, kr.or.kftc.ssc.manager.SSCPatternActivity, com.navercorp.nid.oauth.NidOAuthBridgeActivity, com.navercorp.nid.oauth.activity.NidOAuthCustomTabActivity, kr.saerom.talk.EMateCertForAccount, kr.saerom.talk.widget.band.EMateBandPostViewActivity, kr.saerom.talk.widget.media.EMateVideoAlbum, com.hmc.android.mainlib.SmartBaseActivity, kr.saerom.talk.widget.band.EMateBandPostListActivity, com.hmc.android.mainlib.pdf.PdfViewActivity, kr.saerom.talk.widget.band.EMateBandPostWrite, com.signkorea.certmanager.BillActivity, com.hmc.android.mainlib.push.PushNotiActivity, kr.saerom.talk.widget.media.EMateVideoPager, com.hmc.android.mainlib.vaccine.ScanActivity
+  Services   (16): com.hmc.android.mainlib.push.FcmMessagingService, com.hmc.android.mainlib.FIDOService, kr.saerom.talk.fcm.LaunchActivityService, com.hmc.android.mainlib.HMC2DMRegistService, com.hmc.android.mainlib.NotificationListener, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (18): com.hmc.android.mainlib.vaccine.ProcListGetCompleteReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, org.matomo.sdk.extra.InstallReferrerReceiver, com.h2osystech.smartalimi.servicealimi.NetworkStatusReceiver, com.hmc.android.corelib.net.session.NetStateReceiver, com.h2osystech.smartalimi.servicealimi.RestartReceiver, com.hmc.android.mainlib.push.PushReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, kr.saerom.talk.fcm.NotiDeleteReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 34163
+  Total Methods : 236517
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): http://developers.facebook.com/docs/reference/rest/, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 92 63 34 0E 2C 9E 4E AD 33 EC EA 5D 7F 6F 25 F3 BA 08 95 A0 94 16 D4 4F B3 AD 71 F4 C6 C4 3A 09
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : it.cambianonline.android
+  SHA-256       : 007F7A4ECE1D4C5709EE61EFB1B62F3DE0A1790ADD08151FE790A7DF28DE0170
+  Android Group : Android12L
+  Version       : 1.1.37 (code: 71)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (29)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, it.cambianonline.android.permission.C2D_MESSAGE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.USE_FINGERPRINT, com.sec.android.provider.badge.permission.WRITE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (9): de.niklasmerz.cordova.biometric.BiometricActivity, com.onesignal.PermissionsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.NotificationOpenedActivityHMS, net.cabel.hbmobile.MainActivity, com.onesignal.NotificationOpenedReceiver, androidx.biometric.DeviceCredentialHandlerActivity, com.journeyapps.barcodescanner.CaptureActivity, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder
+  Services   (11): com.onesignal.SyncService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.onesignal.FCMIntentJobService, androidx.room.MultiInstanceInvalidationService, com.onesignal.SyncJobService, com.onesignal.FCMIntentService, com.onesignal.HmsMessageServiceOneSignal, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (13): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.UpgradeReceiver, com.onesignal.BootUpReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 8488
+  Total Methods : 71964
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://www.catcert.net/verarrel, http://www.chambersign.org,O=AC, http://www.usertrust.com,O=The, http://www.valicert.com/,OU=ValiCert
+  IP Addresses(10): 2.5.4.5, 151.203.0.85, 4.2.2.4, 2.5.29.15, 199.45.32.37, 151.202.0.84, 4.2.2.1, 151.197.0.39, 151.203.0.84, 199.45.32.43
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 05 09 41 DC 1B 94 1D 68 84 8D CD 8E C0 00 8A 5C 7F 9A 01 2E 62 1B 9F E6 F2 21 C7 A8 FF 68 B2 AA
+
+==========================================

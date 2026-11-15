@@ -1,0 +1,61 @@
+{
+  "sha256": "004F5C8133EF65A2FD0209D685E70376EB9089B747CCA39A1BBA7D13C61ECEC7",
+  "filename": "004F5C8133EF65A2FD0209D685E70376EB9089B747CCA39A1BBA7D13C61ECEC7.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.tiles.hop.btsvsexo",
+  "version_name": "2",
+  "version_code": "2",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.VIBRATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.tapdaq.sdk.TMTestActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "com.google.android.gms.ads.AdService"
+  ],
+  "service_count": 1,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.lifecycle.ProcessLifecycleOwnerInitializer",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6998,
+  "method_count": 36452,
+  "cert_fingerprint": "C4 5D 98 C7 F9 0C 06 09 4A BD BD F7 54 37 7C EB FD 8C 50 63 1A 48 60 09 82 20 14 11 D2 42 DF DC",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://goo.gl/J1sWQy",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

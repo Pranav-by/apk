@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.visualdx.android
+  SHA-256       : 00A070D6AB593A04C381898425BD8ADEE2C5C2A792372A23878CE850DC99482A
+  Android Group : Android14
+  Version       : 7.38.5.5 (code: 7385005)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (18)]
+  android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.READ_MEDIA_IMAGES, com.visualdx.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_SYNC_SETTINGS, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.REORDER_TASKS, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (22): com.visualdx.android.onboard.ProductKeyPromoCodeActivity, com.visualdx.android.AccountActivity, com.visualdx.android.AppStartActivity, com.visualdx.android.MainActivity, com.visualdx.android.HelpActivity, com.visualdx.android.auth.AuthenticationActivity, com.visualdx.android.auth.ResetPasswordActivity, com.visualdx.android.dermexpert.SelectLesionActivity, com.visualdx.android.DeveloperSettingsActivity, com.visualdx.android.SelectImageActivity, com.visualdx.android.onboard.InstitutionInfoActivity, com.visualdx.android.subscription.DebugBillingClientActivity, com.android.billingclient.api.ProxyBillingActivity, androidx.fragment.app.testing.EmptyFragmentActivity, com.google.android.gms.common.api.GoogleApiActivity, com.appboy.ui.AppboyWebViewActivity, com.appboy.ui.activities.AppboyFeedActivity, com.appboy.ui.activities.AppboyContentCardsActivity, com.braze.ui.BrazeWebViewActivity, com.braze.ui.activities.ContentCardsActivity
+  Services   (13): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.visualdx.android.auth.AuthenticationService, com.braze.push.BrazeFirebaseMessagingService
+  Receivers  (14): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.braze.receivers.BrazeActionReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.braze.push.BrazePushReceiver
+  Providers  (4): com.visualdx.android.content.ContentProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 19108
+  Total Methods : 112643
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://firebase.google.com/docs/analytics
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: P William Haake, Organizational Unit: Engineering, Organization: Logical Images Incorporated, Locality: Rochester, State/Province: New York, Country: US
+  Fingerprint : C0 45 AF 75 3E EB 6B 9D 40 66 65 AE F6 61 EF 19 EA 2E 04 90 69 45 05 D2 B5 98 15 56 98 72 A8 D7
+
+==========================================

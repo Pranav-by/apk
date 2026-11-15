@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hbl.android.hblmobilebanking
+  SHA-256       : 001024597F391EC6915368787A60D73F22FABD36C5C1365FC70169DC7F3254C0
+  Android Group : Android13
+  Version       : 2.10.33 (code: 161)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (34)]
+  android.permission.READ_MEDIA_IMAGES, com.hbl.android.hblmobilebanking.permission.PUSH_PROVIDER, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.GET_TASKS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.QUERY_ALL_PACKAGES, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_INTERNAL_STORAGE, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (269): com.hbl.android.hblmobilebanking.fundstransfer.TransfersCategoryActivity, com.hbl.android.hblmobilebanking.base.OtpLayerActivity, com.hbl.android.hblmobilebanking.fundstransfer.TransferConfirmationActivity, com.hbl.android.hblmobilebanking.payoneer.PayoneerAccTransactionDetailActivity, com.hbl.android.hblmobilebanking.fundstransfer.TransferVerificationActivity, com.hbl.android.hblmobilebanking.payoneer.PayoneerTransactionHistoryActivity, com.hbl.android.hblmobilebanking.fundstransfer.BeneficiaryAddInitiateActivity, com.hbl.android.hblmobilebanking.alertActivation.SmsAlertActivation, com.hbl.android.hblmobilebanking.payoneer.PayoneerAccountInfoActivity, com.hbl.android.hblmobilebanking.fundstransfer.BeneficiaryAddConfirmationActivity, com.hbl.android.hblmobilebanking.payoneer.PayoneerTransferInitiateActivity, com.hbl.android.hblmobilebanking.fundstransfer.BeneficiaryAddVerificationActivity, com.hbl.android.hblmobilebanking.payoneer.PayoneerTransferVerificationActivity, com.hbl.android.hblmobilebanking.cardservices.CardBlockFormActivity, com.hbl.android.hblmobilebanking.payoneer.PayoneerRoleSelectionActivity, com.hbl.android.hblmobilebanking.cardservices.CardBlockUnblockActivity, com.hbl.android.hblmobilebanking.payoneer.PayoneerDashboard, com.hbl.android.hblmobilebanking.chequebook.ChequeBookRequestActivity, com.hbl.android.hblmobilebanking.cc_offer.CCOfferScreen2OptionsActivity, com.hbl.android.hblmobilebanking.payoneer.PayoneerInfoActivity
+  Services   (20): com.hbl.android.hblmobilebanking.tokenization.utils.SDKService, com.gemalto.mfs.mwsdk.provisioning.push.CPSCommService, com.gemalto.mfs.mwsdk.mobilegateway.MGConfigurationChangeService, com.gemalto.mfs.mwsdk.dcm.broadcast.DCMBroadcastService, com.hbl.android.hblmobilebanking.tokenization.contactless.HCEService, com.huawei.hms.support.api.push.service.HmsMsgService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.huawei.agconnect.core.ServiceDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.hbl.android.hblmobilebanking.utils.FCMService, com.hbl.android.hblmobilebanking.utils.HMSService
+  Receivers  (12): com.adjust.sdk.AdjustReferrerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.hbl.android.hblmobilebanking.tokenization.contactless.receiver.SDKLoaderReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver, com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver, com.facebook.CampaignTrackingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.hbl.android.hblmobilebanking.utils.AutoReadUtil, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (9): androidx.core.content.FileProvider, com.huawei.hms.support.api.push.PushProvider, com.huawei.hms.analytics.provider.AnalyticsInitializeProvider, com.unikrew.faceoff.fingerprint.SecureStorage.SecureStorageProvider, com.facebook.internal.FacebookInitProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.huawei.hms.aaid.InitProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 37904
+  Total Methods : 251839
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Symantec CA for Android, Organizational Unit: Android Applications, Organization: Symantec Corporation, Country: US
+  Fingerprint : 05 95 29 41 02 75 1E 09 12 BE 7F 2C 0B 16 9A 7F 68 42 BC 77 82 36 BA AF 91 E9 C7 B0 AB B1 F9 FF
+
+==========================================

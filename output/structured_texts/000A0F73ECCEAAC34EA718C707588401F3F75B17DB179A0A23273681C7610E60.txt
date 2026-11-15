@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sortprcessdocm.loneys
+  SHA-256       : 000A0F73ECCEAAC34EA718C707588401F3F75B17DB179A0A23273681C7610E60
+  Android Group : Android12
+  Version       : 1.0.6 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (9)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.READ_PHONE_STATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (70): com.sortprcessdocm.loneys.Home.HhomequestionActivity, com.sortprcessdocm.loneys.LoanGuid.CopyLinkActivity, com.sortprcessdocm.loneys.LoanGuid.DetailsActivity, com.sortprcessdocm.loneys.PersonalLoan.LoanAmountActivity, com.sortprcessdocm.loneys.LoanGuid.GetLoanActivity, com.sortprcessdocm.loneys.Topuploan.TranferExithomeActivity, com.sortprcessdocm.loneys.LoanGuid.LoanTypeActivity, com.sortprcessdocm.loneys.mutual.MatualDetailActivity, com.sortprcessdocm.loneys.LoanGuid.PrloanapplyActivity, com.sortprcessdocm.loneys.activity.MyLoanActivity, com.sortprcessdocm.loneys.LoanGuid.ProductActivity, com.sortprcessdocm.loneys.activity.Customer_serviceActivity, com.sortprcessdocm.loneys.Home.WhatintrestedActivity, com.paytm.pgsdk.PaytmPGActivity, com.sortprcessdocm.loneys.PersonalLoan.ProfileCheckActivity, com.sortprcessdocm.loneys.Home.HomestepActivity, com.paytm.pgsdk.AioMatchUserActivity, com.sortprcessdocm.loneys.PersonalLoan.AuditSuccessActivity, com.sortprcessdocm.loneys.PersonalLoan.PotherActivity, easypay.appinvoke.AnalyticsManagerInfoDisplayActivity
+  Services   (10): com.paytm.pgsdk.IntentServicePostNotification, androidx.work.impl.foreground.SystemForegroundService, com.paytm.pgsdk.IntentServicePreNotification, androidx.room.MultiInstanceInvalidationService, easypay.appinvoke.utils.EasyPayConfigDownloader, easypay.appinvoke.utils.AnalyticsService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.sortprcessdocm.loneys.Service.Boot.VideoMyService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.sortprcessdocm.loneys.Service.AlarmReceiver30, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.sortprcessdocm.loneys.Service.Boot.MyWakefulReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8586
+  Total Methods : 41923
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest, http://commons.apache.org/logging/tech.html.
+  IP Addresses(1): 127.0.0.255
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C2 42 97 32 25 4B CA 49 AE E1 2A 4A EF 3B FE DB F1 D8 BD E9 45 32 E6 7F EC 74 37 6F 5D CC 00 94
+
+==========================================

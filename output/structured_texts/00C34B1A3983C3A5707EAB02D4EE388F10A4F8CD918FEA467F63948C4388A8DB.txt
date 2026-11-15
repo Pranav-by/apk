@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.barla.risolainur
+  SHA-256       : 00C34B1A3983C3A5707EAB02D4EE388F10A4F8CD918FEA467F63948C4388A8DB
+  Android Group : Android16
+  Version       : 1.0.5 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (4)]
+  com.barla.risolainur.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, com.android.vending.CHECK_LICENSE, android.permission.INTERNET
+
+[Application Components]
+  Activities (3): com.barla.risolainur.presentation.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pairip.licensecheck.LicenseActivity
+  Services   (4): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 40204
+  Total Methods : 317374
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E8 13 25 51 3A F6 FF 58 5B 80 3F 4E 79 23 1F A5 92 72 0F 50 1F 31 B7 DB EA AF 35 28 AB DA F0 39
+
+==========================================

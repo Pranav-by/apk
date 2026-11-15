@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.github_pavelfuks.cage_ships_game
+  SHA-256       : 001871CEA9871199BEDA51A3EF48ECFFE6B634C9D41CA7EC5E8691CEE20B7A21
+  Android Group : Android13
+  Version       : 0.1 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 18
+  Target SDK    : 33
+
+[Permissions (1)]
+  io.github_pavelfuks.cage_ships_game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (3): io.github_pavelfuks.cage_ships_game.MainActivity, io.github_pavelfuks.cage_ships_game.PlacementOfShipsActivity, io.github_pavelfuks.cage_ships_game.BattleActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5118
+  Total Methods : 36448
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0F 61 92 34 AF E3 CB 2D 5E 36 6F C7 B8 E1 32 9B 71 D9 26 9B 56 FB 55 21 10 39 E2 B2 5E 22 A3 DE
+
+==========================================

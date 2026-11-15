@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : net.wordbit.enes
+  SHA-256       : 00A978DF6E8E1D995AE5B0F6A1229FF2CFD07EAE33220AFF233DE81F19B5B0D2
+  Android Group : Android14
+  Version       : 1.6.0.79 (code: 1060000079)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (37)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.VIBRATE, android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND, com.coupang.mobile, com.coupang.mobile.offsite, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.CHANGE_WIFI_STATE, net.wordbit.enes.READ_PHONE_STATE, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, net.wordbit.enes.READ_PHONE_NUMBERS, android.permission.RECEIVE_BOOT_COMPLETED, net.wordbit.enes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (129): lib.wordbit.quiz.ExampleGameActivity, com.onnuridmc.exelbid.common.ExelBidActivity, lib.wordbit.overlay.OverlaySelectActivity, com.onnuridmc.exelbid.common.ExelbidBrowser, lib.wordbit.overlay.OverlayAdActivity, com.google.android.gms.ads.AdActivity, lib.wordbit.delivery.preview.PreviewMatchingActivity, lib.page.core.widget.OverViewActivity, lib.page.core.util.CameraPreviewActivity, lib.wordbit.delivery.review.ReviewActivity, lib.page.core.gallery.GalleryPickerActivity, lib.wordbit.setting.noti.NotiReviewSettingActivity, com.yandex.mobile.ads.common.AdActivity, lib.wordbit.learnstatistics.LearnStatisticsActivity, com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity, lib.wordbit.delivery.matching.MatchingGameActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, lib.wordbit.delivery.others.DeliveryOthersActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, lib.wordbit.editedlist.EditedListActivity
+  Services   (20): io.appmetrica.analytics.internal.AppMetricaService, lib.wordbit.lockservice.ScreenService, lib.wordbit.overlay.OverlayService, lib.wordbit.lockservice.CNRSFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.tappx.sdk.android.InstallReferrerService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, androidx.camera.core.impl.MetadataHolderService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (20): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, lib.wordbit.lockservice.AppChooserReceiver, lib.wordbit.lockservice.CongratulationReceiver, androidx.profileinstaller.ProfileInstallReceiver, lib.wordbit.lockservice.DeliveryAlarmReceiver, net.pubnative.lite.sdk.receiver.VolumeChangedActionReceiver, lib.wordbit.lockservice.ResurrectionReceiver, lib.wordbit.lockservice.PhoneStatusReceiver, lib.wordbit.lockservice.ScreenReceiver, com.tappx.sdk.android.TrackInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (16): androidx.core.content.FileProvider, com.gun0912.tedpermission.provider.TedPermissionProvider, com.applovin.sdk.AppLovinInitProvider, com.flurry.android.agent.FlurryContentProvider, com.google.firebase.provider.FirebaseInitProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.vungle.warren.utility.VungleProvider, com.coupang.ads.CoupangAdsInitializer, com.facebook.ads.AudienceNetworkContentProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.taboola.android.TBLContextProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.kakao.adfit.AdFitSdkInitProvider, com.squareup.picasso.PicassoProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 78358
+  Total Methods : 467015
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: word, Organizational Unit: word
+  Fingerprint : 14 A8 43 BE FF B8 D1 9D 3F A4 9D 9E 2C D8 E5 EE 3E 2A F9 71 25 80 60 AA C1 76 52 8D D8 4D 28 32
+
+==========================================

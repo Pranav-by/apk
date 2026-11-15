@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.AspasiaApps.IlmuSejarah
+  SHA-256       : 00A4E1EE0CDC2E30AA7275245A65417A5922F1AC2415E310D9A92DDD0FB26662
+  Android Group : Android12
+  Version       : ASPASIA-v22 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (4)]
+  android.permission.INTERNET, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (10): com.AspasiaApps.IlmuSejarah.SplashScreen, com.AspasiaApps.IlmuSejarah.ListFavoriteArticles, com.AspasiaApps.IlmuSejarah.PrivacyPolicy, com.google.android.gms.ads.AdActivity, com.AspasiaApps.IlmuSejarah.TentangAspasia, com.AspasiaApps.IlmuSejarah.ListCategories, com.AspasiaApps.IlmuSejarah.ListArticles, com.AspasiaApps.IlmuSejarah.MainActivity, com.AspasiaApps.IlmuSejarah.DetailArtikel, com.AspasiaApps.IlmuSejarah.AboutAspasia
+  Services   (4): com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (7): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): com.google.android.gms.ads.MobileAdsInitProvider, androidx.work.impl.WorkManagerInitializer, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11685
+  Total Methods : 67783
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8A 6A 9E 97 DC 11 9F 13 64 46 69 A4 30 3F 77 9E F1 FA 96 E6 AB 90 42 41 FC 4E 7A 72 41 95 9D BB
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tamerbarber
+  SHA-256       : 00A3BAC73CDBDA6EF2DE28B89F6B08D4D2E4791AA7CCAB8BBB49FE5AFBC9400E
+  Android Group : Android15
+  Version       : 2.2.19 (code: 50)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (6)]
+  android.permission.ACCESS_LOCATION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.ACCESS_GPS, com.tamerbarber.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ASSISTED_GPS
+
+[Application Components]
+  Activities (2): com.nearcut.MainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): dev.hotwire.turbo.util.TurboFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5066
+  Total Methods : 32222
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 63 87 14 D3 56 C2 0D A1 FB 1D B1 2C 7A D3 E7 D7 A1 94 B4 F2 8C 14 3C A8 B1 39 C6 AE 66 95 AC 91
+
+==========================================

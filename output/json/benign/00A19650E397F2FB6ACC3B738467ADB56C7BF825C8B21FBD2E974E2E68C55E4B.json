@@ -1,0 +1,45 @@
+{
+  "sha256": "00A19650E397F2FB6ACC3B738467ADB56C7BF825C8B21FBD2E974E2E68C55E4B",
+  "filename": "00A19650E397F2FB6ACC3B738467ADB56C7BF825C8B21FBD2E974E2E68C55E4B.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "fmb.smaabed.fibonaccisequence",
+  "version_name": "1.2",
+  "version_code": "10",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [],
+  "permission_count": 0,
+  "activities": [
+    "fmb.smaabed.fibonaccisequence.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4735,
+  "method_count": 39226,
+  "cert_fingerprint": "F9 BC 78 93 D8 80 93 25 F7 41 EE F5 F1 4B 21 E8 71 4C 50 E1 B5 3B CA A9 E1 D6 74 57 65 71 DB EF",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.deichmanngmbh.inside.android
+  SHA-256       : 00A2DA6EA07AC14D3010797BA07B0B9EFD907E899D77F13C1218CF112B94579D
+  Android Group : Android12L
+  Version       : 2023.1.86055388 (code: 2023020844)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 32
+
+[Permissions (17)]
+  android.permission.RECORD_AUDIO, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_IMAGES, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WAKE_LOCK, android.permission.REORDER_TASKS, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_MEDIA_VIDEO
+
+[Application Components]
+  Activities (8): com.staffbase.capacitor.plugin.ImageGallery.ImageGalleryActivity, com.staffbase.capacitor.plugin.Video.VideoPlayerActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.google.android.gms.common.api.GoogleApiActivity, com.staffbase.capacitor.MainActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, com.staffbase.capacitor.plugin.NativeModal.ModalActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+  Services   (5): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.staffbase.capacitor.plugin.Parse.StaffbaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.parse.StaffbasePushBroadcastReceiver
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 14630
+  Total Methods : 94254
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/training/testing/espresso/setup#set-up-environment
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Martin Böhringer, Organizational Unit: Product & Engineering, Organization: Staffbase GmbH, Locality: Chemnitz, State/Province: Saxony, Country: DE
+  Fingerprint : C1 E7 02 C1 0A 96 E4 78 A6 21 8E C5 E8 73 AD B1 85 5E 8E 65 A7 A4 B8 A5 E1 44 3E 49 C0 FF 7A E9
+
+==========================================

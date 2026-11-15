@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.peek.all.deleted.messages.recover
+  SHA-256       : 00A1DE6BF105C9D83821F71F56E66F1EF7639C7E65CA308F1F5EC91944E452BE
+  Android Group : Android12L
+  Version       : 2.7 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (9)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (22): com.peek.wadeleted.activities.OpenImageActivity, com.peek.wadeleted.activities.OtherMessageActivity, com.facebook.CustomTabMainActivity, com.peek.wadeleted.activities.ImageActivity_WA, com.peek.wadeleted.activities.MediaActivity, com.peek.wadeleted.activities.WhatsappOptionsActivity, com.peek.wadeleted.activities.IntroActivity, com.facebook.FacebookActivity, com.google.android.gms.ads.AdActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.peek.wadeleted.activities.DeletedMessageActivity, com.peek.wadeleted.activities.PlayerActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.facebook.CustomTabActivity, com.peek.wadeleted.activities.StatusOrDeletedActivity, com.peek.wadeleted.activities.OpenVideoActivity, com.peek.wadeleted.activities.OptionsActivity, com.android.billingclient.api.ProxyBillingActivity, com.peek.wadeleted.MainActivity
+  Services   (7): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, com.peek.wadeleted.utils.NotificationCollectorMonitorService, com.peek.wadeleted.utils.NotificationListener_WA
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (4): com.facebook.ads.AudienceNetworkContentProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15261
+  Total Methods : 85579
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.facebook.com/docs/android/getting-started, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : AD FC DF AB 25 40 6F AF 11 F7 EE B8 89 11 7A CA 68 EE 7C 56 A7 C9 93 CC 94 57 53 3E 5D 7D 81 EB
+
+==========================================

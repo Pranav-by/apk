@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mavr.splitter
+  SHA-256       : 00AA612B687A761178E73F5AF780DB1A48696C431759BB2A23B707431FBFE3E4
+  Android Group : Android16
+  Version       : 1.0.6 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (6)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.READ_CONTACTS, android.permission.INTERNET, com.mavr.splitter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (5): com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.mavr.splitter.MainActivity, com.yandex.mobile.ads.common.AdActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (1): io.appmetrica.analytics.internal.AppMetricaService
+  Receivers  (2): dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (5): dev.fluttercommunity.plus.share.ShareFileProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14099
+  Total Methods : 60704
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://issuetracker.google.com/issues/241760537, https://appmetrica.io/docs/mobile-sdk-dg/android/about/android-initialize.html, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developers.google.com/tink/faq/registration_errors, https://developer.android.com/guide/topics/permissions/overview, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: mvrvntn, Organizational Unit: mvrvntn, Organization: mvrvntn, Locality: Kazan, State/Province: Tatarstan, Country: RU
+  Fingerprint : BF 81 65 ED CA 1D E0 27 97 18 D6 B1 89 68 EB 26 4C EF 0F 60 F3 F2 44 A0 4E 56 05 00 EE CB 8C D3
+
+==========================================

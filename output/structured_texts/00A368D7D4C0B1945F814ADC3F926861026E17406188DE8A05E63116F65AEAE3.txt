@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.digilocker.android
+  SHA-256       : 00A368D7D4C0B1945F814ADC3F926861026E17406188DE8A05E63116F65AEAE3
+  Android Group : Android14
+  Version       : 8.1.4 (code: 1137)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 34
+
+[Permissions (19)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.WRITE_INTERNAL_STORAGE, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.apps.photos.permission.GOOGLE_PHOTOS, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.digilocker.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.BROADCAST_STICKY
+
+[Application Components]
+  Activities (123): in.gov.digilocker.views.consent.MyConsentActivity, in.gov.digilocker.views.consent.UpdateConsentActivity, in.gov.digilocker.views.consent.ConsentUpdateSuccessActivity, in.gov.digilocker.views.searchnew.SearchNewActivity, in.gov.digilocker.views.searchnew.SearchViewAllActivity, in.gov.digilocker.views.upload.UploadActivity, in.gov.digilocker.views.upload.MoveToActivity, com.theartofdev.edmodo.cropper.CropImageActivity, com.karumi.dexter.DexterActivity, in.gov.digilocker.views.qrcode.PlainTextReaderActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, in.gov.digilocker.views.vcredentials.ViewVCActivity, androidx.credentials.playservices.HiddenActivity, in.gov.digilocker.views.vcredentials.PresentVCActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, in.gov.digilocker.views.qrcode.VCScannedResultActivity, com.journeyapps.barcodescanner.CaptureActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (30): in.gov.digilocker.services.FetchProfileService, in.gov.digilocker.services.RegisterFcmTokenService, in.gov.digilocker.network.notification.FirebaseMessagingReceiverService, com.google.firebase.components.ComponentDiscoveryService, androidx.camera.core.impl.MetadataHolderService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.analytics.AnalyticsService, in.gov.digilocker.services.FetchQrMapStringService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, in.gov.digilocker.views.upload.service.UploadService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, es.voghdev.pdfviewpager.library.service.CopyAssetService
+  Receivers  (6): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, in.gov.digilocker.network.utils.BroadcastLogout, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.analytics.AnalyticsReceiver
+  Providers  (7): androidx.core.content.FileProvider, androidx.core.content.FileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 38215
+  Total Methods : 134122
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://cbpssubscriber.mygov.in/aff/0yU2KZ8rBf7niONv, https://goo.gle/compose-feedback, https://cbpssubscriber.mygov.in/assets/uploads/3rpbtfC38B9muoRQ
+  IP Addresses(1): 2.13.2.2
+
+[Certificate]
+  Issuer      : Common Name: Digi locker
+  Fingerprint : 5C B0 D9 0E 40 4D F4 79 49 4F F4 6A 35 50 A9 3D 71 F3 70 C4 E4 9C AD 65 9E C7 A6 F0 09 D6 D9 F0
+
+==========================================

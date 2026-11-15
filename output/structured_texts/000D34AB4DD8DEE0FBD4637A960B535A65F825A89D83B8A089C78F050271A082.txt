@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : psspe.aplitiy
+  SHA-256       : 000D34AB4DD8DEE0FBD4637A960B535A65F825A89D83B8A089C78F050271A082
+  Android Group : Android12
+  Version       : 0.1 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): psspe.aplitiy.SearchableActivity, com.facebook.CustomTabActivity, psspe.aplitiy.guardarprimeravez, psspe.aplitiy.t_buscador_form, com.appnext.ads.fullscreen.FullscreenActivity, com.appnext.banners.BannerActivity, psspe.aplitiy.finalizar, psspe.aplitiy.t_submenu, psspe.aplitiy.t_oficinas, psspe.aplitiy.fotoperfil, psspe.aplitiy.fotogal, com.startapp.sdk.ads.interstitials.OverlayActivity, psspe.aplitiy.privados, com.google.android.gms.common.api.GoogleApiActivity, psspe.aplitiy.t_video_exoplayer, psspe.aplitiy.t_chat, com.ironsource.sdk.controller.OpenUrlActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, psspe.aplitiy.ExpandedControlsActivity, psspe.aplitiy.eliminarperfil
+  Services   (28): com.google.android.gms.cast.framework.media.MediaNotificationService, psspe.aplitiy.s_cargar_icos, psspe.aplitiy.s_widget_vistafb, psspe.aplitiy.s_cargar_fondo, psspe.aplitiy.s_cargar_sliderheader, psspe.aplitiy.s_cargar_icos_gen, psspe.aplitiy.s_guardarperfil, psspe.aplitiy.s_mediaplayer_exo, psspe.aplitiy.RegistrationIntentService, psspe.aplitiy.MyFcmListenerService, psspe.aplitiy.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.iid.FirebaseInstanceIdService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, psspe.aplitiy.alarma_rss, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (10): androidx.startup.InitializationProvider, psspe.aplitiy.StickerContentProvider, psspe.aplitiy.MySuggestionProvider, psspe.aplitiy.bd_provider, com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22374
+  Total Methods : 123879
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(1): 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1F 2E 45 87 AA 7B 08 65 17 18 7E 6B 46 17 59 47 9D 7D 80 EA 7A BE 76 53 25 77 57 F7 AE 29 5D 6A
+
+==========================================

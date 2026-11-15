@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.xiancthai.tianqidesktop
+  SHA-256       : 00A13954CF68A6D97CBF1B720C567A50BE76D45642FF3DB9CF13EC768E043C33
+  Android Group : Android14
+  Version       : 25.1.0 (code: 510)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (48)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, com.hihonor.permission.MANAGE_FOLD_SCREEN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.REORDER_TASKS, android.permission.READ_CALENDAR
+
+[Application Components]
+  Activities (148): androidx.glance.appwidget.action.ActionTrampolineActivity, androidx.glance.appwidget.action.InvisibleActionTrampolineActivity, androidx.compose.ui.tooling.PreviewActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.blankj.utilcode.util.UtilsTransActivity, com.qq.e.ads.ADActivity, com.qq.e.ads.PortraitADActivity, com.qq.e.ads.LandscapeADActivity, com.qq.e.ads.RewardvideoPortraitADActivity, com.qq.e.ads.RewardvideoLandscapeADActivity, com.qq.e.ads.DialogActivity, com.kwad.sdk.api.proxy.app.AdWebViewActivity, com.kwad.sdk.api.proxy.app.KsFullScreenVideoActivity, com.kwad.sdk.api.proxy.app.KsFullScreenLandScapeVideoActivity, com.kwad.sdk.api.proxy.app.KsRewardVideoActivity, com.st.base.activity.csj.CsjMainActivity, com.kwad.sdk.api.proxy.app.KSRewardLandScapeVideoActivity, com.kwad.sdk.api.proxy.app.FeedDownloadActivity, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$KsTrendsActivity, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileHomeActivity
+  Services   (24): com.byazt.stm.ApiDownloadHandlerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.camera.core.impl.MetadataHolderService, androidx.core.widget.RemoteViewsCompatService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService, com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService, com.kwad.sdk.api.proxy.app.DownloadService, com.kwad.sdk.api.proxy.app.ServiceProxyRemote, com.byazt.t.DownloadHandlerService, com.byazt.t.RetryJobSchedulerService, com.qq.e.comm.DownloadService, com.byazt.g.CSJIndependentProcessDownloadService, com.byazt.m.DownloadNotificationService, com.weipucloud.desktop.alarm.services.AlarmService, com.byazt.g.CSJDownloadService, com.wquick.base.foregroundService.StoreControlService
+  Receivers  (22): androidx.glance.appwidget.MyPackageReplacedReceiver, com.weipucloud.desktop.alarm.receivers.AlarmReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.weipucloud.desktop.alarm.receivers.BootReceiver, com.weipucloud.desktop.alarm.receivers.DeleteNotificationChannelReceiver, com.weipucloud.desktop.appwidget.glance.single.SingleNumberClockWidgetReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.weipucloud.desktop.appwidget.glance.single.SingleAnalogClockWidgetReceiver, com.byazt.nb.Collector, com.weipucloud.desktop.appwidget.glance.single.SingleHorizontalClockWidgetReceiver, com.byazt.fw.DownloadReceiver, com.weipucloud.desktop.appwidget.glance.doubleAnalog.DoubleAnalogWidgetReceiver, com.weipucloud.desktop.appwidget.glance.core.pin.AppWidgetPinnedReceiver, com.st.helper.download.DownloadReceiver, androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (21): com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byted.live.lite.ServerManager_bytelive, com.byted.live.lite.ServerManager_push, com.byted.live.lite.ServerManager_downloader, com.byazt.hf.DownloaderServerManager, com.bytedance.sdk.openadsdk.TTFileProvider, com.qq.e.comm.GDTFileProvider, com.st.helper.download.DownloadProvider, io.modifier.basic.core.appCtx.InitProvider, androidx.core.content.FileProvider, com.wquick.base.WQuickBaseInit, androidx.startup.InitializationProvider, com.petterp.floatingx.assist.FxContentProvider, com.blankj.utilcode.util.UtilsFileProvider, com.kwad.sdk.api.proxy.app.AdSdkFileProvider, com.huawei.openalliance.ad.provider.PPSECProvider, com.byazt.hf.MainServerManager, com.byazt.spy.TTMultiProvider, com.byazt.gg.MainServerManager, com.byazt.tq.MainProcessProviderProxy
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 19
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: com.jmjy, Organizational Unit: jm, Organization: deer, Locality: cd, State/Province: sc, Country: china
+  Fingerprint : 51 37 7E BA 11 7E 65 B6 B1 19 E1 AA A6 A0 2C EC 13 1A 05 BB B1 32 5C D4 0D A3 D5 9D CB 46 26 A6
+
+==========================================

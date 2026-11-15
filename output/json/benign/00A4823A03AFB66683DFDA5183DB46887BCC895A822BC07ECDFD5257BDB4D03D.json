@@ -1,0 +1,77 @@
+{
+  "sha256": "00A4823A03AFB66683DFDA5183DB46887BCC895A822BC07ECDFD5257BDB4D03D",
+  "filename": "00A4823A03AFB66683DFDA5183DB46887BCC895A822BC07ECDFD5257BDB4D03D.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.innosoftfusiongo.stonybrookuniversity",
+  "version_name": "9.0.0",
+  "version_code": "9",
+  "min_sdk": "23",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.READ_CALENDAR",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.innosoftfusiongo.stonybrookuniversity.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.WAKE_LOCK"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.innosoftfusiongo.stonybrookuniversity.MainActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "dev.fluttercommunity.plus.share.SharePlusPendingIntent",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+  ],
+  "receiver_count": 5,
+  "providers": [
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider",
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "dev.fluttercommunity.plus.share.ShareFileProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4778,
+  "method_count": 23467,
+  "cert_fingerprint": "D3 8B 1B 7B EE BC 9B EF DD D1 79 43 57 29 6A F3 AE D3 C3 C5 6A 27 47 4A 61 D5 CA 5E 82 1F AE 6A",
+  "cert_issuer": "Common Name: Stuart Irvine",
+  "urls": [
+    "https://issuetracker.google.com/issues/241760537",
+    "https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures",
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

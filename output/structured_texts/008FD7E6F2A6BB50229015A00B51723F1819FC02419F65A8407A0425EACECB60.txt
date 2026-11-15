@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.zoneyet.gagahi
+  SHA-256       : 008FD7E6F2A6BB50229015A00B51723F1819FC02419F65A8407A0425EACECB60
+  Android Group : Android12
+  Version       : 3.1.1.2 (code: 177)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (43)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.QUERY_ALL_PACKAGES, com.android.vending.BILLING, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+
+[Application Components]
+  Activities (146): com.zoneyet.gaga.mine.set.MineHelpActivity, com.zoneyet.gaga.meet.homepage.PhotoListActivity, com.zoneyet.gaga.mine.pay.trans.MineTranslationPayAvtivity, com.zoneyet.gaga.mine.pay.trans.MineTranslationPaySuccessfulActivity, com.zoneyet.gaga.mine.set.MineLanguageActivity, com.zoneyet.gaga.mine.set.MineArchivesActivity, com.zoneyet.gaga.mine.pay.vip.MineVIPPayAvtivity, com.zoneyet.gaga.ads.ActiveDetialActivity, com.zoneyet.gaga.mine.pay.vip.MineVIPPaySuccessfulActivity, com.zoneyet.gaga.mine.pay.vip.MineBuyVIPActivity, com.zoneyet.gaga.mine.wallet.activity.MineRechargeActivity, com.zoneyet.gaga.mine.wallet.activity.MineRechargeWayActivity, com.zoneyet.gaga.mine.wallet.activity.MineRechargeResultActivity, com.zoneyet.gaga.find.likes.DianZanListActivity, com.zoneyet.gaga.mine.wallet.activity.MineRecordActivity, chat.module.ui.group.GroupSystemMsgDetailActivity, com.zoneyet.gaga.mine.wallet.activity.MineRecordDetailActivity, com.zoneyet.gaga.mine.wallet.activity.MineRedPacketActivity, com.zoneyet.gaga.find.flutter.FindFlutterActivity, com.zoneyet.gaga.mine.pay.gift.MineShopGiftsPayActivity
+  Services   (24): com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.luck.picture.lib.service.ForegroundService, com.zoneyet.lib.audio.recorder.RecordService, androidx.camera.core.impl.MetadataHolderService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.tagmanager.TagManagerService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.hyphenate.chat.EMJobService, com.zoneyet.gaga.base.sys.update.AppService, com.huawei.hms.support.api.push.service.HmsMsgService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.heytap.msp.push.service.DataMessageCallbackService, com.huawei.agconnect.core.ServiceDiscovery, chat.module.base.push.fcm.EMFCMMSGService, com.vivo.push.sdk.service.CommandClientService, com.hyphenate.chat.EMChatService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (16): com.hyphenate.chat.EMMonitorReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.hyphenate.push.platform.vivo.EMVivoMsgReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.huawei.hms.support.api.push.PushMsgReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.huawei.hms.support.api.push.PushReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.hyphenate.push.platform.mi.EMMiMsgReceiver
+  Providers  (15): com.google.firebase.provider.FirebaseInitProvider, com.sina.weibo.sdk.content.FileProvider, com.luck.picture.lib.basic.PictureFileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, cn.sharesdk.framework.utils.ShareSDKFileProvider, com.lzf.easyfloat.EasyFloatInitializer, com.just.agentweb.AgentWebFileProvider, com.noober.background.BackgroundContentProvider, com.huawei.hms.support.api.push.PushProvider, me.jessyan.autosize.InitProvider, com.huawei.hms.aaid.InitProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.mob.MobProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 35474
+  Total Methods : 226492
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): http://, https://){1}[\w\.\-/:\?&%=,;\[\]\{\}`~!@#\$\^\*\(\)_\+\\\, ]+
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: zoneyet.com, Organizational Unit: zoneyet.com, Organization: zoneyet.com, Locality: zz, State/Province: ha, Country: cn
+  Fingerprint : B5 61 FF 98 30 8A ED A6 18 6B A4 09 02 AF AF 53 7C AA F7 3F A7 E0 FE 00 C9 59 25 4C 65 79 38 C6
+
+==========================================

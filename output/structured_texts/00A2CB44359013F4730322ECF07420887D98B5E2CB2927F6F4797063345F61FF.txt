@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.greyhound.mobile.consumer
+  SHA-256       : 00A2CB44359013F4730322ECF07420887D98B5E2CB2927F6F4797063345F61FF
+  Android Group : Android15
+  Version       : 9.57.0 (code: 9570)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (20)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.greyhound.mobile.consumer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.USE_BIOMETRIC, com.greyhound.mobile.consumer.permission.C2D_MESSAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (51): de.flixbus.checkout.ui.CheckoutActivity, com.braintreepayments.api.BraintreeDeepLinkActivity, de.flixbus.checkout.ui.expiredcart.ExpiredCartActivity, de.flixbus.checkout.ui.passenger.input.PassengerActivity, de.flixbus.settings.ui.notifications.NotificationPreferencesActivity, de.flixbus.checkout.ui.payment.InvoiceActivity, de.flixbus.payments.ui.googlepay.AdyenGooglePayActivity, de.flixbus.checkout.ui.payment.PaymentMethodPickerActivity, de.flixbus.payments.ui.onlinebankingpl.AdyenOnlineBankingPLActivity, de.flixbus.payments.ui.free.PayFreeActivity, de.flixbus.ancillary.ui.seatreservation.SeatReservationTripsActivity, de.flixbus.connections.ui.autocomplete.city.CityPickerActivity, com.adyen.threeds2.internal.ui.activity.ChallengeActivity, de.flixbus.ancillary.ui.luggage.edit.EditLuggageActivity, de.flixbus.payments.ui.pix.AdyenPixActivity, de.flixbus.payments.ui.payu.PayUCreditCardActivity, de.flixbus.exploration.ui.explorationmap.ExplorationMapActivity, de.flixbus.payments.ui.swish.AdyenSwishActivity, de.flixbus.orders.ui.ticketdetails.TicketDetailsActivity, de.flixbus.payments.ui.creditcard.AdyenCreditCardActivity
+  Services   (14): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.messaging.FirebaseMessagingService, androidx.browser.customtabs.PostMessageService, androidx.room.MultiInstanceInvalidationService, de.flixbus.notification.ui.FusionPushService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.ravelin.core.repository.services.DeviceIdService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (21): de.flixbus.connections.data.rti.notification.RtiNotificationReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, de.flixbus.orders.ui.departure.DepartureNotificationReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, de.flixbus.orders.ui.geofencing.ArrivalNotificationInteractionReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, de.flixbus.orders.ui.geofencing.RegisterGeofencingReceiver, de.flixbus.cart.ui.expiration.ExpiredCartReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, de.flixbus.notification.ui.NotificationClickReceiver, com.braze.push.BrazePushReceiver, com.braze.BrazeFlushPushDeliveryReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, de.flixbus.orders.ui.geofencing.ArrivalNotificationReceiver
+  Providers  (6): androidx.startup.InitializationProvider, com.datadog.android.rum.DdRumContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.adjust.sdk.SystemLifecycleContentProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19939
+  Total Methods : 102152
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://goo.gle/compose-feedback, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: greyhound.com, Organizational Unit: Greyhound Lines, Organization: First Group America, Locality: Cincinnati, State/Province: Ohio, Country: US
+  Fingerprint : 5B C8 66 6B B7 85 52 97 A0 1F C1 EF 62 F1 E8 B3 54 7F C5 5E 4F B6 1E 85 8A A5 00 86 AA 1B 35 6D
+
+==========================================

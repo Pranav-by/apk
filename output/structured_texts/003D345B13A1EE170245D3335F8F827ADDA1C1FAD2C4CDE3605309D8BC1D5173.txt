@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wpcloud.travel
+  SHA-256       : 003D345B13A1EE170245D3335F8F827ADDA1C1FAD2C4CDE3605309D8BC1D5173
+  Android Group : Android14
+  Version       : 25.4.6 (code: 46)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (36)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, com.wpcloud.travel.openadsdk.permission.TT_PANGOLIN, android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, com.wpcloud.travel.com.huawei.openaliance.ad.app.ins, com.hihonor.permission.MANAGE_FOLD_SCREEN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WRITE_MEDIA_VIDEO, android.permission.RECEIVE_USER_PRESENT, android.permission.QUERY_ALL_PACKAGES, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (170): com.bytedance.sdk.openadsdk.core.component.reward.activity.TTRewardVideoLandscapeActivity, com.bytedance.sdk.openadsdk.core.component.reward.activity.TTFullScreenVideoLandscapeActivity, com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity, com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity, com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Activity_T, com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Landscape_Activity, com.bytedance.sdk.openadsdk.stub.activity.Stub_Activity, com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity_T, com.bytedance.sdk.openadsdk.stub.activity.Stub_SingleTask_Activity, com.bytedance.sdk.openadsdk.downloadnew.ApiDownloadHandleNotificationActivity, com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy, com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityLiveProcessProxy, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait2, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait3, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait4, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait5, com.byted.live.lite.Activity_bytelive_singleTask4, com.byted.live.lite.Activity_bytelive_singleTop3, com.byted.live.lite.Activity_bytelive_singleTop2
+  Services   (15): com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.kwad.sdk.api.proxy.app.DownloadService, com.ss.android.socialbase.downloader.downloader.CSJIndependentProcessDownloadService, com.bytedance.sdk.openadsdk.core.multipro.aidl.BinderPoolService, com.kwad.sdk.api.proxy.app.ServiceProxyRemote, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.ss.android.socialbase.downloader.downloader.CSJDownloadService, com.bytedance.sdk.openadsdk.downloadnew.ApiDownloadHandlerService, com.ss.android.socialbase.appdownloader.DownloadHandlerService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.qq.e.comm.DownloadService, com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService, com.ss.android.socialbase.downloader.impls.DownloadHandleService
+  Receivers  (4): com.st.helper.download.DownloadReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.ss.android.downloadlib.core.download.DownloadReceiver, com.bytedance.embedapplog.collector.Collector
+  Providers  (20): cn.bingoogolapple.photopicker.util.BGAPhotoFileProvider, com.bytedance.sdk.openadsdk.stub.server.MainServerManager, com.bytedance.pangle.provider.MainProcessProviderProxy, com.bytedance.pangle.FileProvider, cat.ereza.customactivityoncrash.provider.CaocInitProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byted.live.lite.ServerManager_bytelive, per.goweii.anylayer.ActivityProvider, androidx.startup.InitializationProvider, com.byted.live.lite.ServerManager_push, me.jessyan.autosize.InitProvider, com.byted.live.lite.ServerManager_downloader, com.huawei.openalliance.ad.provider.PPSECProvider, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.st.helper.download.DownloadProvider, com.blankj.utilcode.util.UtilsFileProvider, com.kwad.sdk.api.proxy.app.AdSdkFileProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.qq.e.comm.GDTFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 19
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: travel, Organizational Unit: travel, Organization: St, Locality: Chengdu, State/Province: Sichuan, Country: China
+  Fingerprint : 85 E9 83 6B 63 27 D4 EB D0 20 F5 10 41 F9 2D 09 DF D3 91 59 F1 4B C7 1B 04 D5 94 C1 3D 1E B2 D4
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.timesquared.timetracker
+  SHA-256       : 00B4F4A73D6021A4D4173C429826A38D9214A53F36EE12AFE5AF89835266D816
+  Android Group : Android13
+  Version       : 3.2.893 (code: 893)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (26)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.USE_FULL_SCREEN_INTENT, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (44): com.applovin.adview.AppLovinFullscreenThemedActivity, com.freshchat.consumer.sdk.activity.ArticleListActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.sdk.AppLovinWebViewActivity, com.freshchat.consumer.sdk.activity.InterstitialActivity, com.freshchat.consumer.sdk.activity.ArticleDetailActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.freshchat.consumer.sdk.activity.BotFaqDetailsActivity, com.freshchat.consumer.sdk.activity.FAQListActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.freshchat.consumer.sdk.activity.FAQCategoriesActivity, com.freshchat.consumer.sdk.activity.CategoryListActivity, com.freshchat.consumer.sdk.activity.FAQDetailsActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.mediation.MaxDebuggerActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.freshchat.consumer.sdk.activity.FAQSearchActivity
+  Services   (19): com.google.firebase.messaging.FirebaseMessagingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, co.timesquared.timetracker.RNWidget.RNWidgetService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, app.notifee.core.ReceiverService, app.notifee.core.ForegroundService, com.freshchat.consumer.sdk.service.FreshchatService
+  Receivers  (21): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, app.notifee.core.RebootBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, co.timesquared.timetracker.util.TimerControlBroadcastReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, co.timesquared.timetracker.AppWidget, com.freshchat.consumer.sdk.receiver.FreshchatReceiver, com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.amazon.device.iap.ResponseReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, app.notifee.core.AlarmPermissionBroadcastReceiver, app.notifee.core.NotificationAlarmReceiver
+  Providers  (14): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, io.invertase.notifee.NotifeeInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, io.sentry.android.core.SentryInitProvider, com.vinzscam.reactnativefileviewer.FileProvider, com.imagepicker.ImagePickerProvider, cl.json.RNShareFileProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryPerformanceProvider, com.applovin.sdk.AppLovinInitProvider, com.squareup.picasso.PicassoProvider, com.freshchat.consumer.sdk.provider.FreshchatInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 38892
+  Total Methods : 255802
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 22.4.0.0, 2.9.0.0, 1.0.0.0, 2.10.1.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 71 24 04 EE 5E A7 E0 DA C2 37 66 C1 31 49 1C 58 4D 39 D5 05 0F E2 CA ED 4E 2E 72 AC A5 AE 4F B8
+
+==========================================

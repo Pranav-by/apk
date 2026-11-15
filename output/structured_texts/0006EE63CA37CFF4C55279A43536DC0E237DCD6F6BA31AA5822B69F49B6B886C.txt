@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.guris.undergrounds
+  SHA-256       : 0006EE63CA37CFF4C55279A43536DC0E237DCD6F6BA31AA5822B69F49B6B886C
+  Android Group : Android13
+  Version       : 7.8.6 (code: 7008006)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (12)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (37): com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.guris.undergrounds.RunnerActivity, com.google.android.gms.ads.AdActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.sdk.AppLovinWebViewActivity, com.android.billingclient.api.ProxyBillingActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.applovin.adview.AppLovinFullscreenActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity, com.applovin.mediation.MaxDebuggerDetailActivity
+  Services   (12): androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (9): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (5): androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.games.provider.PlayGamesInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19387
+  Total Methods : 109837
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 11.5.2.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : EC 22 8F 1B D9 D3 F9 7E 98 92 C6 89 02 68 4A 4D 72 80 8B 69 56 49 05 9E BE D6 8D A6 DC 2F EB EF
+
+==========================================

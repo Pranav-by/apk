@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gpshopper.moneygram
+  SHA-256       : 00A284842D05B93860CEA9D0E71B84389156BF845D32B104A2A8A2FA4AF2323B
+  Android Group : Android12L
+  Version       : 22.12.0 (code: 22120000)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (15)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.FOREGROUND_SERVICE, android.permission.READ_CONTACTS, android.permission.CAMERA, android.permission.VIBRATE, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (108): com.mgi.moneygram.ui.transaction.HomeDeliveryActivity, com.salesforce.marketingcloud.messages.iam.IamFullscreenActivity, com.mgi.moneygram.ui.transaction.gffp.sender.SenderGFFPActivity, com.mgi.moneygram.ui.profile.changeAddress.ChangeAddressActivity, com.mgi.moneygram.ui.sendToPhone.FastSendInfoActivity, com.mgi.moneygram.ui.transaction.PaymentCardCvvActivity, com.mgi.moneygram.ui.transaction.threedsecure.ThreeDSecureActivity, com.mgi.moneygram.ui.profile.ProfileActivity, com.mgi.moneygram.ui.state.StateActivity, com.mgi.moneygram.ui.trackTransaction.trackDetails.TrackDetailsActivity, com.mgi.moneygram.ui.confirmationFastSend.ConfirmationFastSendActivity, com.mgi.moneygram.ui.transaction.SofortActivity, com.mgi.moneygram.ui.transaction.feeEstimator.FeeEstimatorActivity, com.mgi.moneygram.ui.fastsendoption.FastSendOptionActivity, com.mgi.moneygram.ui.modals.instantbank.InstantBankTransferActivity, com.mgi.moneygram.ui.account.forgotPassword.ForgotPasswordEnterActivity, com.mgi.moneygram.ui.transaction.PayWithMyBankActivity, com.mgi.moneygram.ui.receiver.view.ViewReceiverActivity, com.mgi.moneygram.ui.receiver.SelectReceiverActivity, com.mgi.moneygram.ui.transaction.gffp.receiver.ReceiverGFFPActivity
+  Services   (18): com.salesforce.marketingcloud.messages.push.MCFirebaseMessagingService, com.salesforce.marketingcloud.sfmcsdk.SFMCSdkJobIntentService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.tagmanager.TagManagerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, com.salesforce.android.chat.core.internal.service.ChatService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.salesforce.android.service.common.liveagentlogging.internal.service.LiveAgentLoggingService, androidx.room.MultiInstanceInvalidationService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.salesforce.marketingcloud.MCService, com.google.android.gms.measurement.AppMeasurementJobService, com.salesforce.marketingcloud.NotificationOpenedService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (18): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.mgi.moneygram.ui.widgets.MediumMoneygramWidget, com.mgi.moneygram.ui.widgets.SmallMoneygramWidget, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.mgi.common.receivers.ConnectivityReceiver, com.salesforce.marketingcloud.MCReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.salesforce.marketingcloud.sfmcsdk.SFMCSdkReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.salesforce.marketingcloud.location.LocationReceiver
+  Providers  (9): com.squareup.picasso.PicassoProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.salesforce.marketingcloud.MCInitContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.salesforce.marketingcloud.sfmcsdk.SFMCSdkInitContentProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 29374
+  Total Methods : 168475
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, http://goo.gl/8Rd3yj
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Unknown; Organizational Unit: Slifter.com; Organization: GPShopper, LLC; Locality: New York; State/Province: NY; Country: US
+  Fingerprint : B2 55 43 78 89 F6 F6 FD BB 16 5C 43 EE 66 14 18 D4 E8 33 6D 3A 1F 68 86 C3 A8 7C 89 2B 51 45 96
+
+==========================================

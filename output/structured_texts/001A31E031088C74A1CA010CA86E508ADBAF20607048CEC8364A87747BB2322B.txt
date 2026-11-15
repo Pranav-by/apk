@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mass.wallpaper.pro
+  SHA-256       : 001A31E031088C74A1CA010CA86E508ADBAF20607048CEC8364A87747BB2322B
+  Android Group : Android12
+  Version       : 1.0.1 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_PHONE_NUMBERS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.READ_CONTACTS, android.permission.FOREGROUND_SERVICE, android.permission.SET_WALLPAPER, android.permission.INTERNET, android.permission.SET_WALLPAPER_HINTS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_PHONE_STATE, android.permission.CHANGE_NETWORK_STATE
+
+[Application Components]
+  Activities (5): com.Jimmy.picture.ShowActivity, com.Jimmy.picture.MainActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity
+  Services   (0): none
+  Receivers  (1): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (2): com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4131
+  Total Methods : 27185
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/getting-started
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 20 72 0F BF 01 E9 56 07 7F 7A 2A 26 23 A4 10 E1 B2 8D 2C 76 DB 5E B9 7C 2A 5C D3 CF ED 0F 59 E7
+
+==========================================

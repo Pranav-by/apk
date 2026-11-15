@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : sevenSeas.TheDarkManFree
+  SHA-256       : 00B39D4F707EAA361664C1DEBEC4F0E4FADE52C638563C467F51000561A57057
+  Android Group : Android16
+  Version       : 2.1.11 (code: 21)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 36
+
+[Permissions (14)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, sevenSeas.TheDarkManFree.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, sevenSeas.TheDarkManFree.permission.C2D_MESSAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (12): com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.google.firebase.MessagingUnityPlayerActivity, com.android.billingclient.api.ProxyBillingActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.gms.ads.AdActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.ads.adplayer.FullScreenWebViewDisplay
+  Services   (14): androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.MessageForwardingService, com.google.firebase.messaging.cpp.ListenerService, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.cpp.RegistrationIntentService
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.unity.androidnotifications.UnityNotificationManager, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 21960
+  Total Methods : 133603
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://goo.gle/admob-android-update-manifest, https://goo.gle/admob-android-update-manifest., https://goo.gle/ad-manager-android-update-manifest.
+  IP Addresses(2): 127.0.0.1, 4.14.1.0
+
+[Certificate]
+  Issuer      : Common Name: L.MarutiSanker, Organizational Unit: Entertainment, Organization: 7seasEntertainmentLimited, Locality: Hyderabad, State/Province: AndhraPradesh, Country: 91
+  Fingerprint : A7 F7 A9 33 F5 4C EC C0 4F 12 F1 DB 17 34 80 8C FE 36 A5 DA E4 FA 60 78 CF 6D 36 45 FA 78 C4 07
+
+==========================================

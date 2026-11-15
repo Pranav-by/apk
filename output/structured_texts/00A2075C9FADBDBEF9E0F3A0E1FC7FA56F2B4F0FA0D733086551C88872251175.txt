@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tumblr
+  SHA-256       : 00A2075C9FADBDBEF9E0F3A0E1FC7FA56F2B4F0FA0D733086551C88872251175
+  Android Group : Android14
+  Version       : 40.8.0.102 (code: 1400800102)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (46)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.tumblr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, com.oppo.launcher.permission.READ_SETTINGS, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.WRITE_SYNC_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (127): com.tumblr.ui.activity.webview.WebViewActivity, com.tumblr.ui.activity.SimpleTimelineActivity, com.tumblr.ui.activity.BlogHeaderTimelineActivity, com.tumblr.ui.activity.RidiculousCroppingActivity, com.tumblr.ui.activity.BlogPagesActivity, com.tumblr.answertime.AnswertimeActivity, com.tumblr.ui.activity.GraywaterTakeoverActivity, com.tumblr.ui.activity.SearchActivity, com.tumblr.ui.activity.GraywaterBlogSearchActivity, com.tumblr.ui.widget.blogpages.search.InblogSearchActivity, com.tumblr.ui.activity.PostPermalinkTimelineActivity, com.tumblr.ui.activity.CustomizeOpticaBlogPagesActivity, com.tumblr.ui.activity.GraywaterDraftsActivity, com.tumblr.ui.activity.FollowerActivity, com.tumblr.ui.activity.BlockedTumblrsActivity, com.tumblr.ui.activity.GraywaterInboxActivity, com.tumblr.ui.activity.FilterSettingsActivity, com.tumblr.ui.activity.MediaAutoplaySettingsActivity, com.tumblr.ui.activity.BlogPrivacySettingsActivity, com.tumblr.ui.activity.AppThemeSettingsActivity
+  Services   (16): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.brandio.ads.worker.InRingAdService, androidx.work.impl.foreground.SystemForegroundService, androidx.sharetarget.ChooserTargetServiceCompat, androidx.room.MultiInstanceInvalidationService, com.tumblr.push.fcm.TumblrFirebaseMessagingService, com.tumblr.components.audioplayer.TumblrAudioPlayerService
+  Receivers  (22): com.tumblr.posts.outgoing.NPSDiscardPostReceiver, com.tumblr.receiver.SelectedAppReceiver, com.tumblr.service.notification.BlogUnsubscribeReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.tumblr.engagement.AppEngagementBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.tumblr.notes.ConversationalNotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.tumblr.service.notification.UserNotificationActionEnqueuingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.tumblr.notificationchannel.ChannelStateChangedReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.tumblr.ui.appwidget.ChoosePostWidgetProvider, com.tumblr.receiver.HubShareBroadcastReceiver
+  Providers  (11): leakcanary.internal.PlumberInstaller, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider, com.tumblr.content.TumblrProvider, androidx.core.content.FileProvider, com.smartadserver.android.library.components.transparencyreport.SASTransparencyReport$FileProvider, com.tumblr.kanvas.FileProvider, com.liveramp.ats.LRInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 56884
+  Total Methods : 309880
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/training/articles/direct-boot
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Tumblr, Organizational Unit: Tumblr, Organization: Tumblr, Locality: New York, State/Province: NY, Country: US
+  Fingerprint : 39 AC 9C 82 1A D2 D6 05 E4 84 9F 06 6E 8A AD 3C CA 27 D5 E1 3E B0 3A D8 75 5B E2 34 A2 98 5D FD
+
+==========================================

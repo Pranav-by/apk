@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : green.trashspotter.app
+  SHA-256       : 002E8B508DF3B5C2897AEDF0EE57EA67E59D98AF00D748133F8966BE1CF8230C
+  Android Group : Android13
+  Version       : 1.16.2 (code: 11602)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (33)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, green.trashspotter.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (8): com.soundcloud.android.crop.CropImageActivity, com.onesignal.NotificationOpenedActivityHMS, com.journeyapps.barcodescanner.CaptureActivity, com.onesignal.PermissionsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.NotificationOpenedReceiver, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, green.trashspotter.app.MainActivity
+  Services   (14): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.ADMMessageHandler, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.FCMIntentService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, nl.xservices.plugins.ShareChooserPendingIntent, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.UpgradeReceiver, com.onesignal.BootUpReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (4): org.apache.cordova.camera.FileProvider, androidx.startup.InitializationProvider, nl.xservices.plugins.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8250
+  Total Methods : 53071
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Clot Patrice, Organizational Unit: TRASH SPOTTER, Organization: TRASH SPOTTER, Locality: Paris, State/Province: France, Country: FR
+  Fingerprint : A2 6C 00 E3 26 09 A6 54 E3 FE AA D8 1D 84 DB 32 4E 60 20 39 55 16 9B 28 E6 96 5D E6 37 7D EC 23
+
+==========================================

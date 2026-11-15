@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : uk.co.sumxgames.crabholepinch
+  SHA-256       : 00BD9596F81A43BE8C61DD6659F40F39D5EE88340C492A40C113023DDC840F05
+  Android Group : Android16
+  Version       : 1.0.2 (code: 9)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (12)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, uk.co.sumxgames.crabholepinch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (3): com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity, uk.co.sumxgames.crabholepinch.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (7): com.google.mlkit.common.internal.MlKitComponentDiscoveryService, expo.modules.audio.service.AudioControlsService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, expo.modules.audio.service.AudioRecordingService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (2): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): expo.modules.filesystem.FileSystemFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.startup.InitializationProvider, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 34873
+  Total Methods : 218425
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 11 00 80 09 4F 08 B0 77 DA C4 F8 27 11 FD E8 8B 73 A1 07 47 09 06 FA 0C EF 2F 0A 8E 14 EE BE 7A
+
+==========================================

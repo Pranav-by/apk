@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.ngs.news.e1
+  SHA-256       : 00A5D20E97538518ACD19E509C16E104F983763D452D332D9D45D735FC919D9F
+  Android Group : Android12
+  Version       : 3.24.9 (code: 3240949)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (33)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, com.huawei.android.launcher.permission.WRITE_SETTINGS, ru.ngs.news.e1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, ru.ngs.news.e1.permission.C2D_MESSAGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (31): ru.ngs.news.lib.weather.presentation.ui.activity.ConfigureActivity4x2, com.yandex.mobile.ads.common.AdActivity, ru.ngs.news.lib.weather.presentation.appwidget.activity.NewsConfigureActivity4x1, ru.ngs.news.lib.weather.presentation.appwidget.activity.NewsConfigureActivity4x2, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.PermissionsActivity, com.onesignal.NotificationOpenedReceiver, com.onesignal.NotificationOpenedReceiverAndroid22AndOlder, com.my.target.common.MyTargetActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, ru.ngs.news.navigation.presentation.ui.activity.BottomBarNavigationActivity, ru.ngs.news.lib.news.presentation.ui.activity.VideoViewActivity, ru.ngs.news.lib.weather.presentation.ui.activity.WeatherSettingsActivity, ru.ngs.news.lib.exchange.presentation.ui.activity.FilterActivity, ru.ngs.news.lib.news.presentation.ui.activity.GalleryActivity, ru.ngs.news.lib.news.presentation.ui.activity.WebViewActivity
+  Services   (19): com.google.android.gms.measurement.AppMeasurementService, ru.ngs.news.lib.weather.presentation.appwidget.view.NewsListWidgetService4x3, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.yandex.metrica.MetricaService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (22): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.UpgradeReceiver, ru.ngs.news.lib.weather.presentation.widget.provider.WeatherWidgetProvider2x1, ru.ngs.news.lib.weather.presentation.widget.provider.WeatherWidgetProvider4x1, ru.ngs.news.lib.weather.presentation.widget.provider.WeatherWidgetProvider4x1Info, ru.ngs.news.lib.weather.presentation.widget.provider.WeatherWidgetProvider4x2, ru.ngs.news.lib.weather.presentation.appwidget.provider.NewsWidgetProvider4x1, ru.ngs.news.lib.weather.presentation.appwidget.provider.NewsWidgetProvider4x2, ru.ngs.news.lib.weather.presentation.appwidget.provider.NewsWidgetProvider4x3, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.BootUpReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (8): com.my.target.common.MyTargetContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, androidx.startup.InitializationProvider, com.yandex.metrica.PreloadInfoContentProvider, com.flurry.android.agent.FlurryContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 36161
+  Total Methods : 186704
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: ngs mobile, Organizational Unit: ngs, Organization: ngs, Locality: Novosibirsk, State/Province: Novosibirsk state, Country: 7
+  Fingerprint : EE 8B 34 1A 52 6B 0B 57 1A 06 E8 FF CE 2A 09 49 8C 35 CE CE E1 A7 5E 62 57 7B 6C C0 D1 78 3D 16
+
+==========================================

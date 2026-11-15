@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.jhtechnologyltd.gblatestversion
+  SHA-256       : 009611618DE2A24F066E47B507236863A99D2A390A22CDA2B01A57C1E432CE0B
+  Android Group : Android12L
+  Version       : 1.4 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (13)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.SET_WALLPAPER, android.permission.FOREGROUND_SERVICE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (46): com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_W_VideoViewerActivity, com.jhtechnologyltd.gblatestversion.SplashSkip.SkipActivity, com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_W_SaveImageViewerActivity, com.jhtechnologyltd.gblatestversion.SplashSkip.StartActivity, com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_W_ImageViewerActivity, com.anchorfree.vpnsdk.vpnservice.StartVPNServiceShadowActivity, com.google.android.gms.common.api.GoogleApiActivity, com.jhtechnologyltd.gblatestversion.SplashSkip.AdOneActivity, com.google.android.gms.ads.AdActivity, com.jhtechnologyltd.gblatestversion.SplashSkip.AdThankYouActivity, com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_FragmentPagerSupport, com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_CaptionStatusActivity, com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_MainListview, com.jhtechnologyltd.gblatestversion.SplashSkip.AdTwoActivity, com.jhtechnologyltd.gblatestversion.SplashSkip.AdThreeActivity, com.jhtechnologyltd.gblatestversion.activity.HomeActivity, com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_TextReapeaterActivity, com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_QuickReplyActivity, com.jhtechnologyltd.gblatestversion.SplashActivity, com.jhtechnologyltd.gblatestversion.Other.Activity.GBV_TextToEmojiActivity
+  Services   (11): com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, androidx.room.MultiInstanceInvalidationService, com.anchorfree.vpnsdk.transporthydra.proxyservice.HydraProxyService, com.anchorfree.sdk.SdkNotificationService, com.anchorfree.ucr.UCRService, com.anchorfree.vpnsdk.vpnservice.AFVpnService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (13): com.anchorfree.sdk.DBProvider, com.anchorfree.sdk.UnifiedSDKInitProviderMain, com.anchorfree.ucr.UCRContentProvider, com.anchorfree.vpnsdk.vpnservice.credentials.CredentialsContentProvider, com.anchorfree.vpnsdk.vpnservice.config.VpnConfigProvider, com.squareup.picasso.PicassoProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.core.content.FileProvider, com.anchorfree.sdk.HydraTransportInitProvider, androidx.startup.InitializationProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.anchorfree.sdk.UnifiedSDKInitProviderVpn
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10168
+  Total Methods : 45282
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200, https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, https://daneden.me/animate, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://play.google.com/store/apps/details?id=, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(9): 128.0.0.0, 10.1.1.1, 0.0.0.0, 8.8.8.8, 100.64.250.1, 127.0.0.1, 10.254.0.1, 8.8.4.4, 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9E 79 13 97 03 AC 6C 28 46 C3 09 B5 94 4D C5 87 12 27 43 7B A4 EF 26 6B 1A 73 C8 E2 8B 0B EA A2
+
+==========================================

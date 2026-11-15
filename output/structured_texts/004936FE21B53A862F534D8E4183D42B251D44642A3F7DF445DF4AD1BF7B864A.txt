@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wRadioMUCODECBrazzaville_15492654
+  SHA-256       : 004936FE21B53A862F534D8E4183D42B251D44642A3F7DF445DF4AD1BF7B864A
+  Android Group : Android12
+  Version       : 1.0.1 (code: 1556190478)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (41)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.android.alarm.permission.SET_ALARM, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (59): com.appnext.ads.fullscreen.FullscreenActivity, com.adcolony.sdk.AdColonyInterstitialActivity, com.appnext.ads.interstitial.InterstitialActivity, com.applovin.sdk.AppLovinWebViewActivity, com.appsgeyser.sdk.push.MessageViewer, com.explorestack.iab.vast.activity.VastActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.appsgeyser.sdk.ui.AboutDialogActivity, io.bidmachine.nativead.view.VideoPlayerActivity, com.explorestack.iab.mraid.MraidActivity, com.google.android.gms.common.api.GoogleApiActivity, com.appsgeyser.multiTabApp.ThemingActivity, com.amazon.device.ads.DTBAdActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.appsgeyser.multiTabApp.SettingsActivity, com.amazon.device.ads.DTBInterstitialActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.ironsource.sdk.controller.ControllerActivity, com.appsgeyser.multiTabApp.ui.views.PdfActivity
+  Services   (30): com.onesignal.HmsMessageServiceOneSignal, com.appsgeyser.sdk.push.AlarmService, com.yandex.metrica.MetricaService, org.altbeacon.beacon.service.BeaconService, org.altbeacon.beacon.BeaconIntentProcessor, org.altbeacon.beacon.service.ScanJob, org.altbeacon.bluetooth.BluetoothTestJob, com.appnext.core.AdsService, com.appnext.base.services.OperationService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.SyncJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService
+  Receivers  (23): com.google.android.gms.measurement.AppMeasurementReceiver, com.appsgeyser.sdk.datasdk.DataSdksReceiver, org.altbeacon.beacon.startup.StartupBroadcastReceiver, com.yandex.metrica.MetricaEventHandler, com.appsgeyser.sdk.push.AlarmReceiver, com.appsgeyser.sdk.push.PushStarterReceiver, com.appodeal.ads.AppodealPackageAddedReceiver, com.onesignal.FCMBroadcastReceiver, com.onesignal.NotificationDismissReceiver, com.onesignal.UpgradeReceiver, com.onesignal.BootUpReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (14): com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.appodeal.ads.services.crash_hunter.ApdCrashHunterContentProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider, com.appodeal.ads.services.event_service.ApdEventContentProvider, com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider, com.my.target.common.MyTargetContentProvider, com.appodeal.ads.ApdContentProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23638
+  Total Methods : 160181
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(5): 2.5.1.472, 127.0.0.1, 3.7.1.4, 2.11.0.1, 2.11.0.4
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C0 8D 8C 50 B4 77 1E 2A DF D0 D0 B6 6F ED 1D AF A5 33 C8 62 EF 38 D6 E5 D5 75 0F 46 8C 47 D0 F2
+
+==========================================

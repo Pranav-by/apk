@@ -1,0 +1,78 @@
+{
+  "sha256": "00994EBCB466C4CC14DF6E30D25C2B8098E84828D9F02DAFEB7B1C27B6C68DE2",
+  "filename": "00994EBCB466C4CC14DF6E30D25C2B8098E84828D9F02DAFEB7B1C27B6C68DE2.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "app.subwallet.mobile",
+  "version_name": "1.0.15",
+  "version_code": "210",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.USE_BIOMETRIC",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.CAMERA",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_WIFI_STATE",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 14,
+  "activities": [
+    "com.proyecto26.inappbrowser.ChromeTabsManagerActivity",
+    "app.subwallet.mobile.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 3,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.mlkit.common.internal.MlKitInitProvider",
+    "com.imagepicker.ImagePickerProvider",
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+    "com.RNFetchBlob.Utils.FileProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 14196,
+  "method_count": 87709,
+  "cert_fingerprint": "82 3D 8D C9 B0 CF D0 FF 16 DA 81 06 15 3E C1 3A 4A D2 6A 45 97 FB 9D 5F 06 66 F9 59 A2 20 01 2A",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://raw.githubusercontent.com/drewnoakes/metadata-extractor-images/master/%s",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  ],
+  "ip_addresses": [
+    "10.0.2.2",
+    "10.0.1.1",
+    "10.0.3.2",
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

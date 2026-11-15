@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : chatamericanos.solterasenlinea
+  SHA-256       : 0071A847AA275B3821BCFC0589150A4AFA64D0DD8BF0C20B2632E5E1A040E4BE
+  Android Group : Android12
+  Version       : 1.4 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (10)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): chatamericanos.solterasenlinea.profile, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, chatamericanos.solterasenlinea.t_html, chatamericanos.solterasenlinea.t_detalle, chatamericanos.solterasenlinea.fotoperfil, com.adcolony.sdk.AdColonyInterstitialActivity, chatamericanos.solterasenlinea.t_video, com.facebook.ads.AudienceNetworkActivity, chatamericanos.solterasenlinea.t_and, com.adcolony.sdk.AdColonyAdViewActivity, chatamericanos.solterasenlinea.t_video_exoplayer, chatamericanos.solterasenlinea.t_buscador, chatamericanos.solterasenlinea.t_card, com.unity3d.services.ads.adunit.AdUnitActivity, chatamericanos.solterasenlinea.t_buscchats_lista, chatamericanos.solterasenlinea.t_menu, chatamericanos.solterasenlinea.t_mapa_web, com.facebook.FacebookActivity, chatamericanos.solterasenlinea.t_radio, chatamericanos.solterasenlinea.cats
+  Services   (28): com.google.android.gms.cast.framework.media.MediaNotificationService, chatamericanos.solterasenlinea.s_widget_vistafb, chatamericanos.solterasenlinea.s_cargar_icos, chatamericanos.solterasenlinea.s_cargar_sliderheader, chatamericanos.solterasenlinea.s_cargar_fondo, chatamericanos.solterasenlinea.s_guardarperfil, chatamericanos.solterasenlinea.s_mediaplayer_exo, chatamericanos.solterasenlinea.RegistrationIntentService, chatamericanos.solterasenlinea.MyFcmListenerService, chatamericanos.solterasenlinea.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.iid.FirebaseInstanceIdService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService
+  Receivers  (15): chatamericanos.solterasenlinea.alarma_rss, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (10): chatamericanos.solterasenlinea.StickerContentProvider, chatamericanos.solterasenlinea.MySuggestionProvider, chatamericanos.solterasenlinea.bd_provider, androidx.core.content.FileProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.internal.FacebookInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22370
+  Total Methods : 123866
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(2): 7.1.12.2, 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9E 1C 2D 3C DD 06 D8 9D 05 7A 8A 33 AF 76 A6 2B AB 84 3E 7F FF E7 D9 87 8D C3 1C 0B 47 37 E9 E2
+
+==========================================

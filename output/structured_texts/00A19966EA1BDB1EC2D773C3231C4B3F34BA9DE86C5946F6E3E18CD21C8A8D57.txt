@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wowthemes.wowwhitetheme
+  SHA-256       : 00A19966EA1BDB1EC2D773C3231C4B3F34BA9DE86C5946F6E3E18CD21C8A8D57
+  Android Group : Android12L
+  Version       : 1.8 (code: 20220914)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (4)]
+  android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (11): com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.theme.launcher.SplashActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.theme.launcher.MainActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerActivity
+  Services   (2): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (2): com.theme.launcher.widget.MonthWidget, com.theme.launcher.widget.ClockWidget22
+  Providers  (3): androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9689
+  Total Methods : 72741
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 23 DC 21 AB 83 78 E1 6C D4 AF 24 3D DB BB 66 42 AD 1F 24 6D 1F 7D AD 53 52 E3 A6 ED F2 61 5F F4
+
+==========================================

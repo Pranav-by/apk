@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.krazeapps.kotlinprogrammingcompiler
+  SHA-256       : 0008EB643BF36B4ECA148DF019A2C7DE5EFA8B00ED8DAB83C9A16A2798C74063
+  Android Group : Android12
+  Version       : 2.7 (code: 23)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 31
+
+[Permissions (6)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.android.vending.BILLING
+
+[Application Components]
+  Activities (7): com.krazeapps.kotlinprogrammingcompiler.MainActivity, com.google.android.gms.ads.AdActivity, com.android.billingclient.api.ProxyBillingActivity, com.krazeapps.kotlinprogrammingcompiler.OutputActivity, com.krazeapps.kotlinprogrammingcompiler.SettingsActivity, com.krazeapps.kotlinprogrammingcompiler.ReferenceActivity, com.krazeapps.kotlinprogrammingcompiler.InputActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6143
+  Total Methods : 42650
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://www.apache.org/licenses/LICENSE-2.0), https://github.com/ahmadaghazadeh/CodeEditor]
+  IP Addresses(3): 45.79.179.111, 0.9.6.0, 45.79.136.39
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5D 17 69 EF C0 C6 BF C7 47 5D FF C7 27 27 FE 4C 02 60 E5 73 43 F1 82 7C 95 C4 3A 10 45 78 83 BE
+
+==========================================

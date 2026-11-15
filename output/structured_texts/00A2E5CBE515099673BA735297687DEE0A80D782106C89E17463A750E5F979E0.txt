@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : satexam.com
+  SHA-256       : 00A2E5CBE515099673BA735297687DEE0A80D782106C89E17463A750E5F979E0
+  Android Group : Android14
+  Version       : 0.3 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 34
+
+[Permissions (34)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, satexam.com.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, satexam.com.permission.C2D_MESSAGE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE
+
+[Application Components]
+  Activities (138): com.firebase.ui.auth.ui.phone.PhoneActivity, com.firebase.ui.auth.ui.email.RecoverPasswordActivity, com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity, com.mcq.activity.MCQInstructionActivitySample, com.facebook.FacebookActivity, com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt, com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt, com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity, com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt, com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity, com.onesignal.notifications.activities.NotificationOpenedActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.onesignal.notifications.activities.NotificationOpenedActivityHMS, com.google.android.gms.ads.OutOfContextTestingActivity, com.facebook.CustomTabActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.facebook.ads.AudienceNetworkActivity, gk.mokerlib.paid.activity.SectionResultActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (18): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.core.services.SyncService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, androidx.room.MultiInstanceInvalidationService, com.onesignal.core.services.SyncJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.config.network.NetworkSchedulerService, com.notification.ConfigFirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.onesignal.notifications.services.HmsMessageServiceOneSignal, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (16): androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (9): androidx.core.content.FileProvider, com.config.ConfigProvider, com.squareup.picasso.PicassoProvider, com.firebase.ui.auth.data.client.AuthUiInitProvider, com.canhub.cropper.CropFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 26940
+  Total Methods : 144070
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., http://play.google.com/store/apps/details?id=
+  IP Addresses(3): 127.0.0.1, 6.17.0.0, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Books, Organizational Unit: NCERT, Organization: STUDY, Locality: NEW DELHI, State/Province: DELHI, Country: IN
+  Fingerprint : 83 B2 E1 08 50 B6 0D A3 B5 69 BD AD 2D 15 53 58 4E 7C 45 51 45 B3 1A 22 0A B1 B1 1E 39 E0 BA 1A
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : su.jety.vozneskz
+  SHA-256       : 001AADCC50D5DE7CBD514CA955E6D8A42F9880034CEC9D4A5A89CF15E77D7E8F
+  Android Group : Android13
+  Version       : 2.0.1 (code: 202)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (4)]
+  android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE, su.jety.vozneskz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET
+
+[Application Components]
+  Activities (1): su.jety.vozneskz.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7019
+  Total Methods : 52416
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Isakov Vitaliy, Organizational Unit: development, Organization: jety.su, Locality: alma, State/Province: ata, Country: KZ
+  Fingerprint : 0A C1 92 2E 07 54 A1 AB 8F 06 4C 5E DC 2D 36 FA BC 16 02 F6 B8 8B 05 E3 A1 9A 3C 09 8E ED 2C 94
+
+==========================================

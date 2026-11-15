@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : aim.aiminmed.server.aimarm
+  SHA-256       : 00A5C4B7B88A80FF1F1DFB484E2F3CBA3B941CC825CB63ADEBE0C257974E8CD3
+  Android Group : Android13
+  Version       : 2.2.12 (code: 24)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_COARSE_LOCATION, android.permission.BLUETOOTH, android.permission.INTERNET, android.permission.BLUETOOTH_CONNECT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.BLUETOOTH_SCAN, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_SETTINGS, android.permission.READ_INTERNAL_STORAGE
+
+[Application Components]
+  Activities (22): aim.aiminmed.server.aimarm.full_report, aim.aiminmed.server.aimarm.Demo_intro, aim.aiminmed.server.aimarm.Patient_Details, aim.aiminmed.server.aimarm.current_ps, aim.aiminmed.server.aimarm.report, aim.aiminmed.server.aimarm.full_bio_report, aim.aiminmed.server.aimarm.MainActivity_1, aim.aiminmed.server.aimarm.Exp_ps, aim.aiminmed.server.aimarm.register, aim.aiminmed.server.aimarm.Demo_exp, aim.aiminmed.server.aimarm.biofeed_report, aim.aiminmed.server.aimarm.mp_graph, aim.aiminmed.server.aimarm.mp_graph_init, aim.aiminmed.server.aimarm.pdf_report, aim.aiminmed.server.aimarm.biofeed_init, aim.aiminmed.server.aimarm.Splash, aim.aiminmed.server.aimarm.pic_report, aim.aiminmed.server.aimarm.time_select, aim.aiminmed.server.aimarm.demo_current_ps, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (3): com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (1): com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (3): aim.aiminmed.server.aimarm.GenericFileProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6149
+  Total Methods : 46771
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://github.com/firebase/firebase-android-sdk, http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  IP Addresses(10): 2.5.4.45, 2.5.4.3, 2.5.4.6, 2.5.4.11, 1.1.9.1, 2.5.4.44, 2.5.4.43, 192.168.4.1, 2.16.840.1, 2.5.4.7
+
+[Certificate]
+  Issuer      : Organizational Unit: aimarm, Organization: aimarm
+  Fingerprint : 89 77 A9 AF 4B 00 E4 86 91 D1 55 A3 94 13 08 BB FD 15 8D FD 4F C4 F5 71 15 DC CE 5E EB FB 20 4C
+
+==========================================

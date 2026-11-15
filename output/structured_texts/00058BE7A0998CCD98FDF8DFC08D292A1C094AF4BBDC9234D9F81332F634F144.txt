@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ema.yotta
+  SHA-256       : 00058BE7A0998CCD98FDF8DFC08D292A1C094AF4BBDC9234D9F81332F634F144
+  Android Group : Android12L
+  Version       : 1.0.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (8)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.INTERNET, freemme.permission.msa, android.permission.WRITE_EXTERNAL_STORAGE, com.vivo.notification.permission.BADGE_ICON, com.asus.msa.SupplementaryDID.ACCESS
+
+[Application Components]
+  Activities (10): io.dcloud.PandoraEntryActivity, io.dcloud.WebviewActivity, io.dcloud.feature.nativeObj.photoview.PhotoActivity, com.dmcbig.mediapicker.PickerActivity, io.dcloud.PandoraEntry, io.dcloud.ads.activity.WebViewActivity, io.dcloud.ProcessMediator, com.dmcbig.mediapicker.PreviewActivity, io.dcloud.WebAppActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity
+  Services   (2): io.dcloud.feature.aps.ApsActionService, io.dcloud.ads.base.service.DownloadService
+  Receivers  (2): com.taobao.weex.WXGlobalEventReceiver, io.dcloud.common.adapter.io.DownloadReceiver
+  Providers  (3): io.dcloud.common.util.DCloud_FileProvider, io.dcloud.ads.base.service.provider.DCloudAdFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10351
+  Total Methods : 72797
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E3 67 9E 4B 45 08 34 9A F5 64 82 26 06 1B 45 F3 F7 85 73 98 3D 8A B0 AE 49 33 48 97 C9 FB 82 FE
+
+==========================================

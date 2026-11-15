@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.lovemaths.taquinsimeon
+  SHA-256       : 007CF30C192431293F6EC0252808EDE550B1780BF874A179B411B7EFDCC4A249
+  Android Group : Android15
+  Version       : 1.4 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (3)]
+  android.permission.ACCESS_NETWORK_STATE, com.lovemaths.taquinsimeon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET
+
+[Application Components]
+  Activities (1): com.lovemaths.taquinsimeon.MainActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2261
+  Total Methods : 15364
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : FC E9 4E D7 F6 68 EF 0E CB 0D 65 EF 71 4B 70 6B 92 07 BD FE 81 0D 71 48 FB FE 6B 87 54 A5 8A 3B
+
+==========================================

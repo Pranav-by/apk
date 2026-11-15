@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.germa.www.plaquettesyscohada
+  SHA-256       : 00A3994F62EBBCEA9953A078F8ABA82EEFD5014C5906AC9D644A3431783C94E7
+  Android Group : Android14
+  Version       : 1.0 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 34
+
+[Permissions (1)]
+  android.permission.INTERNET
+
+[Application Components]
+  Activities (6): com.germa.www.plaquettesyscohada.MainActivity, com.germa.www.plaquettesyscohada.FindLibActivity, com.germa.www.plaquettesyscohada.TousLesComptesActivity, com.germa.www.plaquettesyscohada.ComptesReviseActivity, com.germa.www.plaquettesyscohada.SplashScreenActivity, com.germa.www.plaquettesyscohada.DetailsCompteActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2314
+  Total Methods : 19607
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 60 B8 EE D9 A0 23 D2 22 2B 91 AE C2 92 FB 83 5E F5 C1 59 F2 06 03 B2 2C 2F 01 35 4B 3A F5 C2 B8
+
+==========================================

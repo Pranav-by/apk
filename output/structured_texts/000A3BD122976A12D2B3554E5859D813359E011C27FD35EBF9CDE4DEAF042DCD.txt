@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.mtransit.android.ca_montreal_bixi_bike
+  SHA-256       : 000A3BD122976A12D2B3554E5859D813359E011C27FD35EBF9CDE4DEAF042DCD
+  Android Group : Android13
+  Version       : 1.2.1r1190 (code: 1190)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (3)]
+  android.permission.INTERNET, org.mtransit.android.ca_montreal_bixi_bike.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, org.mtransit.android.receiver.permission.BROADCAST_RECEIVER
+
+[Application Components]
+  Activities (2): com.google.android.play.core.common.PlayCoreDialogWrapperActivity, org.mtransit.android.commons.ui.ModuleRedirectActivity
+  Services   (0): none
+  Receivers  (2): org.mtransit.android.commons.receiver.ModuleReceiver, org.mtransit.android.commons.receiver.GenericReceiver
+  Providers  (3): org.mtransit.android.commons.provider.YouTubeNewsProvider, org.mtransit.android.commons.provider.GBFSProvider, org.mtransit.android.commons.provider.TwitterNewsProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5436
+  Total Methods : 42687
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Mathieu Méa, Organization: MonTransit Apps
+  Fingerprint : F8 EA 1D EC 24 74 36 62 EF 02 43 CD EB 55 F4 A5 08 58 23 E2 A3 4A E0 B1 40 AC 63 01 28 95 DA 7A
+
+==========================================

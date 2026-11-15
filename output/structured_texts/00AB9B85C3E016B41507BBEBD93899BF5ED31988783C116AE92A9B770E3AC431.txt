@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bdlandsurveyor.rimonsir
+  SHA-256       : 00AB9B85C3E016B41507BBEBD93899BF5ED31988783C116AE92A9B770E3AC431
+  Android Group : Android12L
+  Version       : 9.2 (code: 39)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (0)]
+  none
+
+[Application Components]
+  Activities (23): com.bdlandsurveyor.rimonsir.right_angle, com.bdlandsurveyor.rimonsir.about_us, com.bdlandsurveyor.rimonsir.multiple_tiangle_six, com.bdlandsurveyor.rimonsir.group7, com.bdlandsurveyor.rimonsir.rectangle, com.bdlandsurveyor.rimonsir.our_services, com.bdlandsurveyor.rimonsir.vhumi_porimap, com.bdlandsurveyor.rimonsir.six_Khatian, com.bdlandsurveyor.rimonsir.sub_unit_converter, com.bdlandsurveyor.rimonsir.multiple_triangle, com.bdlandsurveyor.rimonsir.five_unitConverter, com.bdlandsurveyor.rimonsir.four_eclipse, com.bdlandsurveyor.rimonsir.porabritto, com.bdlandsurveyor.rimonsir.one_herons, com.bdlandsurveyor.rimonsir.two_angle_land, com.bdlandsurveyor.rimonsir.navigation_israil, com.bdlandsurveyor.rimonsir.britto, com.bdlandsurveyor.rimonsir.bishombahu, com.bdlandsurveyor.rimonsir.square, com.bdlandsurveyor.rimonsir.two_angle_land_y_israil
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1937
+  Total Methods : 10697
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6C 38 FD AA 05 62 95 10 18 E9 8C 1F BB DE A6 F7 D8 87 71 AD CC 73 C4 BD 4E 93 5A C1 5E 70 9E E8
+
+==========================================

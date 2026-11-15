@@ -1,0 +1,76 @@
+{
+  "sha256": "00813B90B984D47F2D612882853E048C8103A04250D84B047CE58BEA39DF7388",
+  "filename": "00813B90B984D47F2D612882853E048C8103A04250D84B047CE58BEA39DF7388.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "com.ioncourt.tracker",
+  "version_name": "1.70.0",
+  "version_code": "178",
+  "min_sdk": "22",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.READ_CONTACTS",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.ioncourt.tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 12,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "com.capacitorjs.plugins.browser.BrowserControllerActivity",
+    "com.ioncourt.tracker.MainActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.capacitorjs.plugins.pushnotifications.MessagingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.messaging.FirebaseMessagingService"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7868,
+  "method_count": 48471,
+  "cert_fingerprint": "81 3F 79 D0 7D AF 67 4F 83 67 3C 20 BD 38 45 F4 AC CF 79 03 05 CF 3C B2 EB 40 97 59 10 24 41 7A",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

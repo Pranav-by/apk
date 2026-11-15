@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sinyee.babybus.tailor
+  SHA-256       : 00A05F609F1A2D20F1565FB4227C11F1598F920435B08BC57244AD142FB41B2C
+  Android Group : Android14
+  Version       : 8.71.00.00 (code: 8710000)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (12)]
+  android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.sinyee.babybus.tailor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (67): com.babybus.plugin.videool.activity.FullScreenVideoActivity, com.sinyee.babybus.agreement.core.activity.AgreementTitleActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.babybus.plugin.googleverify.activity.VerifyActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.babybus.activity.CommonUnNetworkActivity, com.sinyee.babybus.verify.activity.multi.MultiVerifyActivity, com.sinyee.babybus.verify.activity.multi.inland.InLandMultiVerifyActivity, com.ironsource.sdk.controller.InterstitialActivity, com.babybus.activity.UnifyWebViewPortraitActivity, com.babybus.plugin.adbase.interstitial.NativeInterstitialActivity, com.ironsource.sdk.controller.ControllerActivity, com.babybus.plugin.adbase.rewardvideo.NativeRewardActivity, com.babybus.plugin.adbase.interstitial.activity.AdBridgeActivity, com.babybus.plugin.adbase.welcomeinsert.WelcomeInsertActivity, com.babybus.plugin.purchaseview.activity.PurchaseChooseActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.babybus.plugin.removeads.activity.PurchaseActivity, com.babybus.activity.CommonActivePageActivity, com.babybus.plugin.removeads.activity.ToSubscribeActivity
+  Services   (12): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService, androidx.room.MultiInstanceInvalidationService, com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (12): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.babybus.aiolos.data.AiolosContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.sinyee.babybus.wmrecommend.core.provider.WMRFileProvider, com.liulishuo.okdownload.OkDownloadProvider, com.sinyee.babybus.ipc.core.IPCContentProvider, com.squareup.picasso.PicassoProvider, com.sinyee.babybus.ad.apibase.provider.BabyBusAdFileProvider, androidx.startup.InitializationProvider, com.sinyee.babybus.wmrecommend.core.data.WMRContentProvider, com.sinyee.babybus.persist.core.sp.SpContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 44927
+  Total Methods : 279628
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(2): 9.62.70.00, 11.0.3.33
+
+[Certificate]
+  Issuer      : Common Name: Louis Lu, Organizational Unit: Sinyee Inc, Organization: Sinyee Inc, Locality: FuZhou, State/Province: FuJian, Country: CN
+  Fingerprint : 4B 31 A3 3E 2B B7 64 6D 17 CF 9B 99 1F 8F DD C4 F6 34 E4 AD 00 B9 56 15 0B 77 FB 5F BB 26 B5 96
+
+==========================================

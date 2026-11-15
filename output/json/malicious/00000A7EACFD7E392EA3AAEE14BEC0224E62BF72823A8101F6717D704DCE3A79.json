@@ -1,0 +1,73 @@
+{
+  "sha256": "00000A7EACFD7E392EA3AAEE14BEC0224E62BF72823A8101F6717D704DCE3A79",
+  "filename": "00000A7EACFD7E392EA3AAEE14BEC0224E62BF72823A8101F6717D704DCE3A79.apk",
+  "android_version": "Android14",
+  "label": "malicious",
+  "package_name": "com.hash.locationrecord",
+  "version_name": "1.0.3",
+  "version_code": "13",
+  "min_sdk": "26",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.POST_NOTIFICATIONS",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_BACKGROUND_LOCATION",
+    "com.hash.locationrecord.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_STATE"
+  ],
+  "permission_count": 14,
+  "activities": [
+    "com.zhihu.matisse.internal.ui.AlbumPreviewActivity",
+    "com.hash.locationrecord.ui.MainActivity",
+    "com.hash.locationrecord.ui.DebugActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.zhihu.matisse.ui.MatisseActivity",
+    "com.zhihu.matisse.internal.ui.SelectedPreviewActivity"
+  ],
+  "activity_count": 6,
+  "services": [
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService",
+    "com.hash.locationrecord.service.LocationService",
+    "com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService"
+  ],
+  "service_count": 4,
+  "receivers": [
+    "com.hash.locationrecord.broadcast.LocationActiveBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider",
+    "me.jessyan.autosize.InitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3569,
+  "method_count": 18633,
+  "cert_fingerprint": "B6 A9 03 1B 76 29 7A 1C 51 23 4C E3 B6 7A F9 8D ED CE BC 71 D1 D9 B8 0E 82 FF FB 20 FE 5E 44 CC",
+  "cert_issuer": "Organization: hash, Organizational Unit: hash, Common Name: hash",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

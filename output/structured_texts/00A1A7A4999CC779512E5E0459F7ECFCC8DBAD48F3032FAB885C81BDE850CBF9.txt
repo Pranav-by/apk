@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pairlink.the_one
+  SHA-256       : 00A1A7A4999CC779512E5E0459F7ECFCC8DBAD48F3032FAB885C81BDE850CBF9
+  Android Group : Android12L
+  Version       : 1.3.9 (code: 32)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (12)]
+  android.permission.BLUETOOTH_ADMIN, android.permission.FOREGROUND_SERVICE, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.BLUETOOTH_CONNECT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_SCAN, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (21): com.tpad.app.the_one.MySettings, com.tpad.app.the_one.activity.SPISportActivity, com.tpad.app.the_one.activity.SPILightActivity, com.tpad.app.the_one.activity.SPIAngleSettingActivity, com.tpad.app.the_one.activity.SPIAboutActivity, com.tpad.app.the_one.activity.SPICarStateActivity, com.tpad.app.the_one.activity.SPILocationActivity, com.tpad.app.the_one.activity.SPIRockerActivity, com.tpad.app.the_one.activity.hsl.ColorControlActivity, com.tpad.fileexplorer.FileSelectionActivity, com.tpad.app.the_one.activity.SPIMetricChangeActivity, com.tpad.app.the_one.activity.SPIWelcomeActivity, com.tpad.app.the_one.activity.SPIMainActivityNew, com.tpad.app.the_one.activity.SPISettingsActivity, com.tpad.app.the_one.activity.StartUpActivity, com.tpad.app.the_one.activity.SPICruiseSettingActivity, com.tpad.app.the_one.activity.SPIBarSensiActivity, com.tpad.app.the_one.activity.SPISpeedActivity, com.tpad.app.the_one.activity.MainActivity, com.tpad.app.the_one.activity.SPICarLightActivity
+  Services   (1): com.tpad.app.the_one.BLEServiceTpad
+  Receivers  (0): none
+  Providers  (1): android.support.v4.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3106
+  Total Methods : 23330
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://commons.apache.org/logging/tech.html.
+  IP Addresses(6): 127.0.0.1, 1.3.6.1, 1.2.2.1, 0.0.0.0, 127.0.0.255, 139.196.255.133
+
+[Certificate]
+  Issuer      : Common Name: Jonthan, Organizational Unit: aa, Organization: aa, Locality: aa, State/Province: aa, Country: aa
+  Fingerprint : D6 A4 3C D2 89 F0 E2 1D EF FB 86 6E D6 12 6D 13 28 5B 4A F3 8A EB 76 43 B7 F5 12 47 FE 53 F3 62
+
+==========================================

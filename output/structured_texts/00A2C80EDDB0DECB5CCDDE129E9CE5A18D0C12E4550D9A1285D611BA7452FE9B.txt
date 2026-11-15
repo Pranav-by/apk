@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : webkul.opencart.mobikul
+  SHA-256       : 00A2C80EDDB0DECB5CCDDE129E9CE5A18D0C12E4550D9A1285D611BA7452FE9B
+  Android Group : Android13
+  Version       : 2.8.7 (code: 87)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (22)]
+  android.permission.RECORD_AUDIO, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, android.permission.BLUETOOTH, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_FULL_SCREEN_INTENT, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WRITE_EXTERNAL_STORAGE, webkul.opencart.mobikul.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (15): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, webkul.opencart_flutter.mobikul.MainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity, webkul.opencart.mobikul.mlkit.CameraSearchActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.google.android.gms.common.api.GoogleApiActivity, com.webkul.flutter_project_structure.arcore.activities.ArActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.ar.core.InstallActivity, com.facebook.FacebookActivity
+  Services   (10): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.lyokone.location.FlutterLocationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (9): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): com.google.mlkit.common.internal.MlKitInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14430
+  Total Methods : 75847
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developers.facebook.com/docs/android/getting-started#add-app_id, https://exoplayer.dev/issues/cleartext-not-permitted, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Webkul, Organizational Unit: Android, Organization: Webkul, Locality: noida, State/Province: up, Country: IN
+  Fingerprint : D7 52 A8 72 E9 B9 1D 70 1D C1 74 CF 9E 8D 44 C3 AC CC 1E B6 5A 2A F9 AD F3 8E 55 0D 55 26 60 0B
+
+==========================================

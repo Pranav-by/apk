@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : jp.co.unbalance.android.gomoku
+  SHA-256       : 00A2F14D1397429B39410232B35539C48CAFCB671514289DF6C555106A4853CB
+  Android Group : Android12
+  Version       : 2.0.9 (code: 19)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (11)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (53): com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.unity3d.services.ads.adunit.AdUnitActivity, net.nend.android.internal.ui.activities.formats.FullscreenVideoPlayingActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, net.nend.android.internal.ui.activities.interstitial.NendAdInterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.ironsource.sdk.controller.ControllerActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.applovin.mediation.MaxDebuggerActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity, unbalance.WebActivity, net.nend.android.internal.ui.activities.video.NendAdRewardedVideoActivity
+  Services   (11): com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.applovin.impl.sdk.utils.AppKilledService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.appsflyer.SingleInstallBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (7): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23781
+  Total Methods : 136278
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(3): 4.9.0.6, 127.0.0.1, 11.6.1.0
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: UNBALANCE Corporation, Locality: Chiyoda-ku, State/Province: Tokyo, Country: JP
+  Fingerprint : 06 AD F0 AA 1E E8 5D AE B2 5C 86 7D C9 4C E9 9A B1 0F 17 57 C7 A3 60 B4 5A 13 76 DE 82 83 B7 EA
+
+==========================================

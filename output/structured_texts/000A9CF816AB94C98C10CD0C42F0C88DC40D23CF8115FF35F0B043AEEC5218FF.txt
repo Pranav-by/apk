@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : net.booksy.business
+  SHA-256       : 000A9CF816AB94C98C10CD0C42F0C88DC40D23CF8115FF35F0B043AEEC5218FF
+  Android Group : Android14
+  Version       : 3.21.1_602 (code: 602)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (45)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.NFC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_ADSERVICES_AD_ID, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.BLUETOOTH_ADMIN, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, net.booksy.business.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (458): net.booksy.business.activities.payments.PaymentsRestrictedAccessActivity, com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity, net.booksy.business.activities.payments.PaymentsTransactionsListActivity, androidx.compose.ui.tooling.PreviewActivity, net.booksy.business.activities.payments.PaymentFeatureStatusActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, net.booksy.business.activities.payments.PaymentsPayoutsActivity, net.booksy.business.activities.payments.PayoutDetailsActivity, net.booksy.business.activities.payments.PosRegistersActivity, net.booksy.business.activities.payments.PosRegisterDetailsActivity, net.booksy.business.activities.payments.PaymentsBalanceActivity, net.booksy.business.activities.dialogs.PromotionEnabledDialogActivity, net.booksy.business.activities.portfolio.PortfolioPhotoEditActivity, net.booksy.business.activities.PhotoSwipeActivity, net.booksy.business.activities.TextMessagesActivity, net.booksy.business.activities.PersonalSettingsActivity, net.booksy.business.activities.PushNotificationsActivity, net.booksy.business.activities.venuephotos.VenuePhotosAndLogoActivity, net.booksy.business.activities.venuephotos.LogoActivity, net.booksy.business.activities.dialogs.MessageBlastTemplateActivatedDialogActivity
+  Services   (22): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.stripe.cots.aidlservice.CotsService, net.booksy.business.services.BooksyWidgetService, net.booksy.business.fcm.FcmMessagingService, net.booksy.business.services.NotificationListenerServiceImpl, com.google.android.gms.metadata.ModuleDependencies, com.google.android.gms.auth.api.signin.RevocationBoundService, com.iterable.iterableapi.IterableFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.smartlook.android.job.worker.record.UploadRecordJob, com.smartlook.android.job.worker.session.UploadSessionJob, com.smartlook.android.job.worker.record.ProcessVideoDataJob
+  Receivers  (22): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, net.booksy.business.receivers.BooksyWidgetProvider, com.appsflyer.MultipleInstallBroadcastReceiver, net.booksy.business.receivers.OnAppUpdateReceiver, net.booksy.business.receivers.LocalAlarmsReceiver, net.booksy.business.receivers.PendingNotificationReceiver, net.booksy.business.utils.ShareUtils$ChooserBroadcastReceiver, net.booksy.business.receivers.QualarooSurveyEventReceiver, com.iterable.iterableapi.IterablePushActionReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (9): androidx.core.content.FileProvider, com.smartlook.android.SmartlookInstaller, com.facebook.FacebookContentProvider, ai.zowie.ZowieFileProvider, com.datadog.android.rum.DdRumContentProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 12
+  Total Classes : 85283
+  Total Methods : 534195
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Open-RnD, Organizational Unit: Open-RnD Sp. z o.o., Organization: Open-RnD, Locality: Lodz, State/Province: Lodz, Country: PL
+  Fingerprint : 09 E3 76 D4 3E D2 32 07 CB EB 3E 08 7B 82 70 BB 18 9B 82 01 E3 54 A0 53 E1 F0 E9 E3 81 BB 82 05
+
+==========================================

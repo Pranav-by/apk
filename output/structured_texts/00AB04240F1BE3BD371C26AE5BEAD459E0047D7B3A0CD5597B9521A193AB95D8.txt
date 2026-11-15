@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.paige.bwmxy
+  SHA-256       : 00AB04240F1BE3BD371C26AE5BEAD459E0047D7B3A0CD5597B9521A193AB95D8
+  Android Group : Android15
+  Version       : 1.4.92.0 (code: 26)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (27)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, com.android.vending.CHECK_LICENSE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.READ_CONTACTS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (235): com.appx.core.activity.StreamingActivity, com.appx.core.activity.LiveTestTileActivity, com.appx.core.activity.CurrentAffairsQuizActivity, com.appx.core.activity.YoutubeChannelActivity, com.appx.core.activity.AllCommentsActivity, com.appx.core.activity.SampleYTubeActivity, com.appx.core.activity.QuizActivity, com.appx.core.activity.DoubtCommentActivity, com.appx.core.activity.LivePaidActivity, com.appx.core.activity.TestSeriesWithCategory, com.appx.core.activity.FolderCourseChatActivity, com.appx.core.activity.YoutubePlayerWORedirect, com.appx.core.activity.SubjectiveTopScorerActivity, com.appx.core.activity.FolderCourseChatRoomsActivity, com.appx.core.activity.TimeTableVideoActivity, com.appx.core.activity.BookOrderDetailActivity, com.appx.core.activity.VideoDownloadActivity, com.appx.core.activity.PreviousLiveActivity, com.appx.core.activity.FolderLevelCoursesActivity, com.paytm.pgsdk.PaytmPGActivity
+  Services   (17): com.appx.core.service.TimerService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.appx.core.downloader.DownloadService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.appx.core.firebase.MyFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, es.voghdev.pdfviewpager.library.service.CopyAssetService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.appx.core.service.NotificationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (20): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.appx.core.receiver.ReminderReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.appx.core.receiver.MarketingNotificationReceiver, com.appx.core.receiver.PDFExportDecryptReceiver, com.appx.core.receiver.CourseExpiryNotificationReceiver, com.appx.core.receiver.DismissNotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.appx.core.receiver.AutoReadOTPReceiver, com.appx.core.receiver.NotificationBroadcastReceiver
+  Providers  (5): com.canhub.cropper.CropFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 25182
+  Total Methods : 126570
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): https://exoplayer.dev/issues/player-accessed-on-wrong-thread, https://shravansirenggacademyapi.classx.co.in/&token=, https://shravansirenggacademyapi.classx.co.in/, https://play.google.com/store/apps/details?id=, https://play.google.com/store/apps/details?id=co.paige.bwmxy
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 67 B6 66 6A 73 A0 B2 19 C3 88 A9 E2 40 C1 D4 99 38 15 C8 86 7C F5 79 D0 C1 AC 6C AE 05 1A 16 69
+
+==========================================

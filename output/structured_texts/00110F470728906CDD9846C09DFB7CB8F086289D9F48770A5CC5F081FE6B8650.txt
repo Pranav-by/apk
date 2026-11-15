@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.floaty.floatyapp
+  SHA-256       : 00110F470728906CDD9846C09DFB7CB8F086289D9F48770A5CC5F081FE6B8650
+  Android Group : Android16
+  Version       : 2.1.0 (code: 329)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (44)]
+  android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, com.floaty.floatyapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.FOREGROUND_SERVICE_LOCATION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (12): androidx.compose.ui.tooling.PreviewActivity, com.floaty.floatyapp.MainActivity, expo.modules.imagepicker.ExpoCropImageActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity, com.google.firebase.auth.internal.GenericIdpActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.credentials.playservices.HiddenActivity, com.canhub.cropper.CropImageActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (16): androidx.room.MultiInstanceInvalidationService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.asterinet.react.bgactions.RNBackgroundActionsTask, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, androidx.camera.core.impl.MetadataHolderService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.metadata.ModuleDependencies, expo.modules.location.services.LocationTaskService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, expo.modules.notifications.service.ExpoFirebaseMessagingService
+  Receivers  (12): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, expo.modules.notifications.service.NotificationsService, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (11): expo.modules.imagepicker.fileprovider.ImagePickerFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.canhub.cropper.CropFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, expo.modules.clipboard.ClipboardFileProvider, expo.modules.filesystem.FileSystemFileProvider, expo.modules.sharing.SharingFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 60782
+  Total Methods : 388954
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 23 AF CA AA 73 34 91 3A 00 FF 79 3D 67 69 49 C7 F7 A9 64 5E 5E A8 C6 6C 15 6D E2 D6 1E F2 BE 5B
+
+==========================================

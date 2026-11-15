@@ -1,0 +1,52 @@
+{
+  "sha256": "00329125B60E2EAE4724E0CB3598D56A05CF7E672654C85071F9E8D9A9731426",
+  "filename": "00329125B60E2EAE4724E0CB3598D56A05CF7E672654C85071F9E8D9A9731426.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.sboragalbi.girlsbacktoschool",
+  "version_name": "1.0.0",
+  "version_code": "10000",
+  "min_sdk": "19",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 2,
+  "activities": [
+    "com.sboragalbi.girlsbacktoschool.MainActivity",
+    "com.ironsource.sdk.controller.ControllerActivity",
+    "com.ironsource.sdk.controller.InterstitialActivity",
+    "com.ironsource.sdk.controller.OpenUrlActivity"
+  ],
+  "activity_count": 4,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.ironsource.lifecycle.IronsourceLifecycleProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4220,
+  "method_count": 31674,
+  "cert_fingerprint": "F3 84 C2 78 E9 F7 09 A0 80 BB AF B5 0C A0 BE E1 47 CC 84 C8 B9 C1 B1 5C 32 10 3A F3 70 CA F8 A7",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

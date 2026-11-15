@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hbwzl.ertyu.cqq
+  SHA-256       : 00ADF8CF19268219C9CD139D707A82D1B325877C5A6391285BB6BC8DF2212ACD
+  Android Group : Android12L
+  Version       : 1.0.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (5)]
+  com.google.android.gms.permission.AD_ID, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (24): com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.hbwzl.ertyu.cqq.activity.c, com.hbwzl.ertyu.cqq.activity.b, com.hbwzl.ertyu.cqq.rbkulo14.Iffkba0Activity, com.hbwzl.ertyu.cqq.activity.f, com.hbwzl.ertyu.cqq.activity.a, com.hbwzl.ertyu.cqq.cglubn13.Okcofa0Activity, com.hbwzl.ertyu.cqq.jangnm12.Ufgvka0Activity, com.hbwzl.ertyu.cqq.rpnvvl11.Jkpjia0Activity, com.hbwzl.ertyu.cqq.owrqsj9.Vaasta0Activity, com.hbwzl.ertyu.cqq.xytbdi8.Zuejna0Activity, com.hbwzl.ertyu.cqq.sbcpxf5.Pyenca0Activity, com.hbwzl.ertyu.cqq.mxckvh7.Gfcbja0Activity, com.hbwzl.ertyu.cqq.tjtmfe4.Lqntya0Activity, com.hbwzl.ertyu.cqq.vejxig6.Erikza0Activity, com.hbwzl.ertyu.cqq.smzvjd3.Jzryca0Activity, com.hbwzl.ertyu.cqq.vfujbc2.Usesia0Activity
+  Services   (4): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 13
+  Total Classes : 19337
+  Total Methods : 623330
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 25 FB 51 A5 05 C2 32 97 64 A7 FB B5 E7 B5 ED 73 B6 DE C7 F3 AB 42 F1 F8 56 56 1B E2 F9 66 40 5A
+
+==========================================

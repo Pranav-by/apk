@@ -1,0 +1,83 @@
+{
+  "sha256": "00A2DA6EA07AC14D3010797BA07B0B9EFD907E899D77F13C1218CF112B94579D",
+  "filename": "00A2DA6EA07AC14D3010797BA07B0B9EFD907E899D77F13C1218CF112B94579D.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.deichmanngmbh.inside.android",
+  "version_name": "2023.1.86055388",
+  "version_code": "2023020844",
+  "min_sdk": "26",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.RECORD_AUDIO",
+    "android.permission.USE_BIOMETRIC",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.CAMERA",
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.REORDER_TASKS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.READ_MEDIA_VIDEO"
+  ],
+  "permission_count": 17,
+  "activities": [
+    "com.staffbase.capacitor.plugin.ImageGallery.ImageGalleryActivity",
+    "com.staffbase.capacitor.plugin.Video.VideoPlayerActivity",
+    "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.staffbase.capacitor.MainActivity",
+    "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
+    "com.staffbase.capacitor.plugin.NativeModal.ModalActivity",
+    "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+  ],
+  "activity_count": 8,
+  "services": [
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.staffbase.capacitor.plugin.Parse.StaffbaseMessagingService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.parse.StaffbasePushBroadcastReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 14630,
+  "method_count": 94254,
+  "cert_fingerprint": "C1 E7 02 C1 0A 96 E4 78 A6 21 8E C5 E8 73 AD B1 85 5E 8E 65 A7 A4 B8 A5 E1 44 3E 49 C0 FF 7A E9",
+  "cert_issuer": "Common Name: Martin B\u00f6hringer, Organizational Unit: Product & Engineering, Organization: Staffbase GmbH, Locality: Chemnitz, State/Province: Saxony, Country: DE",
+  "urls": [
+    "https://developer.android.com/training/testing/espresso/setup#set-up-environment"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

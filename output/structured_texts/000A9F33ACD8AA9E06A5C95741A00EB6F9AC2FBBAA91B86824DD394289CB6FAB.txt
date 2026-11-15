@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.jd.mca
+  SHA-256       : 000A9F33ACD8AA9E06A5C95741A00EB6F9AC2FBBAA91B86824DD394289CB6FAB
+  Android Group : Android13
+  Version       : 1.51.0 (code: 151)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (29)]
+  android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_MEDIA_AUDIO, com.jd.mca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CHANGE_WIFI_STATE, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.CAMERA, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, com.jd.mca.permission.PROCESS_PUSH_MSG, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (84): com.huawei.hms.activity.EnableServiceActivity, com.huawei.hms.activity.BridgeActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.huawei.hms.support.api.push.TransActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity, com.facebook.FacebookActivity, com.yalantis.ucrop.PictureMultiCuttingActivity, com.yalantis.ucrop.UCropActivity, com.luck.picture.lib.PicturePlayAudioActivity, com.luck.picture.lib.PictureExternalPreviewActivity, com.jd.mca.webview.WebActivity, com.luck.picture.lib.PictureVideoPlayActivity, com.jd.mca.account.SignInActivity, com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity, com.luck.picture.lib.PicturePreviewActivity, com.luck.picture.lib.PictureCustomCameraActivity, com.jd.mca.search.SearchResultActivity, com.luck.picture.lib.PictureSelectorCameraEmptyActivity
+  Services   (12): com.google.android.gms.measurement.AppMeasurementService, com.huawei.hms.support.api.push.service.HmsMsgService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.jd.sec.logo.AlarmIntentService, com.huawei.agconnect.core.ServiceDiscovery, com.jd.un.push.service.JDUnFirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.jd.push.huawei.broadcast.EMHuaweiPushReceiver, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (9): com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.huawei.hms.support.api.push.PushReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (13): androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.jingdong.sdk.baseinfo.db.PrivacyInfoProvider, zendesk.messaging.android.internal.ZendeskFileProvider, com.luck.picture.lib.PictureFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, net.grandcentrix.tray.provider.TrayContentProvider, com.huawei.hms.analytics.provider.AnalyticsInitializeProvider, com.huawei.hms.support.api.push.PushProvider, androidx.startup.InitializationProvider, com.huawei.hms.aaid.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 33178
+  Total Methods : 218102
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: JD International, Organizational Unit: International, Organization: JD, Locality: Beijing, State/Province: Beijing, Country: CN
+  Fingerprint : F9 4C 95 A0 F7 A5 70 09 D1 60 97 A8 FE CB 09 F7 D9 CD FC C4 1E 35 07 50 43 3E 4A 63 F6 BB 61 93
+
+==========================================

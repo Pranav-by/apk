@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ferah.auroraborealiswallpaper.auroralightsback
+  SHA-256       : 0049A332449229B73B59AEC7FD2F8DFE17ED0AF5A74E099E58C617B279D6CE1E
+  Android Group : Android12
+  Version       : 1.1 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (10)]
+  com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (83): com.ferah.auroraborealiswallpaper.auroralightsback.ExpandedControlsActivity, com.ferah.auroraborealiswallpaper.auroralightsback.t_buscvideos, com.ferah.auroraborealiswallpaper.auroralightsback.t_url, com.ferah.auroraborealiswallpaper.auroralightsback.t_html, com.ferah.auroraborealiswallpaper.auroralightsback.t_radio, com.ferah.auroraborealiswallpaper.auroralightsback.fotogal, com.ferah.auroraborealiswallpaper.auroralightsback.t_video, com.ferah.auroraborealiswallpaper.auroralightsback.t_video_exoplayer, com.ferah.auroraborealiswallpaper.auroralightsback.t_buscchats_lista, com.ferah.auroraborealiswallpaper.auroralightsback.t_menugrid, com.ferah.auroraborealiswallpaper.auroralightsback.t_buscchats, com.ferah.auroraborealiswallpaper.auroralightsback.t_submenu, com.ferah.auroraborealiswallpaper.auroralightsback.t_chat_contra, com.ferah.auroraborealiswallpaper.auroralightsback.t_submenu_ultimas, com.ferah.auroraborealiswallpaper.auroralightsback.t_rssdetalle, com.ferah.auroraborealiswallpaper.auroralightsback.t_oficinas, com.ferah.auroraborealiswallpaper.auroralightsback.t_rss, com.ferah.auroraborealiswallpaper.auroralightsback.t_gal_foto, com.ferah.auroraborealiswallpaper.auroralightsback.t_chat, com.ferah.auroraborealiswallpaper.auroralightsback.preperfil
+  Services   (30): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.ferah.auroraborealiswallpaper.auroralightsback.s_widget_vistafb, androidx.room.MultiInstanceInvalidationService, com.appnext.core.AdsService, com.ferah.auroraborealiswallpaper.auroralightsback.s_cargar_icos, com.ferah.auroraborealiswallpaper.auroralightsback.s_cargar_sliderheader, com.ferah.auroraborealiswallpaper.auroralightsback.s_cargar_fondo, com.ferah.auroraborealiswallpaper.auroralightsback.s_cargar_icos_gen, com.ferah.auroraborealiswallpaper.auroralightsback.s_guardarperfil, com.ferah.auroraborealiswallpaper.auroralightsback.s_mediaplayer_exo, com.ferah.auroraborealiswallpaper.auroralightsback.RegistrationIntentService, com.ferah.auroraborealiswallpaper.auroralightsback.MyFcmListenerService, com.ferah.auroraborealiswallpaper.auroralightsback.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (15): com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.ferah.auroraborealiswallpaper.auroralightsback.alarma_rss
+  Providers  (11): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.ferah.auroraborealiswallpaper.auroralightsback.MySuggestionProvider, com.ferah.auroraborealiswallpaper.auroralightsback.StickerContentProvider, com.ferah.auroraborealiswallpaper.auroralightsback.bd_provider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 24788
+  Total Methods : 140527
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1B 83 02 15 BC 39 50 7E 3B CA 5C 53 31 EF A1 E3 5D 8F 40 26 43 4D 93 A6 C0 20 95 9C A6 DE 85 63
+
+==========================================

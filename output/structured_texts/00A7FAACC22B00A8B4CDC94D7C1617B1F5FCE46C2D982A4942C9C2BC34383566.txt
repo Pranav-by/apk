@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sportinginnovations.baacol
+  SHA-256       : 00A7FAACC22B00A8B4CDC94D7C1617B1F5FCE46C2D982A4942C9C2BC34383566
+  Android Group : Android14
+  Version       : 1.0.56 (code: 57)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 34
+
+[Permissions (26)]
+  com.sportinginnovations.baacol.permission.C2D_MESSAGE, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, com.sportinginnovations.baacol.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CHANGE_WIFI_STATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (125): uphoria.module.media.LightUpActivity, uphoria.module.auth.IntroSlidesActivity, uphoria.module.checkin.journal.JournalPageActivity, uphoria.module.tm.IgniteSignIn, uphoria.module.checkin.CheckInActivity, uphoria.module.checkin.journal.JournalPageEditActivity, com.ticketmaster.authenticationsdk.internal.modernaccounts.presentation.ModernAccountsLoginScreen, uphoria.module.favorites.RelatedOrgSearchActivity, com.sportinginnovations.uphoria.fan360.account.LoyaltyCheckIn, uphoria.module.main.GenericPageActivity, uphoria.module.auth.SignInSelectionActivity, uphoria.module.images.FullScreenImageActivity, uphoria.module.auth.SignUpActivity, uphoria.module.favorites.RelatedOrgFavoriteActivity, uphoria.module.auth.PartialAccountCreatedActivity, com.axs.sdk.ui.content.auth.AXSSignInActivity, uphoria.module.auth.LoginActivity, uphoria.module.video.ExoPlayerFullscreenActivity, uphoria.view.described.ProfileImagePickerActivity, com.axs.sdk.ui.content.tickets.upcoming.AXSUpcomingEventActivity
+  Services   (16): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, uphoria.push.FirebasePushService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, uphoria.push.PushIntentService, uphoria.module.media.view.RadioService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, uphoria.module.geofence.GeofenceTransitionsIntentService, com.google.android.gms.measurement.AppMeasurementJobService, uphoria.push.PushSilentIntentService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (16): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, uphoria.module.geofence.GeofenceBootCompletedReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.axs.sdk.notifications.UpcomingEventReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (7): uphoria.UphoriaFileProvider, com.ticketmaster.tickets.event_tickets.TmxThirdPartyTicketContentProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 66644
+  Total Methods : 384271
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0F 78 B6 C4 48 9F FB 69 FA 6A 54 FC CC 14 BB 5A 93 EF D2 52 8E 64 12 43 84 51 6B AB 81 AE DD 60
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.etermax.preguntados.lite
+  SHA-256       : 009D094715C00B9BF51446477FC021943D8AE0AC4577D1E43D1AD8B6F7463B19
+  Android Group : Android12
+  Version       : 3.213.0 (code: 774)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (20)]
+  android.permission.VIBRATE, com.etermax.preguntados.lite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.USE_CREDENTIALS, android.permission.MANAGE_ACCOUNTS, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.GET_ACCOUNTS, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.AUTHENTICATE_ACCOUNTS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (212): org.prebid.mobile.rendering.views.browser.AdBrowserActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.etermax.preguntados.guessgrab.presentation.navigation.GuessGrabNavigationActivity, com.mbridge.msdk.interstitial.view.MBInterstitialActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.amazon.device.ads.DTBActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.startapp.sdk.adsbase.consent.ConsentActivity, com.etermax.preguntados.surveyreward.survey.presentation.lobby.LobbyActivity, com.etermax.preguntados.classic.tournament.presentation.ranking.RankingActivity, com.braze.ui.activities.ContentCardsActivity, com.etermax.triviacommon.gallery.GalleryActivity, com.criteo.publisher.CriteoInterstitialActivity, com.chartboost.sdk.view.CBImpressionActivity, com.hyprmx.android.sdk.activity.HyprMXNoOffersActivity, com.etermax.preguntados.surveyreward.offerwall.presentation.lobby.LobbyActivity, com.mintegral.msdk.activity.MTGCommonActivity, com.etermax.preguntados.surveyreward.offerwall.presentation.collect.CollectActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.etermax.preguntados.questionwidgets.presentation.template.QuestionTemplateActivity
+  Services   (24): androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.etermax.preguntados.notification.services.RejectGameService, com.etermax.gamescommon.login.accountmanager.shared.AccountAuthenticatorService, com.etermax.preguntados.firebase.FcmMessagingService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, com.braze.push.BrazeFirebaseMessagingService, com.uxcam.service.HttpPostService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (24): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.braze.receivers.BrazeActionReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.appsflyer.SingleInstallBroadcastReceiver, com.ogury.core.internal.OguryLogEnablerReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.etermax.preguntados.notification.LocalNotificationReceiver, com.etermax.preguntados.appboy.receiver.AppboyBroadcastReceiver, com.etermax.preguntados.sharing.ShareSelectionReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.etermax.xmediator.mediation.prebid_mobile.domain.PrebidMobileAdEventReceiver, com.braze.push.BrazePushReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (16): io.bidmachine.BidMachineInitProvider, leakcanary.internal.MainProcessAppWatcherInstaller, com.facebook.internal.FacebookInitProvider, com.applovin.sdk.AppLovinInitProvider, com.etermax.anrdetector.tracker.amplitude.AmplitudeAnrTrackerProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.vungle.warren.utility.VungleProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.etermax.preguntados.sharing.SharingFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider, com.hyprmx.android.sdk.utility.HyprMXFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 10
+  Total Classes : 80387
+  Total Methods : 458850
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): http://xxxxxxxxxxx
+  IP Addresses(2): 127.0.0.1, 2.10.0.0
+
+[Certificate]
+  Issuer      : Organization: Etermax
+  Fingerprint : 6D 56 0E 33 C6 C6 9C A4 6F 37 98 8B DF 42 CC 8D E2 BC BB E8 1D 87 36 D6 42 44 18 02 67 D1 F3 EE
+
+==========================================

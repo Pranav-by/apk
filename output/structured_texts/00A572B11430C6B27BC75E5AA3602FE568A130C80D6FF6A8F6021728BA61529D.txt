@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.dreambroker.studio
+  SHA-256       : 00A572B11430C6B27BC75E5AA3602FE568A130C80D6FF6A8F6021728BA61529D
+  Android Group : Android16
+  Version       : 2.7.0 (code: 78)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, com.dreambroker.studio.permission.C2D_MESSAGE, android.permission.READ_MEDIA_AUDIO, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, com.dreambroker.studio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (16): com.dreambroker.studio.activity.TabsActivity, com.google.android.gms.oss.licenses.OssLicensesMenuActivity, com.dreambroker.studio.activity.SettingsActivity, com.dreambroker.studio.activity.VideoDetailsActivity, com.google.android.gms.oss.licenses.OssLicensesActivity, net.openid.appauth.RedirectUriReceiverActivity, com.dreambroker.studio.activity.WelcomeActivity, com.dreambroker.studio.activity.ScanCodeActivity, com.dreambroker.studio.activity.SendFeedbackActivity, com.dreambroker.studio.activity.AuthenticationActivity, net.openid.appauth.AuthorizationManagementActivity, com.dreambroker.studio.activity.LaunchActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.dreambroker.studio.activity.VideoPlayerActivity, com.dreambroker.studio.activity.CommentsActivity
+  Services   (7): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.dreambroker.studio.service.PushNotificationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (5): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.dreambroker.studio.util.AlarmBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (2): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17977
+  Total Methods : 124858
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android App
+  Fingerprint : F4 81 A1 60 E9 57 53 ED 5C EE 28 65 3B C2 60 25 92 4A 7C 49 10 9A B0 0D BD 4E C7 CC B6 A8 19 7A
+
+==========================================

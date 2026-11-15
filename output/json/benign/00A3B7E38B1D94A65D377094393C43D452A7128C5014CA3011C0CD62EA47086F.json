@@ -1,0 +1,63 @@
+{
+  "sha256": "00A3B7E38B1D94A65D377094393C43D452A7128C5014CA3011C0CD62EA47086F",
+  "filename": "00A3B7E38B1D94A65D377094393C43D452A7128C5014CA3011C0CD62EA47086F.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.umairazfar.games.feedem",
+  "version_name": "1.4",
+  "version_code": "14",
+  "min_sdk": "15",
+  "target_sdk": "34",
+  "permissions": [],
+  "permission_count": 0,
+  "activities": [
+    "com.ansca.corona.CoronaActivity",
+    "com.ansca.corona.purchasing.StoreActivity",
+    "com.ansca.corona.CameraActivity",
+    "com.ansca.corona.VideoActivity",
+    "com.ansca.corona.notifications.OnNotificationReceiverActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.ansca.corona.CoronaService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "com.ansca.corona.notifications.AlarmManagerBroadcastReceiver",
+    "com.ansca.corona.notifications.StatusBarBroadcastReceiver",
+    "com.ansca.corona.SystemStartupBroadcastReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.ansca.corona.storage.FileContentProvider",
+    "com.ansca.corona.camera.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 674,
+  "method_count": 4155,
+  "cert_fingerprint": "8C 18 A8 BC E4 E3 4B 63 A2 F2 9F 10 26 F7 0A 3A AD 73 D4 AC 7C 04 E1 46 11 10 0F E1 C1 70 D4 2B",
+  "cert_issuer": "Common Name: Umair Azfar Khan",
+  "urls": [
+    "https://github.com/coronalabs/corona",
+    "http://www.amazon.com/gp/mas/dl/android?p=",
+    "http://developer.android.com/guide/topics/security/permissions.html#permission-groups",
+    "http://maps.googleapis.com/maps/api/geocode/json?address=",
+    "http://127.0.0.1:",
+    "http://www.coronalabs.com/products/corona-sdk/?utm_source=corona-sdk&utm_medium=corona-sdk&utm_campaign=trial-popup"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,55 @@
+{
+  "sha256": "00A4A3332929C2B299C9E4B6CC8059DDCCD33993DFDCACDA1BD021626F331DF9",
+  "filename": "00A4A3332929C2B299C9E4B6CC8059DDCCD33993DFDCACDA1BD021626F331DF9.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.iiordanov.freeaRDP",
+  "version_name": "v5.1.2",
+  "version_code": "115123",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.VIBRATE"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "com.undatech.opaque.ConnectionGridActivity",
+    "com.iiordanov.bVNC.GlobalPreferencesActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "com.iiordanov.bVNC.ConnectionListActivity",
+    "com.iiordanov.pubkeygenerator.GeneratePubkeyActivity",
+    "com.iiordanov.bVNC.RemoteCanvasActivity",
+    "com.iiordanov.bVNC.aRDP"
+  ],
+  "activity_count": 7,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 16456,
+  "method_count": 108186,
+  "cert_fingerprint": "8D A4 6E 51 38 4B C9 94 FC 6A DE 6A CA E2 A5 0A 4C A9 E4 51 AA D7 A7 77 C7 1B A1 B2 F8 D7 C9 FE",
+  "cert_issuer": "Common Name: Iordan Iordanov, Locality: Toronto, State/Province: ON, Country: CA",
+  "urls": [
+    "https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

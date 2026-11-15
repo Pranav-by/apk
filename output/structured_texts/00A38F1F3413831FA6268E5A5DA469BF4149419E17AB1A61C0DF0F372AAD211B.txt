@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : jp.co.riso.sukurire
+  SHA-256       : 00A38F1F3413831FA6268E5A5DA469BF4149419E17AB1A61C0DF0F372AAD211B
+  Android Group : Android13
+  Version       : 3.3.1 (code: 175)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (30)]
+  android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (5): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.react.devsupport.DevSettingsActivity, com.google.android.gms.common.api.GoogleApiActivity, expo.modules.notifications.service.NotificationForwarderActivity, jp.co.riso.sukurire.MainActivity
+  Services   (10): expo.modules.notifications.service.ExpoFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+  Receivers  (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, expo.modules.notifications.service.NotificationsService, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (6): expo.modules.sharing.SharingFileProvider, androidx.startup.InitializationProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, expo.modules.filesystem.FileSystemFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17473
+  Total Methods : 109611
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5C 14 ED 94 59 BC 68 00 CF 02 5B C4 DB 8D DE DC 38 65 1E E1 18 7E 26 7E 04 4E 7E 6B DC FA 8B EA
+
+==========================================

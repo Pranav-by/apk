@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sargalaya
+  SHA-256       : 009766900F1465B2DB257EFB715A1926F89F488B317CAD9AB020621CFEFDE2A8
+  Android Group : Android12L
+  Version       : 1.4 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (4)]
+  android.permission.VIBRATE, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (11): com.sargalaya.ScorerrrActivity, com.sargalaya.DebugActivity, com.sargalaya.MainActivity, com.sargalaya.AboutActivity, com.sargalaya.WebActivity, com.sargalaya.ResultMainActivity, com.sargalaya.SplashActivity, com.sargalaya.RecentlyActivity, com.sargalaya.SheduleActivity, com.sargalaya.LatestActivity, com.sargalaya.TwalabaGroupActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1011
+  Total Methods : 6468
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : EA 92 E4 7C F0 61 44 B5 56 15 FA 07 3A E6 95 94 71 87 D1 7F 58 C7 93 4F 3D A4 B1 61 4A E9 04 D7
+
+==========================================

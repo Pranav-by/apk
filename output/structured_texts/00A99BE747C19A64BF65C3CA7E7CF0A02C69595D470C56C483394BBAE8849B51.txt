@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.zen.android
+  SHA-256       : 00A99BE747C19A64BF65C3CA7E7CF0A02C69595D470C56C483394BBAE8849B51
+  Android Group : Android14
+  Version       : 25.1.0 (code: 200055982)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (30)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.yandex.zenkitpartnerconfig.permission.READ, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.provider.Telephony.SMS_RECEIVED, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.AUTHENTICATE_ACCOUNTS, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (50): ru.zen.chromecast.CastActivity, ru.zen.auth.yandex.YandexProxyActivity, ru.zen.android.launch.settings.ApplySettingsActivity, com.vk.api.sdk.ui.VKConfirmationActivity, com.yandex.eye.camera.kit.EyeCameraActivity, com.vk.api.sdk.ui.VKCaptchaActivity, com.vk.auth.avatarpicker.AuthAvatarPickerActivity, com.vk.superapp.browser.internal.ui.identity.fragments.VkIdentityActivity, com.vk.auth.DefaultAuthActivity, com.vk.auth.modal.base.ModalAuthHostActivity, com.yandex.zenkit.video.LegacyFullscreenActivity, com.vk.auth.oauth.passkey.VkPasskeyWebAuthActivity, com.yandex.mobile.ads.common.AdActivity, com.vk.auth.DefaultAuthActivity$BottomSheetActivity, com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity, com.vk.superapp.logs.SuperappLogsActivity, pub.devrel.easypermissions.AppSettingsDialogHolderActivity, com.vk.auth.captcha.impl.SakCaptchaActivity, com.my.target.common.MyTargetActivity, com.vk.superapp.browser.internal.ui.communitypicker.VkCommunityPickerActivity
+  Services   (30): com.vk.push.pushsdk.service.TestPushService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, ru.rustore.sdk.universalpush.firebase.services.FirebasePushService, ru.rustore.sdk.metrics.internal.presentation.SendMetricsEventJobService, com.google.firebase.messaging.FirebaseMessagingService, ru.rustore.sdk.universalpush.rustore.services.RuStorePushService, com.yandex.zen.service.ZenFcmMessageHandlerService, com.yandex.zenkit.shortvideo.features.download.DownloadService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.yandex.zenkit.shortvideo.PrefetchDataService, com.yandex.zenkit.briefeditor.publish.BriefPublicationService, ru.zen.longvideo.backgroundplay.LongVideoService, androidx.work.impl.foreground.SystemForegroundService, ru.zen.push.fcm.service.FirebaseMessageHandlerService, com.google.firebase.components.ComponentDiscoveryService, ru.zen.toolsoverlay.impl.TestInfoService, com.yandex.metrica.MetricaService, com.vk.accountmanager.domain.interactor.VkAccountAuthenticatorService, io.appmetrica.analytics.internal.AppMetricaService
+  Receivers  (24): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.vk.superapp.browser.utils.SuperAppLoadingBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.vk.superapp.browser.internal.ui.shortcats.ShortcutSuccessReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, ru.rustore.sdk.pushclient.internal.arbiter.ArbiterBroadcastReceiver, com.vk.push.pushsdk.broadcast.VkpnsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.vk.push.pushsdk.broadcast.FullyPackageRemovedReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.vk.push.pushsdk.broadcast.TimeChangedReceiver, com.yandex.zen.push.ZenNotificationBackgroundActionHandler, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, ru.zen.longvideo.download.impl.LongVideoDownloadBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, ru.zen.widgets.hourlyStatisticsWidgets.HourlyStatisticsMediumWidget, receivers.TimeSyncRequestedReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (17): com.yandex.zen.migration.ZenMigrationDataProvider, com.vk.superapp.logs.LogsFileProvider, com.yandex.metrica.PreloadInfoContentProvider, com.vk.superapp.provider.SakFileProvider, ru.zen.push.core.impl.fileprovider.PushImageFileProvider, ru.rustore.sdk.pushclient.provider.RuStorePushClientInitProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.my.target.common.MyTargetContentProvider, com.google.firebase.provider.FirebaseInitProvider, ru.ok.android.commons.app.ApplicationProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, androidx.startup.InitializationProvider, com.vk.push.core.deviceid.contentprovider.VkpnsDeviceIdContentProvider, com.yandex.zen.ZenKitPublishFileProvider, com.yandex.eye.camera.kit.util.FileProvider, ru.ok.tracer.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 86982
+  Total Methods : 305857
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: OOO DZEN.PLATFORMA, Organizational Unit: Mobile Development, Organization: OOO DZEN.PLATFORMA, Locality: Moskow, State/Province: Moskow, Country: RU
+  Fingerprint : 2D C6 FA F7 FC 34 85 CB 45 F2 31 44 26 FC 50 E9 6F 8D 0F 26 9A 11 09 C2 2B 52 85 28 2A 04 76 BC
+
+==========================================

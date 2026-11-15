@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.duplex.o
+  SHA-256       : 0049CE8F3A8D57E533930F2D50389A743D524A267F273AD13487A3CB625C6E6C
+  Android Group : Android12
+  Version       : 1.0 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 31
+
+[Permissions (0)]
+  none
+
+[Application Components]
+  Activities (1): com.duplex.o.main
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 228
+  Total Methods : 1508
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C4 9F BF 59 1A B2 6C 5D 65 8D 09 C5 F8 52 F2 44 A2 76 9F CB C4 08 F3 C3 A2 E4 02 84 F2 4F 13 DE
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.medialogix.shareall.data.filetransfer.shareapps.sharefiles
+  SHA-256       : 0085D10B217B60C4C1FC836E40713AF73FF2840C859A3A1330E889D6EAF1E42B
+  Android Group : Android12L
+  Version       : 1.1.1 (code: 12)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (10)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (11): com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medFilesHistory.MedHistoryActivity, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medActivities.MedMainActivity, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medHotModule.MedSendHotspot, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medActivities.MedPermissionScreen, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medActivities.MedPrivacyActivity, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medReceiveModule.MedReceiverScan, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medSendModule.MedScanActivity, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medSendModule.MedSendActivity, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medActivities.MedSplash, com.medialogix.shareall.data.filetransfer.shareapps.sharefiles.medHotModule.MedReceiveHotspot, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (1): androidx.room.MultiInstanceInvalidationService
+  Receivers  (0): none
+  Providers  (2): androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4257
+  Total Methods : 19772
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0C 7E 0D 5F 85 E3 25 F6 E0 B8 EF 2F 46 E4 BC D3 FD 05 21 CC 04 2A 1A AA C1 2C A7 9F 46 1A 0F 4F
+
+==========================================

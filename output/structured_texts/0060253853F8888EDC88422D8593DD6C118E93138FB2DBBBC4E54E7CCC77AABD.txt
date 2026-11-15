@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : co.tapcart.app.id_twdM1Csk1t
+  SHA-256       : 0060253853F8888EDC88422D8593DD6C118E93138FB2DBBBC4E54E7CCC77AABD
+  Android Group : Android13
+  Version       : 1 (code: 14)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (19)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, co.tapcart.app.id_twdM1Csk1t.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (56): co.tapcart.app.GenericActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, co.tapcart.app.ugc.ui.UGCActivity, com.sailthru.mobile.sdk.NotificationActivity, co.tapcart.app.wishlists.WishlistsActivity, com.google.android.gms.common.api.GoogleApiActivity, co.tapcart.app.subscriptions.modules.subscriptiondetails.SubscriptionDetailsActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, co.tapcart.app.subscriptions.modules.addresses.AddressesActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, co.tapcart.app.subscriptions.modules.subscriptions.SubscriptionsActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, co.tapcart.app.smsoptin.SmsOptInActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, co.tapcart.app.storeLocator.modules.StoreLocatorActivity, co.tapcart.app.account.modules.userauthentication.UserAuthenticationActivity, com.journeyapps.barcodescanner.CaptureActivity, co.tapcart.app.address.modules.shipping.ShippingAddressActivity, co.tapcart.app.search.modules.productsList.ProductsListActivity, co.tapcart.app.address.modules.billing.BillingAddressActivity
+  Services   (15): com.google.android.gms.analytics.AnalyticsService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.messaging.FirebaseMessagingService, co.tapcart.app.utils.services.MessagingService, com.google.android.gms.measurement.AppMeasurementService, com.iterable.iterableapi.IterableFirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.sailthru.mobile.sdk.FcmService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (10): com.iterable.iterableapi.IterablePushActionReceiver, com.sailthru.mobile.sdk.NotificationTappedReceiver, com.appsflyer.SingleInstallBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (5): androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.heapanalytics.android.internal.HeapContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 27
+  Total Classes : 47059
+  Total Methods : 319780
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4D 19 27 29 C0 E3 3E EC 5C E2 74 DD FE 19 AF 86 DF ED 46 FE FB 09 A5 91 EF 41 8A 9A 0A 94 78 83
+
+==========================================

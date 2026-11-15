@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.travel.offto
+  SHA-256       : 0062AB6CB1C07F8A8916130EFB3D7A7290BAFBFC7EC48FB846B669D08D45D49F
+  Android Group : Android14
+  Version       : 7.0.49 (code: 353)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, com.travel.offto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.samsung.android.mapsagent.permission.READ_APP_INFO, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.NFC, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (13): com.storify.android_sdk.ui.slider.StoryViewerActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.travel.offto.MainActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.storify.android_sdk.ui.slider.StorifyMeHandlerActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.storify.android_sdk.ui.view.WebViewActivity, com.clevertap.android.sdk.InAppNotificationActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.clevertap.android.sdk.inbox.CTInboxActivity, com.myfatoorah.sdk.views.MFSDKMainActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (15): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.metadata.ModuleDependencies, androidx.work.impl.foreground.SystemForegroundService, com.clevertap.android.sdk.pushnotification.fcm.FcmMessageListenerService
+  Receivers  (15): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.clevertap.android.sdk.pushnotification.fcm.CTFirebaseMessagingReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (5): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.share.ShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13867
+  Total Methods : 77767
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 7.0.3.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5F C0 5F 4D 2C 6E 3E 49 A6 67 2B 93 1B 16 72 0E AF 65 37 2B 9D 82 EC 85 73 C3 A8 95 63 4C 1C 21
+
+==========================================

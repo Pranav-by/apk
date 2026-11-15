@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kursx.smartbook
+  SHA-256       : 006176EC44C121C4FDA2AD8685B1A8BD207D91E343278970A73E4B1C75761E4A
+  Android Group : Android12L
+  Version       : 3.1 (code: 709)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_BIOMETRIC, kurs.englishteacher.READ_WRITE, com.google.android.c2dm.permission.RECEIVE, com.ichi2.anki.permission.READ_WRITE_DATABASE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (49): ru.yoomoney.sdk.kassa.payments.utils.WebViewActivity, com.kursx.smartbook.settings.QuickSettingsActivity, ru.yoomoney.sdk.auth.AuthEntryActivity, com.kursx.smartbook.settings.BookSettingsActivity, ru.yoomoney.sdk.kassa.payments.contract.SavePaymentMethodInfoActivity, androidx.compose.ui.tooling.PreviewActivity, com.kursx.smartbook.settings.translators.TranslatorsActivity, ru.yoomoney.sdk.kassa.payments.ui.ConfirmationActivity, com.kursx.smartbook.parallator.ParallatorActivity, ru.yoomoney.sdk.auth.AccountActivity, com.kursx.smartbook.ui.chapters.ChaptersActivity, ru.yoomoney.sdk.auth.qrAuth.QrAuthActivity, com.kursx.smartbook.books.BooksActivity, ru.yoomoney.sdk.auth.auxToken.AuxTokenIssueActivity, com.kursx.smartbook.statistics.StatisticsActivity, com.kursx.smartbook.reader.ReaderActivity, com.kursx.smartbook.reader.HintActivity, com.android.billingclient.api.ProxyBillingActivity, com.kursx.smartbook.translation.translator.TranslatorActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+  Services   (18): com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.kursx.smartbook.web.FireBaseMessaging, com.google.firebase.components.ComponentDiscoveryService, com.kursx.smartbook.web.offline.OfflineDictionaryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.yandex.metrica.MetricaService
+  Receivers  (13): androidx.profileinstaller.ProfileInstallReceiver, com.kursx.smartbook.web.offline.CancelActionReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (8): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.kursx.smartbook.db.ContentProvider, androidx.core.content.FileProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 36923
+  Total Methods : 189018
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: KursX
+  Fingerprint : 1B 7F EC 81 2D A5 DB E6 77 AF 3D 10 3F 72 83 63 01 3B F8 A5 50 33 E3 F3 A7 B1 73 F9 41 B2 09 92
+
+==========================================

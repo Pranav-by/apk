@@ -1,0 +1,56 @@
+{
+  "sha256": "00A952D13D0A0EBB78DB5EC76E70367055BA093831C41D3C042236BC803A2A2F",
+  "filename": "00A952D13D0A0EBB78DB5EC76E70367055BA093831C41D3C042236BC803A2A2F.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.wanted5games.stratego",
+  "version_name": "1.7.0",
+  "version_code": "246",
+  "min_sdk": "21",
+  "target_sdk": "34",
+  "permissions": [
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.cocos.lib.CocosEditBoxActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.cocos.game.AppActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5372,
+  "method_count": 26900,
+  "cert_fingerprint": "55 44 26 69 58 27 C1 D4 51 CA 40 EF 2D F2 E7 96 58 53 8F 26 E5 63 C0 50 95 9E 4E 8B 1E 01 BE A7",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

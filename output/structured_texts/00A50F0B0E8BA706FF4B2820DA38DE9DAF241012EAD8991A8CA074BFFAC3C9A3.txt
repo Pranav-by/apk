@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.teleianthous.connect
+  SHA-256       : 00A50F0B0E8BA706FF4B2820DA38DE9DAF241012EAD8991A8CA074BFFAC3C9A3
+  Android Group : Android12
+  Version       : 1.1.5.53 (code: 11553)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (24)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH_ADMIN, android.permission.READ_CONTACTS, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.USE_FULL_SCREEN_INTENT, android.permission.BROADCAST_STICKY, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (339): com.winuall.connect.ui.feemodule.FeeActivity, com.winuall.connect.ui.parent.instructions.InstructionsActivity, com.winuall.connect.ui.parent.doubts.answerdoubt.AnswerDoubtActivity, com.winuall.connect.views.selfonboarding.OrgBatchesActivity, com.winuall.connect.ui.appintro.WelcomeActivity, com.winuall.connect.views.marketplace.MarketPlaceActivity, com.winuall.connect.ui.login.OtpLoginActivity, com.winuall.connect.ui.settings.SettingsActivity, com.vincent.filepicker.activity.ImagePickActivity, com.winuall.connect.ui.parent.analysis.depthanalysis.ChapterAnalysisActivity, com.winuall.connect.ui.splash.SplashActivity, com.winuall.connect.views.excel.ExcelActivity, com.winuall.connect.ui.parent.practice.fullcourse.FullCourseActivity, com.winuall.connect.ui.notifications.NotificationsActivity, com.winuall.connect.ui.parent.profile.EditProfileActivity, com.winuall.connect.views.notification.NotificationsListActivity, com.winuall.connect.ui.parent.ParentActivity, com.winuall.connect.ui.login.LoginActivity, com.winuall.connect.ui.organisation.SelectOrganisation, com.razorpay.CheckoutActivity
+  Services   (19): es.voghdev.pdfviewpager.library.service.CopyAssetService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.zipow.videobox.kubi.KubiService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, com.zipow.videobox.share.ScreenShareServiceForSDK, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.winuall.connect.firebase.MyFirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.winuall.connect.utils.MyQuizService, com.winuall.connect.utils.DeleteCacheFilesService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.winuall.marketplace.utils.MarketplaceOtpReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver, com.razorpay.RzpTokenReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.winuall.connect.firebase.NotificationBroadcastReceiver, com.winuall.connect.ui.login.OtpReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (8): com.google.firebase.provider.FirebaseInitProvider, pl.aprilapps.easyphotopicker.ExtendedFileProvider, com.squareup.picasso.PicassoProvider, io.sentry.android.core.SentryInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 10
+  Total Classes : 42972
+  Total Methods : 421085
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Pallavi Gupta, Organizational Unit: Mobile Development, Organization: Winuall, Locality: Kota, State/Province: Rajasthan, Country: IN
+  Fingerprint : 33 FF A3 AA 04 EF 31 FF 88 37 7A 9E B1 76 2B 89 2C 18 40 18 5F 54 D1 CD 37 12 6A 88 AD 8C 50 91
+
+==========================================

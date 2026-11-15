@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.marchnetworks.searchlight
+  SHA-256       : 00AB348B7C5BFE6C1A36E3978E76C7E645FB80B0699F56B19BB575FEBE584E74
+  Android Group : Android15
+  Version       : 6.1.0.1747 (code: 1747)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 35
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, com.marchnetworks.searchlight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.USE_FINGERPRINT, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (7): com.marchnetworks.searchlight.base.BaseActivity, com.marchnetworks.searchlight.splash.SplashScreenActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.marchnetworks.searchlight.dashboard.DashboardActivity
+  Services   (11): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (5): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (10): com.marchnetworks.searchlight.utils.SandboxFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.marchnetworks.searchlight.utils.ExternalFileProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, com.ReactNativeBlobUtil.Utils.FileProvider, expo.modules.clipboard.ClipboardFileProvider, expo.modules.filesystem.FileSystemFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 39736
+  Total Methods : 257728
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E8 4E 4B AD A3 E7 8B F9 8C 42 A9 93 30 DB 84 1E C9 0A 7F BE 82 3C AE 50 CB 12 F9 1B 64 52 90 39
+
+==========================================

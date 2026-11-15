@@ -1,0 +1,64 @@
+{
+  "sha256": "0008EB643BF36B4ECA148DF019A2C7DE5EFA8B00ED8DAB83C9A16A2798C74063",
+  "filename": "0008EB643BF36B4ECA148DF019A2C7DE5EFA8B00ED8DAB83C9A16A2798C74063.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.krazeapps.kotlinprogrammingcompiler",
+  "version_name": "2.7",
+  "version_code": "23",
+  "min_sdk": "16",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "com.android.vending.BILLING"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.krazeapps.kotlinprogrammingcompiler.MainActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.krazeapps.kotlinprogrammingcompiler.OutputActivity",
+    "com.krazeapps.kotlinprogrammingcompiler.SettingsActivity",
+    "com.krazeapps.kotlinprogrammingcompiler.ReferenceActivity",
+    "com.krazeapps.kotlinprogrammingcompiler.InputActivity"
+  ],
+  "activity_count": 7,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.lifecycle.ProcessLifecycleOwnerInitializer",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6143,
+  "method_count": 42650,
+  "cert_fingerprint": "5D 17 69 EF C0 C6 BF C7 47 5D FF C7 27 27 FE 4C 02 60 E5 73 43 F1 82 7C 95 C4 3A 10 45 78 83 BE",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://www.apache.org/licenses/LICENSE-2.0)",
+    "https://github.com/ahmadaghazadeh/CodeEditor]"
+  ],
+  "ip_addresses": [
+    "45.79.179.111",
+    "0.9.6.0",
+    "45.79.136.39"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

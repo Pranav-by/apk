@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.coolandroidappzfree.freesudoku
+  SHA-256       : 00A873CC9D444E89029C29CC2D3434238F7FE0F0B21E1608C117E2E6AD9EB3AD
+  Android Group : Android15
+  Version       : 1.051 (code: 1051)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (8)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (22): com.pleaserateus.java.OtherApps, com.googlecode.andoku.BackupRestore, com.googlecode.andoku.MainActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.googlecode.andoku.OpenImportedPuzzleActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.googlecode.andoku.FolderListActivity, com.googlecode.andoku.HelpActivity, com.googlecode.andoku.AndokuActivityPracticeTechnique, com.google.android.gms.ads.AdActivity, com.googlecode.andoku.Main, com.pleaserateus.java.DownloadNewVersion, com.googlecode.andoku.AboutActivity, com.sudokustrategytutorial.tutorial.SudokuStrategy, com.googlecode.andoku.AndokuActivity, com.googlecode.andoku.ResumeGameActivity, com.pleaserateus.java.PleaseRateUs, com.googlecode.andoku.SettingsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.googlecode.andoku.SideMenuActivity
+  Services   (5): com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): com.google.android.gms.ads.MobileAdsInitProvider, com.googlecode.andoku.AndokuContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9934
+  Total Methods : 48485
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://goo.gle/admob-android-update-manifest, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://goo.gle/ad-manager-android-update-manifest., https://developers.google.com/tink/faq/registration_errors, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gle/admob-android-update-manifest.
+  IP Addresses(6): 0.2.0.0, 3.7.32.69, 5.791.3.4, 1.3.4.8, 0.6.0.0, 3.4.893.6
+
+[Certificate]
+  Issuer      : Common Name: Diego Alarcon, Organizational Unit: swanapps, Organization: swanapps, Locality: Malaga, State/Province: Malaga, Country: ES
+  Fingerprint : FC BC 51 17 02 40 8B 08 65 93 98 94 5C 97 0E F4 CC 8D 13 90 87 DF D3 6A D3 8E FC 5C 6B 1E D0 38
+
+==========================================

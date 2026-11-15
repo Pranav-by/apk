@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.appscroy.salmo94
+  SHA-256       : 0065EE5BF6BEE805841AC503A514465CB2478F57B5B63F6CAC56030188E43A8D
+  Android Group : Android13
+  Version       : 1.8 (code: 9)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (17): com.appscroy.salmo94.Principal, com.google.android.gms.ads.OutOfContextTestingActivity, com.appscroy.salmo94.activities.RequestPermissionActivity, com.sangcomz.fishbun.ui.detail.DetailActivity, com.appscroy.salmo94.figurinhas.EntryActivity, com.appscroy.salmo94.activities.AddToStickerPackActivity, com.sangcomz.fishbun.ui.picker.PickerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.appscroy.salmo94.figurinhas.StickerPackDetailsActivity, com.appscroy.salmo94.whatsapp_api.StickerPackInfoActivity, com.appscroy.salmo94.figurinhas.StickerPackInfoActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.appscroy.salmo94.whatsapp_api.StickerPackDetailsActivity, com.appscroy.salmo94.activities.NewStickerPackActivity, com.sangcomz.fishbun.ui.album.AlbumActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.ads.AdActivity
+  Services   (16): androidx.room.MultiInstanceInvalidationService, com.appscroy.salmo94.MyFirebaseMessagingService, com.appscroy.salmo94.dia.MyService_Dia, com.google.firebase.messaging.FirebaseMessagingService, com.appscroy.salmo94.noite.MyService_Noite, com.appscroy.salmo94.dia.Feed_Dia, com.appscroy.salmo94.noite.Feed_Noite, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (14): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.appscroy.salmo94.MyBroadCastReceiver_chama_setBaixar, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.appscroy.salmo94.noite.MyBroadCastReceiver_Noite, com.appscroy.salmo94.dia.MyBroadCastReceiver_Dia, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (7): com.appscroy.salmo94.figurinhas.StickerContentProvider, com.appscroy.salmo94.whatsapp_api.StickerContentProvider2, androidx.core.content.FileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12191
+  Total Methods : 61774
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://play.google.com/store/apps/details?id=, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: luciano croy
+  Fingerprint : 5E 37 9A 1D AC 02 E1 86 75 AB 5F C6 AE 14 AB E3 9E 03 2B 69 8C 0C FC 5D 55 BC E9 F0 32 53 35 DD
+
+==========================================

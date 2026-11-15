@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.blueframetech.rockymountain
+  SHA-256       : 00A9EA914B6C885DB93C3F63567F1A61B08523F22E9896C700F3EC32E5AFB8B6
+  Android Group : Android16
+  Version       : 4.3.1 (code: 310403011)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 36
+
+[Permissions (20)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.AD_SERVICES_CONFIG, android.permission.WAKE_LOCK, com.blueframetech.rockymountain.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (10): com.google.android.tv.ads.controls.FallbackImageActivity, com.blueframetech.bfandroid.ui.activity.PayWallIntermediateActivity, com.blueframetech.bfandroid.ui.activity.Team1SportsGateActivity, com.blueframetech.bfandroid.ui.activity.UserLoginActivity, com.blueframetech.bfandroid.compose.ComposeAppStart, com.blueframetech.bfandroid.ui.activity.PlayerActivity, com.blueframetech.bfandroid.ui.activity.SplashActivity, androidx.compose.ui.tooling.PreviewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.blueframetech.bfandroid.ui.activity.LoginIntermediaActivity
+  Services   (14): androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.blueframetech.bfandroid.services.BFFirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.blueframetech.bfsdk.service.VCloudPlayerService, com.blueframetech.bfsdk.service.BFMediaRouteProviderService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.cast.framework.ReconnectionService
+  Receivers  (14): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.media3.session.MediaButtonReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 39383
+  Total Methods : 209499
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 04 43 88 9A D0 21 31 41 0D 76 62 80 FF 26 78 8D 9F C7 B4 07 86 98 75 E9 E0 98 A2 D8 E6 26 99 F0
+
+==========================================

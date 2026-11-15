@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.languagedrops.drops.learn.learning.speak.language.dutch.words
+  SHA-256       : 00A6B25DC08B45513E12CE575067E47C070FE439F1C7274A8163A50FC44465CD
+  Android Group : Android16
+  Version       : 39.0 (code: 110390004)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (27)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.android.vending.CHECK_LICENSE, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, com.languagedrops.drops.learn.learning.speak.language.dutch.words.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.BILLING, android.permission.RECORD_AUDIO, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_WIFI_STATE, com.languagedrops.drops.learn.learning.speak.language.dutch.words.permission.C2D_MESSAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (28): app.notifee.core.NotificationReceiverActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, io.purchasely.views.PLYActivity, com.languagedrops.drops.international.MainActivity, zendesk.support.guide.HelpCenterActivity, zendesk.support.guide.ViewArticleActivity, zendesk.support.request.RequestActivity, zendesk.support.requestlist.RequestListActivity, com.reactnativepurchasely.PLYSubscriptionsActivity, com.languagedrops.drops.international.wxapi.WXEntryActivity, com.reactnativepurchasely.PLYProductActivity, io.purchasely.views.PLYWebViewActivity, io.purchasely.views.PLYTVLinkActivity, io.purchasely.views.subscriptions.tv.PLYSubscriptionsActivity, com.yalantis.ucrop.UCropActivity, com.iterable.iterableapi.IterableTrampolineActivity, zendesk.messaging.MessagingActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (18): com.doublesymmetry.trackplayer.service.MusicService, com.google.android.gms.ads.AdService, app.notifee.core.ReceiverService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.gms.measurement.AppMeasurementService, app.notifee.core.ForegroundService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.metadata.ModuleDependencies, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.languagedrops.drops.international.FirebaseMessagingServiceProxy
+  Receivers  (23): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, app.notifee.core.BlockStateBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.languagedrops.drops.international.DropsStreakWidget, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.amazon.device.iap.ResponseReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, zendesk.support.DeepLinkingBroadcastReceiver, com.iterable.iterableapi.IterablePushActionReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, app.notifee.core.RebootBroadcastReceiver
+  Providers  (16): io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider, io.sentry.android.core.SentryPerformanceProvider, zendesk.support.SupportSdkStartupProvider, cl.json.RNShareFileProvider, androidx.startup.InitializationProvider, zendesk.support.guide.GuideSdkStartupProvider, com.squareup.picasso.PicassoProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, zendesk.belvedere.BelvedereFileProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, io.sentry.android.core.SentryInitProvider, io.invertase.notifee.NotifeeInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 39803
+  Total Methods : 262536
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(4): 127.0.0.1, 2.10.5.0, 10.0.1.1, 2.9.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6C 7F E3 61 29 FA 55 E5 33 46 33 BC 1E C1 E0 AD 4B 42 BA 9E 42 7D 8B 85 CC 2B B8 8F 21 1F 74 F6
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.lisanali.serial
+  SHA-256       : 00730AAEFC42D3F21F14490A83593F73955D1F56762CB3D2215A32E21F7ADE8F
+  Android Group : Android12
+  Version       : 5.0 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (8)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (10): com.lisanali.serial.JubaActivity, com.lisanali.serial.Home, com.startapp.sdk.ads.list3d.List3DActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.lisanali.serial.MainActivity, com.lisanali.serial.MyPDFViewer, com.startapp.sdk.ads.interstitials.OverlayActivity, com.lisanali.serial.WebBrowser, com.startapp.sdk.adsbase.consent.ConsentActivity
+  Services   (4): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.startapp.sdk.cachedservice.BackgroundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.startapp.sdk.jobs.SchedulerService
+  Receivers  (1): com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (2): com.squareup.picasso.PicassoProvider, com.startapp.sdk.adsbase.StartAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7142
+  Total Methods : 50004
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://www.startapp.com, https://opensource.org/licenses/MIT, https://support.start.io/hc/en-us/articles/360014774799, https://daneden.me/animate, https://www.youtube.com/iframe_api, https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200
+  IP Addresses(2): 127.0.0.1, 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 10 BB 60 46 9C 6A 88 B2 BB 8C 26 76 1D 6B 47 7D 38 8F 9E 59 21 57 04 10 E3 39 DE DE B6 8A 3F 19
+
+==========================================

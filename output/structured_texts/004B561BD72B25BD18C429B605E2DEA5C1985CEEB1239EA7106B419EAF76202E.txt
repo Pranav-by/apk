@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.Slack
+  SHA-256       : 004B561BD72B25BD18C429B605E2DEA5C1985CEEB1239EA7106B419EAF76202E
+  Android Group : Android14
+  Version       : 24.05.50.0 (code: 90013201)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 34
+
+[Permissions (31)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_BIOMETRIC, com.Slack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT, android.permission.RECORD_AUDIO, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (157): slack.features.findyourteams.addworkspaces.emailconfirmationinfo.EmailConfirmationInfoActivity, slack.features.findyourteams.addworkspaces.pickemail.PickEmailForCreateActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.jakewharton.processphoenix.PhoenixActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, slack.services.appupgrade.AppUpgradeTakeoverActivity, slack.browser.control.PromptUserToDownloadBrowserActivity, slack.features.bettersnooze.BetterSnoozeActivity, slack.libraries.circuit.UnAuthedCircuitActivity, slack.libraries.circuit.AuthedCircuitActivity, slack.features.findyourteams.addworkspaces.pickemail.PickEmailForJoinActivity, slack.services.debugmenu.impl.logviewer.LogViewerActivity, slack.features.findyourteams.addworkspaces.pickworkspace.PickWorkspaceActivity, slack.services.debugmenu.impl.prefs.PreferencesViewerActivity, slack.features.findyourteams.escapehatch.EscapeHatchActivity, slack.services.debugmenu.impl.meettheteam.MeetTheTeamActivity, slack.app.ui.ClientBootActivity, slack.services.debugmenu.impl.userscope.WorkerStatusActivity
+  Services   (20): com.jakewharton.processphoenix.PhoenixService, com.google.android.play.core.assetpacks.AssetPackExtractionService, slack.app.mgr.UserPrefsIntentService, androidx.camera.core.impl.MetadataHolderService, slack.app.chooser.ShareChooserTargetService, androidx.work.impl.foreground.SystemForegroundService, slack.features.huddles.minimized.HuddleMinimizedPlayerActionsService, slack.services.profile.upload.UploadAvatarIntentService, slack.services.notifications.push.impl.SlackFirebaseMessagingService, slack.services.huddles.service.impl.HuddleServiceImpl, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, slack.services.notifications.push.impl.NotificationActionIntentService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (18): slack.browser.chrome.ChromeTabBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, slack.app.buildconfig.BenchmarkReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, slack.app.AppUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, slack.features.rootdetection.receiver.RootDetectionBootReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, slack.services.notifications.push.impl.bubbles.ConversationBubbleDeletedReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, slack.services.calls.push.huddleinvite.HuddleResponseBroadcastReceiver, slack.services.notifications.push.impl.NotificationDismissReceiver
+  Providers  (6): com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, slack.features.huddles.debug.HuddleFileProvider, com.bugsnag.android.internal.BugsnagContentProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 61445
+  Total Methods : 236401
+
+[Sensitive API Indicators]
+  SMS Send          : YES
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://goo.gle/compose-feedback, https://developers.google.com/tink/faq/registration_errors, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 33 53 36 19 75 6E 87 01 A8 2E 78 87 56 5B 15 2D C3 48 18 87 11 EB B5 C4 8D 07 3B 2C 94 2F 7E 41
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : jp.co.kodansha.comicdays
+  SHA-256       : 00A7BC71AD732DD40CFC5DB693836466CD8C7B160720D8C82CF62CA64C4F777F
+  Android Group : Android15
+  Version       : 4.53 (code: 40530000)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (19)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, jp.co.kodansha.comicdays.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.samsung.android.mapsagent.permission.READ_APP_INFO, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (66): com.google.android.gms.tagmanager.TagManagerPreviewActivity, com.bytedance.sdk.openadsdk.activity.TTCeilingLandingPageActivity, com.goodpatch.comicdays.presentation.launch.view.LaunchActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.goodpatch.comicdays.presentation.top.view.TopActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.android.billingclient.api.ProxyBillingActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity
+  Services   (14): com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, jp.co.kodansha.comicdays.feature.notification.ComicDaysFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.tagmanager.TagManagerService
+  Receivers  (12): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (7): androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 69207
+  Total Methods : 332237
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Country: JP
+  Fingerprint : 9C 3D 33 6E FB 07 56 B8 1E 0C 34 AE 06 51 32 D1 AC 53 60 3C 76 74 EE 6B FB 4B D3 2C 1C C2 87 C4
+
+==========================================

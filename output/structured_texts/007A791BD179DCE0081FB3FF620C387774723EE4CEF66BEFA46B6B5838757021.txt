@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.makane.softpiesa
+  SHA-256       : 007A791BD179DCE0081FB3FF620C387774723EE4CEF66BEFA46B6B5838757021
+  Android Group : Android12
+  Version       : 2.2.3 (code: 259)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (14)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.VIBRATE, android.permission.FLASHLIGHT, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (21): company.tap.gosellapi.internal.activities.GoSellCardAddressActivity, com.myfatoorah.sdk.views.MFSDKMainActivity, company.tap.gosellapi.internal.activities.CountriesActivity, company.tap.gosellapi.internal.activities.WebPaymentActivity, com.mawdoo3.storefrontapp.ui.AppActivity, com.urway.paymentlib.Checkout, com.mawdoo3.storefrontapp.ui.StartActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.mawdoo3.storefrontapp.fashion.FashionAppActivity, com.google.android.gms.common.api.GoogleApiActivity, com.mawdoo3.storefrontapp.paymentSDKs.OnlinePaymentActivity, com.payment.paymentsdk.PaymentSdkActivity, company.tap.gosellapi.internal.activities.GoSellPaymentActivity, com.paytabs.paytabscardrecognizer.cards.pay.paycardsrecognizer.sdk.ui.ScanCardActivity, company.tap.gosellapi.internal.activities.CurrenciesActivity, com.urway.paymentlib.Main_PG, company.tap.gosellapi.internal.activities.BaseActionBarActivity, company.tap.gosellapi.internal.activities.AsynchronousPaymentActivity, io.card.payment.DataEntryActivity, io.card.payment.CardIOActivity
+  Services   (8): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.mawdoo3.storefrontapp.services.AppMessagingService, com.oppwa.mobile.connect.service.ConnectService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 15133
+  Total Methods : 72877
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 255.255.255.255, 201.201.10.10
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D3 5C 1D BB 93 DF 02 53 4C EE 35 99 0A D5 99 31 6F E5 06 9D EC 59 EF 0C 3A E7 01 59 AD 20 A3 6E
+
+==========================================

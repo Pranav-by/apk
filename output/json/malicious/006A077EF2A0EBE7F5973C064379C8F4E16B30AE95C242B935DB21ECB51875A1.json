@@ -1,0 +1,49 @@
+{
+  "sha256": "006A077EF2A0EBE7F5973C064379C8F4E16B30AE95C242B935DB21ECB51875A1",
+  "filename": "006A077EF2A0EBE7F5973C064379C8F4E16B30AE95C242B935DB21ECB51875A1.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "org.traveltoapps.burma.travel",
+  "version_name": "1.10",
+  "version_code": "3",
+  "min_sdk": "19",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 3,
+  "activities": [
+    "com.keyes.youtube.OpenYouTubePlayerActivity",
+    "org.traveltoapps.burma.travel.MainActivity",
+    "org.traveltoapps.burma.travel.SelectLanguage"
+  ],
+  "activity_count": 3,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4606,
+  "method_count": 33285,
+  "cert_fingerprint": "B6 9C 7B 33 64 8F CC 33 71 C7 59 3C A0 D4 9A AA B1 A7 B8 F1 4C AC DC EF F6 6E 7B 6F 3F 99 45 20",
+  "cert_issuer": "Common Name: Lanie Norman, Organizational Unit: NA, Organization: NA, Locality: Dallas, State/Province: TX, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

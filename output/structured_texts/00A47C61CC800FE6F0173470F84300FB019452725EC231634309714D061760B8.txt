@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : club.miracles.app
+  SHA-256       : 00A47C61CC800FE6F0173470F84300FB019452725EC231634309714D061760B8
+  Android Group : Android12
+  Version       : 1.0.61 (code: 61)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.CAMERA, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.INTERNET, android.permission.USE_FULL_SCREEN_INTENT, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (10): com.facebook.CustomTabMainActivity, com.google.android.gms.common.api.GoogleApiActivity, club.miracles.app.MainActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.yalantis.ucrop.UCropActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.CustomTabActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.facebook.FacebookActivity
+  Services   (13): com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.yandex.metrica.ConfigurationJobService, com.yandex.metrica.MetricaService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.measurement.AppMeasurementJobService, com.yandex.metrica.ConfigurationService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (9): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.yandex.metrica.MetricaEventHandler, com.yandex.metrica.ConfigurationServiceReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+  Providers  (5): com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9303
+  Total Methods : 52046
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://goo.gl/J1sWQy, https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/, https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 62 E6 D5 E0 7A B5 E1 1B 61 CA 1F 07 A8 D8 E0 05 67 56 42 D0 DD A7 89 24 4A 17 F5 CB 42 A8 31 C7
+
+==========================================

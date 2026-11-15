@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.food.match3d.puzzle
+  SHA-256       : 0061051C907E694670B9720F317F474F769FF8AB96D78433900D026EF8371F45
+  Android Group : Android12
+  Version       : 1.3 (code: 24)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (14)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.PACKAGE_USAGE_STATS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.GET_TASKS, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (55): com.adcolony.sdk.AdColonyInterstitialActivity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity, com.appluck.sdk.activity.AppLuckPreLoadWebViewActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.unity3d.player.UnityPlayerActivity, com.chartboost.sdk.CBImpressionActivity, com.spin.ok.gp.activity.WebActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity
+  Services   (11): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.ads.AdService, com.google.android.gms.auth.api.signin.RevocationBoundService, cn.thinkingdata.android.TDQuitSafelyService$TDKeepAliveService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.spin.ok.gp.service.SpinService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, cn.thinkingdata.android.TDReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.adjust.sdk.AdjustReferrerReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.spin.ok.gp.receiver.SpinReceiver
+  Providers  (8): com.spin.ok.gp.utils.provider.OkSpinProvider, com.squareup.picasso.PicassoProvider, com.vungle.warren.utility.VungleProvider, com.growingio.android.sdk.collection.GrowingIOSettingsProvider, androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 32705
+  Total Methods : 202590
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(6): 16.2.11.0, 2.8.0.2, 10.0.9.0, 4.5.0.7, 21.1.0.2, 203.107.1.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F5 7A 3E D2 D4 9A 7B 20 D9 94 FB 8E 5B 90 94 85 95 01 BA E7 72 1C A7 59 0C 15 99 26 1A 13 4E DA
+
+==========================================

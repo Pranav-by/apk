@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tanaqua.battle
+  SHA-256       : 00A6E6AFEE09E44A3E07ECB3157E998F758DE41863B22BCBE072B141993AAC3D
+  Android Group : Android12
+  Version       : 1.2.3 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_MEDIA_STORAGE
+
+[Application Components]
+  Activities (99): com.mbridge.msdk.activity.MBCommonActivity, com.facebook.CustomTabActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.applovin.adview.AppLovinFullscreenActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.applovin.mediation.MaxDebuggerActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, parameterConsForwarding.associatedLocal.prComBit.hwyfrsjbng, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, jwycopuwevfjseryqmdlo.yvakagnqiafulrfvlfvwj.qbpngkfwggfnufdgqqdmc.fjcvsklclzzzsamsdrk.GzHnkONRuGaYpYMLrKLMWGIFbwbzlgOLmPkMQzJyj, jwycopuwevfjseryqmdlo.yvakagnqiafulrfvlfvwj.qbpngkfwggfnufdgqqdmc.fjcvsklclzzzsamsdrk.OBIWXSBDqXTQJZABFzxTGbtKCUllYIEXoyEHBudcp, jwycopuwevfjseryqmdlo.yvakagnqiafulrfvlfvwj.qbpngkfwggfnufdgqqdmc.fjcvsklclzzzsamsdrk.YOLPIMbZBzz, jwycopuwevfjseryqmdlo.yvakagnqiafulrfvlfvwj.qbpngkfwggfnufdgqqdmc.fjcvsklclzzzsamsdrk.IwOSJMFEkrDIVFqAI, com.mbridge.msdk.out.LoadingActivity
+  Services   (20): com.google.android.gms.ads.AdService, eaz.hkmdzahpzfqyhdrtfhjam.dxfjyawvzidceplkwgovw.cvfcgwrsanfgbzgaapilg.eqpaajhebqhsujzgabfl.DtkOFFYGZJCXDIZaIEcqEsZMh, parameterConsForwarding.immPrePar.streamSiClone.asleaydh.cigzcysdpv, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.nearby.exposurenotification.WakeUpService, parameterConsForwarding.associatedLocal.buildBe.tv5gji2, com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.applovin.impl.adview.activity.FullscreenAdService, parameterConsForwarding.associatedLocal.prComBit.ima9w, eaz.hkmdzahpzfqyhdrtfhjam.dxfjyawvzidceplkwgovw.cvfcgwrsanfgbzgaapilg.eqpaajhebqhsujzgabfl.OKElZkkJBPEVLOGjqgkHjnqnGHrXioGkPEBQsAwba, eaz.hkmdzahpzfqyhdrtfhjam.dxfjyawvzidceplkwgovw.cvfcgwrsanfgbzgaapilg.eqpaajhebqhsujzgabfl.OrooIdLEBVnTyCOIUjAybxxZpkByEAoJDQnDdaALX, eaz.hkmdzahpzfqyhdrtfhjam.dxfjyawvzidceplkwgovw.cvfcgwrsanfgbzgaapilg.eqpaajhebqhsujzgabfl.QDxUN, eaz.hkmdzahpzfqyhdrtfhjam.dxfjyawvzidceplkwgovw.cvfcgwrsanfgbzgaapilg.eqpaajhebqhsujzgabfl.Lyo, eaz.hkmdzahpzfqyhdrtfhjam.dxfjyawvzidceplkwgovw.cvfcgwrsanfgbzgaapilg.eqpaajhebqhsujzgabfl.XvNFJBCNvemsEBAUJWUAcZkfHDlAJwpfEVvywIes, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, sgcalk.a.ep.bwjcztbrytfylfmqcbjyh.NaocuhBGvKH, sgcalk.a.ep.bwjcztbrytfylfmqcbjyh.UDXHCDGGGlHOKdkMRcChMpGpHrgnZRrFkfxSTHKOu, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService
+  Receivers  (2): com.google.android.gms.analytics.AnalyticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (9): com.squareup.picasso.PicassoProvider, com.applovin.sdk.AppLovinInitProvider, parameterConsForwarding.associatedLocal.knyukm.lwbigqv.jnmbws7ue, com.facebook.ads.AudienceNetworkContentProvider, androidx.core.content.FileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 34224
+  Total Methods : 203434
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(9): 16.2.21.0, 8.1.5.1, 4.3.0.0, 21.1.0.2, 10.0.9.1, 4.5.0.7, 9.0.0.1, 6.11.0.5, 21.1.0.3
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6F 39 44 6A CA 0F 75 E7 6D ED 74 AD FF C6 8B F5 92 23 C4 78 BE BB C4 0A 59 59 DD DD C6 EC C2 E4
+
+==========================================

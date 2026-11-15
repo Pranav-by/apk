@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ninjakiwi.bloonstdbattles
+  SHA-256       : 00AF20272324BF98652A61E3A5FECA4D208ED77BF98A85F861B7C050D0C1FFA4
+  Android Group : Android16
+  Version       : 6.24 (code: 1012171)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 36
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, com.ninjakiwi.bloonstdbattles.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (53): com.ninjakiwi.MainActivityGradle, com.ironsource.sdk.controller.InterstitialActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.chartboost.sdk.view.CBImpressionActivity, com.ironsource.sdk.controller.ControllerActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.chartboost.sdk.internal.clickthrough.EmbeddedBrowserActivity, com.android.billingclient.api.ProxyBillingActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.vungle.ads.internal.ui.VungleActivity, com.tapjoy.TJAdUnitActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.creative.MaxCreativeDebuggerActivity
+  Services   (15): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.sessions.SessionLifecycleService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (15): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (9): com.vungle.ads.VungleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 47721
+  Total Methods : 307909
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: Ninja Kiwi, Locality: Dundee, State/Province: Scotland, Country: GB
+  Fingerprint : 8F 8B 6A D1 33 0A F7 C8 2F 14 3E 99 18 87 5B 6C A9 64 42 51 5E 8E A9 0A 6F DD AE 1F 75 95 B4 DF
+
+==========================================

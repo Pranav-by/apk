@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.carbonfarmingacademy.app
+  SHA-256       : 00356337B63EC7EEBD8E1446A0148E159DEE88319D408232720FB8C0D60977EB
+  Android Group : Android14
+  Version       : 1.4 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (2)]
+  android.permission.WRITE_EXTERNAL_STORAGE, android.permission.INTERNET
+
+[Application Components]
+  Activities (1): com.carbonfarmingacademy.app.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4526
+  Total Methods : 32039
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 06 79 98 36 39 EE D6 34 DA 9F EB 66 F8 D7 FA 5C 82 60 8B 47 F4 94 7A 0C 3D 64 83 0F F3 E3 0D 52
+
+==========================================

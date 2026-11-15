@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : applore.device.manager
+  SHA-256       : 00C00EB7A374C7491D47294BCEE6EEE1C9B5F9F269B8E15932DA141C318DD0BA
+  Android Group : Android15
+  Version       : 3.0.74 (code: 3074)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (55)]
+  android.permission.INTERNAL_SYSTEM_WINDOW, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, applore.device.manager.PERMISSON_MANAGE_OVERLAY, android.permission.START_ACTIVITIES_FROM_BACKGROUND, android.permission.GET_TASKS, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SYNC_SETTINGS, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH
+
+[Application Components]
+  Activities (139): applore.device.manager.activity.CustomizeDashboardActivity, applore.device.manager.ui.ear_speaker.EarSpeakerActivity, applore.device.manager.activity.VaultLockedGallery, applore.device.manager.ui.ear_proximity.EarProximityActivity, applore.device.manager.activity.GalleryActivity, applore.device.manager.ui.vibrate.VibrateTestActivity, applore.device.manager.activity.VaultActivity, applore.device.manager.ui.light_sensor.LightSensorActivity, applore.device.manager.activity.AdvanceLockActivity, applore.device.manager.activity.VideoPlayerActivity, applore.device.manager.activity.VaultShareFileLock, applore.device.manager.activity.ShareZipCreateActivity, applore.device.manager.activity.PrivateNotificationActivity, applore.device.manager.activity.SafetyNetActivity, applore.device.manager.applock.ForgotPasswordActivity, applore.device.manager.activity.SuspeciousAppsActivity, applore.device.manager.activity.ContactsImportExportActivity, applore.device.manager.ui.walkthroughs.WalkthroughActivity, applore.device.manager.activity.LockedAppListActivity, applore.device.manager.applock.CreatePasswordActivity
+  Services   (26): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, applore.device.manager.service.HUDAppStat, androidx.room.MultiInstanceInvalidationService, applore.device.manager.passmanager.autofill.MyAutofillService, applore.device.manager.service.CleanerService, androidx.credentials.playservices.CredentialProviderMetadataHolder, applore.device.manager.audioplayer.MediaPlayerService, applore.device.manager.fcm.MyFirebaseMessagingService, applore.device.manager.fcm.MyNotificationListenerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, applore.device.manager.filemanager.search.SearchService, applore.device.manager.applock.MyAccessibilityService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService
+  Receivers  (22): com.google.firebase.iid.FirebaseInstanceIdReceiver, applore.device.manager.receiver.ManageOverlayReceiver, applore.device.manager.receiver.RestartAppReceiver, applore.device.manager.service.NewFilesAddedService, applore.device.manager.receiver.BootCompleteReceiver, applore.device.manager.receiver.WhatAppsFileReceiver, applore.device.manager.receiver.DuplicateFileReceiver, applore.device.manager.receiver.MemoryLowReceiver, applore.device.manager.applock.AlarmReceiver, applore.device.manager.receiver.NewAppInstalledReceiver, applore.device.manager.admin.AdminReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (7): applore.device.manager.filemanager.search.SearchResultsProvider, applore.device.manager.filemanager.search.SearchSuggestionsProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, applore.device.manager.utils.appusage.provider.AppUsageProvider, androidx.core.content.FileProvider, applore.device.manager.filemanager.search.RecentsSuggestionsProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 34150
+  Total Methods : 219038
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://play.google.com/store/apps/details?id=, https://play.google.com/store/apps/details?id=applore.device.manager
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Country: IN
+  Fingerprint : 3B 61 C2 A8 2A FF 9F 76 52 FF E0 B0 4B E3 C8 F2 48 B5 E1 AA 70 63 F1 A3 84 6F 0C F5 C7 78 62 8A
+
+==========================================

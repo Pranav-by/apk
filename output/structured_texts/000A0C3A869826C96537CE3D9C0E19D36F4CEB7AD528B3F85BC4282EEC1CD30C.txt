@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.iwebpixel.trumpetsoundeffect
+  SHA-256       : 000A0C3A869826C96537CE3D9C0E19D36F4CEB7AD528B3F85BC4282EEC1CD30C
+  Android Group : Android13
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (17)]
+  com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.READ_CONTACTS, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITEN_SETTIGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.WRITE_SECURE_SETTINGS, android.permission.CHANGE_CONFIGURATION, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_SETTINGS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WRITE_CONTACTS
+
+[Application Components]
+  Activities (19): com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.applovin.adview.AppLovinFullscreenActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.iwebpixel.trumpetsoundeffect.ActivityHome, com.iwebpixel.trumpetsoundeffect.ActivitySplash, com.iwebpixel.trumpetsoundeffect.ActivityMain, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.vungle.warren.ui.VungleActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.google.android.gms.ads.AdActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity
+  Services   (8): androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.example.jean.jcplayer.service.JcPlayerService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.ads.AdService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (6): androidx.startup.InitializationProvider, com.vungle.warren.utility.VungleProvider, com.applovin.sdk.AppLovinInitProvider, androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17483
+  Total Methods : 105581
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 6.12.1.0, 21.4.0.1, 10.1.2.4, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 22 FF 1E E6 D5 D4 5A BD 9C 5F 81 CE AA 7F 97 AE AE E4 2D 64 F9 AF AF 78 31 25 09 7D E3 CE 19 70
+
+==========================================

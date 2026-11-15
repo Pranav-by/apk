@@ -1,0 +1,85 @@
+{
+  "sha256": "006AB5F3595659A0B8EA25E7B638C3EC0109F5EB84BECF9ADA47B2E1E6149DCE",
+  "filename": "006AB5F3595659A0B8EA25E7B638C3EC0109F5EB84BECF9ADA47B2E1E6149DCE.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.hlcsdev.x.notepad",
+  "version_name": "2.9.9",
+  "version_code": "141",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "com.android.vending.BILLING",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity",
+    "com.hlcsdev.x.notepad.ui.activity.share.ShareIntentActivity",
+    "com.yandex.mobile.ads.common.AdActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.hlcsdev.x.notepad.ui.activity.main.ActivityMain",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.hlcsdev.x.notepad.ui.activity.ActivityError"
+  ],
+  "activity_count": 10,
+  "services": [
+    "com.yandex.metrica.MetricaService",
+    "com.yandex.metrica.ConfigurationService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.yandex.metrica.ConfigurationJobService"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.yandex.metrica.PreloadInfoContentProvider",
+    "com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 11934,
+  "method_count": 54430,
+  "cert_fingerprint": "24 CC E3 22 23 30 76 26 12 2D 1F C3 9C B8 DC 84 D6 33 DD CA 65 DE 66 33 70 9B 5E 39 1A A6 4F CA",
+  "cert_issuer": "Common Name: Roma",
+  "urls": [
+    "https://yandex.com/dev/appmetrica/doc/mobile-sdk-dg/concepts/android-initialize.html"
+  ],
+  "ip_addresses": [
+    "4.0.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

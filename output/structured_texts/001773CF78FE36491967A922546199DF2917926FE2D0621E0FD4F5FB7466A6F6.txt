@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.levinew.app
+  SHA-256       : 001773CF78FE36491967A922546199DF2917926FE2D0621E0FD4F5FB7466A6F6
+  Android Group : Android14
+  Version       : 11.8.2 (code: 110802)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (6)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_FINE_LOCATION, android.permission.READ_PHONE_STATE, com.levinew.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): com.levinew.app.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4517
+  Total Methods : 32620
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 15 92 AB EA A5 07 24 94 6D B0 D4 1A CA 9D 55 0C 8F 63 8E 43 0E 25 27 E8 88 B1 EF CA B1 EC 39 0C
+
+==========================================

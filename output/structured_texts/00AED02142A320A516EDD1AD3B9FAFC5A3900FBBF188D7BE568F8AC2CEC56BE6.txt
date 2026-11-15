@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.togetherontheroadteam.neverhaveiever
+  SHA-256       : 00AED02142A320A516EDD1AD3B9FAFC5A3900FBBF188D7BE568F8AC2CEC56BE6
+  Android Group : Android14
+  Version       : 2.0.0 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (6)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (16): com.facebook.unity.FBUnityDialogsActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.android.billingclient.api.ProxyBillingActivity, spacemadness.com.lunarconsole.settings.PluginSettingsActivity, com.facebook.unity.FBUnityLoginActivity, com.facebook.unity.FBUnityGameRequestActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.unity3d.player.UnityPlayerActivity, com.facebook.CustomTabActivity, com.facebook.unity.FBUnityDeepLinkingActivity, com.facebook.CustomTabMainActivity, com.facebook.unity.FBUnityAppLinkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.facebook.unity.FBUnityGamingServicesFriendFinderActivity
+  Services   (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.amazon.device.iap.ResponseReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (4): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.FacebookContentProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12391
+  Total Methods : 82627
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(2): 2.9.0.0, 2.10.1.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DB E0 C5 1B 0D DE DB 28 A1 72 18 E9 38 CE 6C E8 70 1C 61 FF E7 9D 10 53 4B F6 79 DA 24 DC 29 05
+
+==========================================

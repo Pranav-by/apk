@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nabilsaadi.liverpoolplayersquiz
+  SHA-256       : 00A3B0FCFD754A94327FC8692D5CAF7905AB1B6A1D2F118B554A08E6DF31307B
+  Android Group : Android12
+  Version       : 9.17.3z (code: 17)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (49): com.tapjoy.TJAdUnitActivity, com.facebook.CustomTabActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.vvteam.gamemachine.ui.activities.GemsActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.google.android.gms.ads.AdActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.tapjoy.mraid.view.ActionHandler, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.pollfish.internal.PollfishOverlayActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.ads.AudienceNetworkActivity, com.ironsource.sdk.controller.ControllerActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, com.applovin.adview.AppLovinFullscreenActivity
+  Services   (21): com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.installtracker.TrackingSendService, com.google.android.gms.analytics.CampaignTrackingService, com.vvteam.gamemachine.push.QANFirebaseMessagingService, com.google.android.gms.analytics.AnalyticsService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (21): com.vvteam.gamemachine.analytics.CustomReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.startapp.android.publish.common.metaData.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.vvteam.gamemachine.external.Scheduler$AlarmManagerBroadcastReceiver, com.vvteam.gamemachine.push.local.ContestNotificationReceiver, com.vvteam.gamemachine.external.GemsLoginReceiver, com.vvteam.gamemachine.push.local.HintNotificationReceiver, com.vvteam.gamemachine.push.local.ContestLevelsNotificationReceiver, com.vvteam.gamemachine.push.local.ContestStartNotificationReceiver
+  Providers  (13): com.vungle.warren.utility.VungleProvider, androidx.startup.InitializationProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.internal.FacebookInitProvider, com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider, com.my.target.common.MyTargetContentProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 38548
+  Total Methods : 224968
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(10): 0.9.0.2, 8.1.5.1, 4.8.0.2, 12.10.0.2, 7.2.4.0, 9.0.0.1, 6.11.0.5, 16.2.21.0, 127.0.0.1, 5.15.1.7
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 13 9D 77 2E D5 2E 74 BC E6 B6 D3 9B 83 17 91 40 CB 8F 93 B2 2A C1 CB FB DE 97 C4 A5 AF AB 4C FA
+
+==========================================

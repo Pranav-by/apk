@@ -1,0 +1,75 @@
+{
+  "sha256": "00BA95CE725DFBAB82E3B0785A2D3935697BB08E1607391BAD82438E4EF9267E",
+  "filename": "00BA95CE725DFBAB82E3B0785A2D3935697BB08E1607391BAD82438E4EF9267E.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "com.garzotto.pflotsh.superhd_a",
+  "version_name": "3.7.11",
+  "version_code": "58",
+  "min_sdk": "23",
+  "target_sdk": "36",
+  "permissions": [
+    "com.garzotto.pflotsh.superhd_a.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.garzotto.pflotsh.library_a.SearchActivity",
+    "com.garzotto.pflotsh.superhd_a.DailyWidgetConfigureActivity",
+    "com.garzotto.pflotsh.library_a.SettingsActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.android.billingclient.api.ProxyBillingActivityV2",
+    "com.garzotto.pflotsh.library_a.ParameterExpandableListViewActivity",
+    "com.garzotto.pflotsh.superhd_a.MainActivity",
+    "com.garzotto.pflotsh.library_a.FavoritesActivity",
+    "com.garzotto.pflotsh.library_a.summary.SummaryActivity",
+    "com.garzotto.pflotsh.library_a.StormDetailActivity",
+    "com.garzotto.pflotsh.library_a.MapsActivity",
+    "com.garzotto.pflotsh.superhd_a.WeeklyWidgetConfigureActivity"
+  ],
+  "activity_count": 13,
+  "services": [
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.garzotto.pflotsh.superhd_a.WidgetService"
+  ],
+  "service_count": 3,
+  "receivers": [
+    "com.garzotto.pflotsh.superhd_a.SuperHDWidget",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "com.garzotto.pflotsh.superhd_a.SuperHDDailyWidget"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5266,
+  "method_count": 32352,
+  "cert_fingerprint": "62 74 FA D4 12 5B 63 81 FB 69 4C 03 D5 1F 82 A6 20 2B 97 CD DC AE B7 10 46 29 D6 AF F3 E9 D0 DF",
+  "cert_issuer": "Common Name: Robert Salzer, Organizational Unit: Andreas Garzotto GmbH, Organization: Andreas Garzotto GmbH, Locality: Winterthur, State/Province: Z\u00fcrich, Country: CH",
+  "urls": [
+    "https://crbug.com/388824130"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

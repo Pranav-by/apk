@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : assamboardbooks.com
+  SHA-256       : 00A511A1F30C698FBB3262565832C6DFDB7B6622C0FB77E229AB280BE64931F8
+  Android Group : Android16
+  Version       : 0.4 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 36
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, assamboardbooks.com.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (138): com.payment.activity.PMTPremiumListActivity, letest.ncertbooks.MCQActivity, com.login.activity.ProfileActivity, letest.ncertbooks.activity.SectionClassActivity, com.login.activity.LibLoginUserDeleteActivity, letest.ncertbooks.NewSubjectsActivity, com.login.activity.LibLoginUserDataActivity, letest.ncertbooks.activity.PDFDownloadActivity, com.login.activity.LibLoginResultLoginActivity, letest.ncertbooks.HomeDashboard, com.login.activity.LibLoginMobileVerifyActivity, letest.ncertbooks.activity.SectionClassDynamicActivity, com.login.activity.LibLoginResultStateLoginUserDetails, letest.ncertbooks.SubjectsActivity, com.login.activity.LibLoginResultStateLogin, letest.ncertbooks.activity.SubjectDymaicallyWiseDataActivity, com.login.activity.LoginMobileActivity, com.login.activity.AnonymousAuthActivity, letest.ncertbooks.activity.NotificationListActivity, com.firebase.ui.auth.KickoffActivity
+  Services   (14): com.config.network.NetworkSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.notification.ConfigFirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (7): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (9): com.config.ConfigProvider, com.firebase.ui.auth.data.client.AuthUiInitProvider, com.canhub.cropper.CropFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 28086
+  Total Methods : 152386
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://goo.gle/admob-android-update-manifest, https://goo.gle/admob-android-update-manifest., https://goo.gle/ad-manager-android-update-manifest., http://play.google.com/store/apps/details?id=
+  IP Addresses(3): 127.0.0.1, 0.0.0.0, 6.20.0.2
+
+[Certificate]
+  Issuer      : Common Name: Books, Organizational Unit: NCERT, Organization: STUDY, Locality: NEW DELHI, State/Province: DELHI, Country: IN
+  Fingerprint : 83 B2 E1 08 50 B6 0D A3 B5 69 BD AD 2D 15 53 58 4E 7C 45 51 45 B3 1A 22 0A B1 B1 1E 39 E0 BA 1A
+
+==========================================

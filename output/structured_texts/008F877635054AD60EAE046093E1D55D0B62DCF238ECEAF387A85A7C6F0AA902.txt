@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.oRrW.dhHHG.vaRYET
+  SHA-256       : 008F877635054AD60EAE046093E1D55D0B62DCF238ECEAF387A85A7C6F0AA902
+  Android Group : Android13
+  Version       : 1.0.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (5)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.h774bCUr.srzF4cHM.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (177): com.h774bCUr.srzF4cHM.aFEk6eS2.y2LOdkHJ.bcsob1.Gxrsa0Activity, com.h774bCUr.srzF4cHM.aFEk6eS2.y2LOdkHJ.bcsob1.Xudqb1Activity, leNLJpDK.dsvnc2.Tpnwb1Activity, com.h774bCUr.srzF4cHM.aFEk6eS2.y2LOdkHJ.bcsob1.Mdmyc2Activity, leNLJpDK.dsvnc2.Okitc2Activity, leNLJpDK.wrhkd3.Fqmta0Activity, com.h774bCUr.srzF4cHM.aFEk6eS2.y2LOdkHJ.pckhc2.Dfdpa0Activity, com.h774bCUr.srzF4cHM.dfzea0.Fdnya0Activity, leNLJpDK.wrhkd3.Qsxyb1Activity, com.h774bCUr.srzF4cHM.aFEk6eS2.y2LOdkHJ.pckhc2.Xdalb1Activity, com.h774bCUr.srzF4cHM.aFEk6eS2.htzxc2.Ihpdc2Activity, leNLJpDK.wrhkd3.Viqyc2Activity, com.h774bCUr.srzF4cHM.aFEk6eS2.y2LOdkHJ.pckhc2.Ghowc2Activity, com.zcsya0.Svsqa0Activity, com.zcsya0.Jjbsb1Activity, com.zcsya0.Aprkc2Activity, com.h774bCUr.srzF4cHM.lWKoviSK.exfjc2.Lwyab1Activity, com.h774bCUr.srzF4cHM.aFEk6eS2.y2LOdkHJ.bvayd3.Bwfpa0Activity, com.mpelb1.Cdrwa0Activity, com.h774bCUr.srzF4cHM.aFEk6eS2.y2LOdkHJ.bvayd3.Mznwb1Activity
+  Services   (4): androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (2): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3211
+  Total Methods : 20506
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DA 52 E6 06 44 C3 FF 41 43 5A 67 4B AB 2C 17 C1 FA 89 22 AA E6 96 58 74 EB D3 5C 93 F6 E1 7B 59
+
+==========================================

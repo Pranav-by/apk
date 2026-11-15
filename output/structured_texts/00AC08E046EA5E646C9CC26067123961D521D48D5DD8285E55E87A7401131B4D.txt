@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.adityatechnologies.truebite
+  SHA-256       : 00AC08E046EA5E646C9CC26067123961D521D48D5DD8285E55E87A7401131B4D
+  Android Group : Android15
+  Version       : 1.0.1 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (10)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.hardware.camera.flash, com.adityatechnologies.truebite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (3): com.yalantis.ucrop.UCropActivity, com.pairip.licensecheck.LicenseActivity, com.adityatechnologies.truebite.MainActivity
+  Services   (1): com.google.android.gms.metadata.ModuleDependencies
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): com.pairip.licensecheck.LicenseContentProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1778
+  Total Methods : 9182
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://issuetracker.google.com/issues/241760537, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C7 BE 11 20 98 39 78 00 A4 47 95 67 DC CB 59 29 7F E8 A0 29 FD CD 05 71 34 62 CF AD 5E 2C 76 1D
+
+==========================================

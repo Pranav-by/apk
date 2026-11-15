@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : screenrecorder.recorder.editor
+  SHA-256       : 00A652CB4099BAFAA21853B4859C0A618C23C6244450D9CA71C77017298F259D
+  Android Group : Android13
+  Version       : 7.1.5.2 (code: 192)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (26)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (188): com.xvideostudio.videoeditor.activity.AiNoiseActivity, com.xvideostudio.videoeditor.activity.TrimFastViewActivity, com.xvideostudio.videoeditor.activity.AiNoiseAdjustActivity, com.xvideostudio.videoeditor.activity.HomeOpenUrlActivity, com.xvideostudio.videoeditor.activity.TrimMultiClipPreviewActivity, com.xvideostudio.videoeditor.activity.MaterialMusicActivityImpl, com.xvideostudio.videoeditor.activity.transition.VideoTransitionEffectActivity, com.xvideostudio.videoeditor.activity.filter.MaterialFilterEffectActivity, com.xvideostudio.videoeditor.activity.CameraPermissionActivity, com.xvideostudio.videoeditor.activity.MarketUrlRedirectActivity, com.xvideostudio.videoeditor.activity.VidCompactInstallDialogActivity, com.xvideostudio.videoeditor.activity.CameraActivity, com.xvideostudio.videoeditor.activity.ChooseLocalFontActivity, com.xvideostudio.videoeditor.activity.OperationManagerActivity, com.xvideostudio.videoeditor.activity.AdProgressActivity, com.xvideostudio.videoeditor.activity.FullScreenExportToolsActivity, com.xvideostudio.videoeditor.activity.ThemeVideoPriviewDialogActivity, com.xvideostudio.videoeditor.activity.FullScreenExportActivity, com.xvideostudio.videoeditor.activity.TrimExportActivity, com.xvideostudio.videoeditor.activity.MaterialStickerDetailActivity
+  Services   (24): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.xvideostudio.videoeditor.service.MediumService, com.xvideostudio.videoeditor.windowmanager.StartRecorderService, com.xvideostudio.videoeditor.firebasemessaging.MyFirebaseMessagingService, com.xvideostudio.videoeditor.firebasemessaging.FireBaseOpenNotificationService, com.xvideostudio.videoeditor.windowmanager.FloatWindowService, com.xvideostudio.videoeditor.materialdownload.FileDownloaderService, com.xvideostudio.videoeditor.music.PlayService, com.xvideostudio.videoeditor.service.CaptureAudioService, com.xvideostudio.videoeditor.service.FxBgExportService, com.xvideostudio.videoeditor.service.FileScannerService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.enjoy.ads.EnjoyBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (7): com.facebook.FacebookContentProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 10
+  Total Classes : 47465
+  Total Methods : 290826
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: liufangqing, Organizational Unit: energysh, Organization: energysh, Locality: shanghai, State/Province: shanghai, Country: 86
+  Fingerprint : 28 9E B9 C7 4F CF 89 AE 54 45 75 EE 20 2F 36 4E 08 32 A4 0C CF 03 2F D1 27 ED 1D F3 B4 CC 0B 80
+
+==========================================

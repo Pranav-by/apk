@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.connectup.user
+  SHA-256       : 00A38DD086A8F5C126974D5B985F8789E7AFCCE76F0E9491414966431A13B00A
+  Android Group : Android12
+  Version       : 2.0.7 (code: 37)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 31
+
+[Permissions (19)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (96): com.connectup.user.ui.activity.menu.settings.connectedUsers.ConnectedUserActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.connectup.user.ui.activity.login.forgotPassword.forgotWithMobile.ForgotPasswordWithPhoneOtpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.connectup.user.ui.activity.menu.settings.blockedUsers.BlockedContactsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.facebook.CustomTabMainActivity, com.karumi.dexter.DexterActivity, com.connectup.user.ui.activity.login.linkedInLogin.LinkedInLoginActivity, com.vats.customvideo.FullVideoViewActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.connectup.user.ui.activity.showcaseSection.showcaseQA.questionsAndReply.ShowcaseReplyActivity, com.connectup.user.ui.activity.splash.SplashActivity, com.connectup.user.ui.activity.group.CommentSection.CommentGroupActivity, com.connectup.user.ui.activity.MainActivity, com.connectup.user.ui.activity.group.selectGroup.SelectGroupActivity, com.connectup.user.ui.activity.jobs.freelancer.freelanceWithdrawnReason.WithdrawnReasonActivity
+  Services   (13): com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.connectup.user.service.FirebaseService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.connectup.user.broadcast.SMSBroadCastReceiver, com.connectup.user.broadcast.AlarmBroadcast, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.connectup.user.broadcast.NetworkChangeReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): androidx.core.content.FileProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 33609
+  Total Methods : 204840
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 65 A4 99 87 21 A6 D9 57 2D CB D2 24 52 15 5D C9 95 DA 72 FD 3C 3E 59 6F 5F 80 DE E5 31 86 61 16
+
+==========================================

@@ -1,0 +1,66 @@
+{
+  "sha256": "00B0E92380FFECBE8AFA4719D71FD2F5EC5ADC7DC931DD665A06D188447E87B3",
+  "filename": "00B0E92380FFECBE8AFA4719D71FD2F5EC5ADC7DC931DD665A06D188447E87B3.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "it.mobile3d.sangiusto",
+  "version_name": "1.2",
+  "version_code": "10",
+  "min_sdk": "26",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.CAMERA",
+    "it.mobile3d.sangiusto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "it.mobile3d.audioguide.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.pairip.licensecheck.LicenseActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "androidx.camera.core.impl.MetadataHolderService",
+    "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "it.mobile3d.audioguide.ui.components.audioplayer.PlaybackService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.google.mlkit.common.internal.MlKitInitProvider",
+    "com.pairip.licensecheck.LicenseContentProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 5,
+  "class_count": 31202,
+  "method_count": 200705,
+  "cert_fingerprint": "DE FE 78 FA D1 A0 75 8A 1B 21 D1 0B 80 EC 12 94 E7 5C 45 57 9D 62 47 C8 94 4A DD C0 F2 2C 42 E3",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

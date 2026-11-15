@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.safe.kaoshi
+  SHA-256       : 00A1EC1205AB99D28735F919F2D7F371F2B7BFBFB3783FC5DDD824F5BD58457F
+  Android Group : Android14
+  Version       : 1.0.4 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (21)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_WIFI_STATE, com.safe.kaoshi.openadsdk.permission.TT_PANGOLIN, freemme.permission.msa, android.permission.CAMERA, com.asus.msa.SupplementaryDID.ACCESS, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.REQUEST_INSTALL_PACKAGES, com.safe.kaoshi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1387): com.ijianji.module_play_video.activity.VideoCustomListPlayActivity, com.fenghuajueli.libbasecoreui.ui.CustomerServiceActivity, com.fenghuajueli.libbasecoreui.ui.AboutUsActivity, com.fenghuajueli.libbasecoreui.ui.PrivacyWebActivity, com.fenghuajueli.libbasecoreui.feedback.OneFeedbackActivity, com.fenghuajueli.libbasecoreui.feedback.ReportFeedbackActivity, com.fenghuajueli.libbasecoreui.feedback.TwoFeedbackActivity, com.fenghuajueli.libbasecoreui.feedback.FeedbackPrevActivity, com.fenghuajueli.libbasecoreui.feedback.ThreeFeedbackActivity, com.fenghuajueli.lib_pictureselect.activity.PlayVideoActivity, com.fenghuajueli.lib_pictureselect.activity.MaterialPreviewActivity, com.fenghuajueli.lib_pictureselect.activity.PictureSelectActivity, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$RequestInstallPermissionActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.blankj.utilcode.util.UtilsTransActivity, com.mobile.auth.gatewayauth.LoginAuthActivity, com.mobile.auth.gatewayauth.activity.AuthWebVeiwActivity, com.alipay.sdk.app.H5PayActivity, com.alipay.sdk.app.H5AuthActivity, com.alipay.sdk.app.PayResultActivity
+  Services   (18): com.blankj.utilcode.util.MessengerUtils$ServerService, com.byazt.ddw.DownloadHandleService, androidx.room.MultiInstanceInvalidationService, com.byazt.vw.BinderPoolService, com.efs.sdk.memleaksdk.monitor.UMonitorService, com.byazt.wm.ApiDownloadHandlerService, com.byazt.au.CSJDownloadService, com.smartdigimkt.dlopt.common.service.ApkDownloadService, com.byazt.ihy.DownloadHandlerService, com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService, com.byazt.ihy.RetryJobSchedulerService, com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService, com.byazt.au.CSJIndependentProcessDownloadService, com.byazt.au.SqlDownloadCacheService, com.kwad.sdk.api.proxy.app.DownloadService, com.kwad.sdk.api.proxy.app.ServiceProxyRemote, com.byazt.qtn.DownloadNotificationService, com.qq.e.comm.DownloadService
+  Receivers  (4): com.smartdigimkt.dlopt.common.NotificationBroadcastReceiver, com.byazt.sfw.DownloadReceiver, com.byazt.wxp.Collector, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (21): com.byazt.bs.MainProcessProviderProxy, com.byazt.ljp.FileProvider, com.byted.live.lite.ServerManager_bytelive, com.byted.live.lite.ServerManager_push, com.byazt.uy.DownloaderServerManager, com.byted.live.lite.ServerManager_downloader, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.fenghuajueli.lib_pictureselect.utils.PicFileProvider, androidx.startup.InitializationProvider, com.byazt.qma.MainServerManager, com.fenghuajueli.libbasecoreui.utils.BaseConfigFileProvider, com.blankj.utilcode.util.UtilsFileProvider, com.byazt.uy.MainServerManager, com.byazt.qz.TTMultiProvider, com.kwad.sdk.api.proxy.app.AdSdkFileProvider, com.anythink.core.api.ATInitializationProvider, com.smartdigimkt.dlopt.common.ApkFileProvider, com.smartdigimkt.sdk.api.SDMInitializationProvider, com.qq.e.comm.GDTFileProvider, com.bytedance.sdk.openadsdk.TTFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 256
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: sp, Organizational Unit: sp, Organization: sp, Locality: sz
+  Fingerprint : 0E 20 BC 5C ED 8B B6 19 89 07 5D BF B8 06 9A EE 73 9E 06 75 76 A0 11 9D 7E 34 7D 05 48 AD A8 30
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : draftsmancivilmcq.surentechlab
+  SHA-256       : 00A7BE485A06EFBAC9C01843B9D0EC3AAD761FD1B9F8873B80A05E4B32A350F2
+  Android Group : Android13
+  Version       : 9.8 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (11)]
+  com.google.android.gms.permission.AD_ID, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.FOREGROUND_SERVICE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (88): draftsmancivilmcq.surentechlab.t_submenu, draftsmancivilmcq.surentechlab.t_video_playerjs, draftsmancivilmcq.surentechlab.contactar, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, draftsmancivilmcq.surentechlab.t_radio, draftsmancivilmcq.surentechlab.t_video_pro, draftsmancivilmcq.surentechlab.t_mapa_web, draftsmancivilmcq.surentechlab.codigo, draftsmancivilmcq.surentechlab.t_buscusus, draftsmancivilmcq.surentechlab.chat_perfil, draftsmancivilmcq.surentechlab.eliminarperfil, draftsmancivilmcq.surentechlab.profile, draftsmancivilmcq.surentechlab.notifs, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, draftsmancivilmcq.surentechlab.notifs_cats, draftsmancivilmcq.surentechlab.t_buscador_form, draftsmancivilmcq.surentechlab.privados, draftsmancivilmcq.surentechlab.fotoperfil, draftsmancivilmcq.surentechlab.preinicio, draftsmancivilmcq.surentechlab.fotogal
+  Services   (30): draftsmancivilmcq.surentechlab.s_guardarperfil, draftsmancivilmcq.surentechlab.s_mediaplayer_exo, draftsmancivilmcq.surentechlab.RegistrationIntentService, draftsmancivilmcq.surentechlab.MyFcmListenerService, draftsmancivilmcq.surentechlab.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.iid.FirebaseInstanceIdService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (16): com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.wortise.ads.geofencing.GeofenceBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, draftsmancivilmcq.surentechlab.alarma_rss
+  Providers  (12): com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, draftsmancivilmcq.surentechlab.MySuggestionProvider, draftsmancivilmcq.surentechlab.bd_provider, draftsmancivilmcq.surentechlab.StickerContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.wortise.ads.lifecycle.ActivityLifecycleInitializer, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 34355
+  Total Methods : 204042
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://support.start.io/hc/en-us/articles/360014774799, http://localhost/playerjs.js
+  IP Addresses(3): 0.0.0.0, 2.6.5.473, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C4 1C E5 51 19 20 1D 75 9E 75 19 FB 98 03 F8 91 92 F7 AA 58 28 03 15 B1 8D 4C 1A 63 58 9E 21 48
+
+==========================================

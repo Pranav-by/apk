@@ -1,0 +1,80 @@
+{
+  "sha256": "006963F082F04EE49D07B44DB9E25329742B0D62AEB34ED202DA7DA7FA7D70CD",
+  "filename": "006963F082F04EE49D07B44DB9E25329742B0D62AEB34ED202DA7DA7FA7D70CD.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.best.braces.camera",
+  "version_name": "1.4",
+  "version_code": "5",
+  "min_sdk": "16",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.yalantis.ucrop.UCropActivity",
+    "com.best.braces.camera.ViewPhotoActivity",
+    "com.best.braces.camera.EditActivity",
+    "com.best.braces.camera.ViewSharePhotoActivity",
+    "com.best.braces.camera.MoreActivity",
+    "com.best.braces.camera.SaveActivity",
+    "com.best.braces.camera.CreationActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "com.best.braces.camera.SplashActivity",
+    "com.best.braces.camera.MainActivity"
+  ],
+  "activity_count": 10,
+  "services": [
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider",
+    "pl.aprilapps.easyphotopicker.ExtendedFileProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11542,
+  "method_count": 70611,
+  "cert_fingerprint": "F5 9B AA C8 31 84 D1 CE 53 95 9D 4E F8 EE BF BB A1 23 A1 09 36 76 4F AB A8 58 BA 52 64 8D 39 23",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fitnessmobileapps.levelout36251
+  SHA-256       : 00A18B842279F826BBEE5F875761702748426005F640154DDB14097FA88F28D3
+  Android Group : Android14
+  Version       : 7.3.4 (code: 730400)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (15)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.VIBRATE, android.permission.READ_CALENDAR, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.fitnessmobileapps.levelout36251.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (57): com.fitnessmobileapps.fma.feature.navigation.BottomNavigationActivity, com.stripe.android.view.PaymentMethodsActivity, com.fitnessmobileapps.fma.views.CreateAccountActivity, com.fitnessmobileapps.fma.feature.authentication.AuthenticationActivity, com.stripe.android.view.AddPaymentMethodActivity, com.fitnessmobileapps.fma.feature.home.presentation.VideoDetailsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.fitnessmobileapps.fma.feature.familyaccounts.presentation.UserSelectionActivity, net.openid.appauth.RedirectUriReceiverActivity, com.fitnessmobileapps.fma.feature.profile.EditProfileActivity, com.fitnessmobileapps.fma.feature.performancemetrics.presentation.PerformanceMetricsActivity, com.fitnessmobileapps.fma.views.SCACustomTabActivity, com.fitnessmobileapps.fma.feature.home.presentation.PromosPagerActivity, com.fitnessmobileapps.fma.feature.staff.StaffActivity, com.fitnessmobileapps.fma.feature.messengerai.MessengerAiActivity, androidx.compose.ui.tooling.PreviewActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.stripe.android.customersheet.CustomerSheetActivity, com.fitnessmobileapps.fma.feature.book.AppointmentDetailsActivity, com.stripe.android.paymentsheet.addresselement.AddressElementActivity
+  Services   (12): com.fitnessmobileapps.fma.messaging.BrandedAppMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.fitnessmobileapps.fma.messaging.BrandedAppFcmRegistrationService, com.fitnessmobileapps.fma.geofence.EngageGeoFenceService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (8): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.fitnessmobileapps.fma.geofence.GeofenceRegistrationReceiver, com.fitnessmobileapps.fma.geofence.QuickCheckinReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.fitnessmobileapps.fma.services.AlarmReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 54067
+  Total Methods : 271789
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/jetpack/androidx/releases/compose-kotlin, https://issuetracker.google.com/issues?q=componentid:610764
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: MINDBODY Inc, Organizational Unit: Fellowship of Engage, Organization: MINDBODY Inc, Locality: San Luis Obispo, State/Province: CA, Country: US
+  Fingerprint : EB A2 64 3C 67 AF 50 58 CB AF 08 01 78 C0 96 31 47 6D AF 9B 7D 26 F0 8C 13 F1 09 8B 01 02 80 2E
+
+==========================================

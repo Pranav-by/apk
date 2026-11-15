@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.kruppstiftung.huegel
+  SHA-256       : 00A22D8A2E5F498EC0D1555155A29DD4334C1D9FA8AD4A260804234EBC076E36
+  Android Group : Android13
+  Version       : 1.40 (code: 40)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (9)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, de.kruppstiftung.huegel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_EXTERNAL_STORAGE, android.permission.FLASHLIGHT, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (3): de.kruppstiftung.huegel.MainActivity, com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (4): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9409
+  Total Methods : 52438
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F8 C4 FE 01 45 EC CF 16 B4 B5 58 21 B1 0D 00 D3 7D A4 C2 C3 6C 2E 0A 1B 05 BF BA 6C AD 6B 61 1F
+
+==========================================

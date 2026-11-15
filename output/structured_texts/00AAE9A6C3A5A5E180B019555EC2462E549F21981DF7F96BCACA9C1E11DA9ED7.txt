@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.lockerroomcentral.athlete
+  SHA-256       : 00AAE9A6C3A5A5E180B019555EC2462E549F21981DF7F96BCACA9C1E11DA9ED7
+  Android Group : Android15
+  Version       : 2.08.01 (code: 47)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (42)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.USE_BIOMETRIC, com.lockerroomcentral.athlete.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (13): com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.android.billingclient.api.ProxyBillingActivity, com.lockerroomcentral.athlete.MainActivity, com.onesignal.core.activities.PermissionsActivity, expo.modules.video.FullscreenPlayerActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.canhub.cropper.CropImageActivity, com.onesignal.NotificationOpenedActivityHMS, com.google.android.gms.common.api.GoogleApiActivity, com.revenuecat.purchases.ui.revenuecatui.activity.PaywallActivity, com.revenuecat.purchases.ui.revenuecatui.customercenter.CustomerCenterActivity, com.onesignal.notifications.activities.NotificationOpenedActivity
+  Services   (12): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, expo.modules.video.playbackService.ExpoVideoPlaybackService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.core.services.SyncJobService, com.google.android.gms.metadata.ModuleDependencies, com.onesignal.notifications.services.HmsMessageServiceOneSignal, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (16): com.amazon.device.iap.ResponseReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (7): com.reactnativecommunity.webview.RNCWebViewFileProvider, com.canhub.cropper.CropFileProvider, expo.modules.imagepicker.fileprovider.ImagePickerFileProvider, expo.modules.sharing.SharingFileProvider, expo.modules.filesystem.FileSystemFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 49771
+  Total Methods : 320154
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 44 19 74 7B 68 66 45 E3 48 DC 78 91 EA B4 D0 89 92 1F DA DD FA DC 33 67 3E 46 F7 CC 8E 9F 87 15
+
+==========================================

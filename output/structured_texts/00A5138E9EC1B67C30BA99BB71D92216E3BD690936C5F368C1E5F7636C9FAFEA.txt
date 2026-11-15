@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : musicplayer.hdvideoplayer.backgroundmusic
+  SHA-256       : 00A5138E9EC1B67C30BA99BB71D92216E3BD690936C5F368C1E5F7636C9FAFEA
+  Android Group : Android15
+  Version       : 1.4.2 (code: 10040207)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (27)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.android.vending.CHECK_LICENSE, android.permission.WRITE_SETTINGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.SYSTEM_ALERT_WINDOW, musicplayer.hdvideoplayer.backgroundmusic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_BASIC_PHONE_STATE
+
+[Application Components]
+  Activities (95): com.hm.admanagerx.adsanalysis.MainActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.ironsource.sdk.controller.InterstitialActivity, com.x3mads.android.xmediator.core.debuggingsuite.loomit.abtests.view.ABTestActivity, com.x3mads.android.xmediator.core.debuggingsuite.privacy.cmp.view.CMPVendorsActivity, com.android.billingclient.api.ProxyBillingActivity, com.x3mads.android.xmediator.core.debuggingsuite.inapp.view.InAppNetworkTestingActivity, com.ironsource.sdk.controller.ControllerActivity, musicplayer.hdvideoplayer.backgroundmusic.myActivities.paywall.PaywallUi, musicplayer.hdvideoplayer.backgroundmusic.myActivities.intentupdatedplayer.MyPlayer, musicplayer.hdvideoplayer.backgroundmusic.myActivities.MainActivity, com.google.android.gms.ads.AdActivity, com.facebook.ads.AudienceNetworkActivity, musicplayer.hdvideoplayer.backgroundmusic.utils.widget.ConfigurationActivity, com.x3mads.android.xmediator.core.debuggingsuite.privacy.view.PrivacySettingsActivity, musicplayer.hdvideoplayer.backgroundmusic.utils.permissionhandling.PermissionsActivity, com.x3mads.android.xmediator.core.debuggingsuite.eventviewer.presentation.EventViewerActivity, musicplayer.hdvideoplayer.backgroundmusic.fragments.Remote.ExpandedControlsActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity
+  Services   (18): com.google.firebase.sessions.SessionLifecycleService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, musicplayer.hdvideoplayer.backgroundmusic.mediaServices.floatingAudio.FloatingLayoutService, androidx.work.impl.background.systemjob.SystemJobService, com.applovin.impl.adview.activity.FullscreenAdService, io.appmetrica.analytics.internal.AppMetricaService, musicplayer.hdvideoplayer.backgroundmusic.mediaServices.floatingVideoplayer.FloatingVideoPlayerService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService
+  Receivers  (20): musicplayer.hdvideoplayer.backgroundmusic.utils.widget.MusicWidgetWithoutImage, musicplayer.hdvideoplayer.backgroundmusic.utils.widget.MusicWidgetOnlyButtons2, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, com.ogury.core.internal.LogEnablerReceiver, musicplayer.hdvideoplayer.backgroundmusic.utils.widget.MusicWidgetIcon, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, musicplayer.hdvideoplayer.backgroundmusic.utils.widget.MusicWidget, musicplayer.hdvideoplayer.backgroundmusic.utils.widget.MusicWidgetOnlyButtons, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (14): com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.facebook.ads.AudienceNetworkContentProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, com.google.firebase.provider.FirebaseInitProvider, io.bidmachine.BidMachineInitProvider, com.applovin.sdk.AppLovinInitProvider, com.squareup.picasso.PicassoProvider, com.vungle.ads.VungleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 10
+  Total Classes : 85937
+  Total Methods : 547333
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DD 32 83 CC 52 09 FE E3 F8 92 56 D7 4C 52 73 9F 16 36 7B 08 90 BC 0E 7C D5 56 E8 D3 30 C4 12 FA
+
+==========================================

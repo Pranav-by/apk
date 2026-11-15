@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cec.android.mbanking
+  SHA-256       : 002DEF4BDF35A932F4BCAD6E843FF087EF9073D2B53D4D95D8D2DA48FB9F8721
+  Android Group : Android13
+  Version       : 3.8.9.0.0 (code: 1698292800)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 33
+
+[Permissions (13)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.HIDE_OVERLAY_WINDOWS, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (93): com.netcetera.android.mbanking.feature.payments.ebills.leon.controller.LeonEbillsManageAccountsActivity, com.netcetera.android.mbanking.feature.assets.depots.view.AccountDepotsActivity, com.netcetera.android.mbanking.feature.scanner_plus.controller.ScannerPlusPaymentScannerActivity, com.netcetera.android.mbanking.feature.trading.controller.TradingOverviewActivity, com.netcetera.android.mbanking.feature.payments.wizard.PaymentWizardDetailsActivity, com.netcetera.android.mbanking.feature.activation.ActivationWelcomeActivity, com.netcetera.android.mbanking.feature.payments.wizard.RecipientDetailsActivity, com.netcetera.android.mbanking.feature.assets.depots.transaction_details.view.AccountDepotPositionTransactionDetailsWebViewActivity, com.netcetera.android.mbanking.feature.payments.wizard.select_account.view.PaymentSpecifyAccountForPaymentActivity, com.netcetera.android.mbanking.base.session.login.controller.EnterMBankingPasswordActivity, com.netcetera.android.mbanking.feature.trading.pending.controller.ActiveOrderDetailsActivity, com.netcetera.android.mbanking.base.controller.SplashScreenActivity, com.netcetera.android.mbanking.feature.payments.ebills.controller.EBillRegistrationWebViewActivity, com.netcetera.android.mbanking.feature.trading.pending.controller.ActiveOrdersActivity, com.netcetera.android.mbanking.feature.payments.pending.controller.SignLaterPaymentsActivity, com.netcetera.android.mbanking.feature.payments.scanner.controller.PaymentScannerActivity, com.netcetera.android.mbanking.feature.payments.overview.PaymentsOverviewActivity, com.netcetera.android.mbanking.feature.payments.pending.controller.ManagePendingPaymentsActivity, com.netcetera.android.mbanking.feature.payments.standing_orders.controller.StandingOrdersOverviewActivity, com.netcetera.android.mbanking.feature.trading.security.search.controller.SecuritySearchDetailsActivity
+  Services   (11): com.google.android.gms.auth.api.signin.RevocationBoundService, com.netcetera.android.mbanking.feature.push_notifications.repository.FirebaseService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.netcetera.android.mbanking.base.controller.ApplicationCheckBackgroundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (4): com.amazonaws.mobileconnectors.pinpoint.targeting.notification.PinpointNotificationReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.netcetera.android.mbanking.base.fileprovider.UriProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23441
+  Total Methods : 146862
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 0.4.0.127, 127.0.0.255, 1.3.6.1
+
+[Certificate]
+  Issuer      : Common Name: entris
+  Fingerprint : D5 71 11 AC 82 34 23 14 63 17 CD E0 35 62 AD CA 2E 06 C4 13 07 3D 56 C1 0A 71 58 C4 39 0D B3 60
+
+==========================================

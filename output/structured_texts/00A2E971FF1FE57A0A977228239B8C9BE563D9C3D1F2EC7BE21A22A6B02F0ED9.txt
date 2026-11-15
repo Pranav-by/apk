@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.InovaSquad.Artinove
+  SHA-256       : 00A2E971FF1FE57A0A977228239B8C9BE563D9C3D1F2EC7BE21A22A6B02F0ED9
+  Android Group : Android14
+  Version       : 3.4.1 (code: 303128)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, android.permission.WRITE_CONTACTS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.READ_CONTACTS, com.InovaSquad.Artinove.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.CAMERA, android.permission.RECORD_AUDIO, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (7): com.InovaSquad.Artinove.MainActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.zxing.client.android.encode.EncodeActivity, com.google.zxing.client.android.CaptureActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (2): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (3): com.adjust.sdk.AdjustReferrerReceiver, nl.xservices.plugins.ShareChooserPendingIntent, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): androidx.core.content.FileProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider, de.appplant.cordova.emailcomposer.Provider, androidx.startup.InitializationProvider, org.apache.cordova.camera.FileProvider, androidx.core.content.FileProvider, nl.xservices.plugins.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 7525
+  Total Methods : 48197
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: inovasquad
+  Fingerprint : 72 14 1F 3F 76 0E 35 F8 16 41 A5 93 B6 12 69 5B 84 2A 17 5D D9 D3 BC 83 F1 5F 45 DB 11 E0 D3 25
+
+==========================================

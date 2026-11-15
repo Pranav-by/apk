@@ -1,0 +1,76 @@
+{
+  "sha256": "00A58A6535C082711EB64CC29DFCF6072FA998B60D0B215C0352EBBF5F524688",
+  "filename": "00A58A6535C082711EB64CC29DFCF6072FA998B60D0B215C0352EBBF5F524688.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "app.pschool.tamil",
+  "version_name": "1.2.0",
+  "version_code": "2",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.VIBRATE",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.INTERNET",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.USE_FULL_SCREEN_INTENT",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.razorpay.CheckoutActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "app.pschool.tamil.MainActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService",
+    "com.google.firebase.messaging.FirebaseMessagingService"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver",
+    "com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver",
+    "com.razorpay.RzpTokenReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+  ],
+  "receiver_count": 6,
+  "providers": [
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4698,
+  "method_count": 26367,
+  "cert_fingerprint": "87 45 DC EE 6F F7 B3 94 9A 37 49 32 D2 28 1B F5 BD E3 F6 AF D0 2C 59 B0 35 A6 86 D8 2C 45 C1 D6",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://exoplayer.dev/issues/cleartext-not-permitted",
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

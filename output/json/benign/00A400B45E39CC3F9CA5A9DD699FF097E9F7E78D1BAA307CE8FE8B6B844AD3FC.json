@@ -1,0 +1,91 @@
+{
+  "sha256": "00A400B45E39CC3F9CA5A9DD699FF097E9F7E78D1BAA307CE8FE8B6B844AD3FC",
+  "filename": "00A400B45E39CC3F9CA5A9DD699FF097E9F7E78D1BAA307CE8FE8B6B844AD3FC.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "info.plateaukao.einkbro",
+  "version_name": "12.4.0",
+  "version_code": "120400",
+  "min_sdk": "24",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.INTERNET",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "info.plateaukao.einkbro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.android.launcher.permission.INSTALL_SHORTCUT",
+    "android.permission.AUDIO_CAPTURE",
+    "android.permission.RECORD_AUDIO"
+  ],
+  "permission_count": 11,
+  "activities": [
+    "info.plateaukao.einkbro.activity.DictActivity",
+    "info.plateaukao.einkbro.activity.GptQueryListActivity",
+    "info.plateaukao.einkbro.activity.DataListActivity",
+    "info.plateaukao.einkbro.activity.EpubReaderActivity",
+    "info.plateaukao.einkbro.activity.GptActionsActivity",
+    "info.plateaukao.einkbro.activity.ExtraBrowserActivity",
+    "info.plateaukao.einkbro.activity.ToolbarConfigActivity",
+    "info.plateaukao.einkbro.activity.HighlightsActivity",
+    "info.plateaukao.einkbro.activity.SettingActivity",
+    "info.plateaukao.einkbro.activity.BrowserActivity"
+  ],
+  "activity_count": 10,
+  "services": [
+    "info.plateaukao.einkbro.service.ClearService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 5135,
+  "method_count": 25514,
+  "cert_fingerprint": "5E D1 90 57 85 AE F4 E0 2B CA A9 9F 26 C7 6E 8F 6A 78 04 4A 03 3E FC 30 03 54 9E 74 7B 68 79 C1",
+  "cert_issuer": "Common Name: FDroid, Organizational Unit: FDroid, Organization: fdroid.org, Locality: ORG, State/Province: ORG, Country: UK",
+  "urls": [
+    "http://www.w3.org/2001/10/synthesis",
+    "https://www.learndigitaladvertising.com/solved-why-how-to-remove-mc_cid-and-mc_eid-from-google-analytics/",
+    "https://yandex.com/support/direct/statistics/url-tags.html",
+    "https://goo.gle/compose-feedback",
+    "https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400&display=swap",
+    "https://www.parse.ly/help/post/4843/campaign-data-tracking/",
+    "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400&display=swap",
+    "https://help.getvero.com/articles/conversion-tracking.html",
+    "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400&display=swap",
+    "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400&display=swap",
+    "https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400&display=swap",
+    "https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400&display=swap",
+    "https://translate.google.com/translate_a/element.js?cb=",
+    "https://moz.com/community/q/omniture-tracking-code-urls-creating-duplicate-content",
+    "https://papago.naver.com/apis/n2mt/translate",
+    "https://fonts.googleapis.com/css2?family=Gamja+Flower:wght@400&display=swap",
+    "https://md-block.verou.me/md-block.js"
+  ],
+  "ip_addresses": [
+    "0.0.0.0",
+    "239.10.10.100"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

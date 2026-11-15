@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.soserbat.opera360_sos
+  SHA-256       : 00A6D56E20B2ABF997327B62D9AD000FCB931BAD37DC247F4062DA7B56E54A20
+  Android Group : Android12
+  Version       : 1.0.1.23 (code: 23)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (19)]
+  android.permission.FOREGROUND_SERVICE, android.permission.BROADCAST_WAP_PUSH, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_PHONE_STATE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.ACCESS_NETWORK_STATE, android.permission.GET_ACCOUNTS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (83): com.soserbat.opera360_sos.wdgen.GWDFFEN_SRM_Etage$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_FT_Materiel_Tache$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_CR_Information_Technique$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_SRM_Partie_Commune_Saisie$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_SRM_Piece$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_INTERV_Materiel_Tache$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_Site_Historique_Devis$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_Activation$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_Site_Detail$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_INTERV_Temps_Technicien$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_CR_Devis$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_BAES$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_INTERV_Materiel_Fluide$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_VE$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_SRM_Escalier$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_FT$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_CRS_Equipement$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_FT_ChangeEtat$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_SRM_Gestion_Batiment$WDActiviteFenetre, com.soserbat.opera360_sos.wdgen.GWDFFEN_SRM_Mesure$WDActiviteFenetre
+  Services   (8): fr.pcsoft.wdjava.notification.push.WDNotifPushManager$GCMIntentService, fr.pcsoft.wdjava.notification.push.WDNotifPushManager$FirebaseNotificationService, fr.pcsoft.wdjava.core.service.WDServiceLocal, fr.pcsoft.wdjava.notification.push.WDNotifPushManager$FirebaseRegistrationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, fr.pcsoft.wdjava.notification.WDNotificationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, fr.pcsoft.wdjava.core.utils.WDAppUtils$APKInstallBroadcastReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9789
+  Total Methods : 76306
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 0.0.0.0, 26.0.93.0, 1.0.1.23
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C1 CD 6D 35 8C BE 2C 41 A6 6B 0D DC 40 78 DE 54 6D C9 46 00 36 4F F3 C2 E0 20 C9 B5 2B 20 D2 CC
+
+==========================================

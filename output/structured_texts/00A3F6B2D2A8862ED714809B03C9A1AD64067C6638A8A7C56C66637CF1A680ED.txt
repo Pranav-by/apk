@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mcontrol.calendar
+  SHA-256       : 00A3F6B2D2A8862ED714809B03C9A1AD64067C6638A8A7C56C66637CF1A680ED
+  Android Group : Android14
+  Version       : 4.8.5.0 08-Aug-2024 (code: 485004)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (33)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_BIOMETRIC, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_CALENDAR, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, com.mcontrol.calendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (93): com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.mcontrol.calendar.appwidgets.DeeplinkTransparentActivity, com.mbridge.msdk.interstitial.view.MBInterstitialActivity, com.mcontrol.tasks.widget.TaskConfigActivity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity, com.mcontrol.tasks.widget.TaskWidgetAccountActivity, com.mbridge.msdk.out.LoadingActivity, com.mcontrol.calendar.ui.common.CrashActivity, com.mbridge.msdk.activity.MBCommonActivity, com.yandex.mobile.ads.common.AdActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.inmobi.ads.rendering.InMobiAdActivity, sg.bigo.ads.api.LandscapeAdActivity, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, com.android.billingclient.api.ProxyBillingActivityV2, sg.bigo.ads.ad.splash.AdSplashActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.fyber.inneractive.sdk.activities.FyberReportAdActivity
+  Services   (24): androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, com.mcontrol.calendar.appwidgets.schedule.ScheduleWidgetService, com.google.android.gms.measurement.AppMeasurementJobService, com.mcontrol.calendar.appwidgets.week.WeekWidgetService, com.mcontrol.calendar.appwidgets.today_tomorrow.TodayTomorrowWidgetService, com.mcontrol.tasks.widget.TaskWidgetRemoteViewsService, com.mcontrol.calendar.messaging.MessagingService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.appcompat.app.AppLocalesMetadataHolderService, com.google.firebase.components.ComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, com.google.firebase.messaging.FirebaseMessagingService, com.applovin.impl.adview.activity.FullscreenAdService, io.appmetrica.analytics.internal.AppMetricaService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.ads.AdService
+  Receivers  (35): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.mcontrol.calendar.appwidgets.week.WeekWidgetProvider, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.mcontrol.calendar.appwidgets.today_tomorrow.TodayTomorrowWidgetProvider, com.mcontrol.recording.recorder.widgets.EventRecordingWidgetProvider, com.mcontrol.recording.recorder.widgets.EventRecordingSmallWidgetProvider, com.mcontrol.recording.recorder.widgets.TaskRecordingSmallWidgetProvider, com.mcontrol.recording.recorder.widgets.TaskRecordingWidgetProvider, com.mcontrol.recording.recorder.widgets.RecordingWidgetProvider, com.mcontrol.calendar.appwidgets.month.HeatMapWidgetProvider, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.mcontrol.calendar.receivers.WidgetReceiver, com.mcontrol.calendar.appwidgets.iconwidget.IconWidgetProvider, com.mcontrol.calendar.appwidgets.month.MonthEventsWidgetProvider, com.mcontrol.calendar.appwidgets.interactive.InteractiveWidgetProvider, com.mcontrol.calendar.appwidgets.interactive.red.RedInteractiveWidgetProvider, com.mcontrol.calendar.appwidgets.interactive.red.RedWeekDayInteractiveWidgetProvider, com.mcontrol.calendar.appwidgets.interactive.DarkBlueWeekDayInteractiveWidget, com.mcontrol.calendar.appwidgets.interactive.DarkBlueInteractiveWidgetProvider
+  Providers  (13): io.appmetrica.analytics.internal.PreloadInfoContentProvider, androidx.core.content.FileProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.google.firebase.provider.FirebaseInitProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, com.facebook.ads.AudienceNetworkContentProvider, com.cleveradssolutions.internal.services.CASInitProvider, com.vungle.ads.internal.util.VungleProvider, com.applovin.sdk.AppLovinInitProvider, com.squareup.picasso.PicassoProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider, sg.bigo.ads.controller.provider.BigoAdsProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 53361
+  Total Methods : 300042
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread
+  IP Addresses(2): 127.0.0.1, 4.7.4.0
+
+[Certificate]
+  Issuer      : Common Name: Karen Khachatryan, Organizational Unit: Calendar, Organization: Calendar View, Locality: Yerevan
+  Fingerprint : 23 FE C7 6B 80 BC ED 3F 7D DC 87 6A BC EF 14 32 1D F7 31 A9 16 6F 8E 8F 80 1A 2F 2A C9 97 54 9D
+
+==========================================

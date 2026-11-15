@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.soletreadmills.sole_v2
+  SHA-256       : 0069791EED70CBB1DCAB4164D533C84550C1D86C1354C310BF33F9ADA756E90C
+  Android Group : Android15
+  Version       : 4.20 (code: 177691042)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (31)]
+  android.permission.ACCESS_HEALTH_DATA, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.health.WRITE_STEPS, com.samsung.android.health.permission.READ_EXERCISE, android.permission.ACCESS_COARSE_LOCATION, android.permission.health.WRITE_DISTANCE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.health.WRITE_TOTAL_CALORIES_BURNED, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE, android.permission.BIND_HEALTH_CONNECT_SERVICE, com.soletreadmills.sole_v2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (11): com.blankj.utilcode.util.UtilsTransActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.soletreadmills.sole_v2.ui.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.journeyapps.barcodescanner.CaptureActivity, com.soletreadmills.sole_v2.ui.activity.PermissionsRationaleActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.facebook.CustomTabMainActivity
+  Services   (19): com.google.firebase.sessions.SessionLifecycleService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, androidx.camera.core.impl.MetadataHolderService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, no.nordicsemi.android.support.v18.scanner.ScannerService, com.soletreadmills.sole_v2.service.WearListenerService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.appcompat.app.AppLocalesMetadataHolderService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.soletreadmills.sole_v2.service.MyFirebaseMessagingService, fm.feed.android.playersdk.PlayerService, com.google.firebase.messaging.FirebaseMessagingService, com.soletreadmills.sole_v2.ble.BleService, androidx.health.platform.client.impl.sdkservice.HealthDataSdkService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (7): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver
+  Providers  (6): com.google.firebase.provider.FirebaseInitProvider, com.blankj.utilcode.util.UtilsFileProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.google.mlkit.common.internal.MlKitInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 49774
+  Total Methods : 327172
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: dyaco, Organizational Unit: dyaco, Organization: dyaco, Locality: Taichung, Country: TW
+  Fingerprint : 28 19 9A F6 61 18 C2 E3 34 E7 2C 4E 5D 6F 7C BF C2 C1 87 B3 F9 AE BB DF 0C 9E 47 37 50 EF 43 A1
+
+==========================================

@@ -1,0 +1,78 @@
+{
+  "sha256": "00A23E9EF05B6DE1A5A0E03D653566039C096E2D86D24EBCFAE1667F2B89D5ED",
+  "filename": "00A23E9EF05B6DE1A5A0E03D653566039C096E2D86D24EBCFAE1667F2B89D5ED.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "nl.nos.jeugdjournaal",
+  "version_name": "20260521.9762",
+  "version_code": "9762",
+  "min_sdk": "28",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "nl.nos.jeugdjournaal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "nl.nos.jeugdjournaal.MainActivity",
+    "androidx.compose.ui.tooling.PreviewActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "nl.nos.jeugdjournaal.push.messaging.Service",
+    "androidx.work.impl.background.systemjob.SystemJobService"
+  ],
+  "service_count": 8,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "nl.nos.jeugdjournaal.AppUpdateReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+  ],
+  "receiver_count": 7,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 10135,
+  "method_count": 45951,
+  "cert_fingerprint": "A8 E9 B0 88 9F 28 20 00 6C C1 C2 0C 39 A5 7D 13 3F 2F 6E C3 CD 3F 19 AF AD 0B A4 87 53 D0 CE 7C",
+  "cert_issuer": "Common Name: Matthijs IJkema, Organizational Unit: Digitale Media, Organization: NOS, Locality: Hilversum, State/Province: Noord-Holland, Country: NL",
+  "urls": [
+    "https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread",
+    "https://goo.gle/compose-feedback",
+    "https://static.nos.nl/img/jeugd/avondjournaal/1920x1080a.jpg)",
+    "https://jeugdjournaal.nl/uitzending/",
+    "https://jeugdjournaal.nl/artikel/"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

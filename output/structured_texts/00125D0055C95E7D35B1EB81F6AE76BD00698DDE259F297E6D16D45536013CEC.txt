@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ie.webdoctor.prod
+  SHA-256       : 00125D0055C95E7D35B1EB81F6AE76BD00698DDE259F297E6D16D45536013CEC
+  Android Group : Android13
+  Version       : 1.2.42-c7a85f0b (code: 1876)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (22)]
+  android.permission.USE_BIOMETRIC, android.permission.CHANGE_NETWORK_STATE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, ie.webdoctor.prod.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH_CONNECT, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.CALL_PHONE
+
+[Application Components]
+  Activities (18): com.nuasolutions.common.FileViewActivity, ie.imobile.extremepush.ui.WebViewActivity, ie.imobile.extremepush.ui.LocationDialogActivity, com.nuasolutions.nuaandroid.activities.SplashActivity, pub.devrel.easypermissions.AppSettingsDialogHolderActivity, com.nuasolutions.nuaandroid.activities.NuaCommunicationsActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.nuasolutions.nuaandroid.activities.laya.VideoConsultationRoomActivity, com.nuasolutions.webdoctor.ui.TurbolinksActivity, com.nuasolutions.webdoctor.ui.AppointmentDeepLinkActivity, com.nuasolutions.nuaandroid.activities.SessionCheckActivity, com.google.firebase.auth.internal.GenericIdpActivity, ie.imobile.extremepush.ui.InboxActivity, ie.imobile.extremepush.ui.OnclickPushActivity, com.jakewharton.processphoenix.ProcessPhoenix, com.basecamp.turbolinks.TurbolinksTestActivity, com.nuasolutions.nuaandroid.activities.common.InAppMessageActivity
+  Services   (16): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.nuasolutions.nuaandroid.powerbutton.AEScreenOnOffService, com.nuasolutions.libraries.messaging.NuaFirebaseInstanceIdService, ie.imobile.extremepush.util.ImageHandlerJobService, com.google.firebase.components.ComponentDiscoveryService, ie.imobile.extremepush.location.GeoLocationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, ie.imobile.extremepush.beacons.BeaconLocationService, androidx.work.impl.foreground.SystemForegroundService, ie.imobile.extremepush.beacons.XPBeaconJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (18): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, ie.imobile.extremepush.receivers.XP_App_Update_Receiver, ie.imobile.extremepush.receivers.CoreBroadcastReceiver, ie.imobile.extremepush.beacons.BeaconLocationReceiver, org.matomo.sdk.extra.InstallReferrerReceiver, ie.imobile.extremepush.location.GeoLocationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, ie.imobile.extremepush.location.ProxymityAlertReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.google.firebase.perf.provider.FirebasePerfProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7753
+  Total Methods : 39518
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.255
+
+[Certificate]
+  Issuer      : Common Name: Gerard Kelly, Organizational Unit: Webdoctor, Organization: Nua Solutions, Locality: Dublin, State/Province: Dublin, Country: IE
+  Fingerprint : D1 96 D8 AB AD 7E 15 30 08 C0 BB 48 8F 61 26 89 94 28 85 7D A4 3B 4C A6 11 AD BA DB D8 A2 07 A3
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.virash.grover
+  SHA-256       : 00A8ACE305CFBFAB30CD24336B42764E020B1D5218194E00727588A13FA0B7DB
+  Android Group : Android12
+  Version       : 2.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (9): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.wongpiwat.trust_location.TrustLocationPlugin, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.google.android.gms.common.api.GoogleApiActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.virash.grover.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+  Services   (0): none
+  Receivers  (1): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11608
+  Total Methods : 76352
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://github.com/pichillilorenzo/flutter_inappwebview#important-note-for-android, https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects
+  IP Addresses(2): 0.0.0.0, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C4 34 C0 4F 78 2F 37 E6 BA DB B0 BD 47 0B 23 16 02 4F 9B 82 9F 49 4E D7 B1 64 DA 6B 85 2C 6B 41
+
+==========================================

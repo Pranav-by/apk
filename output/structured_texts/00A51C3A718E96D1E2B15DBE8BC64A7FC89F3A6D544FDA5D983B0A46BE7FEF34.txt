@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ionicframework.legalisapp05868279
+  SHA-256       : 00A51C3A718E96D1E2B15DBE8BC64A7FC89F3A6D544FDA5D983B0A46BE7FEF34
+  Android Group : Android14
+  Version       : 3.0.57 (code: 30057)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (7)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, com.ionicframework.legalisapp05868279.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): com.ionicframework.legalisapp05868279.MainActivity
+  Services   (0): none
+  Receivers  (1): nl.xservices.plugins.ShareChooserPendingIntent
+  Providers  (5): androidx.startup.InitializationProvider, nl.xservices.plugins.FileProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider, org.apache.cordova.camera.FileProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 4984
+  Total Methods : 35435
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: consensus, Organizational Unit: consensus, Organization: consensus, Locality: manizales, State/Province: caldas, Country: CO
+  Fingerprint : 35 5B FB B8 3E F6 A8 A8 14 82 F2 0C 11 02 31 FA C5 72 19 7A 0F 41 E6 C6 DA 10 AA EB 01 8B 15 F4
+
+==========================================

@@ -1,0 +1,61 @@
+{
+  "sha256": "00C2A596AF72E4FE1D91FE970A9865BE385BBE80097350749DB71EA1EEBE54A5",
+  "filename": "00C2A596AF72E4FE1D91FE970A9865BE385BBE80097350749DB71EA1EEBE54A5.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "appinventor.ai_mauriziocinnirella.SICILIA_IN_TV",
+  "version_name": "1.9",
+  "version_code": "7",
+  "min_sdk": "7",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_MOCK_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "appinventor.ai_mauriziocinnirella.SICILIA_IN_TV.Screen1"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 3407,
+  "method_count": 31538,
+  "cert_fingerprint": "08 10 D7 38 52 07 A1 17 B7 53 2C 88 98 B0 54 F1 52 6E 63 62 15 7E C6 74 AB 13 86 63 40 79 41 CB",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "http://developer.android.com/guide/appendix/media-formats.html",
+    "http://www.facebook.com",
+    "https://en.wikipedia.org/wiki/GeoJSON",
+    "http://www.twitter.com",
+    "https://en.wikipedia.org/wiki/Tesla_(unit).",
+    "https://developers.google.com/fusiontables/docs/v2/getting_started",
+    "https://code.google.com/apis/console/",
+    "https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html",
+    "http://twitter.com/oauth_clients/new"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

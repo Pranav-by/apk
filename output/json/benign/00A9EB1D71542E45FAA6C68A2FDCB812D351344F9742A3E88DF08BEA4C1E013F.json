@@ -1,0 +1,84 @@
+{
+  "sha256": "00A9EB1D71542E45FAA6C68A2FDCB812D351344F9742A3E88DF08BEA4C1E013F",
+  "filename": "00A9EB1D71542E45FAA6C68A2FDCB812D351344F9742A3E88DF08BEA4C1E013F.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.apps.ethcurrency",
+  "version_name": "1.0.2",
+  "version_code": "2",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.QUERY_ALL_PACKAGES",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.apps.ethcurrency.MainActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.google.android.gms.ads.AdActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.facebook.ads.AudienceNetworkContentProvider",
+    "io.flutter.plugins.share.ShareFileProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider",
+    "androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7621,
+  "method_count": 34868,
+  "cert_fingerprint": "01 3F BB 50 0B E3 03 EF D3 B0 0E 1A C4 78 0B DC 6F 27 60 6A 1F 65 DE 74 54 2F 9E 9C EE 95 74 62",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://goo.gl/J1sWQy",
+    "https://googlemobileadssdk.page.link/admob-interstitial-policies",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://exoplayer.dev/issues/cleartext-not-permitted",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://developers.google.com/admob/android/test-ads#enable_test_devices",
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [
+    "6.8.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

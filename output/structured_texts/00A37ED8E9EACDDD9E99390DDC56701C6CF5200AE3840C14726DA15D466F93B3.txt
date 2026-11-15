@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : sa.gov.moi
+  SHA-256       : 00A37ED8E9EACDDD9E99390DDC56701C6CF5200AE3840C14726DA15D466F93B3
+  Android Group : Android14
+  Version       : 3.30.5 (code: 2586)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (29)]
+  android.permission.RECORD_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.BATTERY_STATS, sa.gov.moi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.hardware.camera.autofocus, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.BIND_AUTOFILL_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.apps.photos.permission.GOOGLE_PHOTOS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.USE_FINGERPRINT, android.permission.HIGH_SAMPLING_RATE_SENSORS
+
+[Application Components]
+  Activities (131): com.labiba.bot.Activities.LabibaVideoActivity, com.elm.android.individual.gov.service.visa.cancel.CancelPersonVisaActivity, com.labiba.bot.Activities.ChatBotCarActivity, com.elm.android.individual.gov.service.passport.update.UpdatePassportActivity, com.labiba.bot.Activities.Splashs.VoiceSettingsActivity, com.labiba.bot.Activities.Splashs.BojSplashActivity, com.elm.android.individual.gov.service.delivery.DocumentDeliveryActivity, com.labiba.bot.Activities.Splashs.BahrainSplashActivity, com.elm.android.individual.gov.service.muqeem_print.MuqeemPrintActivity, com.labiba.bot.Activities.ChatBotVoiceExperience, com.elm.android.individual.gov.service.sponsorship.transfer.TransferSponsorshipActivity, com.labiba.bot.Activities.Splashs.AlReyadhSplashActivity, com.elm.android.individual.gov.service.sponsorship.release.SponsorshipReleaseActivity, com.labiba.bot.Activities.Splashs.Sharja_SplashScreen, com.elm.android.individual.gov.service.passport.image_preview.FullScreenImagePreviewActivity, com.labiba.bot.Activities.Splashs.Nathealth_SplashScreen, com.elm.android.individual.gov.service.driving_license_v1.RenewDriverLicenseActivity, com.labiba.bot.Activities.ChatBotMainActivity, com.elm.android.individual.gov.service.driving_license_v2.renew.RenewDriverLicenseV2Activity, com.labiba.bot.Activities.Splashs.ChatBotLabibaSplashActivity
+  Services   (14): com.elm.network.models.dispatchLayoutStep3, com.elm.network.models.valueOfType, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.labiba.bot.Services.AgentClosingService, com.google.android.gms.measurement.AppMeasurementService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.elm.network.models.getDecoratedTop, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.elm.network.models.onAdapterChanged
+  Receivers  (13): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.elm.network.models.getColumnCountForAccessibility$IconCompatParcelizer, com.labiba.bot.Util.LanguageDetailsCheckerBroadcast, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.elm.network.models.getColumnCountForAccessibility$RemoteActionCompatParcelizer, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.elm.network.models.getColumnCountForAccessibility$MediaBrowserCompatCustomActionResultReceiver, com.elm.network.models.getHeightMode, androidx.profileinstaller.ProfileInstallReceiver, com.elm.network.models.getColumnCountForAccessibility$write, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (7): com.elm.network.models.findContainingItemView, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, com.oppwa.mobile.connect.provider.OppwaInitProvider, com.elm.network.models.sendEventForVirtualView, com.elm.network.models.getResizedDimension, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 56525
+  Total Methods : 259664
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Shahid Khan, Organizational Unit: MOI, Organization: ELM, Locality: RIYADH, State/Province: RIYADH, Country: SA
+  Fingerprint : 2E 97 D5 03 CD EC 8C 03 49 5E CD B2 7B 1D A2 47 3F 98 6C E0 19 23 A3 39 E9 74 41 1A A7 C3 35 4E
+
+==========================================

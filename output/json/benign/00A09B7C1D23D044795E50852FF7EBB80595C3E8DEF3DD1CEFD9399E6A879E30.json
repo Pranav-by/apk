@@ -1,0 +1,79 @@
+{
+  "sha256": "00A09B7C1D23D044795E50852FF7EBB80595C3E8DEF3DD1CEFD9399E6A879E30",
+  "filename": "00A09B7C1D23D044795E50852FF7EBB80595C3E8DEF3DD1CEFD9399E6A879E30.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.oohlala.lindseywilson",
+  "version_name": "2022.07.1100 (build 10504)",
+  "version_code": "829",
+  "min_sdk": "17",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.READ_CALENDAR",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.CAMERA",
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.WAKE_LOCK",
+    "android.permission.CALL_PHONE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 13,
+  "activities": [
+    "com.ready.controller.mainactivity.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 2,
+  "services": [
+    "com.ready.controller.service.REService",
+    "com.ready.controller.service.REAuthenticatorService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.ready.controller.service.REFirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 8,
+  "receivers": [
+    "com.ready.controller.receiver.OnAlarmEventReceiver",
+    "com.ready.controller.receiver.OnBootEventReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 8993,
+  "method_count": 53255,
+  "cert_fingerprint": "C5 C7 4B C8 54 A5 91 07 F6 0A 3E 29 15 7C E6 E1 02 9E FF 53 F0 5F C1 87 D5 0C 81 1F 8C 04 36 E5",
+  "cert_issuer": "Common Name: James",
+  "urls": [
+    "http://xmpp.org/rfcs/rfc6120.html#streams-error-conditions",
+    "http://jabber.org/protocol/compress"
+  ],
+  "ip_addresses": [
+    "4.7.2.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

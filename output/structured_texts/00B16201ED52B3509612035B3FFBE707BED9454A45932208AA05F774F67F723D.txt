@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.strickling.astroflight
+  SHA-256       : 00B16201ED52B3509612035B3FFBE707BED9454A45932208AA05F774F67F723D
+  Android Group : Android16
+  Version       : 2.1.3 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 14
+  Target SDK    : 36
+
+[Permissions (6)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (4): strickling.forms.Date_Input_Class, com.google.android.gms.common.api.GoogleApiActivity, com.strickling.astroflight.AstroFlight, com.strickling.astroflight.Location_Input
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 397
+  Total Methods : 1841
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://c.tiles.wmflabs.org/hikebike/, https://www.strickling.net/, https://otile2.mqcdn.com/tiles/1.0.0/sat/, https://otile4.mqcdn.com/tiles/1.0.0/map/, https://secure.geonames.org/timezone?lat=%.7f&lng=%.7f, https://a.tiles.wmflabs.org/hikebike/, https://overlay.openstreetmap.nl/roads/, https://overlay.openstreetmap.nl/openfietskaart-overlay/, https://c.tile.cloudmade.com/%s/%d/%d/%d/%d/%d%s?token=%s, https://basemap.nationalmap.gov/ArcGIS/rest/services/USGSTopo/MapServer/tile/
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Dr. Wolfgang Strickling, Locality: Haltern am See, State/Province: Germany, Country: DE
+  Fingerprint : 0D AF AB 73 79 F9 45 98 7B 36 AC 18 EE AB 9F DB 82 9B 94 9F B3 93 F3 06 EC 6A 9A 12 89 A9 67 4E
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : it.mobile3d.sangiusto
+  SHA-256       : 00B0E92380FFECBE8AFA4719D71FD2F5EC5ADC7DC931DD665A06D188447E87B3
+  Android Group : Android16
+  Version       : 1.2 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (9)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, it.mobile3d.sangiusto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (3): it.mobile3d.audioguide.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pairip.licensecheck.LicenseActivity
+  Services   (5): androidx.camera.core.impl.MetadataHolderService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, it.mobile3d.audioguide.ui.components.audioplayer.PlaybackService
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): com.google.mlkit.common.internal.MlKitInitProvider, com.pairip.licensecheck.LicenseContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 31202
+  Total Methods : 200705
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DE FE 78 FA D1 A0 75 8A 1B 21 D1 0B 80 EC 12 94 E7 5C 45 57 9D 62 47 C8 94 4A DD C0 F2 2C 42 E3
+
+==========================================

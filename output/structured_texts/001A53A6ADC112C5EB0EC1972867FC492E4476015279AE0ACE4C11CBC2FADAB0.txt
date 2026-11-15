@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bucbl.bank
+  SHA-256       : 001A53A6ADC112C5EB0EC1972867FC492E4476015279AE0ACE4C11CBC2FADAB0
+  Android Group : Android15
+  Version       : 1.0.3 (code: 10003)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.bucbl.bank.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.READ_PHONE_NUMBERS, android.permission.WRITE_CONTACTS, android.permission.USE_FINGERPRINT, android.permission.VIBRATE, android.permission.READ_CONTACTS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.BLUETOOTH, android.permission.USE_CREDENTIALS, android.permission.GET_ACCOUNTS, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.MANAGE_DOCUMENTS
+
+[Application Components]
+  Activities (6): com.bucbl.bank.MainActivity, com.cordovaplugincamerapreview.CameraActivity, com.soundcloud.android.crop.CropImageActivity, com.google.mlkit.vision.documentscanner.internal.GmsDocumentScanningDelegateActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (4): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (2): androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): com.google.mlkit.common.internal.MlKitInitProvider, nl.xservices.plugins.FileProvider, de.appplant.cordova.emailcomposer.Provider, org.apache.cordova.camera.FileProvider, androidx.core.content.FileProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9548
+  Total Methods : 53532
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B1 62 43 F5 13 11 28 2C 0F 93 D4 20 9B 9F CF 03 3D 54 1C 18 21 77 0F D2 46 71 A7 FF E7 82 FA 6C
+
+==========================================

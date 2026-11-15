@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : so.ateya.ahmed.Fadaal_Amaal_Lib_BN
+  SHA-256       : 005C0B9193D1CA5785E4A0BCA17B5D7D9B616F5DE6AEE93B4118C3A2FD0B725F
+  Android Group : Android12L
+  Version       : 3.0 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (19): so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.Details, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.Tafseer_Activity, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.ALL_Search, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.Note_Activity, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.Frag_Fav, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.Main_Expandable_List.Pop_Menu, com.google.android.gms.common.api.GoogleApiActivity, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.Container_Search, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.Sura_Activity, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.Splash, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.search_multi_books.SearchAtMultiBooks, com.google.android.gms.ads.AdActivity, pub.devrel.easypermissions.AppSettingsDialogHolderActivity, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.MainActivity, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.search_one_book.SearchAtOneBook, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.search_1book_FromDetails.SearchAt1Book_FromDetails, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.my_ads.MainApp, com.vungle.warren.ui.VungleActivity, so.ateya.ahmed.Fadaal_Amaal_Lib_BN.activies.Search_Activity
+  Services   (5): androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (8): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.vungle.warren.utility.VungleProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16713
+  Total Methods : 99334
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(2): 127.0.0.1, 6.12.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B7 06 B9 38 EB 38 D4 64 14 52 C1 6B 0C 7D F6 32 B7 22 5D DE F7 93 20 8B DB 56 98 68 A8 8C 49 E7
+
+==========================================

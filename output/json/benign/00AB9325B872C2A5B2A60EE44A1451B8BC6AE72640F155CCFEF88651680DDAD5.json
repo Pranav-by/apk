@@ -1,0 +1,74 @@
+{
+  "sha256": "00AB9325B872C2A5B2A60EE44A1451B8BC6AE72640F155CCFEF88651680DDAD5",
+  "filename": "00AB9325B872C2A5B2A60EE44A1451B8BC6AE72640F155CCFEF88651680DDAD5.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "de.ankumgloria.android",
+  "version_name": "1.0.73-b098733.ankum-gloria",
+  "version_code": "10073",
+  "min_sdk": "28",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "de.ankumgloria.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "de.mars.kinotickets.activities.WebActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "de.mars.kinotickets.activities.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "de.mars.kinotickets.activities.StartActivity",
+    "androidx.credentials.playservices.HiddenActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "de.mars.kinotickets.notifications.KinoTicketsFirebaseMessagingService",
+    "androidx.credentials.playservices.CredentialProviderMetadataHolder"
+  ],
+  "service_count": 7,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "dev.hotwire.core.files.util.HotwireFileProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 8494,
+  "method_count": 48553,
+  "cert_fingerprint": "E5 49 1F 5F 92 E7 24 EE E2 F2 A1 A6 05 94 6B FC DF FA C0 D2 75 52 70 05 09 62 58 78 FC 65 3F FC",
+  "cert_issuer": "Common Name: , Organizational Unit: , Organization: , Locality: , State/Province: , Country: ",
+  "urls": [
+    "https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#",
+    "https://goo.gle/compose-feedback"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

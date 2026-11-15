@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.weishitech.cutjianjiphone
+  SHA-256       : 00A43DC23CBD49DB8F144BDBCD599FCEC523FF769C0CD815FEE7A3EAA090FCE5
+  Android Group : Android12L
+  Version       : 1.0.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 32
+
+[Permissions (25)]
+  android.permission.RECORD_AUDIO, android.permission.VIBRATE, com.weishitech.cutjianjiphone.openadsdk.permission.TT_PANGOLIN, com.asus.msa.SupplementaryDID.ACCESS, android.permission.READ_MEDIA_VIDEO, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_PHONE_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.READ_PRIVILEGED_PHONE_STATE, com.weishitech.cutjianjiphone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.GET_TASKS, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.REORDER_TASKS, android.permission.ACCESS_NETWORK_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_MEDIA_IMAGES
+
+[Application Components]
+  Activities (143): com.weishitech.cutjianjiphone.ui.activity.VideoPlayActivity, com.anythink.core.activity.AnyThinkGdprAuthActivity, com.huawei.hms.videoeditor.ui.mediacrop.MediaCropActivity, com.anythink.basead.ui.ATLandscapeActivity, com.huawei.hms.videoeditor.ui.mediapick.activity.MediaPickActivity, com.anythink.basead.ui.ATPortraitActivity, com.huawei.hms.videoeditor.ui.mediapick.activity.PicturePickActivity, com.anythink.basead.ui.ATLandscapeTranslucentActivity, com.huawei.hms.videoeditor.ui.mediaeditor.cover.CoverImageActivity, com.huawei.hms.videoeditor.ui.mediaeditor.VideoClipsActivity, com.anythink.core.basead.ui.web.WebLandPageActivity, com.huawei.hms.videoeditor.ui.mediaexport.VideoExportActivity, com.anythink.basead.ui.RewardExitConfirmDialogActivity, com.huawei.hms.videoeditor.ui.MediaLauncherActivity, com.anythink.basead.ui.ATPortraitTranslucentActivity, com.huawei.hms.videoeditor.ui.mediaeditor.audio.activity.AudioExtractActivity, com.anythink.basead.ui.activity.ATMixSplashActivity, com.huawei.hms.videoeditor.ui.mediaeditor.audio.activity.AudioPickActivity, com.anythink.china.activity.TransparentActivity, com.huawei.hms.videoeditor.ui.mediaeditor.crop.CropNewActivity
+  Services   (15): com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.anythink.dlopt.common.service.ApkDownloadService, com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService, com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService, com.ss.android.socialbase.downloader.downloader.DownloadService, com.qq.e.comm.DownloadService, com.kwad.sdk.api.proxy.app.DownloadService, com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.huawei.agconnect.core.ServiceDiscovery, com.kwad.sdk.api.proxy.app.ServiceProxyRemote, com.bytedance.sdk.openadsdk.core.multipro.aidl.BinderPoolService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.ss.android.socialbase.appdownloader.DownloadHandlerService
+  Receivers  (4): com.bytedance.embedapplog.collector.Collector, com.ss.android.downloadlib.core.download.DownloadReceiver, com.anythink.dlopt.common.NotificationBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (19): com.anythink.dlopt.common.ApkFileProvider, com.baidu.mobads.sdk.api.BdFileProvider, com.kwad.sdk.api.proxy.app.AdSdkFileProvider, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.byted.live.lite.ServerManager_bytelive, com.byted.live.lite.ServerManager_push, com.byted.live.lite.ServerManager_downloader, com.bytedance.sdk.openadsdk.stub.server.MainServerManager, androidx.startup.InitializationProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.noober.background.BackgroundContentProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.qq.e.comm.GDTFileProvider, com.bytedance.pangle.FileProvider, razerdp.basepopup.BasePopupInitializer, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, androidx.core.content.FileProvider, com.bytedance.pangle.provider.MainProcessProviderProxy
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 35419
+  Total Methods : 241356
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 3.473.10.439, 100.100.100.200
+
+[Certificate]
+  Issuer      : Common Name: xgkjh
+  Fingerprint : 57 BB F5 3C 25 7F 7F DA 35 5F 5B 18 94 28 CC CA E2 E3 5F 74 1E B5 91 5C 52 98 05 1A 40 A5 91 A2
+
+==========================================

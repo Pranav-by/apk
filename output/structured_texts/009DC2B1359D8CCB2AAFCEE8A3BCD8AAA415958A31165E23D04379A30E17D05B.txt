@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.free074a81ba94cf6951221ca03606d56.user.ebookg0003971jacquelinecomplete000mmeblancthbentzon001.release
+  SHA-256       : 009DC2B1359D8CCB2AAFCEE8A3BCD8AAA415958A31165E23D04379A30E17D05B
+  Android Group : Android13
+  Version       : 1.0.60 (code: 60)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, com.free074a81ba94cf6951221ca03606d56.user.ebookg0003971jacquelinecomplete000mmeblancthbentzon001.release.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (6): com.free074a81ba94cf6951221ca03606d56.user.mind.ui.UI_setting, com.google.android.gms.oss.licenses.OssLicensesMenuActivity, com.free074a81ba94cf6951221ca03606d56.user.mind.ui.UI_app, com.google.android.gms.oss.licenses.OssLicensesActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity
+  Services   (5): com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (8): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (2): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16842
+  Total Methods : 105372
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Country: US
+  Fingerprint : 7A 84 79 60 71 5E B0 D8 A7 89 D8 05 E5 6F F2 82 A3 B0 FF 53 F0 60 94 93 4D 30 96 66 B4 9E 44 97
+
+==========================================

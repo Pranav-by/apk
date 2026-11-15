@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ninebx
+  SHA-256       : 0059AEF89B78672CB8A16B0E7E9951461555AF3F4A9DFDE97650A7C7E49F4D2B
+  Android Group : Android13
+  Version       : 0.0.0.203 (code: 203)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 33
+
+[Permissions (43)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, com.ninebx.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+
+[Application Components]
+  Activities (24): com.ninebx.ui.home.WebViewActivity, build.gist.presentation.GistModalActivity, com.ninebx.ui.home.HomeActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.PermissionsActivity, com.ninebx.ui.home.contacts.ui.contact.ContactsActivity, com.onesignal.NotificationOpenedReceiver, com.ninebx.ui.home.chat.MessageBoard, com.ninebx.ui.home.account.PlanCompareActivity, com.facebook.FacebookActivity, com.ninebx.ui.home.account.subscriptionPlan.SubscriptionActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.android.billingclient.api.ProxyBillingActivity, com.ninebx.ui.home.ContainerActivity, com.ninebx.ui.auth.AuthActivity, com.ninebx.ui.ShareActivity, com.ninebx.ui.tutorial.activity.WalkThroughActivity
+  Services   (27): com.onesignal.SyncJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.ninebx.utility.NotificationIntentService, com.google.android.gms.measurement.AppMeasurementService, com.evernote.android.job.v21.PlatformJobService, com.onesignal.FCMIntentJobService, com.ninebx.utility.LocalCopyDeleteIntentService, com.evernote.android.job.v14.PlatformAlarmService, com.evernote.android.job.v14.PlatformAlarmServiceExact, com.evernote.android.job.gcm.PlatformGcmService, com.evernote.android.job.JobRescheduleService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.onesignal.HmsMessageServiceOneSignal, com.ninebx.utility.AWSFileService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.FCMIntentService, com.onesignal.SyncService, com.ninebx.utility.firebase.SortifydMessagingService
+  Receivers  (22): com.google.android.gms.measurement.AppMeasurementReceiver, com.evernote.android.job.v14.PlatformAlarmReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.onesignal.BootUpReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.evernote.android.job.JobBootReceiver, com.ninebx.utility.AlarmReceiver, com.appsflyer.SingleInstallBroadcastReceiver, io.customer.messagingpush.CustomerIOPushReceiver
+  Providers  (4): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 28535
+  Total Methods : 196929
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/android/getting-started#add-app_id, http://www.ngs.ac.uk/tools/jcepolicyfiles
+  IP Addresses(4): 127.0.0.1, 2.5.29.19, 2.5.29.15, 2.5.29.37
+
+[Certificate]
+  Issuer      : Common Name: Manish Goel, Organizational Unit: NineBx Inc., Organization: NineBx Inc., Locality: Columbus, State/Province: IN, Country: US
+  Fingerprint : AD 76 2B 89 D8 EC 83 37 ED 67 2A 8A 43 EC 05 12 64 05 3C 26 66 04 8B 6A 87 79 2A C9 E3 8A A4 1E
+
+==========================================

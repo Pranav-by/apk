@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cenaapps.footmehndidesign
+  SHA-256       : 0008E6D89136C22F785A145D93DBE7224F08F4BD4A05DC7D9B92FEFEA6F7CF03
+  Android Group : Android12L
+  Version       : 3.2 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (11)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.SET_WALLPAPER, android.permission.SET_WALLPAPER_HINTS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (37): com.applovin.mediation.MaxDebuggerActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.cenaapps.footmehndidesign.activities.ActivitySettings, com.applovin.adview.AppLovinInterstitialActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.cenaapps.footmehndidesign.activities.ActivitySplash, com.canhub.cropper.CropImageActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.cenaapps.footmehndidesign.activities.ActivityCategoryDetail, com.cenaapps.footmehndidesign.activities.MainActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.cenaapps.footmehndidesign.activities.ActivitySearch, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, com.cenaapps.footmehndidesign.activities.ActivityWebView, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.startapp.sdk.adsbase.consent.ConsentActivity, com.google.android.gms.common.api.GoogleApiActivity, com.cenaapps.footmehndidesign.activities.ActivityNotificationDetail
+  Services   (12): com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.startapp.sdk.cachedservice.BackgroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.startapp.sdk.jobs.SchedulerService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.applovin.impl.sdk.utils.AppKilledService, com.cenaapps.footmehndidesign.services.SetGIFAsWallpaperService, com.google.android.gms.ads.AdService
+  Receivers  (9): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (6): com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.applovin.sdk.AppLovinInitProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.canhub.cropper.CropFileProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 20545
+  Total Methods : 121743
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://play.google.com/store/apps/details?id=, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(3): 20.5.0.2, 6.8.0.0, 6.8.0.2
+
+[Certificate]
+  Issuer      : Country: ID
+  Fingerprint : AE CB 88 AC B4 D5 3B 00 40 3C F1 3A B8 62 6C AF F2 22 53 8A E7 E7 DF 8D 07 4D C8 EA 40 B7 33 1C
+
+==========================================

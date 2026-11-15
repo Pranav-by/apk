@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ero.kinoko
+  SHA-256       : 00484C71732E6383E7E60D6C8932DB2900A54B7226D7333D022C18823E5287FE
+  Android Group : Android12
+  Version       : 4.3.0 (code: 91)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 31
+
+[Permissions (8)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.USE_FULL_SCREEN_INTENT
+
+[Application Components]
+  Activities (2): com.ero.kinoko.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (1): io.flutter.plugins.androidalarmmanager.AlarmService
+  Receivers  (4): io.flutter.plugins.androidalarmmanager.RebootBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, io.flutter.plugins.androidalarmmanager.AlarmBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2023
+  Total Methods : 13033
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D0 A2 DC 5B 56 57 11 25 B5 28 9D E5 96 7A 0B 51 4A 4B 30 F6 D9 D4 15 51 B5 E1 30 EB 26 43 F1 F6
+
+==========================================

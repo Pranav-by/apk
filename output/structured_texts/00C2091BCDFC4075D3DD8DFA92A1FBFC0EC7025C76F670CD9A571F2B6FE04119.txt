@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kinoli.giftcardgranny
+  SHA-256       : 00C2091BCDFC4075D3DD8DFA92A1FBFC0EC7025C76F670CD9A571F2B6FE04119
+  Android Group : Android12
+  Version       : 8.1.6 (code: 207113)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (28): com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.yalantis.ucrop.UCropActivity, com.facebook.react.devsupport.DevSettingsActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.kinoli.giftcardgranny.MainActivity, com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.stripe.android.link.LinkActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.googlepaylauncher.StripeGooglePayActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.view.PaymentAuthWebViewActivity
+  Services   (8): com.smartlook.android.job.worker.internallog.UploadInternalLogJob, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.smartlook.android.job.worker.record.UploadRecordJob, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.smartlook.android.job.worker.session.UploadSessionJob, com.smartlook.android.job.worker.record.ProcessVideoDataJob
+  Receivers  (4): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (9): io.sentry.android.core.SentryInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.startup.InitializationProvider, com.smartlook.android.SmartlookInstaller, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 33160
+  Total Methods : 206390
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Jake Wilson, Organizational Unit: Development, Organization: Kinoli, Locality: Windsor, State/Province: Colorado, Country: US
+  Fingerprint : 20 7D D4 24 F3 EB 3D 4E 4A D2 D0 FE 03 F2 08 A4 D7 C9 95 D9 B1 D8 06 69 1F 57 52 C8 B1 8E 5D 15
+
+==========================================

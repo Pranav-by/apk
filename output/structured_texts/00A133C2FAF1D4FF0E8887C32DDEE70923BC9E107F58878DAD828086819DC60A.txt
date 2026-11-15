@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : lu.loschdigital.svv
+  SHA-256       : 00A133C2FAF1D4FF0E8887C32DDEE70923BC9E107F58878DAD828086819DC60A
+  Android Group : Android14
+  Version       : v2.9.63 (code: 280449)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 34
+
+[Permissions (11)]
+  android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, lu.loschdigital.svv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (29): com.kussbus.MainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, net.openid.appauth.RedirectUriReceiverActivity, com.google.android.gms.common.api.GoogleApiActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity, com.stripe.android.googlepaylauncher.StripeGooglePayActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.view.PaymentFlowActivity, com.stripe.android.ui.core.cardscan.CardScanActivity
+  Services   (9): com.burnweb.rnsendintent.RNSendIntentModule, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService
+  Receivers  (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, org.matomo.sdk.extra.InstallReferrerReceiver
+  Providers  (8): androidx.startup.InitializationProvider, com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, com.burnweb.rnsendintent.FileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.RNFetchBlob.Utils.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 34588
+  Total Methods : 215635
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 84 E9 D0 ED FC 37 8C D1 DF A6 C0 E6 DB 31 20 29 60 53 F9 50 FD FA D8 E2 97 7C 7B B2 18 68 72 9F
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wildflowersearch.orwildflowers
+  SHA-256       : 009CE657C3E068F0037A5395650FC37E942824848691551BE8F853C428D70B3A
+  Android Group : Android14
+  Version       : 9.400 (code: 85)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (5)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_FINE_LOCATION, com.wildflowersearch.orwildflowers.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (10): com.wildflowersearch.orwildflowers.PlantLists, com.wildflowersearch.orwildflowers.SearchMenu, com.wildflowersearch.orwildflowers.DisplayWebpageActivity, com.wildflowersearch.orwildflowers.ThumbScroller, com.wildflowersearch.orwildflowers.ViewPlantLists, com.wildflowersearch.orwildflowers.ShowNames, com.google.android.gms.common.api.GoogleApiActivity, com.wildflowersearch.orwildflowers.TimePlace, com.wildflowersearch.orwildflowers.EditObservation, com.wildflowersearch.orwildflowers.DisplayWebpage2
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 7675
+  Total Methods : 54831
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Steve Sullivan, Locality: Beaverton, State/Province: Oregon, Country: US
+  Fingerprint : 4D B0 2E 32 61 01 D8 4C 79 B2 1A 28 3A 21 50 36 83 AA F0 62 3A 40 B8 0B 61 1F 5D 51 2F 8A 37 9E
+
+==========================================

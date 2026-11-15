@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.stream.capitalradio
+  SHA-256       : 0057E5D18D48B56864BA74790EE240A29E7149F41EF150227E5245BD84DC9C8F
+  Android Group : Android12
+  Version       : 11 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 31
+
+[Permissions (8)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (10): com.listen.capitalfmug.XMainpageActivity, com.listen.capitalfmug.XMultiRadioMainActivity, com.listen.capitalfmug.XRadioShowUrlActivity, com.listen.capitalfmug.XFeedBackActivity, com.listen.capitalfmug.XSingleRadioMainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.ads.AudienceNetworkActivity, com.listen.capitalfmug.XRadioSplashActivity, com.listen.capitalfmug.XRadioGrantActivity, com.google.android.gms.ads.AdActivity
+  Services   (14): com.google.android.gms.ads.AdService, com.firebase.jobdispatcher.GooglePlayReceiver, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.listen.capitalfmug.stream.service.YPYStreamService, com.listen.capitalfmug.firebasemsg.XRadioFBMessagingService, com.listen.capitalfmug.firebasemsg.XRadioJobService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.listen.capitalfmug.stream.service.YPYIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (4): com.facebook.ads.AudienceNetworkContentProvider, androidx.work.impl.WorkManagerInitializer, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11645
+  Total Methods : 66044
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F3 5D 4F A9 BD A5 5B F0 2B D6 C7 81 BC F2 89 E1 0A 94 70 EC 88 BB 75 72 BB 9A CF D7 C2 01 5B 5C
+
+==========================================

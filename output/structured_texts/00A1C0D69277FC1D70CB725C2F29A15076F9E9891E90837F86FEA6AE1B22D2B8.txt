@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.globo.globotv
+  SHA-256       : 00A1C0D69277FC1D70CB725C2F29A15076F9E9891E90837F86FEA6AE1B22D2B8
+  Android Group : Android15
+  Version       : 3.537.0 (code: 1000120)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (45)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_CREDENTIALS, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.BLUETOOTH_ADMIN, android.permission.MANAGE_ACCOUNTS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, com.globo.globotv.permission.PUSHIO_MESSAGE, android.permission.WRITE_SYNC_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.GET_ACCOUNTS
+
+[Application Components]
+  Activities (67): com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.globo.globotv.accountchooser.edit.mobile.AccountEditCreateActivity, com.salesforce.marketingcloud.notifications.NotificationOpenActivity, com.globo.globotv.splashmobile.SplashActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.globo.globotv.tutorialmobile.TutorialActivity, androidx.compose.ui.tooling.PreviewActivity, com.globo.globotv.mainmobile.MainActivity, com.globo.globotv.profilemobile.ProfileActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.globo.globotv.helpmobile.HelpActivity, com.salesforce.android.smi.ui.MessagingInappActivity, com.google.android.gms.ads.AdActivity, com.globo.globotv.videolanscapemobile.VideoLandscapeActivity, com.salesforce.marketingcloud.messages.iam.IamModalActivity, org.prebid.mobile.rendering.views.browser.AdBrowserActivity, com.globo.globotv.salesmobilenew.SalesDetailsActivity, androidx.glance.appwidget.action.ActionTrampolineActivity, com.globo.globotv.videoportraitmobile.VideoPortraitActivity
+  Services   (27): com.globo.video.player.plugin.core.notification.MediaNotificationService, com.globo.globotv.widgetmobile.LiveWidgetService, com.globo.globotv.gamemobile.OnClearFromRecentService, com.globo.globotv.push.FirebaseMessagingReceiver, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.globo.globotv.npaw.OnClearFromRecentService, com.salesforce.marketingcloud.MCService, com.salesforce.marketingcloud.NotificationOpenedService, com.salesforce.marketingcloud.messages.push.MCFirebaseMessagingService, org.altbeacon.beacon.service.BeaconService, com.urbanairship.push.fcm.AirshipFirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.globo.video.d2globo.platform.exoplayer.download.ExoplayerDownloadService, androidx.media3.exoplayer.scheduler.PlatformScheduler$PlatformSchedulerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.firebase.components.ComponentDiscoveryService, androidx.glance.appwidget.GlanceRemoteViewsService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (25): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.urbanairship.locale.LocaleChangeReceiver, com.globo.globotv.widgetmobile.LiveWidgetReceiver, com.globo.globotv.widgetmobile.LiveWidgetBroadcastReceiver, com.globo.globotv.download.notification.DownloadNotificationBroadcastReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, com.globo.globotv.inappupdate.CompleteInstallationReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.salesforce.marketingcloud.notifications.PushNotificationActionHandler, com.salesforce.marketingcloud.location.LocationReceiver, com.salesforce.marketingcloud.MCReceiver, com.urbanairship.push.NotificationProxyReceiver, tv.com.globo.globocastsdk.view.castControls.background.PlaybackControlsBroadcast, com.qualtrics.digital.QualtricsNotificationManager, com.google.android.gms.cast.framework.media.MediaIntentReceiver, navegg.broadcast.VerifyStateConnection, androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver, androidx.glance.appwidget.UnmanagedSessionReceiver, androidx.glance.appwidget.MyPackageReplacedReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (7): com.squareup.picasso.PicassoProvider, com.salesforce.android.smi.ui.UIFileProvider, com.salesforce.marketingcloud.MCInitContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.salesforce.marketingcloud.sfmcsdk.SFMCSdkInitContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 26
+  Total Classes : 111775
+  Total Methods : 647447
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: globo.tv, Organizational Unit: webmedia, Organization: globo.com, Locality: Rio de Janeiro, State/Province: RJ, Country: BR
+  Fingerprint : B9 56 B1 48 16 32 B9 D2 52 B5 14 E1 A6 9B D4 84 6F 7E EA F7 39 3D 59 55 60 AD A4 6B 60 6A DF E7
+
+==========================================

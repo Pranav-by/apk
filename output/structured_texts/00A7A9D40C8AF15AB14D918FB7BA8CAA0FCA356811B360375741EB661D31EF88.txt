@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.apazine.floral
+  SHA-256       : 00A7A9D40C8AF15AB14D918FB7BA8CAA0FCA356811B360375741EB661D31EF88
+  Android Group : Android15
+  Version       : 5.8.3 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (35)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.apazine.floral.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.READ_APP_BADGE, com.sec.android.provider.badge.permission.WRITE
+
+[Application Components]
+  Activities (13): com.artifex.mupdf.mini.OutlineActivity, com.artifex.mupdf.mini.DocumentActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.facebook.CustomTabActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.FacebookActivity, com.artifex.mupdf.mini.YoutubeVideoActivity, com.facebook.CustomTabMainActivity, com.facebook.react.devsupport.DevSettingsActivity, com.artifex.mupdf.mini.VimeoWebView, com.apazine.floral.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (10): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, io.invertase.firebase.messaging.RNFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService
+  Receivers  (7): com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.learnium.RNDeviceInfo.RNDeviceReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (6): com.reactnativecommunity.webview.RNCWebViewFileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.RNFetchBlob.Utils.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19293
+  Total Methods : 123313
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(4): 10.0.2.2, 10.0.1.1, 10.0.3.2, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Dean Woodford, Organizational Unit: Apazine Inc., Organization: Apazine inc.
+  Fingerprint : AA 58 9B 4F 87 89 D8 9A 21 87 A3 0D 11 A5 B9 AF 32 3A A1 B8 57 EF 42 37 30 62 CD 08 1A 78 88 7E
+
+==========================================

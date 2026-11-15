@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.livibank.hk
+  SHA-256       : 003EF38510DB6FF326728BC70E2631A52054368395894D29D322C9DC00FF7057
+  Android Group : Android12
+  Version       : 2.8.0 (code: 233)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 31
+
+[Permissions (44)]
+  android.permission.RAISED_THREAD_PRIORITY, android.permission.VIBRATE, android.permission.INTERACT_ACROSS_USERS, android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.USE_BIOMETRIC, com.livibank.hk.RECEIVE_AUDIT_LOG, android.permission.GET_TASKS, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (90): com.tradelink.card.scan.card2003FV.Card2003FvActivity, com.alipay.pushsdk.thirdparty.MPaaSNcActivity, com.jd.jr.module.kyc.ui.activity.EKYCHKIDCardGuideTransParentActivity, com.jd.hkcard.media.CardIOActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.tradelink.card.scan.card2003FV.Card2003FvCardIOActivity, jd.core.ui.CardRecognizeActivity, com.jd.ijr.activity.JrWebConBussinessActivity_2, com.jd.jr.common.verify_ui.VerifyOcrActivity, com.jd.jr.common.splash.activity.LaunchActivity, com.salesforce.marketingcloud.messages.iam.IamModalActivity, com.jd.jr.vb.securitycenter.verify.ui.SecurityCenterMainActivity, com.jd.jr.vb.securitycenter.verify.ui.FlutterSecurityCenterMainActivity, com.jd.jr.common.deeplink.BusTransitionalActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.jd.jr.vb.securitycenter.softtoken.password.ui.ConfirmPwdActivity, com.jd.jr.lib.fileexplore.SelectFileByScanActivity, com.livibank.digisign.TradeLinkActivity, com.jd.jr.vb.securitycenter.softtoken.securitycode.ui.SecurityCodeActivity, com.jd.jr.vb.securitycenter.softtoken.sme.gate.ui.SoftTokenSettingActivity
+  Services   (48): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.alipay.mobile.quinox.classloader.DexOptServiceInToolsProcess, com.alipay.pushsdk.push.AppInfoRecvIntentService, com.alipay.mobile.quinox.preload.PreloadService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.alipay.mobile.quinox.preload.MainPldService, com.alipay.mobile.quinox.preload.ExcaliburService, com.alipay.mobile.common.logging.process.LogServiceInlite1, androidx.camera.core.impl.MetadataHolderService, com.alipay.mobile.common.logging.process.LogServiceInlite2, com.alipay.mobile.logmonitor.ClientMonitorService, androidx.room.MultiInstanceInvalidationService, com.alipay.mobile.common.logging.process.LogServiceInlite3, com.google.android.gms.tagmanager.TagManagerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.alipay.mobile.common.logging.process.LogServiceInlite4, com.google.android.gms.analytics.AnalyticsService, com.alipay.mobile.common.logging.process.LogServiceInlite5, com.jd.ijr.dev.LogSender2.LogService2, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (23): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.alipay.pushsdk.BroadcastActionReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.jd.jr.common.service.GAEventReceiver, com.huawei.hms.support.api.push.PushReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.salesforce.marketingcloud.MCReceiver, com.salesforce.marketingcloud.sfmcsdk.SFMCSdkReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.alipay.mobile.logmonitor.TraceStubReceiver, com.alipay.mobile.logmonitor.ClientMonitorExtReceiver
+  Providers  (14): com.oblador.performance.StartTimeProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.jd.TimberInstaller, com.blankj.utilcode.util.UtilsFileProvider, androidx.core.content.FileProvider, com.jd.jr.lib.WidgetFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.salesforce.marketingcloud.MCInitContentProvider, androidx.startup.InitializationProvider, com.salesforce.marketingcloud.sfmcsdk.SFMCSdkInitContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 55089
+  Total Methods : 357440
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Livi Mobile App, Organizational Unit: IT, Organization: Livi VB Limited, Locality: Hong Kong, State/Province: Hong Kong, Country: HK
+  Fingerprint : 85 9B D2 BB 3D E9 C8 E5 62 9E D5 DE 1B EF E7 91 35 38 5A B4 64 A9 19 E9 3E 0E 35 E8 F4 18 39 55
+
+==========================================

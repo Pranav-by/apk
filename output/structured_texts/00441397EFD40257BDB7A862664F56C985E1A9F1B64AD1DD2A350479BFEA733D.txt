@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.bhjob.NI2DD730B
+  SHA-256       : 00441397EFD40257BDB7A862664F56C985E1A9F1B64AD1DD2A350479BFEA733D
+  Android Group : Android14
+  Version       : 2.1.6 (code: 216)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (39)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.WRITE_CLIPBOARD, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.READ_LOGS, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, getui.permission.GetuiService.io.bhjob.NI2DD730B, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, io.bhjob.NI2DD730B.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_USER_PRESENT
+
+[Application Components]
+  Activities (22): com.sina.weibo.sdk.web.WebActivity, com.tencent.connect.common.AssistActivity, com.sina.weibo.sdk.share.ShareTransActivity, io.dcloud.feature.nativeObj.photoview.PhotoActivity, io.dcloud.WebAppActivity, io.dcloud.WebviewActivity, com.dmcbig.mediapicker.PickerActivity, com.dmcbig.mediapicker.PreviewActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, io.dcloud.share.mm.WXShareProcessMeadiatorActivity, io.dcloud.sdk.activity.WebViewActivity, uts.sdk.modules.DCloudUniMedia.SystemPickerActivity, com.xinchao.trtcvideo.TRTCMainActivity, com.igexin.sdk.GetuiActivity, io.dcloud.ProcessMediator, com.igexin.sdk.PopupActivity, com.xinchao.trtcvideo.TRTCMainActivity_Call, io.dcloud.PandoraEntry, io.dcloud.PandoraEntryActivity, com.tencent.tauth.AuthActivity
+  Services   (9): com.getui.gtc.GtcService, com.amap.api.location.APSService, com.igexin.sdk.PushService, com.igexin.sdk.GTIntentService, io.dcloud.sdk.base.service.DownloadService, com.igexin.sdk.GService, io.dcloud.feature.unipush.GTNormalIntentService, io.dcloud.feature.unipush.CustomGTService, com.amap.api.location.APSService
+  Receivers  (2): androidx.profileinstaller.ProfileInstallReceiver, com.taobao.weex.WXGlobalEventReceiver
+  Providers  (5): com.sina.weibo.sdk.content.FileProvider, io.dcloud.common.util.DCloud_FileProvider, io.dcloud.sdk.base.service.provider.DCloudAdFileProvider, com.getui.gtc.base.GtcProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19745
+  Total Methods : 137952
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): http://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明
+  IP Addresses(1): 1.0.1.0
+
+[Certificate]
+  Issuer      : Common Name: ypt, Organizational Unit: xinchao, Organization: ypt, Locality: shuyang, State/Province: jiangsu, Country: cn
+  Fingerprint : 9B F7 9F 27 C5 FE 9C C9 2C B1 01 17 7F BD 29 75 AF FF 25 97 E0 D8 99 12 13 F8 80 BB 36 96 B8 B8
+
+==========================================

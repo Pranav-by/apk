@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : livetv.ajvm
+  SHA-256       : 008889A967A55A0921F2CD3D44A2EED9B2923FF4CA345B347753200578FD7310
+  Android Group : Android12
+  Version       : 9.9 (code: 9)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (10)]
+  com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (83): com.facebook.CustomTabActivity, livetv.ajvm.finalizar, com.ironsource.sdk.controller.InterstitialActivity, com.ironsource.sdk.controller.ControllerActivity, com.applovin.adview.AppLovinFullscreenActivity, com.facebook.CustomTabMainActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.startapp.sdk.adsbase.consent.ConsentActivity, com.startapp.sdk.ads.interstitials.OverlayActivity
+  Services   (30): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.auth.api.signin.RevocationBoundService, livetv.ajvm.s_widget_vistafb, livetv.ajvm.s_cargar_icos, com.google.firebase.iid.FirebaseInstanceIdService, livetv.ajvm.s_cargar_sliderheader, livetv.ajvm.s_cargar_fondo, livetv.ajvm.s_cargar_icos_gen, com.startapp.sdk.cachedservice.BackgroundService, livetv.ajvm.s_guardarperfil, livetv.ajvm.s_mediaplayer_exo, livetv.ajvm.RegistrationIntentService, com.startapp.sdk.jobs.SchedulerService, livetv.ajvm.MyFcmListenerService, androidx.work.impl.background.systemalarm.SystemAlarmService, livetv.ajvm.MyInstanceIDListenerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.cast.framework.ReconnectionService, com.applovin.impl.sdk.utils.AppKilledService
+  Receivers  (15): com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, livetv.ajvm.alarma_rss
+  Providers  (11): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, livetv.ajvm.MySuggestionProvider, livetv.ajvm.StickerContentProvider, com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, livetv.ajvm.bd_provider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 24788
+  Total Methods : 140527
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : BB E9 06 E2 FF 97 E8 1E D6 46 60 DA 76 45 3D CE 30 1B 5F FA 68 C6 1A 75 71 B8 30 A6 59 97 06 60
+
+==========================================

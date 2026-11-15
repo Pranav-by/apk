@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : tool.notepad.notes.notebooks
+  SHA-256       : 00A00BD37E351D7AC2A292D639E719E21DB23188AF6A9B4A897374ED52FB5391
+  Android Group : Android13
+  Version       : 2.8.0 (code: 280)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (22)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.EXPAND_STATUS_BAR, android.permission.POST_NOTIFICATIONS, android.permission.READ_MEDIA_VIDEO, android.permission.USE_BIOMETRIC, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.MOUNT_UNMOUNT_FILESYSTEM, android.permission.WRITE_SETTINGS, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_MEDIA_IMAGES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (36): net.micode.notes.activity.WidgetNoteSelectActivity1X, com.ijoysoft.crop.UCropActivity, net.micode.notes.activity.SetBookCoverActivity, net.micode.notes.activity.BackupLocalActivity, net.micode.notes.activity.WidgetSelectActivity, net.micode.notes.activity.BackupAndSyncActivity, net.micode.notes.activity.WidgetNoteSelectActivity4X, com.ijoysoft.photoeditor.activity.CropActivity, com.google.android.gms.ads.AdActivity, net.micode.notes.activity.SearchNoteActivity, com.ijoysoft.appwall.display.GiftActivity, net.micode.notes.activity.SelectFolderActivity, net.micode.notes.activity.FolderSearchActivity, net.micode.notes.activity.SettingsActivity, com.ijoysoft.richeditorlibrary.activity.VideoPlayActivity, net.micode.notes.activity.WidgetActivity, com.lb.library.permission.AppSettingsDialogHolderActivity, com.ijoysoft.richeditorlibrary.activity.NotePicShowActivity, com.google.android.gms.common.api.GoogleApiActivity, com.ijoysoft.appwall.display.GiftDisplayActivity
+  Services   (8): net.micode.notes.service.NoteRemoteViewService, com.ijoysoft.richeditorlibrary.service.NoteService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (16): net.micode.notes.widget.NoteWidgetProvider_2x, com.ijoysoft.test.TestTriggerReceiver, net.micode.notes.widget.NoteWidgetProvider_4x, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, net.micode.notes.widget.EntityWidget, net.micode.notes.widget.CreateWidget, net.micode.notes.widget.ListWidget, net.micode.notes.widget.NoteWidgetProvider_1x, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.ijoysoft.richeditorlibrary.receiver.NotificationReceiver
+  Providers  (3): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18024
+  Total Methods : 104062
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: iJoysoft, Organizational Unit: iJoysoft, Organization: iJoysoft
+  Fingerprint : 5A A6 D2 4C 55 19 09 2A 89 CC E9 22 60 F9 99 B1 D8 3A BB 93 52 08 7B 6E 46 45 EE 55 2C 09 44 1E
+
+==========================================

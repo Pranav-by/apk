@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : it.sygest.machinerycheck
+  SHA-256       : 00A814E13A40603EA359684BC938BF7704278939FCDC4568A9623E2EBA7FBC41
+  Android Group : Android16
+  Version       : 1.25 (code: 25)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 36
+
+[Permissions (7)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (8): crc6436ccf1d738b0c3ef.SplashScreen, crc64a0e0a82d0db9a07d.IntermediateActivity, crc646957603ea1820544.MediaPickerActivity, crc64bc0f18753f406e4b.MainActivity, crc64ed1888fb4925e3b7.AuthenticationAgentActivity, microsoft.identity.client.AuthenticationActivity, crc6421a7cf153f1334b5.MsalActivitySidel, crc6421a7cf153f1334b5.MsalActivitySygest
+  Services   (0): none
+  Receivers  (2): crc64cea48322b3427ae9.ConnectivityChangeBroadcastReceiver, crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver
+  Providers  (3): mono.MonoRuntimeProvider, xamarin.essentials.fileProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4466
+  Total Methods : 35652
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Luigi Capuzzello, Organizational Unit: Sygest s.r.l., Organization: Sygest s.r.l., Locality: Lemignano di Collecchio, State/Province: PR, Country: IT
+  Fingerprint : 24 76 3F 4D A0 35 65 5D 79 35 DC 8C 93 D8 FF 23 B9 05 CC A7 43 14 1F 9E 4B A2 89 A9 E8 26 7E C1
+
+==========================================

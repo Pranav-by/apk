@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kalsefer.android.app
+  SHA-256       : 00A6D5DF89B83DB30EC4B5B88FE9A6A27EF8FC6A23198612519074C17E0D722F
+  Android Group : Android14
+  Version       : 4.4.2 (code: 141)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_SETTINGS, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, com.kalsefer.android.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WRITE_EXTERNAL_STORAGE, com.kalsefer.android.app.permission.C2D_MESSAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (22): com.kalsefer.app.ui.activities.SplashMainActivity, com.kalsefer.app.ui.mobileActivities.AddNoteActivity, com.kalsefer.app.ui.mobileActivities.BookReaderMobileViewPagerActivity, com.kalsefer.app.ui.activities.InternalWebBrowserActivity, com.kalsefer.app.ui.NoteEditor, com.kalsefer.app.ui.NoteViewer, com.google.android.gms.common.api.GoogleApiActivity, com.kalsefer.app.ui.activities.ProgressBarActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.kalsefer.app.ui.activities.BookMarkDialogActivity, com.kalsefer.app.ui.mobileActivities.DisplayNoteActivity, com.kalsefer.app.ui.activities.MainActivity, com.kalsefer.app.ui.activities.YoutubeActivity, com.kalsefer.app.ui.mobileActivities.DisplayBookMediaActivity, com.kalsefer.app.ui.activities.ForgetPasswordActivity, com.kalsefer.app.ui.mobileActivities.AddBookmarkActivity, com.kalsefer.app.ui.activities.LoginActivity, com.kalsefer.app.ui.mobileActivities.FiltersActivity, com.kalsefer.app.ui.mobileActivities.GoToPageActivity, com.kalsefer.app.ui.mobileActivities.ShareGroupsActivity
+  Services   (10): com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.kalsefer.app.notifications.MyFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (4): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (5): androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.pdftron.pdf.utils.ShareProvider, com.pdftron.pdf.utils.PDFTronToolsInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 29553
+  Total Methods : 224011
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Kostya Gorel, Organizational Unit: Unknown, Organization: Kalsefer, Locality: Unknown, State/Province: Israel, Country: IL
+  Fingerprint : 7C DA C5 F1 B2 DF E3 94 2D 10 8B 83 3D FD B5 65 34 C6 0A F5 C5 08 A1 96 19 51 06 00 A0 09 CF 98
+
+==========================================

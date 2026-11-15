@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.teamjin.deliveryk
+  SHA-256       : 00861A886D062B9C7B2C54DEAFD052743F495E0E2804F4B24795CFF348AF2632
+  Android Group : Android12L
+  Version       : 6.5.8 (code: 60508)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (37)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.gms.permission.ACTIVITY_RECOGNITION, android.permission.WRITE_SYNC_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, android.permission.AUTHENTICATE_ACCOUNTS, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (15): com.teamjin.deliveryk.MainActivity, com.facebook.FacebookActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.adobe.phonegap.push.BackgroundHandlerActivity, com.intentfilter.androidpermissions.PermissionsActivity, com.kakao.sdk.auth.AuthCodeHandlerActivity, com.facebook.CustomTabMainActivity, com.adobe.phonegap.push.PushHandlerActivity, com.facebook.CustomTabActivity, com.hutchind.cordova.plugins.streamingmedia.SimpleVideoStream, com.kakao.sdk.auth.TalkAuthCodeActivity, com.google.android.gms.common.api.GoogleApiActivity, com.hutchind.cordova.plugins.streamingmedia.SimpleAudioStream, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.sarriaroman.PhotoViewer.PhotoActivity
+  Services   (11): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.marianhello.bgloc.sync.SyncService, com.marianhello.bgloc.sync.AuthenticatorService, com.marianhello.bgloc.service.LocationServiceImpl, com.google.firebase.messaging.FirebaseMessagingService, com.adobe.phonegap.push.FCMService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (8): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.marianhello.bgloc.BootCompletedReceiver, com.adobe.phonegap.push.BackgroundActionButtonHandler, com.adobe.phonegap.push.PushDismissedHandler, nl.xservices.plugins.ShareChooserPendingIntent
+  Providers  (8): androidx.startup.InitializationProvider, nl.xservices.plugins.FileProvider, com.facebook.FacebookContentProvider, com.squareup.picasso.PicassoProvider, org.apache.cordova.camera.FileProvider, com.facebook.internal.FacebookInitProvider, com.marianhello.bgloc.data.provider.LocationContentProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10834
+  Total Methods : 68622
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (7): https://developers.facebook.com/docs/sharing/android, http://logback.qos.ch/codes.html#socket_no_port, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, http://logback.qos.ch/codes.html#socket_no_host, https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#, http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B3 78 6B F6 9A B3 2D F8 45 FD 40 8B C9 F2 62 3D 42 E6 85 DC B8 EB FF 26 5B 81 27 D8 3B 16 6F 76
+
+==========================================

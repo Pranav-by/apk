@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bytedance.dreamina
+  SHA-256       : 000A2F790D9CD1F76333C0D89D065BCAFBDBB4A0A9A91A39AAC9606D529F3326
+  Android Group : Android15
+  Version       : 2.2.1 (code: 2211600)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (53)]
+  com.bytedance.dreamina.permission.PROCESS_PUSH_MSG, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.android.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, com.android.launcher.permission.WRITE_SETTINGS, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.UPDATE_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.permission.BIND_CALL_SERVICE, android.permission.BLUETOOTH
+
+[Application Components]
+  Activities (140): com.bytedance.dreamina.settingsmock.SettingsMockActivity, com.bytedance.dreamina.localabmock.LocalABTestMockActivity, com.bytedance.dreamina.ui.photo.PhotoPreviewVersionOActivity, com.vega.ug_picker.activity.PickerActivity, com.vega.ug_picker.activity.PickPreviewActivity, com.lemon.clipmonetize.biz.resource_position_service.ui.utils.ResourcePositionActivity, com.bytedance.android.push.permission.boot.component.GifPermissionBootActivity, com.bytedance.android.push.permission.boot.component.GifPermissionDynamicActivity, com.bytedance.android.push.permission.boot.component.HwBackHelperActivity, com.vega.lynx.kit.debug.JSONViewerActivity, com.bytedance.android.push.permission.boot.component.BusinessMockDialogActivity, com.bytedance.android.push.permission.boot.component.GoogleTstSysActivity, com.bytedance.android.push.permission.boot.component.ResolveGoogleToastHideActivity, com.bytedance.android.push.permission.boot.component.GoogleBottomSysActivity, com.bytedance.android.push.permission.boot.component.GoogleTopSysActivity, com.bytedance.android.push.permission.boot.component.GoogleNotificationPermissionRequestActivity, com.bytedance.android.push.permission.boot.component.InAppWindowBottomActivity, com.bytedance.android.push.permission.boot.component.InAppWindowTopActivityForExit, com.bytedance.android.push.permission.boot.component.InAppWindowTopActivity, com.bytedance.android.push.permission.boot.component.SettingsPagePermissionDialogBottomActivity
+  Services   (53): com.bytedance.common.wschannel.server.WsChannelService, com.bytedance.bdauditsdkbase.keepalive.MainProcessWsChannelService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.bytedance.bdauditsdkbase.keepalive.MainProcessMainProcessWsChannelService, com.ss.android.socialbase.downloader.downloader.DownloadService, com.bytedance.bdauditsdkbase.keepalive.MainProcessWsClientService, com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.xiaomi.push.service.XMPushService, com.bytedance.bdauditsdkbase.keepalive.MainProcessChannelService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.bytedance.common.process.service.CrossProcessServiceForPush, com.bytedance.bdauditsdkbase.keepalive.MainProcessCrossProcessServiceForPushService, com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService, com.bytedance.bdauditsdkbase.keepalive.MainProcessNotifyService, com.honor.HonorMessageListenerService, com.bytedance.bdauditsdkbase.keepalive.MainProcessMsgDistributeService, com.huawei.MessageService, com.lm.components.push.internal.MessageHandler, com.bytedance.common.process.service.CrossProcessServiceForSmp, com.bytedance.bdauditsdkbase.keepalive.MainProcessXMPushService
+  Receivers  (15): com.bytedance.dreamina.ugimpl.appwidget.provider.MiniTemplateWidgetProvider, com.vega.ug_appwidget.ability.AppWidgetInstallReceiver, com.vivo.SmpVivoPushMessageReceiver, com.bytedance.dreamina.ugimpl.appwidget.provider.MiddleTemplateWidgetProvider, com.bytedance.push.event.sync.SmpSignalReceiver, com.bytedance.ies.xelement.defaultimpl.player.impl.plugin.mediasession.MediaSessionReceiver, com.xiaomi.push.service.receivers.MIPushMessageHandler, com.bytedance.applog.collector.Collector, com.xiaomi.push.service.receivers.SmpMIPushMessageHandler, com.xiaomi.push.service.receivers.WidgetProviderMIPushMessageHandler, androidx.profileinstaller.ProfileInstallReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.vivo.VivoPushMessageReceiver
+  Providers  (19): com.bytedance.frankie.provider.FrankieProvider, androidx.startup.InitializationProvider, com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider, com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider, com.ss.android.token.TokenObjectProvider, com.bytedance.android.sdk.bdticketguard.TicketGuardProvider, com.bytedance.push.settings.storage.MainProcessSettingsProvider, com.bytedance.apm.battery.dao.MonitorContentProvider, com.ss.android.push.PushFileProvider, com.ss.android.account.share.data.write.provider.SecShareDataProvider, com.bytedance.push.settings.storage.SmpProcessSettingsProvider, com.bytedance.bdinstall.BDInstallProvider, com.huawei.hms.support.api.push.PushProvider, com.xiaomi.push.service.logupload.LogUploadFileProvider, com.lemon.upgrade.ApkProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.bytedance.upc.cache.ApiMultiProcessSharedProvider, com.ss.android.token.AuthTokenMultiProcessSharedProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 10
+  Total Classes : 98630
+  Total Methods : 526807
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: lemon, Organization: bytedance
+  Fingerprint : 6F 33 FD 44 6F 6E 83 A7 67 D4 FF F9 C1 9C EC F7 60 59 81 4E A6 A7 EA 71 DF 1D 0D EF 2D 75 DB 31
+
+==========================================

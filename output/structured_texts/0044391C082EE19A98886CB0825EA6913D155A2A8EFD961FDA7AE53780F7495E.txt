@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : dtc.market4466
+  SHA-256       : 0044391C082EE19A98886CB0825EA6913D155A2A8EFD961FDA7AE53780F7495E
+  Android Group : Android12
+  Version       : 9.8 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): dtc.market4466.t_video, dtc.market4466.eliminarperfil, com.adcolony.sdk.AdColonyInterstitialActivity, dtc.market4466.fotoperfil, com.facebook.ads.AudienceNetworkActivity, dtc.market4466.t_video_exoplayer, dtc.market4466.t_rss, dtc.market4466.t_menu, dtc.market4466.t_html, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, dtc.market4466.t_buscchats, dtc.market4466.t_detalle, com.unity3d.services.ads.adunit.AdUnitActivity, com.ironsource.sdk.controller.ControllerActivity, dtc.market4466.notifs_cats, com.facebook.CustomTabMainActivity, dtc.market4466.t_submenu, dtc.market4466.preperfil, com.facebook.CustomTabActivity, com.ironsource.sdk.controller.InterstitialActivity
+  Services   (28): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.iid.FirebaseInstanceIdService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.cast.framework.media.MediaNotificationService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, dtc.market4466.s_widget_vistafb, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, dtc.market4466.s_cargar_icos, androidx.room.MultiInstanceInvalidationService, com.appnext.core.AdsService, dtc.market4466.s_cargar_sliderheader, dtc.market4466.s_cargar_fondo, dtc.market4466.s_cargar_icos_gen, dtc.market4466.s_guardarperfil, dtc.market4466.s_mediaplayer_exo
+  Receivers  (15): com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, dtc.market4466.alarma_rss, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (10): androidx.startup.InitializationProvider, dtc.market4466.MySuggestionProvider, com.google.firebase.provider.FirebaseInitProvider, dtc.market4466.bd_provider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.core.content.FileProvider, com.facebook.ads.AudienceNetworkContentProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, dtc.market4466.StickerContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22374
+  Total Methods : 123879
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(1): 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5F AD DD DB F4 14 6A 6E CC 81 DD 3E 5B F6 A7 10 EC 98 3B A6 D1 62 BA F8 27 0D 04 51 B5 86 8E FA
+
+==========================================

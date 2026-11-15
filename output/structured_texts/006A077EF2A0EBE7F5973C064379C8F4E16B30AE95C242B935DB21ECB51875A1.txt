@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.traveltoapps.burma.travel
+  SHA-256       : 006A077EF2A0EBE7F5973C064379C8F4E16B30AE95C242B935DB21ECB51875A1
+  Android Group : Android13
+  Version       : 1.10 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (3)]
+  android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (3): com.keyes.youtube.OpenYouTubePlayerActivity, org.traveltoapps.burma.travel.MainActivity, org.traveltoapps.burma.travel.SelectLanguage
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4606
+  Total Methods : 33285
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Lanie Norman, Organizational Unit: NA, Organization: NA, Locality: Dallas, State/Province: TX, Country: US
+  Fingerprint : B6 9C 7B 33 64 8F CC 33 71 C7 59 3C A0 D4 9A AA B1 A7 B8 F1 4C AC DC EF F6 6E 7B 6F 3F 99 45 20
+
+==========================================

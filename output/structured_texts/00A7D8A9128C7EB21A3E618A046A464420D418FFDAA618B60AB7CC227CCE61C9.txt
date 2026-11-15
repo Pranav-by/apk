@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.groupcal.www
+  SHA-256       : 00A7D8A9128C7EB21A3E618A046A464420D418FFDAA618B60AB7CC227CCE61C9
+  Android Group : Android16
+  Version       : 2.8686 (code: 668)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (44)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.REORDER_TASKS, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.READ_SYNC_STATS, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (64): zendesk.support.guide.HelpCenterActivity, com.facebook.CustomTabActivity, zendesk.support.guide.ViewArticleActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, zendesk.support.request.RequestActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.firebase.ui.auth.KickoffActivity, com.google.android.libraries.places.widget.BasicPlaceAutocompleteActivity, com.google.android.libraries.places.widget.PlaceAutocompleteActivity, zendesk.support.requestlist.RequestListActivity, com.google.android.libraries.places.widget.internal.photoviewer.PlacesLightboxActivity, zendesk.classic.messaging.MessagingActivity, com.clevertap.android.sdk.InAppNotificationActivity, com.clevertap.android.sdk.inbox.CTInboxActivity, a24me.groupcal.mvvm.view.activities.webapp_promo.WebappPromoActivity, a24me.groupcal.mvvm.view.activities.PasswordRecoveryActivity
+  Services   (18): com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, a24me.groupcal.mvvm.view.widgets.agenda.AgendaEventsWidgetService, androidx.room.MultiInstanceInvalidationService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.work.impl.foreground.SystemForegroundService, a24me.groupcal.mvvm.view.widgets.month.MonthEventsWidgetService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, a24me.groupcal.services.WatchDataService, a24me.groupcal.fcm.FCMReceiver
+  Receivers  (34): androidx.profileinstaller.ProfileInstallReceiver, a24me.groupcal.receivers.LocaleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, a24me.groupcal.receivers.TodayAgendaReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, a24me.groupcal.receivers.TomorrowAgendaReceiver, a24me.groupcal.receivers.AgendaNotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, a24me.groupcal.receivers.SnoozeEventReceiver, a24me.groupcal.receivers.LocalEventSyncReceiver, a24me.groupcal.mvvm.view.widgets.month.MonthWidget, a24me.groupcal.receivers.BootReceiver, a24me.groupcal.mvvm.view.widgets.agenda.AgendaWidget, a24me.groupcal.receivers.GeofenceBroadcastReceiver, a24me.groupcal.receivers.ProcrastinationReceiver, a24me.groupcal.receivers.CalendarReminderReceiver, a24me.groupcal.receivers.ApiStatusReceiver, a24me.groupcal.receivers.TimeUpdateReceiver, a24me.groupcal.receivers.GroupcalReminderReceiver, a24me.groupcal.receivers.NotificationStatusReceiver
+  Providers  (9): com.google.firebase.provider.FirebaseInitProvider, zendesk.support.SupportSdkStartupProvider, zendesk.support.guide.GuideSdkStartupProvider, com.clevertap.android.sdk.CleverTapFileProvider, zendesk.core.MediaFileProvider, com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.firebase.ui.auth.data.client.AuthUiInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 43124
+  Total Methods : 252423
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 60 76 DA 4D 2C EE BE 7A 8C 16 71 8B EF D4 7F A4 F2 0E 80 AB 5F E8 87 F7 83 26 9B F5 3D EA B2 35
+
+==========================================

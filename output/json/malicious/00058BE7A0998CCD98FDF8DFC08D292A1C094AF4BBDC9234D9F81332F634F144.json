@@ -1,0 +1,71 @@
+{
+  "sha256": "00058BE7A0998CCD98FDF8DFC08D292A1C094AF4BBDC9234D9F81332F634F144",
+  "filename": "00058BE7A0998CCD98FDF8DFC08D292A1C094AF4BBDC9234D9F81332F634F144.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.ema.yotta",
+  "version_name": "1.0.0",
+  "version_code": "1",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.huawei.android.launcher.permission.CHANGE_BADGE",
+    "android.permission.INTERNET",
+    "freemme.permission.msa",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.vivo.notification.permission.BADGE_ICON",
+    "com.asus.msa.SupplementaryDID.ACCESS"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "io.dcloud.PandoraEntryActivity",
+    "io.dcloud.WebviewActivity",
+    "io.dcloud.feature.nativeObj.photoview.PhotoActivity",
+    "com.dmcbig.mediapicker.PickerActivity",
+    "io.dcloud.PandoraEntry",
+    "io.dcloud.ads.activity.WebViewActivity",
+    "io.dcloud.ProcessMediator",
+    "com.dmcbig.mediapicker.PreviewActivity",
+    "io.dcloud.WebAppActivity",
+    "io.dcloud.feature.gallery.imageedit.IMGEditActivity"
+  ],
+  "activity_count": 10,
+  "services": [
+    "io.dcloud.feature.aps.ApsActionService",
+    "io.dcloud.ads.base.service.DownloadService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.taobao.weex.WXGlobalEventReceiver",
+    "io.dcloud.common.adapter.io.DownloadReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "io.dcloud.common.util.DCloud_FileProvider",
+    "io.dcloud.ads.base.service.provider.DCloudAdFileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 10351,
+  "method_count": 72797,
+  "cert_fingerprint": "E3 67 9E 4B 45 08 34 9A F5 64 82 26 06 1B 45 F3 F7 85 73 98 3D 8A B0 AE 49 33 48 97 C9 FB 82 FE",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

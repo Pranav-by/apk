@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nig.ikasa
+  SHA-256       : 00A64B9FAFBD1522E5A91EBFED2706CCE86C78F01CABE7C4E0E2ECA35621F62B
+  Android Group : Android15
+  Version       : 1.128.0 (code: 251)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (36)]
+  com.nig.ikasa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, com.oppo.launcher.permission.READ_SETTINGS, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.BLUETOOTH, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (13): io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.firebase.auth.internal.GenericIdpActivity, net.openid.appauth.AuthorizationManagementActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.nateshmbhat.credit_card_scanner.CardScannerCameraActivity, com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity, com.google.android.gms.common.api.GoogleApiActivity, io.flutter.embedding.android.FlutterActivity, com.linecorp.linesdk.auth.internal.LineAuthenticationActivity, com.linecorp.linesdk.openchat.ui.CreateOpenChatActivity, net.openid.appauth.RedirectUriReceiverActivity
+  Services   (13): com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, androidx.camera.core.impl.MetadataHolderService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.components.ComponentDiscoveryService, com.baseflow.geolocator.GeolocatorLocationService
+  Receivers  (5): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (6): androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.share.ShareFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 32280
+  Total Methods : 214489
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CB 58 53 AE D4 4A 86 2C D2 01 15 C4 B0 9F 5C 62 39 AA 60 17 DC 2B 41 50 24 EF 5D 33 06 06 D0 56
+
+==========================================

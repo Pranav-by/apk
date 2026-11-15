@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tsm.wpgtalkradio
+  SHA-256       : 00A6AE5C2CA230123856AFEABD79F0961FAFB1361448D17474C0ADEC313D78AB
+  Android Group : Android12
+  Version       : 2.3.15 (code: 35)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (21)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.CALL_PHONE, android.permission.READ_INTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.SCHEDULE_EXACT_ALARM, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.tsm.wpgtalkradio.permission.C2D_MESSAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.GET_ACCOUNTS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (27): com.tsm.branded.activity.InterstitialActivity, com.google.android.gms.ads.AdActivity, com.tsm.branded.activity.InterstitialWebActivity, com.tsm.branded.activity.GDPRWebActivity, com.tsm.branded.activity.PanoActivity, com.tsm.branded.activity.GDPRCustomizeActivity, com.tsm.branded.activity.MobilePrestitialActivity, com.tsm.branded.activity.NotificationActivity, com.tsm.branded.activity.GDPRActivity, com.tsm.branded.activity.PreRollVideoActivity, com.tsm.branded.activity.InitialActivity, com.tsm.branded.activity.PreRollIMAActivity, com.tsm.branded.activity.AlarmActivity, com.twitter.sdk.android.core.identity.OAuthActivity, com.android.billingclient.api.ProxyBillingActivity, com.twitter.sdk.android.tweetui.GalleryActivity, com.tsm.branded.activity.LaunchActivity, com.tsm.branded.activity.GDPRAgeActivity, com.google.android.gms.common.api.GoogleApiActivity, com.twitter.sdk.android.tweetcomposer.ComposerActivity
+  Services   (23): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.parse.fcm.ParseFirebaseInstanceIdService, com.parse.fcm.ParseFirebaseMessagingService, com.tsm.branded.service.FetchAddressIntentService, com.krux.androidsdk.aggregator.EventPublisherService, com.google.android.gms.analytics.AnalyticsService, com.tsm.branded.service.AndroidAutoService, com.tsm.branded.service.StreamService, com.tsm.branded.service.PodcastService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.twitter.sdk.android.tweetcomposer.TweetUploadService
+  Receivers  (23): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.taboola.android.global_components.fsd.FSDReceiver, com.parse.ParsePushBroadcastReceiver, com.tsm.branded.parsepush.ParseReceiver, com.tsm.branded.receiver.ScavengerHuntAlarmReceiver, com.tsm.branded.receiver.ScavengerHuntAutoStartup, com.google.android.gms.analytics.AnalyticsReceiver, com.tsm.branded.receiver.NotificationPlayerBroadcastReceiver, com.tsm.branded.receiver.NotificationPodcastPlayerBroadcastReceiver, com.tsm.branded.receiver.AlarmReceiver, com.tsm.branded.receiver.AlarmBootReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (7): com.taboola.android.TBLContextProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.tsm.branded.model.GenericFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31314
+  Total Methods : 194556
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Townsquare Media
+  Fingerprint : 91 F7 C8 69 A2 CE 55 57 AC 51 24 E4 5C B1 13 8E BA 0E E2 1F 98 6F BC EB 1A 7F DE 64 2E 19 63 E7
+
+==========================================

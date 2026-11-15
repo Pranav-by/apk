@@ -1,0 +1,62 @@
+{
+  "sha256": "00B1E36925C1BC1E1BEEE9F29519D380C15D05B6FB684BCFBD713D4EEE819CA1",
+  "filename": "00B1E36925C1BC1E1BEEE9F29519D380C15D05B6FB684BCFBD713D4EEE819CA1.apk",
+  "android_version": "Android14",
+  "label": "malicious",
+  "package_name": "com.buzzato.lungcancer",
+  "version_name": "1.0",
+  "version_code": "32",
+  "min_sdk": "19",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "com.buzzato.amarnathyatra.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 2,
+  "services": [
+    "com.buzzato.amarnathyatra.MyFirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 1705,
+  "method_count": 9533,
+  "cert_fingerprint": "66 A1 0F 6F E3 53 5F 45 D3 95 26 7F CA 42 75 43 D4 54 18 7B 47 D7 D6 59 49 62 63 37 A9 59 10 E3",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/privacy/init-options."
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.unit5soft.cubie.jumpnroll.aos
+  SHA-256       : 00A7D4DABDB4AB985474649851614864A7C4D32D849F2C31F3A31A6260C343AF
+  Android Group : Android14
+  Version       : 1.2.1 (code: 28)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (14)]
+  com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.VIBRATE, com.unit5soft.cubie.jumpnroll.aos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (70): com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.CustomTabMainActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.google.android.gms.ads.AdActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.unity3d.ads.adplayer.FullScreenWebViewDisplay, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.applovin.mediation.MaxDebuggerActivity, com.google.games.bridge.NativeBridgeActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.facebook.ads.AudienceNetworkActivity, com.yasirkula.unity.NativeShareCustomShareDialogActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity
+  Services   (14): com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.ads.AdService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.vungle.warren.NetworkProviderReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.yasirkula.unity.NativeShareBroadcastListener, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver
+  Providers  (10): com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.FacebookContentProvider, com.facebook.internal.FacebookInitProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.games.provider.PlayGamesInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.yasirkula.unity.NativeShareContentProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 40719
+  Total Methods : 255945
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://www.googletagmanager.com/gtag/js?id=, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://developers.applovin.com/en/android/overview/terms-and-privacy-policy-flow, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(2): 12.6.1.0, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Joonwon Choi, Organizational Unit: UNIT5, Organization: UNIT5, Locality: Seoul, State/Province: Seoul, Country: KR
+  Fingerprint : 5D 1A 34 FA 19 35 ED 83 06 9C 1D F6 A0 0F BB 1B A2 BD 9B 52 95 64 6E 4B F5 BC B6 D9 6C 06 33 92
+
+==========================================

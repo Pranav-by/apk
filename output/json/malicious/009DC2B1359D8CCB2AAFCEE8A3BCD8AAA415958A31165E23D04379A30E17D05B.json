@@ -1,0 +1,78 @@
+{
+  "sha256": "009DC2B1359D8CCB2AAFCEE8A3BCD8AAA415958A31165E23D04379A30E17D05B",
+  "filename": "009DC2B1359D8CCB2AAFCEE8A3BCD8AAA415958A31165E23D04379A30E17D05B.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "com.free074a81ba94cf6951221ca03606d56.user.ebookg0003971jacquelinecomplete000mmeblancthbentzon001.release",
+  "version_name": "1.0.60",
+  "version_code": "60",
+  "min_sdk": "23",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.free074a81ba94cf6951221ca03606d56.user.ebookg0003971jacquelinecomplete000mmeblancthbentzon001.release.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.free074a81ba94cf6951221ca03606d56.user.mind.ui.UI_setting",
+    "com.google.android.gms.oss.licenses.OssLicensesMenuActivity",
+    "com.free074a81ba94cf6951221ca03606d56.user.mind.ui.UI_app",
+    "com.google.android.gms.oss.licenses.OssLicensesActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.google.android.gms.ads.AdActivity"
+  ],
+  "activity_count": 6,
+  "services": [
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.android.gms.ads.MobileAdsInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 16842,
+  "method_count": 105372,
+  "cert_fingerprint": "7A 84 79 60 71 5E B0 D8 A7 89 D8 05 E5 6F F2 82 A3 B0 FF 53 F0 60 94 93 4D 30 96 66 B4 9E 44 97",
+  "cert_issuer": "Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://issuetracker.google.com/issues/new?component=413107&template=1096568",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,85 @@
+{
+  "sha256": "00C2546E5FF142DEE52B9BFEC48A392C0DCC8A92D0C211857601224CA243322E",
+  "filename": "00C2546E5FF142DEE52B9BFEC48A392C0DCC8A92D0C211857601224CA243322E.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "com.future_softapps.unlockandedeviceguide",
+  "version_name": "1.1",
+  "version_code": "2",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.future_softapps.unlockandedeviceguide.BYSoftware.By_Software",
+    "com.future_softapps.unlockandedeviceguide.MainActivity",
+    "com.future_softapps.unlockandedeviceguide.ByTechniques.By_Technique_htmls",
+    "com.future_softapps.unlockandedeviceguide.Repair_sdCard.Repair_SDcard",
+    "com.future_softapps.unlockandedeviceguide.BYSoftware.software_htmls",
+    "com.future_softapps.unlockandedeviceguide.Main_Htmls_data",
+    "com.future_softapps.unlockandedeviceguide.Splash_Screen",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.future_softapps.unlockandedeviceguide.Bysim.BySim_html",
+    "com.future_softapps.unlockandedeviceguide.Bysim.By_Sim",
+    "com.future_softapps.unlockandedeviceguide.ByTechniques.By_Techniques",
+    "com.google.android.gms.ads.AdActivity",
+    "com.future_softapps.unlockandedeviceguide.Repair_sdCard.Htmls_sd",
+    "com.future_softapps.unlockandedeviceguide.Mobile_Codes.Code_Detail",
+    "com.future_softapps.unlockandedeviceguide.Mobile_Codes.Mobile_models"
+  ],
+  "activity_count": 15,
+  "services": [
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.foreground.SystemForegroundService",
+    "androidx.room.MultiInstanceInvalidationService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 13824,
+  "method_count": 82136,
+  "cert_fingerprint": "6D 53 80 B2 95 19 58 12 F8 BF 03 3B 5A E6 77 39 C5 C2 B7 7E D6 0E B0 CE F5 90 26 E7 2E B6 C3 57",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cdjztec.computer
+  SHA-256       : 00323272E73CC00D6A169C7F273B0BFBDC878E7677E0402EB45357308EF07843
+  Android Group : Android12
+  Version       : 5.7.2 (code: 572)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (17)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_EXTERNAL_STORAGE, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.asus.msa.SupplementaryDID.ACCESS, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.CAMERA, com.cdjztec.computer.openadsdk.permission.TT_PANGOLIN, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (88): com.byted.live.lite.Activity_main_singleTask4, com.byted.live.lite.Activity_main_singleTask3, com.byted.live.lite.Activity_main_singleTop1, com.byted.live.lite.Activity_main_standard, com.byted.live.lite.Activity_main_singleTop5, com.byted.live.lite.Activity_main_singleTop2, com.byted.live.lite.Activity_main_singleInstance1, com.byted.live.lite.Activity_main_singleTop6, com.byted.live.lite.Activity_main_singleTop4, com.byted.live.lite.Activity_bytelive_singleInstance1, com.bytedance.msdk.api.activity.TTDelegateActivity, com.byted.live.lite.Activity_main_singleTop3, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.chudai.computer.mvp.ui.activity.LeaveMessageListActivity, com.bytedance.msdk.api.activity.TTTransparentActivity, com.luck.picture.lib.PictureSelectorActivity, com.bytedance.msdk.core.admanager.reward.rewardagain.GMRewardAgainDialogActivity, com.luck.picture.lib.PictureCustomCameraActivity, apache.rio.kluas_update.ui.DownloadActivity, com.blankj.utilcode.util.UtilsTransActivity
+  Services   (9): com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.bytedance.sdk.openadsdk.core.multipro.aidl.BinderPoolService, com.ss.android.socialbase.appdownloader.DownloadHandlerService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.ss.android.socialbase.downloader.downloader.DownloadService, com.ss.android.socialbase.downloader.impls.DownloadHandleService
+  Receivers  (3): com.bytedance.embedapplog.collector.Collector, com.ss.android.downloadlib.core.download.DownloadReceiver, com.chudai.helper.download.DownloadReceiver
+  Providers  (18): com.byted.live.lite.ServerManager_push, me.jessyan.autosize.InitProvider, per.goweii.anylayer.ActivityProvider, apache.rio.kluas_update.provider.DownLoadFileProvider, com.luck.picture.lib.PictureFileProvider, androidx.core.content.FileProvider, com.bytedance.sdk.openadsdk.stub.server.MainServerManager, com.byted.live.lite.ServerManager_bytelive, com.bytedance.android.openliveplugin.process.server.LiveServerManager, razerdp.basepopup.BasePopupInitializer, com.bytedance.sdk.openadsdk.TTFileProvider, com.bytedance.pangle.provider.MainProcessProviderProxy, com.blankj.utilcode.util.UtilsFileProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, cat.ereza.customactivityoncrash.provider.CaocInitProvider, com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager, com.bytedance.pangle.FileProvider, com.chudai.helper.download.DownloadProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 165
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: calculator04
+  Fingerprint : 55 04 FC 51 FF 66 99 F7 07 52 FA 7B 75 CF 19 DC A7 BF 58 44 D4 4E 00 83 19 E5 A0 F6 02 CD 40 C3
+
+==========================================

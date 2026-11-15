@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.jerestev.radiosblues
+  SHA-256       : 00A9835B2C8C250CC8E6CE060357F0841FF3998DEE5ACD21480FA4212910AD8F
+  Android Group : Android12L
+  Version       : 2.3 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.READ_PHONE_STATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.USE_FULL_SCREEN_INTENT, android.permission.WAKE_LOCK, com.android.alarm.permission.SET_ALARM, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (6): com.google.android.gms.common.api.GoogleApiActivity, com.jerestev.radiosblues.PreferencesActivity, com.jerestev.radiosblues.MainActivity, com.jerestev.radiosblues.AlarmActivity, com.google.android.gms.ads.AdActivity, com.jerestev.radiosblues.SplashScreenActivity
+  Services   (6): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.ads.AdService, com.jerestev.radiosblues.RadioService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (13): com.jerestev.radiosblues.OnNetworkConnectionChangeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.jerestev.radiosblues.OnBatteryLevelReceiver, com.jerestev.radiosblues.OnBootReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.jerestev.radiosblues.OnAlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.jerestev.radiosblues.NotificationActionService, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (2): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9777
+  Total Methods : 48190
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://goo.gl/J1sWQy, https://radio.streemlion.com:2075/stream, https://googlemobileadssdk.page.link/admob-interstitial-policies, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Jerestev
+  Fingerprint : D1 88 BD 43 01 C3 F0 22 F7 DB 29 D5 8D 3C F6 8E 13 6D 01 3B AF 3E 1A 7F 7A 9C C7 4E 79 CB D6 F7
+
+==========================================

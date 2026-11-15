@@ -1,0 +1,73 @@
+{
+  "sha256": "008AE88A35411240361331E51220D33DC4A9CDAA4E559287FC94872FE9919DE2",
+  "filename": "008AE88A35411240361331E51220D33DC4A9CDAA4E559287FC94872FE9919DE2.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "com.campfiremobile",
+  "version_name": "1.0.50",
+  "version_code": "108",
+  "min_sdk": "23",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.CAMERA",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.campfiremobile.MainActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+  ],
+  "service_count": 4,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.google.mlkit.common.internal.MlKitInitProvider",
+    "androidx.startup.InitializationProvider",
+    "io.sentry.android.core.SentryInitProvider",
+    "com.imagepicker.ImagePickerProvider",
+    "io.sentry.android.core.SentryPerformanceProvider",
+    "com.vinzscam.reactnativefileviewer.FileProvider",
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider"
+  ],
+  "provider_count": 7,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14813,
+  "method_count": 91204,
+  "cert_fingerprint": "35 AF EA 5F 44 68 7E 3A 8A AF 72 68 87 E1 F2 94 17 FF 49 61 EF 45 D6 51 E0 C3 E9 92 8E D7 38 50",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://raw.githubusercontent.com/drewnoakes/metadata-extractor-images/master/%s",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  ],
+  "ip_addresses": [
+    "10.0.2.2",
+    "10.0.1.1",
+    "10.0.3.2"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

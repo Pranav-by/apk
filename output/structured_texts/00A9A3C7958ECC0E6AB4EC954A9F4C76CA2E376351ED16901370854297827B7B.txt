@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.snapinspect.snapinspect3
+  SHA-256       : 00A9A3C7958ECC0E6AB4EC954A9F4C76CA2E376351ED16901370854297827B7B
+  Android Group : Android15
+  Version       : 3.9.41 (code: 291)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (24)]
+  android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.SYSTEM_ALERT_WINDOW, android.permission.HIGH_SAMPLING_RATE_SENSORS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.google.android.c2dm.permission.REGISTER, android.permission.CAMERA, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, com.google.android.apps.aicore.service.BIND_SERVICE, android.permission.POST_NOTIFICATIONS
+
+[Application Components]
+  Activities (92): com.snapinspect.snapinspect3.activitynew.if_OrderInspection, com.snapinspect.snapinspect3.activitynew.if_EditInspection, com.snapinspect.snapinspect3.activitynew.products.if_ProductDetails, com.snapinspect.snapinspect3.activity.if_MapDetails, com.snapinspect.snapinspect3.activity.if_login, com.snapinspect.snapinspect3.activitynew.tasks.if_EditTask, com.snapinspect.snapinspect3.activity.QRReaderActivity, com.snapinspect.snapinspect3.activitynew.Home.if_HomeTab, com.snapinspect.snapinspect3.activity.if_RequestInspection, com.snapinspect.snapinspect3.activity.if_NewAsset, com.snapinspect.snapinspect3.activitynew.if_existasset, com.snapinspect.snapinspect3.activitynew.inspection3rd.if_Layout_3rd, com.snapinspect.snapinspect3.activitynew.if_OrderInsItem, com.snapinspect.snapinspect3.activitynew.inspection3rd.if_Ins_Edit_3rd, com.snapinspect.snapinspect3.activity.if_AssetDetails, com.snapinspect.snapinspect3.activity.if_UpdateAsset, com.snapinspect.snapinspect3.activity.if_EditComments, com.snapinspect.snapinspect3.activity.if_EditText, com.snapinspect.snapinspect3.activity.if_quickphrase, com.snapinspect.snapinspect3.activity.if_smartcomment
+  Services   (24): com.google.android.gms.metadata.ModuleDependencies, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.camera.core.impl.MetadataHolderService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, com.snapinspect.snapinspect3.activity.SyncService, com.snapinspect.snapinspect3.activity.UploadService
+  Receivers  (15): io.intercom.android.sdk.m5.push.ConversationReplyReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.snapinspect.snapinspect3.Helper.TaskClockReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (8): androidx.core.content.FileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, io.intercom.android.sdk.IntercomFileProvider, androidx.startup.InitializationProvider, com.github.dhaval2404.imagepicker.ImagePickerFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 70125
+  Total Methods : 389745
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Terry Sun, Organizational Unit: IT, Organization: SnapInspect International Ltd, Locality: Auckland, State/Province: Auckland, Country: NZ
+  Fingerprint : E2 9D 6F 8D 69 51 63 3E D3 28 8B C4 6B E4 9A A7 34 D7 C5 47 56 BD 85 AA 88 05 93 FC BC A8 89 92
+
+==========================================

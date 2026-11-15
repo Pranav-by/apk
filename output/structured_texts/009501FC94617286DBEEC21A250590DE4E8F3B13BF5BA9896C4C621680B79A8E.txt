@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.misteriosa.realidad
+  SHA-256       : 009501FC94617286DBEEC21A250590DE4E8F3B13BF5BA9896C4C621680B79A8E
+  Android Group : Android13
+  Version       : 5 (code: 65)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (37): com.appyet.activity.IntroActivity, com.google.android.gms.ads.AdActivity, com.appyet.activity.forum.ForumSignInActivity, com.facebook.ads.AudienceNetworkActivity, com.appyet.activity.forum.ForumReplyPostActivity, com.appyet.mediapicker.MultiImageSelectorActivity, com.just.agentweb.ActionActivity, com.appyet.activity.MainActivity, com.appyet.activity.WebBrowserActivity, com.appyet.activity.AboutActivity, com.appyet.activity.ExploreActivity, com.appyet.activity.VideoPlayerActivity, com.appyet.activity.forum.ForumNewMessageActivity, com.twitter.sdk.android.tweetui.GalleryActivity, com.appyet.activity.WidgetConfigureActivity, com.appyet.activity.forum.ForumMessageActivity, pub.devrel.easypermissions.AppSettingsDialogHolderActivity, com.appyet.activity.CastExpandedControlsActivity, com.appyet.activity.forum.ForumSettingsActivity, com.appyet.activity.forum.ForumConversationActivity
+  Services   (19): com.google.android.gms.measurement.AppMeasurementJobService, com.twitter.sdk.android.tweetcomposer.TweetUploadService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.appyet.service.SyncService, com.appyet.service.MediaService, com.appyet.exoplayer.ExoDownloadService, com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService, com.appyet.service.FCMService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService
+  Receivers  (19): com.appyet.provider.WidgetProvider, com.appyet.provider.WidgetProvider_4_1, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.appyet.receiver.DownloadReceiver, com.appyet.receiver.CommonReceiver, com.appyet.receiver.AlarmUpdateReceiver, com.appyet.receiver.AlarmHeartBeatReceiver, com.appyet.receiver.BootCompletedReceiver
+  Providers  (9): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.appyet.provider.SuggestionProvider, com.google.firebase.provider.FirebaseInitProvider, com.just.agentweb.AgentWebFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.crashlytics.android.CrashlyticsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.flurry.android.agent.FlurryContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 20394
+  Total Methods : 115907
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (9): http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd, http://feedads.g.doubleclick.net, http://res3.feedsportal.com, https://i1.ytimg.com/vi/, https://googlemobileadssdk.page.link/admob-android-update-manifest, http://feeds.feedburner.com, http://da.feedsportal.com, http://pi.feedsportal.com, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(4): 1.2.10.27, 1.4.7.32, 2.7.0.33, 2.10.1.34
+
+[Certificate]
+  Issuer      : Email Address: appyet@gmail.com, Common Name: AppYet, Organizational Unit: IT, Organization: AppYet, Locality: Brampton, State/Province: ON, Country: CA
+  Fingerprint : 03 4B 28 E7 5A C8 00 7F 15 59 49 62 A9 05 4B 76 A2 A3 6E 49 27 37 77 09 E5 59 34 DD 65 4B 44 3C
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : one.zoop.id.kyc.store.wallet
+  SHA-256       : 0010720B39EEB8C7F2B4997C6A37F46D145D674DFE8CEA91B53DBBA4226B8A91
+  Android Group : Android12
+  Version       : 1.3.0 (code: 56)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, com.truecaller.permission.sdk.internal.read_account_state, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.READ_CONTACTS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (16): io.flutter.plugins.urllauncher.WebViewActivity, com.moengage.integrationverifier.internal.IntegrationVerificationActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.mulgundkar.opencv.EmbeddingV1Activity, com.moengage.pushbase.activities.PushTracker, one.zoop.id.kyc.store.wallet.MainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.moengage.pushbase.activities.PushClickDialogTracker, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.yalantis.ucrop.UCropActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance
+  Services   (15): com.moengage.core.DataSyncJob, com.moengage.pushbase.push.MoEPushWorker, com.moengage.rtt.internal.RttIntentService, com.moengage.pushamp.internal.PushAmpIntentService, com.moengage.core.MoEWorker, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.moengage.rtt.internal.RttSyncJob, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.moengage.pushamp.internal.PushAmpSyncJob
+  Receivers  (11): com.moengage.pushbase.MoEPushReceiver, com.moengage.rtt.internal.RttReceiver, com.moengage.pushamp.internal.PushAmpAlarmReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.moengage.core.MoEAlarmReceiver
+  Providers  (8): com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9054
+  Total Methods : 46182
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://firebase.google.com/support/guides/disable-analytics, https://github.com/pichillilorenzo/flutter_inappwebview#important-note-for-android, https://developer.android.com/guide/topics/permissions/overview, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C8 A2 D6 6E 60 54 C6 F6 BF 60 A1 F4 A7 2E F9 0C EC 15 38 80 20 E4 62 32 FF 94 4D 6F 8B FB 7F 7C
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : us.idion.healthcare
+  SHA-256       : 009EC84DB022E3E85910F4E1C454AD7B033BEC0C8BC63DAD56568E4F62710B64
+  Android Group : Android13
+  Version       : 2.20.0 (code: 427)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (24)]
+  android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.SYSTEM_ALERT_WINDOW, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (6): com.idionhealthcare.MainActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, app.notifee.core.NotificationReceiverActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (16): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.gms.auth.api.signin.RevocationBoundService, app.notifee.core.ForegroundService, com.idionhealthcare.rnble.BleService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.room.MultiInstanceInvalidationService, app.notifee.core.ReceiverService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+  Receivers  (15): app.notifee.core.RebootBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, app.notifee.core.AlarmPermissionBroadcastReceiver, app.notifee.core.NotificationAlarmReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, app.notifee.core.BlockStateBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (5): com.reactnativecommunity.webview.RNCWebViewFileProvider, io.invertase.notifee.NotifeeInitProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 14173
+  Total Methods : 86106
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#
+  IP Addresses(4): 1.3.3.0, 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Thomas Blackadar, Organizational Unit: CTO, Organization: IDION LLC, Locality: New York, State/Province: New York, Country: US
+  Fingerprint : E2 5A 74 69 F6 74 37 2A 18 C2 21 A8 C7 C6 03 E4 38 97 E4 42 02 02 82 03 0C 4C 60 8B 20 47 49 6A
+
+==========================================

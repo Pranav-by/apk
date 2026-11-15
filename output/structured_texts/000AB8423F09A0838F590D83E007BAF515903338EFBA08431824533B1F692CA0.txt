@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.prosoftnet.rpcnew
+  SHA-256       : 000AB8423F09A0838F590D83E007BAF515903338EFBA08431824533B1F692CA0
+  Android Group : Android12L
+  Version       : 5.4.4 (code: 179)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (17)]
+  com.prosoftnet.rpcnew.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, android.permission.READ_MEDIA_AUDIO, android.permission.READ_PHONE_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_MEDIA_VIDEO
+
+[Application Components]
+  Activities (15): source.home.view.activity.HomeActivity, com.google.android.gms.common.api.GoogleApiActivity, source.account.view.activity.ForgotPasswordActivity, source.home.view.activity.InviteUserActivity, com.remotepc.viewer.session.view.activity.SessionSummaryActivity, com.remotepc.viewer.filetransfer.view.activity.FileTransferActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, source.account.view.activity.TwoStepVerificationActivity, com.remotepc.viewer.settings.view.activity.HelpActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.remotepc.viewer.session.view.activity.SessionActivity, source.settings.view.SettingsActivity, com.remotepc.viewer.settings.view.activity.FeedbackActivity, com.remotepc.viewer.session.view.activity.NotificationActivity, source.account.view.activity.LoginActivity
+  Services   (14): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.remotepc.viewer.session.utils.SessionBackgroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.remotepc.viewer.filetransfer.utils.FTBackgroundService
+  Receivers  (13): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.remotepc.viewer.session.utils.DeviceCheckActionReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7955
+  Total Methods : 41106
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: StreamNet India
+  Fingerprint : 56 13 0E 7A FB 75 B2 BF B4 50 36 F3 D6 F1 08 40 B5 1E 97 AD F6 D7 6E 00 2B 5D 5D 2F 46 A7 00 CA
+
+==========================================

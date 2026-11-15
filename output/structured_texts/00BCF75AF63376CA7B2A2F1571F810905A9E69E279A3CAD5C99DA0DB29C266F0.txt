@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : edu.SmirnovYury.EngVesselLights
+  SHA-256       : 00BCF75AF63376CA7B2A2F1571F810905A9E69E279A3CAD5C99DA0DB29C266F0
+  Android Group : Android16
+  Version       : 2.3.7 (code: 57)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (11)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, edu.SmirnovYury.EngVesselLights.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (13): com.android.billingclient.api.ProxyBillingActivityV2, com.revenuecat.purchases.SimulatedStoreErrorDialogActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, edu.SmirnovYury.EngVesselLights.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.revenuecat.purchases.ui.revenuecatui.activity.PaywallActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.revenuecat.purchases.ui.revenuecatui.customercenter.CustomerCenterActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity
+  Services   (10): androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.amazon.device.iap.ResponseReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 28128
+  Total Methods : 152631
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://issuetracker.google.com/issues/241760537, https://goo.gle/admob-android-update-manifest, https://goo.gle/compose-feedback, https://goo.gle/ad-manager-android-update-manifest., https://docs.revenuecat.com/docs/ios-subscription-offers, https://errors.rev.cat/configuring-products, https://rev.cat/sdk-test-store, https://goo.gle/admob-android-update-manifest.
+  IP Addresses(2): 2.10.5.0, 2.9.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : AC E4 FC EC 2A 32 73 24 0F 4C E1 B1 5F DE FB 08 50 86 E5 0C 48 25 76 38 D7 B1 49 E3 0F 0E EB 69
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : md.gamefifty.twolivelink
+  SHA-256       : 003258912BE86402A1DB4C479E8D69EC0C548B1E08B843E048697E57D5ACA8EF
+  Android Group : Android12
+  Version       : 2.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.SET_WALLPAPER, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.QUICKBOOT_POWERON, android.permission.USE_FULL_SCREEN_INTENT
+
+[Application Components]
+  Activities (5): com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, md.gamefifty.twolivelink.ui.SplashActivity, md.gamefifty.twolivelink.ui.MainActivity, md.gamefifty.twolivelink.BroActivity
+  Services   (11): com.pci.beacon.service.ScanJob, com.pci.beacon.BeaconIntentProcessor, md.gamefifty.twolivelink.CoreService, com.google.firebase.components.ComponentDiscoveryService, md.gamefifty.twolivelink.Firebase, com.pci.beacon.service.BeaconService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.pci.bluetooth.BluetoothTestJob
+  Receivers  (6): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, md.gamefifty.twolivelink.RerunReceiver, md.gamefifty.twolivelink.UnlockedReceiver, md.gamefifty.twolivelink.MainAlarmReceiver, com.pci.beacon.startup.StartupBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (4): androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.flurry.android.agent.FlurryContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12142
+  Total Methods : 74202
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(3): 2.3.1.6, 2.3.0.0, 2.3.1.7
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : EC 19 06 10 E1 7D B9 C7 F1 E3 1F 4E 94 BA 0A 7C C8 04 C4 AC D7 16 2D 76 DA 61 16 06 34 04 33 E0
+
+==========================================

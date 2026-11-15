@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.thewickfirm.barterdo
+  SHA-256       : 00A5E70B4C64082989DE5A2AC84A48A44A59191471E8324465E1851B73E8A375
+  Android Group : Android12
+  Version       : 4.0.6 (code: 28)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (38)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_INTERNAL_STORAGE, com.sec.android.provider.badge.permission.WRITE, android.permission.USE_BIOMETRIC, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.google.android.gms.permission.ACTIVITY_RECOGNITION, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_SETTINGS, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (7): com.facebook.CustomTabMainActivity, com.theartofdev.edmodo.cropper.CropImageActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.facebook.react.devsupport.DevSettingsActivity, com.facebook.CustomTabActivity, com.thewickfirm.barterdo.MainActivity
+  Services   (10): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, expo.modules.notifications.service.ExpoFirebaseMessagingService, io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService, com.google.firebase.messaging.FirebaseMessagingService, io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService, androidx.room.MultiInstanceInvalidationService, expo.modules.location.services.LocationTaskService
+  Receivers  (4): expo.modules.notifications.service.NotificationsService, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (7): expo.modules.filesystem.FileSystemFileProvider, expo.modules.imagepicker.ImagePickerFileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.imagepicker.ImagePickerProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 15636
+  Total Methods : 103195
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D2 61 36 98 98 7C F5 94 B5 3D 1E E1 94 B9 BE DB BF CF E0 9C C2 C8 F3 AE 6D 1A 60 23 2C 49 2E A8
+
+==========================================

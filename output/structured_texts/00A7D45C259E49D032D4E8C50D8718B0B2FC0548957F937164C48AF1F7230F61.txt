@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : onlinekar.ecommerce.app
+  SHA-256       : 00A7D45C259E49D032D4E8C50D8718B0B2FC0548957F937164C48AF1F7230F61
+  Android Group : Android13
+  Version       : 1.1.4 (code: 14)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 33
+
+[Permissions (7)]
+  android.permission.INTERNET, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, onlinekar.ecommerce.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (22): onlinekar.ecommerce.app.RegisterActivity, onlinekar.ecommerce.app.splashscreen, onlinekar.ecommerce.app.ProfileAccountActivity, onlinekar.ecommerce.app.LocalPincode, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, onlinekar.ecommerce.app.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, onlinekar.ecommerce.app.CategoryActivity, onlinekar.ecommerce.app.HelpCenterActivity, onlinekar.ecommerce.app.SettingActivity, onlinekar.ecommerce.app.AddNewAddressActivity, onlinekar.ecommerce.app.SuccessOrderActivity, onlinekar.ecommerce.app.AddressUpdateActivity, onlinekar.ecommerce.app.PaymentActivity, onlinekar.ecommerce.app.SubCategoryActivity, onlinekar.ecommerce.app.SearchActivity, onlinekar.ecommerce.app.OrderDetailsActivity, onlinekar.ecommerce.app.ProductsListActivity, onlinekar.ecommerce.app.StoreHomeActivity, onlinekar.ecommerce.app.WixacorpActivity
+  Services   (8): androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, onlinekar.ecommerce.app.MyFirebaseInstanceIDService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (2): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11608
+  Total Methods : 75941
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CA BE 06 5E F2 17 A6 3A B7 13 B7 EE F4 B4 3D D5 4A B5 43 46 F8 5E D5 5A 5D 65 69 77 E9 1A 55 39
+
+==========================================

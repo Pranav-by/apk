@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.phorest.beauvisagebeauty
+  SHA-256       : 00A0BD0474328BE7F4171550229A83FC576B7FB8C4C5327DC2AAD6D62255B113
+  Android Group : Android13
+  Version       : 3.4.10 (code: 100033)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (9)]
+  android.permission.READ_CALENDAR, android.permission.USE_BIOMETRIC, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.WRITE_CALENDAR, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (18): com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.proyecto26.inappbrowser.ChromeTabsManagerActivity, com.stripe.android.view.PaymentFlowActivity, com.stripe.android.paymentsheet.PaymentOptionsActivity, com.stripe.android.view.AddPaymentMethodActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, com.facebook.react.devsupport.DevSettingsActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.googlepay.StripeGooglePayActivity, com.google.android.gms.common.api.GoogleApiActivity, com.stripe.android.view.Stripe3ds2CompletionActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.phorest.branded.app.demo.MainActivity, androidx.biometric.DeviceCredentialHandlerActivity, com.stripe.android.stripe3ds2.views.ChallengeProgressActivity, com.stripe.android.view.PaymentRelayActivity
+  Services   (12): com.google.android.gms.measurement.AppMeasurementService, com.wix.reactnativenotifications.core.ProxyService, com.wix.reactnativenotifications.fcm.FcmInstanceIdListenerService, com.wix.reactnativenotifications.fcm.FcmInstanceIdRefreshHandlerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (5): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.learnium.RNDeviceInfo.RNDeviceReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (6): io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 26237
+  Total Methods : 179904
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DC 37 9B AA 7F 1E 41 B0 57 6F E1 F1 AD EB D6 C7 80 BB A4 0A 36 63 E0 A0 AE 76 54 53 F2 D3 52 0B
+
+==========================================

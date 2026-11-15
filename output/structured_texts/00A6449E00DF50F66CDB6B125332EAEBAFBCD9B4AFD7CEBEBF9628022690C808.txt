@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.zhenkolist.low_fade_haircut_for_men
+  SHA-256       : 00A6449E00DF50F66CDB6B125332EAEBAFBCD9B4AFD7CEBEBF9628022690C808
+  Android Group : Android14
+  Version       : 1.5.11 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.SET_WALLPAPER, android.permission.SET_WALLPAPER_HINTS, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.zhenkolist.low_fade_haircut_for_men.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (12): com.github.javiersantos.piracychecker.activities.LicenseActivity, com.zhenkolist.low_fade_haircut_for_men.activity.ImageActivityZHENKOLIST, com.google.android.gms.ads.NotificationHandlerActivity, com.zhenkolist.low_fade_haircut_for_men.activity.ac_preHome, com.zhenkolist.low_fade_haircut_for_men.activity.OpenAppActivityZHENKOLIST, com.google.android.gms.common.api.GoogleApiActivity, com.zhenkolist.low_fade_haircut_for_men.drawing.DrawingActivityZHENKOLIST, com.google.android.gms.ads.OutOfContextTestingActivity, com.zhenkolist.low_fade_haircut_for_men.activity.MainActivity, com.google.android.gms.ads.AdActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (7): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, com.google.android.play.core.assetpacks.ExtractionForegroundService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.zhenkolist.low_fade_haircut_for_men.widget.UILWidgetProvider, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (2): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 12949
+  Total Methods : 45115
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://developers.google.com/tink/registration_errors, https://goo.gl/J1sWQy, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://play.google.com/store/apps/details?id=
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8C 8D 02 D3 B7 F3 74 3E B5 60 E1 56 36 89 C2 81 D3 C2 DA 38 2D 12 B0 61 BE EB 03 DE 6C 44 05 A6
+
+==========================================

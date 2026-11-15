@@ -1,0 +1,83 @@
+{
+  "sha256": "00730AAEFC42D3F21F14490A83593F73955D1F56762CB3D2215A32E21F7ADE8F",
+  "filename": "00730AAEFC42D3F21F14490A83593F73955D1F56762CB3D2215A32E21F7ADE8F.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.lisanali.serial",
+  "version_name": "5.0",
+  "version_code": "5",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.BLUETOOTH",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.lisanali.serial.JubaActivity",
+    "com.lisanali.serial.Home",
+    "com.startapp.sdk.ads.list3d.List3DActivity",
+    "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "com.lisanali.serial.MainActivity",
+    "com.lisanali.serial.MyPDFViewer",
+    "com.startapp.sdk.ads.interstitials.OverlayActivity",
+    "com.lisanali.serial.WebBrowser",
+    "com.startapp.sdk.adsbase.consent.ConsentActivity"
+  ],
+  "activity_count": 10,
+  "services": [
+    "com.google.android.play.core.assetpacks.AssetPackExtractionService",
+    "com.startapp.sdk.cachedservice.BackgroundService",
+    "com.google.android.play.core.assetpacks.ExtractionForegroundService",
+    "com.startapp.sdk.jobs.SchedulerService"
+  ],
+  "service_count": 4,
+  "receivers": [
+    "com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.squareup.picasso.PicassoProvider",
+    "com.startapp.sdk.adsbase.StartAppInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7142,
+  "method_count": 50004,
+  "cert_fingerprint": "10 BB 60 46 9C 6A 88 B2 BB 8C 26 76 1D 6B 47 7D 38 8F 9E 59 21 57 04 10 E3 39 DE DE B6 8A 3F 19",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#",
+    "https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#",
+    "https://www.startapp.com",
+    "https://opensource.org/licenses/MIT",
+    "https://support.start.io/hc/en-us/articles/360014774799",
+    "https://daneden.me/animate",
+    "https://www.youtube.com/iframe_api",
+    "https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#",
+    "https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#",
+    "https://lh6.ggpht.com/Vo9wbFH89BbDbWFhUezQZOGPKmfkJSAtIbVWk3QxPbvJwcR8I79EVuI0aB41a-je7x-6=w200"
+  ],
+  "ip_addresses": [
+    "127.0.0.1",
+    "10.0.2.15"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

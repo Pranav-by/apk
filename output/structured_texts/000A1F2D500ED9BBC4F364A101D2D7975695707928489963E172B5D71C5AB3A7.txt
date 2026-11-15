@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.perblue.disneyheroes
+  SHA-256       : 000A1F2D500ED9BBC4F364A101D2D7975695707928489963E172B5D71C5AB3A7
+  Android Group : Android13
+  Version       : 6.0.1 (code: 5544629)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (14)]
+  com.google.android.gms.permission.AD_ID, com.singular.preinstall.READ_PERMISSION_SINGULAR, com.google.android.c2dm.permission.RECEIVE, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.REORDER_TASKS, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (49): com.applovin.sdk.AppLovinWebViewActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.adcolony.sdk.AdColonyInterstitialActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.fyber.ads.ofw.OfferWallActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.applovin.mediation.MaxDebuggerActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.facebook.CustomTabMainActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, theoremreach.com.theoremreach.RewardCenterActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, theoremreach.com.theoremreach.MomentSurveyActivity
+  Services   (19): org.acra.sender.JobSenderService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.perblue.dragonsoul.android.RPGFirebaseMessagingService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.android.play.core.assetpacks.AssetPackExtractionService, org.acra.sender.LegacySenderService
+  Receivers  (16): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.perblue.heroes.android.PushNotificationManager, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.perblue.heroes.android.DeleteNotificationListener, com.appsflyer.SingleInstallBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (10): androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.provider.FirebaseInitProvider, com.vungle.warren.utility.VungleProvider, com.facebook.internal.FacebookInitProvider, com.facebook.ads.AudienceNetworkContentProvider, org.acra.attachment.AcraContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 44795
+  Total Methods : 241075
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (6): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://github.com/robolectric/robolectric/pull/4736, https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/sharing/android, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(10): 1.9.16.6, 0.15.1.1, 0.4.0.127, 3.1.3.4, 1.9.16.3, 3.1.3.3, 1.3.6.1, 1.9.16.2, 1.9.16.1, 3.1.3.5
+
+[Certificate]
+  Issuer      : Common Name: PerBlue Entertainment, Organization: PerBlue Entertainment, Locality: Madison, State/Province: WI, Country: US
+  Fingerprint : C3 75 27 17 7E 94 E4 92 A0 D9 80 4F D9 43 86 6A B5 2E 2B 72 C1 40 A1 EC 24 7C 30 7F 17 75 78 EC
+
+==========================================

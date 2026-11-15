@@ -1,0 +1,63 @@
+{
+  "sha256": "00A45D0869202E2EEF61B2E3783601F040AB5525F769B0DF531E2997E6CDD4F7",
+  "filename": "00A45D0869202E2EEF61B2E3783601F040AB5525F769B0DF531E2997E6CDD4F7.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "applock.applocker.lockapps.fingerprint.lock",
+  "version_name": "1.0.2",
+  "version_code": "102",
+  "min_sdk": "23",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS",
+    "android.permission.QUERY_ALL_PACKAGES",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.PACKAGE_USAGE_STATS",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SYSTEM_OVERLAY_WINDOW"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "applock.password.fingerprint.activity.FullscreenActivity",
+    "applock.password.fingerprint.activity.FingerprintActivity",
+    "applock.password.fingerprint.activity.HomeActivity",
+    "applock.password.fingerprint.activity.SecurePasswordActivity",
+    "applock.password.fingerprint.activity.ModifyPasswordActivity",
+    "applock.password.fingerprint.activity.PermissionActivity",
+    "applock.password.fingerprint.activity.FakeAppIconActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "androidx.room.MultiInstanceInvalidationService",
+    "applock.password.fingerprint.lock.SecureService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2402,
+  "method_count": 12437,
+  "cert_fingerprint": "79 56 9A 11 E5 BC B3 82 E5 54 28 37 27 47 7D 6E 8E F6 11 3F 28 BE FA 44 30 95 09 65 7D C6 FC 3F",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

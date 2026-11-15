@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : md.elway.webapp
+  SHA-256       : 00BB8C911AF3E7963195D9AC6991131CDE84728577065C20886889C95EA15169
+  Android Group : Android13
+  Version       : 3.0 (code: 30)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (12)]
+  android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.HIGH_SAMPLING_RATE_SENSORS, com.android.launcher.permission.INSTALL_SHORTCUT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, md.elway.webapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (9): com.google.android.gms.ads.OutOfContextTestingActivity, md.elway.webapp.screen.webapp.WebAppActivity, md.elway.webapp.screen.launcher.LauncherActivity, com.google.android.gms.ads.AdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, md.elway.webapp.screen.loader.LoaderActivity, com.google.android.gms.common.api.GoogleApiActivity, md.elway.webapp.screen.settings.SettingsActivity, md.elway.webapp.screen.tune.AppTuneActivity
+  Services   (56): org.mozilla.gecko.process.GeckoChildProcessServices$tab13, org.mozilla.gecko.process.GeckoChildProcessServices$tab18, org.mozilla.gecko.process.GeckoChildProcessServices$tab11, org.mozilla.gecko.process.GeckoChildProcessServices$tab17, org.mozilla.gecko.process.GeckoChildProcessServices$tab8, org.mozilla.gecko.process.GeckoChildProcessServices$tab19, org.mozilla.gecko.process.GeckoChildProcessServices$tab10, org.mozilla.gecko.process.GeckoChildProcessServices$tab7, org.mozilla.gecko.process.GeckoChildProcessServices$tab21, org.mozilla.gecko.media.MediaManager, org.mozilla.gecko.process.GeckoChildProcessServices$tab16, org.mozilla.gecko.process.GeckoChildProcessServices$tab20, org.mozilla.gecko.process.GeckoChildProcessServices$tab34, org.mozilla.gecko.process.GeckoChildProcessServices$tab12, org.mozilla.gecko.process.GeckoChildProcessServices$tab9, org.mozilla.gecko.process.GeckoChildProcessServices$tab22, org.mozilla.gecko.process.GeckoChildProcessServices$gpu, org.mozilla.gecko.process.GeckoChildProcessServices$tab38, org.mozilla.gecko.process.GeckoChildProcessServices$tab14, org.mozilla.gecko.process.GeckoChildProcessServices$tab24
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (3): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 28254
+  Total Methods : 166597
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1E 7D 71 72 5F B5 42 7C D7 29 AA 96 06 3E CD BD 93 BF 62 2E A4 24 0D 70 61 96 55 24 79 BD 19 CC
+
+==========================================

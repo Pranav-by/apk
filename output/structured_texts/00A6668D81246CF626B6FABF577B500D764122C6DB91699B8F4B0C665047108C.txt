@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.yourcultureconnect.fhm.tour
+  SHA-256       : 00A6668D81246CF626B6FABF577B500D764122C6DB91699B8F4B0C665047108C
+  Android Group : Android15
+  Version       : 1.8.0 (code: 10800)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 35
+
+[Permissions (10)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.BLUETOOTH, android.permission.CAMERA, com.yourcultureconnect.fhm.tour.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (1): com.yourcultureconnect.fhm.tour.MainActivity
+  Services   (0): none
+  Receivers  (2): nl.xservices.plugins.ShareChooserPendingIntent, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (5): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, androidx.core.content.FileProvider, nl.xservices.plugins.FileProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 5321
+  Total Methods : 37357
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Monika Smyczek, Organizational Unit: Unknown, Organization: Cultureconnect LLC., Locality: New Orleans, State/Province: Louisiana, Country: LA
+  Fingerprint : 40 67 A3 E8 77 3C 5C 5E E8 5A A8 A7 EE AA 2B 96 85 3A 96 C8 60 AA F0 03 3B 05 DA F3 16 90 15 9D
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : br.com.gr7autocom.fis
+  SHA-256       : 00361237258FBAA2BFC86ABD872F7EBC72D3E57C2167F077F7302E9D7BF2EFBD
+  Android Group : Android13
+  Version       : 1.4.0 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (8)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.CALL_PHONE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, android.permission.READ_PHONE_STATE
+
+[Application Components]
+  Activities (1): com.embarcadero.firemonkey.FMXNativeActivity
+  Services   (0): none
+  Receivers  (1): com.embarcadero.rtl.notifications.NotificationAlarm
+  Providers  (1): androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9275
+  Total Methods : 47261
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F4 FC 4D D7 E4 31 39 5B 91 51 E8 74 09 2C F0 0F 09 D0 73 98 1E 3D 13 73 A9 15 EB 53 C2 75 C4 20
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mooodek.music
+  SHA-256       : 00A7EA515AF1B1EDE74B8BE789F796D80AEED36B4E044C67E98DE986647B8A9F
+  Android Group : Android12
+  Version       : 1.0.29 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (14)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.INTERNET, com.mooodek.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.USE_FULL_SCREEN_INTENT, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (10): com.mooodek.music.MainActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, com.facebook.FacebookActivity, com.facebook.CustomTabActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.facebook.CustomTabMainActivity
+  Services   (11): com.ryanheise.audioservice.AudioService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, org.xrstudio.xmpp.flutter_xmpp.Connection.FlutterXmppConnectionService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (11): com.ryanheise.audioservice.MediaButtonReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (5): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10815
+  Total Methods : 60308
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (9): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://developer.android.com/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://help.branch.io/developers-hub/docs/tracking-commerce-content-lifecycle-and-custom-events, https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://exoplayer.dev/issues/cleartext-not-permitted, https://firebase.google.com/docs/analytics, http://xmpp.org/rfcs/rfc6120.html#streams-error-conditions, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 16 6E 97 D6 78 D9 54 E3 15 D2 AA 6A B6 FC 52 F8 57 B6 55 F4 95 7A 56 FC 94 48 74 60 A7 5B A5 9B
+
+==========================================

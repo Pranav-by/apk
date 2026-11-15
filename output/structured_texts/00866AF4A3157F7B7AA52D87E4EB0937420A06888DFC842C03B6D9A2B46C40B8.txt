@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cruisepicker.cruisepicker
+  SHA-256       : 00866AF4A3157F7B7AA52D87E4EB0937420A06888DFC842C03B6D9A2B46C40B8
+  Android Group : Android15
+  Version       : 2025.02 (code: 20250923)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (10)]
+  com.cruisepicker.cruisepicker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (9): com.cruisepicker.cruisepicker.MainActivity, com.cruisepicker.cruisepicker.widget.WidgetConfigActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.pairip.licensecheck.LicenseActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.firebase.auth.internal.RecaptchaActivity, androidx.credentials.playservices.HiddenActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (5): com.google.firebase.components.ComponentDiscoveryService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (3): com.cruisepicker.cruisepicker.widget.CountdownWidget, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.pairip.licensecheck.LicenseContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 32688
+  Total Methods : 153778
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4B A7 78 45 2E 61 41 2F 24 E9 44 BE 1A D5 16 A8 58 CA 9E FE 32 68 5E E8 57 A7 3A 64 A0 BC A0 1E
+
+==========================================

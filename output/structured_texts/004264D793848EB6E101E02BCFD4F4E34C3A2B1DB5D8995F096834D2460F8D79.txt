@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.steuerbot
+  SHA-256       : 004264D793848EB6E101E02BCFD4F4E34C3A2B1DB5D8995F096834D2460F8D79
+  Android Group : Android13
+  Version       : 2.18.7 (code: 603)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (21)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.USE_FINGERPRINT, android.permission.HIGH_SAMPLING_RATE_SENSORS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FLASHLIGHT, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (28): com.proyecto26.inappbrowser.ChromeTabsManagerActivity, androidx.compose.ui.tooling.PreviewActivity, io.scanbot.sdk.ui.view.camera.DocumentScannerActivity, de.idnow.insights.messaging.InsightsPushActivity, io.scanbot.sdk.ui.view.check.CheckRecognizerActivity, com.steuerbot.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, io.scanbot.sdk.ui.view.licenseplate.LicensePlateScannerActivity, io.scanbot.sdk.ui.view.generictext.TextDataScannerActivity, io.scanbot.sdk.ui.view.mc.MedicalCertificateRecognizerActivity, io.scanbot.sdk.ui.view.mrz.MRZScannerActivity, io.scanbot.sdk.ui.view.genericdocument.GenericDocumentRecognizerActivity, io.scanbot.sdk.ui.view.multiple_objects.MultipleObjectsDetectorActivity, io.scanbot.sdk.ui.view.barcode.batch.BatchBarcodeScannerActivity, de.idnow.core.ui.emirates.IDnowEmiratesNfcActivity, io.scanbot.sdk.ui.view.hic.HealthInsuranceCardScannerActivity, io.scanbot.sdk.ui.view.barcode.BarcodeScannerActivity, io.scanbot.sdk.ui.view.camera.FinderDocumentScannerActivity, io.scanbot.sdk.ui.view.edit.CroppingActivity
+  Services   (14): com.google.firebase.components.ComponentDiscoveryService, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, de.idnow.core.capture.video.RecorderService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.analytics.AnalyticsService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+  Receivers  (7): com.adjust.sdk.AdjustReferrerReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+  Providers  (8): io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.ReactNativeBlobUtil.Utils.FileProvider, cl.json.RNShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 35102
+  Total Methods : 220403
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8E 6A 31 9A 50 0C 48 0C D5 50 3C 3C 2F BA EB 05 0D D0 D6 94 48 03 E2 26 29 F2 54 C1 D3 12 A6 39
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : se.biljettkiosken.qrentre
+  SHA-256       : 00A549ADF65C5175F66634B941F8514AEDDCEA3121F87F79B3352E7FC3B5760F
+  Android Group : Android14
+  Version       : 1.23 (code: 23)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 34
+
+[Permissions (11)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (2): com.google.android.gms.common.api.GoogleApiActivity, se.biljettkiosken.qrentre.EntranceActivity
+  Services   (9): com.google.android.gms.cast.framework.ReconnectionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, se.biljettkiosken.qrentre.FCMInstanceIDService, se.biljettkiosken.qrentre.FCMService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver
+  Providers  (1): com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8046
+  Total Methods : 53306
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Henrik Djurner, Organizational Unit: Biljettkiosken, Organization: Citypuls AB, Locality: Växjö, State/Province: Kronoberg, Country: SE
+  Fingerprint : 4D 8E F1 2C D9 A0 D5 BD A1 7F 09 FD 56 BD D4 BB 17 BF 48 3B 7F 23 9A 44 AE 83 24 18 97 7C 36 FC
+
+==========================================

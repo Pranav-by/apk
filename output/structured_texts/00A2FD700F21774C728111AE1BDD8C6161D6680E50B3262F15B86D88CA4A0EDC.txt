@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.monkey.hop.dg
+  SHA-256       : 00A2FD700F21774C728111AE1BDD8C6161D6680E50B3262F15B86D88CA4A0EDC
+  Android Group : Android16
+  Version       : 0.7 (code: 7)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (37)]
+  com.monkey.hop.dg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, com.monkey.hop.dg.permission.C2D_MESSAGE
+
+[Application Components]
+  Activities (57): com.thinkup.basead.ui.TUPortraitActivity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity, com.mbridge.msdk.activity.MBCommonActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.thinkup.core.basead.ui.web.WebLandPageActivity, com.ironsource.sdk.controller.InterstitialActivity, com.thinkup.basead.ui.activity.TUMixSplashActivity, com.mbridge.msdk.out.LoadingActivity, com.thinkup.expressad.reward.player.TURewardVideoActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, com.unity3d.player.UnityPlayerActivity, com.pubscale.sdkone.offerwall.ui.OfferWallActivity, com.onesignal.notifications.activities.NotificationOpenedActivityHMS, com.unity3d.services.ads.adunit.AdUnitActivity, com.onesignal.notifications.activities.NotificationOpenedActivity, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.fyber.inneractive.sdk.activities.FyberReportAdActivity, com.bytedance.sdk.openadsdk.activity.TTCeilingLandingPageActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+  Services   (14): androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, com.onesignal.core.services.SyncJobService, com.google.android.gms.measurement.AppMeasurementJobService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver
+  Providers  (9): com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.vungle.ads.VungleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.squareup.picasso.PicassoProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.pairip.licensecheck.LicenseContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 46136
+  Total Methods : 285388
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E7 97 AE 8B B9 D9 3D BD B9 0C 17 4D CB 81 D9 F4 B0 7E 99 30 CF 02 2E 6D BF C7 58 65 E8 14 02 9D
+
+==========================================

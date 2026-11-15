@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mtx.sivashghx
+  SHA-256       : 000B47E232012FD298ED4B38E1F36BEBC3E14A5D0BCCE7BD0DEDBBCC07326CDA
+  Android Group : Android12L
+  Version       : 1.00 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (4)]
+  android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.WAKE_LOCK, android.permission.INTERNET
+
+[Application Components]
+  Activities (2): com.mtx.sivashghx.main, com.mtx.sivashghx.player
+  Services   (2): com.mtx.sivashghx.httputils2service, com.mtx.sivashghx.starter
+  Receivers  (2): com.mtx.sivashghx.starter$starter_BR, com.mtx.sivashghx.httputils2service$httputils2service_BR
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2839
+  Total Methods : 23830
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4D 96 AA 49 5E 02 BA 9A 73 64 8A 81 09 F8 3A 0F 9F 59 9A F2 F2 82 DD 68 1B 84 DB 80 C5 00 80 58
+
+==========================================

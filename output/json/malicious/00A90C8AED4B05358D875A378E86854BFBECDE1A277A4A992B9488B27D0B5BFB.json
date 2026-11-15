@@ -1,0 +1,66 @@
+{
+  "sha256": "00A90C8AED4B05358D875A378E86854BFBECDE1A277A4A992B9488B27D0B5BFB",
+  "filename": "00A90C8AED4B05358D875A378E86854BFBECDE1A277A4A992B9488B27D0B5BFB.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "software.sandra.navigation",
+  "version_name": "2.0.5",
+  "version_code": "37",
+  "min_sdk": "19",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.DISABLE_KEYGUARD",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "software.sandra.navigation.view.settings.SettingsActivity",
+    "software.sandra.navigation.view.setup.SetupActivity",
+    "software.sandra.navigation.app.StartupActivity",
+    "software.sandra.navigation.MainActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "software.sandra.navigation.services.FCMService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2835,
+  "method_count": 12561,
+  "cert_fingerprint": "ED A0 D5 A6 70 5F 3A 58 07 B3 CA 75 97 60 37 0D B7 0F D9 A4 68 D6 D5 AC ED EE 0B 56 1F A8 D2 23",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

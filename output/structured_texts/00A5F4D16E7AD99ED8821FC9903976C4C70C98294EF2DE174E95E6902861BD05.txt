@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : appinventor.ai_imarketersam.MathsQuizApp
+  SHA-256       : 00A5F4D16E7AD99ED8821FC9903976C4C70C98294EF2DE174E95E6902861BD05
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 7
+  Target SDK    : 31
+
+[Permissions (3)]
+  android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (2): com.google.android.gms.ads.AdActivity, appinventor.ai_imarketersam.MathsQuizApp.Screen1
+  Services   (1): com.google.android.gms.ads.AdService
+  Receivers  (0): none
+  Providers  (1): androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 5126
+  Total Methods : 39353
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (9): http://www.twitter.com, https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html, https://en.wikipedia.org/wiki/GeoJSON, http://www.facebook.com, https://en.wikipedia.org/wiki/Tesla_(unit)., http://developer.android.com/guide/appendix/media-formats.html, http://twitter.com/oauth_clients/new, https://code.google.com/apis/console/, https://developers.google.com/fusiontables/docs/v2/getting_started
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5B 22 5D 51 72 AF A3 8B 97 30 C1 F0 6D DF 83 FE A3 A7 4A 42 06 50 0B D0 56 B5 A1 0F 89 30 D0 9B
+
+==========================================

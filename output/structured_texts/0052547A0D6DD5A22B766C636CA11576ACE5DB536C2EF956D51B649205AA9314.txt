@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.liquidcompass.KBPAFM
+  SHA-256       : 0052547A0D6DD5A22B766C636CA11576ACE5DB536C2EF956D51B649205AA9314
+  Android Group : Android15
+  Version       : 6.6.1 (code: 51500)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 35
+
+[Permissions (49)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, com.liquidcompass.KBPAFM.permission.C2D_MESSAGE, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_ADSERVICES_TOPICS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (40): com.mopub.mobileads.MoPubFullscreenActivity, com.onesignal.core.activities.PermissionsActivity, com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder, com.google.firebase.auth.internal.GenericIdpActivity, com.mopub.mobileads.MraidVideoPlayerActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.mopub.common.MoPubBrowser, androidx.credentials.playservices.HiddenActivity, com.itmwpb.vanilla.radioapp.ui.onboarding.OnboardingActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.ads.AdActivity, com.itmwpb.vanilla.radioapp.ui.splashActivity.SplashActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.itmwpb.vanilla.radioapp.MainActivity, com.itmwpb.vanilla.radioapp.ui.alarm.AlarmRingActivity, com.google.android.gms.ads.NotificationHandlerActivity, org.fossify.commons.activities.ContributorsActivity, org.fossify.commons.activities.FAQActivity, com.onesignal.NotificationOpenedActivityHMS
+  Services   (24): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, com.itmwpb.vanilla.radioapp.player.MusicService, com.itmwpb.vanilla.radioapp.receivers.services.ForegroundCommonService, com.itmwpb.vanilla.radioapp.locationtracking.LocationTrackingService, com.itmwpb.vanilla.radioapp.record.services.RecorderService, com.google.android.gms.cast.framework.ReconnectionService, com.onesignal.notifications.services.HmsMessageServiceOneSignal, com.onesignal.core.services.SyncJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.analytics.AnalyticsJobService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (24): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.onesignal.notifications.receivers.BootUpReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, com.itmwpb.vanilla.radioapp.receivers.AlarmBroadcastReceiver, com.itmwpb.vanilla.radioapp.receivers.SnoozeBroadcastReceiver, androidx.media.session.MediaButtonReceiver, com.itmwpb.vanilla.radioapp.player.CarModeReceiver, org.fossify.commons.receivers.SharedThemeReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.onesignal.notifications.receivers.FCMBroadcastReceiver, com.onesignal.notifications.receivers.NotificationDismissReceiver, com.onesignal.notifications.receivers.UpgradeReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (6): androidx.core.content.FileProvider, com.firebase.ui.auth.data.client.AuthUiInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.kbeanie.multipicker.utils.AMPFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 80989
+  Total Methods : 472921
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/jetpack/androidx/releases/compose-kotlin, https://issuetracker.google.com/issues?q=componentid:610764
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Application Support, Organizational Unit: CorpIT, Organization: Emmis Communications, Locality: Indianapolis, State/Province: Indiana, Country: US
+  Fingerprint : FE AD 9C C2 8A 71 65 3C D4 5C C3 8A EC 64 14 2B 91 24 A9 D1 8A 7D 8E 04 0A 79 A2 3E 8D D9 AF 54
+
+==========================================

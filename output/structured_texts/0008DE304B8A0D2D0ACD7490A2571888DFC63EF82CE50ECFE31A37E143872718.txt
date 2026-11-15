@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : uni.UNIB6CFA1E
+  SHA-256       : 0008DE304B8A0D2D0ACD7490A2571888DFC63EF82CE50ECFE31A37E143872718
+  Android Group : Android12
+  Version       : 1.4.4 (code: 144)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (26)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.BLUETOOTH_ADMIN, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.ACCESS_FINE_LOCATION, com.vivo.notification.permission.BADGE_ICON, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH_CONNECT, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (10): io.dcloud.PandoraEntryActivity, com.dmcbig.mediapicker.PickerActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, io.dcloud.ProcessMediator, io.dcloud.PandoraEntry, io.dcloud.WebAppActivity, io.dcloud.WebviewActivity, com.dmcbig.mediapicker.PreviewActivity, io.dcloud.sdk.activity.WebViewActivity, io.dcloud.feature.nativeObj.photoview.PhotoActivity
+  Services   (1): io.dcloud.sdk.base.service.DownloadService
+  Receivers  (1): com.taobao.weex.WXGlobalEventReceiver
+  Providers  (2): io.dcloud.sdk.base.service.provider.DCloudAdFileProvider, io.dcloud.common.util.DCloud_FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 8631
+  Total Methods : 59579
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://ask.dcloud.net.cn/article/35058
+  IP Addresses(1): 1.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : FE 8E ED 1E 3C 52 95 A0 C9 1A ED F2 3C F0 B2 29 61 90 51 60 11 ED 4D 06 44 5A 35 D8 0B 23 B2 B8
+
+==========================================

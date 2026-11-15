@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fresha.Business
+  SHA-256       : 00A2BC187AC5240528EFF6B800F044EEBC0A91CCBFBB814AF7BB4D823608BD04
+  Android Group : Android14
+  Version       : 2.8.1517 (code: 1889815687)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (39)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.USE_CREDENTIALS, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_WIFI_STATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.READ_APP_BADGE
+
+[Application Components]
+  Activities (13): com.fresha.business.ttp.PaymentActivity, com.facebook.CustomTabActivity, com.adyen.ipp.ui.PaymentActivity, com.google.android.gms.common.api.GoogleApiActivity, ipp_pcr.EP0, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.adyen.ipp.cardreader.mvi.statemachine.EmptyActivity, ipp_pcr.EP1, com.facebook.CustomTabMainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.whitecryption.securepin.TuiActivity, com.facebook.FacebookActivity, com.fresha.Business.MainActivity
+  Services   (12): androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.fresha.business.ttp.TapToPayAuthenticator, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.capacitorjs.plugins.pushnotifications.MessagingService, com.adyen.ipp.api.ipc.InPersonPaymentsService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.adyen.ipp.cardreader.device.DeviceManagerService
+  Receivers  (6): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (8): com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, androidx.mills.muscle.bacon.textile.Visiting, androidx.startup.InitializationProvider, io.github.pwlin.cordova.plugins.fileopener2.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 33303
+  Total Methods : 214364
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F7 40 76 44 62 55 02 78 44 F7 41 FF 68 E0 6C B2 09 1E 65 31 B4 F2 07 AF 6E 72 2F 9A 31 16 E5 FB
+
+==========================================

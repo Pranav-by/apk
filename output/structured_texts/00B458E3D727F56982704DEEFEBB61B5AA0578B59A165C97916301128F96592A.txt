@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : screw.nuts.bolts.logic.puzzle
+  SHA-256       : 00B458E3D727F56982704DEEFEBB61B5AA0578B59A165C97916301128F96592A
+  Android Group : Android14
+  Version       : 1.0.4 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (19)]
+  android.permission.VIBRATE, android.permission.GET_TASKS, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, screw.nuts.bolts.logic.puzzle.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.REAL_GET_TASKS, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.PACKAGE_USAGE_STATS, android.gms.permission.ACTIVITY_RECOGNITION, screw.nuts.bolts.logic.puzzle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (61): com.unity3d.player.UnityPlayerActivity, com.anythink.unitybridge.view.SimpleWebViewActivity, com.anythink.core.activity.AnyThinkGdprAuthActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.amazon.device.ads.DTBInterstitialActivity, com.anythink.basead.ui.ATLandscapeActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.amazon.aps.ads.activity.ApsInterstitialActivity, sg.bigo.ads.ad.splash.LandscapeAdSplashActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, sg.bigo.ads.api.AdActivity, com.ironsource.sdk.controller.ControllerActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.ironsource.sdk.controller.InterstitialActivity, sg.bigo.ads.ad.splash.AdSplashActivity, com.unity3d.ads.adplayer.FullScreenWebViewDisplay, sg.bigo.ads.api.CompanionAdActivity, com.ironsource.sdk.controller.OpenUrlActivity
+  Services   (10): com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, androidx.work.impl.background.systemjob.SystemJobService, io.appmetrica.analytics.internal.AppMetricaService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (9): io.appmetrica.analytics.internal.PreloadInfoContentProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.vungle.ads.internal.util.VungleProvider, com.squareup.picasso.PicassoProvider, com.startapp.sdk.adsbase.StartAppInitProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, sg.bigo.ads.controller.provider.BigoAdsProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 7
+  Total Classes : 52771
+  Total Methods : 320201
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (5): http://whatwg.org/html/common-microsyntaxes.html#space-character, https://gist.github.com/atk/1020396, http://whatwg.org/html/webappapis.html#dom-windowbase64-btoa, http://whatwg.org/html/webappapis.html#dom-windowbase64-atob, http://whatwg.org/C#alphanumeric-ascii-characters
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : AF 34 47 1D FE A6 57 A7 EA 72 DA BB 16 FE 68 3E 7A 45 FB EB ED 34 79 1C E5 E4 FA 20 C6 3C 53 A3
+
+==========================================

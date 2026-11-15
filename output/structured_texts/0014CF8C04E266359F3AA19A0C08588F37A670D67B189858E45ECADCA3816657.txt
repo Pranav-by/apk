@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ExecutrixApps.SamsungA53
+  SHA-256       : 0014CF8C04E266359F3AA19A0C08588F37A670D67B189858E45ECADCA3816657
+  Android Group : Android12
+  Version       : 2.0 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (11)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.READ_CONTACTS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (13): com.ExecutrixApps.SamsungA53.activities.AboutActivity, com.ExecutrixApps.SamsungA53.activities.RTDtlsActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.ExecutrixApps.SamsungA53.activities.StartActivity, com.applovin.adview.AppLovinFullscreenActivity, com.ExecutrixApps.SamsungA53.activities.MainActivity, com.applovin.sdk.AppLovinWebViewActivity, com.facebook.ads.AudienceNetworkActivity
+  Services   (2): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (0): none
+  Providers  (3): com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2709
+  Total Methods : 17321
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): http://developer.android.com/google/play-services/setup.html., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(1): 6.8.0.12
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 18 08 7D 57 06 4B BF 47 77 9A 6D 6C 44 89 97 5E 12 30 0F 29 E4 A6 B3 98 50 99 A9 FA 18 3F C2 AB
+
+==========================================

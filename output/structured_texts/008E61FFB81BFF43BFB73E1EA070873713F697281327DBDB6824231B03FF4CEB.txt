@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.alippo.app
+  SHA-256       : 008E61FFB81BFF43BFB73E1EA070873713F697281327DBDB6824231B03FF4CEB
+  Android Group : Android12L
+  Version       : 2.1.8 (code: 134)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (21)]
+  android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT, com.android.vending.BILLING, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.MODIFY_AUDIO_SETTINGS
+
+[Application Components]
+  Activities (16): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.clevertap.android.sdk.InAppNotificationActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.android.billingclient.api.ProxyBillingActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.clevertap.android.sdk.inbox.CTInboxActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.alippo.app.EmbeddingV1Activity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, com.google.android.gms.common.api.GoogleApiActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.razorpay.CheckoutActivity, com.alippo.app.MainActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+  Services   (18): androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.clevertap.android.sdk.pushnotification.fcm.FcmMessageListenerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundIntentService, com.clevertap.android.sdk.pushnotification.amp.CTBackgroundJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (18): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.razorpay.RzpTokenReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (9): vn.hunghd.flutterdownloader.DownloadedFileProvider, androidx.startup.InitializationProvider, vn.hunghd.flutterdownloader.FlutterDownloaderInitializer, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9688
+  Total Methods : 57440
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://github.com/pichillilorenzo/flutter_inappwebview#important-note-for-android, https://developer.android.com/guide/topics/permissions/overview, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 43 50 4F 03 DF 15 30 21 98 51 CB 34 B8 DA F2 65 12 D5 EB 6C 44 26 71 7C AD A0 2F 85 7F 72 49 74
+
+==========================================

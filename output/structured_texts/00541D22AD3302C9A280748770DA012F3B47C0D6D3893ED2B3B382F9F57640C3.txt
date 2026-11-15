@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : fr.tf1.mytf1
+  SHA-256       : 00541D22AD3302C9A280748770DA012F3B47C0D6D3893ED2B3B382F9F57640C3
+  Android Group : Android12
+  Version       : 10.2.0 (code: 12064)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.google.android.c2dm.permission.RECEIVE, fr.tf1.mytf1.batch.permission.INTERNAL_BROADCAST, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (30): fr.tf1.mytf1.ui.MainActivity, fr.tf1.mytf1.ui.player.playlist.PlaylistPlayerActivity, fr.tf1.mytf1.ui.player.video.VideoPlayerActivity, com.facebook.FacebookActivity, fr.tf1.mytf1.ui.login.LoginActivity, fr.tf1.mytf1.ui.settings.SettingsActivity, com.facebook.CustomTabActivity, com.gigya.android.sdk.ui.HostActivity, com.gigya.android.sdk.ui.WebLoginActivity, zendesk.support.guide.HelpCenterActivity, com.google.android.gms.oss.licenses.OssLicensesMenuActivity, com.google.android.gms.oss.licenses.OssLicensesActivity, fr.tf1.mytf1.ui.pass.main.MaxLandingRouterActivity, fr.tf1.player.chromecast.ui.controller.expanded.ExpandedControlsActivity, com.tagcommander.lib.privacy.TCPrivacyCenter, com.facebook.CustomTabMainActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, zendesk.support.guide.ViewArticleActivity, zendesk.support.requestlist.RequestListActivity, zendesk.messaging.MessagingActivity
+  Services   (22): com.batch.android.BatchPushJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.batch.android.BatchActionService, com.batch.android.BatchPushService, com.batch.android.BatchDisplayReceiptJobService, com.batch.android.eventdispatcher.DispatcherDiscoveryService, com.batch.android.push.PushRegistrationDiscoveryService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (17): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, zendesk.support.DeepLinkingBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.batch.android.BatchPushMessageReceiver, com.batch.android.BatchPushMessageDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (10): com.google.firebase.perf.provider.FirebasePerfProvider, com.google.firebase.provider.FirebaseInitProvider, zendesk.support.guide.GuideSdkStartupProvider, zendesk.support.SupportSdkStartupProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.usabilla.sdk.ubform.utils.UbFileProvider, zendesk.belvedere.BelvedereFileProvider, com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 36803
+  Total Methods : 208525
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developers.facebook.com/docs/sharing/android, https://firebase.google.com/support/guides/disable-analytics, https://cdns.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organizational Unit: eTF1, Organization: TF1, Locality: Boulogne
+  Fingerprint : 57 E9 90 B5 71 2B B1 A9 A8 19 2E 10 BD 6B 7B 6C 57 5D 0E F5 3E B8 5A DD 86 1C 82 83 0C 1C AB D3
+
+==========================================

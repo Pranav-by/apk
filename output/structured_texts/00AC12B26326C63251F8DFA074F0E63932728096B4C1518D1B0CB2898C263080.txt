@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.m.stratiofleetmanager
+  SHA-256       : 00AC12B26326C63251F8DFA074F0E63932728096B4C1518D1B0CB2898C263080
+  Android Group : Android12L
+  Version       : 1.9.0 (code: 73)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 32
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.REORDER_TASKS, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (9): com.m.stratiofleetmanager.Main.MainActivity, com.m.stratiofleetmanager.Message.MessageActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.m.stratiofleetmanager.VehicleDescription.VehicleDescriptionActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.m.stratiofleetmanager.Login.LoginActivity, com.m.stratiofleetmanager.SplashScreen.SplashScreenActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+  Services   (6): com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.m.stratiofleetmanager.Services.SignalRService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.m.stratiofleetmanager.InternetConnection.ConnectivityChangeReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.google.firebase.perf.provider.FirebasePerfProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 15994
+  Total Methods : 123109
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B2 8E E7 35 78 93 F4 E9 DE 53 B3 91 AC A1 7E BA 94 E9 6D 23 F0 E3 20 C4 D9 E5 B3 DF 6B EA 42 73
+
+==========================================

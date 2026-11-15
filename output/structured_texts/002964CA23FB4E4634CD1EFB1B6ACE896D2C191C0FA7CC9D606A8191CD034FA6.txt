@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.neuroticfly.interdimensionalvendingmachine
+  SHA-256       : 002964CA23FB4E4634CD1EFB1B6ACE896D2C191C0FA7CC9D606A8191CD034FA6
+  Android Group : Android15
+  Version       : 0.3.3.0 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (1)]
+  com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (3): com.godot.game.GodotApp, org.godotengine.godot.utils.ProcessPhoenix, com.pairip.licensecheck.LicenseActivity
+  Services   (1): org.godotengine.godot.GodotDownloaderService
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.pairip.licensecheck.LicenseContentProvider1, androidx.startup.InitializationProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3857
+  Total Methods : 26528
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E4 91 57 89 F7 F6 01 D2 E6 34 2A 6F F6 16 40 04 4B AA C5 31 02 21 C3 FA 5B 88 59 F9 89 5E A6 D6
+
+==========================================

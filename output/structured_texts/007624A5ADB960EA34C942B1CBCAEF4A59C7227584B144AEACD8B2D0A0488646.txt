@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.alienmanfc6.wheresmyandroid
+  SHA-256       : 007624A5ADB960EA34C942B1CBCAEF4A59C7227584B144AEACD8B2D0A0488646
+  Android Group : Android13
+  Version       : 6.8.11 (code: 195)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (36)]
+  android.permission.READ_PHONE_NUMBERS, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.USE_CREDENTIALS, android.permission.START_ACTIVITIES_FROM_BACKGROUND, com.alienmanfc6.wheresmyandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACTIVITY_RECOGNITION, com.google.android.gms.permission.ACTIVITY_RECOGNITION, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.USE_FULL_SCREEN_INTENT, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (51): com.alienmanfc6.wheresmyandroid.menus.HideLauncher, com.alienmanfc6.wheresmyandroid.menus.ActivityLog, com.alienmanfc6.wheresmyandroid.menus.BaseMenu, com.alienmanfc6.wheresmyandroid.menus.Passcode, com.alienmanfc6.wheresmyandroid.menus.WhiteBlackAddManuallyDialog, com.alienmanfc6.wheresmyandroid.ContactPickerDialogDetails, com.alienmanfc6.wheresmyandroid.setupmenus.Finish, com.alienmanfc6.wheresmyandroid.menus.SimMenu, com.alienmanfc6.wheresmyandroid.setupmenus.AttentionWords, com.alienmanfc6.wheresmyandroid.features.camera.CameraActivity, com.alienmanfc6.wheresmyandroid.menus.AutoTheftDetectionActionsMenu, com.alienmanfc6.wheresmyandroid.features.RingActivity, com.alienmantech.commander.CommanderLogin, com.alienmanfc6.wheresmyandroid.menus.MainMenu, com.alienmanfc6.wheresmyandroid.menus.GeofenceMenu, com.alienmantech.commander.CommanderSignup, com.alienmantech.commander.CommanderManage, com.alienmanfc6.wheresmyandroid.Main, com.alienmanfc6.wheresmyandroid.PopupDialog, com.alienmantech.commander.CommanderMainMenu
+  Services   (43): com.alienmanfc6.wheresmyandroid.features.GeofenceAlarmService, com.alienmanfc6.wheresmyandroid.features.RingService, com.alienmanfc6.wheresmyandroid.features.GPSLocation, com.alienmanfc6.wheresmyandroid.features.GpsLocation2, com.google.firebase.components.ComponentDiscoveryService, com.alienmanfc6.wheresmyandroid.features.GpsPassiveLocation, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.alienmanfc6.wheresmyandroid.features.GpsPassiveReceiver, com.alienmanfc6.wheresmyandroid.features.LowBatteryMonitor, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, com.alienmanfc6.wheresmyandroid.features.camera.CameraService, com.alienmanfc6.wheresmyandroid.features.AtdTriggerService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.alienmanfc6.wheresmyandroid.features.AtdEmailService, com.google.android.gms.analytics.AnalyticsService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (36): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.sense360.android.quinoa.lib.RestartReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.alienmanfc6.wheresmyandroid.receivers.UpdateReceiver, com.alienmanfc6.wheresmyandroid.receivers.BootReceiver, com.alienmanfc6.wheresmyandroid.receivers.ShutdownReceiver, com.alienmanfc6.wheresmyandroid.features.PermissionMonitor, com.alienmanfc6.wheresmyandroid.receivers.BatteryReceiver, com.alienmanfc6.wheresmyandroid.receivers.UsbReceiver, com.alienmanfc6.wheresmyandroid.receivers.AirplaneModeReceiver, com.cuebiq.cuebiqsdk.receiver.CoverageReceiver, com.cuebiq.cuebiqsdk.receiver.InitializationReceiver, com.alienmanfc6.wheresmyandroid.DeviceAdmin$DeviceAdminWMDReceiver, com.sense360.android.quinoa.lib.visit.ActivityVisitTriggerReceiver
+  Providers  (7): com.sense360.android.quinoa.lib.preferences.MultiProcessPreferencesProvider, com.cuebiq.cuebiqsdk.model.CuebiqSDKProvider, com.facebook.ads.AudienceNetworkContentProvider, com.alienmanfc6.wheresmyandroid.utils.LockSendContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 17049
+  Total Methods : 103239
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : YES
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): http://goo.gl/8Rd3yj
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Brad Degelau, Organizational Unit: Unknown, Organization: Brad's Computer Repair, Locality: Dekalb, State/Province: Illinois, Country: IL
+  Fingerprint : 08 0D 98 0D BD 6D 28 4D C0 28 0D 21 AA 46 B3 B8 5C 10 BE D0 C3 DB ED 1B EC 45 B3 0B 4F 1B 20 D9
+
+==========================================

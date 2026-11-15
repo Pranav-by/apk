@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.diamondstrongfitness.train.own
+  SHA-256       : 00A79FB57ECEDE444CA2CB67462620C69BAD3298AB5553940349B67BEF365AA5
+  Android Group : Android13
+  Version       : 5.14.1 (code: 51401114)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (12)]
+  com.google.android.gms.permission.AD_ID, android.permission.CAMERA, android.permission.VIBRATE, android.permission.GET_ACCOUNTS, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, com.diamondstrongfitness.train.own.permission.C2D_MESSAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (5): com.domainsuperstar.android.common.activities.TakePhotoActivity, com.domainsuperstar.android.common.activities.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.domainsuperstar.android.common.activities.AdjustPhotoActivity, com.domainsuperstar.android.common.activities.SplashActivity
+  Services   (10): com.google.android.gms.measurement.AppMeasurementService, com.domainsuperstar.android.common.push.FCMMessagingService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.domainsuperstar.android.common.push.FCMInstanceIDService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): com.google.android.gms.analytics.AnalyticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (6): com.mikepenz.iconics.IconicsContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, com.domainsuperstar.android.common.providers.PDFProvider, androidx.core.content.FileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 18203
+  Total Methods : 131554
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Exercise.com, Organizational Unit: Exercise.com, Organization: Exercise.com, Locality: Unknown, State/Province: Unknown, Country: US
+  Fingerprint : 29 94 4E 59 BD CC 55 E1 42 B6 21 15 94 4F FC 45 3F 56 38 37 01 0E 80 C9 09 75 21 C2 9A EB D1 AC
+
+==========================================

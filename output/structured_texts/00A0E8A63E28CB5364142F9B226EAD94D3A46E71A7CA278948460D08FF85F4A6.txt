@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hicebank.android
+  SHA-256       : 00A0E8A63E28CB5364142F9B226EAD94D3A46E71A7CA278948460D08FF85F4A6
+  Android Group : Android12
+  Version       : 1.13.2 (code: 113)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (32)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.USE_BIOMETRIC, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CONTACTS, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.htc.launcher.permission.UPDATE_SHORTCUT
+
+[Application Components]
+  Activities (7): com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.NotificationOpenedReceiver, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.hicebank.android.ui.activity.main.MainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.onesignal.NotificationOpenedActivityHMS, com.onesignal.PermissionsActivity
+  Services   (20): com.onesignal.SyncJobService, com.onesignal.FocusDelaySyncJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.onesignal.HmsMessageServiceOneSignal, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, androidx.work.impl.background.systemjob.SystemJobService, com.onesignal.FocusDelaySyncService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.group_ib.sdk.MobileSdkService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.SyncService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.onesignal.NotificationDismissReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.BootUpReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.onesignal.UpgradeReceiver, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (4): com.hicebank.android.common.provider.HiceGibProvider, com.google.firebase.provider.FirebaseInitProvider, com.hicebank.android.common.provider.HiceFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18833
+  Total Methods : 76183
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 34 FF 10 64 54 FD 4E 1E 56 FA 8A DA 38 71 B2 E7 04 8A 9D 87 D2 62 98 89 99 38 FB 8C 42 0A 61 54
+
+==========================================

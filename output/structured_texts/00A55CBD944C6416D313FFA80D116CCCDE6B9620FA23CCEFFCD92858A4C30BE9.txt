@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.xyhd.lewan
+  SHA-256       : 00A55CBD944C6416D313FFA80D116CCCDE6B9620FA23CCEFFCD92858A4C30BE9
+  Android Group : Android16
+  Version       : 4.2.1 (code: 61)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (40)]
+  android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.xyhd.lewan.permission.MIPUSH_RECEIVE, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.KILL_BACKGROUND_PROCESSES, com.xyhd.lewan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.QUERY_ALL_PACKAGES, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (202): com.xyhd.lewan.ui.activity.MeetMessageActivity, com.xyhd.lewan.ui.activity.VIPActivity, com.xyhd.lewan.ui.activity.ChangePhoneActivity, com.xyhd.lewan.mvp.ui.activity.LabelActivity, com.xyhd.lewan.ui.activity.SettingActivity, com.xyhd.lewan.mvp.ui.activity.UserEditActivity2, com.xyhd.lewan.mvp.ui.activity.MainActivity2, com.xyhd.lewan.wxapi.WXEntryActivity, com.xyhd.lewan.wxapi.WXPayEntryActivity, com.tencent.tauth.AuthActivity, com.tencent.connect.common.AssistActivity, com.xyhd.lewan.ui.activity.RelationshipInviteCPActivity, com.xyhd.lewan.mvp.ui.activity.ChatActivity, com.xyhd.voice.page.activity.LiveRoomAnchorActivity, com.xyhd.voice.page.activity.LiveRoomAudienceActivity, com.xyhd.voice.page.activity.LiveManagerAddActivity, com.xyhd.voice.page.activity.LiveManagerActivity, com.xyhd.voice.page.activity.LiveLuckyRecordActivity, com.xyhd.voice.page.activity.LiveEndActivity, com.xyhd.voice.page.activity.LiveInviteMicActivity
+  Services   (30): com.xyhd.lewan.service.LauncherDownloadService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.xyhd.lewan.imcalling.FloatAudioWindowService, com.umeng.message.component.UmengMessageReceiverService, com.xiaomi.push.service.XMPushService, com.umeng.message.component.UmengMessageHandlerService, com.luck.picture.lib.service.ForegroundService, com.taobao.accs.ChannelService, com.taobao.accs.ChannelService$KernelService, com.xiaomi.push.service.XMJobService, com.taobao.accs.data.MsgDistributeService, com.taobao.accs.internal.AccsJobService, com.huawei.agconnect.core.ServiceDiscovery, org.android.agoo.accs.AgooService, com.tencent.rtmp.video.ScreenCaptureService, com.xiaomi.mipush.sdk.MessageHandleService, com.heytap.msp.push.service.DataMessageCallbackService, com.xyhd.lewan.service.DownloadApkService, com.tencent.smtt.export.external.DexClassLoaderProviderService
+  Receivers  (10): com.meizu.cloud.pushsdk.MzPushSystemReceiver, org.android.agoo.xiaomi.MiPushBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.umeng.message.component.UmengNotificationReceiver, com.xiaomi.push.service.receivers.PingReceiver, org.android.agoo.mezu.MeizuPushMsgReceiver, org.android.agoo.vivo.PushMessageReceiverImpl, com.huawei.hms.support.api.push.PushReceiver, com.taobao.accs.ServiceReceiver, com.huawei.hms.support.api.push.PushMsgReceiver
+  Providers  (12): com.blankj.utilcode.util.UtilsFileProvider, me.jessyan.autosize.InitProvider, com.huawei.hms.aaid.InitProvider, com.umeng.message.component.UmengMessageProvider, com.noober.background.BackgroundContentProvider, com.luck.picture.lib.basic.PictureFileProvider, androidx.startup.InitializationProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, androidx.core.content.FileProvider, com.huawei.hms.support.api.push.PushProvider, com.aleyn.router.provider.RouterContentProvider, cat.ereza.customactivityoncrash.provider.CaocInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 308
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: lewan, Organizational Unit: lewan, Common Name: lewan
+  Fingerprint : F0 C0 10 DC A2 C0 F8 82 5B D9 9B B3 0B 1F 09 29 42 52 C6 52 AC E3 F6 81 C9 1C 4A 97 CC 58 F3 98
+
+==========================================

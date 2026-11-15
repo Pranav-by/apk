@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : at.rmc.app
+  SHA-256       : 00B13C3B94C97B023FD3543A934EE0054FF74E496C2B4DC34EF92F0E1EB22EEB
+  Android Group : Android15
+  Version       : 1.0.11 (code: 15)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (6)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_FINE_LOCATION, at.rmc.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (2): at.rmc.app.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 9231
+  Total Methods : 63713
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 30 A9 B9 FE C5 48 FC D3 F8 18 A1 E1 B5 57 A9 A4 07 57 5D 13 BF D8 E1 8C B9 8C D2 33 46 75 C7 47
+
+==========================================

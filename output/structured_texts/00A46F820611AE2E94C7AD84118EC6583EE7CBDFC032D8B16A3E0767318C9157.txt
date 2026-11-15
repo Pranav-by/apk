@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.agbe.world.artize
+  SHA-256       : 00A46F820611AE2E94C7AD84118EC6583EE7CBDFC032D8B16A3E0767318C9157
+  Android Group : Android12L
+  Version       : 1.40 (code: 41)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (9)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (16): com.agbe.artize.MainActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, com.facebook.CustomTabMainActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.facebook.CustomTabActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.facebook.FacebookActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (6): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (6): com.pichillilorenzo.flutter_inappwebview.InAppWebViewFileProvider, com.google.firebase.provider.FirebaseInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8226
+  Total Methods : 46103
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#, https://goo.gl/J1sWQy, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://github.com/pichillilorenzo/flutter_inappwebview#important-note-for-android, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://exoplayer.dev/issues/cleartext-not-permitted, https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Artize, Organizational Unit: Artize, Organization: Artize, Locality: Gurgaon, State/Province: Haryana, Country: IN
+  Fingerprint : 6B 82 BC FB AB 77 67 8C 3C FE 27 2B 14 B0 8D BA FA 04 91 3A 7B AC 17 45 04 1C 4E C5 DF 83 AA 81
+
+==========================================

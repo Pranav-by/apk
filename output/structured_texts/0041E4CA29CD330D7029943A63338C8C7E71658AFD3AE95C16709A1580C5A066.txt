@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.timelimit.android.google.store
+  SHA-256       : 0041E4CA29CD330D7029943A63338C8C7E71658AFD3AE95C16709A1580C5A066
+  Android Group : Android14
+  Version       : 6.16.0 (code: 208)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (17)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, io.timelimit.android.google.store.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE, android.permission.PACKAGE_USAGE_STATS, android.permission.CALL_PHONE, android.permission.VIBRATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.QUERY_ALL_PACKAGES, android.permission.WAKE_LOCK, android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED, com.android.vending.BILLING, android.permission.GET_TASKS, android.permission.ACCESS_WIFI_STATE, android.permission.NFC
+
+[Application Components]
+  Activities (7): io.timelimit.android.ui.manipulation.AnnoyActivity, io.timelimit.android.ui.lock.LockActivity, io.timelimit.android.ui.MainActivity, com.android.billingclient.api.ProxyBillingActivity, io.timelimit.android.ui.widget.config.WidgetConfigActivity, io.timelimit.android.ui.update.UpdateActivity, io.timelimit.android.ui.homescreen.HomescreenActivity
+  Services   (9): io.timelimit.android.integration.platform.android.NotificationListener, androidx.work.impl.background.systemalarm.SystemAlarmService, io.timelimit.android.integration.platform.android.BackgroundActionService, io.timelimit.android.ui.widget.TimesWidgetService, io.timelimit.android.integration.platform.android.AccessibilityService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, io.timelimit.android.integration.platform.android.BackgroundService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (13): androidx.work.impl.diagnostics.DiagnosticsReceiver, io.timelimit.android.ui.widget.TimesWidgetProvider, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, io.timelimit.android.integration.platform.android.AdminReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, io.timelimit.android.integration.platform.android.receiver.BootReceiver, io.timelimit.android.integration.platform.android.receiver.UpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14092
+  Total Methods : 72712
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Jonas Lochmann, Organization: JoLo Software, Locality: Halle (Saale), State/Province: Germany, Country: DE
+  Fingerprint : 21 70 06 81 98 54 7F 15 12 9D E8 CC 46 E2 A8 BF 14 85 A6 E5 03 09 16 E2 6D DE 41 AE 0E 81 DA C2
+
+==========================================

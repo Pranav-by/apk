@@ -1,0 +1,73 @@
+{
+  "sha256": "00A08FF0AEB2391A1429F456A1E457BA75C7522BDE5B5634E32C46028A64F8B3",
+  "filename": "00A08FF0AEB2391A1429F456A1E457BA75C7522BDE5B5634E32C46028A64F8B3.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.relaxingsoothingmusic.pianosoundstosleep",
+  "version_name": "1.6",
+  "version_code": "7",
+  "min_sdk": "19",
+  "target_sdk": "32",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.Ad_ID",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.applovin.mediation.MaxDebuggerMultiAdActivity",
+    "com.facebook.ads.AudienceNetworkActivity",
+    "com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity",
+    "com.applovin.sdk.AppLovinWebViewActivity",
+    "com.applovin.adview.AppLovinFullscreenActivity",
+    "com.applovin.mediation.MaxDebuggerActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitsListActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitDetailActivity",
+    "com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity",
+    "com.applovin.mediation.MaxDebuggerDetailActivity",
+    "com.relaxingsoothingmusic.pianosoundstosleep.MainActivity",
+    "com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity",
+    "com.applovin.mediation.MaxDebuggerTestModeNetworkActivity"
+  ],
+  "activity_count": 13,
+  "services": [
+    "com.applovin.impl.sdk.utils.AppKilledService",
+    "com.applovin.impl.adview.activity.FullscreenAdService"
+  ],
+  "service_count": 2,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.facebook.ads.AudienceNetworkContentProvider",
+    "com.applovin.sdk.AppLovinInitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6248,
+  "method_count": 38130,
+  "cert_fingerprint": "1C 42 E8 76 7B 21 BE 23 CC CE 7A 36 F3 65 47 DF E9 FE C8 C7 03 11 33 59 30 F3 2C F8 DA 41 DA CB",
+  "cert_issuer": "Common Name: Unknown, Organizational Unit: Unknown, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: Unknown",
+  "urls": [
+    "https://exoplayer.dev/issues/cleartext-not-permitted",
+    "https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK",
+    "http://developer.android.com/google/play-services/setup.html."
+  ],
+  "ip_addresses": [
+    "6.11.0.5"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 1,
+  "api_native": 0,
+  "api_file_system": 0
+}

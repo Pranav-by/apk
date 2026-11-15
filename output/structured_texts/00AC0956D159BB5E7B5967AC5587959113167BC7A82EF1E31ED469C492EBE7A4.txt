@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bmi.bmr.calculator.tracker.health.tdee
+  SHA-256       : 00AC0956D159BB5E7B5967AC5587959113167BC7A82EF1E31ED469C492EBE7A4
+  Android Group : Android12L
+  Version       : 2.3 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (5)]
+  com.google.android.gms.permission.AD_ID, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (21): com.bmi.bmr.calculator.tracker.health.tdee.BlogsDetailActivity, com.bmi.bmr.calculator.tracker.health.tdee.DetailHistoryActivity, com.bmi.bmr.calculator.tracker.health.tdee.NotesPreviewActivity, com.bmi.bmr.calculator.tracker.health.tdee.CalculatorsResultActivity, com.bmi.bmr.calculator.tracker.health.tdee.BodyAdiposityActivity, com.bmi.bmr.calculator.tracker.health.tdee.BodyFrameSizeActivity, com.bmi.bmr.calculator.tracker.health.tdee.ActivityEER, com.bmi.bmr.calculator.tracker.health.tdee.LBMActivity, com.bmi.bmr.calculator.tracker.health.tdee.DailyWaterIntakeActivity, com.bmi.bmr.calculator.tracker.health.tdee.ActivityBMI, com.bmi.bmr.calculator.tracker.health.tdee.IdealBodyWeightActivity, com.bmi.bmr.calculator.tracker.health.tdee.ActivityBMR, com.google.android.gms.common.api.GoogleApiActivity, com.bmi.bmr.calculator.tracker.health.tdee.WaistToHeightRatioActivity, com.bmi.bmr.calculator.tracker.health.tdee.WaistToHipRatioActivity, com.bmi.bmr.calculator.tracker.health.tdee.BodyFatPercentageActivity, com.bmi.bmr.calculator.tracker.health.tdee.SplashScreenActivity, com.bmi.bmr.calculator.tracker.health.tdee.ChestToHipRatioActivity, com.bmi.bmr.calculator.tracker.health.tdee.TDEEActivity, com.bmi.bmr.calculator.tracker.health.tdee.CaloriesBurnedActivity
+  Services   (6): androidx.room.MultiInstanceInvalidationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (2): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4673
+  Total Methods : 22945
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://goo.gl/NAOOOI.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 80 80 21 EA 69 41 E1 74 96 3A 84 66 77 6E 77 70 5B 04 5A E2 88 3B C5 A6 33 EC 56 0C DB 7B 88 1E
+
+==========================================

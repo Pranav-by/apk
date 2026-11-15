@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nexttrucking.trucker
+  SHA-256       : 00AF43FC2043D1726E9DD4E77B3EF7B107797D0E49377B7AB67C0821C79A9D31
+  Android Group : Android13
+  Version       : 2.5.12 (code: 228)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (28)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.hihonor.android.launcher.permission.CHANGE_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, com.nexttrucking.trucker.permission.JPUSH_MESSAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, com.vivo.notification.permission.BADGE_ICON
+
+[Application Components]
+  Activities (22): com.nextnative.util.easypermissions.AppSettingsDialogHolderActivity, com.facebook.react.devsupport.DevSettingsActivity, zendesk.support.guide.HelpCenterActivity, com.nextnative.service.jpush.OpenClickActivity, com.nextnative.camera.PhotoSelectActivity, com.google.android.gms.common.api.GoogleApiActivity, com.nextnative.MainActivity, cn.jpush.android.ui.PopWinActivity, com.iterable.iterableapi.IterableTrampolineActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, cn.android.service.JTransitActivity, com.masteratul.exceptionhandler.DefaultErrorScreen, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, cn.jpush.android.service.DActivity, com.auth0.react.RedirectActivity, com.auth0.react.AuthenticationActivity, zendesk.support.request.RequestActivity, cn.jpush.android.ui.PushActivity, cn.jpush.android.service.JNotifyActivity, zendesk.support.guide.ViewArticleActivity
+  Services   (17): androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, cn.jpush.android.service.PluginFCMMessagingService, com.nextnative.service.GPSService, cn.jpush.android.service.PushService, com.nextnative.service.MyFirebaseMessagingService, com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, cn.jiguang.plugins.service.JCoreModuleService, com.iterable.iterableapi.IterableFirebaseMessagingService
+  Receivers  (20): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, cn.jpush.android.service.SchedulerReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, cn.jpush.android.service.AlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.launchdarkly.sdk.android.ConnectivityReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, cn.jpush.android.service.PushReceiver, cn.jiguang.plugins.push.receiver.JPushBroadcastReceiver, com.iterable.iterableapi.IterablePushActionReceiver, cn.jiguang.plugins.push.receiver.JPushModuleReceiver, com.google.firebase.messaging.directboot.FirebaseMessagingDirectBootReceiver, zendesk.support.DeepLinkingBroadcastReceiver, com.launchdarkly.sdk.android.PollingUpdater
+  Providers  (11): cn.jpush.android.service.InitProvider, androidx.startup.InitializationProvider, com.ReactNativeBlobUtil.Utils.FileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.squareup.picasso.PicassoProvider, zendesk.support.SupportSdkStartupProvider, zendesk.belvedere.BelvedereFileProvider, zendesk.support.guide.GuideSdkStartupProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 21213
+  Total Methods : 124135
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(4): 10.0.2.2, 0.0.0.0, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: next, Organizational Unit: next, Organization: next, Locality: xian, State/Province: shanxi
+  Fingerprint : 98 FC 69 E6 35 80 FD F1 D3 E0 80 76 86 7C 48 6A CE 37 66 7A 00 8F 85 32 B5 0E 71 52 9A 72 CB B2
+
+==========================================

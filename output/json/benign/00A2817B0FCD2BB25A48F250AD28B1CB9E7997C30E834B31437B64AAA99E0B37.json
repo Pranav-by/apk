@@ -1,0 +1,75 @@
+{
+  "sha256": "00A2817B0FCD2BB25A48F250AD28B1CB9E7997C30E834B31437B64AAA99E0B37",
+  "filename": "00A2817B0FCD2BB25A48F250AD28B1CB9E7997C30E834B31437B64AAA99E0B37.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.fmcna.patientapp",
+  "version_name": "4.3.6",
+  "version_code": "414",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_MEDIA_VIDEO",
+    "android.permission.READ_MEDIA_AUDIO",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.INTERNET",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.RESOURCE_PROTECTED_MEDIA_ID",
+    "android.permission.CAMERA",
+    "com.fmcna.patientapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.MIDI_SYSEX"
+  ],
+  "permission_count": 17,
+  "activities": [
+    "crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity",
+    "crc645133ee94dd19a6a0.MainActivity",
+    "crc64ba438d8f48cf7e75.IntermediateActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "crc64396a3fe5f8138e3f.KeepAliveService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver",
+    "crc64e53d2f592022988e.ConnectivityBroadcastReceiver",
+    "crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "mono.MonoRuntimeProvider",
+    "microsoft.maui.essentials.fileProvider",
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11872,
+  "method_count": 95454,
+  "cert_fingerprint": "86 93 9E 04 8D 05 4F E4 98 4E 29 12 1A 54 5A C9 45 92 85 16 AE 2A BE 8B 88 9A DC 6B 0E BF E2 3A",
+  "cert_issuer": "Common Name: FMCNA, Organizational Unit: FMCNA, Organization: FMCNA, Locality: Waltham, State/Province: MA, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

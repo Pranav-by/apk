@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wixot.merge
+  SHA-256       : 00B635D91E5A4EFC6CC3D1F51C0E41A5969096E5100C1C3DB5A5176AF8BECAA1
+  Android Group : Android16
+  Version       : 2.2.5 (code: 246)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (18)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, com.wixot.merge.permission.C2D_MESSAGE, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE, android.permission.ACCESS_ADSERVICES_TOPICS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.google.android.c2dm.permission.RECEIVE, com.wixot.merge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (106): com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.bytedance.sdk.openadsdk.activity.TTAdActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.templates.renderer.fullscreen.FullscreenWebviewActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.vast.VastActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.staticrenderer.StaticAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.mraid.MraidActivity, io.bidmachine.nativead.view.VideoPlayerActivity, io.bidmachine.rendering.ad.fullscreen.FullScreenActivity, net.pubnative.lite.sdk.rewarded.activity.VastRewardedActivity, io.bidmachine.rendering.ad.view.ExpandActivity, com.facebook.FacebookActivity, io.bidmachine.iab.mraid.MraidActivity
+  Services   (23): com.google.firebase.sessions.SessionLifecycleService, com.google.firebase.messaging.cpp.ListenerService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.cpp.RegistrationIntentService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, com.google.firebase.messaging.MessageForwardingService, com.bytebrew.bytebrewlibrary.ByteBrewPushService
+  Receivers  (21): com.smartlook.sdk.smartlook.core.referrer.ReferrerReceiver, com.unity.androidnotifications.UnityNotificationManager, com.unity.androidnotifications.UnityNotificationRestartReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.adjust.sdk.AdjustReferrerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.bytebrew.bytebrewlibrary.ByteBrewBasicFCMBroadcastReceiver
+  Providers  (15): com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, com.mobilefuse.sdk.MobileFuseSdkInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.facebook.FacebookContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.vungle.ads.VungleProvider, io.bidmachine.BidMachineInitProvider, com.adjust.sdk.SystemLifecycleContentProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.facebook.internal.FacebookInitProvider, com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 14
+  Total Classes : 77888
+  Total Methods : 534028
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): http://tizen.org/feature/platform.version, http://tizen.org/system/model_name
+  IP Addresses(2): 7.7.0.2, 24.7.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : EA CC D2 93 17 B4 A9 C0 37 EB 55 BE A5 3D 8A D7 3B 75 F4 5E 14 CC 37 47 7B A5 ED 57 45 AE C1 4B
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.smarkets.sbk
+  SHA-256       : 000A5DC3230C16D032E57312F62556978CD4D6CEE2079F20A118AC5E821C96E5
+  Android Group : Android12
+  Version       : 1.5.18 (code: 12083)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (36)]
+  android.permission.FOREGROUND_SERVICE, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_COARSE_LOCATION, android.permission.USE_BIOMETRIC, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, com.huawei.android.launcher.permission.CHANGE_BADGE, com.htc.launcher.permission.READ_SETTINGS
+
+[Application Components]
+  Activities (16): com.smarkets.sbk.MainActivity, io.card.payment.CardIOActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.braintreepayments.api.ThreeDSecureActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.FacebookActivity, com.braintreepayments.api.GooglePaymentActivity, com.google.android.gms.common.api.GoogleApiActivity, com.braintreepayments.api.BraintreeBrowserSwitchActivity, com.facebook.CustomTabActivity, io.card.payment.DataEntryActivity, com.facebook.react.devsupport.DevSettingsActivity, androidx.biometric.DeviceCredentialHandlerActivity, com.facebook.CustomTabMainActivity, com.yalantis.ucrop.UCropActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (12): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.firebase.components.ComponentDiscoveryService, com.braintreepayments.api.internal.AnalyticsIntentService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (9): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.appsflyer.SingleInstallBroadcastReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationActions, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher, com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
+  Providers  (9): com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17026
+  Total Methods : 115424
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://developers.braintreepayments.com/guides/client-sdk/android/v2#browser-switch, https://developers.braintreepayments.com/guides/client-sdk/android/#browser-switch, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(3): 10.0.1.1, 10.0.3.2, 10.0.2.2
+
+[Certificate]
+  Issuer      : Common Name: , Locality: Chicago
+  Fingerprint : 34 A2 F4 AF 04 57 65 F7 EE 42 31 F9 7F 6D B0 FC 70 D2 B4 54 9C A5 32 C6 78 DF CC F2 70 4D 60 49
+
+==========================================

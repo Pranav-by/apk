@@ -1,0 +1,79 @@
+{
+  "sha256": "00A9BE58E4722436836D315D2D6EBCF24594B034836901E04A76E4E08038C08E",
+  "filename": "00A9BE58E4722436836D315D2D6EBCF24594B034836901E04A76E4E08038C08E.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.virtualcity.piccargogo",
+  "version_name": "0.1.2",
+  "version_code": "3",
+  "min_sdk": "26",
+  "target_sdk": "34",
+  "permissions": [
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.INTERNET",
+    "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+    "android.permission.CAMERA",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "com.virtualcity.piccargogo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 11,
+  "activities": [
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.google.ar.core.InstallActivity",
+    "com.google.firebase.auth.internal.GenericIdpActivity",
+    "com.google.firebase.auth.internal.RecaptchaActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "androidx.credentials.playservices.HiddenActivity",
+    "com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+  ],
+  "activity_count": 7,
+  "services": [
+    "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+    "com.google.android.gms.auth.api.signin.RevocationBoundService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "com.google.android.gms.measurement.AppMeasurementJobService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.android.gms.measurement.AppMeasurementReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.vuforia.engine.app.VuforiaContentProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 12249,
+  "method_count": 72505,
+  "cert_fingerprint": "24 9E 8D 23 45 13 39 15 0D A9 B3 E7 E2 CB 3D E2 01 FF C5 7A 65 09 FF 33 23 0C 74 EB 1D B0 3D 7B",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics",
+    "https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#",
+    "https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#",
+    "https://developers.google.com/tink/faq/registration_errors",
+    "https://github.com/firebase/firebase-android-sdk"
+  ],
+  "ip_addresses": [
+    "127.0.0.1",
+    "0.0.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

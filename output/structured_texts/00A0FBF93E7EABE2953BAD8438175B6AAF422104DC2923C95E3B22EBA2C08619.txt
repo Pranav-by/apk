@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : yellowtreesoftware.usconverter
+  SHA-256       : 00A0FBF93E7EABE2953BAD8438175B6AAF422104DC2923C95E3B22EBA2C08619
+  Android Group : Android12L
+  Version       : 6.4 (code: 64)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 32
+
+[Permissions (3)]
+  android.permission.INTERNET, com.android.vending.BILLING, android.permission.FOREGROUND_SERVICE
+
+[Application Components]
+  Activities (20): yellowtreesoftware.USConverter.ConversionHome, yellowtreesoftware.USConverter.SettingsActivity, yellowtreesoftware.USConverter.PercentageActivity, yellowtreesoftware.USConverter.ConversionsActivity, yellowtreesoftware.USConverter.TimeUSZoneActivity, yellowtreesoftware.USConverter.DistanceChartActivity, yellowtreesoftware.USConverter.LengthChartActivity, yellowtreesoftware.USConverter.TempChartActivity, yellowtreesoftware.USConverter.VolumeChartActivity, yellowtreesoftware.USConverter.WeightChartActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.android.billingclient.api.ProxyBillingActivity, yellowtreesoftware.USConverter.TimeUSStateActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, yellowtreesoftware.USConverter.DonateActivity, yellowtreesoftware.USConverter.MainActivity, yellowtreesoftware.USConverter.HelpActivity, yellowtreesoftware.USConverter.CurrencyActivity, yellowtreesoftware.USConverter.DressActivity, yellowtreesoftware.USConverter.GeometryActivity
+  Services   (2): com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2766
+  Total Methods : 14901
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Arun Nair, Organizational Unit: Android App, Organization: Yello Tree Software, Locality: Thiruvananthapuram, State/Province: Kerala, Country: IN
+  Fingerprint : B0 EF EE F1 37 15 99 7D 62 9F 0F 6B 7F 42 AD 41 E7 4C E1 EB DB 97 EC DF CD DD E1 D4 83 E1 31 9A
+
+==========================================

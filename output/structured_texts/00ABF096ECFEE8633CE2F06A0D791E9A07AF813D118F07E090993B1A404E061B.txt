@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.avecreation.drivingzonejapan
+  SHA-256       : 00ABF096ECFEE8633CE2F06A0D791E9A07AF813D118F07E090993B1A404E061B
+  Android Group : Android12L
+  Version       : 3.22 (code: 17)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (13)]
+  com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (54): com.appodeal.ads.TestActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.applovin.adview.AppLovinFullscreenActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.appodeal.consent.view.ConsentActivity, com.explorestack.iab.mraid.MraidActivity, com.android.billingclient.api.ProxyBillingActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity, com.facebook.ads.AudienceNetworkActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.adcolony.sdk.AdColonyAdViewActivity, com.google.games.bridge.NativeBridgeActivity, com.adcolony.sdk.AdColonyInterstitialActivity, com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity
+  Services   (13): com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.yandex.metrica.MetricaService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.sdk.utils.AppKilledService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.appodeal.ads.AppodealPackageAddedReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (14): com.my.target.common.MyTargetContentProvider, com.facebook.ads.AudienceNetworkContentProvider, com.applovin.sdk.AppLovinInitProvider, com.appodeal.ads.ApdContentProvider, com.vungle.warren.utility.VungleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.yandex.metrica.PreloadInfoContentProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 44028
+  Total Methods : 275961
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://help.adjust.com/en/article/app-settings#view-your-app-token
+  IP Addresses(1): 7.2.4.1
+
+[Certificate]
+  Issuer      : Common Name: Alexander Sivatsky, Organizational Unit: AC, Organization: AveCreation, Locality: Chisinau, State/Province: Moldova, Country: MD
+  Fingerprint : 51 CA 7E 0C 0E 21 50 16 7C 92 88 32 A7 AA 12 77 E0 4D 77 B8 0A B2 DC 0A CE A1 1A F6 B3 95 3A 9E
+
+==========================================

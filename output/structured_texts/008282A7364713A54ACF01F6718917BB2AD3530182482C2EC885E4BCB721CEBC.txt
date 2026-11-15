@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.deuscraft.TurboTeam
+  SHA-256       : 008282A7364713A54ACF01F6718917BB2AD3530182482C2EC885E4BCB721CEBC
+  Android Group : Android14
+  Version       : 4.12.0.14 (code: 3813)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (22)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.POST_NOTIFICATION, android.permission.ACCESS_ADSERVICES_TOPICS, com.android.vending.BILLING, android.permission.BILLING, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_WIFI_STATE, com.deuscraft.TurboTeam.permission.OPEN_UDID, com.google.android.c2dm.permission.RECEIVE, com.deuscraft.TurboTeam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_BASIC_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (101): sg.bigo.ads.ad.splash.LandscapeAdSplashActivity, sg.bigo.ads.ad.splash.AdSplashActivity, io.bidmachine.nativead.view.VideoPlayerActivity, io.bidmachine.rendering.ad.fullscreen.FullScreenActivity, com.google.android.gms.common.api.GoogleApiActivity, com.tapjoy.TJWebViewActivity, com.tapjoy.TJAdUnitActivity, com.facebook.unity.AppInviteDialogActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.facebook.unity.FBUnityJoinGameGroupActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity
+  Services   (18): com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, games.my.mrgs.internal.identifier.MRGSOpenUDIDService, com.google.firebase.messaging.FirebaseMessagingService, com.applovin.impl.adview.activity.FullscreenAdService, games.my.mrgs.notifications.internal.MRGSFirebaseInstanceIdService, androidx.work.impl.background.systemalarm.SystemAlarmService, games.my.mrgs.notifications.internal.MRGSFCMIntentService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, games.my.mrgs.notifications.internal.MRGSHuaweiPushMessageService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (20): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.amazon.device.iap.ResponseReceiver, com.yasirkula.unity.NativeShareBroadcastListener, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, games.my.mrgs.internal.MRGSShareBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, games.my.mrgs.notifications.internal.MRGSLocalNotificationReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, games.my.mrgs.notifications.internal.MRGSDeleteNotificationReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (14): games.my.mrgs.internal.MRGSInitProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, io.bidmachine.BidMachineInitProvider, com.google.firebase.provider.FirebaseInitProvider, sg.bigo.ads.controller.provider.BigoAdsProvider, com.facebook.FacebookContentProvider, com.applovin.sdk.AppLovinInitProvider, com.apptimism.internal.ApptimismInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.yasirkula.unity.NativeShareContentProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 64918
+  Total Methods : 433370
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B6 BE 65 1F 50 06 35 C0 12 4E F9 5B 6A 1C 19 96 E9 12 CD 6B 24 92 68 B7 9E 41 CB F3 AA 1F D4 91
+
+==========================================

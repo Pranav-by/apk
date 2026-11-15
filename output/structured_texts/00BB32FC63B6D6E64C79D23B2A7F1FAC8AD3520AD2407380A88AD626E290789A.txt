@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.app10x.client
+  SHA-256       : 00BB32FC63B6D6E64C79D23B2A7F1FAC8AD3520AD2407380A88AD626E290789A
+  Android Group : Android13
+  Version       : 2.11.3 (code: 358)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (25)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.USE_FINGERPRINT, android.permission.ACCESS_FINE_LOCATION, com.vivo.notification.permission.BADGE_ICON, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+
+[Application Components]
+  Activities (14): io.dcloud.PandoraEntry, com.dmcbig.mediapicker.PickerActivity, io.dcloud.sdk.activity.WebViewActivity, io.dcloud.ProcessMediator, im.crisp.client.ChatActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, io.dcloud.WebAppActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, com.uniplugin.super_screenshot.ScreenshotActivity, io.dcloud.PandoraEntryActivity, com.blankj.utilcode.util.UtilsTransActivity, io.dcloud.feature.nativeObj.photoview.PhotoActivity, io.dcloud.WebviewActivity, com.dmcbig.mediapicker.PreviewActivity
+  Services   (2): io.dcloud.sdk.base.service.DownloadService, com.blankj.utilcode.util.MessengerUtils$ServerService
+  Receivers  (1): com.taobao.weex.WXGlobalEventReceiver
+  Providers  (3): com.blankj.utilcode.util.UtilsFileProvider, io.dcloud.sdk.base.service.provider.DCloudAdFileProvider, io.dcloud.common.util.DCloud_FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 16773
+  Total Methods : 122084
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 223.5.5.5, 4.3.5.4
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: CN
+  Fingerprint : 03 71 EF 86 83 EC 70 F0 6F AE B0 41 A2 16 4F 8F 91 B4 53 2E C3 F8 BF C7 27 67 BE 0C EF 87 54 16
+
+==========================================

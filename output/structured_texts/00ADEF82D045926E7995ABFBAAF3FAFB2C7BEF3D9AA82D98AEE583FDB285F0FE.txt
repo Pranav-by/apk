@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.ooma.oomaapp
+  SHA-256       : 00ADEF82D045926E7995ABFBAAF3FAFB2C7BEF3D9AA82D98AEE583FDB285F0FE
+  Android Group : Android16
+  Version       : 1.13.25 (code: 400182)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 36
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, android.permission.INTERNET, org.ooma.oomaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_MEDIA_AUDIO, android.permission.VIBRATE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NOTIFICATION_POLICY
+
+[Application Components]
+  Activities (53): crc64a455b6a16d4a865b.BodyAnalyzeActivity, crc64a455b6a16d4a865b.PostActivity, crc64a455b6a16d4a865b.VideoSingleActivity, crc64a455b6a16d4a865b.CalendarActivity, crc64a455b6a16d4a865b.KickListActivity, crc64a455b6a16d4a865b.ChildGrowthListActivity, crc64a455b6a16d4a865b.MainActivity, crc64a455b6a16d4a865b.CheckListActivity, crc64a455b6a16d4a865b.PublicMessagesActivity, crc64a455b6a16d4a865b.SonoAndImageActivity, crc64a455b6a16d4a865b.ChildInfoActivity, crc64a455b6a16d4a865b.OomaStoreActivity, crc64a455b6a16d4a865b.ProfileVisitActivity, crc64a455b6a16d4a865b.ChildMonthByMonthActivity, crc64a455b6a16d4a865b.SetBackgroundActivity, crc64a455b6a16d4a865b.ShapeTestActivity, crc64a455b6a16d4a865b.ChildrenActivity, crc64a455b6a16d4a865b.NotificationActivity, crc64a455b6a16d4a865b.SelectImageActivity, crc64a455b6a16d4a865b.SendImageActivity
+  Services   (2): crc64a455b6a16d4a865b.ServiceTest, crc64a455b6a16d4a865b.OomaService
+  Receivers  (3): crc64b1f2194d6cc098b4.NewClothReceiver, crc64a455b6a16d4a865b.StartReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): androidx.startup.InitializationProvider, mono.MonoRuntimeProvider, mono.android.MultiDexLoader
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9961
+  Total Methods : 72700
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 2F 76 CF BD 86 69 01 5A 8A 2C D5 36 57 57 DD 74 D7 68 FE 84 CA 13 46 70 5C F6 46 31 04 B3 D2 68
+
+==========================================

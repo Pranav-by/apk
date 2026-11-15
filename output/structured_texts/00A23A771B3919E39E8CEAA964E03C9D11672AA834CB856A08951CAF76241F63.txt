@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.PeriodTracker.PeriodCalendar.OvulationTracker.PregnancyTracker
+  SHA-256       : 00A23A771B3919E39E8CEAA964E03C9D11672AA834CB856A08951CAF76241F63
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (4)]
+  android.permission.SCHEDULE_EXACT_ALARM, android.permission.WAKE_LOCK, android.permission.SET_ALARM, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (8): com.example.periodtracker.ui.notes.add_notes.AddNotes, com.example.periodtracker.ui.get_periods_detail.GetPeriodDetails, pub.devrel.easypermissions.AppSettingsDialogHolderActivity, com.example.periodtracker.ui.main_screen.MainActivity, com.example.periodtracker.ui.splash_screen.SplashActivity, com.example.periodtracker.ui.getDetails.GetDetailsActivity, com.example.periodtracker.ui.notes.note_list.NotesActivity, com.example.periodtracker.ui.pin_lock.PinLockActivity
+  Services   (0): none
+  Receivers  (1): com.example.periodtracker.utils.alarm_receiver.AlarmReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9000
+  Total Methods : 62389
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://realm.io/docs/java/latest/#rxjava, https://issuetracker.google.com/issues/36918154
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 21 55 3E 94 91 97 98 83 D8 C4 D0 F2 8E 18 CC F4 42 93 F0 66 34 95 54 5C 8D B0 96 03 48 0E 03 5B
+
+==========================================

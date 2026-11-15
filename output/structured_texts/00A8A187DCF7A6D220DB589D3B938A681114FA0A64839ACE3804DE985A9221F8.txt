@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.app.touchdown
+  SHA-256       : 00A8A187DCF7A6D220DB589D3B938A681114FA0A64839ACE3804DE985A9221F8
+  Android Group : Android13
+  Version       : 1.0.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (13)]
+  com.google.android.gms.permission.AD_ID, android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, com.app.touchdown.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_INTERNAL_STORAGE, android.permission.WRITE_INTERNAL_STORAGE
+
+[Application Components]
+  Activities (7): io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.app.touchdown.MainActivity, com.facebook.CustomTabActivity
+  Services   (5): com.baseflow.geolocator.GeolocatorLocationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (4): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent
+  Providers  (4): dev.fluttercommunity.plus.share.ShareFileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7175
+  Total Methods : 42062
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://goo.gl/J1sWQy, https://developers.facebook.com/docs/android/getting-started, https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://developer.android.com/reference/javax/net/ssl/SSLSocket, https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 59 A5 56 B5 C6 41 BC E0 98 2A 32 AB 28 EE 5F 49 47 8A BC 07 51 43 76 CD 7D 1F 88 7B D0 5A 58 E2
+
+==========================================

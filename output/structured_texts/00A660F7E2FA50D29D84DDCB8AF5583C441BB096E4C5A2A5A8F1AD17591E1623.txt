@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.simpplr.cb.libertydentalplan
+  SHA-256       : 00A660F7E2FA50D29D84DDCB8AF5583C441BB096E4C5A2A5A8F1AD17591E1623
+  Android Group : Android15
+  Version       : 6.2.6 (code: 602062)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 35
+
+[Permissions (50)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.BLUETOOTH, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (118): com.workwin.aurora.sfcore.migration.MigrationActivity, com.workwin.aurora.sfcore.navigation_drawer.SocialCampaign.SocialCampaignListingActivity, com.workwin.aurora.sfcore.questions.questionDetail.QuestionDetailActivity, com.workwin.aurora.recognition_hub.dashboard.activity.PeerAwardDetailActivity, com.workwin.aurora.sfcore.questions.createQuestion.CreateQuestionActivity, com.workwin.aurora.sfcore.show_all.HomeShowAllActivity, com.workwin.aurora.sfcore.navigation_drawer.Appinitialzation.MaintenanceModeActivity, com.workwin.aurora.sfcore.loginflow.LoginActivity, com.workwin.aurora.sfcore.search.SearchActivity, com.workwin.aurora.sfcore.Application.PassCodeDisabledActivity, com.workwin.aurora.sfcore.NetworkActivity, com.workwin.aurora.sfcore.navigation_drawer.A_Home.DetailActivity_All, com.workwin.aurora.sfcore.navigation_drawer.A_Home.SearchDetailBase_Activity, com.workwin.aurora.sfcore.navigation_drawer.A_Home.SiteDetailBase_Activity, com.workwin.aurora.sfcore.settings.SettingsActivity, com.workwin.aurora.sfcore.navigation_drawer.SocialCampaign.ShareCampaignActivity, com.workwin.aurora.sfcore.navigation_drawer.SocialCampaign.ShareCampaignEditTextActivity, com.workwin.aurora.sfcore.navigation_drawer.SocialCampaign.InfoCampaignActivity, com.workwin.aurora.sfcore.navigation_drawer.SocialCampaign.ConnectAccountsActivity, com.workwin.aurora.sfcore.utils.AlertNotificationActivity
+  Services   (14): com.workwin.aurora.firebase.SimpplrFcmService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.workwin.aurora.zeus.chatSocket.WebSocketService, androidx.room.MultiInstanceInvalidationService, com.workwin.aurora.chat_sdk.service.ChimeCallService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.workwin.aurora.chat_sdk.service.IncomingCallService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.workwin.aurora.chat_sdk.service.OnGoingCallService, com.google.firebase.sessions.SessionLifecycleService, androidx.camera.core.impl.MetadataHolderService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (4): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (6): androidx.core.content.FileProvider, com.yellowmessenger.ymchat.YellowChatBotFileProvide, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 39548
+  Total Methods : 226455
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://google.github.io/accompanist/pager/#migration
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 42 56 AD D0 4E 14 98 BC 8A D8 3D 51 FA 41 0B 77 DC 7A 24 5E 65 C7 0E D1 8A 30 B2 F6 E2 EF D5 AB
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nbb.points.main
+  SHA-256       : 00A254498D17A923C6F3FDA0662B6FCDCB8C6E0ED109375619ECA724A94D16E7
+  Android Group : Android15
+  Version       : 2.4.8 (code: 112)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.USE_BIOMETRIC, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (11): com.comarch.clm.mobileapp.core.presentation.BaseActivity, com.google.android.gms.common.api.GoogleApiActivity, com.journeyapps.barcodescanner.CaptureActivity, com.comarch.clm.mobile.nbb.NbbActivity, com.canhub.cropper.CropImageActivity, com.comarch.clm.mobileapp.ar.AugmentedRealityActivity, com.comarch.clm.mobileapp.media.scanner.ScannerActivity, com.comarch.clm.mobile.enterprise.transaction.EnterpriseLivePreviewActivity, com.karumi.dexter.DexterActivity, androidx.biometric.DeviceCredentialHandlerActivity, com.comarch.clm.mobileapp.media.scanner.zxing.CaptureActivity
+  Services   (9): com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.comarch.clm.mobileapp.iot.WearListenerService, com.comarch.clm.mobileapp.communication.fcm.ClmFirebaseMessagingService, com.comarch.clm.mobileapp.tracking.domain.GeofenceTransitionsIntentService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (5): com.canhub.cropper.CropFileProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 34080
+  Total Methods : 195663
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organization: Comarch, Locality: Cracow, Country: PL
+  Fingerprint : 6F 54 4A 57 22 1F 15 CB 72 B1 DA B9 C4 27 F1 F4 2B C9 07 7E E7 B9 EC DA 0F D0 3B 84 D8 E4 6E D8
+
+==========================================

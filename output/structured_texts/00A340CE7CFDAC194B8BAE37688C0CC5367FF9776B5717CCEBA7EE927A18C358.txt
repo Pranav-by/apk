@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.syria.aleiz.chat
+  SHA-256       : 00A340CE7CFDAC194B8BAE37688C0CC5367FF9776B5717CCEBA7EE927A18C358
+  Android Group : Android12
+  Version       : 8 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (10)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): com.syria.aleiz.chat.t_detalle, com.syria.aleiz.chat.t_buscvideos, com.syria.aleiz.chat.t_buscador, com.syria.aleiz.chat.t_card, com.syria.aleiz.chat.cats, com.syria.aleiz.chat.privados, com.facebook.ads.AudienceNetworkActivity, com.syria.aleiz.chat.fotoperfil, com.adcolony.sdk.AdColonyInterstitialActivity, com.syria.aleiz.chat.t_video, com.syria.aleiz.chat.t_buscador_form, com.syria.aleiz.chat.profile, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.syria.aleiz.chat.t_video_exoplayer, com.syria.aleiz.chat.contactar, com.adcolony.sdk.AdColonyAdViewActivity, com.syria.aleiz.chat.t_html, com.syria.aleiz.chat.chat, com.unity3d.services.ads.adunit.AdUnitActivity, com.syria.aleiz.chat.codigo
+  Services   (28): com.startapp.sdk.jobs.SchedulerService, com.google.android.gms.cast.framework.media.MediaNotificationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.syria.aleiz.chat.s_widget_vistafb, androidx.work.impl.foreground.SystemForegroundService, com.syria.aleiz.chat.s_cargar_icos, com.syria.aleiz.chat.s_cargar_sliderheader, com.syria.aleiz.chat.s_cargar_fondo, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.syria.aleiz.chat.s_cargar_icos_gen, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.syria.aleiz.chat.s_guardarperfil, com.syria.aleiz.chat.s_mediaplayer_exo, com.syria.aleiz.chat.RegistrationIntentService, com.syria.aleiz.chat.MyFcmListenerService, androidx.room.MultiInstanceInvalidationService, com.syria.aleiz.chat.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.appnext.core.AdsService
+  Receivers  (15): com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.syria.aleiz.chat.alarma_rss
+  Providers  (10): com.syria.aleiz.chat.MySuggestionProvider, com.syria.aleiz.chat.StickerContentProvider, com.syria.aleiz.chat.bd_provider, androidx.core.content.FileProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22374
+  Total Methods : 123879
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(1): 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : FF 36 93 37 C8 30 E4 FD 6B 5C 49 51 4C 3D FD 19 FA 06 6E FB 3F 33 69 1B 02 B1 E2 FA E1 BC DD 55
+
+==========================================

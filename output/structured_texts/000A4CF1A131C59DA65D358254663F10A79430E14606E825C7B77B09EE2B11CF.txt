@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.umbrellait.tomahawk
+  SHA-256       : 000A4CF1A131C59DA65D358254663F10A79430E14606E825C7B77B09EE2B11CF
+  Android Group : Android16
+  Version       : 1.8.2 (code: 60)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (12)]
+  com.umbrellait.tomahawk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_CONTACTS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.READ_CONTACTS, android.permission.INTERNET, android.permission.VIBRATE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (8): com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.umbrellait.tomahawk.MainActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.firebase.auth.internal.GenericIdpActivity, io.flutter.plugins.urllauncher.WebViewActivity, androidx.credentials.playservices.HiddenActivity
+  Services   (11): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.android.gms.metadata.ModuleDependencies, com.google.firebase.messaging.FirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.appmetrica.analytics.internal.AppMetricaService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (7): com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, io.sentry.android.core.SentryPerformanceProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9238
+  Total Methods : 47049
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (7): https://issuetracker.google.com/issues/241760537, https://appmetrica.io/docs/mobile-sdk-dg/android/about/android-initialize.html, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#, https://developers.google.com/tink/faq/registration_errors, https://developer.android.com/guide/topics/permissions/overview, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B2 CA 3B 13 8B 46 DA 73 8C 63 C8 BF 0F FD AC 92 11 D6 D0 95 6E F9 12 E5 39 B0 A1 6C C7 28 E3 52
+
+==========================================

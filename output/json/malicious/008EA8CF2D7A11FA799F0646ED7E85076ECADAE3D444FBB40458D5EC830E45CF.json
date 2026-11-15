@@ -1,0 +1,72 @@
+{
+  "sha256": "008EA8CF2D7A11FA799F0646ED7E85076ECADAE3D444FBB40458D5EC830E45CF",
+  "filename": "008EA8CF2D7A11FA799F0646ED7E85076ECADAE3D444FBB40458D5EC830E45CF.apk",
+  "android_version": "Android12L",
+  "label": "malicious",
+  "package_name": "de.ZMI.ZMIApp",
+  "version_name": "6.4.4",
+  "version_code": "39",
+  "min_sdk": "23",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.CALL_PHONE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.CAMERA",
+    "android.permission.WAKE_LOCK",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.NFC"
+  ],
+  "permission_count": 13,
+  "activities": [
+    "com.embarcadero.firemonkey.FMXNativeActivity"
+  ],
+  "activity_count": 1,
+  "services": [
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.embarcadero.firebase.messaging.ProxyFirebaseMessagingService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.embarcadero.rtl.notifications.NotificationAlarm",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.embarcadero.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 9275,
+  "method_count": 47261,
+  "cert_fingerprint": "8F 17 F9 08 4C DE 68 4C D1 79 F8 E7 EA D6 4D 34 41 C6 63 A9 AD 62 6D 16 DA DB 0F E8 A8 64 CD 9D",
+  "cert_issuer": "Common Name: Nick Diener, Organizational Unit: Entwicklung, Organization: ZMI GmbH, Locality: Elfershausen, State/Province: BY, Country: DE",
+  "urls": [
+    "https://goo.gl/J1sWQy",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://developers.google.com/admob/android/test-ads#enable_test_devices"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

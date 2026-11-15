@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.tiwariclassesbyramansir.in
+  SHA-256       : 00413B1A5F88BB48832719AE2F15445AA32635AB9659FDD71BD13169BE0FD6AC
+  Android Group : Android14
+  Version       : 1.0.1 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (22)]
+  android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.USE_FULL_SCREEN_INTENT, android.permission.ACCESS_WIFI_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.MANAGE_OWN_CALLS, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (13): com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity, app.tiwariclassesbyramansir.in.MainActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.easebuzz.payment.kit.PWEBankPageActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance, dev.saibotma.jitsi_meet_wrapper.JitsiMeetWrapperActivity, org.jitsi.meet.sdk.JitsiMeetActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance, com.easebuzz.payment.kit.PWECouponsActivity, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (10): org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService, com.google.firebase.messaging.FirebaseMessagingService, com.easebuzz.payment.kit.PWETimerService, org.jitsi.meet.sdk.ConnectionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (6): io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): io.flutter.plugins.imagepicker.ImagePickerFileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.oblador.performance.StartTimeProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, io.flutter.plugins.share.ShareFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 24697
+  Total Methods : 165535
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 76 FF 43 6A 1B 5C A5 DA CD 2B 5C F8 9C 5D A0 80 37 25 B3 0E 02 A7 22 3D C2 C7 17 0A B4 08 D8 BB
+
+==========================================

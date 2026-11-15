@@ -1,0 +1,68 @@
+{
+  "sha256": "000AACD6C89B699D83900910D47A0581E71BC3ECBF5F4DD8022F838719FBD046",
+  "filename": "000AACD6C89B699D83900910D47A0581E71BC3ECBF5F4DD8022F838719FBD046.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.isomnio.seventeenhats",
+  "version_name": "4.0.6-rc.2025.14",
+  "version_code": "202500014",
+  "min_sdk": "24",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "com.isomnio.seventeenhats.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.isomnio.seventeenhats.MainActivity"
+  ],
+  "activity_count": 2,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.isomnio.seventeenhats.MessagingService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 9071,
+  "method_count": 65767,
+  "cert_fingerprint": "59 F4 CE 45 3D E7 70 9A 63 B5 E5 F6 8F 8F 3C 86 FF B7 27 27 2A A8 DD 43 F3 B4 15 39 A9 A3 31 5E",
+  "cert_issuer": "Organization: 17hats",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

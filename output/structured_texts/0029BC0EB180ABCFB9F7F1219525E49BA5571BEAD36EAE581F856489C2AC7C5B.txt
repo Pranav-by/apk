@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : de.regioit.abfallapp.tonnentickerpro
+  SHA-256       : 0029BC0EB180ABCFB9F7F1219525E49BA5571BEAD36EAE581F856489C2AC7C5B
+  Android Group : Android13
+  Version       : 2.5.18 (code: 2097)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (33)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, com.sec.android.provider.badge.permission.WRITE, android.permission.ACCESS_FINE_LOCATION
+
+[Application Components]
+  Activities (4): de.regioit.abfallapp.MainActivity, com.facebook.react.devsupport.DevSettingsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (13): com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService, com.transistorsoft.tsbackgroundfetch.FetchJobService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.dieam.reactnativepushnotification.modules.RNPushNotificationActions, com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher, com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver, com.transistorsoft.tsbackgroundfetch.BootReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (4): com.reactnativecommunity.webview.RNCWebViewFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13779
+  Total Methods : 88537
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: poi
+  Fingerprint : 51 29 59 84 86 C8 F6 87 DC 3E FD F2 42 57 FC 1E 27 5A 73 E7 A8 F0 0B 26 E8 4D C2 9F DC 43 F1 5D
+
+==========================================

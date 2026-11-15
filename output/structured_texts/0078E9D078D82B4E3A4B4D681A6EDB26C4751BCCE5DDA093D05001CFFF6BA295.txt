@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nekosoft.mp3player
+  SHA-256       : 0078E9D078D82B4E3A4B4D681A6EDB26C4751BCCE5DDA093D05001CFFF6BA295
+  Android Group : Android12L
+  Version       : 1.0.5 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.SET_WALLPAPER, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS, com.android.launcher.permission.UNINSTALL_SHORTCUT, android.permission.INSTALL_SHORTCUT, com.android.launcher.permission.INSTALL_SHORTCUT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.USE_FULL_SCREEN_INTENT, com.google.android.gms.permission.AD_ID, android.permission.UNINSTALL_SHORTCUT
+
+[Application Components]
+  Activities (24): com.nekosoft.mp3player.ui.activity.main.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, com.nekosoft.mp3player.ui.activity.ringtone_maker.RingtoneMakerActivity, com.nekosoft.mp3player.ui.activity.LoadingActivity, com.nekosoft.mp3player.ui.activity.theme.ActivityCustomThemes, com.nekosoft.mp3player.ui.activity.addsong.AddSongFavoriteActivity, com.nekosoft.mp3player.ui.activity.player.PlayerActivity, com.nekosoft.mp3player.ui.activity.soundeditor.ActivityEditorAudio, com.gun0912.tedpermission.TedPermissionActivity, com.nekosoft.mp3player.ui.activity.setting.SettingActivity, com.nekosoft.mp3player.ui.activity.scanmusic.ScanMusicActivity, com.nekosoft.mp3player.ui.activity.sort_playlist.SortPlaylistActivity, com.nekosoft.mp3player.ui.activity.lookscreen.LookScreenActivity, com.nekosoft.mp3player.ui.activity.TutorialActivity, com.nekosoft.mp3player.ui.activity.plash.PlashActivity, com.nekosoft.mp3player.ui.activity.list.ListSongActivity, com.nekosoft.mp3player.ui.activity.youtube_search.YoutubeSearchWebviewActivity, com.nekosoft.mp3player.ui.activity.player.NowPlayingActivity, com.yalantis.ucrop.UCropActivity, com.nekosoft.mp3player.ui.activity.permission.PermissionActivity
+  Services   (14): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.nekosoft.mp3player.service.MusicPlayerService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService, com.nekosoft.mp3player.service.LockScreenService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.media.session.MediaButtonReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.nekosoft.mp3player.service.ShakeReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.nekosoft.mp3player.service.ScreenActionReceiver, com.nekosoft.mp3player.service.BroadcastControl
+  Providers  (5): com.google.firebase.perf.provider.FirebasePerfProvider, com.nekosoft.mp3player.utils.FileProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 15511
+  Total Methods : 69057
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://firebase.google.com/support/guides/disable-analytics, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://play.google.com/store/apps/details?id=, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 68 6B CE 4D 00 4B EB D2 E5 F2 DA 40 7B 53 D4 5D F3 C1 4F BA 6A D4 47 FA 41 DF 89 9D 42 AE B6 31
+
+==========================================

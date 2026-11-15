@@ -1,0 +1,64 @@
+{
+  "sha256": "00A0D7CDD054D6CF3A0C93F0265F72A171B89FAF02A0A25AE66592D39C8D075F",
+  "filename": "00A0D7CDD054D6CF3A0C93F0265F72A171B89FAF02A0A25AE66592D39C8D075F.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "de.rwth_aachen.phyphox",
+  "version_name": "1.1.10",
+  "version_code": "1011002",
+  "min_sdk": "14",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.RECORD_AUDIO",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.CAMERA",
+    "android.permission.BLUETOOTH",
+    "android.permission.INTERNET",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.BLUETOOTH_SCAN",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 14,
+  "activities": [
+    "de.rwth_aachen.phyphox.ExperimentList",
+    "com.journeyapps.barcodescanner.CaptureActivity",
+    "de.rwth_aachen.phyphox.Experiment"
+  ],
+  "activity_count": 3,
+  "services": [
+    "org.eclipse.paho.android.service.MqttService"
+  ],
+  "service_count": 1,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 6634,
+  "method_count": 48872,
+  "cert_fingerprint": "B1 4D CE 78 47 42 C7 24 9B 9F CA 5F D0 5B 34 E6 CB BC C5 96 E6 F4 7E 71 12 C7 A6 02 5E 98 39 BE",
+  "cert_issuer": "Common Name: Sebastian Kuhlen, Organizational Unit: 2nd Institute of Physics A, Organization: RWTH Aachen, Locality: Aachen, Country: DE",
+  "urls": [
+    "http://issues.apache.org/bugzilla/"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

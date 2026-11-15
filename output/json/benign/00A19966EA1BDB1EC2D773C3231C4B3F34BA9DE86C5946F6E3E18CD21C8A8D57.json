@@ -1,0 +1,70 @@
+{
+  "sha256": "00A19966EA1BDB1EC2D773C3231C4B3F34BA9DE86C5946F6E3E18CD21C8A8D57",
+  "filename": "00A19966EA1BDB1EC2D773C3231C4B3F34BA9DE86C5946F6E3E18CD21C8A8D57.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "com.wowthemes.wowwhitetheme",
+  "version_name": "1.8",
+  "version_code": "20220914",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.applovin.mediation.MaxDebuggerDetailActivity",
+    "com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity",
+    "com.theme.launcher.SplashActivity",
+    "com.applovin.adview.AppLovinFullscreenActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitsListActivity",
+    "com.theme.launcher.MainActivity",
+    "com.applovin.sdk.AppLovinWebViewActivity",
+    "com.applovin.mediation.MaxDebuggerMultiAdActivity",
+    "com.applovin.mediation.MaxDebuggerTestModeNetworkActivity",
+    "com.applovin.mediation.MaxDebuggerAdUnitDetailActivity",
+    "com.applovin.mediation.MaxDebuggerActivity"
+  ],
+  "activity_count": 11,
+  "services": [
+    "com.applovin.impl.sdk.utils.AppKilledService",
+    "com.applovin.impl.adview.activity.FullscreenAdService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.theme.launcher.widget.MonthWidget",
+    "com.theme.launcher.widget.ClockWidget22"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.squareup.picasso.PicassoProvider",
+    "com.applovin.sdk.AppLovinInitProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 9689,
+  "method_count": 72741,
+  "cert_fingerprint": "23 DC 21 AB 83 78 E1 6C D4 AF 24 3D DB BB 66 42 AD 1F 24 6D 1F 7D AD 53 52 E3 A6 ED F2 61 5F F4",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

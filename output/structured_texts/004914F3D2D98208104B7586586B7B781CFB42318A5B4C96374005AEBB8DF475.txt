@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.wCrossReferenceBible_14387623
+  SHA-256       : 004914F3D2D98208104B7586586B7B781CFB42318A5B4C96374005AEBB8DF475
+  Android Group : Android12
+  Version       : 1.0.2 (code: 1556413790)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (39)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.BLUETOOTH_ADMIN, com.wCrossReferenceBible_14387623.permission.C2D_MESSAGE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.CHANGE_WIFI_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.android.alarm.permission.SET_ALARM, android.permission.BLUETOOTH, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+
+[Application Components]
+  Activities (61): io.bidmachine.nativead.view.VideoPlayerActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.appnext.ads.interstitial.InterstitialActivity, com.ironsource.sdk.controller.InterstitialActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.appsgeyser.multiTabApp.ThemingActivity, com.appsgeyser.sdk.AdActivity, com.ironsource.sdk.controller.ControllerActivity, com.applovin.mediation.MaxDebuggerActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.appnext.core.ResultActivity, com.appnext.core.result.ResultPageActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.appsgeyser.multiTabApp.MainNavigationActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.google.android.gms.ads.AdActivity, com.facebook.ads.AudienceNetworkActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity
+  Services   (34): com.google.android.play.core.assetpacks.ExtractionForegroundService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.google.android.gms.measurement.AppMeasurementService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.room.MultiInstanceInvalidationService, com.appsgeyser.sdk.push.AlarmService
+  Receivers  (23): com.appnext.base.receivers.AppnextBootReciever, com.onesignal.UpgradeReceiver, com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.appodeal.ads.AppodealPackageAddedReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.onesignal.BootUpReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.appsgeyser.sdk.datasdk.DataSdksReceiver, org.altbeacon.beacon.startup.StartupBroadcastReceiver
+  Providers  (13): com.facebook.ads.AudienceNetworkContentProvider, com.appodeal.ads.services.crash_hunter.ApdCrashHunterContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.appodeal.ads.services.event_service.ApdEventContentProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.yandex.metrica.PreloadInfoContentProvider, com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.squareup.picasso.PicassoProvider, com.appodeal.ads.ApdContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 23732
+  Total Methods : 155172
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://publisherdocs.criteotilt.com/app/android/standalone/#sdk-initialization, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(10): 2.5.1.472, 1.9.3.1, 1.9.3.11, 4.2.5.2, 2.11.1.4, 1.9.3.6, 7.2.1.1, 2.11.1.1, 1.9.3.3, 1.9.3.10
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7A EC 79 D3 2D 51 FA 87 1E D0 61 25 A3 07 9E 6A 59 7B 92 6E E7 CE 63 13 87 CE 2B 2F 79 79 99 3A
+
+==========================================

@@ -1,0 +1,77 @@
+{
+  "sha256": "000A9C0E6BE61350B61B9F2D84C1FBA4C56C28373E2336D13FBC16F412B02C63",
+  "filename": "000A9C0E6BE61350B61B9F2D84C1FBA4C56C28373E2336D13FBC16F412B02C63.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.sg.toop.toop",
+  "version_name": "1.0.14",
+  "version_code": "14",
+  "min_sdk": "20",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.USE_FULL_SCREEN_INTENT",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity",
+    "com.sg.toop.toop.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+  ],
+  "service_count": 6,
+  "receivers": [
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver",
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver",
+    "com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 6,
+  "providers": [
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3510,
+  "method_count": 20991,
+  "cert_fingerprint": "4B B0 0A 12 42 56 45 52 D8 EE E6 B4 1C 59 96 55 53 40 23 A0 46 62 7B 22 DB 62 1F D3 36 24 40 73",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://github.com/pichillilorenzo/flutter_inappwebview#important-note-for-android",
+    "https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects",
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

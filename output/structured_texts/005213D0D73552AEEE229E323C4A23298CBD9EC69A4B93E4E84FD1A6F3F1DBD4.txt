@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.lingwei.materialcalculator
+  SHA-256       : 005213D0D73552AEEE229E323C4A23298CBD9EC69A4B93E4E84FD1A6F3F1DBD4
+  Android Group : Android12
+  Version       : 3.9.3 (code: 393)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (34)]
+  android.permission.MOUNT_UNMOUNT_FILESYSTEMS, com.android.launcher.permission.READ_SETTINGS, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.USE_CREDENTIALS, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_USER_PRESENT, android.permission.QUERY_ALL_PACKAGES, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.lingwei.materialcalculator.permission.JPUSH_MESSAGE
+
+[Application Components]
+  Activities (52): com.qidongtech.activity.CompassActivity, com.luck.picture.lib.basic.PictureSelectorSupporterActivity, com.qidongtech.activity.SpiritLevelActivity, com.blankj.utilcode.util.UtilsTransActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.qidongtech.activity.CycleRulerViewActivity, com.uuzuche.lib_zxing.activity.CaptureActivity, com.qidongtech.activity.CaptureActivity, com.taobao.weex.devtools.toolbox.PerformanceActivity, cn.android.service.JTransitActivity, com.qidongtech.activity.WXPageWithAdActivity, com.azhon.appupdate.view.UpdateDialogActivity, cn.jpush.android.ui.PopWinActivity, com.taobao.weex.analyzer.view.SettingsActivity, com.lxj.xpopup.util.XPermission$PermissionActivity, com.qidongtech.activity.FileViewActivity, com.alipay.sdk.app.APayEntranceActivity, com.qidongtech.view.photoview.PhotoViewActivity, com.yalantis.ucrop.UCropActivity, com.qq.e.ads.LandscapeADActivity
+  Services   (13): com.qidongtech.push.PushService, cn.jpush.android.service.DaemonService, com.qq.e.comm.DownloadService, com.tencent.smtt.export.external.DexClassLoaderProviderService, com.azhon.appupdate.service.DownloadService, com.alibaba.android.bindingx.plugin.weex.WXBindingXModuleService, com.qidongtech.weex.service.BundelJsUpdateService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.qidongtech.service.InitService, com.luck.picture.lib.service.ForegroundService, androidx.camera.core.impl.MetadataHolderService, com.qidongtech.service.StartupService, cn.jpush.android.service.PushService
+  Receivers  (5): cn.jpush.android.service.AlarmReceiver, cn.jpush.android.service.SchedulerReceiver, com.qidongtech.push.PushReceiver, cn.jpush.android.asus.AsusPushMessageReceiver, cn.jpush.android.service.PushReceiver
+  Providers  (10): com.blankj.utilcode.util.UtilsFileProvider, com.luck.picture.lib.basic.PictureFileProvider, cn.jpush.android.service.DataProvider, cn.jpush.android.service.DownloadProvider, cn.jiguang.union.ads.service.JAdFileProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.mob.MobProvider, cn.sharesdk.framework.utils.ShareSDKFileProvider, com.azhon.appupdate.config.AppUpdateFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8
+  Total Methods : 122
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: lixianfeng, Locality: xi'an, State/Province: shanxi, Country: china
+  Fingerprint : B6 EF 24 57 58 D6 71 5D 4C 67 B8 37 97 F0 0B A8 C4 93 90 E3 69 B4 A9 6B 83 57 D7 2E 96 A6 C3 23
+
+==========================================

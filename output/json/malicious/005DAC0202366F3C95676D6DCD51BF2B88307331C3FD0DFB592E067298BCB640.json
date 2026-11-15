@@ -1,0 +1,46 @@
+{
+  "sha256": "005DAC0202366F3C95676D6DCD51BF2B88307331C3FD0DFB592E067298BCB640",
+  "filename": "005DAC0202366F3C95676D6DCD51BF2B88307331C3FD0DFB592E067298BCB640.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.real.ccchymnbook",
+  "version_name": "1.0",
+  "version_code": "1",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ],
+  "permission_count": 1,
+  "activities": [
+    "com.real.ccchymnbook.MainActivity",
+    "com.real.ccchymnbook.DebugActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 4432,
+  "method_count": 33623,
+  "cert_fingerprint": "BA B6 32 51 28 98 7B B6 AF 2F 11 F5 22 2B 45 A5 28 49 FD 85 66 09 0D 46 77 03 B8 CE E6 6E CF D5",
+  "cert_issuer": "Common Name: Dona Amosu, Organizational Unit: Realdbeat Rav, Organization: Realdbeat Inc, Locality: Lagos, State/Province: Lagos, Country: NG",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

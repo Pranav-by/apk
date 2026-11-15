@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.inpeace.quadrangularuberaba.mg
+  SHA-256       : 00AF1B292632C7ADDDA6C8684647C246129045A162E40F8D2028DCFBC3733A8C
+  Android Group : Android16
+  Version       : 5.5.8 (code: 161)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (19)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK, com.inpeace.quadrangularuberaba.mg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (124): com.inpeace.cells.presentation.cells.CellDetailActivity, com.stripe.android.view.PaymentRelayActivity, com.google.android.libraries.places.widget.BasicPlaceAutocompleteActivity, com.stripe.android.challenge.PassiveChallengeActivity, com.inpeace.old.activities.videos.VideoExternoActivity, com.inpeace.old.activities.carteirinhamembro.CarteirinhaMembroActivity, com.inpeace.live.YoutubeDisplayActivity, com.inpeace.old.activities.doacao.DoacaoCategoriasActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.shoppay.ShopPayActivity, com.inpeace.old.activities.webview.WebViewStripeActivity, com.inpeace.cells.presentation.cells.CellListActivity, com.stripe.android.ui.core.cardscan.CardScanActivity, com.inpeace.cells.presentation.studies.StudyActivity, com.inpeace.cells.presentation.cells.CellEditActivity, com.inpeace.cells.presentation.planning.CellPlanningActivity, com.inpeace.live.VideoPlayerFullscreenActivity, com.inpeace.prayer.presentation.PrayerActivity, com.inpeace.live.CultoAoVivoActivity, com.inpeace.old.utils.SearchResultsActivity
+  Services   (12): com.google.android.gms.measurement.AppMeasurementService, com.inpeace.app.MessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.inpeace.streaming.StreamingService, com.google.firebase.sessions.SessionLifecycleService, es.voghdev.pdfviewpager.library.service.CopyAssetService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (5): com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (6): com.squareup.picasso.PicassoProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 11
+  Total Classes : 65953
+  Total Methods : 422943
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://r.android.com/3610053
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organizational Unit: Primelan Tecnologia
+  Fingerprint : 44 BA F6 29 66 1A BB F0 77 E0 34 C1 3D 7B F6 14 F7 65 62 FA F1 E8 EC 59 AA 77 47 94 B7 51 DA EB
+
+==========================================

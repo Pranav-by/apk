@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.appkudos.customershortnshout
+  SHA-256       : 00A33EAC971D38BDA5CD88E21FA230190268F5680008F19752507278361B1894
+  Android Group : Android15
+  Version       : 7.5 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (13)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.POST_NOTIFICATIONS, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.CALL_PHONE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WRITE_APN_SETTINGS, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (8): com.menu2order.curetomerv3.MainActivity, com.vanillaplacepicker.presentation.map.VanillaMapActivity, com.menu2order.curetomerv3.GiftcardWebActivity, com.google.android.gms.common.api.GoogleApiActivity, com.menu2order.curetomerv3.OtpActivity, com.google.android.libraries.places.widget.AutocompleteActivity, com.vanillaplacepicker.presentation.autocomplete.VanillaAutocompleteActivity, com.menu2order.curetomerv3.AccountDeselct
+  Services   (12): androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.menu2order.curetomerv3.MyFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.vanillaplacepicker.service.FetchAddressIntentService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (4): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 13959
+  Total Methods : 90215
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E8 34 52 F2 DE 18 17 34 6D 2B 19 EF 9C C7 5B 8D 8A 1B DC 63 45 C9 FB 02 31 C8 A6 EB 4E F1 44 75
+
+==========================================

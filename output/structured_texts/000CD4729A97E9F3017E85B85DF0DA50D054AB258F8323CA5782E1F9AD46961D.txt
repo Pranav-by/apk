@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : biz.interblitz.budgetfree
+  SHA-256       : 000CD4729A97E9F3017E85B85DF0DA50D054AB258F8323CA5782E1F9AD46961D
+  Android Group : Android12L
+  Version       : 10.0.1 (code: 41849)
+
+[SDK Information]
+  Minimum SDK   : 14
+  Target SDK    : 32
+
+[Permissions (11)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.READ_CONTACTS, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECEIVE_SMS, android.permission.READ_SMS, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (21): biz.interblitz.budgetlib.PDFPreviewActivity, biz.interblitz.budgetlib.PermanentTransactionsActivity, biz.interblitz.budgetlib.WidgetSettingsActivity, biz.interblitz.budgetlib.SettingsActivity, biz.interblitz.budgetlib.HTTPServerActivity, haibison.android.lockpattern.LockPatternActivity, com.dropbox.core.android.AuthActivity, biz.interblitz.budgetlib.ImportFilesActivity, biz.interblitz.budgetlib.TransactionsActivity, biz.interblitz.budgetlib.ChartActivity, biz.interblitz.budgetlib.ExpandableReportActivity, biz.interblitz.budgetlib.BudgetActivity, biz.interblitz.budgetlib.WelcomeActivity, biz.interblitz.budgetlib.RangedReferenceActivity, biz.interblitz.budgetlib.ObjectEditorActivity, biz.interblitz.budgetlib.ProActivity, biz.interblitz.budgetlib.ImportSMSActivity, biz.interblitz.budgetlib.ImportActivity, biz.interblitz.budgetlib.ImportDirsActivity, biz.interblitz.budgetlib.SQLConsoleActivity
+  Services   (13): bme.service.sms.NotificationListener, bme.service.jobs.SMSTunesService, bme.service.sms.NotificationReceiverJobIntentService, bme.service.jobs.RatesService, bme.service.sms.SmsMessageReceiverJobIntentService, bme.service.jobs.DataExchangeService, bme.service.currency.RatesReaderRunner, bme.service.jobs.LookupServerService, org.acra.sender.LegacySenderService, bme.service.jobs.CloudService, bme.service.share.ShareableSMSTunesUpdater, org.acra.sender.JobSenderService, bme.service.jobs.TruncateEventsService
+  Receivers  (14): bme.service.widget.Actual2CellWidgetProvider, bme.service.alarm.DataExchangeAlarmReceiver, bme.service.widget.Actual1CellWidgetProvider, bme.service.alarm.NotificationAlarmReceiver, bme.service.boot.BootCompletedReceiver, bme.service.sms.SmsMessageReceiver, biz.interblitz.service.TextMessageReceiver, biz.interblitz.service.ApiReceiver, bme.service.alarm.ReminderAlarmReceiver, bme.service.network.NetworkStateReceiver, bme.service.widget.WidgetProvider, bme.service.alarm.TruncateLogsAlarmReceiver, bme.service.alarm.CheckTunesUpdatesAlarmReceiver, bme.service.update.PackageReplacedReceiver
+  Providers  (4): biz.interblitz.budgetlib.DatabaseProvider, biz.interblitz.budgetlib.FilesProvider, androidx.startup.InitializationProvider, org.acra.attachment.AcraContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 19948
+  Total Methods : 141541
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://www.ecb.int/stats/eurofxref/eurofxref-daily.xml, http://www.ecb.int/stats/eurofxref/eurofxref-daily.xml, https://www.nbrb.by/Services/XmlExRates.aspx, http://www.nbrb.by/Services/XmlExRates.aspx
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Michael Basin, Organization: Interblitz, Locality: Russia Perm, Country: 7
+  Fingerprint : 19 91 6E DC 72 A5 0B 52 6A 1E F9 A4 FC 5B D9 3B 86 E3 F2 C1 A9 A6 41 FE 01 EE 9C 65 A8 77 69 24
+
+==========================================

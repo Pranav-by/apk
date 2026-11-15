@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.furnitology.furnitologyapp
+  SHA-256       : 00AEAD7150295943BE56CC85AA304CD9AB344FAFBA3EFF689557EF4566D6FC0B
+  Android Group : Android12
+  Version       : 0.3.3 (code: 34)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (33)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, com.android.vending.CHECK_LICENSE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, me.everything.badger.permission.BADGE_COUNT_WRITE, android.permission.USE_FINGERPRINT
+
+[Application Components]
+  Activities (24): com.twitter.sdk.android.core.identity.OAuthActivity, com.intercom.input.gallery.GalleryInputFullScreenActivity, com.facebook.CustomTabActivity, io.intercom.android.sdk.activities.IntercomVideoActivity, com.intercom.input.gallery.GalleryLightBoxActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.facebook.react.devsupport.DevSettingsActivity, com.yalantis.ucrop.UCropActivity, com.android.billingclient.api.ProxyBillingActivity, com.bbapp.MainActivity, io.intercom.android.sdk.activities.IntercomMessengerActivity, com.masteratul.exceptionhandler.DefaultErrorScreen, com.bbapp.video.VideoActivity, io.intercom.android.sdk.lightbox.LightBoxActivity, io.intercom.android.sdk.activities.IntercomPostActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity, io.intercom.android.sdk.helpcenter.articles.ArticleActivity
+  Services   (12): io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, com.doublesymmetry.trackplayer.service.MusicService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.bbapp.MainMessagingService
+  Receivers  (8): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver, androidx.media.session.MediaButtonReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.facebook.CampaignTrackingReceiver
+  Providers  (9): cl.json.RNShareFileProvider, com.google.firebase.provider.FirebaseInitProvider, com.RNFetchBlob.Utils.FileProvider, expo.modules.filesystem.FileSystemFileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, androidx.core.content.FileProvider, com.vinzscam.reactnativefileviewer.FileProvider, com.facebook.internal.FacebookInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 27091
+  Total Methods : 170078
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : DA E9 62 1C D9 AA AC 51 D1 72 FD F4 10 AD 88 04 2F 53 C5 22 F1 2C BC BC A1 7D 8F E4 75 0C 8A B3
+
+==========================================

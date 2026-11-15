@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ch.konoma.aeropers
+  SHA-256       : 00A8A8F474787B96BFAE9871132793A6AB373ACE29017679290E196F7AC7DA31
+  Android Group : Android12
+  Version       : 2.8 (code: 1675258289)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (5)]
+  android.permission.GET_ACCOUNTS, android.permission.INTERNET, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (20): crc648525354c1507d0d6.NewsDetailsShortNewsActivity, com.google.android.gms.common.api.GoogleApiActivity, crc648525354c1507d0d6.AeropediaAirportListActivity, crc648525354c1507d0d6.BuddyTimeslotDetailsActivity, crc648525354c1507d0d6.AeropediaAirportDetailsActivity, crc648525354c1507d0d6.EmergencyCardSceneActivity, crc648525354c1507d0d6.DutyDetailsSceneActivity, crc648525354c1507d0d6.InflightRestScreenActivity, crc648525354c1507d0d6.AirportSelectionSceneActivity, crc648525354c1507d0d6.CalculationDetailsSceneActivity, crc648525354c1507d0d6.MainSceneActivity, crc648525354c1507d0d6.LaunchActivity, crc648525354c1507d0d6.LoginScreenActivity, crc648525354c1507d0d6.UnitCalculatorScreenActivity, crc648525354c1507d0d6.BuddyManagementActivity, crc648525354c1507d0d6.ProfileScreenActivity, crc648525354c1507d0d6.NewsDetailsStreamScreenActivity, crc648525354c1507d0d6.NewsDetailsBulletinScreenActivity, crc648525354c1507d0d6.ContactsSceneActivity, crc6494ac5ddca1539ab8.DevSettingsScreenActivity
+  Services   (5): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.microsoft.windowsazure.messaging.notificationhubs.FirebaseReceiver
+  Receivers  (2): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, mono.MonoRuntimeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5606
+  Total Methods : 39488
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 1.0.0.0, 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 5F C3 15 71 A3 2B 8A D8 B8 57 EA 9E 61 4A B7 E4 D7 8D 3B BA 6B F9 9F 74 01 32 23 48 86 0C 45 96
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.e.shubhalaxmifx
+  SHA-256       : 006B8B2B528D44A5AB00779CD0C09FDED21B9FF5D8B750BBE0A204D8C9E92291
+  Android Group : Android13
+  Version       : 2.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 33
+
+[Permissions (3)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.INTERNET
+
+[Application Components]
+  Activities (1): com.e.shubhalaxmifx.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1390
+  Total Methods : 11204
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 55 ED D7 01 B6 35 8B 1A 53 32 7B 9A B4 11 19 EB EC C5 5E DE E6 CD DB B2 04 19 BB 5F E3 91 A4 34
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : in.newtel.abt.multiplex
+  SHA-256       : 00A3B4E9B26A601C1492F311DA747BD95E192E96A1AF097BA530FFE0EC1C24BD
+  Android Group : Android14
+  Version       : 1.1.4 (code: 24)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (32)]
+  android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.phone, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.READ_PRIVILEGED_PHONE_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT
+
+[Application Components]
+  Activities (19): com.newtel.abt.ExpensesFilterActivity, com.theartofdev.edmodo.cropper.CropImageActivity, cafe.adriel.androidaudiorecorder.AudioRecorderActivity, com.newtel.abt.DashBoardActivity, com.newtel.abt.register.RegisterActivity, com.newtel.abt.CameraXActivity, com.newtel.abt.MainActivity, com.newtel.abt.expenses.FullImageActivity, com.newtel.abt.RecordVideoActivity, com.newtel.abt.ScannerActivity, com.newtel.abt.OTPLoginActivity, com.newtel.abt.SurfaceViewCameraActivity, com.newtel.abt.LoginActivity, com.newtel.abt.LanguageActivity, com.newtel.abt.register.OTPVerificationActivity, com.google.android.gms.common.api.GoogleApiActivity, com.blankj.utilcode.util.UtilsTransActivity, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.newtel.abt.ForgotPasswordActivity
+  Services   (24): androidx.work.impl.background.systemalarm.SystemAlarmService, org.altbeacon.bluetooth.BluetoothTestJob, com.newtel.abt.notifications.MyFirebaseMessagingService, com.newtel.abt.LocationUpdateService, com.evernote.android.job.v21.PlatformJobService, com.evernote.android.job.v14.PlatformAlarmService, com.evernote.android.job.v14.PlatformAlarmServiceExact, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.evernote.android.job.gcm.PlatformGcmService, com.evernote.android.job.JobRescheduleService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, org.altbeacon.beacon.service.BeaconService, androidx.room.MultiInstanceInvalidationService, org.altbeacon.beacon.BeaconIntentProcessor, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, org.altbeacon.beacon.service.ScanJob, androidx.camera.core.impl.MetadataHolderService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (16): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.evernote.android.job.v14.PlatformAlarmReceiver, com.newtel.abt.utils.CallAPIReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.evernote.android.job.JobBootReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, org.altbeacon.beacon.startup.StartupBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (5): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.blankj.utilcode.util.UtilsFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 20031
+  Total Methods : 119898
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://github.com/evernote/android-job/wiki/FAQ
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F7 9A 33 63 BB A8 3C 60 D3 8A 1D E9 B3 50 DD 13 75 3A 88 D7 A7 60 4B D5 6E DC B6 A7 5F 3E 4E 4C
+
+==========================================

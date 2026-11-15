@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.imsprime.suryamemorialparent
+  SHA-256       : 00C0155ED4CCBF1A3A5B15971C1EB27C346B37A91186FEF6AF9854E3DCD057E7
+  Android Group : Android12
+  Version       : 2.0 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.CALL_PHONE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (44): com.imsprime.schoolapp.Exam.ExamDetails, com.imsprime.schoolapp.News.NewsDetails, com.imsprime.schoolapp.StudentLeaveRecord, com.imsprime.schoolapp.FeeReport, com.imsprime.schoolapp.Poll.Poll, com.imsprime.schoolapp.TimeTable.WeeklyTimeTable, com.imsprime.schoolapp.HWCN.HWCN, com.imsprime.schoolapp.Forgot_Pass, com.imsprime.schoolapp.Hostel.Hostel, com.imsprime.schoolapp.DashBoard.DashBoard, com.imsprime.schoolapp.Notice.Notice, com.imsprime.schoolapp.OffSpringg.OffSpring, com.imsprime.schoolapp.TimeTable.TimeTable, com.imsprime.schoolapp.Login, com.imsprime.schoolapp.Library.Library, com.imsprime.schoolapp.Task.ClassNotesHomeWork, com.imsprime.schoolapp.Payment_WEBVIEW, com.imsprime.schoolapp.News.News, com.imsprime.schoolapp.StudentFeeReport, com.imsprime.schoolapp.Exam.Exam
+  Services   (9): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.imsprime.schoolapp.PushNotification.MyFirebaseMessagingService, com.imsprime.schoolapp.HWCN.DownloadService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.firebase.jobdispatcher.GooglePlayReceiver, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 9958
+  Total Methods : 68361
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 33 59 83 5B 47 1E 70 67 83 0F 40 9C 19 BC C7 72 17 81 70 5D A9 81 40 05 25 AE E5 78 3C EB 51 CE
+
+==========================================

@@ -1,0 +1,61 @@
+{
+  "sha256": "00A6668D81246CF626B6FABF577B500D764122C6DB91699B8F4B0C665047108C",
+  "filename": "00A6668D81246CF626B6FABF577B500D764122C6DB91699B8F4B0C665047108C.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "com.yourcultureconnect.fhm.tour",
+  "version_name": "1.8.0",
+  "version_code": "10800",
+  "min_sdk": "22",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.BLUETOOTH",
+    "android.permission.CAMERA",
+    "com.yourcultureconnect.fhm.tour.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.RECORD_AUDIO"
+  ],
+  "permission_count": 10,
+  "activities": [
+    "com.yourcultureconnect.fhm.tour.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "nl.xservices.plugins.ShareChooserPendingIntent",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "androidx.core.content.FileProvider",
+    "androidx.core.content.FileProvider",
+    "nl.xservices.plugins.FileProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 5321,
+  "method_count": 37357,
+  "cert_fingerprint": "40 67 A3 E8 77 3C 5C 5E E8 5A A8 A7 EE AA 2B 96 85 3A 96 C8 60 AA F0 03 3B 05 DA F3 16 90 15 9D",
+  "cert_issuer": "Common Name: Monika Smyczek, Organizational Unit: Unknown, Organization: Cultureconnect LLC., Locality: New Orleans, State/Province: Louisiana, Country: LA",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

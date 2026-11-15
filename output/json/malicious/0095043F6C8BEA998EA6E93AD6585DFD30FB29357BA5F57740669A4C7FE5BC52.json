@@ -1,0 +1,57 @@
+{
+  "sha256": "0095043F6C8BEA998EA6E93AD6585DFD30FB29357BA5F57740669A4C7FE5BC52",
+  "filename": "0095043F6C8BEA998EA6E93AD6585DFD30FB29357BA5F57740669A4C7FE5BC52.apk",
+  "android_version": "Android14",
+  "label": "malicious",
+  "package_name": "com.sharpitor.nightsky20",
+  "version_name": "2.1",
+  "version_code": "66",
+  "min_sdk": "25",
+  "target_sdk": "34",
+  "permissions": [
+    "com.sharpitor.nightsky20.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "com.android.vending.BILLING"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "com.android.billingclient.api.ProxyBillingActivityV2",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.sharpitor.sextant_stars.MainActivity",
+    "com.android.billingclient.api.ProxyBillingActivity"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 1745,
+  "method_count": 9870,
+  "cert_fingerprint": "11 E1 74 A7 46 60 AB C9 F6 77 62 ED 4C 19 FA D5 47 97 CD 2A B5 98 04 66 A0 CB A5 42 1B 2C 8D 5B",
+  "cert_issuer": "Organization: Sharpitor",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tangninghf.yjcxszs
+  SHA-256       : 000659AC6F4ECBFBBF867AE81FB650EC942C464FBF8DDA876254E3D038A99A86
+  Android Group : Android14
+  Version       : 1.0.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (30)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, com.tangninghf.yjcxszs.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CHANGE_NETWORK_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.BIND_DEVICE_ADMIN, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.QUERY_ALL_PACKAGES, com.tangninghf.yjcxszs.openadsdk.permission.TT_PANGOLIN, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, freemme.permission.msa
+
+[Application Components]
+  Activities (138): com.kwad.sdk.api.proxy.app.KsFullScreenLandScapeVideoActivity, com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait5, com.kwad.sdk.api.proxy.app.KsRewardVideoActivity, com.byted.live.lite.Activity_bytelive_singleTask4, com.kwad.sdk.api.proxy.app.KSRewardLandScapeVideoActivity, com.byted.live.lite.Activity_bytelive_singleTop3, com.kwad.sdk.api.proxy.app.FeedDownloadActivity, com.byted.live.lite.Activity_bytelive_singleTop2, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$KsTrendsActivity, com.byted.live.lite.Activity_bytelive_singleTop5, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileHomeActivity, com.byted.live.lite.Activity_bytelive_singleTop4, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileVideoDetailActivity, com.byted.live.lite.Activity_bytelive_standard, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeProfileActivity, com.byted.live.lite.Activity_bytelive_singleTop1, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ChannelDetailActivity, com.byted.live.lite.Activity_bytelive_singleTask1, com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeDetailActivity, com.byted.live.lite.Activity_bytelive_singleTop6
+  Services   (20): com.ss.android.socialbase.downloader.impls.DownloadHandleService, com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService, com.ss.android.socialbase.appdownloader.RetryJobSchedulerService, com.tangninghf.yjcxszs.module.fragment.home.ball.MyAccessibilityService, com.tangninghf.yjcxszs.module.fragment.home.service.AppLockService, androidx.room.MultiInstanceInvalidationService, com.luck.picture.lib.service.ForegroundService, com.bytedance.sdk.openadsdk.core.multipro.aidl.BinderPoolService, com.efs.sdk.memleaksdk.monitor.UMonitorService, com.bytedance.sdk.openadsdk.downloadnew.ApiDownloadHandlerService, com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService, com.smartdigimkt.dlopt.common.service.ApkDownloadService, com.qq.e.comm.DownloadService, com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService, com.kwad.sdk.api.proxy.app.DownloadService, com.kwad.sdk.api.proxy.app.ServiceProxyRemote, com.ss.android.socialbase.appdownloader.DownloadHandlerService, com.ss.android.socialbase.downloader.downloader.CSJIndependentProcessDownloadService, com.ss.android.socialbase.downloader.notification.DownloadNotificationService, com.ss.android.socialbase.downloader.downloader.CSJDownloadService
+  Receivers  (5): com.tangninghf.yjcxszs.utils.MyDeviceAdminReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.bytedance.embedapplog.collector.Collector, com.ss.android.downloadlib.core.download.DownloadReceiver, com.smartdigimkt.dlopt.common.NotificationBroadcastReceiver
+  Providers  (21): com.bytedance.sdk.openadsdk.stub.server.MainServerManager, com.bytedance.pangle.provider.MainProcessProviderProxy, com.bytedance.pangle.FileProvider, com.bytedance.android.openliveplugin.process.server.LiveServerManager, com.byted.live.lite.ServerManager_bytelive, androidx.core.content.FileProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.bytedance.sdk.openadsdk.TTFileProvider, com.kwad.sdk.api.proxy.app.AdSdkFileProvider, com.qq.e.comm.GDTFileProvider, com.luck.picture.lib.basic.PictureFileProvider, androidx.startup.InitializationProvider, com.byted.live.lite.ServerManager_push, com.lzf.easyfloat.EasyFloatInitializer, com.byted.live.lite.ServerManager_downloader, me.jessyan.autosize.InitProvider, com.smartdigimkt.dlopt.common.ApkFileProvider, com.anythink.core.api.ATInitializationProvider, com.baidu.mobads.sdk.api.BdFileProvider, com.smartdigimkt.sdk.api.SDMInitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 30076
+  Total Methods : 202403
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(9): 2.0.6.6, 999.999.999.9, 2.1.1.4, 1.4.6.31, 6.5.36.1, 127.0.0.1, 6.5.36.2, 1.1.37.41, 2.10.42.103
+
+[Certificate]
+  Issuer      : Common Name: 合肥奥瑞利科技有限公司, Organizational Unit: 合肥奥瑞利科技有限公司, Organization: 合肥奥瑞利科技有限公司, Locality: 合肥, State/Province: 安徽, Country: CN
+  Fingerprint : 2C 7A 8D D4 FA DE 6E 5A 92 24 5E F3 CB B0 32 93 05 6C C3 B7 2B 99 60 71 06 8A 0B 71 E2 C9 00 74
+
+==========================================

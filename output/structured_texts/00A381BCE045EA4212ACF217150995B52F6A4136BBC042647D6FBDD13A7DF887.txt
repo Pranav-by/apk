@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.herocraft.game.free.armorage
+  SHA-256       : 00A381BCE045EA4212ACF217150995B52F6A4136BBC042647D6FBDD13A7DF887
+  Android Group : Android14
+  Version       : 1.020.373 (code: 1020373)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (18)]
+  com.herocraft.game.free.armorage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.REORDER_TASKS, android.permission.ACCESS_ADSERVICES_TOPICS, com.google.android.c2dm.permission.RECEIVE, ru.sberbank.mobile.sberid.BIND_PERSONALIZATION_SERVICE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (83): com.applovin.adview.AppLovinFullscreenThemedActivity, com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity, com.android.billingclient.api.ProxyBillingActivity, com.android.billingclient.api.ProxyBillingActivityV2, com.my.target.common.MyTargetActivity, spay.sdk.RedirectActivity, spay.sdk.utils.permissions.PermissionsActivity, ru.yoomoney.sdk.kassa.payments.contract.SavePaymentMethodInfoActivity, ru.yoomoney.sdk.auth.AccountActivity, ru.yoomoney.sdk.kassa.payments.utils.WebViewActivity, com.applovin.creative.MaxCreativeDebuggerActivity, ru.yoomoney.sdk.kassa.payments.ui.PendingIntentActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, sberid.sdk.auth.view.activity.WebViewActivity, com.facebook.ads.AudienceNetworkActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.google.android.gms.ads.AdActivity
+  Services   (20): com.group_ib.sdk.MobileSdkService, com.applovin.impl.adview.activity.FullscreenAdService, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService, com.yandex.metrica.ConfigurationJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, io.appmetrica.analytics.internal.AppMetricaService, com.google.android.gms.measurement.AppMeasurementService, com.firebase.FCMMessageService, com.my.tracker.campaign.CampaignService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService
+  Receivers  (18): games.my.mrgs.internal.MRGSShareBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.appsflyer.MultipleInstallBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.lbandy.mobilelib.notifications.NotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, games.my.mrgs.MRGSBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (16): com.vungle.ads.internal.util.VungleProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.squareup.picasso.PicassoProvider, com.yandex.metrica.PreloadInfoContentProvider, androidx.core.content.FileProvider, games.my.mrgs.internal.MRGSInitProvider, com.my.target.common.MyTargetContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.games.provider.PlayGamesInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.applovin.sdk.AppLovinInitProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 72668
+  Total Methods : 434777
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 127.0.0.1, 0.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Mobile Development, Organization: HeroCraft, Locality: Kaliningrad, State/Province: Kaliningrad Region, Country: RU
+  Fingerprint : 4F B1 2F E2 2E 84 E6 01 60 EF 62 74 DE BE C9 91 0D 45 5A D7 D5 8D 6D 28 92 08 9A 16 36 AB 5F BC
+
+==========================================

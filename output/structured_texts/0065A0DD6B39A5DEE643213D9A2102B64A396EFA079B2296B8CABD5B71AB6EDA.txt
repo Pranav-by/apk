@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.quickseries.active.shooter
+  SHA-256       : 0065A0DD6B39A5DEE643213D9A2102B64A396EFA079B2296B8CABD5B71AB6EDA
+  Android Group : Android12
+  Version       : 3.14.0 (code: 1822)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 31
+
+[Permissions (20)]
+  android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.android.launcher.permission.UNINSTALL_SHORTCUT, com.android.launcher.permission.INSTALL_SHORTCUT, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (38): com.quickseries.ui.alert.SafetyCheckActivity, com.quickseries.ui.assessments.summary.AssessmentDetailsActivity, com.quickseries.compose.empty.NoModuleActivity, com.quickseries.ui.activity.UnknownActivity, com.quickseries.ui.news.ModuleNewsActivity, com.quickseries.ui.resource.MapFullScreenActivity, com.quickseries.ui.activity.ModuleResourceActivity, com.quickseries.ui.video.VideoActivity, com.quickseries.ui.activity.ModuleLibraryActivity, androidx.compose.ui.tooling.PreviewActivity, com.google.android.gms.common.api.GoogleApiActivity, com.quickseries.ui.activity.ModulePromoActivity, com.quickseries.ui.activity.ModuleEventActivity, com.quickseries.ui.library.PublicationDetailActivity, com.quickseries.ui.activity.ModuleAlertActivity, com.quickseries.ui.activity.CategoriesActivity, com.quickseries.ui.pdf.PdfReaderActivity, com.quickseries.ui.eguide.details.EGuideDetailsActivity, com.quickseries.ui.eguide.EGuideLauncherActivity, com.quickseries.ui.accesscode.AccessCodesActivity
+  Services   (9): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (18): com.quickseries.service.download.library.ReadPublicationBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.quickseries.service.reminder.ReminderBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.quickseries.service.reminder.DateTimeBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.quickseries.service.gps.LocationUpdateBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.quickseries.service.download.library.DownloadPublicationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.quickseries.service.download.library.DismissNotificationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.quickseries.service.fcm.RcaFirebaseBroadcastReceiver
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.quickseries.custom.provider.EventSearchSuggestionsProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 42049
+  Total Methods : 234321
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Organizational Unit: Publishing, Organization: QuickSeries Publishing Inc., Locality: Fort Lauderdale, State/Province: FL, Country: US
+  Fingerprint : C3 C5 16 00 1C CE AB 84 D8 78 A6 F7 30 E4 06 F5 BD 80 AE 38 69 32 F1 07 99 89 BA 0B D0 BC AF 2A
+
+==========================================

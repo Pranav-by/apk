@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.twimler.junglemash
+  SHA-256       : 00AD375B8BB04DE122F9685F1F859BCF8AF60094113C07EEE2F2D38D92FA32E4
+  Android Group : Android16
+  Version       : 1.1.1.7 (code: 1117)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (16)]
+  com.twimler.junglemash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, com.android.vending.BILLING, android.permission.WAKE_LOCK, android.permission.ACCESS_WIFI_STATE, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (55): com.applovin.mediation.MaxDebuggerMultiAdActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerCmpNetworksListActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.google.games.bridge.NativeBridgeActivity, com.applovin.mediation.MaxDebuggerTcfStringActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.applovin.mediation.MaxDebuggerTcfInfoListActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.vungle.ads.internal.ui.VungleActivity, com.applovin.mediation.MaxDebuggerUnifiedFlowActivity, com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity, com.applovin.creative.MaxCreativeDebuggerActivity
+  Services   (13): com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemjob.SystemJobService, com.applovin.impl.adview.activity.FullscreenAdService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.nearby.exposurenotification.WakeUpService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.unity.androidnotifications.UnityNotificationManager, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (10): com.facebook.ads.AudienceNetworkContentProvider, com.vungle.ads.VungleProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.games.provider.PlayGamesInitProvider, com.pairip.licensecheck.LicenseContentProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 34585
+  Total Methods : 211093
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://dash.applovin.com/o/account?r=2#app_ads_txt, https://developers.applovin.com/en/max/android/overview/advanced-settings#selective-init, https://developers.applovin.com/en/getting-started#step-2-create-an-ad-unit, https://support.google.com/admob/answer/13554116, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, https://www.googletagmanager.com/gtag/js?id=
+  IP Addresses(10): 16.8.51.1, 6.5.0.8, 6.17.0.1, 8.3.6.1, 23.3.0.1, 7.4.1.1, 4.12.2.1, 3.9.0.2, 5.22.1.1, 3.0.1.1
+
+[Certificate]
+  Issuer      : Common Name: Majid Khosravi, Organizational Unit: Head, Organization: Twimler, Locality: London, State/Province: London, Country: GB
+  Fingerprint : EE EB 73 BA 13 DF 45 82 C2 E4 C0 AA 87 62 78 50 32 2B F3 E1 B5 17 FA 3C 2A 2F 12 10 34 24 CE 25
+
+==========================================

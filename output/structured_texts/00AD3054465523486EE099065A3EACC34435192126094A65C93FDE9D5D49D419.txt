@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.image.dropshadow
+  SHA-256       : 00AD3054465523486EE099065A3EACC34435192126094A65C93FDE9D5D49D419
+  Android Group : Android12L
+  Version       : 1.3 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (15)]
+  android.permission.RECEIVE_BOOT_COMPLETED, com.image.dropshadow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE, com.google.android.gms.permission.AD_ID, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FLAG_GRANT_READ_URI_PERMISSION, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.FLAG_GRANT_WRITE_URI_PERMISSION
+
+[Application Components]
+  Activities (12): com.canhub.cropper.CropImageActivity, com.image.dropshadow.ui.activities.CropActivity, com.image.dropshadow.ui.activities.GalleryActivity, com.image.dropshadow.ui.activities.EditActivity, com.image.dropshadow.ui.activities.DashboardActivity, com.image.dropshadow.ui.activities.SettingActivity, com.image.dropshadow.ui.activities.ShareActivity, com.image.dropshadow.ui.activities.SplashActivity, com.google.android.gms.common.api.GoogleApiActivity, com.image.dropshadow.ui.activities.MyCreationsActivity, com.karumi.dexter.DexterActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (8): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.image.dropshadow.services.firebase.MyFirebaseMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (3): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.canhub.cropper.CropFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4422
+  Total Methods : 20629
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://play.google.com/store/apps/details?id=, https://goo.gl/NAOOOI.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D1 35 08 C5 82 3E 7D E1 55 2F 29 D6 C9 72 51 FF 44 D0 E8 56 75 30 17 B3 06 17 95 87 D0 71 AE 0C
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.launcher.smart.neon.theme
+  SHA-256       : 00A7EFD73E16C6983C9F8FDD97A9CBD7DAC69DB2AD76B0E1FAC0BB144DFC37C9
+  Android Group : Android15
+  Version       : 5.3 (code: 33)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 35
+
+[Permissions (4)]
+  com.launcher.smart.android.permission.RECEIVE_THEME_UPDATE, android.permission.REQUEST_DELETE_PACKAGES, com.launcher.smart.android.permission.READ_THEME, android.permission.INTERNET
+
+[Application Components]
+  Activities (1): com.launcher.smart.neon.theme.MainActivity
+  Services   (0): none
+  Receivers  (1): com.launcher.smart.neon.theme.PackageChangedReceiver
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1397
+  Total Methods : 11302
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: abhishek garg, Organizational Unit: CMM Launcher Dev, Organization: CMM Launcher INC, Locality: Modinagar, State/Province: Uttar Pradesh, Country: IN
+  Fingerprint : C6 73 F2 4C 24 3E 16 59 41 41 7D 02 13 36 CC BB 2F 27 72 AC AE 98 09 D9 98 DB C3 1C 2E 88 F3 7B
+
+==========================================

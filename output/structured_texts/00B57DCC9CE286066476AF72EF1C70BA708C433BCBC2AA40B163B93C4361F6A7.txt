@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.none.tom.exiferaser
+  SHA-256       : 00B57DCC9CE286066476AF72EF1C70BA708C433BCBC2AA40B163B93C4361F6A7
+  Android Group : Android16
+  Version       : 6.4.2 (code: 42)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 36
+
+[Permissions (1)]
+  com.none.tom.exiferaser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+
+[Application Components]
+  Activities (1): com.none.tom.exiferaser.ExifEraserActivity
+  Services   (0): none
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): com.none.tom.exiferaser.core.provider.CameraFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2653
+  Total Methods : 14699
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://issuetracker.google.com/issues/241760537, https://youtrack.jetbrains.com/issue/KT-55980
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Tom Geiselmann, Locality: Staig, State/Province: Baden-Wuerttemberg, Country: 49
+  Fingerprint : D9 10 86 7C E2 CF 3D CD 37 DB 51 85 3E BE F8 63 3F D8 3A 14 2B 26 42 27 4E D0 68 15 2F F1 22 01
+
+==========================================

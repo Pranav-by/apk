@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pawaii.smart
+  SHA-256       : 00A7F2356A985B1994E397A59BA1E987A420B0163375463E48B44FE6DBCC6266
+  Android Group : Android12
+  Version       : 2.0.1 (code: 2023081602)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 31
+
+[Permissions (49)]
+  com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.RECORD_AUDIO, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, android.permission.BLUETOOTH_ADVERTISE, me.everything.badger.permission.BADGE_COUNT_READ, com.pawaii.smart.AGOO, com.pawaii.smart.permission.PUSH_PROVIDER, android.permission.CHANGE_WIFI_MULTICAST_STATE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, android.permission.BLUETOOTH_ADMIN, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.CHANGE_WIFI_STATE, android.permission.BLUETOOTH, com.pawaii.smart.permission.MIPUSH_RECEIVE, android.permission.ACCESS_WIFI_STATE, android.permission.SCHEDULE_EXACT_ALARM
+
+[Application Components]
+  Activities (19): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.broadlink.nj.mypet_app.MainActivity, com.broadlink.nj.mypet_app.h5bridge.view.DeviceH5Activity, com.broadlink.nj.mypet_app.h5bridge.tools.BLAppPermissionUtils$PermissionActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.sangcomz.fishbun.ui.album.AlbumActivity, com.xiaomi.mipush.sdk.NotificationClickedActivity, com.sangcomz.fishbun.ui.picker.PickerActivity, com.sangcomz.fishbun.ui.detail.DetailActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.journeyapps.barcodescanner.CaptureActivity, com.huawei.hms.hmsscankit.ScanKitActivity, cn.com.broadlink.bleconfig.util.EPermissionUtils$PermissionActivity, com.aliyun.ams.emas.push.NotificationActivity, com.huawei.hms.support.api.push.TransActivity, com.huawei.hms.activity.BridgeActivity, com.huawei.hms.activity.EnableServiceActivity
+  Services   (26): com.taobao.accs.data.MsgDistributeService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.huawei.hms.support.api.push.service.HmsMsgService, org.android.agoo.accs.AgooService, com.taobao.accs.ChannelService$KernelService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.xiaomi.mipush.sdk.MessageHandleService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.alibaba.sdk.android.push.channel.KeepChannelService, com.heytap.msp.push.service.DataMessageCallbackService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.alibaba.sdk.android.push.huawei.HuaweiPushMessageService, com.xiaomi.push.service.XMPushService, com.xiaomi.push.service.XMJobService, com.xiaomi.mipush.sdk.PushMessageHandler, com.vivo.push.sdk.service.CommandClientService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+  Receivers  (14): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.broadlink.nj.mypet_app.push.AliMessageReceiver, com.huawei.hms.support.api.push.PushReceiver, com.taobao.accs.EventReceiver, com.alibaba.sdk.android.push.impl.PushMessageReceiverImpl, com.taobao.accs.ServiceReceiver, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.xiaomi.push.service.receivers.NetworkStatusReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.xiaomi.push.service.receivers.PingReceiver, com.alibaba.sdk.android.push.MiPushBroadcastReceiver
+  Providers  (10): com.huawei.hms.aaid.InitProvider, androidx.core.content.FileProvider, com.huawei.hms.mlsdk.common.provider.MLInitializerProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, io.flutter.plugins.share.ShareFileProvider, com.huawei.hms.support.api.push.PushProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.sangcomz.fishbun.FishBunFileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 20244
+  Total Methods : 135064
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(5): 114.114.114.114, 6.5.1.3, 3.0.0.4, 100.67.64.54, 6.3.0.304
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : B1 E1 34 0D 24 4B 75 AB A1 67 88 09 5E FC B1 70 6D E1 03 DA FC 0F C8 52 15 2D 51 5A 5C 92 95 89
+
+==========================================

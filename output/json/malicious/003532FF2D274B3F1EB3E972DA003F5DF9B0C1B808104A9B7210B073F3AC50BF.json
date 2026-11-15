@@ -1,0 +1,58 @@
+{
+  "sha256": "003532FF2D274B3F1EB3E972DA003F5DF9B0C1B808104A9B7210B073F3AC50BF",
+  "filename": "003532FF2D274B3F1EB3E972DA003F5DF9B0C1B808104A9B7210B073F3AC50BF.apk",
+  "android_version": "Android13",
+  "label": "malicious",
+  "package_name": "de.vrlfr.stolpersteine",
+  "version_name": "1.9.1",
+  "version_code": "32",
+  "min_sdk": "19",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "de.vrlfr.stolpersteine.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.ACCESS_FINE_LOCATION"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "de.vrlfr.stolpersteine.activity.stolperstein.FullscreenTxtActivity",
+    "de.vrlfr.stolpersteine.activity.stolperstein.FullscreenImageActivity",
+    "de.vrlfr.stolpersteine.activity.main.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "de.vrlfr.stolpersteine.activity.stolperstein.StolpersteinActivity"
+  ],
+  "activity_count": 5,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.squareup.picasso.PicassoProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 3759,
+  "method_count": 22839,
+  "cert_fingerprint": "A1 6D EA A4 31 91 6D C2 5B 25 2A 89 21 3C 70 BB E3 22 0F E4 88 DB 7A 6A 08 37 22 CD 21 BF A4 EC",
+  "cert_issuer": "Common Name: Kai Winter",
+  "urls": [
+    "https://issuetracker.google.com/issues/36918154"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

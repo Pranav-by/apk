@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.appradio.radioaire2leedsuk
+  SHA-256       : 00741164E28BC610FEB1F92AF6F2B5319200370A37F0E2198B6F55A1184E04FE
+  Android Group : Android12L
+  Version       : 2.1.2 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (10)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_PHONE_STATE, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (15): com.appradio.radioaire2leedsuk.wakeup.AddEditAlarmActivity, com.google.android.gms.common.api.GoogleApiActivity, com.appradio.radioaire2leedsuk.activities.SplashActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.appradio.radioaire2leedsuk.activities.MainActivity, com.appradio.radioaire2leedsuk.sleeptimer.CountdownActivity, com.google.android.gms.ads.AdActivity, com.appradio.radioaire2leedsuk.fragments.RadioMainFragment, com.appradio.radioaire2leedsuk.wakeup.AlarmLandingPageActivity, com.appradio.radioaire2leedsuk.activities.RadioMainActivity, com.appradio.radioaire2leedsuk.sleeptimer.MainActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.appradio.radioaire2leedsuk.wakeup.MainActivityAlarm, com.appradio.radioaire2leedsuk.activities.PlayRecordingActivity, com.appradio.radioaire2leedsuk.sleeptimer.SetTimerActivity
+  Services   (11): androidx.room.MultiInstanceInvalidationService, com.appradio.radioaire2leedsuk.services.NotificationService, com.appradio.radioaire2leedsuk.services.Services, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.appradio.radioaire2leedsuk.sleeptimer.PauseMusicService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.appradio.radioaire2leedsuk.wakeup.LoadAlarmsService
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.appradio.radioaire2leedsuk.wakeup.LoadAlarmsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.appradio.radioaire2leedsuk.activities.MainActivity$PlayPause, com.appradio.radioaire2leedsuk.sleeptimer.PauseMusicReceiver, com.appradio.radioaire2leedsuk.wakeup.AlarmReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.appradio.radioaire2leedsuk.fragments.RadioMainFragment$PlayPause, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 12003
+  Total Methods : 68977
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://googlemobileadssdk.page.link/admob-android-update-manifest, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://developers.google.com/admob/android/test-ads#enable_test_devices, https://exoplayer.dev/issues/cleartext-not-permitted
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: justo mallma, Organizational Unit: peru, Organization: peru, Locality: ica, State/Province: ica, Country: 11001
+  Fingerprint : 55 95 3E F0 EC B0 97 9C 82 24 E6 2F 0B BD 08 23 4D D2 1D FC 6D D9 BA 36 F9 E2 97 E5 9E 7A F9 13
+
+==========================================

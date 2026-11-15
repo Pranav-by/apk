@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kodakclassic
+  SHA-256       : 00AD4F480E29F1625A8128AC326CD81D5B08D29D32CBA8278AD0220E63FEDACF
+  Android Group : Android12L
+  Version       : 1.24 (code: 23)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (21)]
+  android.permission.LOCAL_MAC_ADDRESS, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.BLUETOOTH_PRIVILEGED, android.permission.BLUETOOTH_CONNECT, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, android.permission.CAMERA, android.permission.READ_FRAME_BUFFER, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.BLUETOOTH_SCAN, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.FLASHLIGHT, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (52): com.kodakclassic.view.activity.CollageAdjustLayout, com.kodakclassic.view.activity.LoadZinkPrinterActivity, com.kodakclassic.view.activity.SplashActivity, com.kodakclassic.view.activity.QuickTipsActivity, com.kodakclassic.view.activity.ShimmerActivity, com.kodakclassic.view.activity.KodakClassicSettingActivity, com.kodakclassic.view.activity.FirmwareLowBatteryActivity, com.kodakclassic.view.activity.VideoGallaryActivity, com.kodakclassic.view.activity.QuickTipsConnectMyPrinter, com.kodakclassic.view.activity.FirmwareFailedActivity, com.kodakclassic.view.activity.PhotoFrameSelectionActivity, com.kodakclassic.view.activity.MainAnimationActivity, com.kodakclassic.view.activity.TermsAndConditionActivity, com.kodakclassic.view.activity.AboutUsActivity, com.kodakclassic.view.activity.OnBoardingActivity, com.kodakclassic.view.activity.ForgetPasswordActivity, com.kodakclassic.view.activity.ARActivity, com.kodakclassic.view.activity.SettingsActivity, com.kodakclassic.view.activity.FirmwareNewUpdateActivity, com.kodakclassic.view.activity.ConnectMyCameraActivity
+  Services   (11): com.kodakclassic.controller.services.DownloadARImageVideoService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.kodakclassic.bluetooth.printer.BluetoothConnController, com.kodakclassic.bluetooth.receivers.BtAutoConnect, com.kodakclassic.bluetooth.receivers.FirmwareUpgradeBoundService, com.kodakclassic.controller.services.DownloadReceipts
+  Receivers  (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.kodakclassic.controller.services.InternetConnector_Receiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (5): com.google.firebase.provider.FirebaseInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, androidx.core.content.FileProvider, com.squareup.picasso.PicassoProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 27198
+  Total Methods : 216880
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D6 2A 6E 43 C2 FF E8 08 9D 9C 83 D6 47 4E 7B 0D 65 0E DC 9F 11 BA A7 7E 73 61 36 31 3E DF BD DF
+
+==========================================

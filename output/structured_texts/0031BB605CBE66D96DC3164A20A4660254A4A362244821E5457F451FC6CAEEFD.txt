@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : io.kinderbell.app
+  SHA-256       : 0031BB605CBE66D96DC3164A20A4660254A4A362244821E5457F451FC6CAEEFD
+  Android Group : Android15
+  Version       : 1.0.93 (code: 10093)
+
+[SDK Information]
+  Minimum SDK   : 29
+  Target SDK    : 35
+
+[Permissions (29)]
+  android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, io.kinderbell.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE, android.permission.USE_FINGERPRINT, com.sec.android.provider.badge.permission.WRITE, me.everything.badger.permission.BADGE_COUNT_WRITE, io.kinderbell.app.permission.PushHandlerActivity, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (6): com.adobe.phonegap.push.BackgroundHandlerActivity, androidx.biometric.DeviceCredentialHandlerActivity, com.google.android.gms.common.api.GoogleApiActivity, com.adobe.phonegap.push.PushHandlerActivity, io.kinderbell.app.MainActivity, de.niklasmerz.cordova.biometric.BiometricActivity
+  Services   (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.adobe.phonegap.push.FCMService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (4): com.adobe.phonegap.push.PushDismissedHandler, com.adobe.phonegap.push.BackgroundActionButtonHandler, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (4): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6896
+  Total Methods : 43330
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A7 78 16 B0 3C E2 C0 AD 55 D1 C5 7E 15 F0 DA E4 CF AE E0 9F 39 E9 4C FD 88 39 2B F8 9B 0F 5D 21
+
+==========================================

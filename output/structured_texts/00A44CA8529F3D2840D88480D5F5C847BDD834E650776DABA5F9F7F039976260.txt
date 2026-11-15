@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bmf.bstage.browser
+  SHA-256       : 00A44CA8529F3D2840D88480D5F5C847BDD834E650776DABA5F9F7F039976260
+  Android Group : Android13
+  Version       : 15.5.2 (code: 150502)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 33
+
+[Permissions (27)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.AUDIO_SESSION_ID_GENERATE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, android.permission.CALL_PHONE, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.ACCESS_WIFI_STATE, com.bmf.bstage.browser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.BLUETOOTH_SCAN, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (22): com.bmf.bstage.browser.ui.image.ImagePreviewActivity, com.bmf.bstage.browser.ui.circle.pm.PrivateHistoryActivity, com.bmf.bstage.browser.ui.circle.pm.PrivateMessageActivity, com.canhub.cropper.CropImageActivity, com.bmf.bstage.browser.ui.circle.pm.PrivateMessageThreadActivity, com.android.billingclient.api.ProxyBillingActivity, com.bmf.bstage.browser.ui.main.DimActivity, com.bmf.bstage.browser.ui.main.IntroActivity, com.bmf.bstage.browser.ui.main.MainActivity, com.bmf.bstage.browser.ui.circle.CircleActivity, com.bmf.bstage.browser.ui.main.DeepLinkActivity, com.karumi.dexter.DexterActivity, com.bmf.bstage.browser.ui.search.SearchActivity, com.bmf.bstage.browser.ui.main.my.MyActivity, com.bmf.bstage.browser.ui.main.my.MyTermsActivity, com.bmf.bstage.browser.ui.webview.WebViewActivity, com.bmf.bstage.browser.ui.more.MoreActivity, com.bmf.bstage.browser.ui.circle.CircleCreateActivity, com.bmf.bstage.browser.ui.circle.CircleHistoryVodActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (14): com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, com.sendbird.android.push.SendbirdFirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.sendbird.android.push.SendbirdFirebaseInstanceIDService, com.bmf.bstage.browser.service.BmfFirebaseMessagingService, com.sendbird.android.push.SendbirdHmsMessagingService, com.amazonaws.ivs.player.AnalyticsService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (4): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (5): androidx.core.content.FileProvider, com.canhub.cropper.CropFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 18915
+  Total Methods : 109183
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://github.com/firebase/firebase-android-sdk
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 24 2F 91 32 66 4E D3 B6 B5 97 DD 63 F5 51 9E 88 E5 56 F6 AD 11 B6 24 B0 2A 85 7D F2 3C AC 72 0E
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : qtr.koalapet.com
+  SHA-256       : 00A5B4E7E4021D8429658DAB1DBDAB2BF6A04B70C76E16570F5D6B9D21C4F704
+  Android Group : Android13
+  Version       : 1.0.4 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (29)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.BLUETOOTH_CONNECT, android.permission.POST_NOTIFICATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_MEDIA_AUDIO, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.BLUETOOTH_ADMIN, android.permission.NEARBY_WIFI_DEVICES, android.permission.BLUETOOTH, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.USE_FULL_SCREEN_INTENT, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (46): com.razorpay.CheckoutActivity, com.stripe.android.financialconnections.FinancialConnectionsSheetActivity, com.stripe.android.payments.StripeBrowserLauncherActivity, com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity, com.paytm.pgsdk.AioMatchUserActivity, com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.stripe.android.view.PaymentFlowActivity, com.stripe.android.payments.StripeBrowserProxyReturnActivity, com.stripe.android.view.PaymentRelayActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.stripe.android.ui.core.cardscan.CardScanActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.paytm.pgsdk.PaytmPGActivity, com.yalantis.ucrop.UCropActivity, com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.stripe.android.paymentsheet.addresselement.AddressElementActivity, com.stripe.android.link.LinkRedirectHandlerActivity
+  Services   (19): androidx.work.impl.background.systemjob.SystemJobService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.paytm.pgsdk.IntentServicePreNotification, com.paytm.pgsdk.IntentServicePostNotification, easypay.appinvoke.utils.EasyPayConfigDownloader, easypay.appinvoke.utils.AnalyticsService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.phonepe.intent.sdk.ui.PreCacheService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.baseflow.geolocator.GeolocatorLocationService
+  Receivers  (19): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, com.razorpay.RzpTokenReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (8): vn.hunghd.flutterdownloader.FlutterDownloaderInitializer, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.crazecoder.openfile.FileProvider, com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer, com.google.firebase.provider.FirebaseInitProvider, vn.hunghd.flutterdownloader.DownloadedFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 27576
+  Total Methods : 152937
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://github.com/flutter-stripe/flutter_stripe/discussions/538, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://goo.gle/compose-feedback, https://github.com/flutter-stripe/flutter_stripe#android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 55 14 6F 1B 1F F5 4A 7B BA DE D2 44 78 F4 31 33 0E 23 EB FA B6 45 76 B0 DD A3 89 67 D6 29 B3 26
+
+==========================================

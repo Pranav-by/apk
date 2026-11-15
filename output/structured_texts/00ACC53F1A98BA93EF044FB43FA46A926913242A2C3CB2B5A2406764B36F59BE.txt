@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : jp.co.ponos.newjapan
+  SHA-256       : 00ACC53F1A98BA93EF044FB43FA46A926913242A2C3CB2B5A2406764B36F59BE
+  Android Group : Android12L
+  Version       : 1.5 (code: 9)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (4)]
+  android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (1): jp.co.ponos.newjapan.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 1947
+  Total Methods : 14063
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6A E3 24 7E 5D 82 F9 96 60 59 77 C3 8D AE 75 C3 AA 9A DC A8 7C BF 97 3C 5F 6C 1D 69 13 11 E4 4D
+
+==========================================

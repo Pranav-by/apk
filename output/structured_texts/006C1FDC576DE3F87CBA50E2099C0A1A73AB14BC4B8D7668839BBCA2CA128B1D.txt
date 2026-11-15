@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.topobox.movieshd
+  SHA-256       : 006C1FDC576DE3F87CBA50E2099C0A1A73AB14BC4B8D7668839BBCA2CA128B1D
+  Android Group : Android12
+  Version       : 1.0.6 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (13): com.proyecto26.inappbrowser.ChromeTabsManagerActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.topobox.movieshd.MainActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.facebook.react.devsupport.DevSettingsActivity, com.android.billingclient.api.ProxyBillingActivity, com.reactnative.googlecast.RNGCExpandedControllerActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.topobox.movieshd.SplashActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.android.gms.common.api.GoogleApiActivity, com.topobox.movieshd.SubscriberActivity
+  Services   (12): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.burnweb.rnsendintent.RNSendIntentModule, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (5): com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+  Providers  (9): cl.json.RNShareFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.burnweb.rnsendintent.FileProvider, com.google.firebase.provider.FirebaseInitProvider, io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider, androidx.startup.InitializationProvider, com.ReactNativeBlobUtil.Utils.FileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, com.flurry.android.agent.FlurryContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 21805
+  Total Methods : 142848
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 6C 68 2C 7F 60 E5 27 F6 3E 6B 5B 52 68 7F 87 A2 CE 0B 9A BB 50 FE E8 FB 36 2C 4A 12 FF 07 47 09
+
+==========================================

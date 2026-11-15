@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : applock.lockapps.fingerprint.password.maxlock
+  SHA-256       : 004276D48C32735257852CB5E4FDA26C62E96E69359F2A8F54FD04712556C866
+  Android Group : Android12
+  Version       : 1.2.2 (code: 122)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (28)]
+  android.permission.VIBRATE, android.permission.MANAGE_EXTERNAL_STORAGE, android.permission.USE_BIOMETRIC, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.WRITE_EXTERNAL_STORAGE, com.huawei.permission.external_app_settings.USE_COMPONENT, android.permission.QUERY_ALL_PACKAGES, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.CAMERA, com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (68): applock.lockapps.fingerprint.password.maxlock.activity.PermissionAllowGuideActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity, applock.lockapps.fingerprint.password.maxlock.activity.PermissionEnableGuideActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, applock.lockapps.fingerprint.password.maxlock.activity.InitLockPasswordActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, applock.lockapps.fingerprint.password.maxlock.activity.IntruderDetailActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, applock.lockapps.fingerprint.password.maxlock.activity.ManageSpaceActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, applock.lockapps.fingerprint.password.maxlock.activity.IntruderMainActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, applock.lockapps.fingerprint.password.maxlock.activity.LockEmptyActivity, applock.lockapps.fingerprint.password.maxlock.activity.InstructionsActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+  Services   (28): androjdx.work2.impl.background.systemalarm.SystemAlarmService, com.onedot.notification.AppFMS, applock.lockapps.fingerprint.password.maxlock.service.LockService, applock.lockapps.fingerprint.password.maxlock.service.CheckJobService, com.googlz.firebase.components.ComponentDiscoveryService, com.googlz.firebase.messaging.FirebaseMessagingService, com.googlz.android.gms.measurement.AppMeasurementService, com.googlz.android.gms.measurement.AppMeasurementJobService, androjdx.room.MultiInstanceInvalidationService, androidx.room.MultiInstanceInvalidationService, com.googlz.android.datatransport.runtime.backends.TransportBackendDiscovery, com.googlz.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androjdx.work2.impl.background.systemjob.SystemJobService, androjdx.work2.impl.foreground.SystemForegroundService, androjdx.room2.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (24): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androjdx.work2.impl.background.systemalarm.RescheduleReceiver, com.applock.common.receiver.DeviceManagerReceiver, applock.lockapps.fingerprint.password.maxlock.receiver.MasterReceiver, com.googlz.firebase.iid.FirebaseInstanceIdReceiver, com.googlz.android.gms.measurement.AppMeasurementReceiver, com.googlz.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androjdx.work2.impl.utils.ForceStopRunnable$BroadcastReceiver, androjdx.work2.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androjdx.work2.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androjdx.work2.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androjdx.work2.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androjdx.work2.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androjdx.work2.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (12): androjdx.core.content.FileProvider, gallery.hidepictures.photovault.lockgallery.zl.ShareProvider, razerdp.basepopup.BasePopupInitializer, com.googlz.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, androjdx.lifecycle.ProcessLifecycleOwnerInitializer, androjdx.startup2.InitializationProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 103
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 42 C8 67 D9 47 B9 FF C8 50 E1 F8 28 B5 A9 7B FB BD A9 3A 58 DD FB 9D B0 BA 4D 74 88 13 8B FF 54
+
+==========================================

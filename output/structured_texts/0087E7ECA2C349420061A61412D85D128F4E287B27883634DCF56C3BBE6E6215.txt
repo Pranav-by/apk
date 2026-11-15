@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.snaptubemusicdownloader.videoder
+  SHA-256       : 0087E7ECA2C349420061A61412D85D128F4E287B27883634DCF56C3BBE6E6215
+  Android Group : Android12L
+  Version       : 1.1 (code: 2)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (13)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (18): com.snaptubemusicdownloader.videoder.activities.SplashActivity, com.snaptubemusicdownloader.videoder.activities.MainActivity, com.applovin.mediation.MaxDebuggerActivity, com.snaptubemusicdownloader.videoder.report.ErrorActivity, com.applovin.mediation.MaxDebuggerDetailActivity, com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.facebook.ads.AudienceNetworkActivity, com.snaptubemusicdownloader.videoder.download.ui.DownloadActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.snaptubemusicdownloader.videoder.settings.SettingsActivity, com.snaptubemusicdownloader.videoder.activities.ReCaptchaActivity, com.applovin.sdk.AppLovinWebViewActivity, com.applovin.mediation.MaxDebuggerAdUnitDetailActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.snaptubemusicdownloader.videoder.player.PopupPlayerActivity, com.applovin.adview.AppLovinFullscreenActivity
+  Services   (16): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService, com.snaptubemusicdownloader.videoder.notification.GFirebaseMessagingService, com.snaptubemusicdownloader.videoder.download.service.DownloadManagerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.snaptubemusicdownloader.videoder.player.MainPlayer, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (12): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.media.session.MediaButtonReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (6): com.facebook.ads.AudienceNetworkContentProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.applovin.sdk.AppLovinInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 27454
+  Total Methods : 168939
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(4): 1.3.3.0, 6.10.0.1, 127.0.0.1, 20.6.0.9
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D3 23 FB 78 D3 59 05 16 4E 3B 2F CF AF A1 4B 68 EC 76 8A 74 0A CF 99 1A F8 49 98 2D 35 F5 98 97
+
+==========================================

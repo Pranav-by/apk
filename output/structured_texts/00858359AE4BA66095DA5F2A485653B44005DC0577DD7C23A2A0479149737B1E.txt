@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.lwsipl.classylauncher
+  SHA-256       : 00858359AE4BA66095DA5F2A485653B44005DC0577DD7C23A2A0479149737B1E
+  Android Group : Android12
+  Version       : 17.0 (code: 17)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.SET_WALLPAPER, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.SET_WALLPAPER_HINTS, android.permission.REQUEST_DELETE_PACKAGES, com.android.alarm.permission.SET_ALARM, android.permission.BLUETOOTH, android.permission.BLUETOOTH_ADMIN, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (7): com.google.android.gms.common.api.GoogleApiActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, com.lwsipl.classylauncher.Launcher, com.google.android.gms.ads.AdActivity, androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity, com.canhub.cropper.CropImageActivity, androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+  Services   (6): com.google.android.gms.ads.AdService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.lwsipl.classylauncher.utils.NLService
+  Receivers  (8): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): com.google.android.gms.ads.MobileAdsInitProvider, com.canhub.cropper.CropFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8937
+  Total Methods : 41979
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: LWSIPL
+  Fingerprint : 2B 20 6E 49 B3 05 CA 54 F2 F1 CF 02 D0 A2 64 2B 6A DD 11 53 E9 01 EF F2 7F 16 06 77 99 31 85 FF
+
+==========================================

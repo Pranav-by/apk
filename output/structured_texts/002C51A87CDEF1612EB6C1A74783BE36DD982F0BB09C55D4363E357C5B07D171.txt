@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sz9wang.gatekeeper
+  SHA-256       : 002C51A87CDEF1612EB6C1A74783BE36DD982F0BB09C55D4363E357C5B07D171
+  Android Group : Android14
+  Version       : 1.4.1 (code: 61)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (38)]
+  com.sz9wang.gatekeeper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.GET_TASKS, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, com.sz9wang.gatekeeper.permission.PUSH_PROVIDER, com.sz9wang.gatekeeper.permission.PROCESS_PUSH_MSG, android.permission.INTERNET, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_USER_PRESENT, android.permission.ACCESS_WIFI_STATE, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (11): com.facebook.react.devsupport.DevSettingsActivity, com.proyecto26.inappbrowser.ChromeTabsManagerActivity, com.masteratul.exceptionhandler.DefaultErrorScreen, com.huawei.hms.support.api.push.TransActivity, com.sz9wang.gatekeeper.MainActivity, com.tencent.android.tpush.inappmessage.InAppMessageActivity, com.huawei.hms.activity.EnableServiceActivity, com.tencent.android.tpush.TpnsActivity, com.tencent.android.tpush.InnerTpnsActivity, com.huawei.hms.activity.BridgeActivity, com.jakewharton.processphoenix.ProcessPhoenix
+  Services   (12): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.tencent.android.tpush.rpc.XGRemoteService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.huawei.android.hms.tpns.HWHmsMessageService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.huawei.hms.support.api.push.service.HmsMsgService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.huawei.agconnect.core.ServiceDiscovery, com.tencent.android.tpush.service.XGVipPushService, com.tencent.tpns.mqttchannel.services.MqttService, com.heytap.msp.push.service.DataMessageCallbackService
+  Receivers  (7): com.tencent.tpns.plugin.XGMessageReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver, com.tencent.android.tpush.XGPushReceiver
+  Providers  (14): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.huawei.hms.support.api.push.PushProvider, com.tencent.android.tpush.SettingsContentProvider, com.tencent.tpns.baseapi.base.SettingsContentProvider, com.imagepicker.ImagePickerProvider, cl.json.RNShareFileProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.huawei.hms.aaid.InitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.tencent.android.tpush.XGVipPushKAProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.tencent.android.tpush.XGPushProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 26030
+  Total Methods : 181879
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 1.4.3.9, 1.3.5.0
+
+[Certificate]
+  Issuer      : Common Name: Android Debug, Organizational Unit: Android, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: US
+  Fingerprint : FA C6 17 45 DC 09 03 78 6F B9 ED E6 2A 96 2B 39 9F 73 48 F0 BB 6F 89 9B 83 32 66 75 91 03 3B 9C
+
+==========================================

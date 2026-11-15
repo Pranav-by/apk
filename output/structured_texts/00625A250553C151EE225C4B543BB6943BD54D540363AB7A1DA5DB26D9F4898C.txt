@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ch.bernerzeitung.app
+  SHA-256       : 00625A250553C151EE225C4B543BB6943BD54D540363AB7A1DA5DB26D9F4898C
+  Android Group : Android12
+  Version       : 11.3.10 (code: 36527)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 31
+
+[Permissions (12)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (14): ch.iagentur.disco.ui.screens.refresh.RefreshActivity, ch.tamedia.digital.settings.SettingsActivity, com.google.android.gms.common.api.GoogleApiActivity, tv.teads.sdk.utils.browser.BrowserActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.ads.AdActivity, com.jakewharton.processphoenix.ProcessPhoenix, tv.teads.sdk.TeadsFullScreenActivity, ch.iagentur.disco.ui.screens.settings.debug.DisplayedAlertsDebugActivity, com.google.android.gms.tagmanager.TagManagerPreviewActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, ch.iagentur.disco.ui.screens.settings.debug.StatsDebugActivity, ch.iagentur.disco.ui.screens.MainActivity
+  Services   (18): com.google.android.play.core.assetpacks.AssetPackExtractionService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.firebase.components.ComponentDiscoveryService, ch.iagentur.pushimpl.FcmPushService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.tagmanager.TagManagerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, ch.apgsga.apgconnect.networking.NetworkService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, ch.tamedia.digital.tracking.BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (7): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.alvi.AlviFileProvider, ch.tamedia.digital.provider.PreferencesProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 38877
+  Total Methods : 226577
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Newsnetz
+  Fingerprint : 88 18 EC C7 03 56 99 E8 9B D0 4C 2F DC B5 9E 4B FD C4 36 22 8B E4 8E 79 60 D8 39 23 9A A1 7E EE
+
+==========================================

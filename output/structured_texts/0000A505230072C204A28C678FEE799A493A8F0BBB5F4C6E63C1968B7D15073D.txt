@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : it.orangepix.ROJPCSW1PLUS
+  SHA-256       : 0000A505230072C204A28C678FEE799A493A8F0BBB5F4C6E63C1968B7D15073D
+  Android Group : Android15
+  Version       : 2.0.9 (code: 71)
+
+[SDK Information]
+  Minimum SDK   : 16
+  Target SDK    : 35
+
+[Permissions (9)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (23): it.orangepix.ROJPCSW1PLUS.ui.settings.SettingsActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationset.save.SaveConfigurationSetActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.LinkageSpeedSensorActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.MachineGearRatioActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.MachineWidthActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.DiskHolesActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.ConfigMachineActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.SensorsActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.AddressingDebugActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.AddressingActivity, it.orangepix.ROJPCSW1PLUS.ui.software.recovery.FirmwareRecoveryActivity, it.orangepix.ROJPCSW1PLUS.ui.SplashScreenActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationset.list.ConfigurationSetListActivity, it.orangepix.ROJPCSW1PLUS.ui.diagnostic.DiagnosticActivity, it.orangepix.ROJPCSW1PLUS.ui.software.update.OnboardFirmwareUpdateActivity, it.orangepix.ROJPCSW1PLUS.ui.software.update.FirmwareUpdateActivity, it.orangepix.ROJPCSW1PLUS.ui.home.HomeActivity, it.orangepix.ROJPCSW1PLUS.ui.ErrorsActivity, it.orangepix.ROJPCSW1PLUS.ui.jobs.JobListActivity, it.orangepix.ROJPCSW1PLUS.ui.configurationwizard.PrefillActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3361
+  Total Methods : 21577
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues/36918154
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 27 03 A1 97 15 78 62 CB 3D FC 1B 6C 75 97 00 3A C2 7F DB BB 14 B4 BB ED B0 6C 04 C4 D5 17 73 35
+
+==========================================

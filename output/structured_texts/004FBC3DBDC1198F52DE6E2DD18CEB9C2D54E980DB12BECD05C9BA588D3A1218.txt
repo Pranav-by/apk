@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fusionmedia.investing
+  SHA-256       : 004FBC3DBDC1198F52DE6E2DD18CEB9C2D54E980DB12BECD05C9BA588D3A1218
+  Android Group : Android12
+  Version       : 6.10.5 (code: 1329)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 31
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.fusionmedia.investing.permission.C2D_MESSAGE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.GET_ACCOUNTS, com.asus.msa.SupplementaryDID.ACCESS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (65): zendesk.support.guide.ViewArticleActivity, com.fusionmedia.investing.ui.activities.SplashActivityTablet, com.fusionmedia.investing.ui.activities.whatsNew.WhatsNewTabletActivity, com.fusionmedia.investing.ui.activities.LiveActivityTablet, com.fusionmedia.investing.ui.activities.WebinarActiveConsentActivity, com.fusionmedia.investing.widget.WidgetManagerActivity, com.fusionmedia.investing.ui.activities.prefs.SettingsActivity, com.fusionmedia.investing.ui.activities.ChartActivity, com.fusionmedia.investing.ui.activities.SignInOutActivity, com.fusionmedia.investing.ui.activities.ExternalDeepLinkActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.FacebookActivity, com.fusionmedia.investing.ui.activities.investingProPopups.InvestingProPeerComparePopupActivity, com.fusionmedia.investing.ui.activities.CalendarSourceOfReportActivity, com.fusionmedia.investing.ui.activities.MandatorySignupActivity, com.facebook.CustomTabActivity, com.fusionmedia.investing.ui.activities.SearchActivity, com.fusionmedia.investing.ui.activities.AlertsFeedFilterActivity, com.fusionmedia.investing.ui.activities.InternalDeepLinkActivitySplitter, com.fusionmedia.investing.ui.activities.SplashActivity
+  Services   (21): com.fusionmedia.investing.utilities.misc.FloatingLogsWindowService, com.google.android.gms.ads.AdService, com.fusionmedia.investing.data.service.AlertsService, com.fusionmedia.investing.widget.RemoteFetchService, com.fusionmedia.investing.data.service.SocketService, com.fusionmedia.investing.data.service.MainService, com.fusionmedia.investing.data.service.PushHandlerService, com.fusionmedia.investing.data.service.FireBasePushMessageReceiver, com.google.android.gms.analytics.CampaignTrackingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.tagmanager.TagManagerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (19): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.appsflyer.MultipleInstallBroadcastReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, com.fusionmedia.investing.controller.PortfolioWidgetProvider, com.fusionmedia.investing.ui.activities.IFrameActivity$IFrameReceiver, zendesk.support.DeepLinkingBroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (8): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, zendesk.belvedere.BelvedereFileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.perf.provider.FirebasePerfProvider, zendesk.support.SupportSdkStartupProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 33898
+  Total Methods : 209040
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): https://i-invdn-com.akamaized.net/news/external-images-thumbnails/LYNXNPEF6216Q.jpg, https://www.xm.com/gw.php?gid=70968, http://optout.networkadvertising.org/#, https://www.google.com/url?q=http://www.aboutads.info/appchoices&amp;sa=D&amp;ust=1597160152431000&amp;usg=AOvVaw0UBO5fR6B0TMDynGO1fpH_, http://www.aboutads.info/appchoices, https://stream189.forexpros.com:443/echo/websocket, https://www.investing.com/news/stock-market-news/walmart-discussed-selling-clothing-brands-bonobos-and-modcloth-vox-1914374, http://c1308342.cdn.cloudfiles.rackspacecloud.com/flags_32x32_ios/United_States.png, https://d1-invdn-com.akamaized.net/company_logo/75726c64d7e9230e627017cd5be9f6bb.jpg, http://www.investing.com/analysis/amazon-to-add-jobs-in-france-as-part-of-expansion-plans-200436405
+  IP Addresses(10): 81.218.50.34, 115.239.210.246, 111.13.12.61, 111.13.12.174, 115.239.210.219, 220.181.163.183, 220.181.163.182, 111.13.100.85, 180.149.132.107, 111.13.12.110
+
+[Certificate]
+  Issuer      : Common Name: for-each
+  Fingerprint : 56 EC 60 DE BD 57 8B 95 8F 91 06 30 8A B9 9C 83 D7 A4 1A BD CD 7A 6F 7A 5E 25 9D 8A 14 89 4D 20
+
+==========================================

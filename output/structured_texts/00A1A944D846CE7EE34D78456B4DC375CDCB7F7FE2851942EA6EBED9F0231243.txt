@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nutrition.ai.caloriecounter
+  SHA-256       : 00A1A944D846CE7EE34D78456B4DC375CDCB7F7FE2851942EA6EBED9F0231243
+  Android Group : Android13
+  Version       : 2.0.1 (code: 31)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 33
+
+[Permissions (14)]
+  com.google.android.gms.permission.AD_ID, android.permission.READ_MEDIA_IMAGES, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.FLASHLIGHT, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (39): com.l231116.aicalorie.ui.settings.UserGoalActivity, com.l231116.aicalorie.ui.subs.FunctionSubsActivity, com.l231116.aicalorie.ui.RecordWeightActivity, com.l231116.aicalorie.ui.HomeGuideActivity, com.l231116.aicalorie.ui.settings.GoalSettingActivity, com.l231116.aicalorie.ui.allinone.AllInOneActivity, com.l231116.aicalorie.ui.subs.SubsFDNewActivity, com.l231116.aicalorie.ui.generaterecipes.GenerateRecipesActivity, com.l231116.aicalorie.ui.subs.SubsFlashDealActivity, com.l231116.aicalorie.ui.generaterecipes.PreppingDietActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.l231116.aicalorie.ui.generaterecipes.GenerateErrorActivity, com.l231116.aicalorie.ui.generaterecipes.EditDietaryActivity, com.l231116.aicalorie.ui.generaterecipes.DietaryDescActivity, com.l231116.aicalorie.ui.subs.SubsDiscountActivity, com.l231116.aicalorie.ui.settings.GemTransferActivity, com.l231116.aicalorie.ui.NetworkIssueActivity, com.l231116.aicalorie.ui.generaterecipes.DietHistoryActivity, com.l231116.aicalorie.ui.DailyReportActivity, com.l231116.aicalorie.ui.subs.FunctionFDSubsActivity
+  Services   (5): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (4): com.kochava.tracker.legacyreferrer.LegacyReferrerReceiver, com.l231116.aicalorie.receiver.AlarmReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (3): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18543
+  Total Methods : 121434
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): http://www.ngs.ac.uk/tools/jcepolicyfiles
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F5 07 9E E0 B8 90 4E 8D 89 22 A3 4F 4D 56 15 97 70 7F FF A6 0A F8 F6 04 0A 38 41 E4 98 12 CA 81
+
+==========================================

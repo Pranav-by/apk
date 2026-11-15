@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.nar.christmas3dmatch
+  SHA-256       : 000A6897B232188485B08F3AC4A842F89A4D0DB62B408FD48A9839E6852DADB3
+  Android Group : Android14
+  Version       : 1.0.1 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (23)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.samsung.android.mapsagent.permission.READ_APP_INFO, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.READ_EXTERNAL_STORAGE, com.nar.christmas3dmatch.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+
+[Application Components]
+  Activities (75): com.facebook.CustomTabMainActivity, com.mbridge.msdk.out.LoadingActivity, com.facebook.CustomTabActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, com.ironsource.sdk.controller.InterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.fyber.inneractive.sdk.activities.FyberReportAdActivity, com.ogury.ad.interstitial.ui.InterstitialActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.applovin.adview.AppLovinFullscreenActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity, com.applovin.sdk.AppLovinWebViewActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.ogury.ad.interstitial.ui.InterstitialAndroid8RotableActivity, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.facebook.FacebookActivity
+  Services   (19): com.google.android.gms.measurement.AppMeasurementService, com.applovin.impl.adview.activity.FullscreenAdService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService, com.gameanalytics.sdk.errorreporter.GameAnalyticsExceptionReportService, com.unity.services.pushnotifications.android.UnityFirebaseMessagingService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.adjust.sdk.AdjustReferrerReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.unity.androidnotifications.UnityNotificationRestartReceiver, com.unity.androidnotifications.UnityNotificationManager, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.ogury.core.internal.LogEnablerReceiver
+  Providers  (9): com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.FacebookContentProvider, com.facebook.internal.FacebookInitProvider, com.applovin.sdk.AppLovinInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 41206
+  Total Methods : 249997
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988
+  IP Addresses(3): 6.3.0.4, 16.8.81.0, 23.5.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1D 77 FF F4 1F A8 25 56 59 2C 11 1F 79 CC 0E 80 9C 6A C6 EA 9E B3 DA D9 EE E6 AE 4F B2 46 9F CF
+
+==========================================

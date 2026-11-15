@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.costa.rica.noticias.qkdxezduboedqew
+  SHA-256       : 00BF16E3BCDC11140BACF007E822AE9ACAE925C9BC4AAAA2872C84381FC4B655
+  Android Group : Android13
+  Version       : 1.0 (code: 8)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (37): com.appyet.activity.forum.ForumProfileActivity, com.appyet.mediapicker.MultiImageSelectorActivity, com.appyet.activity.VideoPlayerActivity, com.twitter.sdk.android.core.identity.OAuthActivity, com.appyet.activity.forum.ForumReplyPostActivity, com.appyet.activity.forum.ForumNewTopicActivity, com.appyet.activity.forum.ForumForgetPasswordActivity, com.twitter.sdk.android.tweetui.PlayerActivity, com.appyet.activity.IntroActivity, com.google.android.gms.common.api.GoogleApiActivity, com.twitter.sdk.android.tweetcomposer.ComposerActivity, com.appyet.activity.forum.ForumNewConversationActivity, com.appyet.activity.WidgetConfigureActivity, com.appyet.activity.forum.ForumSettingsActivity, com.appyet.activity.DownloadActivity, com.appyet.activity.SettingsActivity, com.appyet.activity.ImageViewerActivity, com.appyet.activity.forum.ForumSearchActivity, com.appyet.activity.MainActivity, com.appyet.activity.forum.ForumStatisticsActivity
+  Services   (19): com.google.android.gms.measurement.AppMeasurementService, com.appyet.service.SyncService, com.appyet.service.MediaService, com.appyet.exoplayer.ExoDownloadService, com.google.android.exoplayer2.scheduler.PlatformScheduler$PlatformSchedulerService, com.appyet.service.FCMService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService, com.twitter.sdk.android.tweetcomposer.TweetUploadService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.appyet.receiver.DownloadReceiver, com.appyet.receiver.CommonReceiver, com.appyet.receiver.AlarmHeartBeatReceiver, com.appyet.receiver.BootCompletedReceiver, com.appyet.receiver.AlarmUpdateReceiver, com.appyet.provider.WidgetProvider_4_1, com.appyet.provider.WidgetProvider, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (9): androidx.core.content.FileProvider, com.flurry.android.agent.FlurryContentProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.appyet.provider.SuggestionProvider, com.crashlytics.android.CrashlyticsInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.just.agentweb.AgentWebFileProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 20394
+  Total Methods : 115907
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (9): http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd, http://feedads.g.doubleclick.net, http://res3.feedsportal.com, https://i1.ytimg.com/vi/, https://googlemobileadssdk.page.link/admob-android-update-manifest, http://feeds.feedburner.com, http://da.feedsportal.com, http://pi.feedsportal.com, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(4): 1.2.10.27, 1.4.7.32, 2.7.0.33, 2.10.1.34
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CA 0B CD C1 7F 50 66 ED 6E 6F D6 6F 1E 44 BC 62 D2 75 01 15 69 54 F3 91 FC D7 9B FE DC A0 DE 2C
+
+==========================================

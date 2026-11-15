@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : eu.ubian
+  SHA-256       : 00A34CDCFCAFBDE479BC790E39A07C4E0270D45FEAFEF0ACE84B6849A5783E5A
+  Android Group : Android12
+  Version       : 2.13.1 (code: 442)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (23)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.NFC, eu.ubian.permission.PROCESS_PUSH_MSG, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.CHANGE_WIFI_STATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, com.google.android.gms.permission.ACTIVITY_RECOGNITION, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES
+
+[Application Components]
+  Activities (15): eu.ubian.widget.DeparturesWidgetConfigureActivity, com.facebook.CustomTabActivity, eu.ubian.activities.OnboardingActivity, com.huawei.updatesdk.support.pm.PackageInstallerActivity, com.facebook.CustomTabMainActivity, com.huawei.updatesdk.service.otaupdate.AppUpdateActivity, com.facebook.FacebookActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.huawei.hms.activity.EnableServiceActivity, eu.ubian.activities.MainActivity, eu.ubian.activities.SplashActivity, com.huawei.hms.activity.BridgeActivity
+  Services   (20): eu.ubian.widget.utils.WidgetService, eu.ubian.notifications.HMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, eu.ubian.tasks.OngoingNotificationService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.analytics.AnalyticsService, androidx.room.MultiInstanceInvalidationService, eu.ubian.notifications.FMessagingService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.huawei.location.lite.common.http.HttpService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.huawei.agconnect.core.ServiceDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.huawei.hms.support.api.push.service.HmsMsgService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (10): com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.huawei.hms.support.api.push.PushReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, eu.ubian.widget.DeparturesWidget, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (13): com.huawei.hms.analytics.provider.AnalyticsInitializeProvider, com.huawei.hms.device.provider.CheckHmsProvider, androidx.core.content.FileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.huawei.hms.aaid.InitProvider, com.huawei.hms.update.provider.UpdateProvider, com.facebook.internal.FacebookInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.provider.FirebaseInitProvider, com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider, com.huawei.hms.support.api.push.PushProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.google.firebase.perf.provider.FirebasePerfProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 35747
+  Total Methods : 236154
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Organization: Transdata s.r.o, Locality: Zilina, State/Province: Slovakia, Country: SK
+  Fingerprint : 23 B3 C1 61 F0 C7 0E 4A E5 79 F6 09 A5 43 B6 7D F2 8F 83 28 73 C7 40 4A 80 AB 65 07 F7 AE F9 F5
+
+==========================================

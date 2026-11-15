@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.elementique.phone
+  SHA-256       : 00BEA3A6A43C60D3B3C2FC0A0655C1978F4FAB25CB18AA42BA9CCC213E8809C1
+  Android Group : Android12
+  Version       : 4.2.0 (code: 1664459365)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (16)]
+  android.permission.READ_SYNC_SETTINGS, com.elementique.permission.home.PROVIDER, com.elementique.permission.home.ACCOUNT_CHANGED, android.permission.WRITE_SYNC_SETTINGS, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_PHONE_NUMBERS, android.permission.READ_CONTACTS, android.permission.INTERNET, com.elementique.permission.license, android.permission.VIBRATE, android.permission.CALL_PHONE, android.permission.USE_CREDENTIALS, android.permission.GET_ACCOUNTS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, com.elementique.permission.SETTINGS
+
+[Application Components]
+  Activities (1): com.elementique.phone.PhoneActivity
+  Services   (0): none
+  Receivers  (1): com.elementique.shared.account.AccountChangeReceiver
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 3309
+  Total Methods : 18279
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Pascal Dal Farra, Organizational Unit: Elementique, Organization: Elementique, Locality: Heron, State/Province: Liege, Country: BE
+  Fingerprint : F3 57 31 D1 70 E1 DA 93 34 C9 B1 62 97 BE FA 8C A8 69 05 95 16 F5 26 59 87 AB 59 18 73 EE B9 42
+
+==========================================

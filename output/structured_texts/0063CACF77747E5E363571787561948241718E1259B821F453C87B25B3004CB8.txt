@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bestzippers.heart.zipper
+  SHA-256       : 0063CACF77747E5E363571787561948241718E1259B821F453C87B25B3004CB8
+  Android Group : Android15
+  Version       : 11.0 (code: 110)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (14)]
+  android.permission.SYSTEM_ALERT_WINDOW, com.bestzippers.heart.zipper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE_SPECIAL_USE, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (15): lockscreen.zipper.ReviewTutorialActivity, com.google.android.gms.ads.AdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, lockscreen.zipper.SplashScreenInitial, lockscreen.zipper.WallpaperActivity, com.google.android.gms.common.api.GoogleApiActivity, lockscreen.zipper.SettingsActivity, lockscreen.zipper.ForgroudActivity, lockscreen.zipper.moreZippersActivity, com.google.android.gms.ads.NotificationHandlerActivity, lockscreen.zipper.MainActivity, com.pin.myapp2.wallpaperViewer, lockscreen.zipper.SplashScreen, com.google.android.gms.ads.OutOfContextTestingActivity, lockscreen.zipper.ItemChooserActivity
+  Services   (10): lockscreen.zipper.LiveService, lockscreen.zipper.LockScreenService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver, lockscreen.zipper.autostart, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 11747
+  Total Methods : 56773
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://goo.gle/admob-android-update-manifest, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://goo.gle/ad-manager-android-update-manifest., https://developers.google.com/tink/faq/registration_errors, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://goo.gle/admob-android-update-manifest.
+  IP Addresses(2): 0.6.0.0, 0.2.0.0
+
+[Certificate]
+  Issuer      : Common Name: Digital North Star, Organizational Unit: Digital North Star, Organization: Digital North Star, Locality: Ilfov, State/Province: Romania, Country: 40
+  Fingerprint : D5 93 31 DE BB FB B4 D3 26 DF FC 1B DB 46 E5 95 81 02 11 B0 BB 22 36 47 77 F1 14 FD DE C3 C9 22
+
+==========================================

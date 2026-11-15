@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.unitedscientificgroup.usg
+  SHA-256       : 00A16D5522A682F79EBA8243DB3DBBF1837A441B5AB4B3BE7490C9A9BD2B2DE2
+  Android Group : Android16
+  Version       : 1.0.14 (code: 36)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 36
+
+[Permissions (36)]
+  com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, com.unitedscientificgroup.usg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, com.sonyericsson.home.permission.BROADCAST_BADGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE
+
+[Application Components]
+  Activities (7): com.unitedscientificgroup.usg.MainActivity, expo.modules.imagepicker.ExpoCropImageActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.canhub.cropper.CropImageActivity, com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity, com.google.android.gms.common.api.GoogleApiActivity, androidx.compose.ui.tooling.PreviewActivity
+  Services   (12): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.camera.core.impl.MetadataHolderService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, expo.modules.notifications.service.ExpoFirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.metadata.ModuleDependencies, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (12): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, expo.modules.notifications.service.NotificationsService, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (8): com.canhub.cropper.CropFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, expo.modules.filesystem.FileSystemFileProvider, expo.modules.imagepicker.fileprovider.ImagePickerFileProvider, expo.modules.sharing.SharingFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 21950
+  Total Methods : 120294
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://issuetracker.google.com/issues/new?component=618491&template=1257717, https://goo.gle/compose-feedback
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8D F7 F8 05 CD AD 6B 02 CB 63 98 DD 7E 5A 4D 04 CA B8 95 1E 78 9E 92 FB 6A 0B 3B 51 0B 59 39 95
+
+==========================================

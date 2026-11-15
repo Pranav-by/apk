@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.vesselss.batelesehr
+  SHA-256       : 001C79A2BC7A1039022F0D8EC18733BFA09117BB9A3B3AA6640FD240EA83BE2B
+  Android Group : Android12L
+  Version       : 1 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (5)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (6): com.vesselss.batelesehr.Activities.DetailActivity, com.vesselss.batelesehr.Activities.SearchActivity, com.vesselss.batelesehr.Activities.MainActivity, com.appbrain.AppBrainActivity, com.vesselss.batelesehr.Activities.SplashScreenActivity, com.pandora.Interfaces.Pandora_Display
+  Services   (3): com.pandora.PandoraService, com.appbrain.AppBrainJobService, com.appbrain.AppBrainService
+  Receivers  (0): none
+  Providers  (2): com.appbrain.AppBrainInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 4518
+  Total Methods : 32672
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 76 56 F2 9B EE 9F 26 F3 DE B5 85 A9 1F 9B B3 1A FC 99 B8 9D 08 D7 69 BC BD E4 72 8C 02 9D C2 74
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mobiroller.mobi871508146656
+  SHA-256       : 00A00C78056D44CACFFE3B90BAE0EDD40A55D34585831F53C96C8A41B9AD2CF5
+  Android Group : Android12
+  Version       : 3.36.12.58 (code: 58)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (29)]
+  android.permission.FOREGROUND_SERVICE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (161): com.startapp.sdk.adsbase.consent.ConsentActivity, com.startapp.sdk.ads.list3d.List3DActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, com.twitter.sdk.android.core.identity.OAuthActivity, com.braintreepayments.api.GooglePaymentActivity, com.android.billingclient.api.ProxyBillingActivity, com.mobiroller.shopify.activity.ForgotPasswordActivity, com.mobiroller.shopify.activity.SearchProductActivity, com.mobiroller.shopify.activity.ProfileActivity, com.mobiroller.shopify.activity.RegisterActivity, com.mobiroller.shopify.activity.LoginActivity, com.stripe.android.view.PaymentAuthWebViewActivity, com.firebase.ui.auth.ui.credentials.CredentialSaveActivity, com.firebase.ui.auth.ui.idp.SingleSignInActivity, com.firebase.ui.auth.ui.email.RecoverPasswordActivity, com.google.android.gms.common.api.GoogleApiActivity, com.twitter.sdk.android.tweetui.PlayerActivity, com.braintreepayments.api.ThreeDSecureActivity, com.stripe.android.googlepaylauncher.StripeGooglePayActivity, com.sendbird.uikit.activities.CreateChannelActivity
+  Services   (25): com.google.android.gms.analytics.AnalyticsJobService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.mobiroller.chat.services.FCMMessagingService, com.mobiroller.core.jcplayer.JcPlayerService, com.google.android.gms.measurement.AppMeasurementService, com.applyze.ApplyzeAnalyticsService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.iid.FirebaseInstanceIdService, com.mobiroller.core.services.ClosingService, com.google.android.gms.ads.AdService, com.mobiroller.core.util.radio.RadioService, com.mobiroller.user.services.FCMInstanceIDService, com.braintreepayments.api.internal.AnalyticsIntentService, com.sendbird.android.push.SendbirdFirebaseInstanceIDService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.sendbird.android.push.SendbirdFirebaseMessagingService, com.sendbird.android.push.SendbirdHmsMessagingService, com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService
+  Receivers  (18): com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.mobiroller.chat.services.GCMBroadcastReceiver, com.mobiroller.core.jcplayer.JcPlayerNotificationReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.media.session.MediaButtonReceiver, com.applyze.ApplyzeNetworkChangeReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (6): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.canhub.cropper.CropFileProvider, com.firebase.ui.auth.data.client.AuthUiInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.startapp.sdk.adsbase.StartAppInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 59993
+  Total Methods : 391572
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : EA 83 DC 49 0C 61 BA 92 2B 75 04 71 8B 8B 17 5C FC 7F BB 0E 76 2F 21 42 6C 3F 16 84 B6 16 17 57
+
+==========================================

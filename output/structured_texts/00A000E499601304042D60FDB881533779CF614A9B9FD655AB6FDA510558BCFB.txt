@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.allhesab.app
+  SHA-256       : 00A000E499601304042D60FDB881533779CF614A9B9FD655AB6FDA510558BCFB
+  Android Group : Android14
+  Version       : 0.12.30 (code: 47)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (17)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_MEDIA_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.READ_MEDIA_IMAGES, android.permission.RECORD_AUDIO, android.permission.VIBRATE, com.allhesab.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_MEDIA_VIDEO
+
+[Application Components]
+  Activities (4): com.allhesab.app.MainActivity, com.google.android.gms.common.api.GoogleApiActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+  Services   (9): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.metadata.ModuleDependencies, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.lyokone.location.FlutterLocationService, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (7): dev.fluttercommunity.plus.share.SharePlusPendingIntent, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (6): io.flutter.plugins.imagepicker.ImagePickerFileProvider, androidx.startup.InitializationProvider, dev.fluttercommunity.plus.share.ShareFileProvider, com.crazecoder.openfile.FileProvider, com.google.firebase.provider.FirebaseInitProvider, io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4521
+  Total Methods : 22943
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://github.com/bluefireteam/audioplayers/blob/main/troubleshooting.md, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 28 6A 74 15 BB E2 0E 28 C2 74 B5 0F 25 D7 C5 51 F0 B2 20 7E 92 7B 2B 62 2C F2 C0 A9 BD 7D F5 E0
+
+==========================================

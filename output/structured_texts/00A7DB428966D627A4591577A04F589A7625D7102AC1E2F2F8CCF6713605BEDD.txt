@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : simolapps.mureedfree
+  SHA-256       : 00A7DB428966D627A4591577A04F589A7625D7102AC1E2F2F8CCF6713605BEDD
+  Android Group : Android12
+  Version       : 2.9.2 (code: 26)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 31
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.VIBRATE, com.android.vending.BILLING, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.RECORD_AUDIO, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (6): com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, simolapps.mureedfree.MainActivity, com.facebook.react.devsupport.DevSettingsActivity, com.yandex.mobile.ads.common.AdActivity, com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity
+  Services   (3): com.yandex.metrica.ConfigurationJobService, com.yandex.metrica.MetricaService, com.yandex.metrica.ConfigurationService
+  Receivers  (1): com.amazon.device.iap.ResponseReceiver
+  Providers  (4): com.yandex.metrica.PreloadInfoContentProvider, androidx.startup.InitializationProvider, expo.modules.filesystem.FileSystemFileProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 26981
+  Total Methods : 157056
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(5): 2.9.0.0, 10.0.3.2, 2.10.1.0, 10.0.2.2, 10.0.1.1
+
+[Certificate]
+  Issuer      : Common Name: Omarov Muhammadnakshubandi, Organizational Unit: simolapps, Organization: simolapps, Locality: Makhachkala, State/Province: Dagestan, Country: RU
+  Fingerprint : 70 6F 38 0C 07 22 8B 82 C9 6D 6B 3F 3F 76 85 06 49 8E 6E 77 49 79 84 22 DC F2 99 95 F8 23 F1 1A
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : next.wt.allah.names.livewallpaper
+  SHA-256       : 0044A3319E25C5DF1F6A9D58FE0D351A2FF059B7DD73F47D20FB21C3B8C93F25
+  Android Group : Android15
+  Version       : 6.5 (code: 31)
+
+[SDK Information]
+  Minimum SDK   : 17
+  Target SDK    : 35
+
+[Permissions (9)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (10): com.google.android.gms.common.api.GoogleApiActivity, next.wt.allah.names.livewallpaper.StartWallpaperActivity, com.appbrain.AppBrainActivity, next.wt.allah.names.livewallpaper.HomeActivity, com.startapp.sdk.adsbase.consent.ConsentActivity, com.startapp.sdk.ads.interstitials.OverlayActivity, next.wt.allah.names.livewallpaper.WallpaperSettings, com.startapp.sdk.ads.list3d.List3DActivity, next.wt.allah.names.livewallpaper.AboutUs, next.wt.allah.names.livewallpaper.CropImageActivity
+  Services   (5): com.appbrain.AppBrainJobService, com.startapp.sdk.jobs.SchedulerService, next.wt.allah.names.livewallpaper.LiveWallpaperService, com.appbrain.AppBrainService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (2): next.wt.allah.names.livewallpaper.ReminderNewWallpaper, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener
+  Providers  (2): com.startapp.sdk.adsbase.StartAppInitProvider, com.appbrain.AppBrainInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5159
+  Total Methods : 35322
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(1): 10.0.2.15
+
+[Certificate]
+  Issuer      : Common Name: Mohini Shrungarpure, Organizational Unit: Android Next Wallpapers, Organization: Mohini Software, Locality: Pune, State/Province: Unknown, Country: IN
+  Fingerprint : 39 5C 0D 41 AA E7 FC 0E 9D 55 35 32 6F 4C E8 29 95 27 DA 0B F1 D1 A7 6D E4 04 B7 50 37 1E DB B4
+
+==========================================

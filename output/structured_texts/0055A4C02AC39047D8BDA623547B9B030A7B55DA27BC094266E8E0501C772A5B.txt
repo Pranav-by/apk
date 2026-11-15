@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.syware.security
+  SHA-256       : 0055A4C02AC39047D8BDA623547B9B030A7B55DA27BC094266E8E0501C772A5B
+  Android Group : Android12
+  Version       : 1.2 (code: 3)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.FLASHLIGHT, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH, android.permission.KILL_BACKGROUND_PROCESSES, android.permission.BLUETOOTH_ADMIN, android.permission.CAMERA, android.permission.QUERY_ALL_PACKAGES, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.BLUETOOTH_CONNECT, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (61): com.syware.security.aboutphone.ActivityDeviceThermal, com.syware.security.activity.MainActivity, com.syware.security.activity.AdminActivity, com.syware.security.aboutphone.ActivityDeviceMemory, com.syware.security.aboutphone.ActivityDeviceInfo, com.syware.security.aboutphone.ActivityDeviceSensor, com.syware.security.aboutphone.ActivityDeviceDisplay, com.syware.security.permissionmanager.PermissionDetailsActivity, com.syware.security.permissionmanager.GroupPermissionListActivity, com.syware.security.devicetesting.LightSensorTestingActivity, com.syware.security.aboutphone.ActivityDeviceCamera, com.syware.security.devicetesting.DisplayTestingActivity, com.syware.security.permissionmanager.PermissionSystemAppsActivity, com.syware.security.activity.CpuCoolerActivity, com.syware.security.devicetesting.DisplayTestingColorActivity, com.syware.security.permissionmanager.SpecialPermissionActivity, com.syware.security.activity.AppManagerActivity, com.syware.security.activity.HiddenAppsActivity, com.syware.security.devicetesting.VolumeDownTestingActivity, com.syware.security.activity.BackupAndShareActivity
+  Services   (5): androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (9): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.syware.security.utils.ConnectivityReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (2): com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8218
+  Total Methods : 35884
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://play.google.com/store/apps/details?id=, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(5): 0.0.0.0, 127.0.0.1, 255.255.0.0, 255.255.255.0, 255.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 7B 6F FB 40 6B F1 8A 48 E1 9B DA 77 B2 2F 84 98 0D 71 D3 69 A8 62 CF 47 31 70 8E DF F1 8E B0 0A
+
+==========================================

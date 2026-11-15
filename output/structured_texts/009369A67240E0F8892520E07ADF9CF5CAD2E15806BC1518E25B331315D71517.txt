@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.teamblind.blind
+  SHA-256       : 009369A67240E0F8892520E07ADF9CF5CAD2E15806BC1518E25B331315D71517
+  Android Group : Android12
+  Version       : 3.0.2 (code: 2022090102)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (112): com.google.android.gms.ads.AdActivity, com.google.android.gms.common.api.GoogleApiActivity, com.teamblind.blind.common.v2.activity.ExitAdImageDialogActivity, androidx.compose.ui.tooling.PreviewActivity, com.teamblind.blind.common.v2.activity.PhotoActivity, com.teamblind.blind.common.custom.multi_image_selector.MultiImageSelectorActivity, com.teamblind.blind.common.v2.activity.ExitAdVideoDialogActivity, com.teamblind.blind.common.v2.activity.TextShareActivity, com.facebook.FacebookActivity, com.teamblind.blind.common.v2.activity.ImageDetailActivity, com.teamblind.blind.common.v2.activity.ExitAdImageActivity, com.teamblind.blind.common.v2.activity.ExitAdVideoActivity, com.teamblind.blind.common.v2.activity.PublicChatRoomEntranceActivity, com.teamblind.blind.common.v2.activity.JobGroupChannelActivity, com.teamblind.blind.common.v2.activity.ArticleReportActivity, com.teamblind.blind.common.v2.activity.DMChatRoomActivity, com.teamblind.blind.common.v2.activity.JobTitleSelectActivity, com.teamblind.blind.common.v2.activity.PublicChatRoomBlockReportActivity, com.teamblind.blind.common.v2.activity.ArticleCommentDetailActivity, com.teamblind.blind.common.v2.activity.WritingActivity
+  Services   (16): com.sendbird.android.SendBirdHmsMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.teamblind.blind.common.service.BlindPostService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.sendbird.android.SendBirdFirebaseMessagingService, com.sendbird.android.SendBirdFirebaseInstanceIDService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, com.teamblind.blind.common.service.BlindFcmService
+  Receivers  (19): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.braze.push.BrazePushReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.mixpanel.android.mpmetrics.MixpanelPushNotificationDismissedReceiver, com.braze.receivers.BrazeActionReceiver, com.teamblind.blind.common.receiver.DownloadReceiver, com.teamblind.blind.common.receiver.BrazeNotificationReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (6): com.facebook.internal.FacebookInitProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 40858
+  Total Methods : 260234
+
+[Sensitive API Indicators]
+  SMS Send          : YES
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://issuetracker.google.com/issues?q=componentid:610764
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: kim
+  Fingerprint : C0 F0 9B BA 05 BD 80 B3 6F AE EA 5E C1 49 2E BA 60 39 62 63 7D 81 86 8A 3D 1C 53 65 FD 23 E2 AC
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.app.mednurture.mednurtureappn
+  SHA-256       : 008349B3A4183ED96CB563D897FC256C761A04C9D33F037EC87CB6FC72C58F64
+  Android Group : Android14
+  Version       : 01.01.160 (code: 160)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (44)]
+  com.app.mednurture.mednurtureappn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION, android.permission.BLUETOOTH_ADMIN, com.android.vending.CHECK_LICENSE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.zebra.provider.READ, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (128): com.stripe.android.paymentsheet.PaymentSheetActivity, com.google.android.gms.common.api.GoogleApiActivity, com.app.education.Views.AppWebView, us.zoom.zmeetingmsg.MeetingChatActivity, com.zipow.videobox.confapp.videoeffects.ZmConfVideoEffectsActivity, com.app.education.Views.EditProfile, com.zipow.videobox.SimpleInMeetingActivity, com.app.education.Views.QuizResultActivity, com.zipow.videobox.InMeetingSettingsActivity, com.zipow.videobox.CallInActivity, com.stripe.android.googlepaylauncher.StripeGooglePayActivity, com.app.education.Views.VerificationActivity, com.phonepe.intent.sdk.ui.UpiAppsSelectionDialogActivity, com.app.education.Views.Attmpted_test_activty, com.app.education.Views.LeadsActivity, com.app.education.Views.MyDownloadActivity, com.app.education.Views.COD, com.app.education.Views.MainDashboard, com.app.education.Views.CartActivity, com.pairip.licensecheck.LicenseActivity
+  Services   (26): com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.moengage.firebase.MoEFireBaseMessagingService, com.app.education.Services.NotificationService, com.app.education.Services.TestEngineService, com.app.education.Services.MyAndroidFirebaseMsgService, com.google.firebase.messaging.FirebaseMessagingService, com.app.education.Services.TestProgressNotificationService, com.app.education.Services.MyAndroidFirebaseInstanceIdService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.zipow.videobox.kubi.KubiService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (17): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.razorpay.RzpTokenReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.moengage.pushbase.internal.MoEPushReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (6): androidx.core.content.FileProvider, com.kbeanie.multipicker.utils.AMPFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.pairip.licensecheck.LicenseContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 10
+  Total Classes : 60525
+  Total Methods : 453008
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://play.google.com/store/apps/details?id=, https://goo.gle/compose-feedback, https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js, https://www.gstatic.com/charts/loader.js
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 15 14 6B 10 0D 40 AC 08 AC A7 70 C6 26 BA 8D 27 8A 10 72 86 B2 91 D0 07 24 15 10 D7 2E F0 7B D1
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : dsgui.android
+  SHA-256       : 00A4BEDE243E77C5F2D8FE6A712C6781CE3A77412CADFFFBB5D8D5B7931A3C3A
+  Android Group : Android13
+  Version       : 5.4.5 (code: 54500)
+
+[SDK Information]
+  Minimum SDK   : 28
+  Target SDK    : 33
+
+[Permissions (24)]
+  android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.POST_NOTIFICATIONS, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.USE_BIOMETRIC, android.permission.READ_PHONE_STATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_SUPERUSER, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, dsgui.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (22): com.auth0.android.provider.AuthenticationActivity, net.openid.appauth.AuthorizationManagementActivity, com.google.android.gms.ads.AdActivity, com.synchronyfinancial.plugin.SynchronyPlugInActivity, com.auth0.android.provider.RedirectActivity, com.google.android.gms.common.api.GoogleApiActivity, com.medallia.digital.mobilesdk.MedalliaFullFormActivity, com.medallia.digital.mobilesdk.MedalliaModalFormActivity, com.dcsg.dickssportinggoods.HomeActivity, com.dcsg.dickssportinggoods.OnBoardingActivity, dsgui.android.BrandAuthenticationActivity, com.dcsg.dickssportinggoods.SplashActivity, com.dcsg.reusuableui.customtabs.WebviewFallbackActivity, com.dcsg.reusuableui.slider.activity.MediaFullScreenActivity, net.openid.appauth.RedirectUriReceiverActivity, com.adobe.marketing.mobile.FullscreenMessageActivity, com.cyberfend.cyfsecurity.CCADialogActivity, androidx.compose.ui.tooling.PreviewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.adyen.threeds2.internal.ui.activity.ChallengeActivity
+  Services   (21): com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.metadata.ModuleDependencies, com.google.firebase.messaging.FirebaseMessagingService, com.dcsg.notifications.MessageService, com.gps.sdk.pushnotification.GpNotificationJobService, com.gps.sdk.fcm.GpFirebaseMessagingService, com.adyen.checkout.components.analytics.AnalyticsDispatcher, io.radar.sdk.RadarJobScheduler, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.firebase.components.ComponentDiscoveryService, io.radar.sdk.RadarForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, androidx.camera.core.impl.MetadataHolderService
+  Receivers  (15): com.adobe.marketing.mobile.FullscreenMessageActivity, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, io.radar.sdk.RadarLocationReceiver, com.adyen.threeds2.internal.AppUpgradeBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (6): com.google.mlkit.common.internal.MlKitInitProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.synchronyfinancial.plugin.SyfFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 31533
+  Total Methods : 154692
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Justin Wright, Organizational Unit: ITS Consumer Mobile Team, Organization: Dick's Sporting Goods, Locality: Pittsburgh, State/Province: PA, Country: 01
+  Fingerprint : 57 11 8E 38 99 9F 91 1C CA 8A EF 49 AF 00 6C CF F1 7D 16 68 E1 A2 C9 30 D7 3D 39 25 D9 1C D0 B0
+
+==========================================

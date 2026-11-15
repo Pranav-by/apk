@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ott.ttplus
+  SHA-256       : 008E403D11947D4A0731D90178413F5119058B5445981F0621B202242B4A09F6
+  Android Group : Android12
+  Version       : 7.606.1 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (27): com.appboy.ui.activities.AppboyFeedActivity, com.android.billingclient.api.ProxyBillingActivity, zendesk.support.guide.ViewArticleActivity, net.openid.appauth.AuthorizationManagementActivity, zendesk.support.requestlist.RequestListActivity, tv.vhx.support.ZendeskActivity, zendesk.messaging.MessagingActivity, zendesk.support.guide.HelpCenterActivity, tv.vhx.home.HomeActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, net.openid.appauth.RedirectUriReceiverActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, zendesk.support.request.RequestActivity, tv.vhx.tablet.HomeTabletActivity, tv.vhx.tv.home.search.GlobalSearchSelectActivity, tv.vhx.LauncherActivity, tv.vhx.util.ui.theme.ChangeThemeActivity, tv.vhx.util.ui.WebViewActivity, tv.vhx.tv.home.TvHomeActivity, tv.vhx.ui.subscription.ManageSubscriptionActivity
+  Services   (16): tv.vhx.video.playback.VHXPlayerService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, com.kaltura.dtg.DownloadService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.analytics.AnalyticsService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, tv.vhx.firebase.VHXFirebaseMessagingService
+  Receivers  (12): com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.amazon.device.iap.ResponseReceiver, com.google.android.gms.analytics.AnalyticsReceiver, tv.vhx.util.download.DownloadNotificationClickReceiver, com.appboy.receivers.AppboyActionReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, zendesk.support.DeepLinkingBroadcastReceiver, com.appboy.AppboyFcmReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (10): zendesk.belvedere.BelvedereFileProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.squareup.picasso.PicassoProvider, androidx.startup.InitializationProvider, tv.vhx.util.VideoContentProvider, zendesk.support.SupportSdkStartupProvider, zendesk.support.guide.GuideSdkStartupProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31082
+  Total Methods : 194876
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(2): 127.0.0.1, 2.0.76.4
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 56 02 30 E0 09 3F F1 D5 FE C7 09 93 5F 9D 62 FC 7F 46 39 40 B5 64 6C 3D EF 52 6E 43 10 21 BD AE
+
+==========================================

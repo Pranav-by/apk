@@ -1,0 +1,75 @@
+{
+  "sha256": "00778D955DB6BDF315A3155837050FBF69259DB9E809FED8B08374CC0FA348CA",
+  "filename": "00778D955DB6BDF315A3155837050FBF69259DB9E809FED8B08374CC0FA348CA.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.zaglab.dartsmind",
+  "version_name": "1.8.5",
+  "version_code": "185",
+  "min_sdk": "28",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "android.permission.WAKE_LOCK",
+    "com.android.vending.BILLING",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.zaglab.dartsmind.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.android.billingclient.api.ProxyBillingActivity"
+  ],
+  "activity_count": 3,
+  "services": [
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "cn.leancloud.push.PushService",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.firebase.messaging.FirebaseMessagingService",
+    "com.zaglab.dartsmind.zlSupport.ZLFCMManager",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.android.gms.measurement.AppMeasurementService"
+  ],
+  "service_count": 8,
+  "receivers": [
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "cn.leancloud.push.LCBroadcastReceiver",
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+  ],
+  "receiver_count": 4,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 14267,
+  "method_count": 110194,
+  "cert_fingerprint": "A7 97 35 A7 80 1C 48 A0 7F E2 1C B4 1D 13 25 3A 5E C4 C8 CB 99 27 7F C5 A7 A1 B4 14 E3 74 30 7F",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "127.0.0.1",
+    "119.29.29.29"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

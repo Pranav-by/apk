@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.ht.htdata
+  SHA-256       : 00931619B59F70A3EDE3EB9422D70329DF10F5E1865C2ECFA63DDD0B969FF7F5
+  Android Group : Android12
+  Version       : 3.9.16 (code: 39160)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (30)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, com.ht.htdata.permission.JPUSH_MESSAGE, android.permission.VIBRATE, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, com.ht.htdata.permission.MIPUSH_RECEIVE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.QUERY_ALL_PACKAGES, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.ht.htdata.permission.PUSH_PROVIDER, com.huawei.android.launcher.permission.CHANGE_BADGE
+
+[Application Components]
+  Activities (129): com.ht.home.ui.activity.SmallShopListActivity, com.ht.home.ui.activity.AccountSetGroupActivity, com.ht.home.ui.activity.NotifySettingActivity, com.ht.home.ui.activity.WindowWhiteListActivity, com.ht.home.ui.activity.EnterGoodsDyLinkActivity, com.ht.home.ui.activity.ActivityDescActivity, com.ht.toolbox.ui.activity.ToolBoxActivity, com.ht.htdata.ui.SplashActivity, com.ht.home.ui.activity.OrderActivity, com.ht.home.ui.activity.TablePlugSearchActivity, com.ht.home.ui.activity.ChildAccountManagerActivity, com.ht.home.ui.activity.WindowDisplayManagerActivity, com.ht.home.ui.activity.AddAccountActivity, com.ht.home.ui.activity.AddressManageActivity, com.ht.setting.ui.activity.NotifySetActivity, com.ht.home.ui.activity.ProductTopicDetailActivity, com.ht.home.ui.activity.CustomPalletsActivity, com.ht.home.ui.activity.AddGoodsActivity, com.ht.home.ui.activity.SettlementAccountTipActivity, com.ht.home.ui.activity.UpgradeTutorialActivity
+  Services   (18): com.vivo.push.sdk.service.CommandClientService, com.xiaomi.push.service.XMPushService, com.huawei.agconnect.core.ServiceDiscovery, com.huawei.hms.support.api.push.service.HmsMsgService, com.luck.picture.lib.service.ForegroundService, cn.jpush.android.service.PluginOppoPushService, com.ht.home.helper.TablePlugService, com.ht.jpush.CustomJPushService, com.xiaomi.push.service.XMJobService, cn.jpush.android.service.PushService, com.xiaomi.mipush.sdk.PushMessageHandler, com.ht.webview.webviewprocess.mainprocess.MainProcessCommandService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, cn.jpush.android.service.PluginHuaweiPlatformsService, com.ht.toolbox.helper.VoicePlayService, com.heytap.msp.push.service.DataMessageCallbackService, com.xiaomi.mipush.sdk.MessageHandleService, com.blankj.utilcode.util.MessengerUtils$ServerService
+  Receivers  (10): com.ht.jpush.CustomJPushReceiver, cn.jpush.android.service.AlarmReceiver, cn.jpush.android.service.PushReceiver, cn.jpush.android.service.SchedulerReceiver, cn.jpush.android.asus.AsusPushMessageReceiver, com.huawei.hms.support.api.push.PushReceiver, cn.jpush.android.service.PluginVivoMessageReceiver, com.xiaomi.push.service.receivers.PingReceiver, cn.jpush.android.service.PluginXiaomiPlatformsReceiver, com.huawei.hms.support.api.push.PushMsgReceiver
+  Providers  (13): com.luck.picture.lib.basic.PictureFileProvider, cat.ereza.customactivityoncrash.provider.CaocInitProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, me.jessyan.autosize.InitProvider, cn.jpush.android.service.DataProvider, com.noober.background.BackgroundContentProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.huawei.hms.support.api.push.PushProvider, com.blankj.utilcode.util.UtilsFileProvider, com.huawei.hms.aaid.InitProvider, com.lzf.easyfloat.EasyFloatInitializer, cn.jpush.android.service.InitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 158
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Locality: hz
+  Fingerprint : 39 64 76 BD CF 03 8F F3 30 83 8C 02 0A BB CD A2 A6 F3 22 C6 89 D5 2F 07 42 90 83 E8 4E 00 B7 29
+
+==========================================

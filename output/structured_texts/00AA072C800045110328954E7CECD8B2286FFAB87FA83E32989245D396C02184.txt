@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : org.churchofjesuschrist.mw.embark
+  SHA-256       : 00AA072C800045110328954E7CECD8B2286FFAB87FA83E32989245D396C02184
+  Android Group : Android15
+  Version       : 5.0.32 (code: 50032)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (20)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_COARSE_LOCATION, org.churchofjesuschrist.mw.embark.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECORD_AUDIO, android.permission.MANAGE_MEDIA, android.permission.ACCESS_FINE_LOCATION, android.permission.BLUETOOTH_CONNECT, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.BLUETOOTH_SCAN, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (1): org.churchofjesuschrist.mw.embark.MainActivity
+  Services   (1): de.appplant.cordova.plugin.background.ForegroundService
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5302
+  Total Methods : 36858
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 60 94 03 8A A2 27 70 41 08 8A 42 29 17 2E DF 79 B7 30 0C 08 D1 AC E8 F7 26 86 A3 02 6E 17 E1 06
+
+==========================================

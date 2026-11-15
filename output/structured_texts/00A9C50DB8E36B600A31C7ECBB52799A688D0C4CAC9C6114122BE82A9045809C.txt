@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.abclocal.ktrk.news
+  SHA-256       : 00A9C50DB8E36B600A31C7ECBB52799A688D0C4CAC9C6114122BE82A9045809C
+  Android Group : Android15
+  Version       : 8.71.0 (code: 53500324)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (19)]
+  android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.USE_BIOMETRIC, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, com.abclocal.ktrk.news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.USE_FINGERPRINT, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.AD_SERVICES_CONFIG, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (38): com.google.android.gms.ads.NotificationHandlerActivity, com.disney.cuento.entity.shows.ShowEntityActivity, com.disney.entityselection.EntitySelectionActivity, com.disney.cuento.entity.topic.TopicLayoutActivity, com.disney.libupdate.UpdateActivity, com.disney.cuento.entity.podcast.PodcastEntityActivity, com.braze.ui.activities.ContentCardsActivity, com.disney.search.libsearch.entity.EntityActivity, com.disney.softwarelicense.view.SoftwareLicenseActivity, com.braze.ui.BrazeWebViewActivity, com.disney.abcnews.viewmore.layout.ViewMoreActivity, com.disney.abcnews.homealerts.alerts.HomeAlertsActivity, com.disney.media.audio.fullscreen.FullscreenAudioPlayerActivity, com.disney.abcnews.extendedplayer.ExtendedPlayerActivity, com.disney.bootstrap.activity.bootstrap.BootstrapActivity, com.disney.abcnews.manageinterests.ManageInterestsActivity, com.disney.abcnews.welcomescreen.WelcomeScreenActivity, com.disney.weather.location.WeatherLocationNativeActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.disney.search.libsearch.search.SearchActivity
+  Services   (15): androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.mparticle.messaging.InstanceIdService, com.braze.push.BrazeFirebaseMessagingService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, com.mparticle.MPService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.ads.AdService, com.disney.media.player.mediasession.MediaPlaybackService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (16): androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.braze.BrazeFlushPushDeliveryReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.media.session.MediaButtonReceiver, com.disney.telx.braze.BrazeNotificationReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.braze.push.BrazePushReceiver
+  Providers  (7): com.taboola.android.TBLContextProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, io.sentry.android.core.SentryPerformanceProvider, com.conviva.platforms.android.ProcessLaunchProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 64464
+  Total Methods : 352474
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: abc otv, Organizational Unit: abclocal, Organization: disney, Locality: seattle, State/Province: wa, Country: us
+  Fingerprint : F3 3C 03 41 EF 2D BD C6 D1 04 09 DA 39 1A 90 AA E6 34 53 83 1D 75 06 89 02 42 31 97 3C D4 97 23
+
+==========================================

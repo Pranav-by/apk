@@ -1,0 +1,58 @@
+{
+  "sha256": "009E26B19D87A79ACEAEFF08EE776D619BD90011365DB9D1EDA7962E286299FC",
+  "filename": "009E26B19D87A79ACEAEFF08EE776D619BD90011365DB9D1EDA7962E286299FC.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "space.metaaxis.app",
+  "version_name": "1.0.3",
+  "version_code": "3",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.NOTIFICATIONS",
+    "android.permission.BILLING"
+  ],
+  "permission_count": 8,
+  "activities": [
+    "space.metaaxis.app.MainActivity",
+    "com.facebook.react.devsupport.DevSettingsActivity"
+  ],
+  "activity_count": 2,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "expo.modules.filesystem.FileSystemFileProvider",
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11091,
+  "method_count": 75059,
+  "cert_fingerprint": "8A F9 56 EE 65 04 65 23 02 F3 1A 6C 04 1A A1 6B 37 BA 65 24 B7 A8 4D 1C 01 EE 6E F0 FA 0F EE 4A",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [
+    "10.0.2.2",
+    "10.0.1.1",
+    "10.0.3.2"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

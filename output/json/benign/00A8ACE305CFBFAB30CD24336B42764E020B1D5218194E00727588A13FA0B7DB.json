@@ -1,0 +1,69 @@
+{
+  "sha256": "00A8ACE305CFBFAB30CD24336B42764E020B1D5218194E00727588A13FA0B7DB",
+  "filename": "00A8ACE305CFBFAB30CD24336B42764E020B1D5218194E00727588A13FA0B7DB.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.virash.grover",
+  "version_name": "2.0",
+  "version_code": "2",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity",
+    "com.wongpiwat.trust_location.TrustLocationPlugin",
+    "com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance",
+    "com.virash.grover.MainActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+  ],
+  "activity_count": 9,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 11608,
+  "method_count": 76352,
+  "cert_fingerprint": "C4 34 C0 4F 78 2F 37 E6 BA DB B0 BD 47 0B 23 16 02 4F 9B 82 9F 49 4E D7 B1 64 DA 6B 85 2C 6B 41",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://github.com/pichillilorenzo/flutter_inappwebview#important-note-for-android",
+    "https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects"
+  ],
+  "ip_addresses": [
+    "0.0.0.0",
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

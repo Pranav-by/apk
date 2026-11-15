@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.unitel.mocha.app
+  SHA-256       : 00A05035770C1AA0C133F6AEBEE254792055CC9248CFBDFE7616FE8A3A6D8BE5
+  Android Group : Android15
+  Version       : 1.1.15 (code: 164)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (69)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_PHONE_NUMBERS, android.permission.READ_MEDIA_IMAGES, android.permission.RECORD_VIDEO, android.permission.VIBRATE, com.oppo.launcher.permission.READ_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, android.permission.USE_CREDENTIALS, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.GET_TASKS, android.permission.MANAGE_ACCOUNTS, android.permission.CHANGE_WIFI_STATE, android.permission.WRITE_SETTINGS, android.permission.WRITE_SYNC_SETTINGS, com.unitel.mocha.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET
+
+[Application Components]
+  Activities (142): com.viettel.mocha.ui.tabvideo.activity.uploadVideo.UploadVideoActivity, com.viettel.mocha.module.sc_umoney.umoney_v1.main_umoney.TabUmoneyActivity, com.viettel.mocha.module.chat.invite_qr_group.QRAddGroupActivity, com.viettel.mocha.activity.OnMediaListLikeShareActivity, com.viettel.mocha.module.gameWalking.HomeGameWalkingActivity, com.viettel.mocha.module.chat.search_thread.SearchThreadActivity, com.viettel.mocha.module.gameWalking.JournalWalkingActivity, com.useinsider.insider.InsiderActivity, com.useinsider.insider.InsiderLoginActivity, com.viettel.mocha.ui.tabvideo.subscribeChannel.SubscribeChannelActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.spotxchange.internal.view.InAppBrowserActivity, com.useinsider.insider.InsiderInappActivity, com.viettel.mocha.module.saving.activity.SavingActivity, com.viettel.mocha.activity.PollMessageActivity, com.viettel.mocha.module.short_video.ShortVideoPlayerActivity, com.viettel.mocha.activity.AlbumViewActivity, com.viettel.mocha.activity.QuickReplyActivity, com.viettel.mocha.activity.CallHistoryActivity, com.viettel.mocha.activity.GuestBookPreviewActivity
+  Services   (33): com.google.android.gms.ads.AdService, com.viettel.mocha.firebase.MochaFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.useinsider.insider.SessionPayloadService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.useinsider.insider.InsiderAmplificationService, com.viettel.mocha.app.MochaChooserTargetService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.viettel.mocha.util.contactintergation.AccountAuthenticatorService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.viettel.mocha.ui.tabvideo.service.VideoServiceNew, com.viettel.mocha.ui.tabvideo.service.VideoService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.chuckerteam.chucker.internal.support.ClearDatabaseService, androidx.room.MultiInstanceInvalidationService, com.viettel.mocha.module.keeng.widget.floatingView.MusicFloatingView
+  Receivers  (34): com.viettel.mocha.broadcast.MiniReceiver, com.viettel.mocha.broadcast.HeadsetPlugReceiver, com.viettel.mocha.broadcast.AlarmReceiver, com.viettel.mocha.module.keeng.utils.KeengAlarmReceiver, com.viettel.mocha.broadcast.BootCompletedReceiver, com.viettel.mocha.broadcast.DeleteNotificationReceiver, com.viettel.mocha.broadcast.ReplyNotificationReceiver, com.viettel.mocha.broadcast.DeclineCallReceiver, com.viettel.mocha.helper.workmanager.permanent.PermanentDataReceiver, com.appsamurai.storyly.util.notification.StorylyNotificationReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.useinsider.insider.DeleteGifReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.useinsider.insider.GifPlayReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.viettel.mocha.broadcast.RestartServiceReceiver
+  Providers  (11): androidx.core.content.FileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.viettel.mocha.helper.GenericFileProvider, com.chuckerteam.chucker.internal.support.ChuckerFileProvider, com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.blankj.utilcode.util.UtilsFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 50321
+  Total Methods : 289833
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 71 FC A3 66 0E 4A 31 52 2C 30 E7 47 C8 8D 63 0B A4 28 7B 6A F2 70 84 AA A9 F7 C8 EE A4 3A A5 B0
+
+==========================================

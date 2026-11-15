@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.selah.zimbabwedrivinglearners
+  SHA-256       : 00A36E4023CB294C87C0BA5D9C0E3D87A42F40ACE2DDB8BF8A0F27BDD86766F3
+  Android Group : Android15
+  Version       : 15.0 (code: 15)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (12)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, com.selah.zimbabwedrivinglearners.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_TOPICS, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (86): com.selah.zimbabwedrivinglearners.Test4, com.selah.zimbabwedrivinglearners.Signs1, com.google.android.gms.ads.OutOfContextTestingActivity, com.selah.zimbabwedrivinglearners.DiagramTest6, com.selah.zimbabwedrivinglearners.Test19, com.selah.zimbabwedrivinglearners.Classes, com.selah.zimbabwedrivinglearners.DiagramTest5, com.selah.zimbabwedrivinglearners.PaymentConfirmationActivity, com.selah.zimbabwedrivinglearners.Test16, com.google.android.gms.ads.NotificationHandlerActivity, com.selah.zimbabwedrivinglearners.MainActivity, com.selah.zimbabwedrivinglearners.ReviewQuestionsActivity, com.selah.zimbabwedrivinglearners.Test21, com.selah.zimbabwedrivinglearners.RandomTestActivity, com.selah.zimbabwedrivinglearners.DiagramTest3, com.google.android.gms.ads.AdActivity, com.selah.zimbabwedrivinglearners.Signs6, com.selah.zimbabwedrivinglearners.Test20, com.selah.zimbabwedrivinglearners.Test11, com.selah.zimbabwedrivinglearners.RandomResultsActivity
+  Services   (13): com.selah.zimbabwedrivinglearners.MyFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.sessions.SessionLifecycleService
+  Receivers  (12): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7544
+  Total Methods : 38078
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://goo.gle/admob-android-update-manifest, https://firebase.google.com/support/guides/disable-analytics, https://goo.gle/ad-manager-android-update-manifest., https://developers.google.com/tink/faq/registration_errors, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://goo.gle/admob-android-update-manifest.
+  IP Addresses(2): 0.6.0.0, 0.2.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : BC AE 61 8A C5 39 39 9A E2 99 3C C9 C8 F4 8A E7 47 BC 68 09 82 DE 8D 47 A6 A7 60 3E C8 82 E9 D5
+
+==========================================

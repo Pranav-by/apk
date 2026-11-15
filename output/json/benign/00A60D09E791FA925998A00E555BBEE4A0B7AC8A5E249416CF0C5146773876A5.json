@@ -1,0 +1,82 @@
+{
+  "sha256": "00A60D09E791FA925998A00E555BBEE4A0B7AC8A5E249416CF0C5146773876A5",
+  "filename": "00A60D09E791FA925998A00E555BBEE4A0B7AC8A5E249416CF0C5146773876A5.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.parents_care.the_power_of_now",
+  "version_name": "1.4",
+  "version_code": "4",
+  "min_sdk": "19",
+  "target_sdk": "33",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "com.parents_care.the_power_of_now.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.google.android.gms.ads.AdActivity",
+    "com.parents_care.the_power_of_now.MainActivity",
+    "com.parents_care.the_power_of_now.Main2Activity",
+    "com.google.android.gms.ads.OutOfContextTestingActivity",
+    "com.parents_care.the_power_of_now.Main3Activity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.parents_care.the_power_of_now.about"
+  ],
+  "activity_count": 7,
+  "services": [
+    "androidx.work.impl.background.systemalarm.SystemAlarmService",
+    "androidx.room.MultiInstanceInvalidationService",
+    "com.google.android.gms.ads.AdService",
+    "androidx.work.impl.background.systemjob.SystemJobService",
+    "androidx.work.impl.foreground.SystemForegroundService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+    "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+  ],
+  "receiver_count": 8,
+  "providers": [
+    "com.google.android.gms.ads.MobileAdsInitProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 7045,
+  "method_count": 32271,
+  "cert_fingerprint": "92 3A 8C 2F 18 AB 4D 5E 27 AF 3A 7B 81 0D 9A BD 0B E0 BA AE 2A 74 FB BA 06 5F E7 95 72 7B 0C 23",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://goo.gl/J1sWQy",
+    "https://googlemobileadssdk.page.link/admob-interstitial-policies",
+    "https://googlemobileadssdk.page.link/admob-android-update-manifest",
+    "https://exoplayer.dev/issues/cleartext-not-permitted",
+    "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.",
+    "https://developers.google.com/admob/android/test-ads#enable_test_devices"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,50 @@
+{
+  "sha256": "00A0A8745A05CD6824E1CBC66F7DAC25EEEF397C1441005251FB6A1E73716E26",
+  "filename": "00A0A8745A05CD6824E1CBC66F7DAC25EEEF397C1441005251FB6A1E73716E26.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "com.novaera.brstore",
+  "version_name": "1.0.0",
+  "version_code": "1",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.REQUEST_INSTALL_PACKAGES"
+  ],
+  "permission_count": 4,
+  "activities": [
+    "com.novaera.brstore.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "com.crazecoder.openfile.FileProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 1029,
+  "method_count": 4896,
+  "cert_fingerprint": "5B A4 F2 BA C8 41 F0 8A F5 C4 B5 42 C3 92 A1 BC B0 8C B6 6D 76 9B 47 5B 75 80 52 04 DA 1C 8A D3",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.fmcna.patientapp
+  SHA-256       : 00A2817B0FCD2BB25A48F250AD28B1CB9E7997C30E834B31437B64AAA99E0B37
+  Android Group : Android15
+  Version       : 4.3.6 (code: 414)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.ACCESS_NETWORK_STATE, android.permission.READ_MEDIA_IMAGES, android.permission.INTERNET, android.permission.BLUETOOTH_CONNECT, android.permission.USE_FINGERPRINT, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.USE_BIOMETRIC, android.permission.RESOURCE_PROTECTED_MEDIA_ID, android.permission.CAMERA, com.fmcna.patientapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.MIDI_SYSEX
+
+[Application Components]
+  Activities (3): crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity, crc645133ee94dd19a6a0.MainActivity, crc64ba438d8f48cf7e75.IntermediateActivity
+  Services   (1): crc64396a3fe5f8138e3f.KeepAliveService
+  Receivers  (4): crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, crc64e53d2f592022988e.ConnectivityBroadcastReceiver, crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver
+  Providers  (4): mono.MonoRuntimeProvider, microsoft.maui.essentials.fileProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11872
+  Total Methods : 95454
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: FMCNA, Organizational Unit: FMCNA, Organization: FMCNA, Locality: Waltham, State/Province: MA, Country: US
+  Fingerprint : 86 93 9E 04 8D 05 4F E4 98 4E 29 12 1A 54 5A C9 45 92 85 16 AE 2A BE 8B 88 9A DC 6B 0E BF E2 3A
+
+==========================================

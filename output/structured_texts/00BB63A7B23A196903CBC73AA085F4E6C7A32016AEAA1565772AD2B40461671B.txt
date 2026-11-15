@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.innovaphone.clientandroid
+  SHA-256       : 00BB63A7B23A196903CBC73AA085F4E6C7A32016AEAA1565772AD2B40461671B
+  Android Group : Android12
+  Version       : 13r1 sr45 [133153] (code: 133153)
+
+[SDK Information]
+  Minimum SDK   : 18
+  Target SDK    : 31
+
+[Permissions (30)]
+  android.permission.READ_PHONE_NUMBERS, oppo.permission.OPPO_COMPONENT_SAFE, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.GET_TASKS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, com.huawei.permission.external_app_settings.USE_COMPONENT, android.permission.CHANGE_WIFI_MULTICAST_STATE, com.innovaphone.clientandroid.permission.C2D_MESSAGE, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA
+
+[Application Components]
+  Activities (6): com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.innovaphone.androidlib.CommandsActivity, com.innovaphone.phoneandroid.LauncherActivity, com.innovaphone.phoneandroid.DialIntentActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.innovaphone.phoneandroid.PhoneAndroidActivity
+  Services   (10): com.innovaphone.phoneandroid.PhoneAndroidService, com.innovaphone.phoneandroid.MyConnectionService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.messaging.FirebaseMessagingService, com.innovaphone.phoneandroid.MyFirebaseMessagingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.innovaphone.androidhms.MyHmsMessageService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (16): com.innovaphone.phoneandroid.BluetoothChangeCompatReceiver, com.innovaphone.phoneandroid.PowerDisconnectedReceiver, com.innovaphone.phoneandroid.ConnectivityChangeReceiver, com.innovaphone.phoneandroid.UserPresentReceiver, com.innovaphone.phoneandroid.PowerConnectedReceiver, com.innovaphone.phoneandroid.AlarmReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.innovaphone.phoneandroid.ShutdownReceiver, com.innovaphone.phoneandroid.BootCompletedReceiver, com.innovaphone.phoneandroid.ExitReceiver, com.innovaphone.phoneandroid.TimerReceiver, com.innovaphone.phoneandroid.BluetoothChangeReceiver, com.innovaphone.phoneandroid.DialIntentReceiver, com.innovaphone.phoneandroid.RemoteControlReceiver
+  Providers  (2): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3500
+  Total Methods : 19579
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode, https://goo.gl/J1sWQy, https://goo.gl/NAOOOI.
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Thomas Moedinger, Organizational Unit: Software Development, Organization: innovaphone AG, Locality: Sindelfingen, State/Province: Germany, Country: GE
+  Fingerprint : E7 64 51 E0 3A A3 5D F1 20 E7 EC F1 0E 4B D0 BD 49 15 C2 66 EA 31 4F 20 F0 D3 80 16 1F CD 0A 06
+
+==========================================

@@ -1,0 +1,65 @@
+{
+  "sha256": "00A910DE988ECFB2BAC07593C180BFB4AAACB0FB24A4A58827B984F8880A6695",
+  "filename": "00A910DE988ECFB2BAC07593C180BFB4AAACB0FB24A4A58827B984F8880A6695.apk",
+  "android_version": "Android12L",
+  "label": "benign",
+  "package_name": "aws.exam",
+  "version_name": "1.0.1",
+  "version_code": "3",
+  "min_sdk": "21",
+  "target_sdk": "32",
+  "permissions": [
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.READ_CALENDAR",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_CALENDAR",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.android.vending.BILLING",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 9,
+  "activities": [
+    "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+    "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+    "aws.exam.MainActivity",
+    "io.flutter.plugins.urllauncher.WebViewActivity",
+    "com.android.billingclient.api.ProxyBillingActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.google.android.play.core.assetpacks.ExtractionForegroundService",
+    "com.google.android.play.core.assetpacks.AssetPackExtractionService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "com.adjust.sdk.AdjustReferrerReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4389,
+  "method_count": 25175,
+  "cert_fingerprint": "68 6D F5 E9 6E 99 E4 4C D9 1A E1 2E 00 FE 52 92 DD 7C BB 2B 62 64 81 BE BD 41 57 1B 8A D3 C9 2F",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developer.android.com/reference/com/google/android/play/core/splitinstall/model/SplitInstallErrorCode.html#",
+    "https://github.com/adjust/android_sdk#can-i-trigger-an-event-at-application-launch",
+    "https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#",
+    "https://developer.android.com/guide/topics/permissions/overview"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

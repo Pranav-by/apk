@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.dmrjkj.mmflutterclient
+  SHA-256       : 00A6032701F3530045DC76F65AD577A6F0FE7415D7643AD654A3935CF8F59501
+  Android Group : Android13
+  Version       : 1.78.0 (code: 90)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (44)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, com.meizu.c2dm.permission.RECEIVE, com.dmrjkj.mmflutterclient.permission.PUSH_PROVIDER, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH
+
+[Application Components]
+  Activities (10): com.dmrjkj.mmflutterclient.MainActivity, com.huawei.hms.hmsscankit.ScanKitActivity, com.xiaomi.mipush.sdk.NotificationClickedActivity, com.huawei.hms.activity.BridgeActivity, com.umeng.message.component.UmengNotificationClickActivity, com.umeng.message.UmengOfflineMessageActivity, com.huawei.hms.activity.EnableServiceActivity, com.umeng.message.notify.UPushMessageNotifyActivity, com.huawei.hms.support.api.push.TransActivity, io.flutter.plugins.urllauncher.WebViewActivity
+  Services   (22): com.taobao.accs.internal.AccsJobService, com.ryanheise.audioservice.AudioService, org.android.agoo.accs.AgooService, com.huawei.hms.support.api.push.service.HmsMsgService, com.xiaomi.mipush.sdk.MessageHandleService, com.xiaomi.push.service.XMPushService, com.xiaomi.push.service.XMJobService, com.umeng.message.component.UmengMessageReceiverService, com.xiaomi.mipush.sdk.PushMessageHandler, com.vivo.push.sdk.service.CommandClientService, com.taobao.accs.ChannelService$KernelService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.heytap.msp.push.service.DataMessageCallbackService, com.umeng.message.component.UmengMessageHandlerService, com.meizu.cloud.pushsdk.NotificationService, com.taobao.accs.ChannelService, org.android.agoo.honor.HonorMsgService, com.huawei.agconnect.core.ServiceDiscovery, com.taobao.accs.data.MsgDistributeService, org.android.agoo.huawei.HuaweiRcvService
+  Receivers  (12): com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, org.android.agoo.xiaomi.MiPushBroadcastReceiver, dev.fluttercommunity.plus.share.SharePlusPendingIntent, org.android.agoo.mezu.MeizuPushReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.umeng.message.component.UmengNotificationReceiver, com.taobao.accs.ServiceReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, org.android.agoo.vivo.PushMessageReceiverImpl, com.huawei.hms.support.api.push.PushReceiver, com.xiaomi.push.service.receivers.PingReceiver
+  Providers  (9): com.huawei.hms.support.api.push.PushProvider, com.huawei.hms.aaid.InitProvider, com.huawei.hms.mlsdk.common.provider.MLInitializerProvider, dev.fluttercommunity.plus.share.ShareFileProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.yendoplan.openappfile.FileProvider, androidx.startup.InitializationProvider, com.umeng.message.component.UmengMessageProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 136
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Dianming, Organizational Unit: Dianming, Organization: DianmingSoft, Locality: Asia/Nanjing, State/Province: Jiangshu, Country: CN
+  Fingerprint : 10 76 50 B1 33 08 E8 CB C7 25 A0 88 73 AE 59 ED F7 92 39 08 BE A3 38 08 56 A9 26 94 65 FD 57 32
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.umairazfar.games.feedem
+  SHA-256       : 00A3B7E38B1D94A65D377094393C43D452A7128C5014CA3011C0CD62EA47086F
+  Android Group : Android14
+  Version       : 1.4 (code: 14)
+
+[SDK Information]
+  Minimum SDK   : 15
+  Target SDK    : 34
+
+[Permissions (0)]
+  none
+
+[Application Components]
+  Activities (5): com.ansca.corona.CoronaActivity, com.ansca.corona.purchasing.StoreActivity, com.ansca.corona.CameraActivity, com.ansca.corona.VideoActivity, com.ansca.corona.notifications.OnNotificationReceiverActivity
+  Services   (1): com.ansca.corona.CoronaService
+  Receivers  (3): com.ansca.corona.notifications.AlarmManagerBroadcastReceiver, com.ansca.corona.notifications.StatusBarBroadcastReceiver, com.ansca.corona.SystemStartupBroadcastReceiver
+  Providers  (2): com.ansca.corona.storage.FileContentProvider, com.ansca.corona.camera.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 674
+  Total Methods : 4155
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (6): https://github.com/coronalabs/corona, http://www.amazon.com/gp/mas/dl/android?p=, http://developer.android.com/guide/topics/security/permissions.html#permission-groups, http://maps.googleapis.com/maps/api/geocode/json?address=, http://127.0.0.1:, http://www.coronalabs.com/products/corona-sdk/?utm_source=corona-sdk&utm_medium=corona-sdk&utm_campaign=trial-popup
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Umair Azfar Khan
+  Fingerprint : 8C 18 A8 BC E4 E3 4B 63 A2 F2 9F 10 26 F7 0A 3A AD 73 D4 AC 7C 04 E1 46 11 10 0F E1 C1 70 D4 2B
+
+==========================================

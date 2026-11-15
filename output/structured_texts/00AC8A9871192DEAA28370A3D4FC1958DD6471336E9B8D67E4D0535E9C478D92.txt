@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.brainyapps.streetdrillz
+  SHA-256       : 00AC8A9871192DEAA28370A3D4FC1958DD6471336E9B8D67E4D0535E9C478D92
+  Android Group : Android12L
+  Version       : 1.0 (code: 18)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 32
+
+[Permissions (10)]
+  android.permission.CAMERA, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (30): com.android.billingclient.api.ProxyBillingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.brainyapps.streetdrillz.ui.activities.main.DragAndDropGameActivity, com.brainyapps.streetdrillz.ui.activities.start.WelcomeActivity, com.brainyapps.streetdrillz.ui.activities.reg.AboutTheAppActivity, com.brainyapps.streetdrillz.ui.activities.reg.PrivacyPolicyActivity, com.brainyapps.streetdrillz.ui.activities.main.HomeActivity, com.brainyapps.streetdrillz.ui.activities.reg.TermsAndConditionsActivity, com.brainyapps.streetdrillz.ui.activities.base.BaseActivity, com.brainyapps.streetdrillz.ui.activities.main.HowToPlayActivity, com.brainyapps.streetdrillz.ui.activities.main.AreaSelectionActivity, com.brainyapps.streetdrillz.ui.activities.main.FillInGameActivity, com.brainyapps.streetdrillz.ui.activities.start.LaunchActivity, com.brainyapps.streetdrillz.ui.activities.main.MapLocation2Activity, com.brainyapps.streetdrillz.ui.activities.main.MapLocation3Activity, com.brainyapps.streetdrillz.ui.activities.main.SettingsActivity, com.brainyapps.streetdrillz.ui.activities.main.RatingActivity, com.brainyapps.streetdrillz.ui.activities.main.FavoritesActivity, com.brainyapps.streetdrillz.ui.activities.main.CreateUserNameActivity, com.brainyapps.streetdrillz.ui.activities.main.MultiPlayersActivity
+  Services   (7): com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (4): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+  Providers  (5): com.brainyapps.streetdrillz.main.GenericFileProvider, com.squareup.picasso.PicassoProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.internal.FacebookInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14089
+  Total Methods : 90009
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : F8 96 11 3A CB 6D 0A 22 20 03 38 3A B7 DF 60 CE 0F FE 6D 5A 0B 80 19 0C D5 44 B7 E5 4C 8F 3F 00
+
+==========================================

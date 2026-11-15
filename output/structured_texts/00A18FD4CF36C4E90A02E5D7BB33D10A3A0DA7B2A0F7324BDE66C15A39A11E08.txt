@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : nl.slash2.mrchadd
+  SHA-256       : 00A18FD4CF36C4E90A02E5D7BB33D10A3A0DA7B2A0F7324BDE66C15A39A11E08
+  Android Group : Android13
+  Version       : 3.4.4 (code: 172)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (11)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.CAMERA, android.permission.VIBRATE, android.permission.INTERNET, android.permission.POST_NOTIFICATIONS, nl.slash2.mrchadd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (42): nl.slash2.mrchadd.RateChat1Activity, com.canhub.cropper.CropImageActivity, com.google.android.gms.common.api.GoogleApiActivity, nl.slash2.mrchadd.TabletActivities.CoursePickerActivityTablet, nl.slash2.mrchadd.TabletActivities.SignupActivityTablet, nl.slash2.mrchadd.TabletActivities.AskQuestionActivityTablet, nl.slash2.mrchadd.TabletActivities.RateChat1ActivityTablet, nl.slash2.mrchadd.TabletActivities.ParentInviteActivityTablet, nl.slash2.mrchadd.OnboardingWelcomeActivity, nl.slash2.mrchadd.ChatActivity, nl.slash2.mrchadd.TabletActivities.MainActivityTablet, nl.slash2.mrchadd.TabletActivities.PreLoginActivityTablet, nl.slash2.mrchadd.AskQuestionActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, nl.slash2.mrchadd.TabletActivities.OnboardingWelcomeActivityTablet, nl.slash2.mrchadd.MainActivity, nl.slash2.mrchadd.TabletActivities.ProfileActivityTablet, nl.slash2.mrchadd.EntreeFederatieAuthActivity, nl.slash2.mrchadd.TabletActivities.CourseManageActivityTablet, nl.slash2.mrchadd.OnboardingSelectActivity
+  Services   (10): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, nl.slash2.mrchadd.Service.StreamService, nl.slash2.mrchadd.Firebase.FirebaseListenerService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService
+  Receivers  (4): nl.slash2.mrchadd.ApplicationSelectorReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (4): com.canhub.cropper.CropFileProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8226
+  Total Methods : 56517
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://goo.gl/J1sWQy, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Mr Chadd, Organizational Unit: SLASH2, Organization: SLASH2, Locality: Groningen, State/Province: Groningen, Country: 31
+  Fingerprint : 45 04 54 B8 AA E3 A5 55 19 ED EE 8F CD 2F 47 CE A2 3F 96 BD B3 A9 95 27 37 16 43 92 54 DB E9 BC
+
+==========================================

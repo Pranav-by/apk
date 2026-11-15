@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.vvl.client
+  SHA-256       : 000A6A38FED1A2A6C140C11A473EE14A678D66F0C1AB3195EFAD58C9D2D0B185
+  Android Group : Android15
+  Version       : 3.26.2.2 (code: 109)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 35
+
+[Permissions (20)]
+  android.permission.VIBRATE, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_MEDIA_LOCATION, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.vvl.client.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (32): com.vvl.client.city_selection.CitySelectionActivity, com.vvl.client.payment.payment_list.PaymentActivity, com.vvl.client.worker_selection.WorkerSelectionActivity, com.vvl.client.tracking.detail_order.DetailOrderActivity, com.vvl.client.tracking.TrackingActivity, com.vvl.client.favorite_address.address_edit.AddressEditActivity, com.vvl.client.favorite_address.OwnAddressActivity, com.vvl.client.login.LoginActivity, com.vvl.client.ui.other.about_app.AboutAppActivity, com.vvl.client.order_history.OrdersActivity, com.vvl.client.country_selection.CountryActivity, com.vvl.client.ui.other.browse.BrowseActivity, com.vvl.client.news.screen.NewsActivity, com.vvl.client.profile.ProfileActivity, com.vvl.client.ui.other.PermissionActivity, com.vvl.client.map_selection.MapActivity, com.vvl.client.onboarding.WelcomeActivity, com.vvl.client.order_schedule.calendar.CalendarActivity, com.vvl.client.referral_system.ReferralActivity, com.vvl.client.shop.search_items.SearchProductActivity
+  Services   (15): com.vvl.client.FirebaseListenerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.yandex.runtime.connectivity.internal.ConnectivityService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementService, androidx.appcompat.app.AppLocalesMetadataHolderService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (13): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.vvl.client.data.broadcast.SmsBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 16726
+  Total Methods : 82017
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#, https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Unknown, Organizational Unit: Unknown, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: RU
+  Fingerprint : 69 C9 10 44 F0 60 01 83 55 3B 9B 45 F7 AC 46 E0 21 48 8A DA 5C 51 42 B1 2D C6 A4 7B D0 C6 87 96
+
+==========================================

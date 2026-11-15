@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.campfiremobile
+  SHA-256       : 008AE88A35411240361331E51220D33DC4A9CDAA4E559287FC94872FE9919DE2
+  Android Group : Android13
+  Version       : 1.0.50 (code: 108)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (7)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (3): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.campfiremobile.MainActivity
+  Services   (4): com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+  Receivers  (1): com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (7): com.google.mlkit.common.internal.MlKitInitProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, com.imagepicker.ImagePickerProvider, io.sentry.android.core.SentryPerformanceProvider, com.vinzscam.reactnativefileviewer.FileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 14813
+  Total Methods : 91204
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://raw.githubusercontent.com/drewnoakes/metadata-extractor-images/master/%s, http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  IP Addresses(3): 10.0.2.2, 10.0.1.1, 10.0.3.2
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 35 AF EA 5F 44 68 7E 3A 8A AF 72 68 87 E1 F2 94 17 FF 49 61 EF 45 D6 51 E0 C3 E9 92 8E D7 38 50
+
+==========================================

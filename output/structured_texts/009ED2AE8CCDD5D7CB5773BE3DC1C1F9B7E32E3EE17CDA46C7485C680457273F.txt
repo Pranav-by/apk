@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.texplay
+  SHA-256       : 009ED2AE8CCDD5D7CB5773BE3DC1C1F9B7E32E3EE17CDA46C7485C680457273F
+  Android Group : Android12L
+  Version       : 1.7.5 (code: 10)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (25)]
+  android.permission.VIBRATE, android.permission.WRITE_INTERNAL_STORAGE, com.android.vending.CHECK_LICENSE, android.permission.WRITE_SETTINGS, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permifControllerActivityssion.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.EXPAND_STATUS_BAR
+
+[Application Components]
+  Activities (115): com.texplay.ui.settings.SettingsActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, com.texplay.ui.streaming.StreamingetailsActivity, com.appodeal.ads.TestActivity, com.texplay.ui.moviedetails.MovieDetailsActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, com.ogury.cm.ConsentActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.applovin.mediation.MaxDebuggerAdUnitsListActivity, com.appnext.ads.interstitial.InterstitialActivity, com.my.target.common.MyTargetActivity, com.stripe.android.view.AddPaymentMethodActivity, com.paypal.authcore.authentication.TokenActivity, com.android.billingclient.api.ProxyBillingActivity, com.github.dhaval2404.imagepicker.ImagePickerActivity, com.ironsource.sdk.controller.ControllerActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.facebook.FacebookActivity
+  Services   (25): com.startapp.sdk.cachedservice.BackgroundService, com.startapp.sdk.jobs.SchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.applovin.impl.adview.activity.FullscreenAdService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.texplay.ui.notifications.NotificationManager, io.presage.common.profig.schedule.ProfigSyncIntentService, com.texplay.ui.downloadmanager.service.DownloadService, io.presage.common.profig.schedule.ProfigJobService, org.acra.sender.LegacySenderService, org.acra.sender.JobSenderService, com.google.android.gms.cast.framework.media.MediaNotificationService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (21): io.presage.common.profig.schedule.ProfigAlarmReceiver, com.ogury.core.internal.OguryLogEnablerReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.texplay.ui.downloadmanager.receiver.BootReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.texplay.ui.downloadmanager.receiver.NotificationReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (20): com.startapp.sdk.adsbase.StartAppInitProvider, com.appodeal.ads.ApdContentProvider, com.cardinalcommerce.shared.cs.utils.CCInitProvider, com.appodeal.ads.services.crash_hunter.ApdCrashHunterContentProvider, com.appodeal.ads.services.event_service.ApdEventContentProvider, com.my.target.common.MyTargetContentProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, androidx.core.content.FileProvider, org.acra.attachment.AcraContentProvider, com.github.dhaval2404.imagepicker.ImagePickerFileProvider, com.appodeal.ads.adapters.bidmachine.ApdBidMachineContentProvider, com.squareup.picasso.PicassoProvider, com.vungle.warren.utility.VungleProvider, com.facebook.internal.FacebookInitProvider, com.applovin.sdk.AppLovinInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.facebook.ads.AudienceNetworkContentProvider, com.download.library.DownloadFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 51260
+  Total Methods : 291086
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://goo.gle/compose-feedback, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(8): 6.11.0.1, 2.6.6.473, 2.11.1.4, 6.11.0.2, 7.2.1.1, 2.11.1.1, 4.2.1.0, 20.6.0.11
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D2 51 5C C4 DA C8 A5 49 13 0B 08 DB 59 BC 82 B4 00 4A FF D7 2A FC B3 18 E5 DE AF B5 97 E4 F4 9C
+
+==========================================

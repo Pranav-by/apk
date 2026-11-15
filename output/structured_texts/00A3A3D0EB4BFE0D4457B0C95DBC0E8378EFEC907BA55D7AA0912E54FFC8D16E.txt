@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bbar.vegasbr
+  SHA-256       : 00A3A3D0EB4BFE0D4457B0C95DBC0E8378EFEC907BA55D7AA0912E54FFC8D16E
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (26)]
+  android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, me.everything.badger.permission.BADGE_COUNT_READ, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.ACCESS_WIFI_STATE, com.bbar.vegasbr.permission.C2D_MESSAGE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.htc.launcher.permission.UPDATE_SHORTCUT, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, com.majeur.launcher.permission.UPDATE_BADGE
+
+[Application Components]
+  Activities (7): com.facebook.FacebookActivity, com.google.android.gms.common.api.GoogleApiActivity, com.onesignal.NotificationOpenedActivityHMS, com.facebook.CustomTabActivity, com.facebook.CustomTabMainActivity, com.onesignal.PermissionsActivity, com.bbar.vegasbr.ui.MainActivity
+  Services   (14): com.onesignal.RestoreKickoffJobService, com.google.android.gms.measurement.AppMeasurementService, com.onesignal.GcmIntentJobService, com.onesignal.RestoreJobService, com.google.firebase.messaging.FirebaseMessagingService, com.onesignal.SyncService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.onesignal.SyncJobService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.onesignal.NotificationRestoreService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.GcmIntentService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (8): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.onesignal.GcmBroadcastReceiver, com.onesignal.BootUpReceiver, com.onesignal.UpgradeReceiver, com.onesignal.NotificationOpenedReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4863
+  Total Methods : 21728
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://developers.facebook.com/docs/android/getting-started, https://goo.gl/J1sWQy, https://goo.gl/NAOOOI.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1C 70 C5 6E 5D 29 52 69 BE B4 A4 2F 70 49 69 4C 71 25 13 91 60 2F 5C CA 6A EA DD 2A 00 34 6F 63
+
+==========================================

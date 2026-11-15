@@ -1,0 +1,78 @@
+{
+  "sha256": "00A7BAA85E628ACFFA2B919F59377FF67E320C557251845BED6D7505EA0954C2",
+  "filename": "00A7BAA85E628ACFFA2B919F59377FF67E320C557251845BED6D7505EA0954C2.apk",
+  "android_version": "Android13",
+  "label": "benign",
+  "package_name": "com.gpayback",
+  "version_name": "1.0.3",
+  "version_code": "8",
+  "min_sdk": "21",
+  "target_sdk": "33",
+  "permissions": [
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permission_count": 15,
+  "activities": [
+    "com.gpayback.MainActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.yalantis.ucrop.UCropActivity",
+    "com.jakewharton.processphoenix.ProcessPhoenix"
+  ],
+  "activity_count": 4,
+  "services": [
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.measurement.AppMeasurementService",
+    "androidx.camera.core.impl.MetadataHolderService",
+    "com.google.android.gms.measurement.AppMeasurementJobService"
+  ],
+  "service_count": 4,
+  "receivers": [
+    "com.google.android.gms.measurement.AppMeasurementReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider",
+    "com.imagepicker.ImagePickerProvider",
+    "com.reactnativecommunity.webview.RNCWebViewFileProvider",
+    "com.google.firebase.provider.FirebaseInitProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 3,
+  "class_count": 19623,
+  "method_count": 128592,
+  "cert_fingerprint": "A0 C1 FA 4F 32 C4 7C BD 0C 1A 93 BA 59 AB FA FE 01 59 63 53 6F 81 67 AA 87 88 C6 F2 90 AE AD BC",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "10.0.1.1",
+    "10.0.3.2",
+    "10.0.2.2"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 1
+}

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : app.citta.insurance.agent
+  SHA-256       : 00A29ADBB78C72B3E3692638B098D6E5D35BEB86020126188327B8A67C40AC55
+  Android Group : Android14
+  Version       : 1.1.48 (code: 58)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (16)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_MEDIA_IMAGES, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, app.citta.insurance.agent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, android.permission.CAMERA, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (121): app.citta.insurance.agent.Activity.WalletClaimPaper, app.citta.insurance.agent.PremiumCalculation.Engineering.MachineryLossProfit, app.citta.insurance.agent.Activity.UploadPremiumRegister, app.citta.insurance.agent.PremiumCalculation.Engineering.ErectionAllRisk, app.citta.insurance.agent.Activity.NotificationManagement, app.citta.insurance.agent.PremiumCalculation.Engineering.ElectronicEquipment, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, app.citta.insurance.agent.Activity.ShareWalletImage, app.citta.insurance.agent.PremiumCalculation.Engineering.MachineryBreakdown, app.citta.insurance.agent.PremiumCalculation.PackageCover.MedicalEstablishment, app.citta.insurance.agent.Activity.AgentRegistration, app.citta.insurance.agent.PremiumCalculation.Engineering.ContractorPlanAndMachinery, app.citta.insurance.agent.Activity.WalletPolicy, app.citta.insurance.agent.PremiumCalculation.PackageCover.JewellersBlock, app.citta.insurance.agent.PremiumCalculation.Engineering.BoilerPressurePlant, app.citta.insurance.agent.PremiumCalculation.Engineering.ContractorAllRisk, app.citta.insurance.agent.PremiumCalculation.PackageCover.BankersIndemnity, app.citta.insurance.agent.PremiumCalculation.PackageCover.LPGDealer, app.citta.insurance.agent.PremiumCalculation.PackageCover.OfficeProtectionProfessional, app.citta.insurance.agent.PremiumCalculation.PackageCover.RastaAapatiKavach
+  Services   (9): com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, app.citta.insurance.agent.App.SyncDataOnlineService, com.google.android.gms.auth.api.signin.RevocationBoundService, app.citta.insurance.agent.App.SyncDataBackgroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  Receivers  (4): com.razorpay.RzpTokenReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, app.citta.insurance.agent.App.InternetConnector_Receiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (2): androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 18348
+  Total Methods : 122631
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(2): 127.0.0.1, 184.171.175.211
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : CD 18 18 7C CF 24 82 E5 59 54 9E 22 AC 16 18 AA D5 E0 BD 0E EA A8 3E DA C9 6A B1 50 07 9C 68 4F
+
+==========================================

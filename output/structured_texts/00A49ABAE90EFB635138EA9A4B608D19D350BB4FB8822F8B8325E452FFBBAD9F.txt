@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.physiotutors.app
+  SHA-256       : 00A49ABAE90EFB635138EA9A4B608D19D350BB4FB8822F8B8325E452FFBBAD9F
+  Android Group : Android14
+  Version       : 1.2.6 (code: 139)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (42)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, android.permission.USE_BIOMETRIC, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_CALENDAR, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_CALENDAR, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, com.android.vending.BILLING, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW
+
+[Application Components]
+  Activities (11): com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.physiotutors.app.MainActivity, com.facebook.react.devsupport.DevSettingsActivity, com.facebook.FacebookActivity, com.facebook.CustomTabMainActivity, com.facebook.CustomTabActivity, com.canhub.cropper.CropImageActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, expo.modules.notifications.service.NotificationForwarderActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (10): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.metadata.ModuleDependencies, com.doublesymmetry.trackplayer.service.MusicService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, expo.modules.notifications.service.ExpoFirebaseMessagingService, com.google.firebase.messaging.FirebaseMessagingService
+  Receivers  (7): com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, expo.modules.notifications.service.NotificationsService, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (9): androidx.startup.InitializationProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider, com.canhub.cropper.CropFileProvider, expo.modules.clipboard.ClipboardFileProvider, io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider, expo.modules.imagepicker.fileprovider.ImagePickerFileProvider, expo.modules.filesystem.FileSystemFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 28609
+  Total Methods : 181965
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://developers.facebook.com/docs/android/getting-started#add-app_id
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 41 01 7B 5C DE 39 3F 92 AF 0C 1D 2D 64 F1 6C F3 23 B1 90 2F FA 7B 9B 3A AC CF DC 9B 48 C3 FF AC
+
+==========================================

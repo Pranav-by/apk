@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cosmicmobile.app.diamond.dottodot.number.coloring.drawing.relax.pictures
+  SHA-256       : 00A0B8E3B1D546058D947C77BF761DAD88E02232D0BA75A3D612BCE4DA22FCB9
+  Android Group : Android16
+  Version       : 1.0.1.94 (code: 101094)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.SET_WALLPAPER, android.permission.VIBRATE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.cosmicmobile.app.diamond.dottodot.number.coloring.drawing.relax.pictures.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (28): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.camocode.android.crosspromo.AdInterstitial, com.cosmicmobile.app.diamond.dottodot.number.coloring.drawing.relax.pictures.wallpaper.WallpaperPreferenceActivity, com.camocode.android.ads.gdpr.GdprChildActivity, com.google.android.gms.ads.AdActivity, com.camocode.gallery_library.activities.PublicGalleryActivity, com.camocode.android.ads.gdpr.GdprActivity, com.google.android.ads.mediationtestsuite.activities.HomeActivity, com.google.android.ads.mediationtestsuite.activities.ConfigurationItemsSearchActivity, com.google.android.ads.mediationtestsuite.activities.NetworkDetailActivity, com.blankj.utilcode.util.UtilsTransActivity, com.cosmicmobile.app.diamond.dottodot.number.coloring.drawing.relax.pictures.AndroidLauncher, com.blankj.utilcode.util.UtilsTransActivity4MainProcess, com.android.billingclient.api.ProxyBillingActivityV2, com.google.android.ads.mediationtestsuite.activities.ConfigurationItemDetailActivity, com.android.billingclient.api.ProxyBillingActivity
+  Services   (19): com.google.android.gms.ads.AdService, com.cosmicmobile.app.diamond.dottodot.number.coloring.drawing.relax.pictures.wallpaper.WallpaperService, com.google.android.gms.analytics.AnalyticsService, com.camocode.android.messaging.service.CMFirebaseMessagingService, com.camocode.android.messaging.service.DelayedBroadcastService, com.blankj.utilcode.util.MessengerUtils$ServerService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsJobService, androidx.credentials.playservices.CredentialProviderMetadataHolder, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (16): com.cosmicmobile.app.diamond.dottodot.number.coloring.drawing.relax.pictures.messaging.MessagingReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.analytics.AnalyticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.gms.analytics.CampaignTrackingReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (6): com.blankj.utilcode.util.UtilsFileProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 29982
+  Total Methods : 176619
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://developers.facebook.com/docs/sharing/android, https://issuetracker.google.com/issues/241760537
+  IP Addresses(3): 127.0.0.255, 1.0.1.94, 223.5.5.5
+
+[Certificate]
+  Issuer      : Common Name: CAMO CODE, Organizational Unit: CAMO CODE DEVELOPMENT TEAM, Organization: CAMO CODE, Locality: Warsaw, State/Province: Mazowickie, Country: PL
+  Fingerprint : 4F 12 7E CB B5 B6 B3 92 8A 77 FF EF 2D 05 BF D1 83 BA D0 EB D0 F0 A3 83 A3 02 E2 79 28 46 78 1A
+
+==========================================

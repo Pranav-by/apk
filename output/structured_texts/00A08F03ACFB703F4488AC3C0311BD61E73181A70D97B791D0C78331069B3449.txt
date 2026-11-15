@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.pawp.android
+  SHA-256       : 00A08F03ACFB703F4488AC3C0311BD61E73181A70D97B791D0C78331069B3449
+  Android Group : Android13
+  Version       : 1.0.8 (39) (code: 39)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (15)]
+  android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.RECORD_AUDIO, android.permission.CAMERA, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (40): com.stripe.android.view.PaymentAuthWebViewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.stripe.android.googlepaylauncher.GooglePayLauncherActivity, io.intercom.android.sdk.activities.IntercomVideoActivity, io.intercom.android.sdk.activities.IntercomSheetActivity, com.stripe.android.paymentsheet.PaymentSheetActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, com.stripe.android.paymentsheet.addresselement.AddressElementActivity, com.stripe.android.view.AddPaymentMethodActivity, androidx.compose.ui.tooling.PreviewActivity, com.stripe.android.view.PaymentMethodsActivity, io.intercom.android.sdk.activities.IntercomPostActivity, com.stripe.android.view.PaymentFlowActivity, com.stripe.android.ui.core.cardscan.CardScanActivity, com.stripe.android.view.PaymentRelayActivity, io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, com.google.android.gms.common.api.GoogleApiActivity, com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity
+  Services   (14): com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.pawp.android.notification.NotificationService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemjob.SystemJobService, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (13): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (6): androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryPerformanceProvider, io.sentry.android.core.SentryInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 32270
+  Total Methods : 154498
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (4): https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://goo.gle/compose-feedback
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 53 59 37 1C C8 D7 BC F6 60 86 74 80 74 63 F4 54 F2 92 92 2A 12 0D 27 17 D6 2B 66 36 F4 F5 CF CF
+
+==========================================

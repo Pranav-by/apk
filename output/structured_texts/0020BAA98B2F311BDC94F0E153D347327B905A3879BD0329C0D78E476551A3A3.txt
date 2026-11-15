@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.oh.brop
+  SHA-256       : 0020BAA98B2F311BDC94F0E153D347327B905A3879BD0329C0D78E476551A3A3
+  Android Group : Android12L
+  Version       : 1.5.2 (code: 48)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.FOREGROUND_SERVICE, android.permission.EXPAND_STATUS_BAR, com.android.launcher.permission.INSTALL_SHORTCUT, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, com.android.vending.CHECK_LICENSE
+
+[Application Components]
+  Activities (4): com.oh.brop.activity.MainActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (5): com.oh.brop.downloads.OHDownloadService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.jp.adblock.service.AbpUpdateService, com.google.android.play.core.assetpacks.ExtractionForegroundService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (1): com.tonyodev.fetch2.FetchNotificationBroadcastReceiver
+  Providers  (2): androidx.startup.InitializationProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 5021
+  Total Methods : 31561
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Jayachithta; Organizational Unit: Dev; Organization: Android; Street Address: 11/8, Ezhil Nagar, Round Road Pudhur,; Locality: Dindigul; State/Province: Tamilnadu; Country: 91
+  Fingerprint : 01 17 8C F1 23 CD 7C A6 DA 4B C8 6F 14 80 9C 0E 7B 57 0F F6 23 5E CB 76 83 FE CC 44 3D 2B A6 38
+
+==========================================

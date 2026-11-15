@@ -1,0 +1,64 @@
+{
+  "sha256": "00A011FAFFF88AB0A4091A5AD7CF1A60ED117E1B3B6A246AA54ABDDB11B358C8",
+  "filename": "00A011FAFFF88AB0A4091A5AD7CF1A60ED117E1B3B6A246AA54ABDDB11B358C8.apk",
+  "android_version": "Android12",
+  "label": "benign",
+  "package_name": "io.kodular.rutskin_sakhalin1978.Tehnikasakhalina",
+  "version_name": "1.1.1",
+  "version_code": "3",
+  "min_sdk": "21",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "permission_count": 5,
+  "activities": [
+    "io.kodular.rutskin_sakhalin1978.Tehnikasakhalina.Screen1"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 4820,
+  "method_count": 41155,
+  "cert_fingerprint": "84 1B E8 EF 6C B1 DD E0 BE F6 2A 40 15 AE 25 62 43 39 BF 77 14 FC D9 49 DD 3D 9A 4E 6E D5 DF 0A",
+  "cert_issuer": "Common Name: rutskin.sakhalin1978@gmail.com, Organization: AppInventor for Android, Country: US",
+  "urls": [
+    "https://developer.amazon.com.",
+    "http://www.twitter.com",
+    "http://www.google.com/AdMob",
+    "https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html",
+    "https://www.kodular.io",
+    "https://en.wikipedia.org/wiki/GeoJSON",
+    "http://www.facebook.com",
+    "https://en.wikipedia.org/wiki/Tesla_(unit).",
+    "http://developer.android.com/guide/appendix/media-formats.html",
+    "http://twitter.com/oauth_clients/new",
+    "https://code.google.com/apis/console/",
+    "https://developers.google.com/fusiontables/docs/v2/getting_started"
+  ],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

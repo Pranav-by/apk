@@ -1,0 +1,88 @@
+{
+  "sha256": "00AED02142A320A516EDD1AD3B9FAFC5A3900FBBF188D7BE568F8AC2CEC56BE6",
+  "filename": "00AED02142A320A516EDD1AD3B9FAFC5A3900FBBF188D7BE568F8AC2CEC56BE6.apk",
+  "android_version": "Android14",
+  "label": "malicious",
+  "package_name": "com.togetherontheroadteam.neverhaveiever",
+  "version_name": "2.0.0",
+  "version_code": "18",
+  "min_sdk": "22",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.WAKE_LOCK",
+    "com.android.vending.BILLING",
+    "com.google.android.gms.permission.AD_ID"
+  ],
+  "permission_count": 6,
+  "activities": [
+    "com.facebook.unity.FBUnityDialogsActivity",
+    "com.google.firebase.auth.internal.GenericIdpActivity",
+    "com.android.billingclient.api.ProxyBillingActivity",
+    "spacemadness.com.lunarconsole.settings.PluginSettingsActivity",
+    "com.facebook.unity.FBUnityLoginActivity",
+    "com.facebook.unity.FBUnityGameRequestActivity",
+    "com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity",
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.facebook.CustomTabActivity",
+    "com.facebook.unity.FBUnityDeepLinkingActivity",
+    "com.facebook.CustomTabMainActivity",
+    "com.facebook.unity.FBUnityAppLinkActivity",
+    "com.google.android.gms.common.api.GoogleApiActivity",
+    "com.facebook.FacebookActivity",
+    "com.google.firebase.auth.internal.RecaptchaActivity",
+    "com.facebook.unity.FBUnityGamingServicesFriendFinderActivity"
+  ],
+  "activity_count": 16,
+  "services": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+    "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+    "com.google.firebase.components.ComponentDiscoveryService",
+    "com.google.android.gms.measurement.AppMeasurementJobService",
+    "com.google.android.gms.measurement.AppMeasurementService"
+  ],
+  "service_count": 5,
+  "receivers": [
+    "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+    "com.google.android.gms.measurement.AppMeasurementReceiver",
+    "com.amazon.device.iap.ResponseReceiver",
+    "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+    "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+  ],
+  "receiver_count": 5,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "com.google.firebase.provider.FirebaseInitProvider",
+    "com.facebook.FacebookContentProvider",
+    "com.facebook.internal.FacebookInitProvider"
+  ],
+  "provider_count": 4,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 12391,
+  "method_count": 82627,
+  "cert_fingerprint": "DB E0 C5 1B 0D DE DB 28 A1 72 18 E9 38 CE 6C E8 70 1C 61 FF E7 9D 10 53 4B F6 79 DA 24 DC 29 05",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://developers.facebook.com/docs/sharing/android",
+    "https://developers.facebook.com/docs/android/getting-started#add-app_id",
+    "https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988",
+    "https://firebase.google.com/support/guides/disable-analytics"
+  ],
+  "ip_addresses": [
+    "2.9.0.0",
+    "2.10.1.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 1,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

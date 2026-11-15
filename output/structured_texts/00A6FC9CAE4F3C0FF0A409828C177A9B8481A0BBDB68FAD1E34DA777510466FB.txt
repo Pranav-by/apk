@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.comdirect.phototan
+  SHA-256       : 00A6FC9CAE4F3C0FF0A409828C177A9B8481A0BBDB68FAD1E34DA777510466FB
+  Android Group : Android13
+  Version       : 8.11.0 (code: 81342)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 33
+
+[Permissions (12)]
+  android.permission.USE_BIOMETRIC, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, com.comdirect.phototan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.VIBRATE, android.permission.CAMERA, android.permission.INTERNET, android.permission.USE_FINGERPRINT, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (19): de.comdirect.phototan.activity.settings.SettingsActivity, de.comdirect.phototan.activity.upgrade.UpgradeActivity, de.comdirect.phototan.activity.activation.ActivationActivity, de.comdirect.phototan.activity.home.HomeActivity, com.google.android.gms.common.api.GoogleApiActivity, gj.dAa, de.comdirect.phototan.activity.legalInfo.LegalInfoActivity, de.comdirect.phototan.activity.onboarding.OnboardingActivity, de.comdirect.phototan.activity.decommission.DecommissionActivity, gj.vQ, de.comdirect.phototan.activity.transaction.TransactionActivity, de.comdirect.phototan.activity.appLock.AppLockActivity, de.comdirect.phototan.activity.start.StartActivity, de.comdirect.phototan.activity.confirmLogin.ConfirmLoginActivity, gj.Dy, de.comdirect.phototan.activity.scan.ScanActivity, de.comdirect.phototan.activity.changePassword.ChangePasswordActivity, gj.Uq, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (11): com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemjob.SystemJobService, de.comdirect.phototan.domain.fcm.MessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, gj.gAa, androidx.camera.core.impl.MetadataHolderService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 25466
+  Total Methods : 174964
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Malte Siedenburg, Organizational Unit: Produktmanagement & Treasury, Organization: comdirect bank AG, Locality: Quickborn, State/Province: Germany  / Deutschland, Country: DE
+  Fingerprint : 8F EF 54 18 47 9F 56 B2 77 76 CD 91 14 E1 7D DA 26 31 E1 8A 93 58 DA 90 FD 5B 1F 23 47 2A 60 3F
+
+==========================================

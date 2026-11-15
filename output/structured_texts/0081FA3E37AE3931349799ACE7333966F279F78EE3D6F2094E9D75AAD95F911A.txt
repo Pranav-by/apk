@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.craft.good.vip.build.builder
+  SHA-256       : 0081FA3E37AE3931349799ACE7333966F279F78EE3D6F2094E9D75AAD95F911A
+  Android Group : Android12L
+  Version       : 291066 (code: 291066)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 32
+
+[Permissions (12)]
+  com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.READ_CONTACTS, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.GET_ACCOUNTS, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (54): com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.mbridge.msdk.activity.MBCommonActivity, com.unity3d.player.Starter, com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.mbridge.msdk.out.LoadingActivity, com.applovin.sdk.AppLovinWebViewActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity, com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.microsoft.xal.browser.WebKitWebViewController, com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity
+  Services   (12): com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.play.core.assetpacks.ExtractionForegroundService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (6): com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 35882
+  Total Methods : 212771
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(2): 5.2.0.6, 1.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: Alexander Zani, Organizational Unit: DE, Organization: MO, Country: US
+  Fingerprint : 40 70 BA BF 6E 02 86 4F A6 C5 D2 F0 37 F2 52 E2 20 39 2B FF 1E 2F C6 1B F4 75 98 D2 85 3D 87 F1
+
+==========================================

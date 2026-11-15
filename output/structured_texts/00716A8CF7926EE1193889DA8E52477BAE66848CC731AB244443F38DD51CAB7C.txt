@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.csheryi.xzapp
+  SHA-256       : 00716A8CF7926EE1193889DA8E52477BAE66848CC731AB244443F38DD51CAB7C
+  Android Group : Android15
+  Version       : 1.0.0 (code: 100)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 35
+
+[Permissions (17)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_MEDIA_VIDEO, android.permission.ACCESS_NETWORK_STATE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_MEDIA_IMAGES, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.INTERNET, android.permission.VIBRATE, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, com.vivo.notification.permission.BADGE_ICON, com.asus.msa.SupplementaryDID.ACCESS, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.READ_MEDIA_VISUAL_USER_SELECTED, android.permission.INSTALL_PACKAGES, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (10): io.dcloud.WebAppActivity, io.dcloud.feature.gallery.imageedit.IMGEditActivity, io.dcloud.ProcessMediator, io.dcloud.feature.nativeObj.photoview.PhotoActivity, com.dmcbig.mediapicker.PreviewActivity, com.dmcbig.mediapicker.PickerActivity, io.dcloud.sdk.activity.WebViewActivity, io.dcloud.PandoraEntry, io.dcloud.PandoraEntryActivity, io.dcloud.WebviewActivity
+  Services   (1): io.dcloud.sdk.base.service.DownloadService
+  Receivers  (0): none
+  Providers  (2): io.dcloud.common.util.DCloud_FileProvider, io.dcloud.sdk.base.service.provider.DCloudAdFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5702
+  Total Methods : 42568
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): https://ask.dcloud.net.cn/article/35058, https://ask.dcloud.net.cn/article/282
+  IP Addresses(1): 1.0.0.0
+
+[Certificate]
+  Issuer      : Common Name: yourcomname, Organizational Unit: IT, Organization: yourcomname, Country: CN
+  Fingerprint : F8 73 F4 9C 32 50 C2 59 98 7D 39 2E A1 5A AE DF 4D 94 96 ED A0 FA 88 47 6E EC A8 51 10 A5 3A 6D
+
+==========================================

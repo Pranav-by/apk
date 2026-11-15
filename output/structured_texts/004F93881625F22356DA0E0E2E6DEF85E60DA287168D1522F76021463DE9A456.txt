@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.gokids.farm
+  SHA-256       : 004F93881625F22356DA0E0E2E6DEF85E60DA287168D1522F76021463DE9A456
+  Android Group : Android14
+  Version       : 7.0.2 (code: 7000002)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (10)]
+  android.permission.ACCESS_NETWORK_STATE, com.gokids.farm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_DATA_SYNC, android.permission.USE_BIOMETRIC, android.permission.WAKE_LOCK, com.android.vending.BILLING
+
+[Application Components]
+  Activities (26): com.sdkit.paylib.paylibnative.ui.activity.PaylibNativeActivity, com.ironsource.sdk.controller.ControllerActivity, ru.rustore.sdk.billingclient.presentation.RuStoreBillingClientActivity, com.ironsource.sdk.controller.OpenUrlActivity, com.android.billingclient.api.ProxyBillingActivity, com.google.firebase.auth.internal.GenericIdpActivity, com.google.firebase.auth.internal.RecaptchaActivity, com.inmobi.ads.rendering.InMobiAdActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.unity3d.ads.adplayer.FullScreenWebViewDisplay, com.google.android.gms.common.api.GoogleApiActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.google.android.gms.ads.AdActivity, com.gokids.farm.RunnerActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.ironsource.mediationsdk.testSuite.TestSuiteActivity, com.google.android.gms.ads.NotificationHandlerActivity, com.kidoz.sdk.api.ui_views.interstitial.KidozAdActivity
+  Services   (16): io.appmetrica.analytics.internal.AppMetricaService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementService, ru.rustore.sdk.metrics.internal.presentation.SendMetricsEventJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.yandex.metrica.MetricaService
+  Receivers  (11): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (7): io.appmetrica.analytics.internal.PreloadInfoContentProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.yandex.metrica.PreloadInfoContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 25565
+  Total Methods : 125149
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (9): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted, https://developers.google.com/tink/faq/registration_errors, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: oki, Organizational Unit: Development, Organization: Entertainment Warehouse, Locality: Moscow, Country: RU
+  Fingerprint : F7 AD 06 A3 CA 73 1E F9 A0 57 D2 F9 27 69 49 E6 B5 54 20 2A CC 07 BC 76 E5 A2 55 D2 9D 6E 30 29
+
+==========================================

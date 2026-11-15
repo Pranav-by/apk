@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.beiwan.spectrum
+  SHA-256       : 00322D17E8C0D693FA7CC93355DABCECA7BB226AED224D25A9977D4E703579BD
+  Android Group : Android14
+  Version       : 1.0.5 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 34
+
+[Permissions (36)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_AUDIO, android.permission.READ_MEDIA_IMAGES, android.permission.MOUNT_UNMOUNT_FILESYSTEMS, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.ACCESS_BACKGROUND_LOCATION, android.permission.GET_TASKS, android.permission.CHANGE_NETWORK_STATE, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, com.beiwan.spectrum.permission.PROCESS_PUSH_MSG, android.permission.RECEIVE_USER_PRESENT, com.beiwan.spectrum.permission.MIPUSH_RECEIVE, android.permission.QUERY_ALL_PACKAGES
+
+[Application Components]
+  Activities (108): com.beiwan.spectrum.activity.message.CallPointSaveActivity, com.beiwan.spectrum.activity.studyplan.DiscussDetailActivity, com.beiwan.spectrum.activity.studyplan.DiscussEditActivity, com.beiwan.spectrum.activity.teachers.resources.ResQuestionDownloadActivity, com.beiwan.spectrum.ui.schedule.work.student.PlanStudentWorkDetailActivity, com.tencent.connect.common.AssistActivity, com.beiwan.spectrum.ui.account.LoginActivity, com.beiwan.spectrum.testdemo.TestQiniuUploadActivity, com.beiwan.spectrum.ui.operation.CityListActivity, com.beiwan.spectrum.activity.teachers.PlanTeacherFeedbacListkActivity, com.beiwan.spectrum.testdemo.TestFileChooserActivity, com.beiwan.spectrum.activity.message.CallActivity, com.beiwan.spectrum.ui.schedule.work.student.PlanStudentWorkEditActivity, com.beiwan.spectrum.activity.teachers.resources.ResQuestionActivity, com.beiwan.spectrum.ui.schedule.work.WorkFileListActivity, com.beiwan.spectrum.activity.home3.res.Main200ResActivity, com.beiwan.spectrum.activity.todo.TodoActivity, com.beiwan.spectrum.ui.schedule.work.teacher.PlanTeacherWorkEditActivity, com.beiwan.spectrum.activity.todo.TeacherTodoActivity, com.beiwan.spectrum.ui.spectrum.my.MyScheduleListActivity
+  Services   (20): com.xiaomi.mipush.sdk.PushMessageHandler, com.vivo.push.sdk.service.CommandClientService, com.xiaomi.mipush.sdk.MessageHandleService, com.beiwan.spectrum.service.ScreenShotService, cn.jpush.android.service.PluginOppoPushService, com.beiwan.spectrum.service.XiangZhiService, com.heytap.msp.push.service.CompatibleDataMessageCallbackService, com.beiwan.spectrum.service.XiangzhiMessageReceiver520, com.heytap.msp.push.service.DataMessageCallbackService, cn.jpush.android.service.DaemonService, com.beiwan.spectrum.service.MyHWPushService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, cn.jpush.android.service.PushService, com.huawei.hms.support.api.push.service.HmsMsgService, com.huawei.agconnect.core.ServiceDiscovery, cn.jpush.android.service.PluginHuaweiPlatformsService, com.xiaomi.push.service.XMJobService, com.xiaomi.push.service.XMPushService
+  Receivers  (12): cn.jpush.android.service.PluginXiaomiPlatformsReceiver, androidx.profileinstaller.ProfileInstallReceiver, cn.jpush.android.service.PushReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, cn.jpush.android.service.AlarmReceiver, cn.jpush.android.service.SchedulerReceiver, cn.jpush.android.asus.AsusPushMessageReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver, cn.jpush.android.service.PluginVivoMessageReceiver, com.xiaomi.push.service.receivers.PingReceiver
+  Providers  (8): com.huawei.hms.aaid.InitProvider, androidx.core.content.FileProvider, cn.jpush.android.service.DownloadProvider, androidx.startup.InitializationProvider, cn.jpush.android.service.DataProvider, com.huawei.hms.support.api.push.PushProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.sina.weibo.sdk.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 4
+  Total Methods : 182
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: beiwan, Organizational Unit: IT, Organization: BeijingBeiwanEducationTechnology, Locality: BeiJing, State/Province: BeiJing, Country: CN
+  Fingerprint : D2 9C 88 49 AB B6 AA A2 B5 1F FF 4C BE 64 5B 0D 1F A5 3A 5F DB EA D7 E9 F4 7C C4 98 14 0D CF C1
+
+==========================================

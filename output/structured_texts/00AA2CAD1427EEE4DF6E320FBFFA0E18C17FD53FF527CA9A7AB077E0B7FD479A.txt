@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.graet
+  SHA-256       : 00AA2CAD1427EEE4DF6E320FBFFA0E18C17FD53FF527CA9A7AB077E0B7FD479A
+  Android Group : Android15
+  Version       : 1.28.4 (code: 286)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 35
+
+[Permissions (37)]
+  android.permission.READ_MEDIA_AUDIO, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, com.oppo.launcher.permission.READ_SETTINGS, android.permission.VIBRATE, me.everything.badger.permission.BADGE_COUNT_READ, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.graet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.sonyericsson.home.permission.BROADCAST_BADGE, android.permission.WRITE_EXTERNAL_STORAGE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, com.sonymobile.home.permission.PROVIDER_INSERT_BADGE, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_APP_BADGE
+
+[Application Components]
+  Activities (48): com.stripe.android.link.LinkForegroundActivity, com.stripe.android.view.AddPaymentMethodActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.stripe.android.view.PaymentMethodsActivity, com.stripe.android.stripe3ds2.views.ChallengeActivity, io.intercom.android.sdk.m5.bubble.IntercomBubbleActivity, io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity, io.intercom.android.sdk.ui.preview.ui.IntercomPreviewActivity, io.intercom.android.sdk.activities.IntercomCarouselActivity, io.intercom.android.sdk.activities.IntercomPostActivity, io.intercom.android.sdk.m5.IntercomRootActivity, io.intercom.android.sdk.helpcenter.articles.IntercomArticleActivity, io.intercom.android.sdk.push.IntercomPushTrampolineActivity, io.intercom.android.sdk.survey.ui.IntercomSurveyActivity, com.stripe.android.view.PaymentFlowActivity, io.intercom.android.sdk.helpcenter.articles.ArticleActivity, io.intercom.android.sdk.activities.IntercomNoteActivity, com.stripe.android.paymentsheet.addresselement.AddressElementActivity, com.graet.MainActivity, io.intercom.android.sdk.activities.IntercomSheetActivity
+  Services   (13): expo.modules.video.playbackService.ExpoVideoPlaybackService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.metadata.ModuleDependencies, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, expo.modules.notifications.service.ExpoFirebaseMessagingService
+  Receivers  (14): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, expo.modules.notifications.service.NotificationsService, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver, io.intercom.android.sdk.m5.push.ConversationReplyReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (14): com.canhub.cropper.CropFileProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, io.intercom.android.sdk.IntercomFileProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider, io.sentry.android.core.SentryInitProvider, expo.modules.sharing.SharingFileProvider, com.ReactNativeBlobUtil.Utils.FileProvider, cl.json.RNShareFileProvider, expo.modules.clipboard.ClipboardFileProvider, com.google.firebase.provider.FirebaseInitProvider, expo.modules.filesystem.FileSystemFileProvider, expo.modules.imagepicker.fileprovider.ImagePickerFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 64991
+  Total Methods : 405405
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 09 FF B6 00 8F 37 8A 02 45 19 68 31 1F 54 EF 7A EE 40 36 05 65 14 4C 3A 17 28 55 E4 C6 9A BE DA
+
+==========================================

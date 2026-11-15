@@ -1,0 +1,82 @@
+{
+  "sha256": "003E49B9CFAB3521E75723F908588B02295F2298982DFA56F3D87D6105CBEE31",
+  "filename": "003E49B9CFAB3521E75723F908588B02295F2298982DFA56F3D87D6105CBEE31.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.homag.imdc",
+  "version_name": "2.0.610",
+  "version_code": "620",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.huawei.android.launcher.permission.CHANGE_BADGE",
+    "android.permission.INTERNET",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.FLASHLIGHT",
+    "android.permission.READ_LOGS",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "com.vivo.notification.permission.BADGE_ICON",
+    "android.permission.CAMERA",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 16,
+  "activities": [
+    "io.dcloud.ProcessMediator",
+    "com.dmcbig.mediapicker.PreviewActivity",
+    "io.dcloud.feature.gallery.imageedit.IMGEditActivity",
+    "io.dcloud.feature.nativeObj.photoview.PhotoActivity",
+    "io.dcloud.PandoraEntryActivity",
+    "io.dcloud.ads.activity.WebViewActivity",
+    "com.homag.imdc.wxapi.WXEntryActivity",
+    "io.dcloud.WebviewActivity",
+    "com.dmcbig.mediapicker.PickerActivity",
+    "io.dcloud.share.mm.WXShareProcessMeadiatorActivity",
+    "io.dcloud.WebAppActivity",
+    "io.dcloud.PandoraEntry"
+  ],
+  "activity_count": 12,
+  "services": [
+    "io.dcloud.ads.base.service.DownloadService",
+    "io.dcloud.feature.aps.ApsActionService"
+  ],
+  "service_count": 2,
+  "receivers": [
+    "io.dcloud.common.adapter.io.DownloadReceiver",
+    "com.taobao.weex.WXGlobalEventReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "io.dcloud.common.util.DCloud_FileProvider",
+    "io.dcloud.ads.base.service.provider.DCloudAdFileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 8082,
+  "method_count": 54847,
+  "cert_fingerprint": "7A 14 26 D0 55 EE D7 4E CA 64 9D 05 3B 2A 21 E9 BD 75 4A 5D FD 8C BF EB 22 93 E0 36 B8 6A AA 32",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://ask.dcloud.net.cn/article/35058"
+  ],
+  "ip_addresses": [
+    "1.0.0.0"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

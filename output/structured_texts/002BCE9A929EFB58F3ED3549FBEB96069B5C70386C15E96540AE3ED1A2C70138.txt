@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : sigma.battle.fire.sigmabattleroyalefreefirelitefff
+  SHA-256       : 002BCE9A929EFB58F3ED3549FBEB96069B5C70386C15E96540AE3ED1A2C70138
+  Android Group : Android12
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (3)]
+  android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET
+
+[Application Components]
+  Activities (15): sigma.battle.fire.sigmabattleroyalefreefirelitefff.Sss1Activity, sigma.battle.fire.sigmabattleroyalefreefirelitefff.Page2Activity, com.adcolony.sdk.AdColonyInterstitialActivity, sigma.battle.fire.sigmabattleroyalefreefirelitefff.Page6Activity, sigma.battle.fire.sigmabattleroyalefreefirelitefff.Page1Activity, sigma.battle.fire.sigmabattleroyalefreefirelitefff.DebugActivity, com.applovin.adview.AppLovinInterstitialActivity, sigma.battle.fire.sigmabattleroyalefreefirelitefff.Page4Activity, com.google.android.gms.ads.AdActivity, com.applovin.sdk.AppLovinWebViewActivity, sigma.battle.fire.sigmabattleroyalefreefirelitefff.Page5Activity, com.applovin.adview.AppLovinFullscreenActivity, sigma.battle.fire.sigmabattleroyalefreefirelitefff.MainActivity, sigma.battle.fire.sigmabattleroyalefreefirelitefff.Page3Activity, com.adcolony.sdk.AdColonyAdViewActivity
+  Services   (2): com.applovin.impl.sdk.utils.AppKilledService, com.applovin.impl.adview.activity.FullscreenAdService
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 60
+  Total Classes : 10696
+  Total Methods : 63171
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E2 23 4C E4 9C 44 A3 AD 35 67 50 56 26 D2 CA C1 AB 77 BA D9 FC B8 89 F4 A2 50 8C 2F A4 E9 44 94
+
+==========================================

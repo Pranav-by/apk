@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.planeth.rhythm
+  SHA-256       : 00BC44AFCB2F5F1C3BB1A87696869606DED2FB40C98CD376BC99CDA845B0657C
+  Android Group : Android16
+  Version       : 6.1.1.0 (code: 763)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (8)]
+  android.permission.POST_NOTIFICATIONS, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, com.planeth.rhythm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.BLUETOOTH_SCAN, android.permission.BLUETOOTH_CONNECT, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (4): com.planeth.rhythm.GstomperInit, com.planeth.gstompercommon.PleaseWait, com.planeth.rhythm.GstomperMain, com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+  Services   (1): com.planeth.gstompercommon.AudioPlaybackService
+  Receivers  (2): com.planeth.gstompercommon.AudioPlaybackNotificationReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (3): androidx.startup.InitializationProvider, com.planeth.rhythm.GstDocumentProvider, androidx.core.content.FileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3883
+  Total Methods : 18136
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://play.google.com/store/apps/details?id=, https://www.planet-h.com, https://www.amazon.com/gp/mas/dl/android?p=, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Andreas Grässer, Locality: Zurich, State/Province: Zurich, Country: CH
+  Fingerprint : 9C DA 37 F1 00 5F 43 AC 52 5E 04 E2 9A 86 74 0B BC 65 27 6E 5E 1F 75 20 A8 5F E4 EF 72 AC F4 87
+
+==========================================

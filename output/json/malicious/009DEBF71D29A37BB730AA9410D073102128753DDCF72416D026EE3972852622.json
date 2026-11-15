@@ -1,0 +1,57 @@
+{
+  "sha256": "009DEBF71D29A37BB730AA9410D073102128753DDCF72416D026EE3972852622",
+  "filename": "009DEBF71D29A37BB730AA9410D073102128753DDCF72416D026EE3972852622.apk",
+  "android_version": "Android14",
+  "label": "malicious",
+  "package_name": "com.Trofim.MagicBallImba",
+  "version_name": "1.0",
+  "version_code": "1",
+  "min_sdk": "21",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_MEDIA_VIDEO",
+    "com.Trofim.MagicBallImba.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.READ_MEDIA_AUDIO",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.CAMERA"
+  ],
+  "permission_count": 11,
+  "activities": [
+    "com.app.mywebapp.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider"
+  ],
+  "provider_count": 1,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 2331,
+  "method_count": 15799,
+  "cert_fingerprint": "A4 0D A8 0A 59 D1 70 CA A9 50 CF 15 C1 8C 45 4D 47 A3 9B 26 98 9D 8B 64 0E CD 74 5B A7 1B F5 DC",
+  "cert_issuer": "Email Address: android@android.com, Common Name: Android, Organizational Unit: Android, Organization: Android, Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

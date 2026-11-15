@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.cookapps.myperfecthouse
+  SHA-256       : 00A446B7B509311CA342C4ABFC4BC1DBDD1BBB54379180D659D48B45E5424E4A
+  Android Group : Android15
+  Version       : 1.6.07 (code: 227)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (20)]
+  com.cookapps.myperfecthouse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.VIBRATE, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, com.cookapps.myperfecthouse.permission.C2D_MESSAGE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.WRITE_EXTERNAL_STORAGE, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, com.google.android.c2dm.permission.RECEIVE, android.permission.READ_PHONE_STATE, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (88): com.fyber.inneractive.sdk.activities.FyberReportAdActivity, com.ironsource.sdk.controller.ControllerActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.mraid.MraidActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.staticrenderer.StaticAdActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.templates.renderer.fullscreen.FullscreenWebviewActivity, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.vast.VastActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity, com.bytedance.sdk.openadsdk.activity.TTAdActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialExpressActivity, com.bytedance.sdk.openadsdk.activity.TTInterstitialActivity, com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity, com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity, com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity, com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity, com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity, com.ironsource.sdk.controller.InterstitialActivity, com.mbridge.msdk.activity.MBCommonActivity, com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity
+  Services   (19): com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.firebase.messaging.MessageForwardingService, com.chartboost.sdk.internal.video.repository.exoplayer.VideoRepositoryDownloadService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.applovin.impl.adview.activity.FullscreenAdService, com.google.android.gms.ads.AdService, io.appmetrica.analytics.internal.AppMetricaService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.messaging.cpp.ListenerService, com.google.firebase.messaging.cpp.RegistrationIntentService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (18): androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.mbridge.msdk.foundation.same.broadcast.NetWorkChangeReceiver, com.adjust.sdk.AdjustReferrerReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.profileinstaller.ProfileInstallReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.unity.androidnotifications.UnityNotificationManager, com.unity.androidnotifications.UnityNotificationRestartReceiver
+  Providers  (17): com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.FacebookContentProvider, com.my.target.common.MyTargetContentProvider, com.vungle.ads.VungleProvider, com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider, io.bidmachine.BidMachineInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.facebook.internal.FacebookInitProvider, com.yasirkula.unity.NativeShareContentProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, androidx.startup.InitializationProvider, com.squareup.picasso.PicassoProvider, com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider, com.applovin.sdk.AppLovinInitProvider, com.ironsource.lifecycle.LevelPlayActivityLifecycleProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 14
+  Total Classes : 86756
+  Total Methods : 575244
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (2): http://tizen.org/feature/platform.version, http://tizen.org/system/model_name
+  IP Addresses(3): 7.7.0.2, 10.8.8.0, 24.7.0.0
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 8F A2 51 3D 12 73 D2 B0 CC E6 3A 90 4C B7 31 52 A4 71 41 0B 87 A3 FE 2A B4 77 B6 58 75 6E 1B 2B
+
+==========================================

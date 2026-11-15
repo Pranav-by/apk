@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.CasualBunker.ArenaHeroesTactics
+  SHA-256       : 00C2DF87B015F0EE97F0F2F46FFC6BA1D1CC4191D5E4505160DD07359BF8C890
+  Android Group : Android12
+  Version       : 206 (code: 206)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (10)]
+  android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, com.CasualBunker.ArenaHeroesTactics.permission.C2D_MESSAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.INTERNET, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.WAKE_LOCK, com.android.vending.BILLING, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (11): com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.unity3d.services.ads.adunit.AdUnitActivity, com.android.billingclient.api.ProxyBillingActivity, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, com.google.firebase.MessagingUnityPlayerActivity, com.google.games.bridge.GenericResolutionActivity, com.google.android.gms.common.api.GoogleApiActivity, com.google.games.bridge.NativeBridgeActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+  Services   (13): com.google.android.gms.measurement.AppMeasurementService, com.yandex.metrica.ConfigurationService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.yandex.metrica.MetricaService, com.google.firebase.messaging.MessageForwardingService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.measurement.AppMeasurementJobService, com.yandex.metrica.ConfigurationJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.messaging.cpp.RegistrationIntentService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.messaging.cpp.ListenerService
+  Receivers  (5): com.unity.androidnotifications.UnityNotificationManager, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver
+  Providers  (1): com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9270
+  Total Methods : 49838
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): https://developer.android.com/reference/com/google/android/play/core/install/model/InstallErrorCode#
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4E BB DB B3 2B B4 71 5A 93 D7 2E F9 AF EF 92 4E 3F 24 EE 76 7F 34 68 5E 41 33 D4 E7 58 ED 94 07
+
+==========================================

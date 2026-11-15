@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hla.app.hla360
+  SHA-256       : 00B8327FA87E19972601A4F74572859F71A75376D925410EC83547F0F43A02C3
+  Android Group : Android16
+  Version       : 2.2.87 (code: 117)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (18)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.USE_FINGERPRINT, android.permission.VIBRATE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.hla.app.hla360.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_FINE_LOCATION, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.c2dm.permission.RECEIVE, android.permission.USE_BIOMETRIC, android.permission.CAMERA, android.permission.WAKE_LOCK, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+
+[Application Components]
+  Activities (37): com.hla.app.hla360.Activity.MyProfileActivity, com.hla.app.hla360.Activity.TransactionHistoryActivity, com.hla.app.hla360.Activity.SingleSignOnActivity, com.hla.app.hla360.Activity.VideoTutorialActivity, com.hla.app.hla360.Activity.PolicyDetailActivity, com.hla.app.hla360.Activity.ZoomableImageViewActivity, com.hla.app.hla360.Activity.CompleteTransactionActivity, com.hla.app.hla360.Activity.splashscreen.SplashScreenActivity, com.hla.app.hla360.Activity.ViewMapActivity, com.hla.app.hla360.Activity.QuickLinksActivity, com.hla.app.hla360.Activity.ForgetUsernameActivity, com.hla.app.hla360.Activity.MyPolicyPayNowActivity, com.hla.app.hla360.Activity.MyHospitalGuaranteeLetterActivity, com.hla.app.hla360.Activity.RegistrationActivity, com.hla.app.hla360.Activity.HomeLandingActivity, com.hla.app.hla360.Activity.SearchActivity, com.hla.app.hla360.Activity.DuplicatePrintingPayment, com.hla.app.hla360.Activity.AddTaxResidenceActivity, com.hla.app.hla360.Activity.MyPolicyActivity, com.hla.app.hla360.Activity.MyTransactionFragmentActivity
+  Services   (12): androidx.work.impl.background.systemjob.SystemJobService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.messaging.FirebaseMessagingService, com.hla.app.hla360.Communication.AppFirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.sessions.SessionLifecycleService, com.google.android.gms.measurement.AppMeasurementJobService
+  Receivers  (12): androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.profileinstaller.ProfileInstallReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  Providers  (4): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 10885
+  Total Methods : 63617
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): http://www.hasil.gov.my, https://issuetracker.google.com/issues/241760537, https://firebase.google.com/docs/analytics, https://firebase.google.com/support/guides/disable-analytics
+  IP Addresses(1): 2.5.29.15
+
+[Certificate]
+  Issuer      : Common Name: Hong Leong Assurance, Organizational Unit: Hong Leong Assurance, Organization: Hong Leong Assurance, Locality: Petaling Jaya, State/Province: Selangor, Country: MY
+  Fingerprint : 55 BE E1 E5 21 FE A5 0A 46 C5 01 F4 F2 F3 9B 68 6D 6E 37 A2 F3 5A 00 18 52 DF 13 33 BD 67 35 D8
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.bestzippers.hd.lockscreen.zipper
+  SHA-256       : 004B51891A8DE43F03F59B31645E74AC91D80AAB2C0BCB7EF44399EBD84A1995
+  Android Group : Android13
+  Version       : 7.5 (code: 75)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 33
+
+[Permissions (10)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (13): lockscreen.zipper.ReviewTutorialActivity, lockscreen.zipper.SettingsActivity, lockscreen.zipper.ItemChooserActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, lockscreen.zipper.SplashScreen, lockscreen.zipper.moreZippersActivity, lockscreen.zipper.ForgroudActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity, lockscreen.zipper.WallpaperActivity, com.pin.myapp2.wallpaperViewer, com.google.android.gms.common.api.GoogleApiActivity, lockscreen.zipper.MainActivity, com.google.android.gms.ads.AdActivity
+  Services   (12): androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, lockscreen.zipper.LiveService, lockscreen.zipper.LockScreenService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.gms.ads.AdService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, lockscreen.zipper.autostart, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (3): com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 10077
+  Total Methods : 51318
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (8): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#, https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Digital North Star, Organizational Unit: Digital North Star, Organization: Digital North Star, Locality: Ilfov, State/Province: Romania, Country: 40
+  Fingerprint : D5 93 31 DE BB FB B4 D3 26 DF FC 1B DB 46 E5 95 81 02 11 B0 BB 22 36 47 77 F1 14 FD DE C3 C9 22
+
+==========================================

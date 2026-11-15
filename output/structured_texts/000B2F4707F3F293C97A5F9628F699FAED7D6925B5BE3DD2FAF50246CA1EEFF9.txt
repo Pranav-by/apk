@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : ru.domyland.marmax
+  SHA-256       : 000B2F4707F3F293C97A5F9628F699FAED7D6925B5BE3DD2FAF50246CA1EEFF9
+  Android Group : Android16
+  Version       : 4.10.4 (code: 400000104)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (35)]
+  android.permission.VIBRATE, android.permission.USE_BIOMETRIC, android.permission.BLUETOOTH_ADMIN, android.permission.CHANGE_WIFI_STATE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, android.permission.WRITE_CALENDAR, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.USE_FINGERPRINT
+
+[Application Components]
+  Activities (76): ru.domyland.superdom.presentation.activity.AdvertDetailsActivity, ru.domyland.superdom.presentation.activity.NewCustomerRegistrationActivity, ru.domyland.superdom.presentation.activity.NewPasswordRegistrationActivity, ru.domyland.superdom.presentation.activity.RefundActivity, ru.domyland.superdom.presentation.activity.QRScannerActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, ru.domyland.superdom.presentation.activity.AdvertsActivity, ru.domyland.superdom.presentation.activity.SettingsActivity, ru.domyland.superdom.presentation.activity.ProjectObjectsActivity, ru.domyland.superdom.presentation.activity.PaymentDetailsActivity, com.zhihu.matisse.ui.MatisseActivity, ru.domyland.superdom.presentation.activity.RegistrationSearchActivity, ru.domyland.superdom.presentation.activity.BannerInfoActivity, ru.domyland.superdom.presentation.activity.PersonalDataActivity, ru.domyland.superdom.presentation.activity.ServiceDetailsActivity, ru.domyland.superdom.presentation.activity.LoginActivity, ru.domyland.superdom.presentation.activity.EventEditDetailsActivity, ru.domyland.superdom.presentation.activity.ProjectObjectDetailsActivity, ru.domyland.superdom.presentation.activity.EventRatingActivity, ru.domyland.superdom.presentation.activity.ShowVideoActivity
+  Services   (23): com.google.firebase.messaging.FirebaseMessagingService, ru.domyland.superdom.data.http.firebase.FirebaseService, ru.domyland.superdom.core.bluetooth.ble.HandsFreeService, ru.domyland.superdom.core.utils.ShakeService, org.mobileid.requester.background_requester.RequesterForegroundService, org.mobileid.requester.nfc.NFCService, com.google.android.gms.auth.api.signin.RevocationBoundService, org.mobileid.time_key.push.FirebasePushService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.evernote.android.job.patched.internal.v21.PlatformJobService, com.evernote.android.job.patched.internal.v14.PlatformAlarmService, com.evernote.android.job.patched.internal.v14.PlatformAlarmServiceExact, com.evernote.android.job.patched.internal.JobRescheduleService, io.appmetrica.analytics.internal.AppMetricaService, com.yandex.runtime.connectivity.internal.ConnectivityService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (18): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, ru.domyland.superdom.domain.events.SMSBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.profileinstaller.ProfileInstallReceiver, ru.domyland.superdom.core.sip.SipBroadcastReceiver, org.mobileid.time_key.key_watcher.KeyWatcherBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.evernote.android.job.patched.internal.JobBootReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, ru.domyland.superdom.core.bluetooth.ble.HandsFreeReceiver
+  Providers  (6): androidx.core.content.FileProvider, io.appmetrica.analytics.internal.PreloadInfoContentProvider, com.google.firebase.provider.FirebaseInitProvider, io.sentry.android.core.SentryInitProvider, io.sentry.android.core.SentryPerformanceProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 8
+  Total Classes : 68139
+  Total Methods : 421164
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Egor Grotsky, Organizational Unit: Developer, Organization: Domyland, Locality: Moscow, State/Province: Moscow, Country: RU
+  Fingerprint : E8 24 6A D5 73 A3 60 64 1C C9 3C E2 92 88 17 64 7A 3C 84 9D F5 E9 B2 53 9E 86 98 ED 0A BB 56 DE
+
+==========================================

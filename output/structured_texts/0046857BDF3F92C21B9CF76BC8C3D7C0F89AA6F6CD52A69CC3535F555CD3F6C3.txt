@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.andavanashramam
+  SHA-256       : 0046857BDF3F92C21B9CF76BC8C3D7C0F89AA6F6CD52A69CC3535F555CD3F6C3
+  Android Group : Android16
+  Version       : 2.1.0 (code: 4)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 36
+
+[Permissions (4)]
+  android.permission.ACCESS_NETWORK_STATE, com.andavanashramam.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.INTERNET
+
+[Application Components]
+  Activities (6): com.andavanashramam.activity_main, com.andavanashramam.activity_filter, com.andavanashramam.activity_settings, com.andavanashramam.activity_details, com.andavanashramam.activity_imageview, com.andavanashramam.activity_andavanashramam
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (1): androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 7109
+  Total Methods : 53373
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 9F FC 2B 55 0A 42 77 22 0A 91 FB 75 26 71 7E 8E BF 67 53 FD 07 F5 10 87 D2 6D 4B 4F 2F 71 E7 72
+
+==========================================

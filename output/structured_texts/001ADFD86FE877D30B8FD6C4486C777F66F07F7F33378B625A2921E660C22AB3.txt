@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sarasoftapps.com.workoutlogger
+  SHA-256       : 001ADFD86FE877D30B8FD6C4486C777F66F07F7F33378B625A2921E660C22AB3
+  Android Group : Android13
+  Version       : 1.1.20 (code: 66)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (8)]
+  android.permission.POST_NOTIFICATIONS, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.android.vending.BILLING, android.permission.SCHEDULE_EXACT_ALARM, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.USE_FULL_SCREEN_INTENT
+
+[Application Components]
+  Activities (7): com.sarasoftapps.com.workoutlogger.MainActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.common.api.GoogleApiActivity, com.android.billingclient.api.ProxyBillingActivity, io.flutter.plugins.urllauncher.WebViewActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+  Services   (3): com.google.android.play.core.assetpacks.ExtractionForegroundService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (3): com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+  Providers  (3): androidx.startup.InitializationProvider, io.flutter.plugins.share.ShareFileProvider, com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 3199
+  Total Methods : 17280
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://developer.android.com/reference/com/google/android/play/core/assetpacks/model/AssetPackErrorCode.html#, https://developer.android.com/guide/topics/permissions/overview
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 1F B6 25 69 5B EC C3 D1 53 8D A0 3A EC A6 93 E2 A3 5A 96 F7 FE 9E 11 1B E1 67 53 B1 4E F5 5B 75
+
+==========================================

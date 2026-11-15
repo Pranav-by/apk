@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.realmestore.app
+  SHA-256       : 0027396603D10AEF7D3EFCD3C2E129EB197A9B278C8AC59F78418C1A085A215F
+  Android Group : Android14
+  Version       : 2.1.5 (code: 1318)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 34
+
+[Permissions (31)]
+  android.permission.READ_MEDIA_VIDEO, android.permission.READ_MEDIA_IMAGES, android.permission.VIBRATE, android.permission.USE_CREDENTIALS, heytap.permission.cloud.ACCESS_CLOUD, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, oplus.permission.OPLUS_COMPONENT_SAFE, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, oplus.permission.DATA_RESERVE, com.realmestore.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.ACCESS_WIFI_STATE, android.permission.NFC, android.permission.SYSTEM_ALERT_WINDOW, com.coloros.mcs.permission.SEND_PUSH_MESSAGE, com.heytap.mcs.permission.SEND_PUSH_MESSAGE, com.coloros.assistantscreen.permission.XCARD_INSTANT_SERVICE
+
+[Application Components]
+  Activities (150): com.rm.store.user.view.AddressActivity, com.rm.store.user.view.RPassUseActivity, com.rm.store.user.view.MyRPassActivity, com.rm.store.buy.view.BenefitPackageActivity, com.rm.store.user.view.SelfLogisticsQueryActivity, com.rm.store.buy.view.InternalPurchaseActivity, com.rm.store.user.view.MyOrderActivity, com.rm.store.buy.view.InternalPurchaseCouponActivity, com.rm.store.qa.view.QAListActivity, com.rm.store.buy.view.PayResultActivity, com.rm.store.qa.view.QADetailActivity, com.rm.store.pay.view.CashRegisterCnActivity, com.rm.store.qa.view.QAQuestionActivity, com.rm.store.pay.view.PayBySdkInActivity, com.rm.store.qa.view.QAMyActivity, com.rm.store.buy.view.CodActivity, com.rm.store.qa.view.QAAnswerActivity, com.rm.store.person.view.PersonDetailActivity, com.rm.store.person.view.PersonListActivity, com.rm.store.buy.view.PayActivity
+  Services   (17): com.rm.store.live.view.FloatingWindowService, com.luck.picture.lib.service.ForegroundService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.realme.push.GooglePushService, com.google.firebase.messaging.FirebaseMessagingService, com.twitter.sdk.android.tweetcomposer.TweetUploadService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.chuckerteam.chucker.internal.support.ClearDatabaseService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementJobService, com.oplus.tblplayer.remote.TBLRemotePlayerService, com.realme.store.common.push.oppo.OppoQPushService, com.oplus.tblplayer.cache.service.RemoteCacheManagerService, androidx.room.MultiInstanceInvalidationService, com.realme.store.common.push.oppo.OppoQBelowPushService, com.realme.store.common.other.RmKillSelfService
+  Receivers  (6): com.realme.share.twitter.TwitterShare$TwitterReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.heytap.usercenter.accountsdk.utils.app.UserCenterOperateReceiver
+  Providers  (19): com.rm.store.common.provider.RmStoreCommonFileProvider, com.oplus.nearx.track.internal.storage.db.app.track.dao.TrackEventProvider, com.oplus.nearx.track.internal.storage.db.app.balance.dao.BalanceEventProvider, com.oplus.nearx.track.internal.storage.data.EventContentProvider, com.heytap.nearx.track.internal.storage.db.ConfigProvider, com.oplus.nearx.track.internal.storage.sp.MultiProcessSharedPreferencesProvider, com.heytap.nearx.track.internal.storage.db.DataProvider, androidx.startup.InitializationProvider, com.luck.picture.lib.basic.PictureFileProvider, me.jessyan.autosize.InitProvider, com.platform.usercenter.UserInfoFileProvider, com.oplus.nearx.track.internal.storage.db.common.dao.TrackCommonProvider, com.facebook.internal.FacebookInitProvider, com.chuckerteam.chucker.internal.support.ChuckerFileProvider, com.facebook.FacebookContentProvider, com.android.realme2.common.provider.RmCommunityCommonFileProvider, com.heytap.webview.extension.utils.FileProvider, com.google.firebase.provider.FirebaseInitProvider, com.heytap.usercenter.accountsdk.utils.UCAccountSDKInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 13
+  Total Classes : 43591
+  Total Methods : 264978
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: realme, Organizational Unit: realme, Organization: realme, Locality: gd, State/Province: sz, Country: chn
+  Fingerprint : 20 8A 57 06 65 62 CD 0E A1 02 18 52 40 E4 BD 3A 24 E7 D0 44 6D C4 7A 8E 7C BA 58 CF F0 09 B1 E6
+
+==========================================

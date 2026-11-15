@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.casualjoygames.cashcraze
+  SHA-256       : 00A2A14CD8E7141CFEAB8A288D4C043D796347EC4F3028424170AF46AED486E4
+  Android Group : Android13
+  Version       : 1.0.13 (code: 17)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 33
+
+[Permissions (17)]
+  android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.CHANGE_WIFI_STATE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, com.casualjoygames.cashcraze.permission.C2D_MESSAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, com.casualjoygames.cashcraze.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (72): com.google.android.gms.ads.OutOfContextTestingActivity, com.applovin.adview.AppLovinFullscreenActivity, com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore, com.facebook.unity.FBUnityGameRequestActivity, com.applovin.sdk.AppLovinWebViewActivity, com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity, com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity, com.mbridge.msdk.reward.player.MBRewardVideoActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.applovin.mediation.MaxDebuggerMultiAdActivity, com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, com.facebook.ads.AudienceNetworkActivity, com.applovin.mediation.MaxDebuggerWaterfallKeywordsActivity, com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity, com.vungle.warren.ui.VungleActivity, com.applovin.creative.MaxCreativeDebuggerActivity, com.facebook.unity.FBUnityGamingServicesFriendFinderActivity, com.applovin.mediation.MaxDebuggerTestModeNetworkActivity, com.bytedance.sdk.openadsdk.activity.TTDelegateActivity
+  Services   (16): com.applovin.impl.adview.activity.FullscreenAdService, com.google.firebase.messaging.cpp.ListenerService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.messaging.cpp.RegistrationIntentService, com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (18): androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, net.agasper.unitynotification.UnityNotificationActionHandler, net.agasper.unitynotification.SDKNotificationManager, com.adjust.sdk.AdjustReferrerReceiver, com.unity.androidnotifications.UnityNotificationManager, com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (11): com.facebook.internal.FacebookInitProvider, com.yasirkula.unity.UnitySSContentProvider, com.vungle.warren.utility.VungleProvider, com.facebook.FacebookContentProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.squareup.picasso.PicassoProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 33504
+  Total Methods : 190501
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK
+  IP Addresses(10): 7.3.0.1, 4.7.1.0, 4.8.0.4, 10.1.4.1, 22.2.0.0, 1.0.0.0, 5.2.0.5, 6.12.1.1, 9.3.1.0, 8.2.3.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 43 E9 26 C0 0D 65 F4 5E C4 9D DD 54 1D 82 E7 4F 01 21 34 18 CA 7E EE 8C 70 E8 B2 21 E5 02 5D 67
+
+==========================================

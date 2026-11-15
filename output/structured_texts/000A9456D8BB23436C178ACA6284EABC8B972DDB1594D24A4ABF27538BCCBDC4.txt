@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free
+  SHA-256       : 000A9456D8BB23436C178ACA6284EABC8B972DDB1594D24A4ABF27538BCCBDC4
+  Android Group : Android12L
+  Version       : 19.1 (code: 19)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (12)]
+  android.permission.SYSTEM_ALERT_WINDOW, android.permission.DISABLE_KEYGUARD, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.REORDER_TASKS, android.permission.ACTION_MANAGE_OVERLAY_PERMISSION, android.permission.SCHEDULE_EXACT_ALARM, android.permission.WAKE_LOCK, android.permission.READ_PHONE_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID
+
+[Application Components]
+  Activities (10): com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.Pattern_Lock_Set, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.Pattern_Lock_Activity, com.google.android.gms.ads.AdActivity, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.Pattern_Lock_Setting_Activity, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.Pattern_Lock_Set_Recover_Activity, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.patternlock_rec.Pattern_Color_Picker, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.Pattern_Lock_Recovery_Activity, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.Pattern_Lock_Theme_Activity, com.google.android.gms.common.api.GoogleApiActivity, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.Pattern_Lock_Splash
+  Services   (6): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.patternlock_rec.Pattern_Lock_Service, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.IncomingCall, com.photomakerkeelin.secure.pattern.lockscreen.screenlock.free.patternlock_rec.Pattern_Lock_Receiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (2): androidx.startup.InitializationProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 8788
+  Total Methods : 44356
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-interstitial-policies, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://issuetracker.google.com/issues/new?component=413107&template=1096568, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://goo.gl/J1sWQy, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 3E 9A DD AA 41 5B C8 F5 35 BE 9A 88 F2 2D 25 9E F5 A3 F6 4E 17 0F 7A 6D 06 63 C1 54 68 83 32 8E
+
+==========================================

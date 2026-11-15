@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : contratosyescritos.juridicos
+  SHA-256       : 001A6C726BE510992A253994C079464DAEDD5FC946E5AE6DFB5389F57ADE2EB1
+  Android Group : Android12
+  Version       : 1.1 (code: 6)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (9)]
+  android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, com.google.android.c2dm.permission.RECEIVE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, com.google.android.gms.permission.AD_ID, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (72): com.google.android.gms.auth.api.signin.internal.SignInHubActivity, contratosyescritos.juridicos.t_buscusus, com.unity3d.services.ads.adunit.AdUnitSoftwareActivity, contratosyescritos.juridicos.t_gal, com.startapp.sdk.ads.list3d.List3DActivity, com.ironsource.sdk.controller.InterstitialActivity, contratosyescritos.juridicos.t_vistafb, com.facebook.CustomTabActivity, contratosyescritos.juridicos.t_oficinas, contratosyescritos.juridicos.chat_perfil, com.ironsource.sdk.controller.ControllerActivity, contratosyescritos.juridicos.t_menugrid, contratosyescritos.juridicos.t_menu, contratosyescritos.juridicos.notifs_cats, contratosyescritos.juridicos.privados, com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity, contratosyescritos.juridicos.ExpandedControlsActivity, contratosyescritos.juridicos.t_buscador, com.unity3d.services.ads.adunit.AdUnitTransparentActivity, contratosyescritos.juridicos.t_rss
+  Services   (28): com.google.android.gms.cast.framework.media.MediaNotificationService, contratosyescritos.juridicos.s_widget_vistafb, contratosyescritos.juridicos.s_cargar_icos, contratosyescritos.juridicos.s_cargar_sliderheader, contratosyescritos.juridicos.s_cargar_icos_gen, contratosyescritos.juridicos.s_cargar_fondo, contratosyescritos.juridicos.s_guardarperfil, contratosyescritos.juridicos.s_mediaplayer_exo, contratosyescritos.juridicos.RegistrationIntentService, contratosyescritos.juridicos.MyFcmListenerService, contratosyescritos.juridicos.MyInstanceIDListenerService, com.google.android.gms.cast.framework.ReconnectionService, com.google.android.gms.ads.AdService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.iid.FirebaseInstanceIdService, com.startapp.sdk.cachedservice.BackgroundService
+  Receivers  (15): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, contratosyescritos.juridicos.alarma_rss, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (10): androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, contratosyescritos.juridicos.MySuggestionProvider, contratosyescritos.juridicos.StickerContentProvider, androidx.core.content.FileProvider, contratosyescritos.juridicos.bd_provider, com.ironsource.lifecycle.IronsourceLifecycleProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 22299
+  Total Methods : 123924
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://firebase.google.com/support/guides/disable-analytics, https://cdn.appnext.com/tools/sdk/banner/2.4.0/banner.min.js, https://support.start.io/hc/en-us/articles/360014774799
+  IP Addresses(1): 2.6.5.473
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : C4 C4 87 7D 14 9F 3C 06 14 FE EC 9C B5 13 03 E2 7A AC 40 C5 38 F0 4D 36 65 4F FC 5B 2D CB 1E 91
+
+==========================================

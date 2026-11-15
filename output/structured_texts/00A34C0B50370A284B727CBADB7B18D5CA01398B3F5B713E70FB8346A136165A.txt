@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.deverse.space.punctureapp
+  SHA-256       : 00A34C0B50370A284B727CBADB7B18D5CA01398B3F5B713E70FB8346A136165A
+  Android Group : Android13
+  Version       : 1.0.4 (code: 5)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (12)]
+  android.permission.ACCESS_COARSE_LOCATION, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, com.google.android.gms.permission.ACTIVITY_RECOGNITION, android.permission.SYSTEM_ALERT_WINDOW, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_NETWORK_STATE
+
+[Application Components]
+  Activities (3): com.deverse.space.punctureapp.MainActivity, com.facebook.react.devsupport.DevSettingsActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (4): expo.modules.location.services.LocationTaskService, io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService, io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService, io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+  Receivers  (0): none
+  Providers  (3): expo.modules.filesystem.FileSystemFileProvider, com.reactnativecommunity.webview.RNCWebViewFileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 11903
+  Total Methods : 76688
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 10.0.1.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : A3 08 FC 7E 97 45 90 10 6D 50 97 F2 32 BB 19 DC 9F C1 C2 5F 6A 6F 4F 56 C9 52 F3 07 76 B3 BB 9C
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : www.riteschool.net
+  SHA-256       : 00A437E993D6063D2534CA4433607A37E98DA26AC5E3D947F91671167BFF2266
+  Android Group : Android12L
+  Version       : 2.0.8 (code: 200080)
+
+[SDK Information]
+  Minimum SDK   : 22
+  Target SDK    : 32
+
+[Permissions (7)]
+  android.permission.INTERNET, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.WAKE_LOCK, android.permission.ACCESS_NETWORK_STATE, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (2): www.riteschool.net.MainActivity, com.google.android.gms.common.api.GoogleApiActivity
+  Services   (5): com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.firebase.components.ComponentDiscoveryService, com.google.firebase.messaging.FirebaseMessagingService, com.capacitorjs.plugins.pushnotifications.MessagingService
+  Receivers  (2): com.google.firebase.iid.FirebaseInstanceIdReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (3): androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 6965
+  Total Methods : 48663
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Yatin Ghanwat, Organizational Unit: IT, Organization: RIT, Locality: Pune, State/Province: MH, Country: 91
+  Fingerprint : 23 FE 80 0D B5 74 73 19 B8 CE 13 0C A2 74 19 05 E7 4D D0 1A D2 E8 93 72 9F 2B 74 0F 8B 90 CE 90
+
+==========================================

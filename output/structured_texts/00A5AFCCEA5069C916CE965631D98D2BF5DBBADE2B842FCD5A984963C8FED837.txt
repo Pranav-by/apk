@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : camera.smarterai.app
+  SHA-256       : 00A5AFCCEA5069C916CE965631D98D2BF5DBBADE2B842FCD5A984963C8FED837
+  Android Group : Android12
+  Version       : 2022.22.05 (code: 320222205)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (21)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.BLUETOOTH_CONNECT, android.permission.BLUETOOTH_ADMIN, android.permission.ACCESS_COARSE_LOCATION, android.permission.CHANGE_WIFI_STATE, android.permission.BLUETOOTH, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.BLUETOOTH_SCAN, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.WAKE_LOCK, android.permission.CHANGE_NETWORK_STATE
+
+[Application Components]
+  Activities (29): com.microsoft.identity.common.internal.providers.oauth2.AuthorizationActivity, com.anyconnect.sampleapp.stream.test.Stream102Activity, com.anyconnect.sampleapp.stream.test.Stream103Activity, com.anyconnect.sampleapp.camera.picker.CameraPickerActivity, com.anyconnect.sampleapp.event.EventPlaybackActivity, com.anyconnect.sampleapp.pairing.OnboardOptionActivity, com.anyconnect.sampleapp.stream.test.Stream101Activity, com.karumi.dexter.DexterActivity, com.anyconnect.sampleapp.dashboard.profile.ProfileActivity, com.anyconnect.sampleapp.event.v2.EventPlaybackV2Activity, com.microsoft.identity.client.helper.BrokerHelperActivity, com.anyconnect.sampleapp.commonfeatures.GalleryImagesActivity, com.anyconnect.sampleapp.dashboard.DashboardActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.anyconnect.sampleapp.trace.TraceActivity, com.anyconnect.sampleapp.pairing.bulletproofbluetooth.onboard.halfscreen.CameraOnboardHalfScreenActivity, com.anyconnect.sampleapp.pairing.bulletproofbluetooth.cameralist.BluetoothCameraListActivity, com.microsoft.identity.common.internal.broker.BrokerActivity, com.anyconnect.sampleapp.accesscontrol.details.AclDetailsActivity, com.anyconnect.sampleapp.whitebox.SensorDataFragmentTestActivity
+  Services   (8): com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.anyconnect.sampleapp.notification.NotificationDispatchService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.firebase.components.ComponentDiscoveryService
+  Receivers  (3): com.anyconnect.sampleapp.notification.NotificationReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver
+  Providers  (3): androidx.core.content.FileProvider, androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 31823
+  Total Methods : 198574
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 10.42.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 54 21 F0 00 02 B6 98 35 EC 36 B8 90 AD 95 79 75 AA 88 9C 56 9C 03 85 AC 56 26 08 DA 9D B1 C6 E9
+
+==========================================

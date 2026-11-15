@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : info.plateaukao.einkbro
+  SHA-256       : 00A400B45E39CC3F9CA5A9DD699FF097E9F7E78D1BAA307CE8FE8B6B844AD3FC
+  Android Group : Android14
+  Version       : 12.4.0 (code: 120400)
+
+[SDK Information]
+  Minimum SDK   : 24
+  Target SDK    : 34
+
+[Permissions (11)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.REQUEST_INSTALL_PACKAGES, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_FINE_LOCATION, info.plateaukao.einkbro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.android.launcher.permission.INSTALL_SHORTCUT, android.permission.AUDIO_CAPTURE, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (10): info.plateaukao.einkbro.activity.DictActivity, info.plateaukao.einkbro.activity.GptQueryListActivity, info.plateaukao.einkbro.activity.DataListActivity, info.plateaukao.einkbro.activity.EpubReaderActivity, info.plateaukao.einkbro.activity.GptActionsActivity, info.plateaukao.einkbro.activity.ExtraBrowserActivity, info.plateaukao.einkbro.activity.ToolbarConfigActivity, info.plateaukao.einkbro.activity.HighlightsActivity, info.plateaukao.einkbro.activity.SettingActivity, info.plateaukao.einkbro.activity.BrowserActivity
+  Services   (2): info.plateaukao.einkbro.service.ClearService, androidx.room.MultiInstanceInvalidationService
+  Receivers  (1): androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (2): androidx.core.content.FileProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 5135
+  Total Methods : 25514
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): http://www.w3.org/2001/10/synthesis, https://www.learndigitaladvertising.com/solved-why-how-to-remove-mc_cid-and-mc_eid-from-google-analytics/, https://yandex.com/support/direct/statistics/url-tags.html, https://goo.gle/compose-feedback, https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400&display=swap, https://www.parse.ly/help/post/4843/campaign-data-tracking/, https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400&display=swap, https://help.getvero.com/articles/conversion-tracking.html, https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400&display=swap, https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400&display=swap
+  IP Addresses(2): 0.0.0.0, 239.10.10.100
+
+[Certificate]
+  Issuer      : Common Name: FDroid, Organizational Unit: FDroid, Organization: fdroid.org, Locality: ORG, State/Province: ORG, Country: UK
+  Fingerprint : 5E D1 90 57 85 AE F4 E0 2B CA A9 9F 26 C7 6E 8F 6A 78 04 4A 03 3E FC 30 03 54 9E 74 7B 68 79 C1
+
+==========================================

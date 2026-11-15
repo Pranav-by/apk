@@ -1,0 +1,65 @@
+{
+  "sha256": "00A814E13A40603EA359684BC938BF7704278939FCDC4568A9623E2EBA7FBC41",
+  "filename": "00A814E13A40603EA359684BC938BF7704278939FCDC4568A9623E2EBA7FBC41.apk",
+  "android_version": "Android16",
+  "label": "benign",
+  "package_name": "it.sygest.machinerycheck",
+  "version_name": "1.25",
+  "version_code": "25",
+  "min_sdk": "21",
+  "target_sdk": "36",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.CAMERA",
+    "android.permission.ACCESS_WIFI_STATE"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "crc6436ccf1d738b0c3ef.SplashScreen",
+    "crc64a0e0a82d0db9a07d.IntermediateActivity",
+    "crc646957603ea1820544.MediaPickerActivity",
+    "crc64bc0f18753f406e4b.MainActivity",
+    "crc64ed1888fb4925e3b7.AuthenticationAgentActivity",
+    "microsoft.identity.client.AuthenticationActivity",
+    "crc6421a7cf153f1334b5.MsalActivitySidel",
+    "crc6421a7cf153f1334b5.MsalActivitySygest"
+  ],
+  "activity_count": 8,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "crc64cea48322b3427ae9.ConnectivityChangeBroadcastReceiver",
+    "crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver"
+  ],
+  "receiver_count": 2,
+  "providers": [
+    "mono.MonoRuntimeProvider",
+    "xamarin.essentials.fileProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 3,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 4466,
+  "method_count": 35652,
+  "cert_fingerprint": "24 76 3F 4D A0 35 65 5D 79 35 DC 8C 93 D8 FF 23 B9 05 CC A7 43 14 1F 9E 4B A2 89 A9 E8 26 7E C1",
+  "cert_issuer": "Common Name: Luigi Capuzzello, Organizational Unit: Sygest s.r.l., Organization: Sygest s.r.l., Locality: Lemignano di Collecchio, State/Province: PR, Country: IT",
+  "urls": [],
+  "ip_addresses": [
+    "127.0.0.1"
+  ],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

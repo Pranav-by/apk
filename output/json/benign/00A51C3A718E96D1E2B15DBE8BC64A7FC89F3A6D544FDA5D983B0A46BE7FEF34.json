@@ -1,0 +1,57 @@
+{
+  "sha256": "00A51C3A718E96D1E2B15DBE8BC64A7FC89F3A6D544FDA5D983B0A46BE7FEF34",
+  "filename": "00A51C3A718E96D1E2B15DBE8BC64A7FC89F3A6D544FDA5D983B0A46BE7FEF34.apk",
+  "android_version": "Android14",
+  "label": "benign",
+  "package_name": "com.ionicframework.legalisapp05868279",
+  "version_name": "3.0.57",
+  "version_code": "30057",
+  "min_sdk": "22",
+  "target_sdk": "34",
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_MEDIA_VIDEO",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.ionicframework.legalisapp05868279.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permission_count": 7,
+  "activities": [
+    "com.ionicframework.legalisapp05868279.MainActivity"
+  ],
+  "activity_count": 1,
+  "services": [],
+  "service_count": 0,
+  "receivers": [
+    "nl.xservices.plugins.ShareChooserPendingIntent"
+  ],
+  "receiver_count": 1,
+  "providers": [
+    "androidx.startup.InitializationProvider",
+    "nl.xservices.plugins.FileProvider",
+    "io.github.pwlin.cordova.plugins.fileopener2.FileProvider",
+    "org.apache.cordova.camera.FileProvider",
+    "androidx.core.content.FileProvider"
+  ],
+  "provider_count": 5,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 2,
+  "class_count": 4984,
+  "method_count": 35435,
+  "cert_fingerprint": "35 5B FB B8 3E F6 A8 A8 14 82 F2 0C 11 02 31 FA C5 72 19 7A 0F 41 E6 C6 DA 10 AA EB 01 8B 15 F4",
+  "cert_issuer": "Common Name: consensus, Organizational Unit: consensus, Organization: consensus, Locality: manizales, State/Province: caldas, Country: CO",
+  "urls": [],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 1,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

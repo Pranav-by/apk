@@ -1,0 +1,58 @@
+{
+  "sha256": "00AA396BDAB4BDA0E038BED7914E51855E129F61465DA8973E27DF7FB82DC7AE",
+  "filename": "00AA396BDAB4BDA0E038BED7914E51855E129F61465DA8973E27DF7FB82DC7AE.apk",
+  "android_version": "Android15",
+  "label": "benign",
+  "package_name": "org.mysty.mellstroy",
+  "version_name": "1.4.1",
+  "version_code": "17",
+  "min_sdk": "15",
+  "target_sdk": "35",
+  "permissions": [
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 1,
+  "activities": [
+    "com.ansca.corona.CameraActivity",
+    "com.ansca.corona.VideoActivity",
+    "com.ansca.corona.purchasing.StoreActivity",
+    "com.ansca.corona.notifications.OnNotificationReceiverActivity",
+    "com.ansca.corona.CoronaActivity"
+  ],
+  "activity_count": 5,
+  "services": [
+    "com.ansca.corona.CoronaService"
+  ],
+  "service_count": 1,
+  "receivers": [
+    "com.ansca.corona.notifications.AlarmManagerBroadcastReceiver",
+    "com.ansca.corona.notifications.StatusBarBroadcastReceiver",
+    "com.ansca.corona.SystemStartupBroadcastReceiver"
+  ],
+  "receiver_count": 3,
+  "providers": [
+    "com.ansca.corona.storage.FileContentProvider",
+    "com.ansca.corona.camera.FileProvider"
+  ],
+  "provider_count": 2,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 677,
+  "method_count": 4170,
+  "cert_fingerprint": "CC E2 D6 24 01 7E AC 18 93 C4 60 7F DC DC E1 EE 15 06 56 AE 13 A9 5A 0A 8F 8C 08 5B 06 F3 AE 9F",
+  "cert_issuer": "Common Name: Mysty, Organizational Unit: Mysty, Organization: Mysty, Locality: int 21h, State/Province: 8086 asm, Country: AA",
+  "urls": [
+    "https://github.com/coronalabs/corona"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 1,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

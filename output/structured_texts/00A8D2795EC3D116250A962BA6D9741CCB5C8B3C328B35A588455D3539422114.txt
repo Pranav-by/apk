@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.mapgears.oftr
+  SHA-256       : 00A8D2795EC3D116250A962BA6D9741CCB5C8B3C328B35A588455D3539422114
+  Android Group : Android12
+  Version       : 2.2.3 (code: 21)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 31
+
+[Permissions (22)]
+  android.permission.FOREGROUND_SERVICE, android.permission.ACCESS_BACKGROUND_LOCATION, com.google.android.c2dm.permission.RECEIVE, android.permission.ACCESS_COARSE_LOCATION, android.permission.READ_CONTACTS, android.permission.BLUETOOTH, android.permission.SCHEDULE_EXACT_ALARM, android.permission.ACCESS_WIFI_STATE, com.mapgears.oftr.permission.C2D_MESSAGE, com.android.vending.CHECK_LICENSE, android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.CAMERA, android.permission.INTERNET, android.permission.READ_EXTERNAL_STORAGE, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED, com.google.android.gms.permission.AD_ID, android.permission.WRITE_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (70): com.mapgears.oftr.activity.map.MapActivity, com.mapgears.oftr.engine.barcodeScanner.BarcodeScannerActivity, com.mapgears.oftr.application.map.NewMapActivity, com.facebook.CustomTabActivity, com.mapgears.oftr.activity.map.MapObjectDetailActivity, com.mapgears.oftr.application.admin.MapAdminActivity, com.mapgears.oftr.activity.AboutActivity, com.veinhorn.scrollgalleryview.VideoPlayerActivity, com.mapgears.oftr.activity.bundlelist.update.MapBundleUpdateActivity, com.mapgears.oftr.application.generic.GenericDetailActivity, com.mapgears.oftr.activity.accesscode.AccessCodeListActivity, com.mapgears.oftr.application.admin.MapObjectStatusTemplateEditActivity, com.mapgears.oftr.activity.accesscode.AddAccessCodeActivity, com.mapgears.oftr.application.admin.MapObjectStatusTemplateAdminActivity, com.mapgears.oftr.application.video.VideoActivity, com.mapgears.oftr.application.message.MessageListActivity, com.mapgears.oftr.activity.DeepLinkingActivity, com.mapgears.oftr.application.authentication.StartupAuthenticationActivity, com.mapgears.oftr.activity.bundlelist.install.MapBundleInstallActivity, com.mapgears.oftr.engine.camera.CameraControlActivity
+  Services   (22): com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.analytics.AnalyticsService, com.amazonaws.mobileconnectors.s3.transferutility.TransferService, com.mapgears.oftr.engine.gps.GeofenceTransitionsIntentService, com.amazonaws.mobile.downloader.service.DownloadService, com.mapgears.oftr.engine.service.MessagingService, com.mapgears.oftr.engine.service.InstanceIdService, com.mapgears.shared.mobile.engine.gps.LocationService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.analytics.AnalyticsJobService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.ads.AdService, com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  Receivers  (17): com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, com.mapgears.oftr.engine.notification.NotificationSystemImpl$LocalNotificationPublisher, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.mapgears.oftr.engine.database.DataSyncSystemImpl$AlarmReceiver, com.google.android.gms.analytics.AnalyticsReceiver, com.mapgears.oftr.engine.gps.GeofenceTransitionsBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.amazonaws.mobile.downloader.service.NetworkStateListener, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver
+  Providers  (9): com.amazonaws.mobile.downloader.query.DownloadQueueProvider, androidx.core.content.FileProvider, com.facebook.FacebookContentProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.facebook.internal.FacebookInitProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 5
+  Total Classes : 43762
+  Total Methods : 280062
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (1): https://developers.facebook.com/docs/sharing/android
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 73 81 3E 8F E7 02 C4 3B DB C1 3E A5 46 3D 24 D2 0D AF 12 58 F9 31 9A A1 2F 2D 24 CF 7B 2B BE 5C
+
+==========================================

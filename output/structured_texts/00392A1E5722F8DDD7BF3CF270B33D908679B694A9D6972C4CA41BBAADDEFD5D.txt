@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.appscourt.easycalculator
+  SHA-256       : 00392A1E5722F8DDD7BF3CF270B33D908679B694A9D6972C4CA41BBAADDEFD5D
+  Android Group : Android12L
+  Version       : 3.3 (code: 23)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (13)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, android.permission.CHANGE_WIFI_STATE
+
+[Application Components]
+  Activities (34): com.journeyapps.barcodescanner.CaptureActivity, com.appscourt.easycalculator.activity.mathfinancetool.GpaCalculatorActivity, com.appscourt.easycalculator.activity.mathfinancetool.RulerActivity, com.appscourt.easycalculator.activity.commontool.QRCodeActivity, com.appscourt.easycalculator.activity.FavouriteSelectionActivity, com.appscourt.easycalculator.activity.commontool.CommonToolActivity, com.appscourt.easycalculator.activity.essentialtool.EasyNotesEditActivity, com.appscourt.easycalculator.activity.soundtool.PianoActivity, com.appscourt.easycalculator.activity.mathfinancetool.ProtractorActivity, com.appscourt.easycalculator.activity.essentialtool.EssentialActivity, com.appscourt.easycalculator.activity.essentialtool.EasyNotesActivity, com.appscourt.easycalculator.activity.commontool.QRCodePrintActivity, com.appscourt.easycalculator.activity.essentialtool.CalculatorHistoryActivity, com.appscourt.easycalculator.activity.datetimetool.TimeZoneAddActivity, com.appscourt.easycalculator.activity.soundtool.SoundToolActivity, com.appscourt.easycalculator.activity.essentialtool.ScreenLightActivity, com.appscourt.easycalculator.activity.datetimetool.WorldClockActivity, com.google.android.gms.ads.AdActivity, com.appscourt.easycalculator.activity.sciencetechtool.ScienceTechToolActivity, com.appscourt.easycalculator.activity.MainActivity
+  Services   (12): com.google.android.gms.measurement.AppMeasurementJobService, com.google.android.gms.measurement.AppMeasurementService, com.appscourt.easycalculator.services.MetronomeService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.appscourt.easycalculator.services.AnalogWallpaperService, com.google.firebase.components.ComponentDiscoveryService, androidx.work.impl.foreground.SystemForegroundService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver
+  Providers  (5): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.facebook.ads.AudienceNetworkContentProvider, com.google.firebase.provider.FirebaseInitProvider, com.google.android.gms.ads.MobileAdsInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 11610
+  Total Methods : 52279
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://firebase.google.com/support/guides/disable-analytics, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest.
+  IP Addresses(1): 6.5.0.0
+
+[Certificate]
+  Issuer      : Organization: Android Development
+  Fingerprint : 01 A0 94 73 DC 9B 43 18 FB B2 1F 71 68 45 C9 5A 40 84 44 67 0A BD AF 29 74 52 1A 3A 85 97 27 A4
+
+==========================================

@@ -1,0 +1,51 @@
+{
+  "sha256": "009BE4A8CD166CA04DCC9CAC2403EA2539F45FBB6164BF7CEE351FAEFD2E5DBC",
+  "filename": "009BE4A8CD166CA04DCC9CAC2403EA2539F45FBB6164BF7CEE351FAEFD2E5DBC.apk",
+  "android_version": "Android12",
+  "label": "malicious",
+  "package_name": "com.frustratedpinkchar.spinelcharactertestfun",
+  "version_name": "9.23.0",
+  "version_code": "9",
+  "min_sdk": "19",
+  "target_sdk": "31",
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.INTERNET"
+  ],
+  "permission_count": 2,
+  "activities": [
+    "com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity",
+    "com.unity3d.player.UnityPlayerActivity",
+    "com.unity3d.services.ads.adunit.AdUnitSoftwareActivity",
+    "com.unity3d.services.ads.adunit.AdUnitActivity",
+    "com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+  ],
+  "activity_count": 5,
+  "services": [],
+  "service_count": 0,
+  "receivers": [],
+  "receiver_count": 0,
+  "providers": [],
+  "provider_count": 0,
+  "intent_actions": [],
+  "intent_categories": [],
+  "intent_count": 0,
+  "dex_count": 1,
+  "class_count": 544,
+  "method_count": 3047,
+  "cert_fingerprint": "8D 5D D7 9C DA 13 42 47 19 C7 00 3D C6 CB 7E 0B A1 C6 67 57 35 57 6E 8F 51 CC 7B DD CC DD 11 FE",
+  "cert_issuer": "Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US",
+  "urls": [
+    "https://config.unityads.unity3d.com/webview/",
+    "https://config.unityads.unitychina.cn/webview/"
+  ],
+  "ip_addresses": [],
+  "api_sms_send": 0,
+  "api_network": 0,
+  "api_crypto": 0,
+  "api_reflection": 0,
+  "api_telephony": 0,
+  "api_dynamic_code": 0,
+  "api_native": 0,
+  "api_file_system": 0
+}

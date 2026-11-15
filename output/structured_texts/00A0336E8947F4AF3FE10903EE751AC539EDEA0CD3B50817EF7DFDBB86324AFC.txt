@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.hdictionary.ha
+  SHA-256       : 00A0336E8947F4AF3FE10903EE751AC539EDEA0CD3B50817EF7DFDBB86324AFC
+  Android Group : Android14
+  Version       : 10.2.6 (code: 1026)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 34
+
+[Permissions (15)]
+  com.google.android.gms.permission.AD_ID, android.permission.ACCESS_ADSERVICES_AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.CAMERA, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.ACCESS_ADSERVICES_TOPICS, android.permission.POST_NOTIFICATIONS, com.android.vending.BILLING, android.permission.ACCESS_ADSERVICES_ATTRIBUTION, android.permission.WAKE_LOCK, com.hdictionary.ha.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.SYSTEM_ALERT_WINDOW, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (11): com.hdictionary.ha.ThemesActivity, com.google.android.gms.common.api.GoogleApiActivity, com.facebook.ads.AudienceNetworkActivity, com.hdictionary.ha.OCRDepActivity, com.android.billingclient.api.ProxyBillingActivity, com.hdictionary.ha.DictionaryActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.google.android.gms.ads.OutOfContextTestingActivity, com.hdictionary.ha.PopupActivity, com.google.android.gms.ads.AdActivity, com.hdictionary.ha.WebViewActivity
+  Services   (11): androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.hdictionary.ha.NotificationAndClipboardService, com.hdictionary.ha.ClipboardService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.hdictionary.ha.FloatingViewAndClipboardService, com.google.android.gms.auth.api.signin.RevocationBoundService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  Providers  (3): com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16811
+  Total Methods : 79824
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (4): https://developers.google.com/admob/android/test-ads#enable_test_devices, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
+  IP Addresses(1): 6.16.0.0
+
+[Certificate]
+  Issuer      : Common Name: shahiduzzaman bappi, Organizational Unit: bappisoft, Organization: bappisoft, Locality: Dhaka, State/Province: Bangladesh, Country: 88
+  Fingerprint : D8 B9 2E 07 0B 71 2A A5 B8 22 29 51 AD CD F4 3A EB 9F 43 CB 34 91 C6 BA 9C 47 F7 E4 75 77 3E 53
+
+==========================================

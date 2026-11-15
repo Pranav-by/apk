@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.abhinavmahajan.app
+  SHA-256       : 00B6F2745466E90DDE678735567585B3243880BE3F7D32ABF914CD7511B5C3A5
+  Android Group : Android16
+  Version       : 3.6.25 (code: 3625)
+
+[SDK Information]
+  Minimum SDK   : 26
+  Target SDK    : 36
+
+[Permissions (27)]
+  android.permission.DOWNLOAD_WITHOUT_NOTIFICATION, android.permission.VIBRATE, android.permission.SCHEDULE_EXACT_ALARM, android.permission.BLUETOOTH_ADMIN, android.permission.CHANGE_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.RECORD_AUDIO, com.android.vending.BILLING, android.permission.ACCESS_WIFI_STATE, com.abhinavmahajan.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, com.google.android.c2dm.permission.RECEIVE, android.permission.CAMERA, android.permission.READ_PHONE_STATE, android.permission.BLUETOOTH_CONNECT, com.google.android.gms.permission.AD_ID, android.permission.READ_EXTERNAL_STORAGE
+
+[Application Components]
+  Activities (88): com.appstreet.fitness.views.cropper.CropImageActivity, com.appstreet.fitness.ui.chat.VideoPlayerActivity, com.appstreet.fitness.chat.ChatActivity, com.appstreet.fitness.ui.planpurchase.CompletePurchaseWebViewActivity, com.appstreet.fitness.club.ClubOsAddCardWebViewActivity, com.appstreet.fitness.explore.ProgramScheduleDetailsActivity, com.appstreet.fitness.explore.ExploreListActivity, com.appstreet.fitness.explore.ExploreSearchActivity, com.appstreet.fitness.explore.MealScheduleDetailsActivity, com.appstreet.fitness.explore.ExploreFavoriteActivity, com.appstreet.fitness.explore.MealPlanDetailsActivity, com.appstreet.fitness.explore.ExploreSelectProgramActivity, com.appstreet.fitness.explore.ExploreActivity, com.appstreet.fitness.reminder.ReminderActivity, com.appstreet.fitness.grocery.GroceryActivity, com.appstreet.fitness.leaderboard.ChallengeLeaderboardActivity, com.appstreet.fitness.leaderboard.ChallengeDetailsActivity, com.appstreet.fitness.nutrition.activities.QuickMacroAddActivity, com.appstreet.fitness.club.ClubOsPaymentActivity, com.appstreet.fitness.club.ClubOsDueHistoryActivity
+  Services   (17): com.google.android.gms.cast.framework.ReconnectionService, live.hms.video.services.HMSScreenCaptureService, androidx.work.impl.background.systemalarm.SystemAlarmService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.firebase.components.ComponentDiscoveryService, androidx.room.MultiInstanceInvalidationService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.messaging.FirebaseMessagingService, androidx.health.platform.client.impl.sdkservice.HealthDataSdkService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.google.android.gms.measurement.AppMeasurementService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.appstreet.fitness.notifications.FitbudFirebaseMessagingService, io.intercom.android.sdk.fcm.IntercomFcmMessengerService
+  Receivers  (22): com.appstreet.fitness.notifications.NotificationReceiver, com.google.android.gms.cast.framework.media.MediaIntentReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, live.hms.video.services.LogAlarmManager, com.appstreet.fitness.chromecast.FitbuddMediaIntentReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.appstreet.fitness.ui.alarm.AppAlarmReceiver, io.intercom.android.sdk.m5.push.ConversationReplyReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, com.appstreet.fitness.ui.device.AppBootCompleteReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, io.intercom.android.sdk.push.IntercomPushBroadcastReceiver
+  Providers  (9): io.sentry.android.core.SentryInitProvider, io.intercom.android.sdk.IntercomInitializeContentProvider, io.sentry.android.core.SentryPerformanceProvider, io.intercom.android.sdk.IntercomFileProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.google.firebase.provider.FirebaseInitProvider, androidx.startup.InitializationProvider, androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 9
+  Total Classes : 71151
+  Total Methods : 462500
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 0C 46 CE 75 92 84 AA 6E F1 F0 3F 1F 17 B2 F5 BB 8B C4 DE AF 4D 0D 14 B9 07 10 D4 F2 D6 91 C9 1C
+
+==========================================

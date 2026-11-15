@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.beyondthereach.ipchanger
+  SHA-256       : 001BF96306F04350A84A34AA60B8AE9D4483DE1DCEFA62AECE1D2B1D0169A2C7
+  Android Group : Android12L
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 15
+  Target SDK    : 32
+
+[Permissions (5)]
+  android.permission.WRITE_SETTINGS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.CHANGE_NETWORK_STATE, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (2): com.google.android.gms.ads.AdActivity, com.mnbit.android.ipchangerhistory.MainActivity
+  Services   (0): none
+  Receivers  (0): none
+  Providers  (0): none
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 2424
+  Total Methods : 17041
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (1): http://goo.gl/naFqQk
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : FF 60 B3 59 1A E7 FD D4 54 A4 77 05 E7 EE 5A 0C F7 43 62 4B 3B EE FF D6 54 C3 F4 97 05 BB 09 D3
+
+==========================================

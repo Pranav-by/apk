@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.king.world.remax.sports
+  SHA-256       : 005DF3A9170C74CF086E4A33C3A2C1C2D886F47BB4F890675DD38EC7EFA7A4EB
+  Android Group : Android13
+  Version       : 1.1.1 (code: 11)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 33
+
+[Permissions (36)]
+  android.permission.VIBRATE, com.redbend.permission.EVENT_INTENT, android.permission.ANSWER_PHONE_CALLS, android.permission.BLUETOOTH_ADVERTISE, android.permission.BLUETOOTH_ADMIN, android.permission.GET_TASKS, android.permission.READ_CALL_LOG, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.ACCESS_WIFI_STATE, android.permission.SYSTEM_ALERT_WINDOW, android.permission.READ_CONTACTS, android.permission.ACCESS_FINE_LOCATION, com.google.android.c2dm.permission.RECEIVE
+
+[Application Components]
+  Activities (70): com.king.world.remax.sports.ui.activity.ClockActivity, com.facebook.CustomTabMainActivity, com.king.world.remax.sports.ui.activity.ForgetPasswordActivity, com.mtk.main.MainActivity, com.king.world.remax.sports.ui.activity.VerificationCodeActivity, com.king.world.remax.sports.ui.activity.MyCaptrueActivity, com.mtk.app.applist.AppAuthActivity, com.king.world.remax.sports.ui.activity.DeviceScanActivity, com.king.world.remax.sports.ui.activity.PermissionsActivity, com.king.world.remax.sports.ui.activity.DeviceScanActivityNew, com.king.world.remax.sports.ui.activity.ConnectHelpActivity, com.king.world.remax.sports.libs.kct.DeviceScanActivity, com.king.world.remax.sports.ui.activity.SplashActivity, com.king.world.remax.sports.ui.activity.DeviceSwitchActivity, com.king.world.remax.sports.ui.activity.HeartRateMonitoringActivity, com.king.world.remax.sports.ui.activity.MainActivity, com.king.world.remax.sports.ui.activity.SportsListActivity, com.king.world.remax.sports.ui.activity.ClockSettingActivity, com.king.world.remax.sports.ui.activity.UserGuideActivity, com.king.world.remax.sports.ui.activity.TrackDetailsActivity
+  Services   (12): com.kct.bluetooth.KCTDFUService, com.king.world.remax.sports.libs.kct.KCTBluetoothService, com.king.world.remax.sports.service.LocalService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.mtk.main.MainService, com.mediatek.camera.service.MtkCameraAPService, com.xdandroid.hellodaemon.WatchDogService$WatchDogNotificationService, com.mtk.app.notification.NotificationReceiver1818, com.xdandroid.hellodaemon.AbsWorkService$WorkNotificationService, com.xdandroid.hellodaemon.WatchDogService, com.amap.api.location.APSService, com.xdandroid.hellodaemon.JobSchedulerService
+  Receivers  (5): com.king.world.remax.sports.receiver.CallPhoneReceiver, com.xdandroid.hellodaemon.WakeUpReceiver, com.xdandroid.hellodaemon.WakeUpReceiver$WakeUpAutoStartReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+  Providers  (3): androidx.core.content.FileProvider, com.facebook.internal.FacebookInitProvider, com.facebook.FacebookContentProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 17595
+  Total Methods : 120940
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (3): https://lbs.amap.com/api/android-location-sdk/guide/utilities/errorcode/查看错误码说明, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://developers.facebook.com/docs/sharing/android
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: kingworld, Organizational Unit: kingwolrd, Organization: wl, Locality: sz, State/Province: gd, Country: 86
+  Fingerprint : A6 0A FE E7 01 81 12 56 FA C7 E2 82 48 52 C1 AE BB 28 E4 CA 8A 0A 09 A0 96 E6 18 14 CE 41 E6 5A
+
+==========================================

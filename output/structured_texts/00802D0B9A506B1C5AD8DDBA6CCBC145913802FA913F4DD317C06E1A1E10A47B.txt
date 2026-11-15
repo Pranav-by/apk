@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.faloo.BookReader4Android
+  SHA-256       : 00802D0B9A506B1C5AD8DDBA6CCBC145913802FA913F4DD317C06E1A1E10A47B
+  Android Group : Android14
+  Version       : 7.1.8.0 (code: 3180)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 34
+
+[Permissions (166)]
+  com.faloo.BookReader4Android.permission.PUSH_PROVIDER, com.tencent.qqlauncher.permission.WRITE_SETTINGS, android.permission.SCHEDULE_EXACT_ALARM, com.ztemt.launcher.permission.READ_SETTINGS, com.gau.go.launcherex.permission.READ_SETTINGS, com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE, android.permission.CHANGE_WIFI_STATE, com.jui.launcher3.permission.READ_SETTINGS, com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE, com.modaco.android.launchergb.permission.WRITE_SETTINGS, com.faloo.BookReader4Android.permission.C2D_MESSAGE, net.qihoo.launcher.permission.WRITE_SETTINGS, com.iLoong.permission.READ_SETTINGS, com.ty.launcher.permission.WRITE_SETTINGS, com.huawei.android.launcher.permission.WRITE_SETTINGS, com.htc.launcher.permission.WRITE_SETTINGS, com.motorola.dlauncher.permission.WRITE_SETTINGS, org.adw.launcher_donut.permission.WRITE_SETTINGS, oplus.permission.settings.LAUNCH_FOR_EXPORT, com.thunderst.launcher.permission.WRITE_SETTINGS
+
+[Application Components]
+  Activities (197): com.faloo.view.activity.LikeBookClassActivity, com.faloo.view.activity.KindChartActivity, com.faloo.view.activity.LikeRankActivity, com.faloo.view.activity.SetKeywordActivity, com.faloo.view.activity.TeenActivity, com.faloo.view.activity.SearchResultActivity, com.faloo.view.activity.TeenDetailActivity, com.sahooz.countrypicker.PickActivity, com.faloo.view.activity.TeenPwdActivity, com.faloo.view.activity.SetPasswordActivity, com.faloo.view.activity.ShareActivity, com.faloo.view.activity.SuccessActivity, com.faloo.view.activity.MedalActivity, com.faloo.view.activity.SubRecordActivity, com.faloo.view.activity.RestartActivity, com.faloo.view.activity.InviteFriendsSubActivity, com.faloo.view.activity.RechargeSettingActivity, com.faloo.view.activity.RewardDetailActivity, com.faloo.view.activity.CrashActivity, com.faloo.view.activity.CenterOfActivity
+  Services   (28): com.heytap.msp.push.service.DataMessageCallbackService, com.xiaomi.mipush.sdk.PushMessageHandler, com.vivo.push.sdk.service.CommandClientService, com.readystatesoftware.chuck.internal.support.ClearTransactionsService, com.kwai.koom.javaoom.monitor.analysis.HeapAnalysisService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.faloo.service.HuYan.HuYanModelService, com.google.mlkit.common.internal.MlKitComponentDiscoveryService, com.faloo.service.FalooPlayerService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.faloo.service.readService.ReadPlayerService, com.yaoxiaowen.download.service.DownloadService, com.huawei.hms.support.api.push.service.HmsMsgService, com.mob.MobACService, com.mob.id.MobIDService, com.faloo.service.download.DownloadMP3Service, com.mob.guard.MobGuardPullUpService, com.faloo.service.jpush.component.UserService, com.huawei.agconnect.core.ServiceDiscovery
+  Receivers  (12): com.engagelab.privates.push.platform.vivo.callback.MTVivoCallback, com.xiaomi.push.service.receivers.PingReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.engagelab.privates.push.platform.mi.callback.MTMiCallback, com.engagelab.privates.push.platform.meizu.callback.MTMeizuCallback, com.faloo.service.NetworkChangedReceiver, com.meizu.cloud.pushsdk.MzPushSystemReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.faloo.service.download.DownloadReceiver, com.faloo.receiver.EarPhoneReceiver, com.faloo.service.jpush.component.UserReceiver, com.huawei.hms.support.api.push.PushReceiver
+  Providers  (11): com.readystatesoftware.chuck.internal.data.ChuckContentProvider, com.mob.MobProvider, androidx.core.content.FileProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.google.mlkit.common.internal.MlKitInitProvider, com.bytedance.sdk.openadsdk.TTFileProvider, androidx.startup.InitializationProvider, com.huawei.hms.support.api.push.PushProvider, com.bytedance.sdk.openadsdk.multipro.TTMultiProvider, com.engagelab.privates.common.component.MTCommonProvider, com.huawei.hms.aaid.InitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 4
+  Total Classes : 123
+  Total Methods : 530
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(1): 4.6.4.7
+
+[Certificate]
+  Issuer      : Common Name: 飞卢, Organizational Unit: 北京腾飞克, Organization: 飞卢小说, Locality: 北京, State/Province: 北京, Country: CN
+  Fingerprint : 02 7A 92 0E 17 2A 1C B1 A9 D3 5A 09 E0 D2 53 4A 49 40 DC 99 6D A5 76 03 57 CE 79 6B 1E 33 27 44
+
+==========================================

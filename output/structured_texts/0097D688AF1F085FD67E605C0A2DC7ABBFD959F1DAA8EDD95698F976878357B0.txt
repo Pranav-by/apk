@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : za.co.nimbussolutions
+  SHA-256       : 0097D688AF1F085FD67E605C0A2DC7ABBFD959F1DAA8EDD95698F976878357B0
+  Android Group : Android12
+  Version       : 7.1.83 (code: 202203011)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 31
+
+[Permissions (40)]
+  com.honeywell.decode.permission.DECODE, android.permission.VIBRATE, android.permission.READ_LOGS, android.permission.STORAGE, android.permission.USE_BIOMETRIC, com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA, android.permission.BLUETOOTH_ADMIN, za.co.nimbussolutions.permission.PUSH_PROVIDER, android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.INTERNET, android.permission.WRITE_CALENDAR, android.permission.FOREGROUND_SERVICE, android.permission.READ_CALENDAR, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.BLUETOOTH, android.permission.GET_ACCOUNTS, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.RECORD_AUDIO
+
+[Application Components]
+  Activities (80): com.openitemapp.accesscontrol.modules.booking.channels.deliveries.DeliveriesAndCollectionsActivity, com.openitemapp.openitemsdk.GenericSelectionActivity, com.huawei.updatesdk.service.otaupdate.AppUpdateActivity, com.openitemapp.openitemsdk.OpenItemFragmentActivity, com.huawei.hms.activity.EnableServiceActivity, com.openitemapp.openitemsdk.modules.ble.AccessOpenBLEGateActivity, com.wyobi.openitem_facial_enrollment_sdk.EnrollmentActivity, com.openitemapp.accesscontrol.modules.booking.channels.advanced.AdvancedBookingActivity, com.openitemapp.openitemsdk.workitemlist.VoiceClearanceActivity, com.openitemapp.openitemsdk.workitemlist.DrawActivity, com.openitemapp.openitemsdk.workitemlist.AccessTransactionDifferenceActivity, com.openitem.zebra.sdk.ZebraBarcodeTestActivity, com.huawei.updatesdk.support.pm.PackageInstallerActivity, com.google.android.play.core.common.PlayCoreDialogWrapperActivity, com.huawei.hms.activity.BridgeActivity, com.openitemapp.openitemsdk.workitemlist.LoadDocumentBoxes, com.openitemapp.openitemsdk.workitemlist.DeliveriesRealmSelectionActivity, com.openitemapp.openitemsdk.workitemlist.AccessTransactionActivity, com.openitemapp.openitemsdk.helpers.wyobiid.id.LicenseActivity, za.co.exid.exidlicense.ExIdLicenseStartupActivity
+  Services   (23): com.openitemapp.openitemsdk.services.LinphoneService, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.analytics.AnalyticsService, com.huawei.location.lite.common.http.HttpService, com.openitemapp.openitemsdk.ivr.TService, com.google.android.gms.analytics.AnalyticsJobService, com.openitemapp.openitemsdk.helpers.scanners.ScannerService, com.google.firebase.components.ComponentDiscoveryService, kernal.idcard.android.AuthService, kernal.idcard.android.RecogService, com.google.android.gms.measurement.AppMeasurementService, com.google.firebase.messaging.FirebaseMessagingService, com.google.android.gms.measurement.AppMeasurementJobService, kernal.idcard.android.TimeService, com.openitemapp.openitemsdk.ivr.RecordingService, com.google.android.play.core.assetpacks.AssetPackExtractionService, com.google.android.play.core.assetpacks.ExtractionForegroundService, com.huawei.hms.support.api.push.service.HmsMsgService, com.openitemapp.accesscontrol.services.PushNotificationService, com.huawei.agconnect.core.ServiceDiscovery
+  Receivers  (9): com.openitemapp.accesscontrol.modules.remote.recievers.GeofenceBroadcastReceiver, com.google.firebase.iid.FirebaseInstanceIdReceiver, com.huawei.hms.support.api.push.PushMsgReceiver, com.huawei.hms.support.api.push.PushReceiver, com.google.android.gms.analytics.AnalyticsReceiver, kernal.idcard.android.DataChangeReceiver, com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  Providers  (15): androidx.lifecycle.ProcessLifecycleOwnerInitializer, com.huawei.hms.aaid.InitProvider, com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider, com.google.firebase.perf.provider.FirebasePerfProvider, com.huawei.hms.device.provider.CheckHmsProvider, com.huawei.agconnect.core.provider.AGConnectInitializeProvider, com.squareup.picasso.PicassoProvider, com.huawei.hms.update.provider.UpdateProvider, com.kernal.passport.sdk.utils.OCRFileProvider, com.openitemapp.openitemsdk.helpers.contentproviders.PhotoProvider, com.huawei.hms.support.api.push.PushProvider, com.google.firebase.provider.FirebaseInitProvider, com.huawei.hms.analytics.provider.AnalyticsInitializeProvider, com.openitemapp.openitemsdk.config.OpenItemFileProvider, com.google.mlkit.common.internal.MlKitInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 6
+  Total Classes : 43308
+  Total Methods : 296039
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (3): https://realm.io/docs/java/latest/#rxjava, https://issuetracker.google.com/issues/36918154, https://liccorebackup.openitemapp.com/
+  IP Addresses(3): 127.0.0.1, 192.168.0.5, 255.255.255.255
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : BC ED 2D E6 00 A7 94 C1 77 4E A5 CE D0 17 FE D2 76 52 6A 74 8C 54 8C BB A3 E6 61 82 3C DB E1 C3
+
+==========================================

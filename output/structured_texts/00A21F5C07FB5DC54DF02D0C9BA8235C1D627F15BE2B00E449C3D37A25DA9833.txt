@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : blood.pressure.tracker.bp.monitor
+  SHA-256       : 00A21F5C07FB5DC54DF02D0C9BA8235C1D627F15BE2B00E449C3D37A25DA9833
+  Android Group : Android12
+  Version       : 1.0.27 (code: 27)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 31
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.READ_PHONE_STATE, android.permission.VIBRATE, android.permission.INTERNET, android.permission.WAKE_LOCK, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE, com.android.vending.BILLING, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (22): com.riafy.healthtracker.ui.onboarding.v1.MainActivity, com.riafy.healthtracker.ui.ui_diabetestracker.NewRecordActivityBsc, com.riafy.healthtracker.ui.tracker.AllRecordsActivity, com.riafy.healthtracker.ui.ui_bmitracker.AllRecordsActivity, com.google.android.gms.auth.api.signin.internal.SignInHubActivity, com.riafy.healthtracker.ui.onboarding.v1.PrivacyAndTerms, com.google.firebase.auth.internal.RecaptchaActivity, com.riafy.healthtracker.ui.activities.stories.StoriesActivity, com.riafy.healthtracker.ui.ui_heartratemonitor.NewRecordActivityHRM, com.google.firebase.auth.internal.GenericIdpActivity, com.riafy.healthtracker.ui.activities.ArticleListsPage, com.android.billingclient.api.ProxyBillingActivity, com.riafy.healthtracker.ui.activities.FavoritesVideosActivity, com.riafy.healthtracker.ui.activities.SingleArticleView, com.riafy.healthtracker.ui.ui_bmitracker.BMINewRecordActivity, com.google.android.gms.common.api.GoogleApiActivity, com.riafy.healthtracker.ui.HomeActivity, com.riafy.healthtracker.ui.ui_heartratemonitor.AllRecordsHRMActivity, com.riafy.healthtracker.ui.tracker.NewRecordActivity, com.riafy.healthtracker.ui.activities.VideoPlayerActivity
+  Services   (10): androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService, com.google.android.gms.measurement.AppMeasurementJobService, androidx.work.impl.foreground.SystemForegroundService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, androidx.room.MultiInstanceInvalidationService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, com.google.android.gms.measurement.AppMeasurementService
+  Receivers  (10): androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.google.android.gms.measurement.AppMeasurementReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  Providers  (3): androidx.core.content.FileProvider, androidx.startup.InitializationProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 16209
+  Total Methods : 103719
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (2): https://firebase.google.com/support/guides/disable-analytics, https://issuetracker.google.com/issues/new?component=413107&template=1096568
+  IP Addresses(1): 127.0.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : E5 83 B9 D1 5B CD 76 6A 13 3F 04 B0 8C 9D 47 C2 7F 76 A0 C6 41 CD DC FE 89 D2 5D C6 BD BC 3D 0F
+
+==========================================

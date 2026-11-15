@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp
+  SHA-256       : 00A18D6941A9BAE905A5C6BA8792133F369F6090ADF2B53EE3B6D90471D3C4E5
+  Android Group : Android12L
+  Version       : 1.0 (code: 1)
+
+[SDK Information]
+  Minimum SDK   : 19
+  Target SDK    : 32
+
+[Permissions (10)]
+  com.google.android.gms.permission.AD_ID, android.permission.FOREGROUND_SERVICE, android.permission.INTERNET, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK, android.gms.permission.ACTIVITY_RECOGNITION, android.permission.GET_TASKS, android.permission.CHANGE_WIFI_MULTICAST_STATE, android.permission.ACCESS_NETWORK_STATE, android.permission.RECEIVE_BOOT_COMPLETED
+
+[Application Components]
+  Activities (19): com.google.android.gms.common.api.GoogleApiActivity, com.facebook.ads.AudienceNetworkActivity, com.anythink.basead.ui.AdPortraitActivity, com.google.android.gms.ads.AdActivity, com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp.DetailsActivity, com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp.SecondActivity, com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp.StartActivity, com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp.SplashActivity, com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp.QurekaActivity, com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp.MainActivity, com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp.ThankYouActivity, com.anythink.basead.ui.AdLandscapeTranslucentActivity, com.freefirefftoolsgarenagames.newfreefiremaxfftooldapp.adsdk.ADS_Activity, com.anythink.basead.ui.AdLandscapeActivity, com.anythink.basead.ui.AdPortraitTranslucentActivity, com.anythink.basead.ui.RewardExitConfirmDialogActivity, com.anythink.core.activity.AnyThinkGdprAuthActivity, com.anythink.expressad.reward.player.ATRewardVideoActivity, com.anythink.basead.ui.web.WebLandPageActivity
+  Services   (5): androidx.work.impl.background.systemjob.SystemJobService, androidx.work.impl.foreground.SystemForegroundService, androidx.room.MultiInstanceInvalidationService, com.google.android.gms.ads.AdService, androidx.work.impl.background.systemalarm.SystemAlarmService
+  Receivers  (8): androidx.work.impl.background.systemalarm.RescheduleReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, androidx.work.impl.diagnostics.DiagnosticsReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  Providers  (3): com.facebook.ads.AudienceNetworkContentProvider, com.google.android.gms.ads.MobileAdsInitProvider, androidx.startup.InitializationProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 1
+  Total Classes : 9564
+  Total Methods : 45273
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (10): http://whatwg.org/html/common-microsyntaxes.html#space-character, https://goo.gl/J1sWQy, https://gist.github.com/atk/1020396, http://whatwg.org/html/webappapis.html#dom-windowbase64-btoa, http://whatwg.org/html/webappapis.html#dom-windowbase64-atob, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., http://whatwg.org/C#alphanumeric-ascii-characters, https://developers.google.com/admob/android/test-ads#enable_test_devices
+  IP Addresses(2): 10.0.0.172, 10.0.0.200
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 4C 1B C6 D3 36 CA 15 D2 5B 4F 19 37 E3 90 A8 8B 6E F3 70 2B 68 81 A6 8A 47 6F 22 78 EF 6E 7E 04
+
+==========================================

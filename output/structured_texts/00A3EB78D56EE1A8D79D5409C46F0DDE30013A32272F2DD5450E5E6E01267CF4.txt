@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.sherif.tau
+  SHA-256       : 00A3EB78D56EE1A8D79D5409C46F0DDE30013A32272F2DD5450E5E6E01267CF4
+  Android Group : Android12L
+  Version       : 4.0 (code: 20)
+
+[SDK Information]
+  Minimum SDK   : 21
+  Target SDK    : 32
+
+[Permissions (32)]
+  android.permission.RECORD_AUDIO, android.permission.FOREGROUND_SERVICE, android.permission.VIBRATE, com.anddoes.launcher.permission.UPDATE_COUNT, android.permission.POST_NOTIFICATIONS, me.everything.badger.permission.BADGE_COUNT_READ, com.sherif.tau.permission.C2D_MESSAGE, com.google.android.c2dm.permission.RECEIVE, com.sec.android.provider.badge.permission.WRITE, com.huawei.android.launcher.permission.WRITE_SETTINGS, android.permission.READ_PHONE_STATE, android.permission.ACCESS_WIFI_STATE, com.sec.android.provider.badge.permission.READ, com.sonyericsson.home.permission.BROADCAST_BADGE, com.huawei.android.launcher.permission.READ_SETTINGS, android.permission.INTERNET, com.huawei.android.launcher.permission.CHANGE_BADGE, android.permission.READ_EXTERNAL_STORAGE, com.htc.launcher.permission.READ_SETTINGS, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+
+[Application Components]
+  Activities (103): com.sherif.tau.sdkoffers.unityads, com.sherif.tau.helper.PopupPreQuiz, com.sherif.tau.sdkoffers.adcolony, com.sherif.tau.helper.PopupAr, com.ironsource.sdk.controller.ControllerActivity, com.sherif.tau.helper.PopupNotif, com.sherif.tau.helper.PushMsg, com.sherif.tau.offers.APIOffers, com.sherif.tau.helper.GlobalMsg, com.sherif.tau.offers.Yt, org.mintsoft.mintlib.HtmlGame, com.sherif.tau.games.GameList, com.sherif.tau.sdkoffers.admob, com.sherif.tau.games.Scratcher, com.sherif.tau.sdkoffers.applovin, com.sherif.tau.sdkoffers.ayetstudios, com.sherif.tau.games.ScratcherCat, com.sherif.tau.sdkoffers.chartboost, com.sherif.tau.games.LottoHistory, com.sherif.tau.sdkoffers.fyber
+  Services   (19): androidx.work.impl.foreground.SystemForegroundService, com.google.android.datatransport.runtime.backends.TransportBackendDiscovery, com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService, androidx.room.MultiInstanceInvalidationService, com.applovin.impl.adview.activity.FullscreenAdService, com.sherif.tau.helper.NService, com.onesignal.HmsMessageServiceOneSignal, com.onesignal.FCMIntentService, com.onesignal.FCMIntentJobService, com.onesignal.SyncService, com.onesignal.SyncJobService, com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService, com.google.firebase.components.ComponentDiscoveryService, com.google.android.gms.auth.api.signin.RevocationBoundService, com.applovin.impl.sdk.utils.AppKilledService, com.google.android.gms.ads.AdService, com.google.firebase.messaging.FirebaseMessagingService, androidx.work.impl.background.systemalarm.SystemAlarmService, androidx.work.impl.background.systemjob.SystemJobService
+  Receivers  (18): com.google.firebase.iid.FirebaseInstanceIdReceiver, androidx.work.impl.background.systemalarm.RescheduleReceiver, com.offertoro.sdk.sdk.OfferToroReceiver, com.facebook.CurrentAccessTokenExpirationBroadcastReceiver, com.tapjoy.TapjoyReceiver, com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver, androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver, com.onesignal.FCMBroadcastReceiver, androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver, com.onesignal.NotificationDismissReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy, androidx.work.impl.diagnostics.DiagnosticsReceiver, com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver, com.onesignal.BootUpReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy, com.onesignal.UpgradeReceiver, androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy, androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  Providers  (9): com.ironsource.lifecycle.IronsourceLifecycleProvider, com.vungle.warren.utility.VungleProvider, com.squareup.picasso.PicassoProvider, com.google.android.gms.ads.MobileAdsInitProvider, com.applovin.sdk.AppLovinInitProvider, com.facebook.ads.AudienceNetworkContentProvider, androidx.startup.InitializationProvider, com.facebook.internal.FacebookInitProvider, com.google.firebase.provider.FirebaseInitProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 19452
+  Total Methods : 93374
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (7): https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988, https://googlemobileadssdk.page.link/admob-android-update-manifest, https://developers.facebook.com/docs/android/getting-started#add-app_id, https://exoplayer.dev/issues/cleartext-not-permitted, https://googlemobileadssdk.page.link/ad-manager-android-update-manifest., https://monetization-support.applovin.com/hc/en-us/articles/236114328-How-can-I-expose-verbose-logging-for-the-SDK, http://chartboo.st/publishing
+  IP Addresses(10): 20.5.0.5, 12.10.0.1, 127.0.0.1, 4.6.5.0, 8.3.1.0, 4.2.1.0, 6.8.0.7, 20.5.0.7, 7.2.2.1, 6.11.0.1
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : 66 7B E7 1F AE EB 0B 5D 08 19 43 AB 04 12 BD F9 85 A6 18 7D 18 16 2E 31 6B 38 B3 D4 32 67 EE E5
+
+==========================================

@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.tim
+  SHA-256       : 00A505F9BD8E34041A8A4951D88116CA72BC5BABD231BE530C5CFA52E0C8DE6A
+  Android Group : Android15
+  Version       : 3.3.13 (code: 314)
+
+[SDK Information]
+  Minimum SDK   : 23
+  Target SDK    : 35
+
+[Permissions (15)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.RECORD_VIDEO, android.permission.ACCESS_NETWORK_STATE, android.permission.POST_NOTIFICATIONS, android.permission.INTERNET, com.tim.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.FOREGROUND_SERVICE, android.permission.FLASHLIGHT, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.CAMERA, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.WAKE_LOCK, android.permission.READ_MEDIA_VISUAL_USER_SELECTED, android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE
+
+[Application Components]
+  Activities (3): crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity, crc64ba438d8f48cf7e75.IntermediateActivity, crc6462d4dee8ff6ad5f4.MainActivity
+  Services   (5): androidx.camera.core.impl.MetadataHolderService, com.tim.DownloadForegroundService, com.tim.UploadForegroundService, crc64381ee7cb8fca8646.DownloadForegroundService, crc64381ee7cb8fca8646.UploadForegroundService
+  Receivers  (4): crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver, crc64e53d2f592022988e.ConnectivityBroadcastReceiver, crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver, androidx.profileinstaller.ProfileInstallReceiver
+  Providers  (6): microsoft.maui.essentials.fileProvider, androidx.startup.InitializationProvider, mono.MonoRuntimeProvider, io.sentry.android.core.SentryInitProvider, androidx.core.content.FileProvider, io.sentry.android.core.SentryPerformanceProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 3
+  Total Classes : 15665
+  Total Methods : 120369
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : YES
+  Cryptography      : YES
+  Java Reflection   : no
+  Telephony Access  : YES
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : YES
+
+[Network Indicators]
+  URLs        (0): none
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Lee Martin, Organizational Unit: The Inventory Manager, Organization: The Inventory Manager Ltd, Locality: Manchester, State/Province: Manchester, Country: GB
+  Fingerprint : 5F 51 DC C7 73 96 7C 97 25 F0 8C 14 07 8C 5F 71 D7 ED DF 4B B4 2F C5 BA FB 9A D9 B8 A1 92 23 0D
+
+==========================================

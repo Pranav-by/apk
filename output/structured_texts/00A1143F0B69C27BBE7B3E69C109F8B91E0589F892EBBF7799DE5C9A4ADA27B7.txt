@@ -1,0 +1,48 @@
+=== Android APK Static Analysis Report ===
+
+[Identity]
+  Package Name  : com.kurtlourens.no_mans_sky_recipes
+  SHA-256       : 00A1143F0B69C27BBE7B3E69C109F8B91E0589F892EBBF7799DE5C9A4ADA27B7
+  Android Group : Android16
+  Version       : 2.32.0 (code: 1756413231)
+
+[SDK Information]
+  Minimum SDK   : 25
+  Target SDK    : 36
+
+[Permissions (12)]
+  android.permission.READ_EXTERNAL_STORAGE, android.permission.POST_NOTIFICATIONS, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK, android.permission.FOREGROUND_SERVICE, com.kurtlourens.no_mans_sky_recipes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION, android.permission.VIBRATE, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.RECEIVE_BOOT_COMPLETED, android.permission.READ_PHONE_STATE, android.permission.WAKE_LOCK
+
+[Application Components]
+  Activities (2): io.flutter.plugins.urllauncher.WebViewActivity, io.flutter.embedding.android.FlutterActivity
+  Services   (2): com.google.android.gms.metadata.ModuleDependencies, com.github.florent37.assets_audio_player.notification.NotificationService
+  Receivers  (6): dev.fluttercommunity.plus.share.SharePlusPendingIntent, androidx.profileinstaller.ProfileInstallReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver, com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver, com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver, com.github.florent37.assets_audio_player.notification.NotificationActionReceiver
+  Providers  (3): dev.fluttercommunity.plus.share.ShareFileProvider, androidx.startup.InitializationProvider, io.flutter.plugins.imagepicker.ImagePickerFileProvider
+
+[Intent Filters]
+  Actions: none
+
+[DEX Analysis]
+  DEX Files     : 2
+  Total Classes : 3738
+  Total Methods : 20259
+
+[Sensitive API Indicators]
+  SMS Send          : no
+  Network Access    : no
+  Cryptography      : no
+  Java Reflection   : no
+  Telephony Access  : no
+  Dynamic Code Load : no
+  Native Code       : no
+  File System Ops   : no
+
+[Network Indicators]
+  URLs        (5): https://issuetracker.google.com/issues/241760537, https://exoplayer.dev/issues/player-accessed-on-wrong-thread, https://exoplayer.dev/issues/cleartext-not-permitted, https://developer.android.com/guide/topics/permissions/overview, https://docs.flutter.dev/deployment/android#what-are-the-supported-target-architectures
+  IP Addresses(0): none
+
+[Certificate]
+  Issuer      : Common Name: Android, Organizational Unit: Android, Organization: Google Inc., Locality: Mountain View, State/Province: California, Country: US
+  Fingerprint : D4 90 81 AB C8 BE 3A E1 8B 82 85 DB 1B 9B 5E 4B 02 E2 53 47 5D 05 DD 3C 94 F2 2B E9 FD 6D 51 79
+
+==========================================
